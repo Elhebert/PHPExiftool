@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SequenceNumber extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:SequenceNumber';
 
-  protected string $id = 'Kodak:SequenceNumber';
+    protected string $name = 'SequenceNumber';
 
-  protected string $name = 'SequenceNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Main
+             * line : 157875
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::Main.Kodak:SequenceNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Main
-       * line : 157875
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::Main.Kodak:SequenceNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

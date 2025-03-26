@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MonoSourceTrackIDs extends AbstractTagGroup
 {
+    protected string $id = 'MXF:MonoSourceTrackIDs';
 
-  protected string $id = 'MXF:MonoSourceTrackIDs';
+    protected string $name = 'MonoSourceTrackIDs';
 
-  protected string $name = 'MonoSourceTrackIDs';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171965
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:MonoSourceTrackIDs',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171965
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:MonoSourceTrackIDs',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

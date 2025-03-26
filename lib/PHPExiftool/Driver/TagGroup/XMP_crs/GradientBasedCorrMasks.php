@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GradientBasedCorrMasks extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:GradientBasedCorrMasks';
 
-  protected string $id = 'XMP-crs:GradientBasedCorrMasks';
+    protected string $name = 'GradientBasedCorrMasks';
 
-  protected string $name = 'GradientBasedCorrMasks';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 402295
+             * type : struct
+             * writable : true
+             * count :
+             * flags : flattened,list,seq
+             */
+            'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMasks',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 402295
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : flattened,list,seq
-       */
-      'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMasks',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

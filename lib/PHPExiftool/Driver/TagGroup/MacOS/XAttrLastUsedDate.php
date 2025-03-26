@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XAttrLastUsedDate extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:XAttrLastUsedDate';
 
-  protected string $id = 'MacOS:XAttrLastUsedDate';
+    protected string $name = 'XAttrLastUsedDate';
 
-  protected string $name = 'XAttrLastUsedDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::XAttr
+             * line : 173116
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::XAttr.MacOS:XAttrLastUsedDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::XAttr
-       * line : 173116
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::XAttr.MacOS:XAttrLastUsedDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

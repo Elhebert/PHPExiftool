@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Duration extends AbstractTagGroup
 {
+    protected string $id = 'M2TS:Duration';
 
-  protected string $id = 'M2TS:Duration';
+    protected string $name = 'Duration';
 
-  protected string $name = 'Duration';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : M2TS::Main
+             * line : 162622
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'M2TS::Main.M2TS:Duration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : M2TS::Main
-       * line : 162622
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'M2TS::Main.M2TS:Duration',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RollAngle extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:RollAngle';
 
-  protected string $id = 'Pentax:RollAngle';
+    protected string $name = 'RollAngle';
 
-  protected string $name = 'RollAngle';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::LevelInfo
+             * line : 294492
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::LevelInfo.Pentax:RollAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::LevelInfo
-       * line : 294492
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::LevelInfo.Pentax:RollAngle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

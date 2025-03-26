@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MDItemFSIsExtensionHidden extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:MDItemFSIsExtensionHidden';
 
-  protected string $id = 'MacOS:MDItemFSIsExtensionHidden';
+    protected string $name = 'MDItemFSIsExtensionHidden';
 
-  protected string $name = 'MDItemFSIsExtensionHidden';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::MDItem
+             * line : 172730
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::MDItem.MacOS:MDItemFSIsExtensionHidden',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::MDItem
-       * line : 172730
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::MDItem.MacOS:MDItemFSIsExtensionHidden',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

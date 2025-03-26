@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SelectorSLValue extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:SelectorSLValue';
 
-  protected string $id = 'DICOM:SelectorSLValue';
+    protected string $name = 'SelectorSLValue';
 
-  protected string $name = 'SelectorSLValue';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 101542
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:SelectorSLValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 101542
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:SelectorSLValue',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

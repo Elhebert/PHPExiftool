@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropRotatedOriginalWidth extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:CropRotatedOriginalWidth';
 
-  protected string $id = 'CanonVRD:CropRotatedOriginalWidth';
+    protected string $name = 'CropRotatedOriginalWidth';
 
-  protected string $name = 'CropRotatedOriginalWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::CropInfo
+             * line : 80178
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::CropInfo.CanonVRD:CropRotatedOriginalWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::CropInfo
-       * line : 80178
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::CropInfo.CanonVRD:CropRotatedOriginalWidth',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

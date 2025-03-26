@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AttenuationCorrectionMethod extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:AttenuationCorrectionMethod';
 
-  protected string $id = 'DICOM:AttenuationCorrectionMethod';
+    protected string $name = 'AttenuationCorrectionMethod';
 
-  protected string $name = 'AttenuationCorrectionMethod';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 100977
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:AttenuationCorrectionMethod',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 100977
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:AttenuationCorrectionMethod',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReleaseMode extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:ReleaseMode';
 
-  protected string $id = 'Nikon:ReleaseMode';
+    protected string $name = 'ReleaseMode';
 
-  protected string $name = 'ReleaseMode';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ShotInfoD4S
+             * line : 206654
+             * type : ?
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::ShotInfoD4S.Nikon:ReleaseMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ShotInfoD4S
-       * line : 206654
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::ShotInfoD4S.Nikon:ReleaseMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

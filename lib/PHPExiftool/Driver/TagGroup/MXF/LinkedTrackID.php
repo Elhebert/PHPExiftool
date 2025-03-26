@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LinkedTrackID extends AbstractTagGroup
 {
+    protected string $id = 'MXF:LinkedTrackID';
 
-  protected string $id = 'MXF:LinkedTrackID';
+    protected string $name = 'LinkedTrackID';
 
-  protected string $name = 'LinkedTrackID';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171445
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:LinkedTrackID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171445
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:LinkedTrackID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

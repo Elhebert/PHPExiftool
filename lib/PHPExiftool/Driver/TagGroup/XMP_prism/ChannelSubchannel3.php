@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChannelSubchannel3 extends AbstractTagGroup
 {
+    protected string $id = 'XMP-prism:ChannelSubchannel3';
 
-  protected string $id = 'XMP-prism:ChannelSubchannel3';
+    protected string $name = 'ChannelSubchannel3';
 
-  protected string $name = 'ChannelSubchannel3';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::prism
+             * line : 410779
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid,flattened,list
+             */
+            'id' => 'XMP::prism.XMP-prism:ChannelSubchannel3',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::prism
-       * line : 410779
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid,flattened,list
-       */
-      'id' => 'XMP::prism.XMP-prism:ChannelSubchannel3',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2113;
-
+    protected int $flags = 2113;
 }

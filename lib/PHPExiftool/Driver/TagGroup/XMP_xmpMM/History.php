@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class History extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpMM:History';
 
-  protected string $id = 'XMP-xmpMM:History';
+    protected string $name = 'History';
 
-  protected string $name = 'History';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpMM
+             * line : 413879
+             * type : struct
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::xmpMM.XMP-xmpMM:History',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpMM
-       * line : 413879
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::xmpMM.XMP-xmpMM:History',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

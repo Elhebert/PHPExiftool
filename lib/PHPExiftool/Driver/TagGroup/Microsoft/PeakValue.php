@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PeakValue extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:PeakValue';
 
-  protected string $id = 'Microsoft:PeakValue';
+    protected string $name = 'PeakValue';
 
-  protected string $name = 'PeakValue';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 174731
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:PeakValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 174731
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:PeakValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 1;
-
+    protected int $flags = 1;
 }

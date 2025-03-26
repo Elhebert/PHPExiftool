@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TagBinary extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:TagBinary';
 
-  protected string $id = 'Matroska:TagBinary';
+    protected string $name = 'TagBinary';
 
-  protected string $name = 'TagBinary';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Main
+             * line : 173500
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'Matroska::Main.Matroska:TagBinary',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Main
-       * line : 173500
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Matroska::Main.Matroska:TagBinary',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

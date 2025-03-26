@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SampleRate extends AbstractTagGroup
 {
+    protected string $id = 'Opus:SampleRate';
 
-  protected string $id = 'Opus:SampleRate';
+    protected string $name = 'SampleRate';
 
-  protected string $name = 'SampleRate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Opus::Header
+             * line : 263745
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Opus::Header.Opus:SampleRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Opus::Header
-       * line : 263745
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Opus::Header.Opus:SampleRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

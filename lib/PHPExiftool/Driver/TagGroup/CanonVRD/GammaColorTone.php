@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GammaColorTone extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:GammaColorTone';
 
-  protected string $id = 'CanonVRD:GammaColorTone';
+    protected string $name = 'GammaColorTone';
 
-  protected string $name = 'GammaColorTone';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::GammaInfo
+             * line : 82001
+             * type : double
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaColorTone',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::GammaInfo
-       * line : 82001
-       * type : double
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaColorTone',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

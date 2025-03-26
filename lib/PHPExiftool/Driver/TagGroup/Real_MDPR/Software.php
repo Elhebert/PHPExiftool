@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Software extends AbstractTagGroup
 {
+    protected string $id = 'Real-MDPR:Software';
 
-  protected string $id = 'Real-MDPR:Software';
+    protected string $name = 'Software';
 
-  protected string $name = 'Software';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::FileInfo
+             * line : 330281
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::FileInfo.Real-MDPR:Software',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::FileInfo
-       * line : 330281
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::FileInfo.Real-MDPR:Software',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

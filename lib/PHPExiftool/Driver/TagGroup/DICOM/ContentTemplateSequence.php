@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContentTemplateSequence extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ContentTemplateSequence';
 
-  protected string $id = 'DICOM:ContentTemplateSequence';
+    protected string $name = 'ContentTemplateSequence';
 
-  protected string $name = 'ContentTemplateSequence';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 100224
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ContentTemplateSequence',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 100224
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ContentTemplateSequence',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

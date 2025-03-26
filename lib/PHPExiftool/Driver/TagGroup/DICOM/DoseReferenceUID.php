@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DoseReferenceUID extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:DoseReferenceUID';
 
-  protected string $id = 'DICOM:DoseReferenceUID';
+    protected string $name = 'DoseReferenceUID';
 
-  protected string $name = 'DoseReferenceUID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 102972
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:DoseReferenceUID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 102972
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:DoseReferenceUID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

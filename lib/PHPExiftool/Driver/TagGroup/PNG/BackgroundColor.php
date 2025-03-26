@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BackgroundColor extends AbstractTagGroup
 {
+    protected string $id = 'PNG:BackgroundColor';
 
-  protected string $id = 'PNG:BackgroundColor';
+    protected string $name = 'BackgroundColor';
 
-  protected string $name = 'BackgroundColor';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::Main
+             * line : 272530
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::Main.PNG:BackgroundColor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::Main
-       * line : 272530
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::Main.PNG:BackgroundColor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

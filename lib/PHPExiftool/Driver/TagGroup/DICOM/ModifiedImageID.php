@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifiedImageID extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ModifiedImageID';
 
-  protected string $id = 'DICOM:ModifiedImageID';
+    protected string $name = 'ModifiedImageID';
 
-  protected string $name = 'ModifiedImageID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98018
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ModifiedImageID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98018
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ModifiedImageID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

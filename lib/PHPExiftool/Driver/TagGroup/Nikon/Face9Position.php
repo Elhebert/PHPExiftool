@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Face9Position extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:Face9Position';
 
-  protected string $id = 'Nikon:Face9Position';
+    protected string $name = 'Face9Position';
 
-  protected string $name = 'Face9Position';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::FaceDetect
+             * line : 192287
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::FaceDetect.Nikon:Face9Position',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::FaceDetect
-       * line : 192287
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::FaceDetect.Nikon:Face9Position',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

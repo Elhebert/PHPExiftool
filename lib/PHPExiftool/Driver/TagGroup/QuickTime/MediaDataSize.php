@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MediaDataSize extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MediaDataSize';
 
-  protected string $id = 'QuickTime:MediaDataSize';
+    protected string $name = 'MediaDataSize';
 
-  protected string $name = 'MediaDataSize';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Main
+             * line : 323798
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Main.QuickTime:MediaDataSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Main
-       * line : 323798
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Main.QuickTime:MediaDataSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

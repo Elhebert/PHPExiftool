@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MagneticTrack extends AbstractTagGroup
 {
+    protected string $id = 'MXF:MagneticTrack';
 
-  protected string $id = 'MXF:MagneticTrack';
+    protected string $name = 'MagneticTrack';
 
-  protected string $name = 'MagneticTrack';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 168018
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:MagneticTrack',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 168018
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:MagneticTrack',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

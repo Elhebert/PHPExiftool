@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IlluminantDetectTable extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:IlluminantDetectTable';
 
-  protected string $id = 'KodakIFD:IlluminantDetectTable';
+    protected string $name = 'IlluminantDetectTable';
 
-  protected string $name = 'IlluminantDetectTable';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155382
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:IlluminantDetectTable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155382
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:IlluminantDetectTable',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 6;
-
+    protected int $flags = 6;
 }

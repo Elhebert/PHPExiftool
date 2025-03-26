@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhitePoint extends AbstractTagGroup
 {
+    protected string $id = 'MIFF:WhitePoint';
 
-  protected string $id = 'MIFF:WhitePoint';
+    protected string $name = 'WhitePoint';
 
-  protected string $name = 'WhitePoint';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIFF::Main
+             * line : 164443
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MIFF::Main.MIFF:WhitePoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIFF::Main
-       * line : 164443
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIFF::Main.MIFF:WhitePoint',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MPEGAudioBitrate extends AbstractTagGroup
 {
+    protected string $id = 'MXF:MPEGAudioBitrate';
 
-  protected string $id = 'MXF:MPEGAudioBitrate';
+    protected string $name = 'MPEGAudioBitrate';
 
-  protected string $name = 'MPEGAudioBitrate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 172258
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:MPEGAudioBitrate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 172258
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:MPEGAudioBitrate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

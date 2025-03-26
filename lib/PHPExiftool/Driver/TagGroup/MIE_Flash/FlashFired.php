@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashFired extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Flash:FlashFired';
 
-  protected string $id = 'MIE-Flash:FlashFired';
+    protected string $name = 'FlashFired';
 
-  protected string $name = 'FlashFired';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Flash
+             * line : 163381
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Flash.MIE-Flash:FlashFired',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Flash
-       * line : 163381
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Flash.MIE-Flash:FlashFired',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

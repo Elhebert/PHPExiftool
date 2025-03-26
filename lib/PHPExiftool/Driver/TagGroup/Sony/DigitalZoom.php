@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DigitalZoom extends AbstractTagGroup
 {
+    protected string $id = 'Sony:DigitalZoom';
 
-  protected string $id = 'Sony:DigitalZoom';
+    protected string $name = 'DigitalZoom';
 
-  protected string $name = 'DigitalZoom';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Tag9400a
+             * line : 384028
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400a.Sony:DigitalZoom',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::Tag9400b
+             * line : 384261
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400b.Sony:DigitalZoom',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Tag9400a
-       * line : 384028
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400a.Sony:DigitalZoom',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::Tag9400b
-       * line : 384261
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400b.Sony:DigitalZoom',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

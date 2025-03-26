@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FilmTestParameter extends AbstractTagGroup
 {
+    protected string $id = 'MXF:FilmTestParameter';
 
-  protected string $id = 'MXF:FilmTestParameter';
+    protected string $name = 'FilmTestParameter';
 
-  protected string $name = 'FilmTestParameter';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 167960
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:FilmTestParameter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 167960
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:FilmTestParameter',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

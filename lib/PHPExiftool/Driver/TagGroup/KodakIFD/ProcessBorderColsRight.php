@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProcessBorderColsRight extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:ProcessBorderColsRight';
 
-  protected string $id = 'KodakIFD:ProcessBorderColsRight';
+    protected string $name = 'ProcessBorderColsRight';
 
-  protected string $name = 'ProcessBorderColsRight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 156050
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:ProcessBorderColsRight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 156050
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:ProcessBorderColsRight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

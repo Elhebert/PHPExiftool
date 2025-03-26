@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InternalFlash extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:InternalFlash';
 
-  protected string $id = 'Minolta:InternalFlash';
+    protected string $name = 'InternalFlash';
 
-  protected string $name = 'InternalFlash';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraSettings
+             * line : 178067
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings.Minolta:InternalFlash',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraSettings
-       * line : 178067
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings.Minolta:InternalFlash',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

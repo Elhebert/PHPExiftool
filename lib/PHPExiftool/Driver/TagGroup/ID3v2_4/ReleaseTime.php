@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReleaseTime extends AbstractTagGroup
 {
+    protected string $id = 'ID3v2_4:ReleaseTime';
 
-  protected string $id = 'ID3v2_4:ReleaseTime';
+    protected string $name = 'ReleaseTime';
 
-  protected string $name = 'ReleaseTime';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v2_4
+             * line : 149393
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_4.ID3v2_4:ReleaseTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v2_4
-       * line : 149393
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_4.ID3v2_4:ReleaseTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

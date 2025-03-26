@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DigitalEffectsType extends AbstractTagGroup
 {
+    protected string $id = 'KodakEffectsIFD:DigitalEffectsType';
 
-  protected string $id = 'KodakEffectsIFD:DigitalEffectsType';
+    protected string $name = 'DigitalEffectsType';
 
-  protected string $name = 'DigitalEffectsType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::SpecialEffects
+             * line : 158580
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Kodak::SpecialEffects.KodakEffectsIFD:DigitalEffectsType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::SpecialEffects
-       * line : 158580
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Kodak::SpecialEffects.KodakEffectsIFD:DigitalEffectsType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

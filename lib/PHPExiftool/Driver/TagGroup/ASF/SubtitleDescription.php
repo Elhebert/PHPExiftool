@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubtitleDescription extends AbstractTagGroup
 {
+    protected string $id = 'ASF:SubtitleDescription';
 
-  protected string $id = 'ASF:SubtitleDescription';
+    protected string $name = 'SubtitleDescription';
 
-  protected string $name = 'SubtitleDescription';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::ExtendedDescr
+             * line : 1590
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ExtendedDescr.ASF:SubtitleDescription',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::ExtendedDescr
-       * line : 1590
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ExtendedDescr.ASF:SubtitleDescription',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

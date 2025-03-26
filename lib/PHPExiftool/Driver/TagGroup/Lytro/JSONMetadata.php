@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JSONMetadata extends AbstractTagGroup
 {
+    protected string $id = 'Lytro:JSONMetadata';
 
-  protected string $id = 'Lytro:JSONMetadata';
+    protected string $name = 'JSONMetadata';
 
-  protected string $name = 'JSONMetadata';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Lytro::Main
+             * line : 162395
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,list
+             */
+            'id' => 'Lytro::Main.Lytro:JSONMetadata',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Lytro::Main
-       * line : 162395
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,list
-       */
-      'id' => 'Lytro::Main.Lytro:JSONMetadata',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 66;
-
+    protected int $flags = 66;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Location extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:Location';
 
-  protected string $id = 'Panasonic:Location';
+    protected string $name = 'Location';
 
-  protected string $name = 'Location';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 277364
+             * type : undef
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:Location',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 277364
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:Location',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

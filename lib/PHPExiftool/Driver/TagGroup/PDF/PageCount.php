@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PageCount extends AbstractTagGroup
 {
+    protected string $id = 'PDF:PageCount';
 
-  protected string $id = 'PDF:PageCount';
+    protected string $name = 'PageCount';
 
-  protected string $name = 'PageCount';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Pages
+             * line : 264316
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::Pages.PDF:PageCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Pages
-       * line : 264316
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::Pages.PDF:PageCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

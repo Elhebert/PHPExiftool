@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class License extends AbstractTagGroup
 {
+    protected string $id = 'Vorbis:License';
 
-  protected string $id = 'Vorbis:License';
+    protected string $name = 'License';
 
-  protected string $name = 'License';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Vorbis::Comments
+             * line : 395819
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Vorbis::Comments.Vorbis:License',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Vorbis::Comments
-       * line : 395819
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Vorbis::Comments.Vorbis:License',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

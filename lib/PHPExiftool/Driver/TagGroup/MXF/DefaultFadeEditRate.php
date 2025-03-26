@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DefaultFadeEditRate extends AbstractTagGroup
 {
+    protected string $id = 'MXF:DefaultFadeEditRate';
 
-  protected string $id = 'MXF:DefaultFadeEditRate';
+    protected string $name = 'DefaultFadeEditRate';
 
-  protected string $name = 'DefaultFadeEditRate';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 169378
+             * type : rational64s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:DefaultFadeEditRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 169378
-       * type : rational64s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:DefaultFadeEditRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

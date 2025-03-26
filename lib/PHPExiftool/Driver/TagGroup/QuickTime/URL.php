@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class URL extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:URL';
 
-  protected string $id = 'QuickTime:URL';
+    protected string $name = 'URL';
 
-  protected string $name = 'URL';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::DataRef
+             * line : 312609
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::DataRef.QuickTime:URL',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : QuickTime::DataRef
+             * line : 312613
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::DataRef.QuickTime:URL',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::DataRef
-       * line : 312609
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::DataRef.QuickTime:URL',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : QuickTime::DataRef
-       * line : 312613
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::DataRef.QuickTime:URL',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MediaType extends AbstractTagGroup
 {
+    protected string $id = 'ItemList:MediaType';
 
-  protected string $id = 'ItemList:MediaType';
+    protected string $name = 'MediaType';
 
-  protected string $name = 'MediaType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 322858
+             * type : int8s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ItemList.ItemList:MediaType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 322858
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ItemList.ItemList:MediaType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailOffset extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:ThumbnailOffset';
 
-  protected string $id = 'IFD0:ThumbnailOffset';
+    protected string $name = 'ThumbnailOffset';
 
-  protected string $name = 'ThumbnailOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112296
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent,protected
+             */
+            'id' => 'Exif::Main.IFD0:ThumbnailOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112296
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent,protected
-       */
-      'id' => 'Exif::Main.IFD0:ThumbnailOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2060;
-
+    protected int $flags = 2060;
 }

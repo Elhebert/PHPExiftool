@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RetouchAreaMaskRangeDepthMax extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:RetouchAreaMaskRangeDepthMax';
 
-  protected string $id = 'XMP-crd:RetouchAreaMaskRangeDepthMax';
+    protected string $name = 'RetouchAreaMaskRangeDepthMax';
 
-  protected string $name = 'RetouchAreaMaskRangeDepthMax';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 400693
+             * type : real
+             * writable : true
+             * count :
+             * flags : avoid,flattened,list
+             */
+            'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskRangeDepthMax',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 400693
-       * type : real
-       * writable : true
-       * count : 
-       * flags : avoid,flattened,list
-       */
-      'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskRangeDepthMax',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2113;
-
+    protected int $flags = 2113;
 }

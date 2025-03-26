@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AutoFlashISOSensitivity extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:AutoFlashISOSensitivity';
 
-  protected string $id = 'NikonSettings:AutoFlashISOSensitivity';
+    protected string $name = 'AutoFlashISOSensitivity';
 
-  protected string $name = 'AutoFlashISOSensitivity';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 244356
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:AutoFlashISOSensitivity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 244356
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:AutoFlashISOSensitivity',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubjectUnits extends AbstractTagGroup
 {
+    protected string $id = 'PNG:SubjectUnits';
 
-  protected string $id = 'PNG:SubjectUnits';
+    protected string $name = 'SubjectUnits';
 
-  protected string $name = 'SubjectUnits';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::SubjectScale
+             * line : 272770
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::SubjectScale.PNG:SubjectUnits',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::SubjectScale
-       * line : 272770
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::SubjectScale.PNG:SubjectUnits',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

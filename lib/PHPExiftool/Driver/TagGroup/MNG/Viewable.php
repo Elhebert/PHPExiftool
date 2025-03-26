@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Viewable extends AbstractTagGroup
 {
+    protected string $id = 'MNG:Viewable';
 
-  protected string $id = 'MNG:Viewable';
+    protected string $name = 'Viewable';
 
-  protected string $name = 'Viewable';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::BasisObject
+             * line : 164669
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::BasisObject.MNG:Viewable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::BasisObject
-       * line : 164669
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::BasisObject.MNG:Viewable',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VRDVersion extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:VRDVersion';
 
-  protected string $id = 'CanonVRD:VRDVersion';
+    protected string $name = 'VRDVersion';
 
-  protected string $name = 'VRDVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Ver1
+             * line : 82171
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver1.CanonVRD:VRDVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Ver1
-       * line : 82171
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver1.CanonVRD:VRDVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

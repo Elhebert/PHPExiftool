@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BannerImage extends AbstractTagGroup
 {
+    protected string $id = 'ASF:BannerImage';
 
-  protected string $id = 'ASF:BannerImage';
+    protected string $name = 'BannerImage';
 
-  protected string $name = 'BannerImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::ContentBranding
+             * line : 921
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'ASF::ContentBranding.ASF:BannerImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::ContentBranding
-       * line : 921
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'ASF::ContentBranding.ASF:BannerImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

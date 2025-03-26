@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Mime extends AbstractTagGroup
 {
+    protected string $id = 'XMP-GDepth:Mime';
 
-  protected string $id = 'XMP-GDepth:Mime';
+    protected string $name = 'Mime';
 
-  protected string $name = 'Mime';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GDepth
+             * line : 396999
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::GDepth.XMP-GDepth:Mime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GDepth
-       * line : 396999
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::GDepth.XMP-GDepth:Mime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

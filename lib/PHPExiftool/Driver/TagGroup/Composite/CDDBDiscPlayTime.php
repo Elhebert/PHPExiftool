@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CDDBDiscPlayTime extends AbstractTagGroup
 {
+    protected string $id = 'Composite:CDDBDiscPlayTime';
 
-  protected string $id = 'Composite:CDDBDiscPlayTime';
+    protected string $name = 'CDDBDiscPlayTime';
 
-  protected string $name = 'CDDBDiscPlayTime';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 93500
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:CDDBDiscPlayTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 93500
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:CDDBDiscPlayTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Xidiri extends AbstractTagGroup
 {
+    protected string $id = 'DJI:Xidiri';
 
-  protected string $id = 'DJI:Xidiri';
+    protected string $name = 'Xidiri';
 
-  protected string $name = 'Xidiri';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::Info
+             * line : 104480
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'DJI::Info.DJI:Xidiri',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::Info
-       * line : 104480
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'DJI::Info.DJI:Xidiri',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

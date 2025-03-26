@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorType extends AbstractTagGroup
 {
+    protected string $id = 'MNG:ColorType';
 
-  protected string $id = 'MNG:ColorType';
+    protected string $name = 'ColorType';
 
-  protected string $name = 'ColorType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::BasisObject
+             * line : 164569
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::BasisObject.MNG:ColorType',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::JNGHeader
+             * line : 164902
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::JNGHeader.MNG:ColorType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::BasisObject
-       * line : 164569
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::BasisObject.MNG:ColorType',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::JNGHeader
-       * line : 164902
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::JNGHeader.MNG:ColorType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

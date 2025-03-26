@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaskGroupBasedCorrTexture extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:MaskGroupBasedCorrTexture';
 
-  protected string $id = 'XMP-crs:MaskGroupBasedCorrTexture';
+    protected string $name = 'MaskGroupBasedCorrTexture';
 
-  protected string $name = 'MaskGroupBasedCorrTexture';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 403370
+             * type : real
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrTexture',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 403370
-       * type : real
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrTexture',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

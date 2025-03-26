@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OtherImageStart extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:OtherImageStart';
 
-  protected string $id = 'ExifIFD:OtherImageStart';
+    protected string $name = 'OtherImageStart';
 
-  protected string $name = 'OtherImageStart';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112356
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:OtherImageStart',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112356
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:OtherImageStart',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

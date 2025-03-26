@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CoverArt extends AbstractTagGroup
 {
+    protected string $id = 'Vorbis:CoverArt';
 
-  protected string $id = 'Vorbis:CoverArt';
+    protected string $name = 'CoverArt';
 
-  protected string $name = 'CoverArt';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Vorbis::Comments
+             * line : 395752
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Vorbis::Comments.Vorbis:CoverArt',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Vorbis::Comments
-       * line : 395752
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Vorbis::Comments.Vorbis:CoverArt',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

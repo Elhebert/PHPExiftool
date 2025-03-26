@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Lyrics extends AbstractTagGroup
 {
+    protected string $id = 'UserData:Lyrics';
 
-  protected string $id = 'UserData:Lyrics';
+    protected string $name = 'Lyrics';
 
-  protected string $name = 'Lyrics';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 325905
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::UserData.UserData:Lyrics',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 325905
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::UserData.UserData:Lyrics',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

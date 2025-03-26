@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CircGradBasedCorrContrast extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:CircGradBasedCorrContrast';
 
-  protected string $id = 'XMP-crs:CircGradBasedCorrContrast';
+    protected string $name = 'CircGradBasedCorrContrast';
 
-  protected string $name = 'CircGradBasedCorrContrast';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 401953
+             * type : real
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrContrast',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 401953
-       * type : real
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrContrast',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

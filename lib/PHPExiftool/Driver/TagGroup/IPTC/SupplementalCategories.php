@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SupplementalCategories extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:SupplementalCategories';
 
-  protected string $id = 'IPTC:SupplementalCategories';
+    protected string $name = 'SupplementalCategories';
 
-  protected string $name = 'SupplementalCategories';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 149889
+             * type : string
+             * writable : true
+             * count : 32
+             * flags : list
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:SupplementalCategories',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 149889
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : list
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:SupplementalCategories',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

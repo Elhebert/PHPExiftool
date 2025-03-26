@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashMode extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:FlashMode';
 
-  protected string $id = 'Olympus:FlashMode';
+    protected string $name = 'FlashMode';
 
-  protected string $name = 'FlashMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 250856
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:FlashMode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::Main
+             * line : 258418
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::Main.Olympus:FlashMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 250856
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:FlashMode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::Main
-       * line : 258418
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::Main.Olympus:FlashMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

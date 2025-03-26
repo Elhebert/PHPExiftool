@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BaseISOFluorescent extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:BaseISOFluorescent';
 
-  protected string $id = 'KodakIFD:BaseISOFluorescent';
+    protected string $name = 'BaseISOFluorescent';
 
-  protected string $name = 'BaseISOFluorescent';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155370
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:BaseISOFluorescent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155370
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:BaseISOFluorescent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AWBBlueGainRef5 extends AbstractTagGroup
 {
+    protected string $id = 'Qualcomm:AWBBlueGainRef5';
 
-  protected string $id = 'Qualcomm:AWBBlueGainRef5';
+    protected string $name = 'AWBBlueGainRef5';
 
-  protected string $name = 'AWBBlueGainRef5';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Qualcomm::Main
+             * line : 307032
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Qualcomm::Main.Qualcomm:AWBBlueGainRef5',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Qualcomm::Main
-       * line : 307032
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Qualcomm::Main.Qualcomm:AWBBlueGainRef5',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

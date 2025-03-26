@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VirtualPageUnits extends AbstractTagGroup
 {
+    protected string $id = 'PNG:VirtualPageUnits';
 
-  protected string $id = 'PNG:VirtualPageUnits';
+    protected string $name = 'VirtualPageUnits';
 
-  protected string $name = 'VirtualPageUnits';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::VirtualPage
+             * line : 273053
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::VirtualPage.PNG:VirtualPageUnits',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::VirtualPage
-       * line : 273053
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::VirtualPage.PNG:VirtualPageUnits',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

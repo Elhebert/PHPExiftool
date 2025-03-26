@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorMatrixB2 extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:ColorMatrixB2';
 
-  protected string $id = 'Pentax:ColorMatrixB2';
+    protected string $name = 'ColorMatrixB2';
 
-  protected string $name = 'ColorMatrixB2';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300814
+             * type : undef
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:ColorMatrixB2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300814
-       * type : undef
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:ColorMatrixB2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

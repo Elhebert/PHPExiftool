@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AIColorUsage extends AbstractTagGroup
 {
+    protected string $id = 'PostScript:AIColorUsage';
 
-  protected string $id = 'PostScript:AIColorUsage';
+    protected string $name = 'AIColorUsage';
 
-  protected string $name = 'AIColorUsage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PostScript::Main
+             * line : 305877
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PostScript::Main.PostScript:AIColorUsage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PostScript::Main
-       * line : 305877
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PostScript::Main.PostScript:AIColorUsage',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

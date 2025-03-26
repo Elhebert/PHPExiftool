@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TargetXY extends AbstractTagGroup
 {
+    protected string $id = 'MNG:TargetXY';
 
-  protected string $id = 'MNG:TargetXY';
+    protected string $name = 'TargetXY';
 
-  protected string $name = 'TargetXY';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::PasteImage
+             * line : 165269
+             * type : int32u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'MNG::PasteImage.MNG:TargetXY',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::PasteImage
-       * line : 165269
-       * type : int32u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'MNG::PasteImage.MNG:TargetXY',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

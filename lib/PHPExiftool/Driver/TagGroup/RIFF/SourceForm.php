@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SourceForm extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:SourceForm';
 
-  protected string $id = 'RIFF:SourceForm';
+    protected string $name = 'SourceForm';
 
-  protected string $name = 'SourceForm';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Info
+             * line : 328454
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Info.RIFF:SourceForm',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Info
-       * line : 328454
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Info.RIFF:SourceForm',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

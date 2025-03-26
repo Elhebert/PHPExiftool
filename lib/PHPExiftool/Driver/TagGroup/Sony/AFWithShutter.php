@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFWithShutter extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFWithShutter';
 
-  protected string $id = 'Sony:AFWithShutter';
+    protected string $name = 'AFWithShutter';
 
-  protected string $name = 'AFWithShutter';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings
+             * line : 347523
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings.Sony:AFWithShutter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings
-       * line : 347523
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings.Sony:AFWithShutter',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

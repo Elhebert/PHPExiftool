@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubDialFrameAdvanceRating0 extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:SubDialFrameAdvanceRating0';
 
-  protected string $id = 'NikonSettings:SubDialFrameAdvanceRating0';
+    protected string $name = 'SubDialFrameAdvanceRating0';
 
-  protected string $name = 'SubDialFrameAdvanceRating0';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 247402
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:SubDialFrameAdvanceRating0',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 247402
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:SubDialFrameAdvanceRating0',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

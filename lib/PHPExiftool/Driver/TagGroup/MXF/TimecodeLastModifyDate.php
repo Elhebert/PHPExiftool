@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimecodeLastModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'MXF:TimecodeLastModifyDate';
 
-  protected string $id = 'MXF:TimecodeLastModifyDate';
+    protected string $name = 'TimecodeLastModifyDate';
 
-  protected string $name = 'TimecodeLastModifyDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 168522
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'MXF::Main.MXF:TimecodeLastModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 168522
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'MXF::Main.MXF:TimecodeLastModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

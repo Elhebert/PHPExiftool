@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FrameSizeMax extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:FrameSizeMax';
 
-  protected string $id = 'FLAC:FrameSizeMax';
+    protected string $name = 'FrameSizeMax';
 
-  protected string $name = 'FrameSizeMax';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::StreamInfo
+             * line : 121945
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::StreamInfo.FLAC:FrameSizeMax',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::StreamInfo
-       * line : 121945
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::StreamInfo.FLAC:FrameSizeMax',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

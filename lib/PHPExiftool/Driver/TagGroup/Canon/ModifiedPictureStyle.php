@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifiedPictureStyle extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ModifiedPictureStyle';
 
-  protected string $id = 'Canon:ModifiedPictureStyle';
+    protected string $name = 'ModifiedPictureStyle';
 
-  protected string $name = 'ModifiedPictureStyle';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ModifiedInfo
+             * line : 66701
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::ModifiedInfo.Canon:ModifiedPictureStyle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ModifiedInfo
-       * line : 66701
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::ModifiedInfo.Canon:ModifiedPictureStyle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

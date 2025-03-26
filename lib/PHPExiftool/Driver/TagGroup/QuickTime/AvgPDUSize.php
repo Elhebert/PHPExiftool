@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AvgPDUSize extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AvgPDUSize';
 
-  protected string $id = 'QuickTime:AvgPDUSize';
+    protected string $name = 'AvgPDUSize';
 
-  protected string $name = 'AvgPDUSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintHeader
+             * line : 313715
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintHeader.QuickTime:AvgPDUSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintHeader
-       * line : 313715
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintHeader.QuickTime:AvgPDUSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

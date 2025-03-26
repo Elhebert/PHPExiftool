@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Genre extends AbstractTagGroup
 {
+    protected string $id = 'APE:Genre';
 
-  protected string $id = 'APE:Genre';
+    protected string $name = 'Genre';
 
-  protected string $name = 'Genre';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APE::Main
+             * line : 287
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::Main.APE:Genre',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APE::Main
-       * line : 287
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::Main.APE:Genre',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

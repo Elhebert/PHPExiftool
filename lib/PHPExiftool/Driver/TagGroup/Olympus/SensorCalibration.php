@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorCalibration extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:SensorCalibration';
 
-  protected string $id = 'Olympus:SensorCalibration';
+    protected string $name = 'SensorCalibration';
 
-  protected string $name = 'SensorCalibration';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::ImageProcessing
+             * line : 255379
+             * type : int16s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Olympus::ImageProcessing.Olympus:SensorCalibration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::ImageProcessing
-       * line : 255379
-       * type : int16s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Olympus::ImageProcessing.Olympus:SensorCalibration',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

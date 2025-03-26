@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HumanObservationEarliestDate extends AbstractTagGroup
 {
+    protected string $id = 'XMP-dwc:HumanObservationEarliestDate';
 
-  protected string $id = 'XMP-dwc:HumanObservationEarliestDate';
+    protected string $name = 'HumanObservationEarliestDate';
 
-  protected string $name = 'HumanObservationEarliestDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DarwinCore::Main
+             * line : 106237
+             * type : date
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'DarwinCore::Main.XMP-dwc:HumanObservationEarliestDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DarwinCore::Main
-       * line : 106237
-       * type : date
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'DarwinCore::Main.XMP-dwc:HumanObservationEarliestDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

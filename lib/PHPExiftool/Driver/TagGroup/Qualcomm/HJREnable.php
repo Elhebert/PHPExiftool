@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HJREnable extends AbstractTagGroup
 {
+    protected string $id = 'Qualcomm:HJREnable';
 
-  protected string $id = 'Qualcomm:HJREnable';
+    protected string $name = 'HJREnable';
 
-  protected string $name = 'HJREnable';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Qualcomm::Main
+             * line : 306131
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Qualcomm::Main.Qualcomm:HJREnable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Qualcomm::Main
-       * line : 306131
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Qualcomm::Main.Qualcomm:HJREnable',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

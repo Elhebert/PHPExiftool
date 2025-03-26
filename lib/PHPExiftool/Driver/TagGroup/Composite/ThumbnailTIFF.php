@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailTIFF extends AbstractTagGroup
 {
+    protected string $id = 'Composite:ThumbnailTIFF';
 
-  protected string $id = 'Composite:ThumbnailTIFF';
+    protected string $name = 'ThumbnailTIFF';
 
-  protected string $name = 'ThumbnailTIFF';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90548
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:ThumbnailTIFF',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90548
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:ThumbnailTIFF',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

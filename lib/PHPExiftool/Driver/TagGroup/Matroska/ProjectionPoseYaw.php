@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProjectionPoseYaw extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:ProjectionPoseYaw';
 
-  protected string $id = 'Matroska:ProjectionPoseYaw';
+    protected string $name = 'ProjectionPoseYaw';
 
-  protected string $name = 'ProjectionPoseYaw';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Projection
+             * line : 174050
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Matroska::Projection.Matroska:ProjectionPoseYaw',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Projection
-       * line : 174050
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Matroska::Projection.Matroska:ProjectionPoseYaw',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

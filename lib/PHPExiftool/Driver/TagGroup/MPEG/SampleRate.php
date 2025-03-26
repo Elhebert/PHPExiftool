@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SampleRate extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:SampleRate';
 
-  protected string $id = 'MPEG:SampleRate';
+    protected string $name = 'SampleRate';
 
-  protected string $name = 'SampleRate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Audio
+             * line : 165716
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Audio.MPEG:SampleRate',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MPEG::Audio
+             * line : 165733
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Audio.MPEG:SampleRate',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : MPEG::Audio
+             * line : 165750
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Audio.MPEG:SampleRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Audio
-       * line : 165716
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Audio.MPEG:SampleRate',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MPEG::Audio
-       * line : 165733
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Audio.MPEG:SampleRate',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : MPEG::Audio
-       * line : 165750
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Audio.MPEG:SampleRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

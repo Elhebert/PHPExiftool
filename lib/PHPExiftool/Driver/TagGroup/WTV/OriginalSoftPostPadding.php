@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalSoftPostPadding extends AbstractTagGroup
 {
+    protected string $id = 'WTV:OriginalSoftPostPadding';
 
-  protected string $id = 'WTV:OriginalSoftPostPadding';
+    protected string $name = 'OriginalSoftPostPadding';
 
-  protected string $name = 'OriginalSoftPostPadding';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : WTV::Metadata
+             * line : 396364
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'WTV::Metadata.WTV:OriginalSoftPostPadding',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : WTV::Metadata
-       * line : 396364
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'WTV::Metadata.WTV:OriginalSoftPostPadding',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

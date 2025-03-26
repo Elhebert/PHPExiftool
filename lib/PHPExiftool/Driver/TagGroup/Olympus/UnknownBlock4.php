@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownBlock4 extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:UnknownBlock4';
 
-  protected string $id = 'Olympus:UnknownBlock4';
+    protected string $name = 'UnknownBlock4';
 
-  protected string $name = 'UnknownBlock4';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::ImageProcessing
+             * line : 255486
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Olympus::ImageProcessing.Olympus:UnknownBlock4',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::ImageProcessing
-       * line : 255486
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Olympus::ImageProcessing.Olympus:UnknownBlock4',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2086;
-
+    protected int $flags = 2086;
 }

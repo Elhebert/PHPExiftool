@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoFrameRate extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:VideoFrameRate';
 
-  protected string $id = 'RIFF:VideoFrameRate';
+    protected string $name = 'VideoFrameRate';
 
-  protected string $name = 'VideoFrameRate';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::StreamHeader
+             * line : 328809
+             * type : rational64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::StreamHeader.RIFF:VideoFrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::StreamHeader
-       * line : 328809
-       * type : rational64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::StreamHeader.RIFF:VideoFrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

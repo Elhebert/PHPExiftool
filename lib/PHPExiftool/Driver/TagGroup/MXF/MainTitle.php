@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MainTitle extends AbstractTagGroup
 {
+    protected string $id = 'MXF:MainTitle';
 
-  protected string $id = 'MXF:MainTitle';
+    protected string $name = 'MainTitle';
 
-  protected string $name = 'MainTitle';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 167405
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:MainTitle',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MXF::Main
+             * line : 169807
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:MainTitle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 167405
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:MainTitle',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MXF::Main
-       * line : 169807
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:MainTitle',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

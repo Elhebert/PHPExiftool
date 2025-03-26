@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageCount extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:ImageCount';
 
-  protected string $id = 'Nikon:ImageCount';
+    protected string $name = 'ImageCount';
 
-  protected string $name = 'ImageCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::Main
+             * line : 199381
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::Main.Nikon:ImageCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::Main
-       * line : 199381
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::Main.Nikon:ImageCount',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

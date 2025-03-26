@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SecondarySlotFunction extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:SecondarySlotFunction';
 
-  protected string $id = 'NikonSettings:SecondarySlotFunction';
+    protected string $name = 'SecondarySlotFunction';
 
-  protected string $name = 'SecondarySlotFunction';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 247454
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:SecondarySlotFunction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 247454
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:SecondarySlotFunction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaximumSupportedPlatformVersion extends AbstractTagGroup
 {
+    protected string $id = 'MXF:MaximumSupportedPlatformVersion';
 
-  protected string $id = 'MXF:MaximumSupportedPlatformVersion';
+    protected string $name = 'MaximumSupportedPlatformVersion';
 
-  protected string $name = 'MaximumSupportedPlatformVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 169339
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:MaximumSupportedPlatformVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 169339
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:MaximumSupportedPlatformVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

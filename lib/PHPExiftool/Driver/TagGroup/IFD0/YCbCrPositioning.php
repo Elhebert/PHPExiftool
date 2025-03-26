@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class YCbCrPositioning extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:YCbCrPositioning';
 
-  protected string $id = 'IFD0:YCbCrPositioning';
+    protected string $name = 'YCbCrPositioning';
 
-  protected string $name = 'YCbCrPositioning';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112552
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : mandatory,unsafe
+             */
+            'id' => 'Exif::Main.IFD0:YCbCrPositioning',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112552
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : mandatory,unsafe
-       */
-      'id' => 'Exif::Main.IFD0:YCbCrPositioning',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2192;
-
+    protected int $flags = 2192;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CPUByteOrder extends AbstractTagGroup
 {
+    protected string $id = 'EXE:CPUByteOrder';
 
-  protected string $id = 'EXE:CPUByteOrder';
+    protected string $name = 'CPUByteOrder';
 
-  protected string $name = 'CPUByteOrder';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::ELF
+             * line : 107993
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::ELF.EXE:CPUByteOrder',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : EXE::MachO
+             * line : 108161
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::MachO.EXE:CPUByteOrder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::ELF
-       * line : 107993
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::ELF.EXE:CPUByteOrder',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : EXE::MachO
-       * line : 108161
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::MachO.EXE:CPUByteOrder',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

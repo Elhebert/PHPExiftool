@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MainBoardVersion extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:MainBoardVersion';
 
-  protected string $id = 'KodakIFD:MainBoardVersion';
+    protected string $name = 'MainBoardVersion';
 
-  protected string $name = 'MainBoardVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155030
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:MainBoardVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155030
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:MainBoardVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

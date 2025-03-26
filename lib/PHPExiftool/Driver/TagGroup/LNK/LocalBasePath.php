@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LocalBasePath extends AbstractTagGroup
 {
+    protected string $id = 'LNK:LocalBasePath';
 
-  protected string $id = 'LNK:LocalBasePath';
+    protected string $name = 'LocalBasePath';
 
-  protected string $name = 'LocalBasePath';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::LinkInfo
+             * line : 161116
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::LinkInfo.LNK:LocalBasePath',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::LinkInfo
-       * line : 161116
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::LinkInfo.LNK:LocalBasePath',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GammaCurveOutputRange extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:GammaCurveOutputRange';
 
-  protected string $id = 'CanonVRD:GammaCurveOutputRange';
+    protected string $name = 'GammaCurveOutputRange';
 
-  protected string $name = 'GammaCurveOutputRange';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::GammaInfo
+             * line : 82036
+             * type : double
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaCurveOutputRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::GammaInfo
-       * line : 82036
-       * type : double
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaCurveOutputRange',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

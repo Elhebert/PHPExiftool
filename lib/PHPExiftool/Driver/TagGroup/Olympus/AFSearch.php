@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFSearch extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:AFSearch';
 
-  protected string $id = 'Olympus:AFSearch';
+    protected string $name = 'AFSearch';
 
-  protected string $name = 'AFSearch';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 250762
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:AFSearch',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 250762
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:AFSearch',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

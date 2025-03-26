@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImage extends AbstractTagGroup
 {
+    protected string $id = 'MakerNotes:PreviewImage';
 
-  protected string $id = 'MakerNotes:PreviewImage';
+    protected string $name = 'PreviewImage';
 
-  protected string $name = 'PreviewImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Flip
+             * line : 313093
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Flip.MakerNotes:PreviewImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Flip
-       * line : 313093
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Flip.MakerNotes:PreviewImage',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

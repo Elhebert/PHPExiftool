@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Characters extends AbstractTagGroup
 {
+    protected string $id = 'Font:Characters';
 
-  protected string $id = 'Font:Characters';
+    protected string $name = 'Characters';
 
-  protected string $name = 'Characters';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::AFM
+             * line : 127726
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::AFM.Font:Characters',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::AFM
-       * line : 127726
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::AFM.Font:Characters',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

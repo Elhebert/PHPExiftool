@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RadioBand extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:RadioBand';
 
-  protected string $id = 'Microsoft:RadioBand';
+    protected string $name = 'RadioBand';
 
-  protected string $name = 'RadioBand';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 174755
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:RadioBand',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 174755
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:RadioBand',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 1;
-
+    protected int $flags = 1;
 }

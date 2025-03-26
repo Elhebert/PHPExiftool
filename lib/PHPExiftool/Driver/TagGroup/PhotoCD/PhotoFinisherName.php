@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PhotoFinisherName extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:PhotoFinisherName';
 
-  protected string $id = 'PhotoCD:PhotoFinisherName';
+    protected string $name = 'PhotoFinisherName';
 
-  protected string $name = 'PhotoFinisherName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303821
+             * type : string
+             * writable : false
+             * count : 60
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:PhotoFinisherName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303821
-       * type : string
-       * writable : false
-       * count : 60
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:PhotoFinisherName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 60;
-
+    protected int $count = 60;
 }

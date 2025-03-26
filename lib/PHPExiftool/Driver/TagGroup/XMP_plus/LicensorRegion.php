@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LicensorRegion extends AbstractTagGroup
 {
+    protected string $id = 'XMP-plus:LicensorRegion';
 
-  protected string $id = 'XMP-plus:LicensorRegion';
+    protected string $name = 'LicensorRegion';
 
-  protected string $name = 'LicensorRegion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PLUS::XMP
+             * line : 265679
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'PLUS::XMP.XMP-plus:LicensorRegion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PLUS::XMP
-       * line : 265679
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'PLUS::XMP.XMP-plus:LicensorRegion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

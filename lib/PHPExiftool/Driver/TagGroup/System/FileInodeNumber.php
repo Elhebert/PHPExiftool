@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileInodeNumber extends AbstractTagGroup
 {
+    protected string $id = 'System:FileInodeNumber';
 
-  protected string $id = 'System:FileInodeNumber';
+    protected string $name = 'FileInodeNumber';
 
-  protected string $name = 'FileInodeNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 121271
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Extra.System:FileInodeNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 121271
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Extra.System:FileInodeNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

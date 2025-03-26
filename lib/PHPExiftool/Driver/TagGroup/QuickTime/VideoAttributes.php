@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoAttributes extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:VideoAttributes';
 
-  protected string $id = 'QuickTime:VideoAttributes';
+    protected string $name = 'VideoAttributes';
 
-  protected string $name = 'VideoAttributes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::VideoProf
+             * line : 326251
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::VideoProf.QuickTime:VideoAttributes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::VideoProf
-       * line : 326251
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::VideoProf.QuickTime:VideoAttributes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DocClass extends AbstractTagGroup
 {
+    protected string $id = 'HTML:DocClass';
 
-  protected string $id = 'HTML:DocClass';
+    protected string $name = 'DocClass';
 
-  protected string $name = 'DocClass';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::Main
+             * line : 142389
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'HTML::Main.HTML:DocClass',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::Main
-       * line : 142389
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'HTML::Main.HTML:DocClass',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

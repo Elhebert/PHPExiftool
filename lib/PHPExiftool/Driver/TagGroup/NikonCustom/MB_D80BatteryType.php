@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MB_D80BatteryType extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:MB-D80BatteryType';
 
-  protected string $id = 'NikonCustom:MB-D80BatteryType';
+    protected string $name = 'MB-D80BatteryType';
 
-  protected string $name = 'MB-D80BatteryType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD90
+             * line : 234088
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD90.NikonCustom:MB-D80BatteryType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD90
-       * line : 234088
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD90.NikonCustom:MB-D80BatteryType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

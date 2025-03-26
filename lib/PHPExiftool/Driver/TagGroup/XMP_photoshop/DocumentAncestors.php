@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DocumentAncestors extends AbstractTagGroup
 {
+    protected string $id = 'XMP-photoshop:DocumentAncestors';
 
-  protected string $id = 'XMP-photoshop:DocumentAncestors';
+    protected string $name = 'DocumentAncestors';
 
-  protected string $name = 'DocumentAncestors';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::photoshop
+             * line : 410267
+             * type : string
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'XMP::photoshop.XMP-photoshop:DocumentAncestors',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::photoshop
-       * line : 410267
-       * type : string
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'XMP::photoshop.XMP-photoshop:DocumentAncestors',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

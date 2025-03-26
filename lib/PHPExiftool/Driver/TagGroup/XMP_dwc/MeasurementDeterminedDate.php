@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MeasurementDeterminedDate extends AbstractTagGroup
 {
+    protected string $id = 'XMP-dwc:MeasurementDeterminedDate';
 
-  protected string $id = 'XMP-dwc:MeasurementDeterminedDate';
+    protected string $name = 'MeasurementDeterminedDate';
 
-  protected string $name = 'MeasurementDeterminedDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DarwinCore::Main
+             * line : 106461
+             * type : date
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'DarwinCore::Main.XMP-dwc:MeasurementDeterminedDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DarwinCore::Main
-       * line : 106461
-       * type : date
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'DarwinCore::Main.XMP-dwc:MeasurementDeterminedDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

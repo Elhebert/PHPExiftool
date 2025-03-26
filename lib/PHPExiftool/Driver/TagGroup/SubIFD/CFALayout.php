@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CFALayout extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:CFALayout';
 
-  protected string $id = 'SubIFD:CFALayout';
+    protected string $name = 'CFALayout';
 
-  protected string $name = 'CFALayout';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 118868
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.SubIFD:CFALayout',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 118868
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.SubIFD:CFALayout',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

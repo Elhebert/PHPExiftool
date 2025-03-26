@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EncoderVersion extends AbstractTagGroup
 {
+    protected string $id = 'MPC:EncoderVersion';
 
-  protected string $id = 'MPC:EncoderVersion';
+    protected string $name = 'EncoderVersion';
 
-  protected string $name = 'EncoderVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPC::Main
+             * line : 165655
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPC::Main.MPC:EncoderVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPC::Main
-       * line : 165655
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPC::Main.MPC:EncoderVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

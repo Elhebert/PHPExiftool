@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlacksAdj extends AbstractTagGroup
 {
+    protected string $id = 'SonyIDC:BlacksAdj';
 
-  protected string $id = 'SonyIDC:BlacksAdj';
+    protected string $name = 'BlacksAdj';
 
-  protected string $name = 'BlacksAdj';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SonyIDC::Main
+             * line : 394473
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'SonyIDC::Main.SonyIDC:BlacksAdj',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SonyIDC::Main
-       * line : 394473
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'SonyIDC::Main.SonyIDC:BlacksAdj',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

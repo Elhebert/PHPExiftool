@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhiteLevel extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:WhiteLevel';
 
-  protected string $id = 'Pentax:WhiteLevel';
+    protected string $name = 'WhiteLevel';
 
-  protected string $name = 'WhiteLevel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300433
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:WhiteLevel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300433
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:WhiteLevel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

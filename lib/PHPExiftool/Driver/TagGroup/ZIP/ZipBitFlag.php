@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ZipBitFlag extends AbstractTagGroup
 {
+    protected string $id = 'ZIP:ZipBitFlag';
 
-  protected string $id = 'ZIP:ZipBitFlag';
+    protected string $name = 'ZipBitFlag';
 
-  protected string $name = 'ZipBitFlag';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZIP::Main
+             * line : 414830
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::Main.ZIP:ZipBitFlag',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZIP::Main
-       * line : 414830
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::Main.ZIP:ZipBitFlag',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

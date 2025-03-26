@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FaceInfoUnknown extends AbstractTagGroup
 {
+    protected string $id = 'Casio:FaceInfoUnknown';
 
-  protected string $id = 'Casio:FaceInfoUnknown';
+    protected string $name = 'FaceInfoUnknown';
 
-  protected string $name = 'FaceInfoUnknown';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::Type2
+             * line : 85966
+             * type : ?
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Casio::Type2.Casio:FaceInfoUnknown',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::Type2
-       * line : 85966
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Casio::Type2.Casio:FaceInfoUnknown',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

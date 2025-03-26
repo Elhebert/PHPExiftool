@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Pieces extends AbstractTagGroup
 {
+    protected string $id = 'Torrent:Pieces';
 
-  protected string $id = 'Torrent:Pieces';
+    protected string $name = 'Pieces';
 
-  protected string $name = 'Pieces';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Torrent::Info
+             * line : 395002
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Torrent::Info.Torrent:Pieces',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Torrent::Info
-       * line : 395002
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Torrent::Info.Torrent:Pieces',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

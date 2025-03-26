@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LineOrder extends AbstractTagGroup
 {
+    protected string $id = 'OpenEXR:LineOrder';
 
-  protected string $id = 'OpenEXR:LineOrder';
+    protected string $name = 'LineOrder';
 
-  protected string $name = 'LineOrder';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OpenEXR::Main
+             * line : 263604
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OpenEXR::Main.OpenEXR:LineOrder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OpenEXR::Main
-       * line : 263604
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OpenEXR::Main.OpenEXR:LineOrder',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

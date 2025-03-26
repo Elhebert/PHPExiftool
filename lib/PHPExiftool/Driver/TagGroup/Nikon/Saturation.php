@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Saturation extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:Saturation';
 
-  protected string $id = 'Nikon:Saturation';
+    protected string $name = 'Saturation';
 
-  protected string $name = 'Saturation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::Main
+             * line : 199420
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::Main.Nikon:Saturation',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::PictureControl
+             * line : 203735
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::PictureControl.Nikon:Saturation',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::PictureControl2
+             * line : 204049
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::PictureControl2.Nikon:Saturation',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Nikon::PictureControl3
+             * line : 204375
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::PictureControl3.Nikon:Saturation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::Main
-       * line : 199420
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::Main.Nikon:Saturation',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::PictureControl
-       * line : 203735
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::PictureControl.Nikon:Saturation',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::PictureControl2
-       * line : 204049
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::PictureControl2.Nikon:Saturation',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Nikon::PictureControl3
-       * line : 204375
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::PictureControl3.Nikon:Saturation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

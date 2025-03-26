@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BAHPVer extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:BAHPVer';
 
-  protected string $id = 'FLIR:BAHPVer';
+    protected string $name = 'BAHPVer';
 
-  protected string $name = 'BAHPVer';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::Parts
+             * line : 123602
+             * type : undef
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FLIR::Parts.FLIR:BAHPVer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::Parts
-       * line : 123602
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FLIR::Parts.FLIR:BAHPVer',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

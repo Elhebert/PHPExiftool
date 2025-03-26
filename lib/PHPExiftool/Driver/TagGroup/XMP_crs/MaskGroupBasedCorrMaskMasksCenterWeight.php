@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaskGroupBasedCorrMaskMasksCenterWeight extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:MaskGroupBasedCorrMaskMasksCenterWeight';
 
-  protected string $id = 'XMP-crs:MaskGroupBasedCorrMaskMasksCenterWeight';
+    protected string $name = 'MaskGroupBasedCorrMaskMasksCenterWeight';
 
-  protected string $name = 'MaskGroupBasedCorrMaskMasksCenterWeight';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 403091
+             * type : real
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskMasksCenterWeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 403091
-       * type : real
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskMasksCenterWeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

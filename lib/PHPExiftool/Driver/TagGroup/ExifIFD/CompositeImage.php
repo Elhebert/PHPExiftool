@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompositeImage extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:CompositeImage';
 
-  protected string $id = 'ExifIFD:CompositeImage';
+    protected string $name = 'CompositeImage';
 
-  protected string $name = 'CompositeImage';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 117935
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:CompositeImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 117935
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:CompositeImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

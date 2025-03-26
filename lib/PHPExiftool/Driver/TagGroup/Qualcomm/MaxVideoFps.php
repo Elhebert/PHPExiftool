@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxVideoFps extends AbstractTagGroup
 {
+    protected string $id = 'Qualcomm:MaxVideoFps';
 
-  protected string $id = 'Qualcomm:MaxVideoFps';
+    protected string $name = 'MaxVideoFps';
 
-  protected string $name = 'MaxVideoFps';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Qualcomm::Main
+             * line : 307473
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Qualcomm::Main.Qualcomm:MaxVideoFps',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Qualcomm::Main
-       * line : 307473
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Qualcomm::Main.Qualcomm:MaxVideoFps',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

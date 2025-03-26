@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedEncodedRightsExpr extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:EmbeddedEncodedRightsExpr';
 
-  protected string $id = 'XMP-iptcExt:EmbeddedEncodedRightsExpr';
+    protected string $name = 'EmbeddedEncodedRightsExpr';
 
-  protected string $name = 'EmbeddedEncodedRightsExpr';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409269
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:EmbeddedEncodedRightsExpr',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409269
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:EmbeddedEncodedRightsExpr',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

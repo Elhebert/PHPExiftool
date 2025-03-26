@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DarkCorrectionType extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:DarkCorrectionType';
 
-  protected string $id = 'Leaf:DarkCorrectionType';
+    protected string $name = 'DarkCorrectionType';
 
-  protected string $name = 'DarkCorrectionType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::CaptureProfile
+             * line : 161698
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::CaptureProfile.Leaf:DarkCorrectionType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::CaptureProfile
-       * line : 161698
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::CaptureProfile.Leaf:DarkCorrectionType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

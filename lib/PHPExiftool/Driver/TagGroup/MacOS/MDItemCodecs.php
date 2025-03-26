@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MDItemCodecs extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:MDItemCodecs';
 
-  protected string $id = 'MacOS:MDItemCodecs';
+    protected string $name = 'MDItemCodecs';
 
-  protected string $name = 'MDItemCodecs';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::MDItem
+             * line : 172596
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::MDItem.MacOS:MDItemCodecs',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::MDItem
-       * line : 172596
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::MDItem.MacOS:MDItemCodecs',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

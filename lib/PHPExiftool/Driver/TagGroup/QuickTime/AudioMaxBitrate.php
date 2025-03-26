@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioMaxBitrate extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AudioMaxBitrate';
 
-  protected string $id = 'QuickTime:AudioMaxBitrate';
+    protected string $name = 'AudioMaxBitrate';
 
-  protected string $name = 'AudioMaxBitrate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::AudioProf
+             * line : 310405
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::AudioProf.QuickTime:AudioMaxBitrate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::AudioProf
-       * line : 310405
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::AudioProf.QuickTime:AudioMaxBitrate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

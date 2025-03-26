@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Make extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:Make';
 
-  protected string $id = 'IFD0:Make';
+    protected string $name = 'Make';
 
-  protected string $name = 'Make';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 110581
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:Make',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : PanasonicRaw::Main
+             * line : 280509
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::Main.IFD0:Make',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 110581
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:Make',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : PanasonicRaw::Main
-       * line : 280509
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::Main.IFD0:Make',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MDItemVideoBitRate extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:MDItemVideoBitRate';
 
-  protected string $id = 'MacOS:MDItemVideoBitRate';
+    protected string $name = 'MDItemVideoBitRate';
 
-  protected string $name = 'MDItemVideoBitRate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::MDItem
+             * line : 173060
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::MDItem.MacOS:MDItemVideoBitRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::MDItem
-       * line : 173060
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::MDItem.MacOS:MDItemVideoBitRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

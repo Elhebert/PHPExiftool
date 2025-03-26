@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureControlActive extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:PictureControlActive';
 
-  protected string $id = 'NikonCapture:PictureControlActive';
+    protected string $name = 'PictureControlActive';
 
-  protected string $name = 'PictureControlActive';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::PictureCtrl
+             * line : 211191
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::PictureCtrl.NikonCapture:PictureControlActive',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::PictureCtrl
-       * line : 211191
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::PictureCtrl.NikonCapture:PictureControlActive',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

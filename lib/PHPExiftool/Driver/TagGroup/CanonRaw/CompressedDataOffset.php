@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompressedDataOffset extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:CompressedDataOffset';
 
-  protected string $id = 'CanonRaw:CompressedDataOffset';
+    protected string $name = 'CompressedDataOffset';
 
-  protected string $name = 'CompressedDataOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::DecoderTable
+             * line : 78447
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::DecoderTable.CanonRaw:CompressedDataOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::DecoderTable
-       * line : 78447
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::DecoderTable.CanonRaw:CompressedDataOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

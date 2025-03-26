@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StillFrame extends AbstractTagGroup
 {
+    protected string $id = 'MXF:StillFrame';
 
-  protected string $id = 'MXF:StillFrame';
+    protected string $name = 'StillFrame';
 
-  protected string $name = 'StillFrame';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 169513
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'MXF::Main.MXF:StillFrame',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 169513
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'MXF::Main.MXF:StillFrame',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

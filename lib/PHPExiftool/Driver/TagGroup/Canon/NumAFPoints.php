@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumAFPoints extends AbstractTagGroup
 {
+    protected string $id = 'Canon:NumAFPoints';
 
-  protected string $id = 'Canon:NumAFPoints';
+    protected string $name = 'NumAFPoints';
 
-  protected string $name = 'NumAFPoints';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFInfo
+             * line : 4028
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo.Canon:NumAFPoints',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::AFInfo2
+             * line : 4190
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo2.Canon:NumAFPoints',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFInfo
-       * line : 4028
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo.Canon:NumAFPoints',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::AFInfo2
-       * line : 4190
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo2.Canon:NumAFPoints',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

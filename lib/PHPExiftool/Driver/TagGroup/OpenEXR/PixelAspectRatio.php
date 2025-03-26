@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PixelAspectRatio extends AbstractTagGroup
 {
+    protected string $id = 'OpenEXR:PixelAspectRatio';
 
-  protected string $id = 'OpenEXR:PixelAspectRatio';
+    protected string $name = 'PixelAspectRatio';
 
-  protected string $name = 'PixelAspectRatio';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OpenEXR::Main
+             * line : 263655
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OpenEXR::Main.OpenEXR:PixelAspectRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OpenEXR::Main
-       * line : 263655
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OpenEXR::Main.OpenEXR:PixelAspectRatio',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

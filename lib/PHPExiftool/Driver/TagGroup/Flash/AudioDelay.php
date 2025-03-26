@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioDelay extends AbstractTagGroup
 {
+    protected string $id = 'Flash:AudioDelay';
 
-  protected string $id = 'Flash:AudioDelay';
+    protected string $name = 'AudioDelay';
 
-  protected string $name = 'AudioDelay';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Flash::Meta
+             * line : 124010
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Flash::Meta.Flash:AudioDelay',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Flash::Meta
-       * line : 124010
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Flash::Meta.Flash:AudioDelay',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

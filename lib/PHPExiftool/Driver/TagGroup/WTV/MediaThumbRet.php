@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MediaThumbRet extends AbstractTagGroup
 {
+    protected string $id = 'WTV:MediaThumbRet';
 
-  protected string $id = 'WTV:MediaThumbRet';
+    protected string $name = 'MediaThumbRet';
 
-  protected string $name = 'MediaThumbRet';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : WTV::Metadata
+             * line : 396182
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'WTV::Metadata.WTV:MediaThumbRet',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : WTV::Metadata
-       * line : 396182
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'WTV::Metadata.WTV:MediaThumbRet',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

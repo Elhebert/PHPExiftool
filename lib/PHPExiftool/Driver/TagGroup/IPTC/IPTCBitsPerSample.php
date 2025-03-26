@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IPTCBitsPerSample extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:IPTCBitsPerSample';
 
-  protected string $id = 'IPTC:IPTCBitsPerSample';
+    protected string $name = 'IPTCBitsPerSample';
 
-  protected string $name = 'IPTCBitsPerSample';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::NewsPhoto
+             * line : 151633
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::NewsPhoto.IPTC:IPTCBitsPerSample',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::NewsPhoto
-       * line : 151633
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::NewsPhoto.IPTC:IPTCBitsPerSample',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

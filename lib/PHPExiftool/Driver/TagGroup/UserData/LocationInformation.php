@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LocationInformation extends AbstractTagGroup
 {
+    protected string $id = 'UserData:LocationInformation';
 
-  protected string $id = 'UserData:LocationInformation';
+    protected string $name = 'LocationInformation';
 
-  protected string $name = 'LocationInformation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 325521
+             * type : undef
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'QuickTime::UserData.UserData:LocationInformation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 325521
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'QuickTime::UserData.UserData:LocationInformation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

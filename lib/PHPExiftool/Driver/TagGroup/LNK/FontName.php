@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FontName extends AbstractTagGroup
 {
+    protected string $id = 'LNK:FontName';
 
-  protected string $id = 'LNK:FontName';
+    protected string $name = 'FontName';
 
-  protected string $name = 'FontName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::ConsoleData
+             * line : 161007
+             * type : undef
+             * writable : false
+             * count : 64
+             * flags :
+             */
+            'id' => 'LNK::ConsoleData.LNK:FontName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::ConsoleData
-       * line : 161007
-       * type : undef
-       * writable : false
-       * count : 64
-       * flags : 
-       */
-      'id' => 'LNK::ConsoleData.LNK:FontName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 64;
-
+    protected int $count = 64;
 }

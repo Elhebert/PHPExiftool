@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CodecName extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:CodecName';
 
-  protected string $id = 'Matroska:CodecName';
+    protected string $name = 'CodecName';
 
-  protected string $name = 'CodecName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Main
+             * line : 173968
+             * type : utf8
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Matroska::Main.Matroska:CodecName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Main
-       * line : 173968
-       * type : utf8
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Matroska::Main.Matroska:CodecName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

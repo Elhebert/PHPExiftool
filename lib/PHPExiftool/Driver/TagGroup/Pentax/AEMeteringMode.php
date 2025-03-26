@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AEMeteringMode extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:AEMeteringMode';
 
-  protected string $id = 'Pentax:AEMeteringMode';
+    protected string $name = 'AEMeteringMode';
 
-  protected string $name = 'AEMeteringMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::AEInfo
+             * line : 282936
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::AEInfo.Pentax:AEMeteringMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::AEInfo
-       * line : 282936
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::AEInfo.Pentax:AEMeteringMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IngredientsManageUI extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpMM:IngredientsManageUI';
 
-  protected string $id = 'XMP-xmpMM:IngredientsManageUI';
+    protected string $name = 'IngredientsManageUI';
 
-  protected string $name = 'IngredientsManageUI';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpMM
+             * line : 413941
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsManageUI',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpMM
-       * line : 413941
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsManageUI',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageProcessingVersion extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ImageProcessingVersion';
 
-  protected string $id = 'Olympus:ImageProcessingVersion';
+    protected string $name = 'ImageProcessingVersion';
 
-  protected string $name = 'ImageProcessingVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::ImageProcessing
+             * line : 255147
+             * type : undef
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Olympus::ImageProcessing.Olympus:ImageProcessingVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::ImageProcessing
-       * line : 255147
-       * type : undef
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Olympus::ImageProcessing.Olympus:ImageProcessingVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MetadataSize extends AbstractTagGroup
 {
+    protected string $id = 'File:MetadataSize';
 
-  protected string $id = 'File:MetadataSize';
+    protected string $name = 'MetadataSize';
 
-  protected string $name = 'MetadataSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166394
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:MetadataSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166394
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:MetadataSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

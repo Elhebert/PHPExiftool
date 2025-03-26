@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorBW extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:ColorBW';
 
-  protected string $id = 'CanonRaw:ColorBW';
+    protected string $name = 'ColorBW';
 
-  protected string $name = 'ColorBW';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::ImageInfo
+             * line : 78633
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::ImageInfo.CanonRaw:ColorBW',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::ImageInfo
-       * line : 78633
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::ImageInfo.CanonRaw:ColorBW',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

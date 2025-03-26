@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExternalLeading extends AbstractTagGroup
 {
+    protected string $id = 'Font:ExternalLeading';
 
-  protected string $id = 'Font:ExternalLeading';
+    protected string $name = 'ExternalLeading';
 
-  protected string $name = 'ExternalLeading';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::PFM
+             * line : 128034
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PFM.Font:ExternalLeading',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::PFM
-       * line : 128034
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PFM.Font:ExternalLeading',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

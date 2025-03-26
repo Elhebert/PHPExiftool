@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReferencedNonImageCompositeSOPSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ReferencedNonImageCompositeSOPSeq';
 
-  protected string $id = 'DICOM:ReferencedNonImageCompositeSOPSeq';
+    protected string $name = 'ReferencedNonImageCompositeSOPSeq';
 
-  protected string $name = 'ReferencedNonImageCompositeSOPSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99645
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ReferencedNonImageCompositeSOPSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99645
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ReferencedNonImageCompositeSOPSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

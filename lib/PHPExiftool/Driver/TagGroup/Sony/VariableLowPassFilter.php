@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VariableLowPassFilter extends AbstractTagGroup
 {
+    protected string $id = 'Sony:VariableLowPassFilter';
 
-  protected string $id = 'Sony:VariableLowPassFilter';
+    protected string $name = 'VariableLowPassFilter';
 
-  protected string $name = 'VariableLowPassFilter';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 355715
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:VariableLowPassFilter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 355715
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:VariableLowPassFilter',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

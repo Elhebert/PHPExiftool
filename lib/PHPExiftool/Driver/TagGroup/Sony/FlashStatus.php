@@ -19,88 +19,86 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashStatus extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FlashStatus';
 
-  protected string $id = 'Sony:FlashStatus';
+    protected string $name = 'FlashStatus';
 
-  protected string $name = 'FlashStatus';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 361166
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:FlashStatus',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 361183
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:FlashStatus',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::Tag9050a
+             * line : 379082
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9050a.Sony:FlashStatus',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::Tag9050b
+             * line : 381304
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9050b.Sony:FlashStatus',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : Sony::Tag9050c
+             * line : 383719
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9050c.Sony:FlashStatus',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 361166
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:FlashStatus',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 361183
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:FlashStatus',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::Tag9050a
-       * line : 379082
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9050a.Sony:FlashStatus',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::Tag9050b
-       * line : 381304
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9050b.Sony:FlashStatus',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : Sony::Tag9050c
-       * line : 383719
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9050c.Sony:FlashStatus',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HandlerVendorID extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:HandlerVendorID';
 
-  protected string $id = 'QuickTime:HandlerVendorID';
+    protected string $name = 'HandlerVendorID';
 
-  protected string $name = 'HandlerVendorID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Handler
+             * line : 313643
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'QuickTime::Handler.QuickTime:HandlerVendorID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Handler
-       * line : 313643
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'QuickTime::Handler.QuickTime:HandlerVendorID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

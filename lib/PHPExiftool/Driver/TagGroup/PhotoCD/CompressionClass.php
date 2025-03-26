@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompressionClass extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:CompressionClass';
 
-  protected string $id = 'PhotoCD:CompressionClass';
+    protected string $name = 'CompressionClass';
 
-  protected string $name = 'CompressionClass';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 304657
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:CompressionClass',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 304657
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:CompressionClass',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

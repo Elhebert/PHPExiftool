@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Certificate extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Certificate';
 
-  protected string $id = 'QuickTime:Certificate';
+    protected string $name = 'Certificate';
 
-  protected string $name = 'Certificate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::SchemeInfo
+             * line : 324463
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::SchemeInfo.QuickTime:Certificate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::SchemeInfo
-       * line : 324463
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::SchemeInfo.QuickTime:Certificate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

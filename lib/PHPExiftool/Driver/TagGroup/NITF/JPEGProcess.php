@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JPEGProcess extends AbstractTagGroup
 {
+    protected string $id = 'NITF:JPEGProcess';
 
-  protected string $id = 'NITF:JPEGProcess';
+    protected string $name = 'JPEGProcess';
 
-  protected string $name = 'JPEGProcess';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::NITF
+             * line : 152813
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::NITF.NITF:JPEGProcess',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::NITF
-       * line : 152813
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::NITF.NITF:JPEGProcess',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

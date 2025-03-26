@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Producer extends AbstractTagGroup
 {
+    protected string $id = 'HTML-ncc:Producer';
 
-  protected string $id = 'HTML-ncc:Producer';
+    protected string $name = 'Producer';
 
-  protected string $name = 'Producer';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::ncc
+             * line : 143003
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'HTML::ncc.HTML-ncc:Producer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::ncc
-       * line : 143003
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'HTML::ncc.HTML-ncc:Producer',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

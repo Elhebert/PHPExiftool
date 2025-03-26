@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NamespaceURIs extends AbstractTagGroup
 {
+    protected string $id = 'MXF:NamespaceURIs';
 
-  protected string $id = 'MXF:NamespaceURIs';
+    protected string $name = 'NamespaceURIs';
 
-  protected string $name = 'NamespaceURIs';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171881
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:NamespaceURIs',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171884
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:NamespaceURIs',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171881
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:NamespaceURIs',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171884
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:NamespaceURIs',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraDepthMapMeasureType extends AbstractTagGroup
 {
+    protected string $id = 'XMP-Device:CameraDepthMapMeasureType';
 
-  protected string $id = 'XMP-Device:CameraDepthMapMeasureType';
+    protected string $name = 'CameraDepthMapMeasureType';
 
-  protected string $name = 'CameraDepthMapMeasureType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::Device
+             * line : 396546
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::Device.XMP-Device:CameraDepthMapMeasureType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::Device
-       * line : 396546
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::Device.XMP-Device:CameraDepthMapMeasureType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

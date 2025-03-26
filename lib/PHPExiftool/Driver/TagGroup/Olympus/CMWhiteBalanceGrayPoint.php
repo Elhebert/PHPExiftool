@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CMWhiteBalanceGrayPoint extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:CMWhiteBalanceGrayPoint';
 
-  protected string $id = 'Olympus:CMWhiteBalanceGrayPoint';
+    protected string $name = 'CMWhiteBalanceGrayPoint';
 
-  protected string $name = 'CMWhiteBalanceGrayPoint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::RawInfo
+             * line : 261239
+             * type : int16u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawInfo.Olympus:CMWhiteBalanceGrayPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::RawInfo
-       * line : 261239
-       * type : int16u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawInfo.Olympus:CMWhiteBalanceGrayPoint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

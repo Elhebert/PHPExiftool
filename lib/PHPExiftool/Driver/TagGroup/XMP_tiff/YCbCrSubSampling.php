@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class YCbCrSubSampling extends AbstractTagGroup
 {
+    protected string $id = 'XMP-tiff:YCbCrSubSampling';
 
-  protected string $id = 'XMP-tiff:YCbCrSubSampling';
+    protected string $name = 'YCbCrSubSampling';
 
-  protected string $name = 'YCbCrSubSampling';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::tiff
+             * line : 412483
+             * type : integer
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::tiff.XMP-tiff:YCbCrSubSampling',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::tiff
-       * line : 412483
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::tiff.XMP-tiff:YCbCrSubSampling',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

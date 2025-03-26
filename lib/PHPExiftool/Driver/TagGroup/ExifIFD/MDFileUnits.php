@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MDFileUnits extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:MDFileUnits';
 
-  protected string $id = 'ExifIFD:MDFileUnits';
+    protected string $name = 'MDFileUnits';
 
-  protected string $name = 'MDFileUnits';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 113102
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:MDFileUnits',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 113102
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:MDFileUnits',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Func4Button extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:Func4Button';
 
-  protected string $id = 'NikonCustom:Func4Button';
+    protected string $name = 'Func4Button';
 
-  protected string $name = 'Func4Button';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsZ9
+             * line : 239412
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'NikonCustom::SettingsZ9.NikonCustom:Func4Button',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsZ9
-       * line : 239412
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'NikonCustom::SettingsZ9.NikonCustom:Func4Button',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

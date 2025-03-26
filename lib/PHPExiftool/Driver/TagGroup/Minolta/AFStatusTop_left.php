@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFStatusTop_left extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:AFStatusTop-left';
 
-  protected string $id = 'Minolta:AFStatusTop-left';
+    protected string $name = 'AFStatusTop-left';
 
-  protected string $name = 'AFStatusTop-left';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraInfoA100
+             * line : 176813
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraInfoA100.Minolta:AFStatusTop-left',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraInfoA100
-       * line : 176813
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraInfoA100.Minolta:AFStatusTop-left',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

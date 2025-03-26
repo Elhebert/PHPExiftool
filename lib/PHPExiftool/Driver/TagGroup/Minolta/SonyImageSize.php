@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SonyImageSize extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:SonyImageSize';
 
-  protected string $id = 'Minolta:SonyImageSize';
+    protected string $name = 'SonyImageSize';
 
-  protected string $name = 'SonyImageSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraSettingsA100
+             * line : 181484
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettingsA100.Minolta:SonyImageSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraSettingsA100
-       * line : 181484
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettingsA100.Minolta:SonyImageSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

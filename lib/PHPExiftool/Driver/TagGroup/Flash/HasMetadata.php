@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HasMetadata extends AbstractTagGroup
 {
+    protected string $id = 'Flash:HasMetadata';
 
-  protected string $id = 'Flash:HasMetadata';
+    protected string $name = 'HasMetadata';
 
-  protected string $name = 'HasMetadata';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Flash::Meta
+             * line : 124106
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Flash::Meta.Flash:HasMetadata',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Flash::Meta
-       * line : 124106
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Flash::Meta.Flash:HasMetadata',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

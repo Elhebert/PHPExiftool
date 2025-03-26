@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageFormatSet extends AbstractTagGroup
 {
+    protected string $id = 'MXF:ImageFormatSet';
 
-  protected string $id = 'MXF:ImageFormatSet';
+    protected string $name = 'ImageFormatSet';
 
-  protected string $name = 'ImageFormatSet';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171463
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'MXF::Main.MXF:ImageFormatSet',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171463
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'MXF::Main.MXF:ImageFormatSet',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

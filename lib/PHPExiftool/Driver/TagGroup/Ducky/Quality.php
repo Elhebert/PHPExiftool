@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Quality extends AbstractTagGroup
 {
+    protected string $id = 'Ducky:Quality';
 
-  protected string $id = 'Ducky:Quality';
+    protected string $name = 'Quality';
 
-  protected string $name = 'Quality';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APP12::Ducky
+             * line : 452
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'APP12::Ducky.Ducky:Quality',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APP12::Ducky
-       * line : 452
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'APP12::Ducky.Ducky:Quality',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

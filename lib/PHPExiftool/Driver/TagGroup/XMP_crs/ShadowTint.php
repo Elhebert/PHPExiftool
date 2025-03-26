@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShadowTint extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:ShadowTint';
 
-  protected string $id = 'XMP-crs:ShadowTint';
+    protected string $name = 'ShadowTint';
 
-  protected string $name = 'ShadowTint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 404351
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::crs.XMP-crs:ShadowTint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 404351
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::crs.XMP-crs:ShadowTint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

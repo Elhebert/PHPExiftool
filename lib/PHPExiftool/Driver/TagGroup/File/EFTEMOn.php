@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EFTEMOn extends AbstractTagGroup
 {
+    protected string $id = 'File:EFTEMOn';
 
-  protected string $id = 'File:EFTEMOn';
+    protected string $name = 'EFTEMOn';
 
-  protected string $name = 'EFTEMOn';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166506
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:EFTEMOn',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166506
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:EFTEMOn',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

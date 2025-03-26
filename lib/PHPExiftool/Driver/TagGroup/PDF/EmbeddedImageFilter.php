@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedImageFilter extends AbstractTagGroup
 {
+    protected string $id = 'PDF:EmbeddedImageFilter';
 
-  protected string $id = 'PDF:EmbeddedImageFilter';
+    protected string $name = 'EmbeddedImageFilter';
 
-  protected string $name = 'EmbeddedImageFilter';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Im
+             * line : 264121
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'PDF::Im.PDF:EmbeddedImageFilter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Im
-       * line : 264121
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'PDF::Im.PDF:EmbeddedImageFilter',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XYOffsetInfo extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:XYOffsetInfo';
 
-  protected string $id = 'Leaf:XYOffsetInfo';
+    protected string $name = 'XYOffsetInfo';
 
-  protected string $name = 'XYOffsetInfo';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::CaptureProfile
+             * line : 161751
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::CaptureProfile.Leaf:XYOffsetInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::CaptureProfile
-       * line : 161751
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::CaptureProfile.Leaf:XYOffsetInfo',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

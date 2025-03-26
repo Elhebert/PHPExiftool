@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISOExpansion extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:ISOExpansion';
 
-  protected string $id = 'CanonCustom:ISOExpansion';
+    protected string $name = 'ISOExpansion';
 
-  protected string $name = 'ISOExpansion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72511
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:ISOExpansion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions20D
+             * line : 75890
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions20D.CanonCustom:ISOExpansion',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : CanonCustom::Functions30D
+             * line : 76411
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions30D.CanonCustom:ISOExpansion',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : CanonCustom::Functions5D
+             * line : 77529
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions5D.CanonCustom:ISOExpansion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72511
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:ISOExpansion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions20D
-       * line : 75890
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions20D.CanonCustom:ISOExpansion',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : CanonCustom::Functions30D
-       * line : 76411
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions30D.CanonCustom:ISOExpansion',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : CanonCustom::Functions5D
-       * line : 77529
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions5D.CanonCustom:ISOExpansion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

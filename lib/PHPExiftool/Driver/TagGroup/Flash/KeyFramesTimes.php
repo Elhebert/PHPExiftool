@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class KeyFramesTimes extends AbstractTagGroup
 {
+    protected string $id = 'Flash:KeyFramesTimes';
 
-  protected string $id = 'Flash:KeyFramesTimes';
+    protected string $name = 'KeyFramesTimes';
 
-  protected string $name = 'KeyFramesTimes';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Flash::Meta
+             * line : 124141
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Flash::Meta.Flash:KeyFramesTimes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Flash::Meta
-       * line : 124141
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Flash::Meta.Flash:KeyFramesTimes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

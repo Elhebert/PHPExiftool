@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EncryptedContentTransferSyntaxUID extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:EncryptedContentTransferSyntaxUID';
 
-  protected string $id = 'DICOM:EncryptedContentTransferSyntaxUID';
+    protected string $name = 'EncryptedContentTransferSyntaxUID';
 
-  protected string $name = 'EncryptedContentTransferSyntaxUID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 101935
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:EncryptedContentTransferSyntaxUID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 101935
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:EncryptedContentTransferSyntaxUID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectType extends AbstractTagGroup
 {
+    protected string $id = 'HTML-vw96:ObjectType';
 
-  protected string $id = 'HTML-vw96:ObjectType';
+    protected string $name = 'ObjectType';
 
-  protected string $name = 'ObjectType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::vw96
+             * line : 143079
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'HTML::vw96.HTML-vw96:ObjectType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::vw96
-       * line : 143079
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'HTML::vw96.HTML-vw96:ObjectType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IntegrationTime extends AbstractTagGroup
 {
+    protected string $id = 'File:IntegrationTime';
 
-  protected string $id = 'File:IntegrationTime';
+    protected string $name = 'IntegrationTime';
 
-  protected string $name = 'IntegrationTime';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166589
+             * type : double
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:IntegrationTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166589
-       * type : double
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:IntegrationTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

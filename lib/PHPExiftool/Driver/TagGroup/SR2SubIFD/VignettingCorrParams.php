@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VignettingCorrParams extends AbstractTagGroup
 {
+    protected string $id = 'SR2SubIFD:VignettingCorrParams';
 
-  protected string $id = 'SR2SubIFD:VignettingCorrParams';
+    protected string $name = 'VignettingCorrParams';
 
-  protected string $name = 'VignettingCorrParams';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::SR2SubIFD
+             * line : 361876
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::SR2SubIFD.SR2SubIFD:VignettingCorrParams',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::SR2SubIFD
-       * line : 361876
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::SR2SubIFD.SR2SubIFD:VignettingCorrParams',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

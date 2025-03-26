@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DefCorK0 extends AbstractTagGroup
 {
+    protected string $id = 'Qualcomm:DefCorK0';
 
-  protected string $id = 'Qualcomm:DefCorK0';
+    protected string $name = 'DefCorK0';
 
-  protected string $name = 'DefCorK0';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Qualcomm::Main
+             * line : 307389
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Qualcomm::Main.Qualcomm:DefCorK0',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Qualcomm::Main
-       * line : 307389
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Qualcomm::Main.Qualcomm:DefCorK0',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaskGroupBasedCorrBrightness extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:MaskGroupBasedCorrBrightness';
 
-  protected string $id = 'XMP-crd:MaskGroupBasedCorrBrightness';
+    protected string $name = 'MaskGroupBasedCorrBrightness';
 
-  protected string $name = 'MaskGroupBasedCorrBrightness';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 400000
+             * type : real
+             * writable : true
+             * count :
+             * flags : avoid,flattened
+             */
+            'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrBrightness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 400000
-       * type : real
-       * writable : true
-       * count : 
-       * flags : avoid,flattened
-       */
-      'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrBrightness',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Genre extends AbstractTagGroup
 {
+    protected string $id = 'Vorbis:Genre';
 
-  protected string $id = 'Vorbis:Genre';
+    protected string $name = 'Genre';
 
-  protected string $name = 'Genre';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Vorbis::Comments
+             * line : 395807
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Vorbis::Comments.Vorbis:Genre',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Vorbis::Comments
-       * line : 395807
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Vorbis::Comments.Vorbis:Genre',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

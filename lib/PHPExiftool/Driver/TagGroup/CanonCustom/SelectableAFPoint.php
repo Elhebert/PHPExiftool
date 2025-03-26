@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SelectableAFPoint extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:SelectableAFPoint';
 
-  protected string $id = 'CanonCustom:SelectableAFPoint';
+    protected string $name = 'SelectableAFPoint';
 
-  protected string $name = 'SelectableAFPoint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 73837
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:SelectableAFPoint',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 73877
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:SelectableAFPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 73837
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:SelectableAFPoint',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 73877
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:SelectableAFPoint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

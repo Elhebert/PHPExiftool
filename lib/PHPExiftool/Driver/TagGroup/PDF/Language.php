@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Language extends AbstractTagGroup
 {
+    protected string $id = 'PDF:Language';
 
-  protected string $id = 'PDF:Language';
+    protected string $name = 'Language';
 
-  protected string $name = 'Language';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Root
+             * line : 264325
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::Root.PDF:Language',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Root
-       * line : 264325
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::Root.PDF:Language',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

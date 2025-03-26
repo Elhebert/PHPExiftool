@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PeripheralIllumCentralValue extends AbstractTagGroup
 {
+    protected string $id = 'SonyIDC:PeripheralIllumCentralValue';
 
-  protected string $id = 'SonyIDC:PeripheralIllumCentralValue';
+    protected string $name = 'PeripheralIllumCentralValue';
 
-  protected string $name = 'PeripheralIllumCentralValue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SonyIDC::Main
+             * line : 394322
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'SonyIDC::Main.SonyIDC:PeripheralIllumCentralValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SonyIDC::Main
-       * line : 394322
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'SonyIDC::Main.SonyIDC:PeripheralIllumCentralValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

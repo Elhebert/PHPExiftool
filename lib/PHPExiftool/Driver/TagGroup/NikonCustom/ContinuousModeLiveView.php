@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContinuousModeLiveView extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:ContinuousModeLiveView';
 
-  protected string $id = 'NikonCustom:ContinuousModeLiveView';
+    protected string $name = 'ContinuousModeLiveView';
 
-  protected string $name = 'ContinuousModeLiveView';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD850
+             * line : 233721
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD850.NikonCustom:ContinuousModeLiveView',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD850
-       * line : 233721
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD850.NikonCustom:ContinuousModeLiveView',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

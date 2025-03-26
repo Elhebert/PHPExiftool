@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SourceURL extends AbstractTagGroup
 {
+    protected string $id = 'ID3v2_2:SourceURL';
 
-  protected string $id = 'ID3v2_2:SourceURL';
+    protected string $name = 'SourceURL';
 
-  protected string $name = 'SourceURL';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v2_2
+             * line : 148509
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_2.ID3v2_2:SourceURL',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v2_2
-       * line : 148509
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_2.ID3v2_2:SourceURL',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

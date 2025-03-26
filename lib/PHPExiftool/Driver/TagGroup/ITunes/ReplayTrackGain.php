@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReplayTrackGain extends AbstractTagGroup
 {
+    protected string $id = 'iTunes:ReplayTrackGain';
 
-  protected string $id = 'iTunes:ReplayTrackGain';
+    protected string $name = 'ReplayTrackGain';
 
-  protected string $name = 'ReplayTrackGain';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::iTunesInfo
+             * line : 326707
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::iTunesInfo.iTunes:ReplayTrackGain',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::iTunesInfo
-       * line : 326707
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::iTunesInfo.iTunes:ReplayTrackGain',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Meas1Label extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:Meas1Label';
 
-  protected string $id = 'FLIR:Meas1Label';
+    protected string $name = 'Meas1Label';
 
-  protected string $name = 'Meas1Label';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::MeasInfo
+             * line : 123232
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::MeasInfo.FLIR:Meas1Label',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::MeasInfo
-       * line : 123232
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::MeasInfo.FLIR:Meas1Label',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JPGCompression extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:JPGCompression';
 
-  protected string $id = 'Nikon:JPGCompression';
+    protected string $name = 'JPGCompression';
 
-  protected string $name = 'JPGCompression';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ShotInfoD500
+             * line : 207136
+             * type : ?
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::ShotInfoD500.Nikon:JPGCompression',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ShotInfoD500
-       * line : 207136
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::ShotInfoD500.Nikon:JPGCompression',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

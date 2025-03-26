@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxApertureValue extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:MaxApertureValue';
 
-  protected string $id = 'FlashPix:MaxApertureValue';
+    protected string $name = 'MaxApertureValue';
 
-  protected string $name = 'MaxApertureValue';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::ImageInfo
+             * line : 125921
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::ImageInfo.FlashPix:MaxApertureValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::ImageInfo
-       * line : 125921
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::ImageInfo.FlashPix:MaxApertureValue',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

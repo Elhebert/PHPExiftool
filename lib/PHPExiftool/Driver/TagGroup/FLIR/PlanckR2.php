@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PlanckR2 extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:PlanckR2';
 
-  protected string $id = 'FLIR:PlanckR2';
+    protected string $name = 'PlanckR2';
 
-  protected string $name = 'PlanckR2';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122316
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:PlanckR2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122316
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:PlanckR2',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

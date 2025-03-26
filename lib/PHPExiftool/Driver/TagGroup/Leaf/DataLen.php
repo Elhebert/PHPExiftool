@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataLen extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:DataLen';
 
-  protected string $id = 'Leaf:DataLen';
+    protected string $name = 'DataLen';
 
-  protected string $name = 'DataLen';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::Sharpness
+             * line : 162075
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::Sharpness.Leaf:DataLen',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::Sharpness
-       * line : 162075
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::Sharpness.Leaf:DataLen',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

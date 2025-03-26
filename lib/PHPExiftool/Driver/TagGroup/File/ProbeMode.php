@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProbeMode extends AbstractTagGroup
 {
+    protected string $id = 'File:ProbeMode';
 
-  protected string $id = 'File:ProbeMode';
+    protected string $name = 'ProbeMode';
 
-  protected string $name = 'ProbeMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166495
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:ProbeMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166495
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:ProbeMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

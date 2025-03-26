@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSImgDirection extends AbstractTagGroup
 {
+    protected string $id = 'GPS:GPSImgDirection';
 
-  protected string $id = 'GPS:GPSImgDirection';
+    protected string $name = 'GPSImgDirection';
 
-  protected string $name = 'GPSImgDirection';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GPS::Main
+             * line : 132303
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'GPS::Main.GPS:GPSImgDirection',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 141893
+             * type : rational32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.GPS:GPSImgDirection',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::NCTG
+             * line : 203069
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::NCTG.GPS:GPSImgDirection',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GPS::Main
-       * line : 132303
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'GPS::Main.GPS:GPSImgDirection',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 141893
-       * type : rational32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.GPS:GPSImgDirection',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::NCTG
-       * line : 203069
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::NCTG.GPS:GPSImgDirection',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

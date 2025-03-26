@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MeasurementFlare extends AbstractTagGroup
 {
+    protected string $id = 'ICC-meas:MeasurementFlare';
 
-  protected string $id = 'ICC-meas:MeasurementFlare';
+    protected string $name = 'MeasurementFlare';
 
-  protected string $name = 'MeasurementFlare';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Measurement
+             * line : 146971
+             * type : fixed32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementFlare',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Measurement
-       * line : 146971
-       * type : fixed32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementFlare',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

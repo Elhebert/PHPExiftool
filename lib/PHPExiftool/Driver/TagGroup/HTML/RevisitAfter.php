@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RevisitAfter extends AbstractTagGroup
 {
+    protected string $id = 'HTML:RevisitAfter';
 
-  protected string $id = 'HTML:RevisitAfter';
+    protected string $name = 'RevisitAfter';
 
-  protected string $name = 'RevisitAfter';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::Main
+             * line : 142480
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'HTML::Main.HTML:RevisitAfter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::Main
-       * line : 142480
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'HTML::Main.HTML:RevisitAfter',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

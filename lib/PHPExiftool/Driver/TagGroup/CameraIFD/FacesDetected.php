@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FacesDetected extends AbstractTagGroup
 {
+    protected string $id = 'CameraIFD:FacesDetected';
 
-  protected string $id = 'CameraIFD:FacesDetected';
+    protected string $name = 'FacesDetected';
 
-  protected string $name = 'FacesDetected';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::CameraIFD
+             * line : 279818
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::CameraIFD.CameraIFD:FacesDetected',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::CameraIFD
-       * line : 279818
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::CameraIFD.CameraIFD:FacesDetected',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TrackCreateDate extends AbstractTagGroup
 {
+    protected string $id = 'Track#:TrackCreateDate';
 
-  protected string $id = 'Track#:TrackCreateDate';
+    protected string $name = 'TrackCreateDate';
 
-  protected string $name = 'TrackCreateDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::TrackHeader
+             * line : 325058
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'QuickTime::TrackHeader.Track#:TrackCreateDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::TrackHeader
-       * line : 325058
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'QuickTime::TrackHeader.Track#:TrackCreateDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Model extends AbstractTagGroup
 {
+    protected string $id = 'H264:Model';
 
-  protected string $id = 'H264:Model';
+    protected string $name = 'Model';
 
-  protected string $name = 'Model';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 141947
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.H264:Model',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 141947
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.H264:Model',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

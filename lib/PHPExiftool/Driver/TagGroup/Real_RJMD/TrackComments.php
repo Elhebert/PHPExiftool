@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TrackComments extends AbstractTagGroup
 {
+    protected string $id = 'Real-RJMD:TrackComments';
 
-  protected string $id = 'Real-RJMD:TrackComments';
+    protected string $name = 'TrackComments';
 
-  protected string $name = 'TrackComments';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::Metadata
+             * line : 330470
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::Metadata.Real-RJMD:TrackComments',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::Metadata
-       * line : 330470
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::Metadata.Real-RJMD:TrackComments',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

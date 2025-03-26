@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MeteringMode3 extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:MeteringMode3';
 
-  protected string $id = 'Pentax:MeteringMode3';
+    protected string $name = 'MeteringMode3';
 
-  protected string $name = 'MeteringMode3';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::CameraSettings
+             * line : 285351
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::CameraSettings.Pentax:MeteringMode3',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::CameraSettings
-       * line : 285351
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::CameraSettings.Pentax:MeteringMode3',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

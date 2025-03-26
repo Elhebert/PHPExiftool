@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SaveObjName extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:SaveObjName';
 
-  protected string $id = 'Leaf:SaveObjName';
+    protected string $name = 'SaveObjName';
 
-  protected string $name = 'SaveObjName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::SaveSetup
+             * line : 161973
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::SaveSetup.Leaf:SaveObjName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::SaveSetup
-       * line : 161973
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::SaveSetup.Leaf:SaveObjName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

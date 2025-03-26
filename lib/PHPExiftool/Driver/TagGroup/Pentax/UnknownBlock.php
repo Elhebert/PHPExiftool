@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownBlock extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:UnknownBlock';
 
-  protected string $id = 'Pentax:UnknownBlock';
+    protected string $name = 'UnknownBlock';
 
-  protected string $name = 'UnknownBlock';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300937
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Pentax::Main.Pentax:UnknownBlock',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300937
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Pentax::Main.Pentax:UnknownBlock',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2086;
-
+    protected int $flags = 2086;
 }

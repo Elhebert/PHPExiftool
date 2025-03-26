@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AntibandingEnable extends AbstractTagGroup
 {
+    protected string $id = 'Qualcomm:AntibandingEnable';
 
-  protected string $id = 'Qualcomm:AntibandingEnable';
+    protected string $name = 'AntibandingEnable';
 
-  protected string $name = 'AntibandingEnable';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Qualcomm::Main
+             * line : 306669
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Qualcomm::Main.Qualcomm:AntibandingEnable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Qualcomm::Main
-       * line : 306669
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Qualcomm::Main.Qualcomm:AntibandingEnable',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

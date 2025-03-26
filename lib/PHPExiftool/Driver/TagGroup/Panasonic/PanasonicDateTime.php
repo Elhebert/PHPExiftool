@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PanasonicDateTime extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:PanasonicDateTime';
 
-  protected string $id = 'Panasonic:PanasonicDateTime';
+    protected string $name = 'PanasonicDateTime';
 
-  protected string $name = 'PanasonicDateTime';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::TimeInfo
+             * line : 279655
+             * type : undef
+             * writable : true
+             * count : 8
+             * flags : permanent
+             */
+            'id' => 'Panasonic::TimeInfo.Panasonic:PanasonicDateTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::TimeInfo
-       * line : 279655
-       * type : undef
-       * writable : true
-       * count : 8
-       * flags : permanent
-       */
-      'id' => 'Panasonic::TimeInfo.Panasonic:PanasonicDateTime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

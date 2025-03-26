@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToneCurveOutputRange extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:ToneCurveOutputRange';
 
-  protected string $id = 'CanonVRD:ToneCurveOutputRange';
+    protected string $name = 'ToneCurveOutputRange';
 
-  protected string $name = 'ToneCurveOutputRange';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::ToneCurve
+             * line : 82144
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'CanonVRD::ToneCurve.CanonVRD:ToneCurveOutputRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::ToneCurve
-       * line : 82144
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'CanonVRD::ToneCurve.CanonVRD:ToneCurveOutputRange',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

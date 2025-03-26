@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataOnScreenRegionX extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:DataOnScreenRegionX';
 
-  protected string $id = 'XMP-iptcExt:DataOnScreenRegionX';
+    protected string $name = 'DataOnScreenRegionX';
 
-  protected string $name = 'DataOnScreenRegionX';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409237
+             * type : real
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:DataOnScreenRegionX',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409237
-       * type : real
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:DataOnScreenRegionX',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

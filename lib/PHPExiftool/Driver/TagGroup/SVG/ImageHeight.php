@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'SVG:ImageHeight';
 
-  protected string $id = 'SVG:ImageHeight';
+    protected string $name = 'ImageHeight';
 
-  protected string $name = 'ImageHeight';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::SVG
+             * line : 397524
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::SVG.SVG:ImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::SVG
-       * line : 397524
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::SVG.SVG:ImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

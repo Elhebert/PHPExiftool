@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UserID extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:UserID';
 
-  protected string $id = 'QuickTime:UserID';
+    protected string $name = 'UserID';
 
-  protected string $name = 'UserID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::SchemeInfo
+             * line : 324478
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::SchemeInfo.QuickTime:UserID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::SchemeInfo
-       * line : 324478
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::SchemeInfo.QuickTime:UserID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

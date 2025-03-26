@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IDCPreviewStart extends AbstractTagGroup
 {
+    protected string $id = 'SonyIDC:IDCPreviewStart';
 
-  protected string $id = 'SonyIDC:IDCPreviewStart';
+    protected string $name = 'IDCPreviewStart';
 
-  protected string $name = 'IDCPreviewStart';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SonyIDC::Main
+             * line : 393976
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent,protected
+             */
+            'id' => 'SonyIDC::Main.SonyIDC:IDCPreviewStart',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SonyIDC::Main
-       * line : 393976
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent,protected
-       */
-      'id' => 'SonyIDC::Main.SonyIDC:IDCPreviewStart',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2060;
-
+    protected int $flags = 2060;
 }

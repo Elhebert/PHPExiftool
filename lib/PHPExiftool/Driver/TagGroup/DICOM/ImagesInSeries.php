@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImagesInSeries extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ImagesInSeries';
 
-  protected string $id = 'DICOM:ImagesInSeries';
+    protected string $name = 'ImagesInSeries';
 
-  protected string $name = 'ImagesInSeries';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 97970
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ImagesInSeries',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98468
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ImagesInSeries',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 97970
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ImagesInSeries',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98468
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ImagesInSeries',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

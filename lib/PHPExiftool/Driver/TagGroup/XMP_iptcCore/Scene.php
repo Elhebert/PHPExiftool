@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Scene extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcCore:Scene';
 
-  protected string $id = 'XMP-iptcCore:Scene';
+    protected string $name = 'Scene';
 
-  protected string $name = 'Scene';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcCore
+             * line : 409039
+             * type : string
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'XMP::iptcCore.XMP-iptcCore:Scene',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcCore
-       * line : 409039
-       * type : string
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'XMP::iptcCore.XMP-iptcCore:Scene',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XYLocation extends AbstractTagGroup
 {
+    protected string $id = 'MNG:XYLocation';
 
-  protected string $id = 'MNG:XYLocation';
+    protected string $name = 'XYLocation';
 
-  protected string $name = 'XYLocation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::DefineObject
+             * line : 164756
+             * type : int32u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'MNG::DefineObject.MNG:XYLocation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::DefineObject
-       * line : 164756
-       * type : int32u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'MNG::DefineObject.MNG:XYLocation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

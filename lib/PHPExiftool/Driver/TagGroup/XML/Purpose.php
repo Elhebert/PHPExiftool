@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Purpose extends AbstractTagGroup
 {
+    protected string $id = 'XML:Purpose';
 
-  protected string $id = 'XML:Purpose';
+    protected string $name = 'Purpose';
 
-  protected string $name = 'Purpose';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OOXML::Main
+             * line : 249228
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OOXML::Main.XML:Purpose',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OOXML::Main
-       * line : 249228
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OOXML::Main.XML:Purpose',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

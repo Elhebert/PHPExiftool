@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashControl extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FlashControl';
 
-  protected string $id = 'Sony:FlashControl';
+    protected string $name = 'FlashControl';
 
-  protected string $name = 'FlashControl';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings
+             * line : 347484
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings.Sony:FlashControl',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::CameraSettings2
+             * line : 348951
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings2.Sony:FlashControl',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 350609
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:FlashControl',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings
-       * line : 347484
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings.Sony:FlashControl',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::CameraSettings2
-       * line : 348951
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings2.Sony:FlashControl',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 350609
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:FlashControl',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

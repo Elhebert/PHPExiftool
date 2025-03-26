@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioEncoding extends AbstractTagGroup
 {
+    protected string $id = 'Flash:AudioEncoding';
 
-  protected string $id = 'Flash:AudioEncoding';
+    protected string $name = 'AudioEncoding';
 
-  protected string $name = 'AudioEncoding';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Flash::Audio
+             * line : 123787
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Flash::Audio.Flash:AudioEncoding',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Flash::Audio
-       * line : 123787
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Flash::Audio.Flash:AudioEncoding',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

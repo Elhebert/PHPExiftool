@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProgID extends AbstractTagGroup
 {
+    protected string $id = 'HTML:ProgID';
 
-  protected string $id = 'HTML:ProgID';
+    protected string $name = 'ProgID';
 
-  protected string $name = 'ProgID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::Main
+             * line : 142450
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'HTML::Main.HTML:ProgID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::Main
-       * line : 142450
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'HTML::Main.HTML:ProgID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

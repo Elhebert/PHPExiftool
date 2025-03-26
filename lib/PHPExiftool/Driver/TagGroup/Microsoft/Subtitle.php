@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Subtitle extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:Subtitle';
 
-  protected string $id = 'Microsoft:Subtitle';
+    protected string $name = 'Subtitle';
 
-  protected string $name = 'Subtitle';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175215
+             * type : Unicode
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:Subtitle',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175766
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:Subtitle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175215
-       * type : Unicode
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:Subtitle',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175766
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:Subtitle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

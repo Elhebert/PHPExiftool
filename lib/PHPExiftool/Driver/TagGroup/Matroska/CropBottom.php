@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropBottom extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:CropBottom';
 
-  protected string $id = 'Matroska:CropBottom';
+    protected string $name = 'CropBottom';
 
-  protected string $name = 'CropBottom';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Main
+             * line : 173656
+             * type : unsigned
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Matroska::Main.Matroska:CropBottom',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Main
-       * line : 173656
-       * type : unsigned
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Matroska::Main.Matroska:CropBottom',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

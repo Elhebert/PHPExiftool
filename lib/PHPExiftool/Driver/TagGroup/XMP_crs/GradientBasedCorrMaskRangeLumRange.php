@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GradientBasedCorrMaskRangeLumRange extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:GradientBasedCorrMaskRangeLumRange';
 
-  protected string $id = 'XMP-crs:GradientBasedCorrMaskRangeLumRange';
+    protected string $name = 'GradientBasedCorrMaskRangeLumRange';
 
-  protected string $name = 'GradientBasedCorrMaskRangeLumRange';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 402352
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskRangeLumRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 402352
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskRangeLumRange',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

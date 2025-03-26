@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NikonCaptureData extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:NikonCaptureData';
 
-  protected string $id = 'Nikon:NikonCaptureData';
+    protected string $name = 'NikonCaptureData';
 
-  protected string $name = 'NikonCaptureData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::Main
+             * line : 199579
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Nikon::Main.Nikon:NikonCaptureData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::Main
-       * line : 199579
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Nikon::Main.Nikon:NikonCaptureData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImage extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:PreviewImage';
 
-  protected string $id = 'SigmaRaw:PreviewImage';
+    protected string $name = 'PreviewImage';
 
-  protected string $name = 'PreviewImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Main
+             * line : 339583
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'SigmaRaw::Main.SigmaRaw:PreviewImage',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : SigmaRaw::Main
+             * line : 339602
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'SigmaRaw::Main.SigmaRaw:PreviewImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Main
-       * line : 339583
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'SigmaRaw::Main.SigmaRaw:PreviewImage',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : SigmaRaw::Main
-       * line : 339602
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'SigmaRaw::Main.SigmaRaw:PreviewImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

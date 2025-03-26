@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFFineTuneIndex extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:AFFineTuneIndex';
 
-  protected string $id = 'Nikon:AFFineTuneIndex';
+    protected string $name = 'AFFineTuneIndex';
 
-  protected string $name = 'AFFineTuneIndex';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AFTune
+             * line : 191087
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFTune.Nikon:AFFineTuneIndex',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AFTune
-       * line : 191087
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFTune.Nikon:AFFineTuneIndex',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

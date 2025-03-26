@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HDVideo extends AbstractTagGroup
 {
+    protected string $id = 'ItemList:HDVideo';
 
-  protected string $id = 'ItemList:HDVideo';
+    protected string $name = 'HDVideo';
 
-  protected string $name = 'HDVideo';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 322203
+             * type : int8s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ItemList.ItemList:HDVideo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 322203
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ItemList.ItemList:HDVideo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

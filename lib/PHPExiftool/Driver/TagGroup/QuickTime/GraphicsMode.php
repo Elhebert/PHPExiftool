@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GraphicsMode extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GraphicsMode';
 
-  protected string $id = 'QuickTime:GraphicsMode';
+    protected string $name = 'GraphicsMode';
 
-  protected string $name = 'GraphicsMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::VideoHeader
+             * line : 326130
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::VideoHeader.QuickTime:GraphicsMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::VideoHeader
-       * line : 326130
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::VideoHeader.QuickTime:GraphicsMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

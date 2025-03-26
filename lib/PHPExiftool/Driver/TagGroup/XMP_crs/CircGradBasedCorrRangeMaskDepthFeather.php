@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CircGradBasedCorrRangeMaskDepthFeather extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:CircGradBasedCorrRangeMaskDepthFeather';
 
-  protected string $id = 'XMP-crs:CircGradBasedCorrRangeMaskDepthFeather';
+    protected string $name = 'CircGradBasedCorrRangeMaskDepthFeather';
 
-  protected string $name = 'CircGradBasedCorrRangeMaskDepthFeather';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 401902
+             * type : real
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrRangeMaskDepthFeather',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 401902
-       * type : real
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrRangeMaskDepthFeather',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BuildDate extends AbstractTagGroup
 {
+    protected string $id = 'EXE:BuildDate';
 
-  protected string $id = 'EXE:BuildDate';
+    protected string $name = 'BuildDate';
 
-  protected string $name = 'BuildDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::PEString
+             * line : 109002
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::PEString.EXE:BuildDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::PEString
-       * line : 109002
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::PEString.EXE:BuildDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

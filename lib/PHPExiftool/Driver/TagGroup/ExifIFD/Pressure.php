@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Pressure extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:Pressure';
 
-  protected string $id = 'ExifIFD:Pressure';
+    protected string $name = 'Pressure';
 
-  protected string $name = 'Pressure';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 116319
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:Pressure',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 116319
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:Pressure',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

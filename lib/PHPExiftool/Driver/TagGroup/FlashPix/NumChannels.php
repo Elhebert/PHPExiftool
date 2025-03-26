@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumChannels extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:NumChannels';
 
-  protected string $id = 'FlashPix:NumChannels';
+    protected string $name = 'NumChannels';
 
-  protected string $name = 'NumChannels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::SubimageHdr
+             * line : 126628
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::SubimageHdr.FlashPix:NumChannels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::SubimageHdr
-       * line : 126628
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::SubimageHdr.FlashPix:NumChannels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

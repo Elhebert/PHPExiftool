@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DynamicRange extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:DynamicRange';
 
-  protected string $id = 'FujiFilm:DynamicRange';
+    protected string $name = 'DynamicRange';
 
-  protected string $name = 'DynamicRange';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::Main
+             * line : 130548
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::Main.FujiFilm:DynamicRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::Main
-       * line : 130548
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::Main.FujiFilm:DynamicRange',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

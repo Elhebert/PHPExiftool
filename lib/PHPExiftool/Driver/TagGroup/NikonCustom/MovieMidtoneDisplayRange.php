@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MovieMidtoneDisplayRange extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:MovieMidtoneDisplayRange';
 
-  protected string $id = 'NikonCustom:MovieMidtoneDisplayRange';
+    protected string $name = 'MovieMidtoneDisplayRange';
 
-  protected string $name = 'MovieMidtoneDisplayRange';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsZ9
+             * line : 242452
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieMidtoneDisplayRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsZ9
-       * line : 242452
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieMidtoneDisplayRange',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

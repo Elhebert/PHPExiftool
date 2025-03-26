@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BusinessPhone extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:BusinessPhone';
 
-  protected string $id = 'Microsoft:BusinessPhone';
+    protected string $name = 'BusinessPhone';
 
-  protected string $name = 'BusinessPhone';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 176017
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:BusinessPhone',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 176017
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:BusinessPhone',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 1;
-
+    protected int $flags = 1;
 }

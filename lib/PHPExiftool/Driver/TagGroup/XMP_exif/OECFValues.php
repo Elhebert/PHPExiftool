@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OECFValues extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exif:OECFValues';
 
-  protected string $id = 'XMP-exif:OECFValues';
+    protected string $name = 'OECFValues';
 
-  protected string $name = 'OECFValues';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exif
+             * line : 407678
+             * type : rational
+             * writable : true
+             * count :
+             * flags : flattened,list,seq
+             */
+            'id' => 'XMP::exif.XMP-exif:OECFValues',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exif
-       * line : 407678
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : flattened,list,seq
-       */
-      'id' => 'XMP::exif.XMP-exif:OECFValues',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

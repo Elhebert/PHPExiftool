@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GradientBasedCorrMaskMasksWholeImageArea extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:GradientBasedCorrMaskMasksWholeImageArea';
 
-  protected string $id = 'XMP-crs:GradientBasedCorrMaskMasksWholeImageArea';
+    protected string $name = 'GradientBasedCorrMaskMasksWholeImageArea';
 
-  protected string $name = 'GradientBasedCorrMaskMasksWholeImageArea';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 402511
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskMasksWholeImageArea',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 402511
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::crs.XMP-crs:GradientBasedCorrMaskMasksWholeImageArea',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

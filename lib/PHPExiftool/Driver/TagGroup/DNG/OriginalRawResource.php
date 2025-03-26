@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalRawResource extends AbstractTagGroup
 {
+    protected string $id = 'DNG:OriginalRawResource';
 
-  protected string $id = 'DNG:OriginalRawResource';
+    protected string $name = 'OriginalRawResource';
 
-  protected string $name = 'OriginalRawResource';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DNG::OriginalRaw
+             * line : 105260
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'DNG::OriginalRaw.DNG:OriginalRawResource',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DNG::OriginalRaw
-       * line : 105260
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'DNG::OriginalRaw.DNG:OriginalRawResource',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

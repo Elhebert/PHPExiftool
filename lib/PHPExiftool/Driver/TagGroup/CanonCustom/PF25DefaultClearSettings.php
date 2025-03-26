@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PF25DefaultClearSettings extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:PF25DefaultClearSettings';
 
-  protected string $id = 'CanonCustom:PF25DefaultClearSettings';
+    protected string $name = 'PF25DefaultClearSettings';
 
-  protected string $name = 'PF25DefaultClearSettings';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::PersonalFuncs
+             * line : 78419
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF25DefaultClearSettings',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::PersonalFuncs
-       * line : 78419
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF25DefaultClearSettings',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

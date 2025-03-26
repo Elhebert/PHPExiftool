@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'Leica:LensSerialNumber';
 
-  protected string $id = 'Leica:LensSerialNumber';
+    protected string $name = 'LensSerialNumber';
 
-  protected string $name = 'LensSerialNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Leica6
+             * line : 274967
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Leica6.Leica:LensSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Leica6
-       * line : 274967
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Leica6.Leica:LensSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

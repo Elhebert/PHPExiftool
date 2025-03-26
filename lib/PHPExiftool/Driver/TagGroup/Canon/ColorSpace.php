@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorSpace extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ColorSpace';
 
-  protected string $id = 'Canon:ColorSpace';
+    protected string $name = 'ColorSpace';
 
-  protected string $name = 'ColorSpace';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorInfo
+             * line : 63136
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::ColorInfo.Canon:ColorSpace',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::Main
+             * line : 65947
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::Main.Canon:ColorSpace',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorInfo
-       * line : 63136
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::ColorInfo.Canon:ColorSpace',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::Main
-       * line : 65947
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::Main.Canon:ColorSpace',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

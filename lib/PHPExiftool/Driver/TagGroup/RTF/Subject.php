@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Subject extends AbstractTagGroup
 {
+    protected string $id = 'RTF:Subject';
 
-  protected string $id = 'RTF:Subject';
+    protected string $name = 'Subject';
 
-  protected string $name = 'Subject';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RTF::Main
+             * line : 329316
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RTF::Main.RTF:Subject',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RTF::Main
-       * line : 329316
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RTF::Main.RTF:Subject',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

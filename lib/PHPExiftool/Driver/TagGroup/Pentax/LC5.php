@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LC5 extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:LC5';
 
-  protected string $id = 'Pentax:LC5';
+    protected string $name = 'LC5';
 
-  protected string $name = 'LC5';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::LensData
+             * line : 288740
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Pentax::LensData.Pentax:LC5',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::LensData
-       * line : 288740
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Pentax::LensData.Pentax:LC5',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

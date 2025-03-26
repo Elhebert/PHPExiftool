@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Characters extends AbstractTagGroup
 {
+    protected string $id = 'RTF:Characters';
 
-  protected string $id = 'RTF:Characters';
+    protected string $name = 'Characters';
 
-  protected string $name = 'Characters';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RTF::Main
+             * line : 329271
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RTF::Main.RTF:Characters',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RTF::Main
-       * line : 329271
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RTF::Main.RTF:Characters',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

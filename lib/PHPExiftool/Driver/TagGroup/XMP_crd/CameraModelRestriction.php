@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraModelRestriction extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:CameraModelRestriction';
 
-  protected string $id = 'XMP-crd:CameraModelRestriction';
+    protected string $name = 'CameraModelRestriction';
 
-  protected string $name = 'CameraModelRestriction';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 398244
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::crd.XMP-crd:CameraModelRestriction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 398244
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::crd.XMP-crd:CameraModelRestriction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

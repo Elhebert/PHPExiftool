@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EventType extends AbstractTagGroup
 {
+    protected string $id = 'XMP-pmi:EventType';
 
-  protected string $id = 'XMP-pmi:EventType';
+    protected string $name = 'EventType';
 
-  protected string $name = 'EventType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::pmi
+             * line : 410549
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::pmi.XMP-pmi:EventType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::pmi
-       * line : 410549
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::pmi.XMP-pmi:EventType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

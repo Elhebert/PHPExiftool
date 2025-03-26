@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FrameSameRect extends AbstractTagGroup
 {
+    protected string $id = 'PICT:FrameSameRect';
 
-  protected string $id = 'PICT:FrameSameRect';
+    protected string $name = 'FrameSameRect';
 
-  protected string $name = 'FrameSameRect';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264780
+             * type : null
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:FrameSameRect',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264780
-       * type : null
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:FrameSameRect',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

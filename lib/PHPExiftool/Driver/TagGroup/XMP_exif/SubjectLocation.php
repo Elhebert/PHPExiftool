@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubjectLocation extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exif:SubjectLocation';
 
-  protected string $id = 'XMP-exif:SubjectLocation';
+    protected string $name = 'SubjectLocation';
 
-  protected string $name = 'SubjectLocation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exif
+             * line : 408355
+             * type : integer
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::exif.XMP-exif:SubjectLocation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exif
-       * line : 408355
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::exif.XMP-exif:SubjectLocation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

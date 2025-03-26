@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalLength35efl extends AbstractTagGroup
 {
+    protected string $id = 'Composite:FocalLength35efl';
 
-  protected string $id = 'Composite:FocalLength35efl';
+    protected string $name = 'FocalLength35efl';
 
-  protected string $name = 'FocalLength35efl';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90347
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:FocalLength35efl',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90347
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:FocalLength35efl',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

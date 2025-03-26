@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BaselineLength extends AbstractTagGroup
 {
+    protected string $id = 'MPF0:BaselineLength';
 
-  protected string $id = 'MPF0:BaselineLength';
+    protected string $name = 'BaselineLength';
 
-  protected string $name = 'BaselineLength';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPF::Main
+             * line : 166358
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPF::Main.MPF0:BaselineLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPF::Main
-       * line : 166358
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPF::Main.MPF0:BaselineLength',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

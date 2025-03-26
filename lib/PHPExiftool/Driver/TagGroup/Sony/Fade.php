@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Fade extends AbstractTagGroup
 {
+    protected string $id = 'Sony:Fade';
 
-  protected string $id = 'Sony:Fade';
+    protected string $name = 'Fade';
 
-  protected string $name = 'Fade';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 355924
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:Fade',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 355924
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:Fade',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

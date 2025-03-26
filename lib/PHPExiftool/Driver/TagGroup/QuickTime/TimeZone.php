@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeZone extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:TimeZone';
 
-  protected string $id = 'QuickTime:TimeZone';
+    protected string $name = 'TimeZone';
 
-  protected string $name = 'TimeZone';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::MetaData
+             * line : 324019
+             * type : ?
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'QuickTime::MetaData.QuickTime:TimeZone',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::MetaData
-       * line : 324019
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'QuickTime::MetaData.QuickTime:TimeZone',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

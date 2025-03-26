@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AlphaMask extends AbstractTagGroup
 {
+    protected string $id = 'File:AlphaMask';
 
-  protected string $id = 'File:AlphaMask';
+    protected string $name = 'AlphaMask';
 
-  protected string $name = 'AlphaMask';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Main
+             * line : 3358
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::Main.File:AlphaMask',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Main
-       * line : 3358
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::Main.File:AlphaMask',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

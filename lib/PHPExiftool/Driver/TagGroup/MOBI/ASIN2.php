@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ASIN2 extends AbstractTagGroup
 {
+    protected string $id = 'MOBI:ASIN2';
 
-  protected string $id = 'MOBI:ASIN2';
+    protected string $name = 'ASIN2';
 
-  protected string $name = 'ASIN2';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::EXTH
+             * line : 273651
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::EXTH.MOBI:ASIN2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::EXTH
-       * line : 273651
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::EXTH.MOBI:ASIN2',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

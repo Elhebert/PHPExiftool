@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Caption_Abstract extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:Caption-Abstract';
 
-  protected string $id = 'IPTC:Caption-Abstract';
+    protected string $name = 'Caption-Abstract';
 
-  protected string $name = 'Caption-Abstract';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150410
+             * type : string
+             * writable : true
+             * count : 2000
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:Caption-Abstract',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150410
-       * type : string
-       * writable : true
-       * count : 2000
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:Caption-Abstract',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2000;
 
-  protected int $count = 2000;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Flash extends AbstractTagGroup
 {
+    protected string $id = 'PictureInfo:Flash';
 
-  protected string $id = 'PictureInfo:Flash';
+    protected string $name = 'Flash';
 
-  protected string $name = 'Flash';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APP12::PictureInfo
+             * line : 594
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APP12::PictureInfo.PictureInfo:Flash',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APP12::PictureInfo
-       * line : 594
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APP12::PictureInfo.PictureInfo:Flash',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

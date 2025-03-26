@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XAttrMDItemWhereFroms extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:XAttrMDItemWhereFroms';
 
-  protected string $id = 'MacOS:XAttrMDItemWhereFroms';
+    protected string $name = 'XAttrMDItemWhereFroms';
 
-  protected string $name = 'XAttrMDItemWhereFroms';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::XAttr
+             * line : 173140
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::XAttr.MacOS:XAttrMDItemWhereFroms',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::XAttr
-       * line : 173140
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::XAttr.MacOS:XAttrMDItemWhereFroms',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

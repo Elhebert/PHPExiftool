@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFMicroAdj extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFMicroAdj';
 
-  protected string $id = 'Sony:AFMicroAdj';
+    protected string $name = 'AFMicroAdj';
 
-  protected string $name = 'AFMicroAdj';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::AFInfo
+             * line : 343027
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFInfo.Sony:AFMicroAdj',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::AFInfo
+             * line : 343135
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFInfo.Sony:AFMicroAdj',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::AFInfo
-       * line : 343027
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFInfo.Sony:AFMicroAdj',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::AFInfo
-       * line : 343135
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFInfo.Sony:AFMicroAdj',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

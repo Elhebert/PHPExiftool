@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MicrophoneFrequencyResponse extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:MicrophoneFrequencyResponse';
 
-  protected string $id = 'Nikon:MicrophoneFrequencyResponse';
+    protected string $name = 'MicrophoneFrequencyResponse';
 
-  protected string $name = 'MicrophoneFrequencyResponse';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::MenuSettingsZ9
+             * line : 201651
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Nikon::MenuSettingsZ9.Nikon:MicrophoneFrequencyResponse',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::MenuSettingsZ9
-       * line : 201651
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Nikon::MenuSettingsZ9.Nikon:MicrophoneFrequencyResponse',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

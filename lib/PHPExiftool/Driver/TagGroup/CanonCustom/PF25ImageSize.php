@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PF25ImageSize extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:PF25ImageSize';
 
-  protected string $id = 'CanonCustom:PF25ImageSize';
+    protected string $name = 'PF25ImageSize';
 
-  protected string $name = 'PF25ImageSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::PersonalFuncValues
+             * line : 78331
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF25ImageSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::PersonalFuncValues
-       * line : 78331
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF25ImageSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

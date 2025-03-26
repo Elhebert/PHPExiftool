@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BitDepth extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:BitDepth';
 
-  protected string $id = 'MinoltaRaw:BitDepth';
+    protected string $name = 'BitDepth';
 
-  protected string $name = 'BitDepth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::PRD
+             * line : 186802
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::PRD.MinoltaRaw:BitDepth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::PRD
-       * line : 186802
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::PRD.MinoltaRaw:BitDepth',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

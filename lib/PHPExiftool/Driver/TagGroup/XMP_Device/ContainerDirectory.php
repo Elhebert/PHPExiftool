@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContainerDirectory extends AbstractTagGroup
 {
+    protected string $id = 'XMP-Device:ContainerDirectory';
 
-  protected string $id = 'XMP-Device:ContainerDirectory';
+    protected string $name = 'ContainerDirectory';
 
-  protected string $name = 'ContainerDirectory';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::Device
+             * line : 396672
+             * type : struct
+             * writable : true
+             * count :
+             * flags : flattened,list,seq
+             */
+            'id' => 'XMP::Device.XMP-Device:ContainerDirectory',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::Device
-       * line : 396672
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : flattened,list,seq
-       */
-      'id' => 'XMP::Device.XMP-Device:ContainerDirectory',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

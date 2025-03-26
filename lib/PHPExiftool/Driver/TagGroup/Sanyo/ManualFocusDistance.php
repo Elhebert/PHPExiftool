@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ManualFocusDistance extends AbstractTagGroup
 {
+    protected string $id = 'Sanyo:ManualFocusDistance';
 
-  protected string $id = 'Sanyo:ManualFocusDistance';
+    protected string $name = 'ManualFocusDistance';
 
-  protected string $name = 'ManualFocusDistance';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sanyo::Main
+             * line : 336796
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sanyo::Main.Sanyo:ManualFocusDistance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sanyo::Main
-       * line : 336796
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sanyo::Main.Sanyo:ManualFocusDistance',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

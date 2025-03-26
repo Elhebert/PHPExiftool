@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConvergenceDistance extends AbstractTagGroup
 {
+    protected string $id = 'Stim:ConvergenceDistance';
 
-  protected string $id = 'Stim:ConvergenceDistance';
+    protected string $name = 'ConvergenceDistance';
 
-  protected string $name = 'ConvergenceDistance';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Stim::Main
+             * line : 394698
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Stim::Main.Stim:ConvergenceDistance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Stim::Main
-       * line : 394698
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Stim::Main.Stim:ConvergenceDistance',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

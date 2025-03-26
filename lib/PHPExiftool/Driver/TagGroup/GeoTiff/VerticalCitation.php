@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VerticalCitation extends AbstractTagGroup
 {
+    protected string $id = 'GeoTiff:VerticalCitation';
 
-  protected string $id = 'GeoTiff:VerticalCitation';
+    protected string $name = 'VerticalCitation';
 
-  protected string $name = 'VerticalCitation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GeoTiff::Main
+             * line : 138879
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GeoTiff::Main.GeoTiff:VerticalCitation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GeoTiff::Main
-       * line : 138879
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GeoTiff::Main.GeoTiff:VerticalCitation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

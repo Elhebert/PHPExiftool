@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProfileGainTableMap extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:ProfileGainTableMap';
 
-  protected string $id = 'SubIFD:ProfileGainTableMap';
+    protected string $name = 'ProfileGainTableMap';
 
-  protected string $name = 'ProfileGainTableMap';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120661
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:ProfileGainTableMap',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120661
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:ProfileGainTableMap',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

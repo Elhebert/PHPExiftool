@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SingleQuality extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:SingleQuality';
 
-  protected string $id = 'Leaf:SingleQuality';
+    protected string $name = 'SingleQuality';
 
-  protected string $name = 'SingleQuality';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::CaptureSetup
+             * line : 161767
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::CaptureSetup.Leaf:SingleQuality',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::CaptureSetup
-       * line : 161767
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::CaptureSetup.Leaf:SingleQuality',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

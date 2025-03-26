@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FormUsageRights extends AbstractTagGroup
 {
+    protected string $id = 'PDF:FormUsageRights';
 
-  protected string $id = 'PDF:FormUsageRights';
+    protected string $name = 'FormUsageRights';
 
-  protected string $name = 'FormUsageRights';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::TransformParams
+             * line : 264419
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'PDF::TransformParams.PDF:FormUsageRights',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::TransformParams
-       * line : 264419
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'PDF::TransformParams.PDF:FormUsageRights',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

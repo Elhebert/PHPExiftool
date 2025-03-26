@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Matteing extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:Matteing';
 
-  protected string $id = 'ExifIFD:Matteing';
+    protected string $name = 'Matteing';
 
-  protected string $name = 'Matteing';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112892
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:Matteing',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112892
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:Matteing',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

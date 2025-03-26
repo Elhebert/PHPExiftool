@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Transparency extends AbstractTagGroup
 {
+    protected string $id = 'PNG:Transparency';
 
-  protected string $id = 'PNG:Transparency';
+    protected string $name = 'Transparency';
 
-  protected string $name = 'Transparency';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::Main
+             * line : 272651
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::Main.PNG:Transparency',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::Main
-       * line : 272651
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::Main.PNG:Transparency',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

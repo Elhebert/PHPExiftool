@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HierarchicalKeywords2Children extends AbstractTagGroup
 {
+    protected string $id = 'XMP-mwg-kw:HierarchicalKeywords2Children';
 
-  protected string $id = 'XMP-mwg-kw:HierarchicalKeywords2Children';
+    protected string $name = 'HierarchicalKeywords2Children';
 
-  protected string $name = 'HierarchicalKeywords2Children';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MWG::Keywords
+             * line : 167054
+             * type : struct
+             * writable : true
+             * count :
+             * flags : bag,flattened,list
+             */
+            'id' => 'MWG::Keywords.XMP-mwg-kw:HierarchicalKeywords2Children',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MWG::Keywords
-       * line : 167054
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : bag,flattened,list
-       */
-      'id' => 'MWG::Keywords.XMP-mwg-kw:HierarchicalKeywords2Children',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

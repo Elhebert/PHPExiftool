@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OutputDataObjectList extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:OutputDataObjectList';
 
-  protected string $id = 'FlashPix:OutputDataObjectList';
+    protected string $name = 'OutputDataObjectList';
 
-  protected string $name = 'OutputDataObjectList';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::Transform
+             * line : 127361
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::Transform.FlashPix:OutputDataObjectList',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::Transform
-       * line : 127361
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::Transform.FlashPix:OutputDataObjectList',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

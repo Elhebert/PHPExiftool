@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LongExposureNRUsed extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:LongExposureNRUsed';
 
-  protected string $id = 'Panasonic:LongExposureNRUsed';
+    protected string $name = 'LongExposureNRUsed';
 
-  protected string $name = 'LongExposureNRUsed';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 278021
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:LongExposureNRUsed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 278021
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:LongExposureNRUsed',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

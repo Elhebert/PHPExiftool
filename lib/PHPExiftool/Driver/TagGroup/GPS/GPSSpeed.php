@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSSpeed extends AbstractTagGroup
 {
+    protected string $id = 'GPS:GPSSpeed';
 
-  protected string $id = 'GPS:GPSSpeed';
+    protected string $name = 'GPSSpeed';
 
-  protected string $name = 'GPSSpeed';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GPS::Main
+             * line : 132165
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'GPS::Main.GPS:GPSSpeed',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 141755
+             * type : rational32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.GPS:GPSSpeed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GPS::Main
-       * line : 132165
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'GPS::Main.GPS:GPSSpeed',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 141755
-       * type : rational32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.GPS:GPSSpeed',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

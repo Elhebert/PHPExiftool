@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DerivedFromLastModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpMM:DerivedFromLastModifyDate';
 
-  protected string $id = 'XMP-xmpMM:DerivedFromLastModifyDate';
+    protected string $name = 'DerivedFromLastModifyDate';
 
-  protected string $name = 'DerivedFromLastModifyDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpMM
+             * line : 413812
+             * type : date
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromLastModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpMM
-       * line : 413812
-       * type : date
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromLastModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

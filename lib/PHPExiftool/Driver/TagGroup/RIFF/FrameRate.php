@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FrameRate extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:FrameRate';
 
-  protected string $id = 'RIFF:FrameRate';
+    protected string $name = 'FrameRate';
 
-  protected string $name = 'FrameRate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::AVIHeader
+             * line : 326918
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::AVIHeader.RIFF:FrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::AVIHeader
-       * line : 326918
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::AVIHeader.RIFF:FrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

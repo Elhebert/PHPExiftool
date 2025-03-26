@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Manufacturer extends AbstractTagGroup
 {
+    protected string $id = 'Font:Manufacturer';
 
-  protected string $id = 'Font:Manufacturer';
+    protected string $name = 'Manufacturer';
 
-  protected string $name = 'Manufacturer';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::Name
+             * line : 127887
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::Name.Font:Manufacturer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::Name
-       * line : 127887
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::Name.Font:Manufacturer',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

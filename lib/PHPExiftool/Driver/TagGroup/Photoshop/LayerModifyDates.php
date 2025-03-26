@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LayerModifyDates extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:LayerModifyDates';
 
-  protected string $id = 'Photoshop:LayerModifyDates';
+    protected string $name = 'LayerModifyDates';
 
-  protected string $name = 'LayerModifyDates';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Layers
+             * line : 305358
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'Photoshop::Layers.Photoshop:LayerModifyDates',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Layers
-       * line : 305358
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'Photoshop::Layers.Photoshop:LayerModifyDates',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

@@ -14,7 +14,9 @@ namespace PHPExiftool\Driver\Value;
 interface ValueInterface
 {
     const TYPE_BINARY = 'binary';
+
     const TYPE_MONO = 'mono';
+
     const TYPE_MULTI = 'multi';
 
     public function set($value): ValueInterface;

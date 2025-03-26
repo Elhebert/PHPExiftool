@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConfidentialityOnPatientDataDescr extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ConfidentialityOnPatientDataDescr';
 
-  protected string $id = 'DICOM:ConfidentialityOnPatientDataDescr';
+    protected string $name = 'ConfidentialityOnPatientDataDescr';
 
-  protected string $name = 'ConfidentialityOnPatientDataDescr';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99920
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ConfidentialityOnPatientDataDescr',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99920
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ConfidentialityOnPatientDataDescr',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

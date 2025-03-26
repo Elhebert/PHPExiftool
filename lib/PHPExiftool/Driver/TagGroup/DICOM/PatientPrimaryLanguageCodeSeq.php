@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PatientPrimaryLanguageCodeSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:PatientPrimaryLanguageCodeSeq';
 
-  protected string $id = 'DICOM:PatientPrimaryLanguageCodeSeq';
+    protected string $name = 'PatientPrimaryLanguageCodeSeq';
 
-  protected string $name = 'PatientPrimaryLanguageCodeSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 95221
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:PatientPrimaryLanguageCodeSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 95221
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:PatientPrimaryLanguageCodeSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

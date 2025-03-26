@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PoseYawDegrees extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:PoseYawDegrees';
 
-  protected string $id = 'QuickTime:PoseYawDegrees';
+    protected string $name = 'PoseYawDegrees';
 
-  protected string $name = 'PoseYawDegrees';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::prhd
+             * line : 326725
+             * type : fixed32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::prhd.QuickTime:PoseYawDegrees',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::prhd
-       * line : 326725
-       * type : fixed32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::prhd.QuickTime:PoseYawDegrees',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

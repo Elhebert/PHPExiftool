@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TaxonOriginalNameUsage extends AbstractTagGroup
 {
+    protected string $id = 'XMP-dwc:TaxonOriginalNameUsage';
 
-  protected string $id = 'XMP-dwc:TaxonOriginalNameUsage';
+    protected string $name = 'TaxonOriginalNameUsage';
 
-  protected string $name = 'TaxonOriginalNameUsage';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DarwinCore::Main
+             * line : 106782
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'DarwinCore::Main.XMP-dwc:TaxonOriginalNameUsage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DarwinCore::Main
-       * line : 106782
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'DarwinCore::Main.XMP-dwc:TaxonOriginalNameUsage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

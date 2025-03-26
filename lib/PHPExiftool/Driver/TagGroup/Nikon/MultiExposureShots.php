@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MultiExposureShots extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:MultiExposureShots';
 
-  protected string $id = 'Nikon:MultiExposureShots';
+    protected string $name = 'MultiExposureShots';
 
-  protected string $name = 'MultiExposureShots';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::MenuSettingsZ9
+             * line : 200377
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::MenuSettingsZ9.Nikon:MultiExposureShots',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::MultiExposure
+             * line : 202018
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::MultiExposure.Nikon:MultiExposureShots',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::MenuSettingsZ9
-       * line : 200377
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::MenuSettingsZ9.Nikon:MultiExposureShots',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::MultiExposure
-       * line : 202018
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::MultiExposure.Nikon:MultiExposureShots',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

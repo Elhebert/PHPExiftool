@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'MNG:ImageWidth';
 
-  protected string $id = 'MNG:ImageWidth';
+    protected string $name = 'ImageWidth';
 
-  protected string $name = 'ImageWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::BasisObject
+             * line : 164526
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::BasisObject.MNG:ImageWidth',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::JNGHeader
+             * line : 164866
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::JNGHeader.MNG:ImageWidth',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : MNG::MNGHeader
+             * line : 165056
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::MNGHeader.MNG:ImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::BasisObject
-       * line : 164526
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::BasisObject.MNG:ImageWidth',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::JNGHeader
-       * line : 164866
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::JNGHeader.MNG:ImageWidth',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : MNG::MNGHeader
-       * line : 165056
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::MNGHeader.MNG:ImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

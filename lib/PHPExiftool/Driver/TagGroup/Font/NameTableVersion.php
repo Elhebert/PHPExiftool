@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NameTableVersion extends AbstractTagGroup
 {
+    protected string $id = 'Font:NameTableVersion';
 
-  protected string $id = 'Font:NameTableVersion';
+    protected string $name = 'NameTableVersion';
 
-  protected string $name = 'NameTableVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::Name
+             * line : 127874
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::Name.Font:NameTableVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::Name
-       * line : 127874
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::Name.Font:NameTableVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

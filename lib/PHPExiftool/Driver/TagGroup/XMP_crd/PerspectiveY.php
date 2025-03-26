@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PerspectiveY extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:PerspectiveY';
 
-  protected string $id = 'XMP-crd:PerspectiveY';
+    protected string $name = 'PerspectiveY';
 
-  protected string $name = 'PerspectiveY';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 400585
+             * type : real
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::crd.XMP-crd:PerspectiveY',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 400585
-       * type : real
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::crd.XMP-crd:PerspectiveY',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

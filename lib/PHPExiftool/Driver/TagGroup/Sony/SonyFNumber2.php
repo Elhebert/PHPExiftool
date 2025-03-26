@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SonyFNumber2 extends AbstractTagGroup
 {
+    protected string $id = 'Sony:SonyFNumber2';
 
-  protected string $id = 'Sony:SonyFNumber2';
+    protected string $name = 'SonyFNumber2';
 
-  protected string $name = 'SonyFNumber2';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Tag9416
+             * line : 391061
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9416.Sony:SonyFNumber2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Tag9416
-       * line : 391061
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9416.Sony:SonyFNumber2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

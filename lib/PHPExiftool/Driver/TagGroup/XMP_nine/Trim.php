@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Trim extends AbstractTagGroup
 {
+    protected string $id = 'XMP-nine:Trim';
 
-  protected string $id = 'XMP-nine:Trim';
+    protected string $name = 'Trim';
 
-  protected string $name = 'Trim';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::nine
+             * line : 210082
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Nikon::nine.XMP-nine:Trim',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::nine
-       * line : 210082
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Nikon::nine.XMP-nine:Trim',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

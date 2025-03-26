@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HalftoneHints extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:HalftoneHints';
 
-  protected string $id = 'IFD0:HalftoneHints';
+    protected string $name = 'HalftoneHints';
 
-  protected string $name = 'HalftoneHints';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 111525
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:HalftoneHints',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 111525
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:HalftoneHints',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Artists extends AbstractTagGroup
 {
+    protected string $id = 'iTunes:Artists';
 
-  protected string $id = 'iTunes:Artists';
+    protected string $name = 'Artists';
 
-  protected string $name = 'Artists';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::iTunesInfo
+             * line : 326596
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::iTunesInfo.iTunes:Artists',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::iTunesInfo
-       * line : 326596
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::iTunesInfo.iTunes:Artists',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorMatrix2 extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ColorMatrix2';
 
-  protected string $id = 'Olympus:ColorMatrix2';
+    protected string $name = 'ColorMatrix2';
 
-  protected string $name = 'ColorMatrix2';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::RawInfo
+             * line : 260915
+             * type : int16u
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawInfo.Olympus:ColorMatrix2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::RawInfo
-       * line : 260915
-       * type : int16u
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawInfo.Olympus:ColorMatrix2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

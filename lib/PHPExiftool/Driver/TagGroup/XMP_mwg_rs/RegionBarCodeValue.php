@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RegionBarCodeValue extends AbstractTagGroup
 {
+    protected string $id = 'XMP-mwg-rs:RegionBarCodeValue';
 
-  protected string $id = 'XMP-mwg-rs:RegionBarCodeValue';
+    protected string $name = 'RegionBarCodeValue';
 
-  protected string $name = 'RegionBarCodeValue';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MWG::Regions
+             * line : 167168
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'MWG::Regions.XMP-mwg-rs:RegionBarCodeValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MWG::Regions
-       * line : 167168
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'MWG::Regions.XMP-mwg-rs:RegionBarCodeValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

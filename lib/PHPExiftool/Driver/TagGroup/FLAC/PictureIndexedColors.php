@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureIndexedColors extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:PictureIndexedColors';
 
-  protected string $id = 'FLAC:PictureIndexedColors';
+    protected string $name = 'PictureIndexedColors';
 
-  protected string $name = 'PictureIndexedColors';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::Picture
+             * line : 121912
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::Picture.FLAC:PictureIndexedColors',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::Picture
-       * line : 121912
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::Picture.FLAC:PictureIndexedColors',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

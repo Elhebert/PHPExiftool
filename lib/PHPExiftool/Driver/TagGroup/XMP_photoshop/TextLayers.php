@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TextLayers extends AbstractTagGroup
 {
+    protected string $id = 'XMP-photoshop:TextLayers';
 
-  protected string $id = 'XMP-photoshop:TextLayers';
+    protected string $name = 'TextLayers';
 
-  protected string $name = 'TextLayers';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::photoshop
+             * line : 410382
+             * type : struct
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::photoshop.XMP-photoshop:TextLayers',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::photoshop
-       * line : 410382
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::photoshop.XMP-photoshop:TextLayers',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

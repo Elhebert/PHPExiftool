@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PF23SetTimerLengths extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:PF23SetTimerLengths';
 
-  protected string $id = 'CanonCustom:PF23SetTimerLengths';
+    protected string $name = 'PF23SetTimerLengths';
 
-  protected string $name = 'PF23SetTimerLengths';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::PersonalFuncs
+             * line : 78413
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF23SetTimerLengths',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::PersonalFuncs
-       * line : 78413
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF23SetTimerLengths',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ApplyShootingMeteringMode extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:ApplyShootingMeteringMode';
 
-  protected string $id = 'CanonCustom:ApplyShootingMeteringMode';
+    protected string $name = 'ApplyShootingMeteringMode';
 
-  protected string $name = 'ApplyShootingMeteringMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72839
+             * type : int32s
+             * writable : true
+             * count : 8
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:ApplyShootingMeteringMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72839
-       * type : int32s
-       * writable : true
-       * count : 8
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:ApplyShootingMeteringMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

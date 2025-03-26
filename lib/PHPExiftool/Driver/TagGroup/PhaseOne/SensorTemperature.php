@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorTemperature extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:SensorTemperature';
 
-  protected string $id = 'PhaseOne:SensorTemperature';
+    protected string $name = 'SensorTemperature';
 
-  protected string $name = 'SensorTemperature';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::Main
+             * line : 303377
+             * type : float
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'PhaseOne::Main.PhaseOne:SensorTemperature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::Main
-       * line : 303377
-       * type : float
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'PhaseOne::Main.PhaseOne:SensorTemperature',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

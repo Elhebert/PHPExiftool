@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AdultContentWarning extends AbstractTagGroup
 {
+    protected string $id = 'XMP-plus:AdultContentWarning';
 
-  protected string $id = 'XMP-plus:AdultContentWarning';
+    protected string $name = 'AdultContentWarning';
 
-  protected string $name = 'AdultContentWarning';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PLUS::XMP
+             * line : 265213
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PLUS::XMP.XMP-plus:AdultContentWarning',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PLUS::XMP
-       * line : 265213
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PLUS::XMP.XMP-plus:AdultContentWarning',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

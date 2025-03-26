@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HdrLength extends AbstractTagGroup
 {
+    protected string $id = 'JPS:HdrLength';
 
-  protected string $id = 'JPS:HdrLength';
+    protected string $name = 'HdrLength';
 
-  protected string $name = 'HdrLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::JPS
+             * line : 152493
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::JPS.JPS:HdrLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::JPS
-       * line : 152493
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::JPS.JPS:HdrLength',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

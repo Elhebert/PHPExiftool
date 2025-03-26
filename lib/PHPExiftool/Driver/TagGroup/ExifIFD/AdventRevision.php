@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AdventRevision extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:AdventRevision';
 
-  protected string $id = 'ExifIFD:AdventRevision';
+    protected string $name = 'AdventRevision';
 
-  protected string $name = 'AdventRevision';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 113121
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:AdventRevision',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 113121
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:AdventRevision',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

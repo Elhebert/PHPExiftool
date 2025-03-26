@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EnvelopePriority extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:EnvelopePriority';
 
-  protected string $id = 'IPTC:EnvelopePriority';
+    protected string $name = 'EnvelopePriority';
 
-  protected string $name = 'EnvelopePriority';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::EnvelopeRecord
+             * line : 151187
+             * type : digits
+             * writable : true
+             * count : 1
+             * flags :
+             */
+            'id' => 'IPTC::EnvelopeRecord.IPTC:EnvelopePriority',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::EnvelopeRecord
-       * line : 151187
-       * type : digits
-       * writable : true
-       * count : 1
-       * flags : 
-       */
-      'id' => 'IPTC::EnvelopeRecord.IPTC:EnvelopePriority',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 1;
 
-  protected int $count = 1;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

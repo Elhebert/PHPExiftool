@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OccurrenceBehavior extends AbstractTagGroup
 {
+    protected string $id = 'XMP-dwc:OccurrenceBehavior';
 
-  protected string $id = 'XMP-dwc:OccurrenceBehavior';
+    protected string $name = 'OccurrenceBehavior';
 
-  protected string $name = 'OccurrenceBehavior';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DarwinCore::Main
+             * line : 106513
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceBehavior',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DarwinCore::Main
-       * line : 106513
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceBehavior',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

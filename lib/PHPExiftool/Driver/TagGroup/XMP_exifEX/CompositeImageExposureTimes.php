@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompositeImageExposureTimes extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:CompositeImageExposureTimes';
 
-  protected string $id = 'XMP-exifEX:CompositeImageExposureTimes';
+    protected string $name = 'CompositeImageExposureTimes';
 
-  protected string $name = 'CompositeImageExposureTimes';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408514
+             * type : struct
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:CompositeImageExposureTimes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408514
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:CompositeImageExposureTimes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

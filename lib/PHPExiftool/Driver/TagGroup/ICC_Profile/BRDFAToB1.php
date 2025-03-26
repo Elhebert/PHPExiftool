@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BRDFAToB1 extends AbstractTagGroup
 {
+    protected string $id = 'ICC_Profile:BRDFAToB1';
 
-  protected string $id = 'ICC_Profile:BRDFAToB1';
+    protected string $name = 'BRDFAToB1';
 
-  protected string $name = 'BRDFAToB1';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Main
+             * line : 146084
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::Main.ICC_Profile:BRDFAToB1',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Main
-       * line : 146084
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Main.ICC_Profile:BRDFAToB1',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

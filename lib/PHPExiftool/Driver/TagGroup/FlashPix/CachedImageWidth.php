@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CachedImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:CachedImageWidth';
 
-  protected string $id = 'FlashPix:CachedImageWidth';
+    protected string $name = 'CachedImageWidth';
 
-  protected string $name = 'CachedImageWidth';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::DataObject
+             * line : 124394
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DataObject.FlashPix:CachedImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::DataObject
-       * line : 124394
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DataObject.FlashPix:CachedImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompImageValues extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:CompImageValues';
 
-  protected string $id = 'XMP-exifEX:CompImageValues';
+    protected string $name = 'CompImageValues';
 
-  protected string $name = 'CompImageValues';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408545
+             * type : rational
+             * writable : true
+             * count :
+             * flags : flattened,list,seq
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:CompImageValues',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408545
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : flattened,list,seq
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:CompImageValues',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

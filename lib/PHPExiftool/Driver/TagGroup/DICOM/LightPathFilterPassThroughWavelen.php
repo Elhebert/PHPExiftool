@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LightPathFilterPassThroughWavelen extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:LightPathFilterPassThroughWavelen';
 
-  protected string $id = 'DICOM:LightPathFilterPassThroughWavelen';
+    protected string $name = 'LightPathFilterPassThroughWavelen';
 
-  protected string $name = 'LightPathFilterPassThroughWavelen';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98297
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:LightPathFilterPassThroughWavelen',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98297
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:LightPathFilterPassThroughWavelen',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

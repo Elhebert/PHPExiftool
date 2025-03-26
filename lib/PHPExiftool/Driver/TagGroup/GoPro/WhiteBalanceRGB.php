@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhiteBalanceRGB extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:WhiteBalanceRGB';
 
-  protected string $id = 'GoPro:WhiteBalanceRGB';
+    protected string $name = 'WhiteBalanceRGB';
 
-  protected string $name = 'WhiteBalanceRGB';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPMF
+             * line : 139852
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'GoPro::GPMF.GoPro:WhiteBalanceRGB',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPMF
-       * line : 139852
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'GoPro::GPMF.GoPro:WhiteBalanceRGB',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

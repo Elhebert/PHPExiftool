@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxStorage extends AbstractTagGroup
 {
+    protected string $id = 'XMP-swf:MaxStorage';
 
-  protected string $id = 'XMP-swf:MaxStorage';
+    protected string $name = 'MaxStorage';
 
-  protected string $name = 'MaxStorage';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::swf
+             * line : 411358
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::swf.XMP-swf:MaxStorage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::swf
-       * line : 411358
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::swf.XMP-swf:MaxStorage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

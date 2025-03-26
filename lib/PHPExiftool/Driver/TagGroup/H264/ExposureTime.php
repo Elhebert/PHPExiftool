@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureTime extends AbstractTagGroup
 {
+    protected string $id = 'H264:ExposureTime';
 
-  protected string $id = 'H264:ExposureTime';
+    protected string $name = 'ExposureTime';
 
-  protected string $name = 'ExposureTime';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 140371
+             * type : rational32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.H264:ExposureTime',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : H264::Shutter
+             * line : 142072
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::Shutter.H264:ExposureTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 140371
-       * type : rational32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.H264:ExposureTime',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : H264::Shutter
-       * line : 142072
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::Shutter.H264:ExposureTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

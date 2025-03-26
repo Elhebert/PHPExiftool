@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGBMulFluorescent extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:WB_RGBMulFluorescent';
 
-  protected string $id = 'KodakIFD:WB_RGBMulFluorescent';
+    protected string $name = 'WB_RGBMulFluorescent';
 
-  protected string $name = 'WB_RGBMulFluorescent';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155245
+             * type : rational64u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:WB_RGBMulFluorescent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155245
-       * type : rational64u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:WB_RGBMulFluorescent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

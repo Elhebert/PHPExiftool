@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Shadows extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:Shadows';
 
-  protected string $id = 'XMP-crs:Shadows';
+    protected string $name = 'Shadows';
 
-  protected string $name = 'Shadows';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 404341
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::crs.XMP-crs:Shadows',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 404341
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::crs.XMP-crs:Shadows',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

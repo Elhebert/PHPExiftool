@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TTY_TTDPhone extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:TTY-TTDPhone';
 
-  protected string $id = 'Microsoft:TTY-TTDPhone';
+    protected string $name = 'TTY-TTDPhone';
 
-  protected string $name = 'TTY-TTDPhone';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 176166
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:TTY-TTDPhone',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 176166
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:TTY-TTDPhone',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 1;
-
+    protected int $flags = 1;
 }

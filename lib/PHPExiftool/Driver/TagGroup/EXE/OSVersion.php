@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OSVersion extends AbstractTagGroup
 {
+    protected string $id = 'EXE:OSVersion';
 
-  protected string $id = 'EXE:OSVersion';
+    protected string $name = 'OSVersion';
 
-  protected string $name = 'OSVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::Main
+             * line : 108890
+             * type : int16u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'EXE::Main.EXE:OSVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::Main
-       * line : 108890
-       * type : int16u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'EXE::Main.EXE:OSVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Saturation extends AbstractTagGroup
 {
+    protected string $id = 'Reconyx:Saturation';
 
-  protected string $id = 'Reconyx:Saturation';
+    protected string $name = 'Saturation';
 
-  protected string $name = 'Saturation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Reconyx::Main
+             * line : 330769
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Main.Reconyx:Saturation',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Reconyx::Type3
+             * line : 331245
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type3.Reconyx:Saturation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Reconyx::Main
-       * line : 330769
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Main.Reconyx:Saturation',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Reconyx::Type3
-       * line : 331245
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type3.Reconyx:Saturation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EscChar extends AbstractTagGroup
 {
+    protected string $id = 'Font:EscChar';
 
-  protected string $id = 'Font:EscChar';
+    protected string $name = 'EscChar';
 
-  protected string $name = 'EscChar';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::AFM
+             * line : 127758
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::AFM.Font:EscChar',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::AFM
-       * line : 127758
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::AFM.Font:EscChar',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

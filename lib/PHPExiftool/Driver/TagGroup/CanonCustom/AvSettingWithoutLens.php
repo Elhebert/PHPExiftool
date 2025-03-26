@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AvSettingWithoutLens extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:AvSettingWithoutLens';
 
-  protected string $id = 'CanonCustom:AvSettingWithoutLens';
+    protected string $name = 'AvSettingWithoutLens';
 
-  protected string $name = 'AvSettingWithoutLens';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 75108
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:AvSettingWithoutLens',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 75108
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:AvSettingWithoutLens',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

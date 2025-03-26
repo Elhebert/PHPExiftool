@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RootDirectoryCreateDate extends AbstractTagGroup
 {
+    protected string $id = 'ISO:RootDirectoryCreateDate';
 
-  protected string $id = 'ISO:RootDirectoryCreateDate';
+    protected string $name = 'RootDirectoryCreateDate';
 
-  protected string $name = 'RootDirectoryCreateDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 152022
+             * type : undef
+             * writable : false
+             * count : 7
+             * flags :
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:RootDirectoryCreateDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 152022
-       * type : undef
-       * writable : false
-       * count : 7
-       * flags : 
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:RootDirectoryCreateDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 7;
-
+    protected int $count = 7;
 }

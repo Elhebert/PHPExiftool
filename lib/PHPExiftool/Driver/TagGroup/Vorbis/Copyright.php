@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Copyright extends AbstractTagGroup
 {
+    protected string $id = 'Vorbis:Copyright';
 
-  protected string $id = 'Vorbis:Copyright';
+    protected string $name = 'Copyright';
 
-  protected string $name = 'Copyright';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Vorbis::Comments
+             * line : 395734
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Vorbis::Comments.Vorbis:Copyright',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Vorbis::Comments
-       * line : 395734
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Vorbis::Comments.Vorbis:Copyright',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

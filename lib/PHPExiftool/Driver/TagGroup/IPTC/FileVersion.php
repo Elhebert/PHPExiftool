@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileVersion extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:FileVersion';
 
-  protected string $id = 'IPTC:FileVersion';
+    protected string $name = 'FileVersion';
 
-  protected string $name = 'FileVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::EnvelopeRecord
+             * line : 151144
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::EnvelopeRecord.IPTC:FileVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::EnvelopeRecord
-       * line : 151144
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::EnvelopeRecord.IPTC:FileVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

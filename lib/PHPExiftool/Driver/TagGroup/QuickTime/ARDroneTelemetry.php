@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ARDroneTelemetry extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ARDroneTelemetry';
 
-  protected string $id = 'QuickTime:ARDroneTelemetry';
+    protected string $name = 'ARDroneTelemetry';
 
-  protected string $name = 'ARDroneTelemetry';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Main
+             * line : 323804
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Main.QuickTime:ARDroneTelemetry',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Main
-       * line : 323804
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Main.QuickTime:ARDroneTelemetry',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

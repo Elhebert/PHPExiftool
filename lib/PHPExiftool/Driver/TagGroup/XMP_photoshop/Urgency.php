@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Urgency extends AbstractTagGroup
 {
+    protected string $id = 'XMP-photoshop:Urgency';
 
-  protected string $id = 'XMP-photoshop:Urgency';
+    protected string $name = 'Urgency';
 
-  protected string $name = 'Urgency';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::photoshop
+             * line : 410412
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::photoshop.XMP-photoshop:Urgency',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::photoshop
-       * line : 410412
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::photoshop.XMP-photoshop:Urgency',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

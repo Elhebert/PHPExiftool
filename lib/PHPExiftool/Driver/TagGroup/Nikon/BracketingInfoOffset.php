@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BracketingInfoOffset extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:BracketingInfoOffset';
 
-  protected string $id = 'Nikon:BracketingInfoOffset';
+    protected string $name = 'BracketingInfoOffset';
 
-  protected string $name = 'BracketingInfoOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ShotInfoD500
+             * line : 207038
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::ShotInfoD500.Nikon:BracketingInfoOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ShotInfoD500
-       * line : 207038
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::ShotInfoD500.Nikon:BracketingInfoOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

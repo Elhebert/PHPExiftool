@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OrganAtRiskOverdoseVolumeFraction extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:OrganAtRiskOverdoseVolumeFraction';
 
-  protected string $id = 'DICOM:OrganAtRiskOverdoseVolumeFraction';
+    protected string $name = 'OrganAtRiskOverdoseVolumeFraction';
 
-  protected string $name = 'OrganAtRiskOverdoseVolumeFraction';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 103023
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:OrganAtRiskOverdoseVolumeFraction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 103023
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:OrganAtRiskOverdoseVolumeFraction',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

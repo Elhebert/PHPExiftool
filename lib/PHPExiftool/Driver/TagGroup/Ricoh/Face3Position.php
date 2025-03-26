@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Face3Position extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:Face3Position';
 
-  protected string $id = 'Ricoh:Face3Position';
+    protected string $name = 'Face3Position';
 
-  protected string $name = 'Face3Position';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::FaceInfo
+             * line : 331867
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Ricoh::FaceInfo.Ricoh:Face3Position',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::FaceInfo
-       * line : 331867
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Ricoh::FaceInfo.Ricoh:Face3Position',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

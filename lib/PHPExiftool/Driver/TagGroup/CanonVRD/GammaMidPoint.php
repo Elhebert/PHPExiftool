@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GammaMidPoint extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:GammaMidPoint';
 
-  protected string $id = 'CanonVRD:GammaMidPoint';
+    protected string $name = 'GammaMidPoint';
 
-  protected string $name = 'GammaMidPoint';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::GammaInfo
+             * line : 82033
+             * type : double
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaMidPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::GammaInfo
-       * line : 82033
-       * type : double
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaMidPoint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

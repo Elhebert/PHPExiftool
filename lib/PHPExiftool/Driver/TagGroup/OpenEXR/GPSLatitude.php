@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLatitude extends AbstractTagGroup
 {
+    protected string $id = 'OpenEXR:GPSLatitude';
 
-  protected string $id = 'OpenEXR:GPSLatitude';
+    protected string $name = 'GPSLatitude';
 
-  protected string $name = 'GPSLatitude';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OpenEXR::Main
+             * line : 263586
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OpenEXR::Main.OpenEXR:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OpenEXR::Main
-       * line : 263586
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OpenEXR::Main.OpenEXR:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

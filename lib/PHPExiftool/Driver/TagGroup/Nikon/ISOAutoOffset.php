@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISOAutoOffset extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:ISOAutoOffset';
 
-  protected string $id = 'Nikon:ISOAutoOffset';
+    protected string $name = 'ISOAutoOffset';
 
-  protected string $name = 'ISOAutoOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ShotInfoD810
+             * line : 208615
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::ShotInfoD810.Nikon:ISOAutoOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ShotInfoD810
-       * line : 208615
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::ShotInfoD810.Nikon:ISOAutoOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

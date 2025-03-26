@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class YawAngle extends AbstractTagGroup
 {
+    protected string $id = 'MPF0:YawAngle';
 
-  protected string $id = 'MPF0:YawAngle';
+    protected string $name = 'YawAngle';
 
-  protected string $name = 'YawAngle';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPF::Main
+             * line : 166378
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPF::Main.MPF0:YawAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPF::Main
-       * line : 166378
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPF::Main.MPF0:YawAngle',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

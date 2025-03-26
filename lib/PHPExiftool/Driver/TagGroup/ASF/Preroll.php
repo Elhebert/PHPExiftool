@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Preroll extends AbstractTagGroup
 {
+    protected string $id = 'ASF:Preroll';
 
-  protected string $id = 'ASF:Preroll';
+    protected string $name = 'Preroll';
 
-  protected string $name = 'Preroll';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::FileProperties
+             * line : 1755
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::FileProperties.ASF:Preroll',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::FileProperties
-       * line : 1755
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::FileProperties.ASF:Preroll',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

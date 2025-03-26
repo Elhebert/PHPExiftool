@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:SerialNumber';
 
-  protected string $id = 'CanonRaw:SerialNumber';
+    protected string $name = 'SerialNumber';
 
-  protected string $name = 'SerialNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 78854
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:SerialNumber',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 78872
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:SerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 78854
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:SerialNumber',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 78872
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:SerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

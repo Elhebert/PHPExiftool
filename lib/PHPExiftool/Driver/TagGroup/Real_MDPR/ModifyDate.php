@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'Real-MDPR:ModifyDate';
 
-  protected string $id = 'Real-MDPR:ModifyDate';
+    protected string $name = 'ModifyDate';
 
-  protected string $name = 'ModifyDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::FileInfo
+             * line : 330331
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::FileInfo.Real-MDPR:ModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::FileInfo
-       * line : 330331
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::FileInfo.Real-MDPR:ModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

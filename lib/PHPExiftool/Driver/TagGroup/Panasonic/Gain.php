@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Gain extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:Gain';
 
-  protected string $id = 'Panasonic:Gain';
+    protected string $name = 'Gain';
 
-  protected string $name = 'Gain';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Type2
+             * line : 279672
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Type2.Panasonic:Gain',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Type2
-       * line : 279672
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Type2.Panasonic:Gain',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

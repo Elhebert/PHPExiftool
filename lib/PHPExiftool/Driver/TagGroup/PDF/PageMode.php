@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PageMode extends AbstractTagGroup
 {
+    protected string $id = 'PDF:PageMode';
 
-  protected string $id = 'PDF:PageMode';
+    protected string $name = 'PageMode';
 
-  protected string $name = 'PageMode';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Root
+             * line : 264338
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::Root.PDF:PageMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Root
-       * line : 264338
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::Root.PDF:PageMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

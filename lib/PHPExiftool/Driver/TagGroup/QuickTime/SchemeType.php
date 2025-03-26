@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SchemeType extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:SchemeType';
 
-  protected string $id = 'QuickTime:SchemeType';
+    protected string $name = 'SchemeType';
 
-  protected string $name = 'SchemeType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::SchemeType
+             * line : 324486
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'QuickTime::SchemeType.QuickTime:SchemeType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::SchemeType
-       * line : 324486
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'QuickTime::SchemeType.QuickTime:SchemeType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

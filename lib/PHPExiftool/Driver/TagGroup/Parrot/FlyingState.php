@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlyingState extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:FlyingState';
 
-  protected string $id = 'Parrot:FlyingState';
+    protected string $name = 'FlyingState';
 
-  protected string $name = 'FlyingState';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::V1
+             * line : 282175
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V1.Parrot:FlyingState',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Parrot::V2
+             * line : 282358
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V2.Parrot:FlyingState',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Parrot::V3
+             * line : 282602
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V3.Parrot:FlyingState',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::V1
-       * line : 282175
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V1.Parrot:FlyingState',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Parrot::V2
-       * line : 282358
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V2.Parrot:FlyingState',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Parrot::V3
-       * line : 282602
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V3.Parrot:FlyingState',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

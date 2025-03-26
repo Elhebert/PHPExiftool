@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MediaTimeScale extends AbstractTagGroup
 {
+    protected string $id = 'Track#:MediaTimeScale';
 
-  protected string $id = 'Track#:MediaTimeScale';
+    protected string $name = 'MediaTimeScale';
 
-  protected string $name = 'MediaTimeScale';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::MediaHeader
+             * line : 323901
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::MediaHeader.Track#:MediaTimeScale',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::MediaHeader
-       * line : 323901
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::MediaHeader.Track#:MediaTimeScale',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

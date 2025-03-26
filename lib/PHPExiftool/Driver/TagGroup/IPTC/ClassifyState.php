@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ClassifyState extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ClassifyState';
 
-  protected string $id = 'IPTC:ClassifyState';
+    protected string $name = 'ClassifyState';
 
-  protected string $name = 'ClassifyState';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150926
+             * type : string
+             * writable : true
+             * count : 64
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ClassifyState',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150926
-       * type : string
-       * writable : true
-       * count : 64
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ClassifyState',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 64;
 
-  protected int $count = 64;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

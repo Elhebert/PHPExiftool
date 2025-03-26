@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CenterWeightedAreaSize extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:CenterWeightedAreaSize';
 
-  protected string $id = 'NikonSettings:CenterWeightedAreaSize';
+    protected string $name = 'CenterWeightedAreaSize';
 
-  protected string $name = 'CenterWeightedAreaSize';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 243780
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:CenterWeightedAreaSize',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 243810
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:CenterWeightedAreaSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 243780
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:CenterWeightedAreaSize',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 243810
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:CenterWeightedAreaSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

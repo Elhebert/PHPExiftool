@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureMode extends AbstractTagGroup
 {
+    protected string $id = 'Leica:ExposureMode';
 
-  protected string $id = 'Leica:ExposureMode';
+    protected string $name = 'ExposureMode';
 
-  protected string $name = 'ExposureMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Leica5
+             * line : 274813
+             * type : int8u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Leica5.Leica:ExposureMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Leica5
-       * line : 274813
-       * type : int8u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Leica5.Leica:ExposureMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

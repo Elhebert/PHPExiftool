@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailWidth extends AbstractTagGroup
 {
+    protected string $id = 'JFIF:ThumbnailWidth';
 
-  protected string $id = 'JFIF:ThumbnailWidth';
+    protected string $name = 'ThumbnailWidth';
 
-  protected string $name = 'ThumbnailWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JFIF::Main
+             * line : 152342
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JFIF::Main.JFIF:ThumbnailWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JFIF::Main
-       * line : 152342
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JFIF::Main.JFIF:ThumbnailWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGBCoeffsDaylight extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:WB_RGBCoeffsDaylight';
 
-  protected string $id = 'KodakIFD:WB_RGBCoeffsDaylight';
+    protected string $name = 'WB_RGBCoeffsDaylight';
 
-  protected string $name = 'WB_RGBCoeffsDaylight';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155251
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:WB_RGBCoeffsDaylight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155251
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:WB_RGBCoeffsDaylight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 6;
-
+    protected int $flags = 6;
 }

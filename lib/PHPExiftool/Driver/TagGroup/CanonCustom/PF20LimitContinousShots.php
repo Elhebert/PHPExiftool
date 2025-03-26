@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PF20LimitContinousShots extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:PF20LimitContinousShots';
 
-  protected string $id = 'CanonCustom:PF20LimitContinousShots';
+    protected string $name = 'PF20LimitContinousShots';
 
-  protected string $name = 'PF20LimitContinousShots';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::PersonalFuncs
+             * line : 78407
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF20LimitContinousShots',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::PersonalFuncs
-       * line : 78407
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF20LimitContinousShots',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

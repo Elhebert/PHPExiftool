@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MPFVersion extends AbstractTagGroup
 {
+    protected string $id = 'MPF0:MPFVersion';
 
-  protected string $id = 'MPF0:MPFVersion';
+    protected string $name = 'MPFVersion';
 
-  protected string $name = 'MPFVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPF::Main
+             * line : 166245
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPF::Main.MPF0:MPFVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPF::Main
-       * line : 166245
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPF::Main.MPF0:MPFVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

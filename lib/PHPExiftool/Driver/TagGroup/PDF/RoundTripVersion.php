@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RoundTripVersion extends AbstractTagGroup
 {
+    protected string $id = 'PDF:RoundTripVersion';
 
-  protected string $id = 'PDF:RoundTripVersion';
+    protected string $name = 'RoundTripVersion';
 
-  protected string $name = 'RoundTripVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::AIPrivate
+             * line : 264038
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::AIPrivate.PDF:RoundTripVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::AIPrivate
-       * line : 264038
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::AIPrivate.PDF:RoundTripVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

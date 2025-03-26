@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RightAscension extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Orient:RightAscension';
 
-  protected string $id = 'MIE-Orient:RightAscension';
+    protected string $name = 'RightAscension';
 
-  protected string $name = 'RightAscension';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Orient
+             * line : 164095
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Orient.MIE-Orient:RightAscension',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Orient
-       * line : 164095
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Orient.MIE-Orient:RightAscension',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

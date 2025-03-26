@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CellDepth extends AbstractTagGroup
 {
+    protected string $id = 'File:CellDepth';
 
-  protected string $id = 'File:CellDepth';
+    protected string $name = 'CellDepth';
 
-  protected string $name = 'CellDepth';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166894
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::Main.File:CellDepth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166894
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:CellDepth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

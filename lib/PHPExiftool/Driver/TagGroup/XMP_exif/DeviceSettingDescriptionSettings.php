@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DeviceSettingDescriptionSettings extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exif:DeviceSettingDescriptionSettings';
 
-  protected string $id = 'XMP-exif:DeviceSettingDescriptionSettings';
+    protected string $name = 'DeviceSettingDescriptionSettings';
 
-  protected string $name = 'DeviceSettingDescriptionSettings';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exif
+             * line : 405412
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list,seq
+             */
+            'id' => 'XMP::exif.XMP-exif:DeviceSettingDescriptionSettings',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exif
-       * line : 405412
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list,seq
-       */
-      'id' => 'XMP::exif.XMP-exif:DeviceSettingDescriptionSettings',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

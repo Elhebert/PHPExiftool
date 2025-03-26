@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Custom9 extends AbstractTagGroup
 {
+    protected string $id = 'XMP-plus:Custom9';
 
-  protected string $id = 'XMP-plus:Custom9';
+    protected string $name = 'Custom9';
 
-  protected string $name = 'Custom9';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PLUS::XMP
+             * line : 265359
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'PLUS::XMP.XMP-plus:Custom9',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PLUS::XMP
-       * line : 265359
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'PLUS::XMP.XMP-plus:Custom9',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

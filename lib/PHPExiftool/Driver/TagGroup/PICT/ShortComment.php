@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShortComment extends AbstractTagGroup
 {
+    protected string $id = 'PICT:ShortComment';
 
-  protected string $id = 'PICT:ShortComment';
+    protected string $name = 'ShortComment';
 
-  protected string $name = 'ShortComment';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 265027
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:ShortComment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 265027
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:ShortComment',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

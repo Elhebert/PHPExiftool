@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Software extends AbstractTagGroup
 {
+    protected string $id = 'Sanyo:Software';
 
-  protected string $id = 'Sanyo:Software';
+    protected string $name = 'Software';
 
-  protected string $name = 'Software';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sanyo::MP4
+             * line : 336063
+             * type : undef
+             * writable : false
+             * count : 32
+             * flags : permanent
+             */
+            'id' => 'Sanyo::MP4.Sanyo:Software',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sanyo::MP4
+             * line : 336080
+             * type : undef
+             * writable : false
+             * count : 32
+             * flags : permanent
+             */
+            'id' => 'Sanyo::MP4.Sanyo:Software',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sanyo::MP4
-       * line : 336063
-       * type : undef
-       * writable : false
-       * count : 32
-       * flags : permanent
-       */
-      'id' => 'Sanyo::MP4.Sanyo:Software',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sanyo::MP4
-       * line : 336080
-       * type : undef
-       * writable : false
-       * count : 32
-       * flags : permanent
-       */
-      'id' => 'Sanyo::MP4.Sanyo:Software',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

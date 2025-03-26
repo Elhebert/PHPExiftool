@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Playlist extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:Playlist';
 
-  protected string $id = 'RIFF:Playlist';
+    protected string $name = 'Playlist';
 
-  protected string $name = 'Playlist';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Main
+             * line : 328678
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'RIFF::Main.RIFF:Playlist',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Main
-       * line : 328678
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'RIFF::Main.RIFF:Playlist',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

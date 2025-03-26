@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GIDCVer extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:GIDCVer';
 
-  protected string $id = 'FLIR:GIDCVer';
+    protected string $name = 'GIDCVer';
 
-  protected string $name = 'GIDCVer';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::Parts
+             * line : 123623
+             * type : undef
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FLIR::Parts.FLIR:GIDCVer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::Parts
-       * line : 123623
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FLIR::Parts.FLIR:GIDCVer',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

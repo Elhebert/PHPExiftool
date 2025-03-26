@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISO extends AbstractTagGroup
 {
+    protected string $id = 'Sanyo:ISO';
 
-  protected string $id = 'Sanyo:ISO';
+    protected string $name = 'ISO';
 
-  protected string $name = 'ISO';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sanyo::MP4
+             * line : 336048
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sanyo::MP4.Sanyo:ISO',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sanyo::MP4
-       * line : 336048
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sanyo::MP4.Sanyo:ISO',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PercussivePolyphony extends AbstractTagGroup
 {
+    protected string $id = 'GIF:PercussivePolyphony';
 
-  protected string $id = 'GIF:PercussivePolyphony';
+    protected string $name = 'PercussivePolyphony';
 
-  protected string $name = 'PercussivePolyphony';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIF::MIDIControl
+             * line : 131292
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GIF::MIDIControl.GIF:PercussivePolyphony',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIF::MIDIControl
-       * line : 131292
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIF::MIDIControl.GIF:PercussivePolyphony',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

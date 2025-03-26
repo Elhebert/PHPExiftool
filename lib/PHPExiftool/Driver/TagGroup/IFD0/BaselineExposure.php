@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BaselineExposure extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:BaselineExposure';
 
-  protected string $id = 'IFD0:BaselineExposure';
+    protected string $name = 'BaselineExposure';
 
-  protected string $name = 'BaselineExposure';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 119127
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:BaselineExposure',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 119127
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:BaselineExposure',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

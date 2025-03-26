@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSDataList extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GPSDataList';
 
-  protected string $id = 'QuickTime:GPSDataList';
+    protected string $name = 'GPSDataList';
 
-  protected string $name = 'GPSDataList';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Movie
+             * line : 324058
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'QuickTime::Movie.QuickTime:GPSDataList',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Movie
-       * line : 324058
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'QuickTime::Movie.QuickTime:GPSDataList',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 34;
-
+    protected int $flags = 34;
 }

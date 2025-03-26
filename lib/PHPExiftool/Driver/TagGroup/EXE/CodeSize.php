@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CodeSize extends AbstractTagGroup
 {
+    protected string $id = 'EXE:CodeSize';
 
-  protected string $id = 'EXE:CodeSize';
+    protected string $name = 'CodeSize';
 
-  protected string $name = 'CodeSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::Main
+             * line : 108872
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::Main.EXE:CodeSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::Main
-       * line : 108872
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::Main.EXE:CodeSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

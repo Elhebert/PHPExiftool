@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeReference extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:TimeReference';
 
-  protected string $id = 'RIFF:TimeReference';
+    protected string $name = 'TimeReference';
 
-  protected string $name = 'TimeReference';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::BroadcastExt
+             * line : 327799
+             * type : int32u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'RIFF::BroadcastExt.RIFF:TimeReference',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::BroadcastExt
-       * line : 327799
-       * type : int32u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'RIFF::BroadcastExt.RIFF:TimeReference',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'SPIFF:ImageHeight';
 
-  protected string $id = 'SPIFF:ImageHeight';
+    protected string $name = 'ImageHeight';
 
-  protected string $name = 'ImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::SPIFF
+             * line : 153104
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::SPIFF.SPIFF:ImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::SPIFF
-       * line : 153104
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::SPIFF.SPIFF:ImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

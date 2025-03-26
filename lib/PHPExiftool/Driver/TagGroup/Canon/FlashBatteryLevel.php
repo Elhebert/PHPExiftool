@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashBatteryLevel extends AbstractTagGroup
 {
+    protected string $id = 'Canon:FlashBatteryLevel';
 
-  protected string $id = 'Canon:FlashBatteryLevel';
+    protected string $name = 'FlashBatteryLevel';
 
-  protected string $name = 'FlashBatteryLevel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorData3
+             * line : 61270
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::ColorData3.Canon:FlashBatteryLevel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorData3
-       * line : 61270
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::ColorData3.Canon:FlashBatteryLevel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

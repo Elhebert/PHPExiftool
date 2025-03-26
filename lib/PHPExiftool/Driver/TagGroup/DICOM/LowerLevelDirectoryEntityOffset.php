@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LowerLevelDirectoryEntityOffset extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:LowerLevelDirectoryEntityOffset';
 
-  protected string $id = 'DICOM:LowerLevelDirectoryEntityOffset';
+    protected string $name = 'LowerLevelDirectoryEntityOffset';
 
-  protected string $name = 'LowerLevelDirectoryEntityOffset';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 94616
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:LowerLevelDirectoryEntityOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 94616
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:LowerLevelDirectoryEntityOffset',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

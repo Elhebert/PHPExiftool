@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioSetting extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:AudioSetting';
 
-  protected string $id = 'GoPro:AudioSetting';
+    protected string $name = 'AudioSetting';
 
-  protected string $name = 'AudioSetting';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPMF
+             * line : 139409
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GoPro::GPMF.GoPro:AudioSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPMF
-       * line : 139409
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GoPro::GPMF.GoPro:AudioSetting',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

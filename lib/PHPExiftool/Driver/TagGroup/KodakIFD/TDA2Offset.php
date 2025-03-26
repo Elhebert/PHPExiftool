@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TDA2Offset extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:TDA2Offset';
 
-  protected string $id = 'KodakIFD:TDA2Offset';
+    protected string $name = 'TDA2Offset';
 
-  protected string $name = 'TDA2Offset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 157353
+             * type : int32u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:TDA2Offset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 157353
-       * type : int32u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:TDA2Offset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioSampleRate extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:AudioSampleRate';
 
-  protected string $id = 'Matroska:AudioSampleRate';
+    protected string $name = 'AudioSampleRate';
 
-  protected string $name = 'AudioSampleRate';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Main
+             * line : 173320
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Matroska::Main.Matroska:AudioSampleRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Main
-       * line : 173320
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Matroska::Main.Matroska:AudioSampleRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

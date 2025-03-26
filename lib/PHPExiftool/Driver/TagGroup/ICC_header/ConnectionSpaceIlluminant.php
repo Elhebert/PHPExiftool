@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConnectionSpaceIlluminant extends AbstractTagGroup
 {
+    protected string $id = 'ICC-header:ConnectionSpaceIlluminant';
 
-  protected string $id = 'ICC-header:ConnectionSpaceIlluminant';
+    protected string $name = 'ConnectionSpaceIlluminant';
 
-  protected string $name = 'ConnectionSpaceIlluminant';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Header
+             * line : 145107
+             * type : fixed32s
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'ICC_Profile::Header.ICC-header:ConnectionSpaceIlluminant',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Header
-       * line : 145107
-       * type : fixed32s
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Header.ICC-header:ConnectionSpaceIlluminant',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

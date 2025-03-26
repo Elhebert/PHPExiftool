@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InitialKey extends AbstractTagGroup
 {
+    protected string $id = 'ID3v2_2:InitialKey';
 
-  protected string $id = 'ID3v2_2:InitialKey';
+    protected string $name = 'InitialKey';
 
-  protected string $name = 'InitialKey';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v2_2
+             * line : 148318
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_2.ID3v2_2:InitialKey',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v2_2
-       * line : 148318
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_2.ID3v2_2:InitialKey',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

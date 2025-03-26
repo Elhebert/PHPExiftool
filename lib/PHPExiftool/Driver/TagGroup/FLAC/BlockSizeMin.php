@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlockSizeMin extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:BlockSizeMin';
 
-  protected string $id = 'FLAC:BlockSizeMin';
+    protected string $name = 'BlockSizeMin';
 
-  protected string $name = 'BlockSizeMin';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::StreamInfo
+             * line : 121933
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::StreamInfo.FLAC:BlockSizeMin',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::StreamInfo
-       * line : 121933
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::StreamInfo.FLAC:BlockSizeMin',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

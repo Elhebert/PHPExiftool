@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Action extends AbstractTagGroup
 {
+    protected string $id = 'VCalendar:Action';
 
-  protected string $id = 'VCalendar:Action';
+    protected string $name = 'Action';
 
-  protected string $name = 'Action';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : VCard::VCalendar
+             * line : 395266
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'VCard::VCalendar.VCalendar:Action',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : VCard::VCalendar
-       * line : 395266
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'VCard::VCalendar.VCalendar:Action',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

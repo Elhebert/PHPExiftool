@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureIndex extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:ExposureIndex';
 
-  protected string $id = 'FlashPix:ExposureIndex';
+    protected string $name = 'ExposureIndex';
 
-  protected string $name = 'ExposureIndex';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::ImageInfo
+             * line : 126042
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::ImageInfo.FlashPix:ExposureIndex',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::ImageInfo
-       * line : 126042
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::ImageInfo.FlashPix:ExposureIndex',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnifiedProcedureStepProgressDescr extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:UnifiedProcedureStepProgressDescr';
 
-  protected string $id = 'DICOM:UnifiedProcedureStepProgressDescr';
+    protected string $name = 'UnifiedProcedureStepProgressDescr';
 
-  protected string $name = 'UnifiedProcedureStepProgressDescr';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 101733
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:UnifiedProcedureStepProgressDescr',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 101733
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:UnifiedProcedureStepProgressDescr',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

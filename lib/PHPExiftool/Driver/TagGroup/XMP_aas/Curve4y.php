@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Curve4y extends AbstractTagGroup
 {
+    protected string $id = 'XMP-aas:Curve4y';
 
-  protected string $id = 'XMP-aas:Curve4y';
+    protected string $name = 'Curve4y';
 
-  protected string $name = 'Curve4y';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::aas
+             * line : 397664
+             * type : real
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::aas.XMP-aas:Curve4y',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::aas
-       * line : 397664
-       * type : real
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::aas.XMP-aas:Curve4y',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

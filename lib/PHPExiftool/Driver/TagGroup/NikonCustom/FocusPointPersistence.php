@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocusPointPersistence extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:FocusPointPersistence';
 
-  protected string $id = 'NikonCustom:FocusPointPersistence';
+    protected string $name = 'FocusPointPersistence';
 
-  protected string $name = 'FocusPointPersistence';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsZ9
+             * line : 238391
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsZ9.NikonCustom:FocusPointPersistence',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsZ9
-       * line : 238391
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsZ9.NikonCustom:FocusPointPersistence',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

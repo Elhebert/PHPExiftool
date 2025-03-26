@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChartCountryOrigin extends AbstractTagGroup
 {
+    protected string $id = 'GeoTiff:ChartCountryOrigin';
 
-  protected string $id = 'GeoTiff:ChartCountryOrigin';
+    protected string $name = 'ChartCountryOrigin';
 
-  protected string $name = 'ChartCountryOrigin';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GeoTiff::Main
+             * line : 139135
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GeoTiff::Main.GeoTiff:ChartCountryOrigin',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GeoTiff::Main
-       * line : 139135
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GeoTiff::Main.GeoTiff:ChartCountryOrigin',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

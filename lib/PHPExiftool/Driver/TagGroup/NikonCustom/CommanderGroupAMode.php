@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CommanderGroupAMode extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:CommanderGroupAMode';
 
-  protected string $id = 'NikonCustom:CommanderGroupAMode';
+    protected string $name = 'CommanderGroupAMode';
 
-  protected string $name = 'CommanderGroupAMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD80
+             * line : 228757
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD80.NikonCustom:CommanderGroupAMode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonCustom::SettingsD800
+             * line : 229244
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD800.NikonCustom:CommanderGroupAMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD80
-       * line : 228757
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD80.NikonCustom:CommanderGroupAMode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonCustom::SettingsD800
-       * line : 229244
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD800.NikonCustom:CommanderGroupAMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

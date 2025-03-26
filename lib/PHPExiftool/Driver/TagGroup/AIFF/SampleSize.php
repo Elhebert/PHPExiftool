@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SampleSize extends AbstractTagGroup
 {
+    protected string $id = 'AIFF:SampleSize';
 
-  protected string $id = 'AIFF:SampleSize';
+    protected string $name = 'SampleSize';
 
-  protected string $name = 'SampleSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : AIFF::Common
+             * line : 101
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'AIFF::Common.AIFF:SampleSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : AIFF::Common
-       * line : 101
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'AIFF::Common.AIFF:SampleSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

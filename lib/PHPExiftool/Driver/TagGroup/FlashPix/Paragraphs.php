@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Paragraphs extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:Paragraphs';
 
-  protected string $id = 'FlashPix:Paragraphs';
+    protected string $name = 'Paragraphs';
 
-  protected string $name = 'Paragraphs';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::DocumentInfo
+             * line : 124461
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DocumentInfo.FlashPix:Paragraphs',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::DocumentInfo
-       * line : 124461
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DocumentInfo.FlashPix:Paragraphs',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

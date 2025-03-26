@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageMagnificationDescriptor extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:ImageMagnificationDescriptor';
 
-  protected string $id = 'PhotoCD:ImageMagnificationDescriptor';
+    protected string $name = 'ImageMagnificationDescriptor';
 
-  protected string $name = 'ImageMagnificationDescriptor';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303686
+             * type : int8u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:ImageMagnificationDescriptor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303686
-       * type : int8u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:ImageMagnificationDescriptor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

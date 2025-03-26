@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxPageSizeW extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpTPg:MaxPageSizeW';
 
-  protected string $id = 'XMP-xmpTPg:MaxPageSizeW';
+    protected string $name = 'MaxPageSizeW';
 
-  protected string $name = 'MaxPageSizeW';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpTPg
+             * line : 414534
+             * type : real
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::xmpTPg.XMP-xmpTPg:MaxPageSizeW',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpTPg
-       * line : 414534
-       * type : real
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::xmpTPg.XMP-xmpTPg:MaxPageSizeW',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

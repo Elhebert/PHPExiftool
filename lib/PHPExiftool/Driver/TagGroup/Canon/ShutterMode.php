@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShutterMode extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ShutterMode';
 
-  protected string $id = 'Canon:ShutterMode';
+    protected string $name = 'ShutterMode';
 
-  protected string $name = 'ShutterMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::FileInfo
+             * line : 63806
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::FileInfo.Canon:ShutterMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::FileInfo
-       * line : 63806
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::FileInfo.Canon:ShutterMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

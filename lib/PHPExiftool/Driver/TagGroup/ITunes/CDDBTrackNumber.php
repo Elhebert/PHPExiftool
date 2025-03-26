@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CDDBTrackNumber extends AbstractTagGroup
 {
+    protected string $id = 'iTunes:CDDBTrackNumber';
 
-  protected string $id = 'iTunes:CDDBTrackNumber';
+    protected string $name = 'CDDBTrackNumber';
 
-  protected string $name = 'CDDBTrackNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::iTunesInfo
+             * line : 326680
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::iTunesInfo.iTunes:CDDBTrackNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::iTunesInfo
-       * line : 326680
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::iTunesInfo.iTunes:CDDBTrackNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

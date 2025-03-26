@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Cluster extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:Cluster';
 
-  protected string $id = 'XMP-crd:Cluster';
+    protected string $name = 'Cluster';
 
-  protected string $name = 'Cluster';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 398706
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::crd.XMP-crd:Cluster',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 398706
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::crd.XMP-crd:Cluster',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

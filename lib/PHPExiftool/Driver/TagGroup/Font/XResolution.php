@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XResolution extends AbstractTagGroup
 {
+    protected string $id = 'Font:XResolution';
 
-  protected string $id = 'Font:XResolution';
+    protected string $name = 'XResolution';
 
-  protected string $name = 'XResolution';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::PFM
+             * line : 128010
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PFM.Font:XResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::PFM
-       * line : 128010
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PFM.Font:XResolution',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

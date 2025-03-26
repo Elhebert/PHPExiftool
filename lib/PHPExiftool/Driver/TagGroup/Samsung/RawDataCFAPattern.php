@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawDataCFAPattern extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:RawDataCFAPattern';
 
-  protected string $id = 'Samsung:RawDataCFAPattern';
+    protected string $name = 'RawDataCFAPattern';
 
-  protected string $name = 'RawDataCFAPattern';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335267
+             * type : ?
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::Type2.Samsung:RawDataCFAPattern',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335267
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::Type2.Samsung:RawDataCFAPattern',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

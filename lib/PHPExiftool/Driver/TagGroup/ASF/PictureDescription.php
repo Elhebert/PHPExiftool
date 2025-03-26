@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureDescription extends AbstractTagGroup
 {
+    protected string $id = 'ASF:PictureDescription';
 
-  protected string $id = 'ASF:PictureDescription';
+    protected string $name = 'PictureDescription';
 
-  protected string $name = 'PictureDescription';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::Picture
+             * line : 2030
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::Picture.ASF:PictureDescription',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::Picture
-       * line : 2030
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::Picture.ASF:PictureDescription',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

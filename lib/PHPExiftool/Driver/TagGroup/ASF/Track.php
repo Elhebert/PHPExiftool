@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Track extends AbstractTagGroup
 {
+    protected string $id = 'ASF:Track';
 
-  protected string $id = 'ASF:Track';
+    protected string $name = 'Track';
 
-  protected string $name = 'Track';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::ExtendedDescr
+             * line : 1638
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ExtendedDescr.ASF:Track',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::ExtendedDescr
-       * line : 1638
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ExtendedDescr.ASF:Track',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

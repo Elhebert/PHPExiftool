@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImage extends AbstractTagGroup
 {
+    protected string $id = 'FotoStation:PreviewImage';
 
-  protected string $id = 'FotoStation:PreviewImage';
+    protected string $name = 'PreviewImage';
 
-  protected string $name = 'PreviewImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FotoStation::Main
+             * line : 128210
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'FotoStation::Main.FotoStation:PreviewImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FotoStation::Main
-       * line : 128210
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'FotoStation::Main.FotoStation:PreviewImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

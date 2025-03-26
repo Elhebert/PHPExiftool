@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ArtistLen extends AbstractTagGroup
 {
+    protected string $id = 'Real-RA4:ArtistLen';
 
-  protected string $id = 'Real-RA4:ArtistLen';
+    protected string $name = 'ArtistLen';
 
-  protected string $name = 'ArtistLen';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::AudioV4
+             * line : 329922
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Real::AudioV4.Real-RA4:ArtistLen',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::AudioV4
-       * line : 329922
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Real::AudioV4.Real-RA4:ArtistLen',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MovieWhiteBalanceSameAsPhoto extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:MovieWhiteBalanceSameAsPhoto';
 
-  protected string $id = 'NikonSettings:MovieWhiteBalanceSameAsPhoto';
+    protected string $name = 'MovieWhiteBalanceSameAsPhoto';
 
-  protected string $name = 'MovieWhiteBalanceSameAsPhoto';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 243519
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:MovieWhiteBalanceSameAsPhoto',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 243519
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:MovieWhiteBalanceSameAsPhoto',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

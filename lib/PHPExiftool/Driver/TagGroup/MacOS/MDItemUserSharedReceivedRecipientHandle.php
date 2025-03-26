@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MDItemUserSharedReceivedRecipientHandle extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:MDItemUserSharedReceivedRecipientHandle';
 
-  protected string $id = 'MacOS:MDItemUserSharedReceivedRecipientHandle';
+    protected string $name = 'MDItemUserSharedReceivedRecipientHandle';
 
-  protected string $name = 'MDItemUserSharedReceivedRecipientHandle';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::MDItem
+             * line : 173036
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::MDItem.MacOS:MDItemUserSharedReceivedRecipientHandle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::MDItem
-       * line : 173036
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::MDItem.MacOS:MDItemUserSharedReceivedRecipientHandle',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlueAdjust extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:BlueAdjust';
 
-  protected string $id = 'SigmaRaw:BlueAdjust';
+    protected string $name = 'BlueAdjust';
 
-  protected string $name = 'BlueAdjust';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::HeaderExt
+             * line : 339569
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::HeaderExt.SigmaRaw:BlueAdjust',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::HeaderExt
-       * line : 339569
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::HeaderExt.SigmaRaw:BlueAdjust',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

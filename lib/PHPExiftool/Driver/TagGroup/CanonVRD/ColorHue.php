@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorHue extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:ColorHue';
 
-  protected string $id = 'CanonVRD:ColorHue';
+    protected string $name = 'ColorHue';
 
-  protected string $name = 'ColorHue';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DR4
+             * line : 80743
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::DR4.CanonVRD:ColorHue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DR4
-       * line : 80743
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::DR4.CanonVRD:ColorHue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

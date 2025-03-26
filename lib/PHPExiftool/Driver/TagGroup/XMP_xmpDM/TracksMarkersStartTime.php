@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TracksMarkersStartTime extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:TracksMarkersStartTime';
 
-  protected string $id = 'XMP-xmpDM:TracksMarkersStartTime';
+    protected string $name = 'TracksMarkersStartTime';
 
-  protected string $name = 'TracksMarkersStartTime';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413577
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:TracksMarkersStartTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413577
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:TracksMarkersStartTime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

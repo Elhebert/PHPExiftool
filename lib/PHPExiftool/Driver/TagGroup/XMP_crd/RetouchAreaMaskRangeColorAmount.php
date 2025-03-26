@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RetouchAreaMaskRangeColorAmount extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:RetouchAreaMaskRangeColorAmount';
 
-  protected string $id = 'XMP-crd:RetouchAreaMaskRangeColorAmount';
+    protected string $name = 'RetouchAreaMaskRangeColorAmount';
 
-  protected string $name = 'RetouchAreaMaskRangeColorAmount';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 400687
+             * type : real
+             * writable : true
+             * count :
+             * flags : avoid,flattened,list
+             */
+            'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskRangeColorAmount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 400687
-       * type : real
-       * writable : true
-       * count : 
-       * flags : avoid,flattened,list
-       */
-      'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskRangeColorAmount',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2113;
-
+    protected int $flags = 2113;
 }

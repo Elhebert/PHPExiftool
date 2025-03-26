@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PlateNames extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpTPg:PlateNames';
 
-  protected string $id = 'XMP-xmpTPg:PlateNames';
+    protected string $name = 'PlateNames';
 
-  protected string $name = 'PlateNames';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpTPg
+             * line : 414540
+             * type : string
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::xmpTPg.XMP-xmpTPg:PlateNames',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpTPg
-       * line : 414540
-       * type : string
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::xmpTPg.XMP-xmpTPg:PlateNames',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

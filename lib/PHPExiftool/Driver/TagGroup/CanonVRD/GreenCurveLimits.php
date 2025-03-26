@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GreenCurveLimits extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:GreenCurveLimits';
 
-  protected string $id = 'CanonVRD:GreenCurveLimits';
+    protected string $name = 'GreenCurveLimits';
 
-  protected string $name = 'GreenCurveLimits';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Ver1
+             * line : 82467
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver1.CanonVRD:GreenCurveLimits',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Ver1
-       * line : 82467
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver1.CanonVRD:GreenCurveLimits',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

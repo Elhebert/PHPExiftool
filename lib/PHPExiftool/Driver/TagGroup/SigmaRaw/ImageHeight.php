@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:ImageHeight';
 
-  protected string $id = 'SigmaRaw:ImageHeight';
+    protected string $name = 'ImageHeight';
 
-  protected string $name = 'ImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Header
+             * line : 339355
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header.SigmaRaw:ImageHeight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : SigmaRaw::Header4
+             * line : 339452
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header4.SigmaRaw:ImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Header
-       * line : 339355
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header.SigmaRaw:ImageHeight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : SigmaRaw::Header4
-       * line : 339452
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header4.SigmaRaw:ImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

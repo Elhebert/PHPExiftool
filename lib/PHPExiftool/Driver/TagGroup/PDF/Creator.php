@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Creator extends AbstractTagGroup
 {
+    protected string $id = 'PDF:Creator';
 
-  protected string $id = 'PDF:Creator';
+    protected string $name = 'Creator';
 
-  protected string $name = 'Creator';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Info
+             * line : 264185
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::Info.PDF:Creator',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Info
-       * line : 264185
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::Info.PDF:Creator',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

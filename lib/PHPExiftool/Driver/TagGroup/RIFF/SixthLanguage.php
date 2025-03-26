@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SixthLanguage extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:SixthLanguage';
 
-  protected string $id = 'RIFF:SixthLanguage';
+    protected string $name = 'SixthLanguage';
 
-  protected string $name = 'SixthLanguage';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Info
+             * line : 328107
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Info.RIFF:SixthLanguage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Info
-       * line : 328107
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Info.RIFF:SixthLanguage',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

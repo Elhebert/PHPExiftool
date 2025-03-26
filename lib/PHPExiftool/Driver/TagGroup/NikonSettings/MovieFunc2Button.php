@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MovieFunc2Button extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:MovieFunc2Button';
 
-  protected string $id = 'NikonSettings:MovieFunc2Button';
+    protected string $name = 'MovieFunc2Button';
 
-  protected string $name = 'MovieFunc2Button';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 246807
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:MovieFunc2Button',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 246884
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:MovieFunc2Button',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 246807
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:MovieFunc2Button',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 246884
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:MovieFunc2Button',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

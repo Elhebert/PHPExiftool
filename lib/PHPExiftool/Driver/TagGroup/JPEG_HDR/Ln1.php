@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Ln1 extends AbstractTagGroup
 {
+    protected string $id = 'JPEG-HDR:Ln1';
 
-  protected string $id = 'JPEG-HDR:Ln1';
+    protected string $name = 'Ln1';
 
-  protected string $name = 'Ln1';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::HDR
+             * line : 152480
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::HDR.JPEG-HDR:Ln1',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::HDR
-       * line : 152480
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::HDR.JPEG-HDR:Ln1',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

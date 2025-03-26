@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Podcast extends AbstractTagGroup
 {
+    protected string $id = 'ID3v2_3:Podcast';
 
-  protected string $id = 'ID3v2_3:Podcast';
+    protected string $name = 'Podcast';
 
-  protected string $name = 'Podcast';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v2_3
+             * line : 148725
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'ID3::v2_3.ID3v2_3:Podcast',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v2_3
-       * line : 148725
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'ID3::v2_3.ID3v2_3:Podcast',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 34;
-
+    protected int $flags = 34;
 }

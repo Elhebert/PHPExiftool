@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ResponsibleOrganization extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ResponsibleOrganization';
 
-  protected string $id = 'DICOM:ResponsibleOrganization';
+    protected string $name = 'ResponsibleOrganization';
 
-  protected string $name = 'ResponsibleOrganization';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 94846
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ResponsibleOrganization',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 95338
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ResponsibleOrganization',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 94846
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ResponsibleOrganization',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 95338
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ResponsibleOrganization',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:PreviewImageHeight';
 
-  protected string $id = 'FlashPix:PreviewImageHeight';
+    protected string $name = 'PreviewImageHeight';
 
-  protected string $name = 'PreviewImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::PreviewInfo
+             * line : 126604
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::PreviewInfo.FlashPix:PreviewImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::PreviewInfo
-       * line : 126604
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::PreviewInfo.FlashPix:PreviewImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

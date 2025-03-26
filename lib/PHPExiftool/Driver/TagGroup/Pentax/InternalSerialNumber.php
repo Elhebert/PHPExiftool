@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InternalSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:InternalSerialNumber';
 
-  protected string $id = 'Pentax:InternalSerialNumber';
+    protected string $name = 'InternalSerialNumber';
 
-  protected string $name = 'InternalSerialNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::CameraInfo
+             * line : 284343
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::CameraInfo.Pentax:InternalSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::CameraInfo
-       * line : 284343
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::CameraInfo.Pentax:InternalSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

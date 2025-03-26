@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LocationCreatedLocationName extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:LocationCreatedLocationName';
 
-  protected string $id = 'XMP-iptcExt:LocationCreatedLocationName';
+    protected string $name = 'LocationCreatedLocationName';
 
-  protected string $name = 'LocationCreatedLocationName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409473
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:LocationCreatedLocationName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409473
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:LocationCreatedLocationName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

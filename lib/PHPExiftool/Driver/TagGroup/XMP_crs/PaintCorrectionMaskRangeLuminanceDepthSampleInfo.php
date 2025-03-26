@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PaintCorrectionMaskRangeLuminanceDepthSampleInfo extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:PaintCorrectionMaskRangeLuminanceDepthSampleInfo';
 
-  protected string $id = 'XMP-crs:PaintCorrectionMaskRangeLuminanceDepthSampleInfo';
+    protected string $name = 'PaintCorrectionMaskRangeLuminanceDepthSampleInfo';
 
-  protected string $name = 'PaintCorrectionMaskRangeLuminanceDepthSampleInfo';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 403490
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskRangeLuminanceDepthSampleInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 403490
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskRangeLuminanceDepthSampleInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

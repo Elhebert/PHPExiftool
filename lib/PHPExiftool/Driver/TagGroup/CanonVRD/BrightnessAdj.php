@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BrightnessAdj extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:BrightnessAdj';
 
-  protected string $id = 'CanonVRD:BrightnessAdj';
+    protected string $name = 'BrightnessAdj';
 
-  protected string $name = 'BrightnessAdj';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Ver1
+             * line : 82414
+             * type : int8s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver1.CanonVRD:BrightnessAdj',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Ver1
-       * line : 82414
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver1.CanonVRD:BrightnessAdj',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

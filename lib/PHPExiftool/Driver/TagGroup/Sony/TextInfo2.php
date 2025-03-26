@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TextInfo2 extends AbstractTagGroup
 {
+    protected string $id = 'Sony:TextInfo2';
 
-  protected string $id = 'Sony:TextInfo2';
+    protected string $name = 'TextInfo2';
 
-  protected string $name = 'TextInfo2';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::PIC
+             * line : 361248
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Sony::PIC.Sony:TextInfo2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::PIC
-       * line : 361248
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Sony::PIC.Sony:TextInfo2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 6;
-
+    protected int $flags = 6;
 }

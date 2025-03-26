@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RenditionOfManager extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpMM:RenditionOfManager';
 
-  protected string $id = 'XMP-xmpMM:RenditionOfManager';
+    protected string $name = 'RenditionOfManager';
 
-  protected string $name = 'RenditionOfManager';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpMM
+             * line : 414227
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfManager',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpMM
-       * line : 414227
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfManager',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XOffsetInSlideCoordinateSystem extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:XOffsetInSlideCoordinateSystem';
 
-  protected string $id = 'DICOM:XOffsetInSlideCoordinateSystem';
+    protected string $name = 'XOffsetInSlideCoordinateSystem';
 
-  protected string $name = 'XOffsetInSlideCoordinateSystem';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99818
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:XOffsetInSlideCoordinateSystem',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99818
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:XOffsetInSlideCoordinateSystem',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

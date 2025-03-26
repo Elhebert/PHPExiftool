@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FaceDetected extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:FaceDetected';
 
-  protected string $id = 'GoPro:FaceDetected';
+    protected string $name = 'FaceDetected';
 
-  protected string $name = 'FaceDetected';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPMF
+             * line : 139482
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GoPro::GPMF.GoPro:FaceDetected',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPMF
-       * line : 139482
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GoPro::GPMF.GoPro:FaceDetected',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

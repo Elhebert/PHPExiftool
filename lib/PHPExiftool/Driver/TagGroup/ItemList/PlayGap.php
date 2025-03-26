@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PlayGap extends AbstractTagGroup
 {
+    protected string $id = 'ItemList:PlayGap';
 
-  protected string $id = 'ItemList:PlayGap';
+    protected string $name = 'PlayGap';
 
-  protected string $name = 'PlayGap';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 322259
+             * type : int8s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ItemList.ItemList:PlayGap',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 322259
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ItemList.ItemList:PlayGap',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

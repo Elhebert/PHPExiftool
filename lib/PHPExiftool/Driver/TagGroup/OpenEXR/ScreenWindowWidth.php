@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ScreenWindowWidth extends AbstractTagGroup
 {
+    protected string $id = 'OpenEXR:ScreenWindowWidth';
 
-  protected string $id = 'OpenEXR:ScreenWindowWidth';
+    protected string $name = 'ScreenWindowWidth';
 
-  protected string $name = 'ScreenWindowWidth';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OpenEXR::Main
+             * line : 263677
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OpenEXR::Main.OpenEXR:ScreenWindowWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OpenEXR::Main
-       * line : 263677
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OpenEXR::Main.OpenEXR:ScreenWindowWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

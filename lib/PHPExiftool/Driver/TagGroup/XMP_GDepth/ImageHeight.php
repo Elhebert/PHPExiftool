@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'XMP-GDepth:ImageHeight';
 
-  protected string $id = 'XMP-GDepth:ImageHeight';
+    protected string $name = 'ImageHeight';
 
-  protected string $name = 'ImageHeight';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GDepth
+             * line : 396945
+             * type : real
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::GDepth.XMP-GDepth:ImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GDepth
-       * line : 396945
-       * type : real
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::GDepth.XMP-GDepth:ImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

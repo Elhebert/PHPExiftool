@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class YearCreated extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:YearCreated';
 
-  protected string $id = 'Kodak:YearCreated';
+    protected string $name = 'YearCreated';
 
-  protected string $name = 'YearCreated';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Main
+             * line : 157757
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::Main.Kodak:YearCreated',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Kodak::Type3
+             * line : 160023
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::Type3.Kodak:YearCreated',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Main
-       * line : 157757
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::Main.Kodak:YearCreated',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Kodak::Type3
-       * line : 160023
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::Type3.Kodak:YearCreated',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

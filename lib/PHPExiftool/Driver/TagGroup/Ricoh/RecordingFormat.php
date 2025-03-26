@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RecordingFormat extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:RecordingFormat';
 
-  protected string $id = 'Ricoh:RecordingFormat';
+    protected string $name = 'RecordingFormat';
 
-  protected string $name = 'RecordingFormat';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::Main
+             * line : 332426
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Main.Ricoh:RecordingFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::Main
-       * line : 332426
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Main.Ricoh:RecordingFormat',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

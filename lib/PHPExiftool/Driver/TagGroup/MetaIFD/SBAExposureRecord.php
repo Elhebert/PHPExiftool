@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SBAExposureRecord extends AbstractTagGroup
 {
+    protected string $id = 'MetaIFD:SBAExposureRecord';
 
-  protected string $id = 'MetaIFD:SBAExposureRecord';
+    protected string $name = 'SBAExposureRecord';
 
-  protected string $name = 'SBAExposureRecord';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Meta
+             * line : 158459
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'Kodak::Meta.MetaIFD:SBAExposureRecord',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Meta
-       * line : 158459
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Kodak::Meta.MetaIFD:SBAExposureRecord',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

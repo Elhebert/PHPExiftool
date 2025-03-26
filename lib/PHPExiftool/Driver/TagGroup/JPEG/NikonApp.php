@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NikonApp extends AbstractTagGroup
 {
+    protected string $id = 'JPEG:NikonApp';
 
-  protected string $id = 'JPEG:NikonApp';
+    protected string $name = 'NikonApp';
 
-  protected string $name = 'NikonApp';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::Main
+             * line : 152677
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::Main.JPEG:NikonApp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::Main
-       * line : 152677
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::Main.JPEG:NikonApp',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

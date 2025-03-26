@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PaintRect extends AbstractTagGroup
 {
+    protected string $id = 'PICT:PaintRect';
 
-  protected string $id = 'PICT:PaintRect';
+    protected string $name = 'PaintRect';
 
-  protected string $name = 'PaintRect';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264764
+             * type : Rect
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:PaintRect',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264764
-       * type : Rect
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:PaintRect',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

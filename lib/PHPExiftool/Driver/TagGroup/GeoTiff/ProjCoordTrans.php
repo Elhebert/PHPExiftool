@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProjCoordTrans extends AbstractTagGroup
 {
+    protected string $id = 'GeoTiff:ProjCoordTrans';
 
-  protected string $id = 'GeoTiff:ProjCoordTrans';
+    protected string $name = 'ProjCoordTrans';
 
-  protected string $name = 'ProjCoordTrans';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GeoTiff::Main
+             * line : 138523
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GeoTiff::Main.GeoTiff:ProjCoordTrans',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GeoTiff::Main
-       * line : 138523
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GeoTiff::Main.GeoTiff:ProjCoordTrans',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

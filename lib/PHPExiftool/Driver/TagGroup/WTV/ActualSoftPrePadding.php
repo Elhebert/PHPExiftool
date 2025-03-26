@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ActualSoftPrePadding extends AbstractTagGroup
 {
+    protected string $id = 'WTV:ActualSoftPrePadding';
 
-  protected string $id = 'WTV:ActualSoftPrePadding';
+    protected string $name = 'ActualSoftPrePadding';
 
-  protected string $name = 'ActualSoftPrePadding';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : WTV::Metadata
+             * line : 396261
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'WTV::Metadata.WTV:ActualSoftPrePadding',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : WTV::Metadata
-       * line : 396261
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'WTV::Metadata.WTV:ActualSoftPrePadding',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

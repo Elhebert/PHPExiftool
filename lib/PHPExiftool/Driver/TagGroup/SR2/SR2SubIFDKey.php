@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SR2SubIFDKey extends AbstractTagGroup
 {
+    protected string $id = 'SR2:SR2SubIFDKey';
 
-  protected string $id = 'SR2:SR2SubIFDKey';
+    protected string $name = 'SR2SubIFDKey';
 
-  protected string $name = 'SR2SubIFDKey';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::SR2Private
+             * line : 361677
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::SR2Private.SR2:SR2SubIFDKey',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::SR2Private
-       * line : 361677
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::SR2Private.SR2:SR2SubIFDKey',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

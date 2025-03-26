@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RunTimeEpoch extends AbstractTagGroup
 {
+    protected string $id = 'Apple:RunTimeEpoch';
 
-  protected string $id = 'Apple:RunTimeEpoch';
+    protected string $name = 'RunTimeEpoch';
 
-  protected string $name = 'RunTimeEpoch';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Apple::RunTime
+             * line : 2937
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Apple::RunTime.Apple:RunTimeEpoch',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Apple::RunTime
-       * line : 2937
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Apple::RunTime.Apple:RunTimeEpoch',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MinimumBitrate extends AbstractTagGroup
 {
+    protected string $id = 'Vorbis:MinimumBitrate';
 
-  protected string $id = 'Vorbis:MinimumBitrate';
+    protected string $name = 'MinimumBitrate';
 
-  protected string $name = 'MinimumBitrate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Vorbis::Identification
+             * line : 395941
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Vorbis::Identification.Vorbis:MinimumBitrate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Vorbis::Identification
-       * line : 395941
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Vorbis::Identification.Vorbis:MinimumBitrate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

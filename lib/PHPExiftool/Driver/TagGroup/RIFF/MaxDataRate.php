@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxDataRate extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:MaxDataRate';
 
-  protected string $id = 'RIFF:MaxDataRate';
+    protected string $name = 'MaxDataRate';
 
-  protected string $name = 'MaxDataRate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::AVIHeader
+             * line : 326935
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::AVIHeader.RIFF:MaxDataRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::AVIHeader
-       * line : 326935
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::AVIHeader.RIFF:MaxDataRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

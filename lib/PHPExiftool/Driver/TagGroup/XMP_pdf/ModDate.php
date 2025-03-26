@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModDate extends AbstractTagGroup
 {
+    protected string $id = 'XMP-pdf:ModDate';
 
-  protected string $id = 'XMP-pdf:ModDate';
+    protected string $name = 'ModDate';
 
-  protected string $name = 'ModDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::pdf
+             * line : 410011
+             * type : date
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::pdf.XMP-pdf:ModDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::pdf
-       * line : 410011
-       * type : date
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::pdf.XMP-pdf:ModDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

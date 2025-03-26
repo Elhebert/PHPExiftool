@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BetaTilt extends AbstractTagGroup
 {
+    protected string $id = 'File:BetaTilt';
 
-  protected string $id = 'File:BetaTilt';
+    protected string $name = 'BetaTilt';
 
-  protected string $name = 'BetaTilt';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166434
+             * type : double
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:BetaTilt',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166434
-       * type : double
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:BetaTilt',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

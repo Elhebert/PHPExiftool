@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PublicationDisplayDate extends AbstractTagGroup
 {
+    protected string $id = 'XMP-prism:PublicationDisplayDate';
 
-  protected string $id = 'XMP-prism:PublicationDisplayDate';
+    protected string $name = 'PublicationDisplayDate';
 
-  protected string $name = 'PublicationDisplayDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::prism
+             * line : 411071
+             * type : struct
+             * writable : true
+             * count :
+             * flags : avoid,bag,list
+             */
+            'id' => 'XMP::prism.XMP-prism:PublicationDisplayDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::prism
-       * line : 411071
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : avoid,bag,list
-       */
-      'id' => 'XMP::prism.XMP-prism:PublicationDisplayDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2369;
-
+    protected int $flags = 2369;
 }

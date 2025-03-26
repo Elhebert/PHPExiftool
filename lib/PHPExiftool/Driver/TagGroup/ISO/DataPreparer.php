@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataPreparer extends AbstractTagGroup
 {
+    protected string $id = 'ISO:DataPreparer';
 
-  protected string $id = 'ISO:DataPreparer';
+    protected string $name = 'DataPreparer';
 
-  protected string $name = 'DataPreparer';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 152038
+             * type : string
+             * writable : false
+             * count : 128
+             * flags :
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:DataPreparer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 152038
-       * type : string
-       * writable : false
-       * count : 128
-       * flags : 
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:DataPreparer',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 128;
-
+    protected int $count = 128;
 }

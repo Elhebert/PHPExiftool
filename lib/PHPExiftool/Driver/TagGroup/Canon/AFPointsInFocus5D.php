@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPointsInFocus5D extends AbstractTagGroup
 {
+    protected string $id = 'Canon:AFPointsInFocus5D';
 
-  protected string $id = 'Canon:AFPointsInFocus5D';
+    protected string $name = 'AFPointsInFocus5D';
 
-  protected string $name = 'AFPointsInFocus5D';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfo5D
+             * line : 32362
+             * type : int16uRev
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo5D.Canon:AFPointsInFocus5D',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfo5D
-       * line : 32362
-       * type : int16uRev
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo5D.Canon:AFPointsInFocus5D',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

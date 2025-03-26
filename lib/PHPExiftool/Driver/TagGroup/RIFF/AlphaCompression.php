@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AlphaCompression extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:AlphaCompression';
 
-  protected string $id = 'RIFF:AlphaCompression';
+    protected string $name = 'AlphaCompression';
 
-  protected string $name = 'AlphaCompression';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::ALPH
+             * line : 326876
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::ALPH.RIFF:AlphaCompression',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::ALPH
-       * line : 326876
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::ALPH.RIFF:AlphaCompression',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

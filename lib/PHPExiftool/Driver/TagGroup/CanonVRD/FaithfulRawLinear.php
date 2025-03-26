@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FaithfulRawLinear extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:FaithfulRawLinear';
 
-  protected string $id = 'CanonVRD:FaithfulRawLinear';
+    protected string $name = 'FaithfulRawLinear';
 
-  protected string $name = 'FaithfulRawLinear';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Ver2
+             * line : 82910
+             * type : int16s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver2.CanonVRD:FaithfulRawLinear',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Ver2
-       * line : 82910
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver2.CanonVRD:FaithfulRawLinear',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

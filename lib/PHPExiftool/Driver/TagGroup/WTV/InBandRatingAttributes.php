@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InBandRatingAttributes extends AbstractTagGroup
 {
+    protected string $id = 'WTV:InBandRatingAttributes';
 
-  protected string $id = 'WTV:InBandRatingAttributes';
+    protected string $name = 'InBandRatingAttributes';
 
-  protected string $name = 'InBandRatingAttributes';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : WTV::Metadata
+             * line : 396352
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'WTV::Metadata.WTV:InBandRatingAttributes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : WTV::Metadata
-       * line : 396352
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'WTV::Metadata.WTV:InBandRatingAttributes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

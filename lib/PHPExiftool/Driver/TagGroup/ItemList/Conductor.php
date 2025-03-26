@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Conductor extends AbstractTagGroup
 {
+    protected string $id = 'ItemList:Conductor';
 
-  protected string $id = 'ItemList:Conductor';
+    protected string $name = 'Conductor';
 
-  protected string $name = 'Conductor';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 323025
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ItemList.ItemList:Conductor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 323025
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ItemList.ItemList:Conductor',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

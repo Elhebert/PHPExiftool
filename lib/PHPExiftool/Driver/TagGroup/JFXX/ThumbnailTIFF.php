@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailTIFF extends AbstractTagGroup
 {
+    protected string $id = 'JFXX:ThumbnailTIFF';
 
-  protected string $id = 'JFXX:ThumbnailTIFF';
+    protected string $name = 'ThumbnailTIFF';
 
-  protected string $name = 'ThumbnailTIFF';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JFIF::Extension
+             * line : 152217
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JFIF::Extension.JFXX:ThumbnailTIFF',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : JFIF::Extension
+             * line : 152221
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JFIF::Extension.JFXX:ThumbnailTIFF',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JFIF::Extension
-       * line : 152217
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JFIF::Extension.JFXX:ThumbnailTIFF',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : JFIF::Extension
-       * line : 152221
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JFIF::Extension.JFXX:ThumbnailTIFF',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

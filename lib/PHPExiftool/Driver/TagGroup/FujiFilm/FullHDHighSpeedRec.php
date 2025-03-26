@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FullHDHighSpeedRec extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:FullHDHighSpeedRec';
 
-  protected string $id = 'FujiFilm:FullHDHighSpeedRec';
+    protected string $name = 'FullHDHighSpeedRec';
 
-  protected string $name = 'FullHDHighSpeedRec';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::Main
+             * line : 130942
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::Main.FujiFilm:FullHDHighSpeedRec',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::Main
-       * line : 130942
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::Main.FujiFilm:FullHDHighSpeedRec',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPointPosition extends AbstractTagGroup
 {
+    protected string $id = 'Casio:AFPointPosition';
 
-  protected string $id = 'Casio:AFPointPosition';
+    protected string $name = 'AFPointPosition';
 
-  protected string $name = 'AFPointPosition';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::Type2
+             * line : 85927
+             * type : int16u
+             * writable : false
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Casio::Type2.Casio:AFPointPosition',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::Type2
-       * line : 85927
-       * type : int16u
-       * writable : false
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Casio::Type2.Casio:AFPointPosition',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

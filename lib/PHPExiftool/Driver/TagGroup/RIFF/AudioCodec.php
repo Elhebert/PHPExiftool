@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioCodec extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:AudioCodec';
 
-  protected string $id = 'RIFF:AudioCodec';
+    protected string $name = 'AudioCodec';
 
-  protected string $name = 'AudioCodec';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::StreamHeader
+             * line : 328793
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'RIFF::StreamHeader.RIFF:AudioCodec',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::StreamHeader
-       * line : 328793
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'RIFF::StreamHeader.RIFF:AudioCodec',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

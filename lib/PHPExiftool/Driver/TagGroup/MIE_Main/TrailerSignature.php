@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TrailerSignature extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Main:TrailerSignature';
 
-  protected string $id = 'MIE-Main:TrailerSignature';
+    protected string $name = 'TrailerSignature';
 
-  protected string $name = 'TrailerSignature';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Main
+             * line : 164076
+             * type : undef
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Main.MIE-Main:TrailerSignature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Main
-       * line : 164076
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Main.MIE-Main:TrailerSignature',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

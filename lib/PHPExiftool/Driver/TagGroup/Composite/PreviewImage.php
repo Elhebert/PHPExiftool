@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImage extends AbstractTagGroup
 {
+    protected string $id = 'Composite:PreviewImage';
 
-  protected string $id = 'Composite:PreviewImage';
+    protected string $name = 'PreviewImage';
 
-  protected string $name = 'PreviewImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90564
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'Composite.Composite:PreviewImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90564
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Composite.Composite:PreviewImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

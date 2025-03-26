@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JobName extends AbstractTagGroup
 {
+    protected string $id = 'XMP-extensis:JobName';
 
-  protected string $id = 'XMP-extensis:JobName';
+    protected string $name = 'JobName';
 
-  protected string $name = 'JobName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::extensis
+             * line : 408777
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::extensis.XMP-extensis:JobName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::extensis
-       * line : 408777
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::extensis.XMP-extensis:JobName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

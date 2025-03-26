@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CFAPattern extends AbstractTagGroup
 {
+    protected string $id = 'Composite:CFAPattern';
 
-  protected string $id = 'Composite:CFAPattern';
+    protected string $name = 'CFAPattern';
 
-  protected string $name = 'CFAPattern';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90291
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:CFAPattern',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90291
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:CFAPattern',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

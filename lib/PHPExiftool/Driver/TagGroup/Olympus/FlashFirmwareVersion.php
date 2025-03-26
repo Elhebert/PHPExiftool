@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashFirmwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:FlashFirmwareVersion';
 
-  protected string $id = 'Olympus:FlashFirmwareVersion';
+    protected string $name = 'FlashFirmwareVersion';
 
-  protected string $name = 'FlashFirmwareVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Equipment
+             * line : 254663
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::Equipment.Olympus:FlashFirmwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Equipment
-       * line : 254663
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::Equipment.Olympus:FlashFirmwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

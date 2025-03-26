@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoDisplayAspectRatio extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:VideoDisplayAspectRatio';
 
-  protected string $id = 'XMP-iptcExt:VideoDisplayAspectRatio';
+    protected string $name = 'VideoDisplayAspectRatio';
 
-  protected string $name = 'VideoDisplayAspectRatio';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409873
+             * type : rational
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:VideoDisplayAspectRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409873
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:VideoDisplayAspectRatio',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhitePoint extends AbstractTagGroup
 {
+    protected string $id = 'Leica:WhitePoint';
 
-  protected string $id = 'Leica:WhitePoint';
+    protected string $name = 'WhitePoint';
 
-  protected string $name = 'WhitePoint';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Leica9
+             * line : 275036
+             * type : rational64u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Leica9.Leica:WhitePoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Leica9
-       * line : 275036
-       * type : rational64u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Leica9.Leica:WhitePoint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

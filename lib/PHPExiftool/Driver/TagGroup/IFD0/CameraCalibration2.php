@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraCalibration2 extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:CameraCalibration2';
 
-  protected string $id = 'IFD0:CameraCalibration2';
+    protected string $name = 'CameraCalibration2';
 
-  protected string $name = 'CameraCalibration2';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 119067
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:CameraCalibration2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 119067
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:CameraCalibration2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

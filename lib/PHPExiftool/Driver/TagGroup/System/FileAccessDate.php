@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileAccessDate extends AbstractTagGroup
 {
+    protected string $id = 'System:FileAccessDate';
 
-  protected string $id = 'System:FileAccessDate';
+    protected string $name = 'FileAccessDate';
 
-  protected string $name = 'FileAccessDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 121086
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Extra.System:FileAccessDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 121086
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Extra.System:FileAccessDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

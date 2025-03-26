@@ -19,45 +19,43 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensPartNumber extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:LensPartNumber';
 
-  protected string $id = 'FLIR:LensPartNumber';
+    protected string $name = 'LensPartNumber';
 
-  protected string $name = 'LensPartNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
-
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122286
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:LensPartNumber',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122564
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:LensPartNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122286
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:LensPartNumber',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122564
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:LensPartNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropX extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:CropX';
 
-  protected string $id = 'CanonVRD:CropX';
+    protected string $name = 'CropX';
 
-  protected string $name = 'CropX';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::CropInfo
+             * line : 80184
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::CropInfo.CanonVRD:CropX',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::CropInfo
-       * line : 80184
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::CropInfo.CanonVRD:CropX',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

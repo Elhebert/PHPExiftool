@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Annotation extends AbstractTagGroup
 {
+    protected string $id = 'DjVu-Meta:Annotation';
 
-  protected string $id = 'DjVu-Meta:Annotation';
+    protected string $name = 'Annotation';
 
-  protected string $name = 'Annotation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Meta
+             * line : 107376
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DjVu::Meta.DjVu-Meta:Annotation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Meta
-       * line : 107376
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DjVu::Meta.DjVu-Meta:Annotation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

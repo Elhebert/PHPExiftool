@@ -19,73 +19,71 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FontName extends AbstractTagGroup
 {
+    protected string $id = 'Font:FontName';
 
-  protected string $id = 'Font:FontName';
+    protected string $name = 'FontName';
 
-  protected string $name = 'FontName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::AFM
+             * line : 127767
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::AFM.Font:FontName',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Font::Main
+             * line : 127816
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::Main.Font:FontName',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Font::Name
+             * line : 127869
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::Name.Font:FontName',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Font::PSInfo
+             * line : 128139
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PSInfo.Font:FontName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::AFM
-       * line : 127767
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::AFM.Font:FontName',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Font::Main
-       * line : 127816
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::Main.Font:FontName',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Font::Name
-       * line : 127869
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::Name.Font:FontName',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Font::PSInfo
-       * line : 128139
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PSInfo.Font:FontName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

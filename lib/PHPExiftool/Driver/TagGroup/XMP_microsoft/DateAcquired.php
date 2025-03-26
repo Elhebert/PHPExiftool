@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateAcquired extends AbstractTagGroup
 {
+    protected string $id = 'XMP-microsoft:DateAcquired';
 
-  protected string $id = 'XMP-microsoft:DateAcquired';
+    protected string $name = 'DateAcquired';
 
-  protected string $name = 'DateAcquired';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::XMP
+             * line : 174341
+             * type : date
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Microsoft::XMP.XMP-microsoft:DateAcquired',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::XMP
-       * line : 174341
-       * type : date
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Microsoft::XMP.XMP-microsoft:DateAcquired',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

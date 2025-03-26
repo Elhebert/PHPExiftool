@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HueAdjustmentMagenta extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:HueAdjustmentMagenta';
 
-  protected string $id = 'XMP-crd:HueAdjustmentMagenta';
+    protected string $name = 'HueAdjustmentMagenta';
 
-  protected string $name = 'HueAdjustmentMagenta';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 399465
+             * type : integer
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::crd.XMP-crd:HueAdjustmentMagenta',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 399465
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::crd.XMP-crd:HueAdjustmentMagenta',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

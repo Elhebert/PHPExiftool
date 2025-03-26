@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShotNumberSincePowerUp extends AbstractTagGroup
 {
+    protected string $id = 'Sony:ShotNumberSincePowerUp';
 
-  protected string $id = 'Sony:ShotNumberSincePowerUp';
+    protected string $name = 'ShotNumberSincePowerUp';
 
-  protected string $name = 'ShotNumberSincePowerUp';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::MoreInfo0401
+             * line : 359794
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreInfo0401.Sony:ShotNumberSincePowerUp',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::Tag9400a
+             * line : 384055
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400a.Sony:ShotNumberSincePowerUp',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::Tag9400b
+             * line : 384288
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400b.Sony:ShotNumberSincePowerUp',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::Tag9400c
+             * line : 384488
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400c.Sony:ShotNumberSincePowerUp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::MoreInfo0401
-       * line : 359794
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreInfo0401.Sony:ShotNumberSincePowerUp',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::Tag9400a
-       * line : 384055
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400a.Sony:ShotNumberSincePowerUp',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::Tag9400b
-       * line : 384288
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400b.Sony:ShotNumberSincePowerUp',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::Tag9400c
-       * line : 384488
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400c.Sony:ShotNumberSincePowerUp',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

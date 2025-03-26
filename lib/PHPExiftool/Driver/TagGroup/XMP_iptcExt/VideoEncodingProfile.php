@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoEncodingProfile extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:VideoEncodingProfile';
 
-  protected string $id = 'XMP-iptcExt:VideoEncodingProfile';
+    protected string $name = 'VideoEncodingProfile';
 
-  protected string $name = 'VideoEncodingProfile';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409876
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:VideoEncodingProfile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409876
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:VideoEncodingProfile',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

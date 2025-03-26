@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorBalanceAdj extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:ColorBalanceAdj';
 
-  protected string $id = 'NikonCapture:ColorBalanceAdj';
+    protected string $name = 'ColorBalanceAdj';
 
-  protected string $name = 'ColorBalanceAdj';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::Main
+             * line : 210661
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::Main.NikonCapture:ColorBalanceAdj',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::Main
-       * line : 210661
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::Main.NikonCapture:ColorBalanceAdj',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

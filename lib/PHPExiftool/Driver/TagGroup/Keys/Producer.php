@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Producer extends AbstractTagGroup
 {
+    protected string $id = 'Keys:Producer';
 
-  protected string $id = 'Keys:Producer';
+    protected string $name = 'Producer';
 
-  protected string $name = 'Producer';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Keys
+             * line : 323616
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Keys.Keys:Producer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Keys
-       * line : 323616
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Keys.Keys:Producer',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

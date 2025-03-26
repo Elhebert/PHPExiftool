@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SeekPoint extends AbstractTagGroup
 {
+    protected string $id = 'MNG:SeekPoint';
 
-  protected string $id = 'MNG:SeekPoint';
+    protected string $name = 'SeekPoint';
 
-  protected string $name = 'SeekPoint';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::Main
+             * line : 165217
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::Main.MNG:SeekPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::Main
-       * line : 165217
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::Main.MNG:SeekPoint',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

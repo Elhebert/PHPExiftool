@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocusMode extends AbstractTagGroup
 {
+    protected string $id = 'PictureInfo:FocusMode';
 
-  protected string $id = 'PictureInfo:FocusMode';
+    protected string $name = 'FocusMode';
 
-  protected string $name = 'FocusMode';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APP12::PictureInfo
+             * line : 634
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APP12::PictureInfo.PictureInfo:FocusMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APP12::PictureInfo
-       * line : 634
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APP12::PictureInfo.PictureInfo:FocusMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

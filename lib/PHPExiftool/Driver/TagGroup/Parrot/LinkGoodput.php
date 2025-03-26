@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LinkGoodput extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:LinkGoodput';
 
-  protected string $id = 'Parrot:LinkGoodput';
+    protected string $name = 'LinkGoodput';
 
-  protected string $name = 'LinkGoodput';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::V3
+             * line : 282587
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V3.Parrot:LinkGoodput',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::V3
-       * line : 282587
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V3.Parrot:LinkGoodput',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

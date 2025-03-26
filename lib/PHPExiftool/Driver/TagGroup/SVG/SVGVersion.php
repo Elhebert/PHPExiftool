@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SVGVersion extends AbstractTagGroup
 {
+    protected string $id = 'SVG:SVGVersion';
 
-  protected string $id = 'SVG:SVGVersion';
+    protected string $name = 'SVGVersion';
 
-  protected string $name = 'SVGVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::SVG
+             * line : 397549
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::SVG.SVG:SVGVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::SVG
-       * line : 397549
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::SVG.SVG:SVGVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

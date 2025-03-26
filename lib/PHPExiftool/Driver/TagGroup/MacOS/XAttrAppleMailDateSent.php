@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XAttrAppleMailDateSent extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:XAttrAppleMailDateSent';
 
-  protected string $id = 'MacOS:XAttrAppleMailDateSent';
+    protected string $name = 'XAttrAppleMailDateSent';
 
-  protected string $name = 'XAttrAppleMailDateSent';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::XAttr
+             * line : 173124
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::XAttr.MacOS:XAttrAppleMailDateSent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::XAttr
-       * line : 173124
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::XAttr.MacOS:XAttrAppleMailDateSent',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

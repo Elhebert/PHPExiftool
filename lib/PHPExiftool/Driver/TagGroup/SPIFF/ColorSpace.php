@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorSpace extends AbstractTagGroup
 {
+    protected string $id = 'SPIFF:ColorSpace';
 
-  protected string $id = 'SPIFF:ColorSpace';
+    protected string $name = 'ColorSpace';
 
-  protected string $name = 'ColorSpace';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::SPIFF
+             * line : 153140
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::SPIFF.SPIFF:ColorSpace',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::SPIFF
-       * line : 153140
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::SPIFF.SPIFF:ColorSpace',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateRecieved extends AbstractTagGroup
 {
+    protected string $id = 'XMP-prism:DateRecieved';
 
-  protected string $id = 'XMP-prism:DateRecieved';
+    protected string $name = 'DateRecieved';
 
-  protected string $name = 'DateRecieved';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::prism
+             * line : 410826
+             * type : date
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::prism.XMP-prism:DateRecieved',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::prism
-       * line : 410826
-       * type : date
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::prism.XMP-prism:DateRecieved',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

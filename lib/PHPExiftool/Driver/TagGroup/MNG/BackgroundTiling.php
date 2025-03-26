@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BackgroundTiling extends AbstractTagGroup
 {
+    protected string $id = 'MNG:BackgroundTiling';
 
-  protected string $id = 'MNG:BackgroundTiling';
+    protected string $name = 'BackgroundTiling';
 
-  protected string $name = 'BackgroundTiling';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::Background
+             * line : 164501
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::Background.MNG:BackgroundTiling',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::Background
-       * line : 164501
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::Background.MNG:BackgroundTiling',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

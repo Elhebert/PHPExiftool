@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Reserved5 extends AbstractTagGroup
 {
+    protected string $id = 'File:Reserved5';
 
-  protected string $id = 'File:Reserved5';
+    protected string $name = 'Reserved5';
 
-  protected string $name = 'Reserved5';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105928
+             * type : string
+             * writable : false
+             * count : 76
+             * flags : unknown
+             */
+            'id' => 'DPX::Main.File:Reserved5',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105928
-       * type : string
-       * writable : false
-       * count : 76
-       * flags : unknown
-       */
-      'id' => 'DPX::Main.File:Reserved5',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 76;
 
-  protected int $count = 76;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

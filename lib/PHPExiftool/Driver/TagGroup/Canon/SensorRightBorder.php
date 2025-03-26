@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorRightBorder extends AbstractTagGroup
 {
+    protected string $id = 'Canon:SensorRightBorder';
 
-  protected string $id = 'Canon:SensorRightBorder';
+    protected string $name = 'SensorRightBorder';
 
-  protected string $name = 'SensorRightBorder';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::SensorInfo
+             * line : 70089
+             * type : int16s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::SensorInfo.Canon:SensorRightBorder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::SensorInfo
-       * line : 70089
-       * type : int16s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::SensorInfo.Canon:SensorRightBorder',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropOutputHeight extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:CropOutputHeight';
 
-  protected string $id = 'NikonCapture:CropOutputHeight';
+    protected string $name = 'CropOutputHeight';
 
-  protected string $name = 'CropOutputHeight';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::CropData
+             * line : 210250
+             * type : double
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::CropData.NikonCapture:CropOutputHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::CropData
-       * line : 210250
-       * type : double
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::CropData.NikonCapture:CropOutputHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

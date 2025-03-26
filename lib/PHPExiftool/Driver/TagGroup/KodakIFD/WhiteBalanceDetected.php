@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhiteBalanceDetected extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:WhiteBalanceDetected';
 
-  protected string $id = 'KodakIFD:WhiteBalanceDetected';
+    protected string $name = 'WhiteBalanceDetected';
 
-  protected string $name = 'WhiteBalanceDetected';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 154806
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Kodak::IFD.KodakIFD:WhiteBalanceDetected',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 154806
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Kodak::IFD.KodakIFD:WhiteBalanceDetected',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

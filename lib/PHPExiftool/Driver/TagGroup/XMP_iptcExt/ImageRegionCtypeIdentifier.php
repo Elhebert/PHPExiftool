@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageRegionCtypeIdentifier extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:ImageRegionCtypeIdentifier';
 
-  protected string $id = 'XMP-iptcExt:ImageRegionCtypeIdentifier';
+    protected string $name = 'ImageRegionCtypeIdentifier';
 
-  protected string $name = 'ImageRegionCtypeIdentifier';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409361
+             * type : string
+             * writable : true
+             * count :
+             * flags : bag,flattened,list
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:ImageRegionCtypeIdentifier',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409361
-       * type : string
-       * writable : true
-       * count : 
-       * flags : bag,flattened,list
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:ImageRegionCtypeIdentifier',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

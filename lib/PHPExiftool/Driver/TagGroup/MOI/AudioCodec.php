@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioCodec extends AbstractTagGroup
 {
+    protected string $id = 'MOI:AudioCodec';
 
-  protected string $id = 'MOI:AudioCodec';
+    protected string $name = 'AudioCodec';
 
-  protected string $name = 'AudioCodec';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MOI::Main
+             * line : 165473
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MOI::Main.MOI:AudioCodec',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MOI::Main
-       * line : 165473
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MOI::Main.MOI:AudioCodec',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Description extends AbstractTagGroup
 {
+    protected string $id = 'ItemList:Description';
 
-  protected string $id = 'ItemList:Description';
+    protected string $name = 'Description';
 
-  protected string $name = 'Description';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 314208
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'QuickTime::ItemList.ItemList:Description',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 314223
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'QuickTime::ItemList.ItemList:Description',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 323051
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ItemList.ItemList:Description',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 314208
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'QuickTime::ItemList.ItemList:Description',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 314223
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'QuickTime::ItemList.ItemList:Description',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 323051
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ItemList.ItemList:Description',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

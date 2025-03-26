@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Newlines extends AbstractTagGroup
 {
+    protected string $id = 'File:Newlines';
 
-  protected string $id = 'File:Newlines';
+    protected string $name = 'Newlines';
 
-  protected string $name = 'Newlines';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Text::Main
+             * line : 394751
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Text::Main.File:Newlines',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Text::Main
-       * line : 394751
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Text::Main.File:Newlines',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

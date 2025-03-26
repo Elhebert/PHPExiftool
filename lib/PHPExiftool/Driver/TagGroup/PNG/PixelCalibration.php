@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PixelCalibration extends AbstractTagGroup
 {
+    protected string $id = 'PNG:PixelCalibration';
 
-  protected string $id = 'PNG:PixelCalibration';
+    protected string $name = 'PixelCalibration';
 
-  protected string $name = 'PixelCalibration';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::Main
+             * line : 272593
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'PNG::Main.PNG:PixelCalibration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::Main
-       * line : 272593
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'PNG::Main.PNG:PixelCalibration',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

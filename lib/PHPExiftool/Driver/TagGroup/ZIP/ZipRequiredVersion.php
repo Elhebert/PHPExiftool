@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ZipRequiredVersion extends AbstractTagGroup
 {
+    protected string $id = 'ZIP:ZipRequiredVersion';
 
-  protected string $id = 'ZIP:ZipRequiredVersion';
+    protected string $name = 'ZipRequiredVersion';
 
-  protected string $name = 'ZipRequiredVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZIP::Main
+             * line : 414826
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::Main.ZIP:ZipRequiredVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZIP::Main
-       * line : 414826
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::Main.ZIP:ZipRequiredVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

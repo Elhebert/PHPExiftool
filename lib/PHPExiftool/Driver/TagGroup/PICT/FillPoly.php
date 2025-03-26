@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FillPoly extends AbstractTagGroup
 {
+    protected string $id = 'PICT:FillPoly';
 
-  protected string $id = 'PICT:FillPoly';
+    protected string $name = 'FillPoly';
 
-  protected string $name = 'FillPoly';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264925
+             * type : Polygon
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:FillPoly',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264925
-       * type : Polygon
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:FillPoly',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

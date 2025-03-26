@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Subsystem extends AbstractTagGroup
 {
+    protected string $id = 'EXE:Subsystem';
 
-  protected string $id = 'EXE:Subsystem';
+    protected string $name = 'Subsystem';
 
-  protected string $name = 'Subsystem';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::Main
+             * line : 108902
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::Main.EXE:Subsystem',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::Main
-       * line : 108902
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::Main.EXE:Subsystem',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

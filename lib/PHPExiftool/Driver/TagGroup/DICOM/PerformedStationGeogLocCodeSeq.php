@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PerformedStationGeogLocCodeSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:PerformedStationGeogLocCodeSeq';
 
-  protected string $id = 'DICOM:PerformedStationGeogLocCodeSeq';
+    protected string $name = 'PerformedStationGeogLocCodeSeq';
 
-  protected string $name = 'PerformedStationGeogLocCodeSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99992
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:PerformedStationGeogLocCodeSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99992
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:PerformedStationGeogLocCodeSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SlateInformation extends AbstractTagGroup
 {
+    protected string $id = 'File:SlateInformation';
 
-  protected string $id = 'File:SlateInformation';
+    protected string $name = 'SlateInformation';
 
-  protected string $name = 'SlateInformation';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105903
+             * type : string
+             * writable : false
+             * count : 100
+             * flags :
+             */
+            'id' => 'DPX::Main.File:SlateInformation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105903
-       * type : string
-       * writable : false
-       * count : 100
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:SlateInformation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 100;
-
+    protected int $count = 100;
 }

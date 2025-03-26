@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Compression extends AbstractTagGroup
 {
+    protected string $id = 'PNG:Compression';
 
-  protected string $id = 'PNG:Compression';
+    protected string $name = 'Compression';
 
-  protected string $name = 'Compression';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::ImageHeader
+             * line : 272466
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::ImageHeader.PNG:Compression',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::ImageHeader
-       * line : 272466
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::ImageHeader.PNG:Compression',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

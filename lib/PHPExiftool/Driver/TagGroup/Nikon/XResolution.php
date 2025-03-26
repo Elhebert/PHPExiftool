@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XResolution extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:XResolution';
 
-  protected string $id = 'Nikon:XResolution';
+    protected string $name = 'XResolution';
 
-  protected string $name = 'XResolution';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AVITags
+             * line : 191597
+             * type : rational64u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AVITags.Nikon:XResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AVITags
-       * line : 191597
-       * type : rational64u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AVITags.Nikon:XResolution',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

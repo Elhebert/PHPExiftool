@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EraseSameOval extends AbstractTagGroup
 {
+    protected string $id = 'PICT:EraseSameOval';
 
-  protected string $id = 'PICT:EraseSameOval';
+    protected string $name = 'EraseSameOval';
 
-  protected string $name = 'EraseSameOval';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264862
+             * type : null
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:EraseSameOval',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264862
-       * type : null
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:EraseSameOval',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

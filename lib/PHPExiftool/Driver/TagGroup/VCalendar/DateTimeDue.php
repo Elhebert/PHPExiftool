@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeDue extends AbstractTagGroup
 {
+    protected string $id = 'VCalendar:DateTimeDue';
 
-  protected string $id = 'VCalendar:DateTimeDue';
+    protected string $name = 'DateTimeDue';
 
-  protected string $name = 'DateTimeDue';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : VCard::VCalendar
+             * line : 395378
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'VCard::VCalendar.VCalendar:DateTimeDue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : VCard::VCalendar
-       * line : 395378
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'VCard::VCalendar.VCalendar:DateTimeDue',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BackgroundColor extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:BackgroundColor';
 
-  protected string $id = 'RIFF:BackgroundColor';
+    protected string $name = 'BackgroundColor';
 
-  protected string $name = 'BackgroundColor';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::ANIM
+             * line : 326891
+             * type : int8u
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'RIFF::ANIM.RIFF:BackgroundColor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::ANIM
-       * line : 326891
-       * type : int8u
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'RIFF::ANIM.RIFF:BackgroundColor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

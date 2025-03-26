@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifiedToneCurve extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ModifiedToneCurve';
 
-  protected string $id = 'Canon:ModifiedToneCurve';
+    protected string $name = 'ModifiedToneCurve';
 
-  protected string $name = 'ModifiedToneCurve';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ModifiedInfo
+             * line : 66455
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::ModifiedInfo.Canon:ModifiedToneCurve',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ModifiedInfo
-       * line : 66455
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::ModifiedInfo.Canon:ModifiedToneCurve',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LanguageCode extends AbstractTagGroup
 {
+    protected string $id = 'EXE:LanguageCode';
 
-  protected string $id = 'EXE:LanguageCode';
+    protected string $name = 'LanguageCode';
 
-  protected string $name = 'LanguageCode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::CHM
+             * line : 107554
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::CHM.EXE:LanguageCode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : EXE::PEString
+             * line : 109120
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::PEString.EXE:LanguageCode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::CHM
-       * line : 107554
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::CHM.EXE:LanguageCode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : EXE::PEString
-       * line : 109120
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::PEString.EXE:LanguageCode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

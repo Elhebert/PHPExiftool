@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LockedPropertyList extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:LockedPropertyList';
 
-  protected string $id = 'FlashPix:LockedPropertyList';
+    protected string $name = 'LockedPropertyList';
 
-  protected string $name = 'LockedPropertyList';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::DataObject
+             * line : 124355
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DataObject.FlashPix:LockedPropertyList',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FlashPix::GlobalInfo
+             * line : 124617
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::GlobalInfo.FlashPix:LockedPropertyList',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : FlashPix::Transform
+             * line : 127331
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::Transform.FlashPix:LockedPropertyList',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::DataObject
-       * line : 124355
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DataObject.FlashPix:LockedPropertyList',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FlashPix::GlobalInfo
-       * line : 124617
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::GlobalInfo.FlashPix:LockedPropertyList',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : FlashPix::Transform
-       * line : 127331
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::Transform.FlashPix:LockedPropertyList',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

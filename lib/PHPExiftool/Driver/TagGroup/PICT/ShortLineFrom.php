@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShortLineFrom extends AbstractTagGroup
 {
+    protected string $id = 'PICT:ShortLineFrom';
 
-  protected string $id = 'PICT:ShortLineFrom';
+    protected string $name = 'ShortLineFrom';
 
-  protected string $name = 'ShortLineFrom';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264726
+             * type : int8u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:ShortLineFrom',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264726
-       * type : int8u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:ShortLineFrom',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

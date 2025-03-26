@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompatibleBrands extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:CompatibleBrands';
 
-  protected string $id = 'QuickTime:CompatibleBrands';
+    protected string $name = 'CompatibleBrands';
 
-  protected string $name = 'CompatibleBrands';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::FileType
+             * line : 313046
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::FileType.QuickTime:CompatibleBrands',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::FileType
-       * line : 313046
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::FileType.QuickTime:CompatibleBrands',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

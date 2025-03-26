@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Aperture extends AbstractTagGroup
 {
+    protected string $id = 'OpenEXR:Aperture';
 
-  protected string $id = 'OpenEXR:Aperture';
+    protected string $name = 'Aperture';
 
-  protected string $name = 'Aperture';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OpenEXR::Main
+             * line : 263406
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OpenEXR::Main.OpenEXR:Aperture',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OpenEXR::Main
-       * line : 263406
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OpenEXR::Main.OpenEXR:Aperture',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class KK extends AbstractTagGroup
 {
+    protected string $id = 'DJI:KK';
 
-  protected string $id = 'DJI:KK';
+    protected string $name = 'KK';
 
-  protected string $name = 'KK';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::ThermalParams
+             * line : 104594
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DJI::ThermalParams.DJI:KK',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::ThermalParams
-       * line : 104594
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DJI::ThermalParams.DJI:KK',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

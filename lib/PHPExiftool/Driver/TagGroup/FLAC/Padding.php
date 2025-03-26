@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Padding extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:Padding';
 
-  protected string $id = 'FLAC:Padding';
+    protected string $name = 'Padding';
 
-  protected string $name = 'Padding';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::Main
+             * line : 121734
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'FLAC::Main.FLAC:Padding',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::Main
-       * line : 121734
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'FLAC::Main.FLAC:Padding',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 34;
-
+    protected int $flags = 34;
 }

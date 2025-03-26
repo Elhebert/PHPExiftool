@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropAngle extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:CropAngle';
 
-  protected string $id = 'XMP-crs:CropAngle';
+    protected string $name = 'CropAngle';
 
-  protected string $name = 'CropAngle';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 402130
+             * type : real
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::crs.XMP-crs:CropAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 402130
-       * type : real
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::crs.XMP-crs:CropAngle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

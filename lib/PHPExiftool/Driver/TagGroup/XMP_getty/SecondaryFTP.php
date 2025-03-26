@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SecondaryFTP extends AbstractTagGroup
 {
+    protected string $id = 'XMP-getty:SecondaryFTP';
 
-  protected string $id = 'XMP-getty:SecondaryFTP';
+    protected string $name = 'SecondaryFTP';
 
-  protected string $name = 'SecondaryFTP';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GettyImages
+             * line : 397349
+             * type : string
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'XMP::GettyImages.XMP-getty:SecondaryFTP',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GettyImages
-       * line : 397349
-       * type : string
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'XMP::GettyImages.XMP-getty:SecondaryFTP',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

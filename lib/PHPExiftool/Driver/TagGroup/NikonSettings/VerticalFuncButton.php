@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VerticalFuncButton extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:VerticalFuncButton';
 
-  protected string $id = 'NikonSettings:VerticalFuncButton';
+    protected string $name = 'VerticalFuncButton';
 
-  protected string $name = 'VerticalFuncButton';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 248091
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:VerticalFuncButton',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 248632
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:VerticalFuncButton',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 248091
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:VerticalFuncButton',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 248632
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:VerticalFuncButton',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GammaHighlight extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:GammaHighlight';
 
-  protected string $id = 'CanonVRD:GammaHighlight';
+    protected string $name = 'GammaHighlight';
 
-  protected string $name = 'GammaHighlight';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::GammaInfo
+             * line : 82024
+             * type : double
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaHighlight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::GammaInfo
-       * line : 82024
-       * type : double
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaHighlight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

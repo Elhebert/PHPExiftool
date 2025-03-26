@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ON1_SettingsMetadataName extends AbstractTagGroup
 {
+    protected string $id = 'JSON:ON1_SettingsMetadataName';
 
-  protected string $id = 'JSON:ON1_SettingsMetadataName';
+    protected string $name = 'ON1_SettingsMetadataName';
 
-  protected string $name = 'ON1_SettingsMetadataName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JSON::Main
+             * line : 153384
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JSON::Main.JSON:ON1_SettingsMetadataName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JSON::Main
-       * line : 153384
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JSON::Main.JSON:ON1_SettingsMetadataName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

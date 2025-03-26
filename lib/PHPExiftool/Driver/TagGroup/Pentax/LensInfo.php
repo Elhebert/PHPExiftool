@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensInfo extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:LensInfo';
 
-  protected string $id = 'Pentax:LensInfo';
+    protected string $name = 'LensInfo';
 
-  protected string $name = 'LensInfo';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::LensInfoQ
+             * line : 293457
+             * type : string
+             * writable : true
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'Pentax::LensInfoQ.Pentax:LensInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::LensInfoQ
-       * line : 293457
-       * type : string
-       * writable : true
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'Pentax::LensInfoQ.Pentax:LensInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 20;
 
-  protected int $count = 20;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

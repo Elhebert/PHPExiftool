@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Rating extends AbstractTagGroup
 {
+    protected string $id = 'XMP-acdsee:Rating';
 
-  protected string $id = 'XMP-acdsee:Rating';
+    protected string $name = 'Rating';
 
-  protected string $name = 'Rating';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::acdsee
+             * line : 397831
+             * type : real
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::acdsee.XMP-acdsee:Rating',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::acdsee
-       * line : 397831
-       * type : real
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::acdsee.XMP-acdsee:Rating',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

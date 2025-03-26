@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RenditionOfVersionID extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpMM:RenditionOfVersionID';
 
-  protected string $id = 'XMP-xmpMM:RenditionOfVersionID';
+    protected string $name = 'RenditionOfVersionID';
 
-  protected string $name = 'RenditionOfVersionID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpMM
+             * line : 414276
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfVersionID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpMM
-       * line : 414276
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfVersionID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

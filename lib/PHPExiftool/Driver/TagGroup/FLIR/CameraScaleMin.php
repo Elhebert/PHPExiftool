@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraScaleMin extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:CameraScaleMin';
 
-  protected string $id = 'FLIR:CameraScaleMin';
+    protected string $name = 'CameraScaleMin';
 
-  protected string $name = 'CameraScaleMin';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122638
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:CameraScaleMin',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122638
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:CameraScaleMin',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

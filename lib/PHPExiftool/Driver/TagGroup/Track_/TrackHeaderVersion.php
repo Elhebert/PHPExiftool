@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TrackHeaderVersion extends AbstractTagGroup
 {
+    protected string $id = 'Track#:TrackHeaderVersion';
 
-  protected string $id = 'Track#:TrackHeaderVersion';
+    protected string $name = 'TrackHeaderVersion';
 
-  protected string $name = 'TrackHeaderVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::TrackHeader
+             * line : 325054
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::TrackHeader.Track#:TrackHeaderVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::TrackHeader
-       * line : 325054
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::TrackHeader.Track#:TrackHeaderVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

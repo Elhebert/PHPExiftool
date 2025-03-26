@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileFunctionFlags extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:FileFunctionFlags';
 
-  protected string $id = 'QuickTime:FileFunctionFlags';
+    protected string $name = 'FileFunctionFlags';
 
-  protected string $name = 'FileFunctionFlags';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::FileProf
+             * line : 312717
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::FileProf.QuickTime:FileFunctionFlags',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::FileProf
-       * line : 312717
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::FileProf.QuickTime:FileFunctionFlags',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

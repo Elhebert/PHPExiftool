@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InputProfile extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:InputProfile';
 
-  protected string $id = 'KodakIFD:InputProfile';
+    protected string $name = 'InputProfile';
 
-  protected string $name = 'InputProfile';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 157104
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:InputProfile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 157104
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:InputProfile',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2054;
-
+    protected int $flags = 2054;
 }

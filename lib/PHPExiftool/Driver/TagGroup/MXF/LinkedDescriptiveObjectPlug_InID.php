@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LinkedDescriptiveObjectPlug_InID extends AbstractTagGroup
 {
+    protected string $id = 'MXF:LinkedDescriptiveObjectPlug-InID';
 
-  protected string $id = 'MXF:LinkedDescriptiveObjectPlug-InID';
+    protected string $name = 'LinkedDescriptiveObjectPlug-InID';
 
-  protected string $name = 'LinkedDescriptiveObjectPlug-InID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 172442
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'MXF::Main.MXF:LinkedDescriptiveObjectPlug-InID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 172442
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'MXF::Main.MXF:LinkedDescriptiveObjectPlug-InID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

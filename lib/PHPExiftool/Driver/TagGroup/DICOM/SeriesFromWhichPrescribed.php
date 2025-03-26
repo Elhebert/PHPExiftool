@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SeriesFromWhichPrescribed extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:SeriesFromWhichPrescribed';
 
-  protected string $id = 'DICOM:SeriesFromWhichPrescribed';
+    protected string $name = 'SeriesFromWhichPrescribed';
 
-  protected string $name = 'SeriesFromWhichPrescribed';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98183
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:SeriesFromWhichPrescribed',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98202
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:SeriesFromWhichPrescribed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98183
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:SeriesFromWhichPrescribed',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98202
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:SeriesFromWhichPrescribed',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

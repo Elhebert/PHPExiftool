@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_BlueLevelsFluorescent extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:WB_BlueLevelsFluorescent';
 
-  protected string $id = 'Minolta:WB_BlueLevelsFluorescent';
+    protected string $name = 'WB_BlueLevelsFluorescent';
 
-  protected string $name = 'WB_BlueLevelsFluorescent';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::WBInfoA100
+             * line : 185533
+             * type : int16u
+             * writable : true
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsFluorescent',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Minolta::WBInfoA100
+             * line : 185600
+             * type : int16u
+             * writable : true
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsFluorescent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::WBInfoA100
-       * line : 185533
-       * type : int16u
-       * writable : true
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsFluorescent',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Minolta::WBInfoA100
-       * line : 185600
-       * type : int16u
-       * writable : true
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'Minolta::WBInfoA100.Minolta:WB_BlueLevelsFluorescent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 7;
 
-  protected int $count = 7;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

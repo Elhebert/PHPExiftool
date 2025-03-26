@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CommanderInternalTTLCompGroupB extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:CommanderInternalTTLCompGroupB';
 
-  protected string $id = 'NikonCustom:CommanderInternalTTLCompGroupB';
+    protected string $name = 'CommanderInternalTTLCompGroupB';
 
-  protected string $name = 'CommanderInternalTTLCompGroupB';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD700
+             * line : 225506
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD700.NikonCustom:CommanderInternalTTLCompGroupB',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonCustom::SettingsD7000
+             * line : 227642
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD7000.NikonCustom:CommanderInternalTTLCompGroupB',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD700
-       * line : 225506
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD700.NikonCustom:CommanderInternalTTLCompGroupB',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonCustom::SettingsD7000
-       * line : 227642
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD7000.NikonCustom:CommanderInternalTTLCompGroupB',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

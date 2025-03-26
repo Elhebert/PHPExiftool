@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Software extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:Software';
 
-  protected string $id = 'RIFF:Software';
+    protected string $name = 'Software';
 
-  protected string $name = 'Software';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Info
+             * line : 328395
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Info.RIFF:Software',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Info
-       * line : 328395
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Info.RIFF:Software',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Channel2Coordinates extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Channel2Coordinates';
 
-  protected string $id = 'QuickTime:Channel2Coordinates';
+    protected string $name = 'Channel2Coordinates';
 
-  protected string $name = 'Channel2Coordinates';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ChannelLayout
+             * line : 311302
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::ChannelLayout.QuickTime:Channel2Coordinates',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ChannelLayout
-       * line : 311302
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::ChannelLayout.QuickTime:Channel2Coordinates',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

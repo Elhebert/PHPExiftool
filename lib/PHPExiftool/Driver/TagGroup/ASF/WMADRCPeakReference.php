@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WMADRCPeakReference extends AbstractTagGroup
 {
+    protected string $id = 'ASF:WMADRCPeakReference';
 
-  protected string $id = 'ASF:WMADRCPeakReference';
+    protected string $name = 'WMADRCPeakReference';
 
-  protected string $name = 'WMADRCPeakReference';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::ExtendedDescr
+             * line : 1681
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ExtendedDescr.ASF:WMADRCPeakReference',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::ExtendedDescr
-       * line : 1681
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ExtendedDescr.ASF:WMADRCPeakReference',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

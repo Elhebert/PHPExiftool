@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InternalLensSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:InternalLensSerialNumber';
 
-  protected string $id = 'Samsung:InternalLensSerialNumber';
+    protected string $name = 'InternalLensSerialNumber';
 
-  protected string $name = 'InternalLensSerialNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335405
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::Type2.Samsung:InternalLensSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335405
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::Type2.Samsung:InternalLensSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AlphaIdentifiers extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:AlphaIdentifiers';
 
-  protected string $id = 'Photoshop:AlphaIdentifiers';
+    protected string $name = 'AlphaIdentifiers';
 
-  protected string $name = 'AlphaIdentifiers';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Main
+             * line : 305580
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Photoshop::Main.Photoshop:AlphaIdentifiers',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Main
-       * line : 305580
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Photoshop::Main.Photoshop:AlphaIdentifiers',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

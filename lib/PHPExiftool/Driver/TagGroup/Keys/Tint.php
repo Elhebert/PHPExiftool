@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Tint extends AbstractTagGroup
 {
+    protected string $id = 'Keys:Tint';
 
-  protected string $id = 'Keys:Tint';
+    protected string $name = 'Tint';
 
-  protected string $name = 'Tint';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Keys
+             * line : 323609
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Keys.Keys:Tint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Keys
-       * line : 323609
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Keys.Keys:Tint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

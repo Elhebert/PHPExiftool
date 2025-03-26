@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShutterSpeed extends AbstractTagGroup
 {
+    protected string $id = 'Composite:ShutterSpeed';
 
-  protected string $id = 'Composite:ShutterSpeed';
+    protected string $name = 'ShutterSpeed';
 
-  protected string $name = 'ShutterSpeed';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90480
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:ShutterSpeed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90480
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:ShutterSpeed',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

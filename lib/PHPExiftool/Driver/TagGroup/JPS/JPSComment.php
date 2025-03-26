@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JPSComment extends AbstractTagGroup
 {
+    protected string $id = 'JPS:JPSComment';
 
-  protected string $id = 'JPS:JPSComment';
+    protected string $name = 'JPSComment';
 
-  protected string $name = 'JPSComment';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::JPS
+             * line : 152555
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::JPS.JPS:JPSComment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::JPS
-       * line : 152555
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::JPS.JPS:JPSComment',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SampleRate extends AbstractTagGroup
 {
+    protected string $id = 'Real-RA5:SampleRate';
 
-  protected string $id = 'Real-RA5:SampleRate';
+    protected string $name = 'SampleRate';
 
-  protected string $name = 'SampleRate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::AudioV5
+             * line : 330063
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::AudioV5.Real-RA5:SampleRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::AudioV5
-       * line : 330063
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::AudioV5.Real-RA5:SampleRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

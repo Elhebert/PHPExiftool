@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioFrameSize extends AbstractTagGroup
 {
+    protected string $id = 'Real-RA4:AudioFrameSize';
 
-  protected string $id = 'Real-RA4:AudioFrameSize';
+    protected string $name = 'AudioFrameSize';
 
-  protected string $name = 'AudioFrameSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::AudioV4
+             * line : 329800
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::AudioV4.Real-RA4:AudioFrameSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::AudioV4
-       * line : 329800
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::AudioV4.Real-RA4:AudioFrameSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashPixStreamPathname extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:FlashPixStreamPathname';
 
-  protected string $id = 'FlashPix:FlashPixStreamPathname';
+    protected string $name = 'FlashPixStreamPathname';
 
-  protected string $name = 'FlashPixStreamPathname';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::Extensions
+             * line : 124592
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::Extensions.FlashPix:FlashPixStreamPathname',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::Extensions
-       * line : 124592
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::Extensions.FlashPix:FlashPixStreamPathname',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

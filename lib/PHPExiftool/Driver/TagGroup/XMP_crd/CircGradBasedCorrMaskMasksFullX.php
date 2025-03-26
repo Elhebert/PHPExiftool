@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CircGradBasedCorrMaskMasksFullX extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:CircGradBasedCorrMaskMasksFullX';
 
-  protected string $id = 'XMP-crd:CircGradBasedCorrMaskMasksFullX';
+    protected string $name = 'CircGradBasedCorrMaskMasksFullX';
 
-  protected string $name = 'CircGradBasedCorrMaskMasksFullX';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 398412
+             * type : real
+             * writable : true
+             * count :
+             * flags : avoid,flattened
+             */
+            'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrMaskMasksFullX',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 398412
-       * type : real
-       * writable : true
-       * count : 
-       * flags : avoid,flattened
-       */
-      'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrMaskMasksFullX',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

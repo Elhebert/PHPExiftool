@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ResourceCount extends AbstractTagGroup
 {
+    protected string $id = 'MOBI:ResourceCount';
 
-  protected string $id = 'MOBI:ResourceCount';
+    protected string $name = 'ResourceCount';
 
-  protected string $name = 'ResourceCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::EXTH
+             * line : 273554
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::EXTH.MOBI:ResourceCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::EXTH
-       * line : 273554
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::EXTH.MOBI:ResourceCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

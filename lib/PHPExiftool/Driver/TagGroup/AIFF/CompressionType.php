@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompressionType extends AbstractTagGroup
 {
+    protected string $id = 'AIFF:CompressionType';
 
-  protected string $id = 'AIFF:CompressionType';
+    protected string $name = 'CompressionType';
 
-  protected string $name = 'CompressionType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : AIFF::Common
+             * line : 113
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'AIFF::Common.AIFF:CompressionType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : AIFF::Common
-       * line : 113
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'AIFF::Common.AIFF:CompressionType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

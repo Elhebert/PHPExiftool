@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageUniqueID extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:ImageUniqueID';
 
-  protected string $id = 'SigmaRaw:ImageUniqueID';
+    protected string $name = 'ImageUniqueID';
 
-  protected string $name = 'ImageUniqueID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Header
+             * line : 339314
+             * type : undef
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header.SigmaRaw:ImageUniqueID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Header
-       * line : 339314
-       * type : undef
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header.SigmaRaw:ImageUniqueID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

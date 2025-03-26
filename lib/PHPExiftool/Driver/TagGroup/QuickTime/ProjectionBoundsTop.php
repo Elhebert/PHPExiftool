@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProjectionBoundsTop extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ProjectionBoundsTop';
 
-  protected string $id = 'QuickTime:ProjectionBoundsTop';
+    protected string $name = 'ProjectionBoundsTop';
 
-  protected string $name = 'ProjectionBoundsTop';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::equi
+             * line : 326580
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::equi.QuickTime:ProjectionBoundsTop',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::equi
-       * line : 326580
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::equi.QuickTime:ProjectionBoundsTop',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

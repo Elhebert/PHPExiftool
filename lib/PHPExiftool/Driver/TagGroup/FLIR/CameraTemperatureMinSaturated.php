@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraTemperatureMinSaturated extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:CameraTemperatureMinSaturated';
 
-  protected string $id = 'FLIR:CameraTemperatureMinSaturated';
+    protected string $name = 'CameraTemperatureMinSaturated';
 
-  protected string $name = 'CameraTemperatureMinSaturated';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122252
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:CameraTemperatureMinSaturated',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122252
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:CameraTemperatureMinSaturated',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

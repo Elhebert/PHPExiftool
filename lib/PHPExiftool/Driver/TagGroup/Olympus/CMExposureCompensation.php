@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CMExposureCompensation extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:CMExposureCompensation';
 
-  protected string $id = 'Olympus:CMExposureCompensation';
+    protected string $name = 'CMExposureCompensation';
 
-  protected string $name = 'CMExposureCompensation';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::RawInfo
+             * line : 261221
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawInfo.Olympus:CMExposureCompensation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::RawInfo
-       * line : 261221
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawInfo.Olympus:CMExposureCompensation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

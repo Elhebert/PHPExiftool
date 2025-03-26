@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AlphaBitDepth extends AbstractTagGroup
 {
+    protected string $id = 'MNG:AlphaBitDepth';
 
-  protected string $id = 'MNG:AlphaBitDepth';
+    protected string $name = 'AlphaBitDepth';
 
-  protected string $name = 'AlphaBitDepth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::JNGHeader
+             * line : 164976
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::JNGHeader.MNG:AlphaBitDepth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::JNGHeader
-       * line : 164976
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::JNGHeader.MNG:AlphaBitDepth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

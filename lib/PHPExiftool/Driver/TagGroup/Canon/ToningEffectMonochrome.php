@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToningEffectMonochrome extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ToningEffectMonochrome';
 
-  protected string $id = 'Canon:ToningEffectMonochrome';
+    protected string $name = 'ToningEffectMonochrome';
 
-  protected string $name = 'ToningEffectMonochrome';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfo5D
+             * line : 34674
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo5D.Canon:ToningEffectMonochrome',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::PSInfo
+             * line : 67540
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::PSInfo.Canon:ToningEffectMonochrome',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::PSInfo2
+             * line : 68638
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::PSInfo2.Canon:ToningEffectMonochrome',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfo5D
-       * line : 34674
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo5D.Canon:ToningEffectMonochrome',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::PSInfo
-       * line : 67540
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::PSInfo.Canon:ToningEffectMonochrome',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::PSInfo2
-       * line : 68638
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::PSInfo2.Canon:ToningEffectMonochrome',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

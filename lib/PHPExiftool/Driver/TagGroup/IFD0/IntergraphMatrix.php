@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IntergraphMatrix extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:IntergraphMatrix';
 
-  protected string $id = 'IFD0:IntergraphMatrix';
+    protected string $name = 'IntergraphMatrix';
 
-  protected string $name = 'IntergraphMatrix';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 113167
+             * type : double
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:IntergraphMatrix',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 113167
-       * type : double
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:IntergraphMatrix',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

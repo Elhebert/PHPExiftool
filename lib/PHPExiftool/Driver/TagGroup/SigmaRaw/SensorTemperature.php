@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorTemperature extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:SensorTemperature';
 
-  protected string $id = 'SigmaRaw:SensorTemperature';
+    protected string $name = 'SensorTemperature';
 
-  protected string $name = 'SensorTemperature';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Properties
+             * line : 340031
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Properties.SigmaRaw:SensorTemperature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Properties
-       * line : 340031
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Properties.SigmaRaw:SensorTemperature',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

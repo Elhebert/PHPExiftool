@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FillMethod extends AbstractTagGroup
 {
+    protected string $id = 'MNG:FillMethod';
 
-  protected string $id = 'MNG:FillMethod';
+    protected string $name = 'FillMethod';
 
-  protected string $name = 'FillMethod';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::PromoteParent
+             * line : 165366
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::PromoteParent.MNG:FillMethod',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::PromoteParent
-       * line : 165366
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::PromoteParent.MNG:FillMethod',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

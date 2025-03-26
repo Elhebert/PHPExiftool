@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FieldOfView extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:FieldOfView';
 
-  protected string $id = 'GoPro:FieldOfView';
+    protected string $name = 'FieldOfView';
 
-  protected string $name = 'FieldOfView';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPMF
+             * line : 139827
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GoPro::GPMF.GoPro:FieldOfView',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPMF
-       * line : 139827
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GoPro::GPMF.GoPro:FieldOfView',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

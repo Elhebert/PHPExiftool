@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DigitalZoom extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:DigitalZoom';
 
-  protected string $id = 'Minolta:DigitalZoom';
+    protected string $name = 'DigitalZoom';
 
-  protected string $name = 'DigitalZoom';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraSettings
+             * line : 177436
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings.Minolta:DigitalZoom',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraSettings
-       * line : 177436
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings.Minolta:DigitalZoom',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorPlanes extends AbstractTagGroup
 {
+    protected string $id = 'File:ColorPlanes';
 
-  protected string $id = 'File:ColorPlanes';
+    protected string $name = 'ColorPlanes';
 
-  protected string $name = 'ColorPlanes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PCX::Main
+             * line : 263972
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PCX::Main.File:ColorPlanes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PCX::Main
-       * line : 263972
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PCX::Main.File:ColorPlanes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlightXSpeed extends AbstractTagGroup
 {
+    protected string $id = 'XMP-drone-dji:FlightXSpeed';
 
-  protected string $id = 'XMP-drone-dji:FlightXSpeed';
+    protected string $name = 'FlightXSpeed';
 
-  protected string $name = 'FlightXSpeed';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::XMP
+             * line : 104637
+             * type : real
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'DJI::XMP.XMP-drone-dji:FlightXSpeed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::XMP
-       * line : 104637
-       * type : real
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'DJI::XMP.XMP-drone-dji:FlightXSpeed',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContrastAdjustment extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:ContrastAdjustment';
 
-  protected string $id = 'FlashPix:ContrastAdjustment';
+    protected string $name = 'ContrastAdjustment';
 
-  protected string $name = 'ContrastAdjustment';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::Transform
+             * line : 127384
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::Transform.FlashPix:ContrastAdjustment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::Transform
-       * line : 127384
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::Transform.FlashPix:ContrastAdjustment',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

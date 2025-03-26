@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MediaThumbRatingLevel extends AbstractTagGroup
 {
+    protected string $id = 'WTV:MediaThumbRatingLevel';
 
-  protected string $id = 'WTV:MediaThumbRatingLevel';
+    protected string $name = 'MediaThumbRatingLevel';
 
-  protected string $name = 'MediaThumbRatingLevel';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : WTV::Metadata
+             * line : 396176
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'WTV::Metadata.WTV:MediaThumbRatingLevel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : WTV::Metadata
-       * line : 396176
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'WTV::Metadata.WTV:MediaThumbRatingLevel',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

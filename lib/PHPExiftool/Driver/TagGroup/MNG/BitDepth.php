@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BitDepth extends AbstractTagGroup
 {
+    protected string $id = 'MNG:BitDepth';
 
-  protected string $id = 'MNG:BitDepth';
+    protected string $name = 'BitDepth';
 
-  protected string $name = 'BitDepth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::BasisObject
+             * line : 164562
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::BasisObject.MNG:BitDepth',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::JNGHeader
+             * line : 164927
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::JNGHeader.MNG:BitDepth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::BasisObject
-       * line : 164562
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::BasisObject.MNG:BitDepth',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::JNGHeader
-       * line : 164927
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::JNGHeader.MNG:BitDepth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

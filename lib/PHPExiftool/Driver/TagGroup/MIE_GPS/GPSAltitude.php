@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSAltitude extends AbstractTagGroup
 {
+    protected string $id = 'MIE-GPS:GPSAltitude';
 
-  protected string $id = 'MIE-GPS:GPSAltitude';
+    protected string $name = 'GPSAltitude';
 
-  protected string $name = 'GPSAltitude';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::GPS
+             * line : 163466
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::GPS.MIE-GPS:GPSAltitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::GPS
-       * line : 163466
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::GPS.MIE-GPS:GPSAltitude',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

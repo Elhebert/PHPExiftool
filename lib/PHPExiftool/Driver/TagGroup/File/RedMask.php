@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RedMask extends AbstractTagGroup
 {
+    protected string $id = 'File:RedMask';
 
-  protected string $id = 'File:RedMask';
+    protected string $name = 'RedMask';
 
-  protected string $name = 'RedMask';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Main
+             * line : 3346
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::Main.File:RedMask',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Main
-       * line : 3346
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::Main.File:RedMask',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

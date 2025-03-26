@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PrimaryReceiverSuiteAndHost extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:PrimaryReceiverSuiteAndHost';
 
-  protected string $id = 'DICOM:PrimaryReceiverSuiteAndHost';
+    protected string $name = 'PrimaryReceiverSuiteAndHost';
 
-  protected string $name = 'PrimaryReceiverSuiteAndHost';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98489
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:PrimaryReceiverSuiteAndHost',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98489
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:PrimaryReceiverSuiteAndHost',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureModeContrast extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:PictureModeContrast';
 
-  protected string $id = 'Olympus:PictureModeContrast';
+    protected string $name = 'PictureModeContrast';
 
-  protected string $name = 'PictureModeContrast';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 251926
+             * type : int16s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:PictureModeContrast',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 251926
-       * type : int16s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:PictureModeContrast',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

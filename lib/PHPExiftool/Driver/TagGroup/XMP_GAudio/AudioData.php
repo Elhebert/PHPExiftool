@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioData extends AbstractTagGroup
 {
+    protected string $id = 'XMP-GAudio:AudioData';
 
-  protected string $id = 'XMP-GAudio:AudioData';
+    protected string $name = 'AudioData';
 
-  protected string $name = 'AudioData';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GAudio
+             * line : 396851
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::GAudio.XMP-GAudio:AudioData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GAudio
-       * line : 396851
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::GAudio.XMP-GAudio:AudioData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

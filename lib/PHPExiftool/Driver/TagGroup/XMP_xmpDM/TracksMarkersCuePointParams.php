@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TracksMarkersCuePointParams extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:TracksMarkersCuePointParams';
 
-  protected string $id = 'XMP-xmpDM:TracksMarkersCuePointParams';
+    protected string $name = 'TracksMarkersCuePointParams';
 
-  protected string $name = 'TracksMarkersCuePointParams';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413550
+             * type : struct
+             * writable : true
+             * count :
+             * flags : flattened,list,seq
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:TracksMarkersCuePointParams',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413550
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : flattened,list,seq
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:TracksMarkersCuePointParams',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

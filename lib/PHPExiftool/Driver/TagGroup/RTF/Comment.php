@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Comment extends AbstractTagGroup
 {
+    protected string $id = 'RTF:Comment';
 
-  protected string $id = 'RTF:Comment';
+    protected string $name = 'Comment';
 
-  protected string $name = 'Comment';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RTF::Main
+             * line : 329172
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RTF::Main.RTF:Comment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RTF::Main
-       * line : 329172
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RTF::Main.RTF:Comment',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

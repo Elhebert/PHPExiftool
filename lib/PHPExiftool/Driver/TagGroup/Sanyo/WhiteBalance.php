@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhiteBalance extends AbstractTagGroup
 {
+    protected string $id = 'Sanyo:WhiteBalance';
 
-  protected string $id = 'Sanyo:WhiteBalance';
+    protected string $name = 'WhiteBalance';
 
-  protected string $name = 'WhiteBalance';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sanyo::MOV
+             * line : 335829
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sanyo::MOV.Sanyo:WhiteBalance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sanyo::MOV
-       * line : 335829
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sanyo::MOV.Sanyo:WhiteBalance',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

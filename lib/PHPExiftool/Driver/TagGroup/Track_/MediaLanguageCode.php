@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MediaLanguageCode extends AbstractTagGroup
 {
+    protected string $id = 'Track#:MediaLanguageCode';
 
-  protected string $id = 'Track#:MediaLanguageCode';
+    protected string $name = 'MediaLanguageCode';
 
-  protected string $name = 'MediaLanguageCode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::MediaHeader
+             * line : 323907
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::MediaHeader.Track#:MediaLanguageCode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::MediaHeader
-       * line : 323907
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::MediaHeader.Track#:MediaLanguageCode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NITFVersion extends AbstractTagGroup
 {
+    protected string $id = 'NITF:NITFVersion';
 
-  protected string $id = 'NITF:NITFVersion';
+    protected string $name = 'NITFVersion';
 
-  protected string $name = 'NITFVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::NITF
+             * line : 152767
+             * type : int8u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'JPEG::NITF.NITF:NITFVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::NITF
-       * line : 152767
-       * type : int8u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'JPEG::NITF.NITF:NITFVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

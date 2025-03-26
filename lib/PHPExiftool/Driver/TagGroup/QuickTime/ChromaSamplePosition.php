@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChromaSamplePosition extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ChromaSamplePosition';
 
-  protected string $id = 'QuickTime:ChromaSamplePosition';
+    protected string $name = 'ChromaSamplePosition';
 
-  protected string $name = 'ChromaSamplePosition';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::AV1Config
+             * line : 310327
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::AV1Config.QuickTime:ChromaSamplePosition',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::AV1Config
-       * line : 310327
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::AV1Config.QuickTime:ChromaSamplePosition',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

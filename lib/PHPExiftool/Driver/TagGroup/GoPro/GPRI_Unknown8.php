@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPRI_Unknown8 extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:GPRI_Unknown8';
 
-  protected string $id = 'GoPro:GPRI_Unknown8';
+    protected string $name = 'GPRI_Unknown8';
 
-  protected string $name = 'GPRI_Unknown8';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPRI
+             * line : 139892
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'GoPro::GPRI.GoPro:GPRI_Unknown8',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPRI
-       * line : 139892
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'GoPro::GPRI.GoPro:GPRI_Unknown8',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

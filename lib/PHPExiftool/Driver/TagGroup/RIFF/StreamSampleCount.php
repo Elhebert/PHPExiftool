@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StreamSampleCount extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:StreamSampleCount';
 
-  protected string $id = 'RIFF:StreamSampleCount';
+    protected string $name = 'StreamSampleCount';
 
-  protected string $name = 'StreamSampleCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::StreamHeader
+             * line : 328821
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::StreamHeader.RIFF:StreamSampleCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::StreamHeader
-       * line : 328821
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::StreamHeader.RIFF:StreamSampleCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

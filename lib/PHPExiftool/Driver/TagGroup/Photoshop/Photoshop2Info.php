@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Photoshop2Info extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:Photoshop2Info';
 
-  protected string $id = 'Photoshop:Photoshop2Info';
+    protected string $name = 'Photoshop2Info';
 
-  protected string $name = 'Photoshop2Info';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Main
+             * line : 305366
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Photoshop::Main.Photoshop:Photoshop2Info',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Main
-       * line : 305366
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Photoshop::Main.Photoshop:Photoshop2Info',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

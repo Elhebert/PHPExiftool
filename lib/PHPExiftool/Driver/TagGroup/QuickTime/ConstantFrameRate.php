@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConstantFrameRate extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ConstantFrameRate';
 
-  protected string $id = 'QuickTime:ConstantFrameRate';
+    protected string $name = 'ConstantFrameRate';
 
-  protected string $name = 'ConstantFrameRate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HEVCConfig
+             * line : 313512
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HEVCConfig.QuickTime:ConstantFrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HEVCConfig
-       * line : 313512
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HEVCConfig.QuickTime:ConstantFrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

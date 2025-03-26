@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalFormat extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:OriginalFormat';
 
-  protected string $id = 'QuickTime:OriginalFormat';
+    protected string $name = 'OriginalFormat';
 
-  protected string $name = 'OriginalFormat';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ProtectionInfo
+             * line : 324273
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ProtectionInfo.QuickTime:OriginalFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ProtectionInfo
-       * line : 324273
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ProtectionInfo.QuickTime:OriginalFormat',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

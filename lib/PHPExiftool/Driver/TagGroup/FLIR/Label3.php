@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Label3 extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:Label3';
 
-  protected string $id = 'FLIR:Label3';
+    protected string $name = 'Label3';
 
-  protected string $name = 'Label3';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::TextInfo
+             * line : 123734
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::TextInfo.FLIR:Label3',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::TextInfo
-       * line : 123734
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::TextInfo.FLIR:Label3',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

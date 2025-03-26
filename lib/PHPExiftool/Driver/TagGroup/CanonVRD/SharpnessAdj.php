@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SharpnessAdj extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:SharpnessAdj';
 
-  protected string $id = 'CanonVRD:SharpnessAdj';
+    protected string $name = 'SharpnessAdj';
 
-  protected string $name = 'SharpnessAdj';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DR4
+             * line : 80603
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::DR4.CanonVRD:SharpnessAdj',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonVRD::Ver1
+             * line : 82534
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver1.CanonVRD:SharpnessAdj',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DR4
-       * line : 80603
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::DR4.CanonVRD:SharpnessAdj',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonVRD::Ver1
-       * line : 82534
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver1.CanonVRD:SharpnessAdj',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

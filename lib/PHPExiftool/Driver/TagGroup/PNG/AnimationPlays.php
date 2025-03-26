@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AnimationPlays extends AbstractTagGroup
 {
+    protected string $id = 'PNG:AnimationPlays';
 
-  protected string $id = 'PNG:AnimationPlays';
+    protected string $name = 'AnimationPlays';
 
-  protected string $name = 'AnimationPlays';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::AnimationControl
+             * line : 272382
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::AnimationControl.PNG:AnimationPlays',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::AnimationControl
-       * line : 272382
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::AnimationControl.PNG:AnimationPlays',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DetectorBoard extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:DetectorBoard';
 
-  protected string $id = 'FLIR:DetectorBoard';
+    protected string $name = 'DetectorBoard';
 
-  protected string $name = 'DetectorBoard';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::Parts
+             * line : 123617
+             * type : undef
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FLIR::Parts.FLIR:DetectorBoard',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::Parts
-       * line : 123617
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FLIR::Parts.FLIR:DetectorBoard',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

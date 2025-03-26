@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalPlaneXResolution extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:FocalPlaneXResolution';
 
-  protected string $id = 'ExifIFD:FocalPlaneXResolution';
+    protected string $name = 'FocalPlaneXResolution';
 
-  protected string $name = 'FocalPlaneXResolution';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 115258
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:FocalPlaneXResolution',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Exif::Main
+             * line : 116599
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:FocalPlaneXResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 115258
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:FocalPlaneXResolution',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Exif::Main
-       * line : 116599
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:FocalPlaneXResolution',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

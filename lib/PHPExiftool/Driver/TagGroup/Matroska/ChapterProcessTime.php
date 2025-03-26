@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChapterProcessTime extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:ChapterProcessTime';
 
-  protected string $id = 'Matroska:ChapterProcessTime';
+    protected string $name = 'ChapterProcessTime';
 
-  protected string $name = 'ChapterProcessTime';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Main
+             * line : 173817
+             * type : unsigned
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Matroska::Main.Matroska:ChapterProcessTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Main
-       * line : 173817
-       * type : unsigned
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Matroska::Main.Matroska:ChapterProcessTime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

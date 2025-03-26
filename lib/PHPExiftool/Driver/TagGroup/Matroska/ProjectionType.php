@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProjectionType extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:ProjectionType';
 
-  protected string $id = 'Matroska:ProjectionType';
+    protected string $name = 'ProjectionType';
 
-  protected string $name = 'ProjectionType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Projection
+             * line : 174029
+             * type : unsigned
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Matroska::Projection.Matroska:ProjectionType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Projection
-       * line : 174029
-       * type : unsigned
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Matroska::Projection.Matroska:ProjectionType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Title extends AbstractTagGroup
 {
+    protected string $id = 'ASF:Title';
 
-  protected string $id = 'ASF:Title';
+    protected string $name = 'Title';
 
-  protected string $name = 'Title';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::ContentDescr
+             * line : 935
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ContentDescr.ASF:Title',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : ASF::ExtendedDescr
+             * line : 1608
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ExtendedDescr.ASF:Title',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::ContentDescr
-       * line : 935
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ContentDescr.ASF:Title',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : ASF::ExtendedDescr
-       * line : 1608
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ExtendedDescr.ASF:Title',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

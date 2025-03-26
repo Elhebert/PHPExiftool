@@ -19,45 +19,43 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:LensSerialNumber';
 
-  protected string $id = 'FLIR:LensSerialNumber';
+    protected string $name = 'LensSerialNumber';
 
-  protected string $name = 'LensSerialNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
-
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122289
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:LensSerialNumber',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122567
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:LensSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122289
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:LensSerialNumber',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122567
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:LensSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class City extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Geo:City';
 
-  protected string $id = 'MIE-Geo:City';
+    protected string $name = 'City';
 
-  protected string $name = 'City';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Geo
+             * line : 163744
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Geo.MIE-Geo:City',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Geo
-       * line : 163744
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Geo.MIE-Geo:City',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

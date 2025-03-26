@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UserComment extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:UserComment';
 
-  protected string $id = 'ExifIFD:UserComment';
+    protected string $name = 'UserComment';
 
-  protected string $name = 'UserComment';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 116212
+             * type : undef
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:UserComment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 116212
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:UserComment',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

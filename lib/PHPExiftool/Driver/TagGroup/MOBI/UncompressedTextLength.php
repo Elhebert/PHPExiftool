@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UncompressedTextLength extends AbstractTagGroup
 {
+    protected string $id = 'MOBI:UncompressedTextLength';
 
-  protected string $id = 'MOBI:UncompressedTextLength';
+    protected string $name = 'UncompressedTextLength';
 
-  protected string $name = 'UncompressedTextLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::MOBI
+             * line : 273713
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::MOBI.MOBI:UncompressedTextLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::MOBI
-       * line : 273713
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::MOBI.MOBI:UncompressedTextLength',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

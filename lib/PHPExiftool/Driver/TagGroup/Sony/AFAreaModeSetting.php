@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFAreaModeSetting extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFAreaModeSetting';
 
-  protected string $id = 'Sony:AFAreaModeSetting';
+    protected string $name = 'AFAreaModeSetting';
 
-  protected string $name = 'AFAreaModeSetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 354528
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:AFAreaModeSetting',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::Main
+             * line : 354553
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:AFAreaModeSetting',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::Main
+             * line : 354588
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:AFAreaModeSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 354528
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:AFAreaModeSetting',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::Main
-       * line : 354553
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:AFAreaModeSetting',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::Main
-       * line : 354588
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:AFAreaModeSetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraTemperatureMaxWarn extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:CameraTemperatureMaxWarn';
 
-  protected string $id = 'FLIR:CameraTemperatureMaxWarn';
+    protected string $name = 'CameraTemperatureMaxWarn';
 
-  protected string $name = 'CameraTemperatureMaxWarn';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122243
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:CameraTemperatureMaxWarn',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122243
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:CameraTemperatureMaxWarn',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NativeXResolution extends AbstractTagGroup
 {
+    protected string $id = 'MetaIFD:NativeXResolution';
 
-  protected string $id = 'MetaIFD:NativeXResolution';
+    protected string $name = 'NativeXResolution';
 
-  protected string $name = 'NativeXResolution';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Meta
+             * line : 158486
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Kodak::Meta.MetaIFD:NativeXResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Meta
-       * line : 158486
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Kodak::Meta.MetaIFD:NativeXResolution',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

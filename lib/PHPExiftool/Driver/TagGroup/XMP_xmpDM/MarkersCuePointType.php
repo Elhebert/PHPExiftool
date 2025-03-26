@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MarkersCuePointType extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:MarkersCuePointType';
 
-  protected string $id = 'XMP-xmpDM:MarkersCuePointType';
+    protected string $name = 'MarkersCuePointType';
 
-  protected string $name = 'MarkersCuePointType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413173
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:MarkersCuePointType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413173
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:MarkersCuePointType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AnalogISOTable extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:AnalogISOTable';
 
-  protected string $id = 'KodakIFD:AnalogISOTable';
+    protected string $name = 'AnalogISOTable';
 
-  protected string $name = 'AnalogISOTable';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155278
+             * type : rational64u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:AnalogISOTable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155278
-       * type : rational64u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:AnalogISOTable',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashpixVersion extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:FlashpixVersion';
 
-  protected string $id = 'ExifIFD:FlashpixVersion';
+    protected string $name = 'FlashpixVersion';
 
-  protected string $name = 'FlashpixVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 116390
+             * type : undef
+             * writable : true
+             * count :
+             * flags : mandatory
+             */
+            'id' => 'Exif::Main.ExifIFD:FlashpixVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 116390
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : mandatory
-       */
-      'id' => 'Exif::Main.ExifIFD:FlashpixVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2176;
-
+    protected int $flags = 2176;
 }

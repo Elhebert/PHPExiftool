@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReplayGainTrackPeak extends AbstractTagGroup
 {
+    protected string $id = 'MPC:ReplayGainTrackPeak';
 
-  protected string $id = 'MPC:ReplayGainTrackPeak';
+    protected string $name = 'ReplayGainTrackPeak';
 
-  protected string $name = 'ReplayGainTrackPeak';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPC::Main
+             * line : 165591
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPC::Main.MPC:ReplayGainTrackPeak',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPC::Main
-       * line : 165591
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPC::Main.MPC:ReplayGainTrackPeak',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

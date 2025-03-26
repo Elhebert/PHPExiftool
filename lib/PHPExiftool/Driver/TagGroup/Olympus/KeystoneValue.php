@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class KeystoneValue extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:KeystoneValue';
 
-  protected string $id = 'Olympus:KeystoneValue';
+    protected string $name = 'KeystoneValue';
 
-  protected string $name = 'KeystoneValue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::ImageProcessing
+             * line : 255603
+             * type : int16s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::ImageProcessing.Olympus:KeystoneValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::ImageProcessing
-       * line : 255603
-       * type : int16s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::ImageProcessing.Olympus:KeystoneValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Elevation extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:Elevation';
 
-  protected string $id = 'Parrot:Elevation';
+    protected string $name = 'Elevation';
 
-  protected string $name = 'Elevation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::V2
+             * line : 282222
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V2.Parrot:Elevation',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Parrot::V3
+             * line : 282429
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V3.Parrot:Elevation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::V2
-       * line : 282222
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V2.Parrot:Elevation',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Parrot::V3
-       * line : 282429
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V3.Parrot:Elevation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

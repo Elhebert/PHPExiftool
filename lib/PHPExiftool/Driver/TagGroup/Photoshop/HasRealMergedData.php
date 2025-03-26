@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HasRealMergedData extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:HasRealMergedData';
 
-  protected string $id = 'Photoshop:HasRealMergedData';
+    protected string $name = 'HasRealMergedData';
 
-  protected string $name = 'HasRealMergedData';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::VersionInfo
+             * line : 305846
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::VersionInfo.Photoshop:HasRealMergedData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::VersionInfo
-       * line : 305846
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::VersionInfo.Photoshop:HasRealMergedData',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

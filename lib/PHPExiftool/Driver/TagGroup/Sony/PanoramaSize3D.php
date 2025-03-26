@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PanoramaSize3D extends AbstractTagGroup
 {
+    protected string $id = 'Sony:PanoramaSize3D';
 
-  protected string $id = 'Sony:PanoramaSize3D';
+    protected string $name = 'PanoramaSize3D';
 
-  protected string $name = 'PanoramaSize3D';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 351082
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:PanoramaSize3D',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 351082
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:PanoramaSize3D',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

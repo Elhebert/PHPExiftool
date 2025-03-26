@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaskGroupBasedCorrMaskRangeSampleType extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:MaskGroupBasedCorrMaskRangeSampleType';
 
-  protected string $id = 'XMP-crs:MaskGroupBasedCorrMaskRangeSampleType';
+    protected string $name = 'MaskGroupBasedCorrMaskRangeSampleType';
 
-  protected string $name = 'MaskGroupBasedCorrMaskRangeSampleType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 403028
+             * type : integer
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskRangeSampleType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 403028
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskRangeSampleType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

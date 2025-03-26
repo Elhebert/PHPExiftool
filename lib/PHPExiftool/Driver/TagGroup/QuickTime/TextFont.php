@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TextFont extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:TextFont';
 
-  protected string $id = 'QuickTime:TextFont';
+    protected string $name = 'TextFont';
 
-  protected string $name = 'TextFont';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::TCMediaInfo
+             * line : 324946
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::TCMediaInfo.QuickTime:TextFont',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::TCMediaInfo
-       * line : 324946
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::TCMediaInfo.QuickTime:TextFont',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExtenderFirmwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ExtenderFirmwareVersion';
 
-  protected string $id = 'Olympus:ExtenderFirmwareVersion';
+    protected string $name = 'ExtenderFirmwareVersion';
 
-  protected string $name = 'ExtenderFirmwareVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Equipment
+             * line : 254554
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::Equipment.Olympus:ExtenderFirmwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Equipment
-       * line : 254554
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::Equipment.Olympus:ExtenderFirmwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

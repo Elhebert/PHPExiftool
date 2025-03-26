@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompactSampleSizes extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:CompactSampleSizes';
 
-  protected string $id = 'QuickTime:CompactSampleSizes';
+    protected string $name = 'CompactSampleSizes';
 
-  protected string $name = 'CompactSampleSizes';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::SampleTable
+             * line : 324453
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'QuickTime::SampleTable.QuickTime:CompactSampleSizes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::SampleTable
-       * line : 324453
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'QuickTime::SampleTable.QuickTime:CompactSampleSizes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 34;
-
+    protected int $flags = 34;
 }

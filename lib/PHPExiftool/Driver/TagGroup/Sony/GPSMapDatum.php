@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSMapDatum extends AbstractTagGroup
 {
+    protected string $id = 'Sony:GPSMapDatum';
 
-  protected string $id = 'Sony:GPSMapDatum';
+    protected string $name = 'GPSMapDatum';
 
-  protected string $name = 'GPSMapDatum';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::rtmd
+             * line : 393799
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Sony::rtmd.Sony:GPSMapDatum',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::rtmd
-       * line : 393799
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Sony::rtmd.Sony:GPSMapDatum',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

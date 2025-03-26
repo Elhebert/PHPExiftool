@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AboveColor extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:AboveColor';
 
-  protected string $id = 'FLIR:AboveColor';
+    protected string $name = 'AboveColor';
 
-  protected string $name = 'AboveColor';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::PaletteInfo
+             * line : 123502
+             * type : int8u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'FLIR::PaletteInfo.FLIR:AboveColor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::PaletteInfo
-       * line : 123502
-       * type : int8u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'FLIR::PaletteInfo.FLIR:AboveColor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

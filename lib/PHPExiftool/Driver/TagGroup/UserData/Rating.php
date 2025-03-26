@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Rating extends AbstractTagGroup
 {
+    protected string $id = 'UserData:Rating';
 
-  protected string $id = 'UserData:Rating';
+    protected string $name = 'Rating';
 
-  protected string $name = 'Rating';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 325608
+             * type : undef
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'QuickTime::UserData.UserData:Rating',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 325608
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'QuickTime::UserData.UserData:Rating',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

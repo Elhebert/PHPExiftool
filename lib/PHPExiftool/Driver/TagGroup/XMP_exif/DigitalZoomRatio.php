@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DigitalZoomRatio extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exif:DigitalZoomRatio';
 
-  protected string $id = 'XMP-exif:DigitalZoomRatio';
+    protected string $name = 'DigitalZoomRatio';
 
-  protected string $name = 'DigitalZoomRatio';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exif
+             * line : 405415
+             * type : rational
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::exif.XMP-exif:DigitalZoomRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exif
-       * line : 405415
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::exif.XMP-exif:DigitalZoomRatio',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

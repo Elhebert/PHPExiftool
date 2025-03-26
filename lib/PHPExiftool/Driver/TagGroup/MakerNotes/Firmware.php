@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Firmware extends AbstractTagGroup
 {
+    protected string $id = 'MakerNotes:Firmware';
 
-  protected string $id = 'MakerNotes:Firmware';
+    protected string $name = 'Firmware';
 
-  protected string $name = 'Firmware';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::INSV_MakerNotes
+             * line : 313857
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::INSV_MakerNotes.MakerNotes:Firmware',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::INSV_MakerNotes
-       * line : 313857
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::INSV_MakerNotes.MakerNotes:Firmware',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

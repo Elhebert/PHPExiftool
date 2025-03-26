@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PageNumber extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:PageNumber';
 
-  protected string $id = 'IFD0:PageNumber';
+    protected string $name = 'PageNumber';
 
-  protected string $name = 'PageNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 111308
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:PageNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 111308
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:PageNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

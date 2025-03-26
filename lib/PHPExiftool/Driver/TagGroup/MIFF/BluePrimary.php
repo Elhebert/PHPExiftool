@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BluePrimary extends AbstractTagGroup
 {
+    protected string $id = 'MIFF:BluePrimary';
 
-  protected string $id = 'MIFF:BluePrimary';
+    protected string $name = 'BluePrimary';
 
-  protected string $name = 'BluePrimary';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIFF::Main
+             * line : 164249
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MIFF::Main.MIFF:BluePrimary',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIFF::Main
-       * line : 164249
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIFF::Main.MIFF:BluePrimary',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

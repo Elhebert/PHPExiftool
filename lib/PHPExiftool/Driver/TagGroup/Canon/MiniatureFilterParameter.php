@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MiniatureFilterParameter extends AbstractTagGroup
 {
+    protected string $id = 'Canon:MiniatureFilterParameter';
 
-  protected string $id = 'Canon:MiniatureFilterParameter';
+    protected string $name = 'MiniatureFilterParameter';
 
-  protected string $name = 'MiniatureFilterParameter';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::FilterInfo
+             * line : 64002
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::FilterInfo.Canon:MiniatureFilterParameter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::FilterInfo
-       * line : 64002
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::FilterInfo.Canon:MiniatureFilterParameter',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

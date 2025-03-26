@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PatternAngle extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:PatternAngle';
 
-  protected string $id = 'Leaf:PatternAngle';
+    protected string $name = 'PatternAngle';
 
-  protected string $name = 'PatternAngle';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::Main
+             * line : 161915
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::Main.Leaf:PatternAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::Main
-       * line : 161915
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::Main.Leaf:PatternAngle',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

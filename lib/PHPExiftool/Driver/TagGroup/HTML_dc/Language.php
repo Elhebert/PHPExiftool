@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Language extends AbstractTagGroup
 {
+    protected string $id = 'HTML-dc:Language';
 
-  protected string $id = 'HTML-dc:Language';
+    protected string $name = 'Language';
 
-  protected string $name = 'Language';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::dc
+             * line : 142756
+             * type : ?
+             * writable : false
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'HTML::dc.HTML-dc:Language',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::dc
-       * line : 142756
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'HTML::dc.HTML-dc:Language',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 320;
-
+    protected int $flags = 320;
 }

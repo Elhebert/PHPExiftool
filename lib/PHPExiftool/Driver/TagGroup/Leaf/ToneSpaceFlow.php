@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToneSpaceFlow extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:ToneSpaceFlow';
 
-  protected string $id = 'Leaf:ToneSpaceFlow';
+    protected string $name = 'ToneSpaceFlow';
 
-  protected string $name = 'ToneSpaceFlow';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::Main
+             * line : 161902
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::Main.Leaf:ToneSpaceFlow',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::Main
-       * line : 161902
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::Main.Leaf:ToneSpaceFlow',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

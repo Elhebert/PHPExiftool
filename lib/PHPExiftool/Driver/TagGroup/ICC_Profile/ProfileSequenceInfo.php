@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProfileSequenceInfo extends AbstractTagGroup
 {
+    protected string $id = 'ICC_Profile:ProfileSequenceInfo';
 
-  protected string $id = 'ICC_Profile:ProfileSequenceInfo';
+    protected string $name = 'ProfileSequenceInfo';
 
-  protected string $name = 'ProfileSequenceInfo';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Main
+             * line : 146543
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::Main.ICC_Profile:ProfileSequenceInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Main
-       * line : 146543
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Main.ICC_Profile:ProfileSequenceInfo',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

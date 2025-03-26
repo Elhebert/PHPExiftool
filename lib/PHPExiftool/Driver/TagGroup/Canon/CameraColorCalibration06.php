@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraColorCalibration06 extends AbstractTagGroup
 {
+    protected string $id = 'Canon:CameraColorCalibration06';
 
-  protected string $id = 'Canon:CameraColorCalibration06';
+    protected string $name = 'CameraColorCalibration06';
 
-  protected string $name = 'CameraColorCalibration06';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorCalib
+             * line : 58969
+             * type : int16s
+             * writable : true
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorCalib.Canon:CameraColorCalibration06',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::ColorCalib2
+             * line : 59078
+             * type : int16s
+             * writable : true
+             * count : 5
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorCalib2.Canon:CameraColorCalibration06',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorCalib
-       * line : 58969
-       * type : int16s
-       * writable : true
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorCalib.Canon:CameraColorCalibration06',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::ColorCalib2
-       * line : 59078
-       * type : int16s
-       * writable : true
-       * count : 5
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorCalib2.Canon:CameraColorCalibration06',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

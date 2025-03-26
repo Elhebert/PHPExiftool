@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReconstructionType extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:ReconstructionType';
 
-  protected string $id = 'Leaf:ReconstructionType';
+    protected string $name = 'ReconstructionType';
 
-  protected string $name = 'ReconstructionType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::CaptureProfile
+             * line : 161736
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::CaptureProfile.Leaf:ReconstructionType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::CaptureProfile
-       * line : 161736
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::CaptureProfile.Leaf:ReconstructionType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

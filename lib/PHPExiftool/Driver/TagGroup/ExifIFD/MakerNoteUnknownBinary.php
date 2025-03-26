@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MakerNoteUnknownBinary extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:MakerNoteUnknownBinary';
 
-  protected string $id = 'ExifIFD:MakerNoteUnknownBinary';
+    protected string $name = 'MakerNoteUnknownBinary';
 
-  protected string $name = 'MakerNoteUnknownBinary';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DNG::AdobeData
+             * line : 105240
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'DNG::AdobeData.ExifIFD:MakerNoteUnknownBinary',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Exif::Main
+             * line : 116201
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'Exif::Main.ExifIFD:MakerNoteUnknownBinary',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DNG::AdobeData
-       * line : 105240
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'DNG::AdobeData.ExifIFD:MakerNoteUnknownBinary',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Exif::Main
-       * line : 116201
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Exif::Main.ExifIFD:MakerNoteUnknownBinary',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

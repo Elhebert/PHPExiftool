@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SourceToBeamLimitingDeviceDistance extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:SourceToBeamLimitingDeviceDistance';
 
-  protected string $id = 'DICOM:SourceToBeamLimitingDeviceDistance';
+    protected string $name = 'SourceToBeamLimitingDeviceDistance';
 
-  protected string $name = 'SourceToBeamLimitingDeviceDistance';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 103143
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:SourceToBeamLimitingDeviceDistance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 103143
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:SourceToBeamLimitingDeviceDistance',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

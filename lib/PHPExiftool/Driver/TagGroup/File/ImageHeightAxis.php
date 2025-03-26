@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageHeightAxis extends AbstractTagGroup
 {
+    protected string $id = 'File:ImageHeightAxis';
 
-  protected string $id = 'File:ImageHeightAxis';
+    protected string $name = 'ImageHeightAxis';
 
-  protected string $name = 'ImageHeightAxis';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166920
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::Main.File:ImageHeightAxis',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166920
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:ImageHeightAxis',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

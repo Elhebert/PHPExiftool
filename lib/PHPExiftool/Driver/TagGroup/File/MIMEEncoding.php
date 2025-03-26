@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MIMEEncoding extends AbstractTagGroup
 {
+    protected string $id = 'File:MIMEEncoding';
 
-  protected string $id = 'File:MIMEEncoding';
+    protected string $name = 'MIMEEncoding';
 
-  protected string $name = 'MIMEEncoding';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Text::Main
+             * line : 394748
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Text::Main.File:MIMEEncoding',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Text::Main
-       * line : 394748
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Text::Main.File:MIMEEncoding',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

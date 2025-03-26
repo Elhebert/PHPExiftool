@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SceneBalanceAlgorithmCommand extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:SceneBalanceAlgorithmCommand';
 
-  protected string $id = 'PhotoCD:SceneBalanceAlgorithmCommand';
+    protected string $name = 'SceneBalanceAlgorithmCommand';
 
-  protected string $name = 'SceneBalanceAlgorithmCommand';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303830
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:SceneBalanceAlgorithmCommand',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303830
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:SceneBalanceAlgorithmCommand',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

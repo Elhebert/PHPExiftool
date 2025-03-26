@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:SerialNumber';
 
-  protected string $id = 'Nikon:SerialNumber';
+    protected string $name = 'SerialNumber';
 
-  protected string $name = 'SerialNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::Main
+             * line : 196897
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent,unsafe
+             */
+            'id' => 'Nikon::Main.Nikon:SerialNumber',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::Main
+             * line : 199354
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::Main.Nikon:SerialNumber',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::NCTG
+             * line : 202683
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::NCTG.Nikon:SerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::Main
-       * line : 196897
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent,unsafe
-       */
-      'id' => 'Nikon::Main.Nikon:SerialNumber',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::Main
-       * line : 199354
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::Main.Nikon:SerialNumber',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::NCTG
-       * line : 202683
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::NCTG.Nikon:SerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

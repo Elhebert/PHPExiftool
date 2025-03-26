@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Software extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:Software';
 
-  protected string $id = 'Nikon:Software';
+    protected string $name = 'Software';
 
-  protected string $name = 'Software';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AVITags
+             * line : 191174
+             * type : undef
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AVITags.Nikon:Software',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::MOV
+             * line : 196547
+             * type : string
+             * writable : false
+             * count : 16
+             * flags : permanent
+             */
+            'id' => 'Nikon::MOV.Nikon:Software',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::NCTG
+             * line : 202149
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::NCTG.Nikon:Software',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AVITags
-       * line : 191174
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AVITags.Nikon:Software',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::MOV
-       * line : 196547
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : permanent
-       */
-      'id' => 'Nikon::MOV.Nikon:Software',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::NCTG
-       * line : 202149
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::NCTG.Nikon:Software',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 16;
 
-  protected int $count = 16;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

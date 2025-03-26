@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Flash extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exif:Flash';
 
-  protected string $id = 'XMP-exif:Flash';
+    protected string $name = 'Flash';
 
-  protected string $name = 'Flash';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exif
+             * line : 405831
+             * type : struct
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::exif.XMP-exif:Flash',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exif
-       * line : 405831
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::exif.XMP-exif:Flash',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

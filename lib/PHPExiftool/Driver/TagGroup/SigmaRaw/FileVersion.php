@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileVersion extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:FileVersion';
 
-  protected string $id = 'SigmaRaw:FileVersion';
+    protected string $name = 'FileVersion';
 
-  protected string $name = 'FileVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Header
+             * line : 339304
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header.SigmaRaw:FileVersion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : SigmaRaw::Header4
+             * line : 339424
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header4.SigmaRaw:FileVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Header
-       * line : 339304
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header.SigmaRaw:FileVersion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : SigmaRaw::Header4
-       * line : 339424
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header4.SigmaRaw:FileVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

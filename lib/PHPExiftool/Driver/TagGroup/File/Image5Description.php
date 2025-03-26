@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Image5Description extends AbstractTagGroup
 {
+    protected string $id = 'File:Image5Description';
 
-  protected string $id = 'File:Image5Description';
+    protected string $name = 'Image5Description';
 
-  protected string $name = 'Image5Description';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105854
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'DPX::Main.File:Image5Description',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105854
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:Image5Description',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

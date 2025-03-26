@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AutoExposureBracketing extends AbstractTagGroup
 {
+    protected string $id = 'Canon:AutoExposureBracketing';
 
-  protected string $id = 'Canon:AutoExposureBracketing';
+    protected string $name = 'AutoExposureBracketing';
 
-  protected string $name = 'AutoExposureBracketing';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ShotInfo
+             * line : 70646
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::ShotInfo.Canon:AutoExposureBracketing',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ShotInfo
-       * line : 70646
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::ShotInfo.Canon:AutoExposureBracketing',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

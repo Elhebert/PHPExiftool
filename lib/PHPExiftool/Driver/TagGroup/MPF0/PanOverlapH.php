@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PanOverlapH extends AbstractTagGroup
 {
+    protected string $id = 'MPF0:PanOverlapH';
 
-  protected string $id = 'MPF0:PanOverlapH';
+    protected string $name = 'PanOverlapH';
 
-  protected string $name = 'PanOverlapH';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPF::Main
+             * line : 166342
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPF::Main.MPF0:PanOverlapH',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPF::Main
-       * line : 166342
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPF::Main.MPF0:PanOverlapH',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

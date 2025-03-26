@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NullRecord extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:NullRecord';
 
-  protected string $id = 'CanonRaw:NullRecord';
+    protected string $name = 'NullRecord';
 
-  protected string $name = 'NullRecord';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 78643
+             * type : undef
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:NullRecord',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 78643
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:NullRecord',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

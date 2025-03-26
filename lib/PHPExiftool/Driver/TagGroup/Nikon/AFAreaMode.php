@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFAreaMode extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:AFAreaMode';
 
-  protected string $id = 'Nikon:AFAreaMode';
+    protected string $name = 'AFAreaMode';
 
-  protected string $name = 'AFAreaMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AFInfo
+             * line : 187860
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo.Nikon:AFAreaMode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 188130
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFAreaMode',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 188264
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFAreaMode',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Nikon::MenuSettingsZ9
+             * line : 201087
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::MenuSettingsZ9.Nikon:AFAreaMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AFInfo
-       * line : 187860
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo.Nikon:AFAreaMode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 188130
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFAreaMode',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 188264
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFAreaMode',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Nikon::MenuSettingsZ9
-       * line : 201087
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::MenuSettingsZ9.Nikon:AFAreaMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

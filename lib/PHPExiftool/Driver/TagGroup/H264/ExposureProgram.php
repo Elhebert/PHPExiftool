@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureProgram extends AbstractTagGroup
 {
+    protected string $id = 'H264:ExposureProgram';
 
-  protected string $id = 'H264:ExposureProgram';
+    protected string $name = 'ExposureProgram';
 
-  protected string $name = 'ExposureProgram';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::Camera1
+             * line : 140129
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::Camera1.H264:ExposureProgram',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 140407
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.H264:ExposureProgram',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::Camera1
-       * line : 140129
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::Camera1.H264:ExposureProgram',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 140407
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.H264:ExposureProgram',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

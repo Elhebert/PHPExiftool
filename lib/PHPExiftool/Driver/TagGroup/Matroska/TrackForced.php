@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TrackForced extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:TrackForced';
 
-  protected string $id = 'Matroska:TrackForced';
+    protected string $name = 'TrackForced';
 
-  protected string $name = 'TrackForced';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Main
+             * line : 173723
+             * type : unsigned
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Matroska::Main.Matroska:TrackForced',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Main
-       * line : 173723
-       * type : unsigned
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Matroska::Main.Matroska:TrackForced',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

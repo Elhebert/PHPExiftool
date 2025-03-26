@@ -11,11 +11,8 @@
 
 namespace PHPExiftool\Driver;
 
-use Exception;
-use JMS\Serializer\Annotation\VirtualProperty;
 use JMS\Serializer\Annotation\ExclusionPolicy;
-use ReflectionClass;
-
+use JMS\Serializer\Annotation\VirtualProperty;
 
 /**
  * Abstract TagGroup object
@@ -28,26 +25,44 @@ use ReflectionClass;
 abstract class AbstractTagGroup implements TagGroupInterface
 {
     public const FLAG_AVOID = 1;
+
     public const FLAG_BINARY = 2;
+
     public const FLAG_PERMANENT = 4;
+
     public const FLAG_PROTECTED = 8;
+
     public const FLAG_UNSAFE = 16;
+
     public const FLAG_UNKNOWN = 32;
+
     public const FLAG_LIST = 64;
+
     public const FLAG_MANDATORY = 128;
+
     public const FLAG_BAG = 256;
+
     public const FLAG_SEQ = 512;
+
     public const FLAG_ALT = 1024;
+
     public const FLAG_WRITABLE = 2048;
 
-//    public const GROUP_ID = '';
+    //    public const GROUP_ID = '';
     protected string $id = '';
+
     protected int $flags = 0;
+
     protected string $name = '';
+
     protected bool $isWritable = false;
+
     protected ?string $phpType = null;
+
     protected int $count = 0;
+
     protected array $description = [];
+
     protected array $tags = [];
 
     public function getId(): string
@@ -64,8 +79,6 @@ abstract class AbstractTagGroup implements TagGroupInterface
      * Return the tag name
      *
      * @VirtualProperty
-     *
-     * @return string
      */
     public function getName(): string
     {
@@ -76,9 +89,6 @@ abstract class AbstractTagGroup implements TagGroupInterface
      * A small string about the TagGroup
      *
      * @VirtualProperty
-     *
-     * @param string $lng
-     * @return string|null
      */
     public function getDescription(string $lng = 'en'): ?string
     {
@@ -93,17 +103,15 @@ abstract class AbstractTagGroup implements TagGroupInterface
      *
      * @return array
      */
-//    public function getValues(): array
-//    {
-//        return $this->Values;
-//    }
+    //    public function getValues(): array
+    //    {
+    //        return $this->Values;
+    //    }
 
     /**
      * Returns true if the TagGroup handles list values
      *
      * @VirtualProperty
-     *
-     * @return boolean
      */
     public function isMulti(): bool
     {
@@ -114,8 +122,6 @@ abstract class AbstractTagGroup implements TagGroupInterface
      * Returns true if the value is binary
      *
      * @VirtualProperty
-     *
-     * @return boolean
      */
     public function isBinary(): bool
     {
@@ -126,8 +132,6 @@ abstract class AbstractTagGroup implements TagGroupInterface
      * Returns true if the value can be written in the tagGroup
      *
      * @VirtualProperty
-     *
-     * @return boolean
      */
     public function isWritable(): bool
     {
@@ -144,7 +148,6 @@ abstract class AbstractTagGroup implements TagGroupInterface
         return $this->phpType;
     }
 
-
     /**
      * Return the tagname
      *
@@ -154,5 +157,4 @@ abstract class AbstractTagGroup implements TagGroupInterface
     {
         return $this->getId();
     }
-
 }

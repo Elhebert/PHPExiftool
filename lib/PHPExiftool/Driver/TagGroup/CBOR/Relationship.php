@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Relationship extends AbstractTagGroup
 {
+    protected string $id = 'CBOR:Relationship';
 
-  protected string $id = 'CBOR:Relationship';
+    protected string $name = 'Relationship';
 
-  protected string $name = 'Relationship';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CBOR::Main
+             * line : 3773
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'CBOR::Main.CBOR:Relationship',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CBOR::Main
-       * line : 3773
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'CBOR::Main.CBOR:Relationship',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChartWGSNSShift extends AbstractTagGroup
 {
+    protected string $id = 'GeoTiff:ChartWGSNSShift';
 
-  protected string $id = 'GeoTiff:ChartWGSNSShift';
+    protected string $name = 'ChartWGSNSShift';
 
-  protected string $name = 'ChartWGSNSShift';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GeoTiff::Main
+             * line : 139274
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GeoTiff::Main.GeoTiff:ChartWGSNSShift',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GeoTiff::Main
-       * line : 139274
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GeoTiff::Main.GeoTiff:ChartWGSNSShift',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

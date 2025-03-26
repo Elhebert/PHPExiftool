@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OtherImage extends AbstractTagGroup
 {
+    protected string $id = 'All:OtherImage';
 
-  protected string $id = 'All:OtherImage';
+    protected string $name = 'OtherImage';
 
-  protected string $name = 'OtherImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90435
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.All:OtherImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90435
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.All:OtherImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

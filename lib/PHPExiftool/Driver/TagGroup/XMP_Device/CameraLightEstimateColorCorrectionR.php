@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraLightEstimateColorCorrectionR extends AbstractTagGroup
 {
+    protected string $id = 'XMP-Device:CameraLightEstimateColorCorrectionR';
 
-  protected string $id = 'XMP-Device:CameraLightEstimateColorCorrectionR';
+    protected string $name = 'CameraLightEstimateColorCorrectionR';
 
-  protected string $name = 'CameraLightEstimateColorCorrectionR';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::Device
+             * line : 396609
+             * type : real
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::Device.XMP-Device:CameraLightEstimateColorCorrectionR',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::Device
-       * line : 396609
-       * type : real
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::Device.XMP-Device:CameraLightEstimateColorCorrectionR',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

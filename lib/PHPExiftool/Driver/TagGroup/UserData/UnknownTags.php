@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownTags extends AbstractTagGroup
 {
+    protected string $id = 'UserData:UnknownTags';
 
-  protected string $id = 'UserData:UnknownTags';
+    protected string $name = 'UnknownTags';
 
-  protected string $name = 'UnknownTags';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 325315
+             * type : string
+             * writable : true
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'QuickTime::UserData.UserData:UnknownTags',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 325315
-       * type : string
-       * writable : true
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'QuickTime::UserData.UserData:UnknownTags',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2082;
-
+    protected int $flags = 2082;
 }

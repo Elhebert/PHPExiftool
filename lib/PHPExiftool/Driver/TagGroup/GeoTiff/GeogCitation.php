@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GeogCitation extends AbstractTagGroup
 {
+    protected string $id = 'GeoTiff:GeogCitation';
 
-  protected string $id = 'GeoTiff:GeogCitation';
+    protected string $name = 'GeogCitation';
 
-  protected string $name = 'GeogCitation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GeoTiff::Main
+             * line : 133307
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GeoTiff::Main.GeoTiff:GeogCitation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GeoTiff::Main
-       * line : 133307
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GeoTiff::Main.GeoTiff:GeogCitation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

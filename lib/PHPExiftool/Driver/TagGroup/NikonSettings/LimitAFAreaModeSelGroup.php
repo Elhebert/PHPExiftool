@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LimitAFAreaModeSelGroup extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:LimitAFAreaModeSelGroup';
 
-  protected string $id = 'NikonSettings:LimitAFAreaModeSelGroup';
+    protected string $name = 'LimitAFAreaModeSelGroup';
 
-  protected string $name = 'LimitAFAreaModeSelGroup';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 247025
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:LimitAFAreaModeSelGroup',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 247025
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:LimitAFAreaModeSelGroup',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Publisher extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:Publisher';
 
-  protected string $id = 'Microsoft:Publisher';
+    protected string $name = 'Publisher';
 
-  protected string $name = 'Publisher';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175204
+             * type : Unicode
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:Publisher',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175953
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:Publisher',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175204
-       * type : Unicode
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:Publisher',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175953
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:Publisher',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

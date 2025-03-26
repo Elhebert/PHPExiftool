@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhiteSampleWidth extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:WhiteSampleWidth';
 
-  protected string $id = 'CanonRaw:WhiteSampleWidth';
+    protected string $name = 'WhiteSampleWidth';
 
-  protected string $name = 'WhiteSampleWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::WhiteSample
+             * line : 80137
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::WhiteSample.CanonRaw:WhiteSampleWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::WhiteSample
-       * line : 80137
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::WhiteSample.CanonRaw:WhiteSampleWidth',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Filter extends AbstractTagGroup
 {
+    protected string $id = 'PNG:Filter';
 
-  protected string $id = 'PNG:Filter';
+    protected string $name = 'Filter';
 
-  protected string $name = 'Filter';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::ImageHeader
+             * line : 272489
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::ImageHeader.PNG:Filter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::ImageHeader
-       * line : 272489
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::ImageHeader.PNG:Filter',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

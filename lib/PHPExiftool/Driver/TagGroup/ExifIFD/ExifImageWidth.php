@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExifImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:ExifImageWidth';
 
-  protected string $id = 'ExifIFD:ExifImageWidth';
+    protected string $name = 'ExifImageWidth';
 
-  protected string $name = 'ExifImageWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 116477
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : mandatory
+             */
+            'id' => 'Exif::Main.ExifIFD:ExifImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 116477
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : mandatory
-       */
-      'id' => 'Exif::Main.ExifIFD:ExifImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2176;
-
+    protected int $flags = 2176;
 }

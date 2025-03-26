@@ -19,153 +19,151 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureLevelIncrements extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:ExposureLevelIncrements';
 
-  protected string $id = 'CanonCustom:ExposureLevelIncrements';
+    protected string $name = 'ExposureLevelIncrements';
 
-  protected string $name = 'ExposureLevelIncrements';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions10D
+             * line : 71464
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions10D.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions1D
+             * line : 72000
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions1D.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72414
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72441
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : CanonCustom::Functions20D
+             * line : 75844
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions20D.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        5 => [
+            /**
+             * table_name : CanonCustom::Functions30D
+             * line : 76365
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions30D.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        6 => [
+            /**
+             * table_name : CanonCustom::Functions350D
+             * line : 76900
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions350D.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        7 => [
+            /**
+             * table_name : CanonCustom::Functions400D
+             * line : 77166
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions400D.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        8 => [
+            /**
+             * table_name : CanonCustom::Functions5D
+             * line : 77483
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions5D.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+        9 => [
+            /**
+             * table_name : CanonCustom::FunctionsD30
+             * line : 77967
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::FunctionsD30.CanonCustom:ExposureLevelIncrements',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions10D
-       * line : 71464
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions10D.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions1D
-       * line : 72000
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions1D.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72414
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72441
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : CanonCustom::Functions20D
-       * line : 75844
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions20D.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    5 => [
-      /**
-       * table_name : CanonCustom::Functions30D
-       * line : 76365
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions30D.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    6 => [
-      /**
-       * table_name : CanonCustom::Functions350D
-       * line : 76900
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions350D.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    7 => [
-      /**
-       * table_name : CanonCustom::Functions400D
-       * line : 77166
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions400D.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    8 => [
-      /**
-       * table_name : CanonCustom::Functions5D
-       * line : 77483
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions5D.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-    9 => [
-      /**
-       * table_name : CanonCustom::FunctionsD30
-       * line : 77967
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::FunctionsD30.CanonCustom:ExposureLevelIncrements',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

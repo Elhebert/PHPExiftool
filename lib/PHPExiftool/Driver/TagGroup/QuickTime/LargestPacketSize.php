@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LargestPacketSize extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:LargestPacketSize';
 
-  protected string $id = 'QuickTime:LargestPacketSize';
+    protected string $name = 'LargestPacketSize';
 
-  protected string $name = 'LargestPacketSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintTrackInfo
+             * line : 313790
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintTrackInfo.QuickTime:LargestPacketSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintTrackInfo
-       * line : 313790
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintTrackInfo.QuickTime:LargestPacketSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

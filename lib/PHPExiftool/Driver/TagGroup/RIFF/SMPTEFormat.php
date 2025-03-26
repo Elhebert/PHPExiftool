@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SMPTEFormat extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:SMPTEFormat';
 
-  protected string $id = 'RIFF:SMPTEFormat';
+    protected string $name = 'SMPTEFormat';
 
-  protected string $name = 'SMPTEFormat';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Sampler
+             * line : 328712
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Sampler.RIFF:SMPTEFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Sampler
-       * line : 328712
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Sampler.RIFF:SMPTEFormat',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

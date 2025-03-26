@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SpectroscopyOutOfPlanePhaseSteps extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:SpectroscopyOutOfPlanePhaseSteps';
 
-  protected string $id = 'DICOM:SpectroscopyOutOfPlanePhaseSteps';
+    protected string $name = 'SpectroscopyOutOfPlanePhaseSteps';
 
-  protected string $name = 'SpectroscopyOutOfPlanePhaseSteps';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 96811
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:SpectroscopyOutOfPlanePhaseSteps',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 96811
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:SpectroscopyOutOfPlanePhaseSteps',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JPSSeparation extends AbstractTagGroup
 {
+    protected string $id = 'JPS:JPSSeparation';
 
-  protected string $id = 'JPS:JPSSeparation';
+    protected string $name = 'JPSSeparation';
 
-  protected string $name = 'JPSSeparation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::JPS
+             * line : 152496
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::JPS.JPS:JPSSeparation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::JPS
-       * line : 152496
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::JPS.JPS:JPSSeparation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

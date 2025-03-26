@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WBBlueCloudy extends AbstractTagGroup
 {
+    protected string $id = 'SRF#:WBBlueCloudy';
 
-  protected string $id = 'SRF#:WBBlueCloudy';
+    protected string $name = 'WBBlueCloudy';
 
-  protected string $name = 'WBBlueCloudy';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::SRF2
+             * line : 361977
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::SRF2.SRF#:WBBlueCloudy',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::SRF2
-       * line : 361977
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::SRF2.SRF#:WBBlueCloudy',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

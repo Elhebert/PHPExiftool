@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CuePointNote extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:CuePointNote';
 
-  protected string $id = 'RIFF:CuePointNote';
+    protected string $name = 'CuePointNote';
 
-  protected string $name = 'CuePointNote';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Main
+             * line : 328675
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Main.RIFF:CuePointNote',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Main
-       * line : 328675
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Main.RIFF:CuePointNote',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

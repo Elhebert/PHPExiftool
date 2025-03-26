@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BandwidthSharing extends AbstractTagGroup
 {
+    protected string $id = 'ASF:BandwidthSharing';
 
-  protected string $id = 'ASF:BandwidthSharing';
+    protected string $name = 'BandwidthSharing';
 
-  protected string $name = 'BandwidthSharing';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::HeaderExtension
+             * line : 1847
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::HeaderExtension.ASF:BandwidthSharing',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::HeaderExtension
-       * line : 1847
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::HeaderExtension.ASF:BandwidthSharing',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

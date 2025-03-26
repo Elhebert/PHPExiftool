@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailTIFF extends AbstractTagGroup
 {
+    protected string $id = 'JFIF:ThumbnailTIFF';
 
-  protected string $id = 'JFIF:ThumbnailTIFF';
+    protected string $name = 'ThumbnailTIFF';
 
-  protected string $name = 'ThumbnailTIFF';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JFIF::Main
+             * line : 152356
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JFIF::Main.JFIF:ThumbnailTIFF',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JFIF::Main
-       * line : 152356
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JFIF::Main.JFIF:ThumbnailTIFF',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SigmaNoiseFilterCalTableV1 extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:SigmaNoiseFilterCalTableV1';
 
-  protected string $id = 'KodakIFD:SigmaNoiseFilterCalTableV1';
+    protected string $name = 'SigmaNoiseFilterCalTableV1';
 
-  protected string $name = 'SigmaNoiseFilterCalTableV1';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 156380
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:SigmaNoiseFilterCalTableV1',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 156380
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:SigmaNoiseFilterCalTableV1',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 6;
-
+    protected int $flags = 6;
 }

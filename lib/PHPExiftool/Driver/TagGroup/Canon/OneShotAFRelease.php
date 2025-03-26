@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OneShotAFRelease extends AbstractTagGroup
 {
+    protected string $id = 'Canon:OneShotAFRelease';
 
-  protected string $id = 'Canon:OneShotAFRelease';
+    protected string $name = 'OneShotAFRelease';
 
-  protected string $name = 'OneShotAFRelease';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFConfig
+             * line : 3866
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFConfig.Canon:OneShotAFRelease',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFConfig
-       * line : 3866
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFConfig.Canon:OneShotAFRelease',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

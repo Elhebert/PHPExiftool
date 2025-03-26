@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PortraitImpressionBalance extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:PortraitImpressionBalance';
 
-  protected string $id = 'Nikon:PortraitImpressionBalance';
+    protected string $name = 'PortraitImpressionBalance';
 
-  protected string $name = 'PortraitImpressionBalance';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ShotInfoZ7II
+             * line : 209336
+             * type : int8u
+             * writable : false
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Nikon::ShotInfoZ7II.Nikon:PortraitImpressionBalance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ShotInfoZ7II
-       * line : 209336
-       * type : int8u
-       * writable : false
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Nikon::ShotInfoZ7II.Nikon:PortraitImpressionBalance',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

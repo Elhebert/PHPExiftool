@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SwatchColorantSwatchName extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpTPg:SwatchColorantSwatchName';
 
-  protected string $id = 'XMP-xmpTPg:SwatchColorantSwatchName';
+    protected string $name = 'SwatchColorantSwatchName';
 
-  protected string $name = 'SwatchColorantSwatchName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpTPg
+             * line : 414617
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::xmpTPg.XMP-xmpTPg:SwatchColorantSwatchName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpTPg
-       * line : 414617
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::xmpTPg.XMP-xmpTPg:SwatchColorantSwatchName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageStabilization extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:ImageStabilization';
 
-  protected string $id = 'FujiFilm:ImageStabilization';
+    protected string $name = 'ImageStabilization';
 
-  protected string $name = 'ImageStabilization';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::Main
+             * line : 130717
+             * type : int16u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::Main.FujiFilm:ImageStabilization',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::Main
-       * line : 130717
-       * type : int16u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::Main.FujiFilm:ImageStabilization',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

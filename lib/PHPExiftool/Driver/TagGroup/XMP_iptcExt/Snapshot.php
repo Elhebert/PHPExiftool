@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Snapshot extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:Snapshot';
 
-  protected string $id = 'XMP-iptcExt:Snapshot';
+    protected string $name = 'Snapshot';
 
-  protected string $name = 'Snapshot';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409742
+             * type : struct
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:Snapshot',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409742
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:Snapshot',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

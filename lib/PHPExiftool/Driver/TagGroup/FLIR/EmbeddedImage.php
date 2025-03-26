@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedImage extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:EmbeddedImage';
 
-  protected string $id = 'FLIR:EmbeddedImage';
+    protected string $name = 'EmbeddedImage';
 
-  protected string $name = 'EmbeddedImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::EmbeddedImage
+             * line : 122423
+             * type : undef
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::EmbeddedImage
-       * line : 122423
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

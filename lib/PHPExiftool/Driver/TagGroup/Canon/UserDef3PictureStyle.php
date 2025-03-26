@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UserDef3PictureStyle extends AbstractTagGroup
 {
+    protected string $id = 'Canon:UserDef3PictureStyle';
 
-  protected string $id = 'Canon:UserDef3PictureStyle';
+    protected string $name = 'UserDef3PictureStyle';
 
-  protected string $name = 'UserDef3PictureStyle';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfo5D
+             * line : 34869
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo5D.Canon:UserDef3PictureStyle',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::PSInfo
+             * line : 68086
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::PSInfo.Canon:UserDef3PictureStyle',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::PSInfo2
+             * line : 69264
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::PSInfo2.Canon:UserDef3PictureStyle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfo5D
-       * line : 34869
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo5D.Canon:UserDef3PictureStyle',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::PSInfo
-       * line : 68086
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::PSInfo.Canon:UserDef3PictureStyle',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::PSInfo2
-       * line : 69264
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::PSInfo2.Canon:UserDef3PictureStyle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ZISRAWVersion extends AbstractTagGroup
 {
+    protected string $id = 'File:ZISRAWVersion';
 
-  protected string $id = 'File:ZISRAWVersion';
+    protected string $name = 'ZISRAWVersion';
 
-  protected string $name = 'ZISRAWVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZISRAW::Main
+             * line : 415049
+             * type : int32u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'ZISRAW::Main.File:ZISRAWVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZISRAW::Main
-       * line : 415049
-       * type : int32u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'ZISRAW::Main.File:ZISRAWVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

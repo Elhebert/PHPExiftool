@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HasColorMap extends AbstractTagGroup
 {
+    protected string $id = 'GIF:HasColorMap';
 
-  protected string $id = 'GIF:HasColorMap';
+    protected string $name = 'HasColorMap';
 
-  protected string $name = 'HasColorMap';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIF::Screen
+             * line : 131406
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GIF::Screen.GIF:HasColorMap',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIF::Screen
-       * line : 131406
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIF::Screen.GIF:HasColorMap',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

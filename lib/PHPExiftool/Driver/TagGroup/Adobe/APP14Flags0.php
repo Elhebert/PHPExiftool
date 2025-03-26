@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class APP14Flags0 extends AbstractTagGroup
 {
+    protected string $id = 'Adobe:APP14Flags0';
 
-  protected string $id = 'Adobe:APP14Flags0';
+    protected string $name = 'APP14Flags0';
 
-  protected string $name = 'APP14Flags0';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::Adobe
+             * line : 152386
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::Adobe.Adobe:APP14Flags0',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::Adobe
-       * line : 152386
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::Adobe.Adobe:APP14Flags0',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

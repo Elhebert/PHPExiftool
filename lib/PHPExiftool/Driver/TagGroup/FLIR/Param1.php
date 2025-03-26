@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Param1 extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:Param1';
 
-  protected string $id = 'FLIR:Param1';
+    protected string $name = 'Param1';
 
-  protected string $name = 'Param1';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::ParamInfo
+             * line : 123558
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::ParamInfo.FLIR:Param1',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::ParamInfo
-       * line : 123558
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::ParamInfo.FLIR:Param1',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

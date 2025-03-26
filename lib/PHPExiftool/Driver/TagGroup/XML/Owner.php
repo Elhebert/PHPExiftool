@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Owner extends AbstractTagGroup
 {
+    protected string $id = 'XML:Owner';
 
-  protected string $id = 'XML:Owner';
+    protected string $name = 'Owner';
 
-  protected string $name = 'Owner';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OOXML::Main
+             * line : 249196
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OOXML::Main.XML:Owner',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OOXML::Main
-       * line : 249196
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OOXML::Main.XML:Owner',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

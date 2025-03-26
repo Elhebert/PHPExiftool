@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OutCueScale extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:OutCueScale';
 
-  protected string $id = 'XMP-xmpDM:OutCueScale';
+    protected string $name = 'OutCueScale';
 
-  protected string $name = 'OutCueScale';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413209
+             * type : rational
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:OutCueScale',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413209
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:OutCueScale',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

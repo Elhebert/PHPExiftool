@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Title extends AbstractTagGroup
 {
+    protected string $id = 'PSP:Title';
 
-  protected string $id = 'PSP:Title';
+    protected string $name = 'Title';
 
-  protected string $name = 'Title';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PSP::Creator
+             * line : 273066
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PSP::Creator.PSP:Title',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PSP::Creator
-       * line : 273066
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PSP::Creator.PSP:Title',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

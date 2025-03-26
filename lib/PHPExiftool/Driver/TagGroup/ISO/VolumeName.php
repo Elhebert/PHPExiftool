@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VolumeName extends AbstractTagGroup
 {
+    protected string $id = 'ISO:VolumeName';
 
-  protected string $id = 'ISO:VolumeName';
+    protected string $name = 'VolumeName';
 
-  protected string $name = 'VolumeName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 151994
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:VolumeName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 151994
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:VolumeName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

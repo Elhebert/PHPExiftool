@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CondadoTunOffsets extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:CondadoTunOffsets';
 
-  protected string $id = 'KodakIFD:CondadoTunOffsets';
+    protected string $name = 'CondadoTunOffsets';
 
-  protected string $name = 'CondadoTunOffsets';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 156912
+             * type : int16s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:CondadoTunOffsets',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 156912
-       * type : int16s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:CondadoTunOffsets',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

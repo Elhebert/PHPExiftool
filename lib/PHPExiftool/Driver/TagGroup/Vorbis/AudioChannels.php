@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioChannels extends AbstractTagGroup
 {
+    protected string $id = 'Vorbis:AudioChannels';
 
-  protected string $id = 'Vorbis:AudioChannels';
+    protected string $name = 'AudioChannels';
 
-  protected string $name = 'AudioChannels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Vorbis::Identification
+             * line : 395921
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Vorbis::Identification.Vorbis:AudioChannels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Vorbis::Identification
-       * line : 395921
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Vorbis::Identification.Vorbis:AudioChannels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

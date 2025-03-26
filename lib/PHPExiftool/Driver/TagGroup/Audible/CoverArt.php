@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CoverArt extends AbstractTagGroup
 {
+    protected string $id = 'Audible:CoverArt';
 
-  protected string $id = 'Audible:CoverArt';
+    protected string $name = 'CoverArt';
 
-  protected string $name = 'CoverArt';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Audible::Main
+             * line : 2983
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'Audible::Main.Audible:CoverArt',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Audible::cvrx
+             * line : 3036
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'Audible::cvrx.Audible:CoverArt',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Audible::Main
-       * line : 2983
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Audible::Main.Audible:CoverArt',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Audible::cvrx
-       * line : 3036
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Audible::cvrx.Audible:CoverArt',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

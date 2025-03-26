@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AngleAxis extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AngleAxis';
 
-  protected string $id = 'QuickTime:AngleAxis';
+    protected string $name = 'AngleAxis';
 
-  protected string $name = 'AngleAxis';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::camm0
+             * line : 326312
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::camm0.QuickTime:AngleAxis',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::camm0
-       * line : 326312
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::camm0.QuickTime:AngleAxis',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

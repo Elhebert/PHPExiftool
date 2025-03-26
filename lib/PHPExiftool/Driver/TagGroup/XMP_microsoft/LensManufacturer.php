@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensManufacturer extends AbstractTagGroup
 {
+    protected string $id = 'XMP-microsoft:LensManufacturer';
 
-  protected string $id = 'XMP-microsoft:LensManufacturer';
+    protected string $name = 'LensManufacturer';
 
-  protected string $name = 'LensManufacturer';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::XMP
+             * line : 174376
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Microsoft::XMP.XMP-microsoft:LensManufacturer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::XMP
-       * line : 174376
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Microsoft::XMP.XMP-microsoft:LensManufacturer',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

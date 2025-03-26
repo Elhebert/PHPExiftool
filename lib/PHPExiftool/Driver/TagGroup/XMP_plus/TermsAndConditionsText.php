@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TermsAndConditionsText extends AbstractTagGroup
 {
+    protected string $id = 'XMP-plus:TermsAndConditionsText';
 
-  protected string $id = 'XMP-plus:TermsAndConditionsText';
+    protected string $name = 'TermsAndConditionsText';
 
-  protected string $name = 'TermsAndConditionsText';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PLUS::XMP
+             * line : 272362
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PLUS::XMP.XMP-plus:TermsAndConditionsText',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PLUS::XMP
-       * line : 272362
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PLUS::XMP.XMP-plus:TermsAndConditionsText',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

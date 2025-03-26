@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFAreaYPositions extends AbstractTagGroup
 {
+    protected string $id = 'Canon:AFAreaYPositions';
 
-  protected string $id = 'Canon:AFAreaYPositions';
+    protected string $name = 'AFAreaYPositions';
 
-  protected string $name = 'AFAreaYPositions';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFInfo
+             * line : 4083
+             * type : int16s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo.Canon:AFAreaYPositions',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::AFInfo2
+             * line : 4243
+             * type : int16s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo2.Canon:AFAreaYPositions',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFInfo
-       * line : 4083
-       * type : int16s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo.Canon:AFAreaYPositions',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::AFInfo2
-       * line : 4243
-       * type : int16s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo2.Canon:AFAreaYPositions',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

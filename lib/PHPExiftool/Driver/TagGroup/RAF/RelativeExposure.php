@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RelativeExposure extends AbstractTagGroup
 {
+    protected string $id = 'RAF:RelativeExposure';
 
-  protected string $id = 'RAF:RelativeExposure';
+    protected string $name = 'RelativeExposure';
 
-  protected string $name = 'RelativeExposure';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::RAF
+             * line : 131126
+             * type : rational32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FujiFilm::RAF.RAF:RelativeExposure',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::RAF
-       * line : 131126
-       * type : rational32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FujiFilm::RAF.RAF:RelativeExposure',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

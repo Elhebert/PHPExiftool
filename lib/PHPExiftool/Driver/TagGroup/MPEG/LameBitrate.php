@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LameBitrate extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:LameBitrate';
 
-  protected string $id = 'MPEG:LameBitrate';
+    protected string $name = 'LameBitrate';
 
-  protected string $name = 'LameBitrate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Lame
+             * line : 165970
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Lame.MPEG:LameBitrate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Lame
-       * line : 165970
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Lame.MPEG:LameBitrate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

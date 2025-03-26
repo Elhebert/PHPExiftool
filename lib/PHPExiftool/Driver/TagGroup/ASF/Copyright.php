@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Copyright extends AbstractTagGroup
 {
+    protected string $id = 'ASF:Copyright';
 
-  protected string $id = 'ASF:Copyright';
+    protected string $name = 'Copyright';
 
-  protected string $name = 'Copyright';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::ContentDescr
+             * line : 971
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ContentDescr.ASF:Copyright',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : ASF::ExtendedDescr
+             * line : 1150
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ExtendedDescr.ASF:Copyright',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::ContentDescr
-       * line : 971
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ContentDescr.ASF:Copyright',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : ASF::ExtendedDescr
-       * line : 1150
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ExtendedDescr.ASF:Copyright',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

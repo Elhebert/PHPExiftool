@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ManifestReferenceLastModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpMM:ManifestReferenceLastModifyDate';
 
-  protected string $id = 'XMP-xmpMM:ManifestReferenceLastModifyDate';
+    protected string $name = 'ManifestReferenceLastModifyDate';
 
-  protected string $name = 'ManifestReferenceLastModifyDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpMM
+             * line : 414118
+             * type : date
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceLastModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpMM
-       * line : 414118
-       * type : date
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceLastModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

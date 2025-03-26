@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedPNG extends AbstractTagGroup
 {
+    protected string $id = 'File:EmbeddedPNG';
 
-  protected string $id = 'File:EmbeddedPNG';
+    protected string $name = 'EmbeddedPNG';
 
-  protected string $name = 'EmbeddedPNG';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Extra
+             * line : 3169
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'BMP::Extra.File:EmbeddedPNG',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Extra
-       * line : 3169
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'BMP::Extra.File:EmbeddedPNG',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

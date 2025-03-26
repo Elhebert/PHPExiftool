@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGBLevels extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:WB_RGBLevels';
 
-  protected string $id = 'Kodak:WB_RGBLevels';
+    protected string $name = 'WB_RGBLevels';
 
-  protected string $name = 'WB_RGBLevels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Processing
+             * line : 158523
+             * type : int16u
+             * writable : false
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Kodak::Processing.Kodak:WB_RGBLevels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Processing
-       * line : 158523
-       * type : int16u
-       * writable : false
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Kodak::Processing.Kodak:WB_RGBLevels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

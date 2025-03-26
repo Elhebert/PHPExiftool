@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalLengthIn35mmFormat extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:FocalLengthIn35mmFormat';
 
-  protected string $id = 'Kodak:FocalLengthIn35mmFormat';
+    protected string $name = 'FocalLengthIn35mmFormat';
 
-  protected string $name = 'FocalLengthIn35mmFormat';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Free
+             * line : 154556
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::Free.Kodak:FocalLengthIn35mmFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Free
-       * line : 154556
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::Free.Kodak:FocalLengthIn35mmFormat',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

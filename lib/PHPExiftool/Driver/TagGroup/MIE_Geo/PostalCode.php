@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PostalCode extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Geo:PostalCode';
 
-  protected string $id = 'MIE-Geo:PostalCode';
+    protected string $name = 'PostalCode';
 
-  protected string $name = 'PostalCode';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Geo
+             * line : 163779
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Geo.MIE-Geo:PostalCode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Geo
-       * line : 163779
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Geo.MIE-Geo:PostalCode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CopyrightFlag extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:CopyrightFlag';
 
-  protected string $id = 'MPEG:CopyrightFlag';
+    protected string $name = 'CopyrightFlag';
 
-  protected string $name = 'CopyrightFlag';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Audio
+             * line : 165864
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Audio.MPEG:CopyrightFlag',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Audio
-       * line : 165864
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Audio.MPEG:CopyrightFlag',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

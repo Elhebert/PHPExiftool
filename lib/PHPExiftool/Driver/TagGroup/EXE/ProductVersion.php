@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProductVersion extends AbstractTagGroup
 {
+    protected string $id = 'EXE:ProductVersion';
 
-  protected string $id = 'EXE:ProductVersion';
+    protected string $name = 'ProductVersion';
 
-  protected string $name = 'ProductVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::PEString
+             * line : 109564
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::PEString.EXE:ProductVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::PEString
-       * line : 109564
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::PEString.EXE:ProductVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

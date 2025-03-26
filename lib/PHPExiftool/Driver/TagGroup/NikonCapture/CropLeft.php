@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropLeft extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:CropLeft';
 
-  protected string $id = 'NikonCapture:CropLeft';
+    protected string $name = 'CropLeft';
 
-  protected string $name = 'CropLeft';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::CropData
+             * line : 210196
+             * type : double
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::CropData.NikonCapture:CropLeft',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::CropData
-       * line : 210196
-       * type : double
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::CropData.NikonCapture:CropLeft',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraElevationAngle extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:CameraElevationAngle';
 
-  protected string $id = 'XMP-exifEX:CameraElevationAngle';
+    protected string $name = 'CameraElevationAngle';
 
-  protected string $name = 'CameraElevationAngle';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408473
+             * type : rational
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:CameraElevationAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408473
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:CameraElevationAngle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

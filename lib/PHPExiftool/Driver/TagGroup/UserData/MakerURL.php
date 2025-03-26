@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MakerURL extends AbstractTagGroup
 {
+    protected string $id = 'UserData:MakerURL';
 
-  protected string $id = 'UserData:MakerURL';
+    protected string $name = 'MakerURL';
 
-  protected string $name = 'MakerURL';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 325928
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::UserData.UserData:MakerURL',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 325928
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::UserData.UserData:MakerURL',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

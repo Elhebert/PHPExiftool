@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WBType6 extends AbstractTagGroup
 {
+    protected string $id = 'PanasonicRaw:WBType6';
 
-  protected string $id = 'PanasonicRaw:WBType6';
+    protected string $name = 'WBType6';
 
-  protected string $name = 'WBType6';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::WBInfo
+             * line : 281172
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::WBInfo.PanasonicRaw:WBType6',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : PanasonicRaw::WBInfo2
+             * line : 281697
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::WBInfo2.PanasonicRaw:WBType6',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::WBInfo
-       * line : 281172
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::WBInfo.PanasonicRaw:WBType6',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : PanasonicRaw::WBInfo2
-       * line : 281697
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::WBInfo2.PanasonicRaw:WBType6',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

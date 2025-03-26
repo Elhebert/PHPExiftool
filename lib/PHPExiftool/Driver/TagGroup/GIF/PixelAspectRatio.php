@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PixelAspectRatio extends AbstractTagGroup
 {
+    protected string $id = 'GIF:PixelAspectRatio';
 
-  protected string $id = 'GIF:PixelAspectRatio';
+    protected string $name = 'PixelAspectRatio';
 
-  protected string $name = 'PixelAspectRatio';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIF::Screen
+             * line : 131441
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GIF::Screen.GIF:PixelAspectRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIF::Screen
-       * line : 131441
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIF::Screen.GIF:PixelAspectRatio',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LinksUpToDate extends AbstractTagGroup
 {
+    protected string $id = 'XML:LinksUpToDate';
 
-  protected string $id = 'XML:LinksUpToDate';
+    protected string $name = 'LinksUpToDate';
 
-  protected string $name = 'LinksUpToDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OOXML::Main
+             * line : 249163
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OOXML::Main.XML:LinksUpToDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OOXML::Main
-       * line : 249163
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OOXML::Main.XML:LinksUpToDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

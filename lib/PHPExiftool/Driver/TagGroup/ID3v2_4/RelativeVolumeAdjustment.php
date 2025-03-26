@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RelativeVolumeAdjustment extends AbstractTagGroup
 {
+    protected string $id = 'ID3v2_4:RelativeVolumeAdjustment';
 
-  protected string $id = 'ID3v2_4:RelativeVolumeAdjustment';
+    protected string $name = 'RelativeVolumeAdjustment';
 
-  protected string $name = 'RelativeVolumeAdjustment';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v2_4
+             * line : 149299
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_4.ID3v2_4:RelativeVolumeAdjustment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v2_4
-       * line : 149299
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_4.ID3v2_4:RelativeVolumeAdjustment',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

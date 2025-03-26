@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DocumentHistory extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:DocumentHistory';
 
-  protected string $id = 'IPTC:DocumentHistory';
+    protected string $name = 'DocumentHistory';
 
-  protected string $name = 'DocumentHistory';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150959
+             * type : string
+             * writable : true
+             * count : 256
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:DocumentHistory',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150959
-       * type : string
-       * writable : true
-       * count : 256
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:DocumentHistory',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 256;
 
-  protected int $count = 256;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

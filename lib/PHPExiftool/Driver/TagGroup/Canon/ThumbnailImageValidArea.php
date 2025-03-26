@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailImageValidArea extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ThumbnailImageValidArea';
 
-  protected string $id = 'Canon:ThumbnailImageValidArea';
+    protected string $name = 'ThumbnailImageValidArea';
 
-  protected string $name = 'ThumbnailImageValidArea';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::Main
+             * line : 65699
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Canon::Main.Canon:ThumbnailImageValidArea',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::Main
-       * line : 65699
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Canon::Main.Canon:ThumbnailImageValidArea',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

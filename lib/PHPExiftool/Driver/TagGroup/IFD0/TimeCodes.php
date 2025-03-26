@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeCodes extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:TimeCodes';
 
-  protected string $id = 'IFD0:TimeCodes';
+    protected string $name = 'TimeCodes';
 
-  protected string $name = 'TimeCodes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120504
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:TimeCodes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120504
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:TimeCodes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

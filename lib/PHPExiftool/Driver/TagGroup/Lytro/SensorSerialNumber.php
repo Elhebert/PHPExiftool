@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'Lytro:SensorSerialNumber';
 
-  protected string $id = 'Lytro:SensorSerialNumber';
+    protected string $name = 'SensorSerialNumber';
 
-  protected string $name = 'SensorSerialNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Lytro::Main
+             * line : 162315
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Lytro::Main.Lytro:SensorSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Lytro::Main
-       * line : 162315
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Lytro::Main.Lytro:SensorSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

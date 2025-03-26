@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorTempUnknown30 extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ColorTempUnknown30';
 
-  protected string $id = 'Canon:ColorTempUnknown30';
+    protected string $name = 'ColorTempUnknown30';
 
-  protected string $name = 'ColorTempUnknown30';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorData8
+             * line : 62574
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorData8.Canon:ColorTempUnknown30',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorData8
-       * line : 62574
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorData8.Canon:ColorTempUnknown30',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

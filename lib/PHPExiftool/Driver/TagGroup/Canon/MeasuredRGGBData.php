@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MeasuredRGGBData extends AbstractTagGroup
 {
+    protected string $id = 'Canon:MeasuredRGGBData';
 
-  protected string $id = 'Canon:MeasuredRGGBData';
+    protected string $name = 'MeasuredRGGBData';
 
-  protected string $name = 'MeasuredRGGBData';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorData3
+             * line : 61280
+             * type : int32u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Canon::ColorData3.Canon:MeasuredRGGBData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorData3
-       * line : 61280
-       * type : int32u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Canon::ColorData3.Canon:MeasuredRGGBData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

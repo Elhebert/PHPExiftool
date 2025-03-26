@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BWFVersion extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:BWFVersion';
 
-  protected string $id = 'RIFF:BWFVersion';
+    protected string $name = 'BWFVersion';
 
-  protected string $name = 'BWFVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::BroadcastExt
+             * line : 327802
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::BroadcastExt.RIFF:BWFVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::BroadcastExt
-       * line : 327802
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::BroadcastExt.RIFF:BWFVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

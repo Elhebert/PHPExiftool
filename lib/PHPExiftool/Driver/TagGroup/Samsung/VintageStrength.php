@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VintageStrength extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:VintageStrength';
 
-  protected string $id = 'Samsung:VintageStrength';
+    protected string $name = 'VintageStrength';
 
-  protected string $name = 'VintageStrength';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::SingleShotMeta
+             * line : 334235
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::SingleShotMeta.Samsung:VintageStrength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::SingleShotMeta
-       * line : 334235
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::SingleShotMeta.Samsung:VintageStrength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

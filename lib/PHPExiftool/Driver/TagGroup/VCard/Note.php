@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Note extends AbstractTagGroup
 {
+    protected string $id = 'VCard:Note';
 
-  protected string $id = 'VCard:Note';
+    protected string $name = 'Note';
 
-  protected string $name = 'Note';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : VCard::Main
+             * line : 395162
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'VCard::Main.VCard:Note',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : VCard::Main
-       * line : 395162
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'VCard::Main.VCard:Note',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

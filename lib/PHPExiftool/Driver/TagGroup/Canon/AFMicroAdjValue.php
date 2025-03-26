@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFMicroAdjValue extends AbstractTagGroup
 {
+    protected string $id = 'Canon:AFMicroAdjValue';
 
-  protected string $id = 'Canon:AFMicroAdjValue';
+    protected string $name = 'AFMicroAdjValue';
 
-  protected string $name = 'AFMicroAdjValue';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFMicroAdj
+             * line : 4300
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFMicroAdj.Canon:AFMicroAdjValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFMicroAdj
-       * line : 4300
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFMicroAdj.Canon:AFMicroAdjValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

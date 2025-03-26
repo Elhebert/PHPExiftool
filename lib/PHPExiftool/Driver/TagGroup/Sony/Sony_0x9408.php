@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Sony_0x9408 extends AbstractTagGroup
 {
+    protected string $id = 'Sony:Sony_0x9408';
 
-  protected string $id = 'Sony:Sony_0x9408';
+    protected string $name = 'Sony_0x9408';
 
-  protected string $name = 'Sony_0x9408';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 355971
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Sony::Main.Sony:Sony_0x9408',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 355971
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Sony::Main.Sony:Sony_0x9408',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

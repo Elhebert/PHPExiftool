@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CatalogSets extends AbstractTagGroup
 {
+    protected string $id = 'XMP-mediapro:CatalogSets';
 
-  protected string $id = 'XMP-mediapro:CatalogSets';
+    protected string $name = 'CatalogSets';
 
-  protected string $name = 'CatalogSets';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::MediaPro
+             * line : 397394
+             * type : string
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'XMP::MediaPro.XMP-mediapro:CatalogSets',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::MediaPro
-       * line : 397394
-       * type : string
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'XMP::MediaPro.XMP-mediapro:CatalogSets',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

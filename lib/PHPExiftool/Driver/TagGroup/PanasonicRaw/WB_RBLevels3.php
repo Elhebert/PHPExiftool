@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RBLevels3 extends AbstractTagGroup
 {
+    protected string $id = 'PanasonicRaw:WB_RBLevels3';
 
-  protected string $id = 'PanasonicRaw:WB_RBLevels3';
+    protected string $name = 'WB_RBLevels3';
 
-  protected string $name = 'WB_RBLevels3';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::WBInfo
+             * line : 281021
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'PanasonicRaw::WBInfo.PanasonicRaw:WB_RBLevels3',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::WBInfo
-       * line : 281021
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::WBInfo.PanasonicRaw:WB_RBLevels3',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

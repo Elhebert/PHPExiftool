@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DeviceModel extends AbstractTagGroup
 {
+    protected string $id = 'ICC-header:DeviceModel';
 
-  protected string $id = 'ICC-header:DeviceModel';
+    protected string $name = 'DeviceModel';
 
-  protected string $name = 'DeviceModel';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Header
+             * line : 145035
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'ICC_Profile::Header.ICC-header:DeviceModel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Header
-       * line : 145035
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Header.ICC-header:DeviceModel',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

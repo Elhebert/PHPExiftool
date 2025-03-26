@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ParallelReductFactorInPlaneRetired extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ParallelReductFactorInPlaneRetired';
 
-  protected string $id = 'DICOM:ParallelReductFactorInPlaneRetired';
+    protected string $name = 'ParallelReductFactorInPlaneRetired';
 
-  protected string $name = 'ParallelReductFactorInPlaneRetired';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 96744
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ParallelReductFactorInPlaneRetired',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 96744
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ParallelReductFactorInPlaneRetired',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

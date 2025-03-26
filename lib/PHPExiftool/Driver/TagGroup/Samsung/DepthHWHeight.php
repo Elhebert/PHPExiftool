@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DepthHWHeight extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:DepthHWHeight';
 
-  protected string $id = 'Samsung:DepthHWHeight';
+    protected string $name = 'DepthHWHeight';
 
-  protected string $name = 'DepthHWHeight';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::SingleShotMeta
+             * line : 334172
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::SingleShotMeta.Samsung:DepthHWHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::SingleShotMeta
-       * line : 334172
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::SingleShotMeta.Samsung:DepthHWHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

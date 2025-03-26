@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImagePathFilterTypeStackCodeSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ImagePathFilterTypeStackCodeSeq';
 
-  protected string $id = 'DICOM:ImagePathFilterTypeStackCodeSeq';
+    protected string $name = 'ImagePathFilterTypeStackCodeSeq';
 
-  protected string $name = 'ImagePathFilterTypeStackCodeSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98364
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ImagePathFilterTypeStackCodeSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98364
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ImagePathFilterTypeStackCodeSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

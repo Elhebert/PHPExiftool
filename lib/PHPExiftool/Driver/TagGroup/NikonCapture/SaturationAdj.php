@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SaturationAdj extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:SaturationAdj';
 
-  protected string $id = 'NikonCapture:SaturationAdj';
+    protected string $name = 'SaturationAdj';
 
-  protected string $name = 'SaturationAdj';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::HighlightData
+             * line : 210401
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::HighlightData.NikonCapture:SaturationAdj',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonCapture::PictureCtrl
+             * line : 211243
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::PictureCtrl.NikonCapture:SaturationAdj',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::HighlightData
-       * line : 210401
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::HighlightData.NikonCapture:SaturationAdj',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonCapture::PictureCtrl
-       * line : 211243
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::PictureCtrl.NikonCapture:SaturationAdj',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

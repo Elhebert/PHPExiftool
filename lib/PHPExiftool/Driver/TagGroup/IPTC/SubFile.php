@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubFile extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:SubFile';
 
-  protected string $id = 'IPTC:SubFile';
+    protected string $name = 'SubFile';
 
-  protected string $name = 'SubFile';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ObjectData
+             * line : 151930
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,list
+             */
+            'id' => 'IPTC::ObjectData.IPTC:SubFile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ObjectData
-       * line : 151930
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,list
-       */
-      'id' => 'IPTC::ObjectData.IPTC:SubFile',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 66;
-
+    protected int $flags = 66;
 }

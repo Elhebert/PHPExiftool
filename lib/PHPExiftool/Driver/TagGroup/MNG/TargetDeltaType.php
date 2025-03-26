@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TargetDeltaType extends AbstractTagGroup
 {
+    protected string $id = 'MNG:TargetDeltaType';
 
-  protected string $id = 'MNG:TargetDeltaType';
+    protected string $name = 'TargetDeltaType';
 
-  protected string $name = 'TargetDeltaType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::PasteImage
+             * line : 165257
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::PasteImage.MNG:TargetDeltaType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::PasteImage
-       * line : 165257
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::PasteImage.MNG:TargetDeltaType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

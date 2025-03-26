@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ScannerPixelSize extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:ScannerPixelSize';
 
-  protected string $id = 'PhotoCD:ScannerPixelSize';
+    protected string $name = 'ScannerPixelSize';
 
-  protected string $name = 'ScannerPixelSize';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303781
+             * type : undef
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:ScannerPixelSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303781
-       * type : undef
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:ScannerPixelSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

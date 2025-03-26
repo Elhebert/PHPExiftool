@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Adobe extends AbstractTagGroup
 {
+    protected string $id = 'Adobe:Adobe';
 
-  protected string $id = 'Adobe:Adobe';
+    protected string $name = 'Adobe';
 
-  protected string $name = 'Adobe';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 120972
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Extra.Adobe:Adobe',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 120972
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Extra.Adobe:Adobe',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

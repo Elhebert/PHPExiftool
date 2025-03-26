@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MarkersSpeaker extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:MarkersSpeaker';
 
-  protected string $id = 'XMP-xmpDM:MarkersSpeaker';
+    protected string $name = 'MarkersSpeaker';
 
-  protected string $name = 'MarkersSpeaker';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413188
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:MarkersSpeaker',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413188
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:MarkersSpeaker',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

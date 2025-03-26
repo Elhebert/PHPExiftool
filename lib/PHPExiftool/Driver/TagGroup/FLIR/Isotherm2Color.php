@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Isotherm2Color extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:Isotherm2Color';
 
-  protected string $id = 'FLIR:Isotherm2Color';
+    protected string $name = 'Isotherm2Color';
 
-  protected string $name = 'Isotherm2Color';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::PaletteInfo
+             * line : 123527
+             * type : int8u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'FLIR::PaletteInfo.FLIR:Isotherm2Color',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::PaletteInfo
-       * line : 123527
-       * type : int8u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'FLIR::PaletteInfo.FLIR:Isotherm2Color',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

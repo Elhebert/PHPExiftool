@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioBitsPerSample extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:AudioBitsPerSample';
 
-  protected string $id = 'Nikon:AudioBitsPerSample';
+    protected string $name = 'AudioBitsPerSample';
 
-  protected string $name = 'AudioBitsPerSample';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::NCTG
+             * line : 202251
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::NCTG.Nikon:AudioBitsPerSample',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::NCTG
-       * line : 202251
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::NCTG.Nikon:AudioBitsPerSample',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

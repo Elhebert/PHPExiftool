@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class STEMDetectorName extends AbstractTagGroup
 {
+    protected string $id = 'File:STEMDetectorName';
 
-  protected string $id = 'File:STEMDetectorName';
+    protected string $name = 'STEMDetectorName';
 
-  protected string $name = 'STEMDetectorName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166664
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:STEMDetectorName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166664
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:STEMDetectorName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

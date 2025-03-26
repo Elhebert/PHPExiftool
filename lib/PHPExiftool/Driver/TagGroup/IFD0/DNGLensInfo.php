@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DNGLensInfo extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:DNGLensInfo';
 
-  protected string $id = 'IFD0:DNGLensInfo';
+    protected string $name = 'DNGLensInfo';
 
-  protected string $name = 'DNGLensInfo';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 119185
+             * type : rational64u
+             * writable : true
+             * count : 4
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:DNGLensInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 119185
-       * type : rational64u
-       * writable : true
-       * count : 4
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:DNGLensInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

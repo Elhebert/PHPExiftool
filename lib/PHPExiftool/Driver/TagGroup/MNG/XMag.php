@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XMag extends AbstractTagGroup
 {
+    protected string $id = 'MNG:XMag';
 
-  protected string $id = 'MNG:XMag';
+    protected string $name = 'XMag';
 
-  protected string $name = 'XMag';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::MagnifyObject
+             * line : 165146
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::MagnifyObject.MNG:XMag',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::MagnifyObject
-       * line : 165146
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::MagnifyObject.MNG:XMag',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

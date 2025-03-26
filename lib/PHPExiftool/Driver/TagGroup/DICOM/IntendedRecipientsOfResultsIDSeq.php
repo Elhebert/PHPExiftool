@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IntendedRecipientsOfResultsIDSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:IntendedRecipientsOfResultsIDSeq';
 
-  protected string $id = 'DICOM:IntendedRecipientsOfResultsIDSeq';
+    protected string $name = 'IntendedRecipientsOfResultsIDSeq';
 
-  protected string $name = 'IntendedRecipientsOfResultsIDSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99872
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IntendedRecipientsOfResultsIDSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99872
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IntendedRecipientsOfResultsIDSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

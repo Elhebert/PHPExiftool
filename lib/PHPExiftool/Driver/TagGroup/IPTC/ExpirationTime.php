@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExpirationTime extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ExpirationTime';
 
-  protected string $id = 'IPTC:ExpirationTime';
+    protected string $name = 'ExpirationTime';
 
-  protected string $name = 'ExpirationTime';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 149991
+             * type : string
+             * writable : true
+             * count : 11
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ExpirationTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 149991
-       * type : string
-       * writable : true
-       * count : 11
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ExpirationTime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 11;
 
-  protected int $count = 11;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimerLength extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:TimerLength';
 
-  protected string $id = 'CanonCustom:TimerLength';
+    protected string $name = 'TimerLength';
 
-  protected string $name = 'TimerLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 75454
+             * type : int32s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:TimerLength',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 75460
+             * type : int32s
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:TimerLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 75454
-       * type : int32s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:TimerLength',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 75460
-       * type : int32s
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:TimerLength',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

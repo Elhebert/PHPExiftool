@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DirectionalDToB2 extends AbstractTagGroup
 {
+    protected string $id = 'ICC_Profile:DirectionalDToB2';
 
-  protected string $id = 'ICC_Profile:DirectionalDToB2';
+    protected string $name = 'DirectionalDToB2';
 
-  protected string $name = 'DirectionalDToB2';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Main
+             * line : 146319
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::Main.ICC_Profile:DirectionalDToB2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Main
-       * line : 146319
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Main.ICC_Profile:DirectionalDToB2',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

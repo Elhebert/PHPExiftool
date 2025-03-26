@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Micro2Version extends AbstractTagGroup
 {
+    protected string $id = 'Reconyx:Micro2Version';
 
-  protected string $id = 'Reconyx:Micro2Version';
+    protected string $name = 'Micro2Version';
 
-  protected string $name = 'Micro2Version';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Reconyx::Type2
+             * line : 330835
+             * type : undef
+             * writable : true
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type2.Reconyx:Micro2Version',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Reconyx::Type2
-       * line : 330835
-       * type : undef
-       * writable : true
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type2.Reconyx:Micro2Version',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 7;
 
-  protected int $count = 7;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

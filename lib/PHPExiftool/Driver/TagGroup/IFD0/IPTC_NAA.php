@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IPTC_NAA extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:IPTC-NAA';
 
-  protected string $id = 'IFD0:IPTC-NAA';
+    protected string $name = 'IPTC-NAA';
 
-  protected string $name = 'IPTC-NAA';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 113146
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Exif::Main.IFD0:IPTC-NAA',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : PanasonicRaw::Main
+             * line : 280782
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'PanasonicRaw::Main.IFD0:IPTC-NAA',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 113146
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Exif::Main.IFD0:IPTC-NAA',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : PanasonicRaw::Main
-       * line : 280782
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'PanasonicRaw::Main.IFD0:IPTC-NAA',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISOAutoHiLimit extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:ISOAutoHiLimit';
 
-  protected string $id = 'NikonSettings:ISOAutoHiLimit';
+    protected string $name = 'ISOAutoHiLimit';
 
-  protected string $name = 'ISOAutoHiLimit';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 242632
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:ISOAutoHiLimit',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 242772
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:ISOAutoHiLimit',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 242632
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:ISOAutoHiLimit',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 242772
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:ISOAutoHiLimit',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

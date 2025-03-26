@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumHistoryBuffers extends AbstractTagGroup
 {
+    protected string $id = 'LNK:NumHistoryBuffers';
 
-  protected string $id = 'LNK:NumHistoryBuffers';
+    protected string $name = 'NumHistoryBuffers';
 
-  protected string $name = 'NumHistoryBuffers';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::ConsoleData
+             * line : 161037
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::ConsoleData.LNK:NumHistoryBuffers',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::ConsoleData
-       * line : 161037
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::ConsoleData.LNK:NumHistoryBuffers',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RecordedDate extends AbstractTagGroup
 {
+    protected string $id = 'XML:RecordedDate';
 
-  protected string $id = 'XML:RecordedDate';
+    protected string $name = 'RecordedDate';
 
-  protected string $name = 'RecordedDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OOXML::Main
+             * line : 249238
+             * type : date
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OOXML::Main.XML:RecordedDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OOXML::Main
-       * line : 249238
-       * type : date
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OOXML::Main.XML:RecordedDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

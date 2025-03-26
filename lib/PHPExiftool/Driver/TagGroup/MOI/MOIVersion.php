@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MOIVersion extends AbstractTagGroup
 {
+    protected string $id = 'MOI:MOIVersion';
 
-  protected string $id = 'MOI:MOIVersion';
+    protected string $name = 'MOIVersion';
 
-  protected string $name = 'MOIVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MOI::Main
+             * line : 165437
+             * type : string
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'MOI::Main.MOI:MOIVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MOI::Main
-       * line : 165437
-       * type : string
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'MOI::Main.MOI:MOIVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

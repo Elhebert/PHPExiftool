@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CHMVersion extends AbstractTagGroup
 {
+    protected string $id = 'EXE:CHMVersion';
 
-  protected string $id = 'EXE:CHMVersion';
+    protected string $name = 'CHMVersion';
 
-  protected string $name = 'CHMVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::CHM
+             * line : 107550
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::CHM.EXE:CHMVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::CHM
-       * line : 107550
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::CHM.EXE:CHMVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

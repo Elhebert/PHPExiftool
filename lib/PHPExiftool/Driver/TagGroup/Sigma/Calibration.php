@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Calibration extends AbstractTagGroup
 {
+    protected string $id = 'Sigma:Calibration';
 
-  protected string $id = 'Sigma:Calibration';
+    protected string $name = 'Calibration';
 
-  protected string $name = 'Calibration';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sigma::Main
+             * line : 337565
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sigma::Main.Sigma:Calibration',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sigma::Main
+             * line : 338887
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sigma::Main.Sigma:Calibration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sigma::Main
-       * line : 337565
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sigma::Main.Sigma:Calibration',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sigma::Main
-       * line : 338887
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sigma::Main.Sigma:Calibration',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

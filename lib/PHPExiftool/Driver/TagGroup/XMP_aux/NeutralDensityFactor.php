@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NeutralDensityFactor extends AbstractTagGroup
 {
+    protected string $id = 'XMP-aux:NeutralDensityFactor';
 
-  protected string $id = 'XMP-aux:NeutralDensityFactor';
+    protected string $name = 'NeutralDensityFactor';
 
-  protected string $name = 'NeutralDensityFactor';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::aux
+             * line : 398032
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::aux.XMP-aux:NeutralDensityFactor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::aux
-       * line : 398032
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::aux.XMP-aux:NeutralDensityFactor',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

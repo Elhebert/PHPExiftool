@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureAdj2 extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:ExposureAdj2';
 
-  protected string $id = 'NikonCapture:ExposureAdj2';
+    protected string $name = 'ExposureAdj2';
 
-  protected string $name = 'ExposureAdj2';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::Exposure
+             * line : 210303
+             * type : double
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::Exposure.NikonCapture:ExposureAdj2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::Exposure
-       * line : 210303
-       * type : double
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::Exposure.NikonCapture:ExposureAdj2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

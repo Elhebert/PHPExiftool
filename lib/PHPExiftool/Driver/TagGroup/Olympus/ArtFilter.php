@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ArtFilter extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ArtFilter';
 
-  protected string $id = 'Olympus:ArtFilter';
+    protected string $name = 'ArtFilter';
 
-  protected string $name = 'ArtFilter';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 252099
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:ArtFilter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 252099
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:ArtFilter',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

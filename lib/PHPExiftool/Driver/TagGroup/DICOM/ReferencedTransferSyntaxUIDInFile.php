@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReferencedTransferSyntaxUIDInFile extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ReferencedTransferSyntaxUIDInFile';
 
-  protected string $id = 'DICOM:ReferencedTransferSyntaxUIDInFile';
+    protected string $name = 'ReferencedTransferSyntaxUIDInFile';
 
-  protected string $name = 'ReferencedTransferSyntaxUIDInFile';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 94637
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ReferencedTransferSyntaxUIDInFile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 94637
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ReferencedTransferSyntaxUIDInFile',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

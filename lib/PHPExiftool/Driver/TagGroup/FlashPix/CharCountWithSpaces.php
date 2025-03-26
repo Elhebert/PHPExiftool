@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CharCountWithSpaces extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:CharCountWithSpaces';
 
-  protected string $id = 'FlashPix:CharCountWithSpaces';
+    protected string $name = 'CharCountWithSpaces';
 
-  protected string $name = 'CharCountWithSpaces';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::DocumentInfo
+             * line : 124517
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DocumentInfo.FlashPix:CharCountWithSpaces',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::DocumentInfo
-       * line : 124517
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DocumentInfo.FlashPix:CharCountWithSpaces',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

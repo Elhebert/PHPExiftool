@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailImage extends AbstractTagGroup
 {
+    protected string $id = 'AFCP:ThumbnailImage';
 
-  protected string $id = 'AFCP:ThumbnailImage';
+    protected string $name = 'ThumbnailImage';
 
-  protected string $name = 'ThumbnailImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : AFCP::Main
+             * line : 7
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'AFCP::Main.AFCP:ThumbnailImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : AFCP::Main
-       * line : 7
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'AFCP::Main.AFCP:ThumbnailImage',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VerticalClockOverlaps extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:VerticalClockOverlaps';
 
-  protected string $id = 'KodakIFD:VerticalClockOverlaps';
+    protected string $name = 'VerticalClockOverlaps';
 
-  protected string $name = 'VerticalClockOverlaps';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 154919
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:VerticalClockOverlaps',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 154919
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:VerticalClockOverlaps',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

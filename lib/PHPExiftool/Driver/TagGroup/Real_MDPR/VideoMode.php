@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoMode extends AbstractTagGroup
 {
+    protected string $id = 'Real-MDPR:VideoMode';
 
-  protected string $id = 'Real-MDPR:VideoMode';
+    protected string $name = 'VideoMode';
 
-  protected string $name = 'VideoMode';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::FileInfo
+             * line : 330361
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::FileInfo.Real-MDPR:VideoMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::FileInfo
-       * line : 330361
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::FileInfo.Real-MDPR:VideoMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectFlags extends AbstractTagGroup
 {
+    protected string $id = 'EXE:ObjectFlags';
 
-  protected string $id = 'EXE:ObjectFlags';
+    protected string $name = 'ObjectFlags';
 
-  protected string $name = 'ObjectFlags';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::MachO
+             * line : 108618
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::MachO.EXE:ObjectFlags',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::MachO
-       * line : 108618
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::MachO.EXE:ObjectFlags',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

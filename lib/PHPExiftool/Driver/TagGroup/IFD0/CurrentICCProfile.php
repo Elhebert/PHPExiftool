@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CurrentICCProfile extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:CurrentICCProfile';
 
-  protected string $id = 'IFD0:CurrentICCProfile';
+    protected string $name = 'CurrentICCProfile';
 
-  protected string $name = 'CurrentICCProfile';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120011
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Exif::Main.IFD0:CurrentICCProfile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120011
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Exif::Main.IFD0:CurrentICCProfile',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Headline extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:Headline';
 
-  protected string $id = 'XMP-iptcExt:Headline';
+    protected string $name = 'Headline';
 
-  protected string $name = 'Headline';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409334
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:Headline',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409334
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:Headline',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

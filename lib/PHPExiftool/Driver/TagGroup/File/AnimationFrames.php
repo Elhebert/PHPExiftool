@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AnimationFrames extends AbstractTagGroup
 {
+    protected string $id = 'File:AnimationFrames';
 
-  protected string $id = 'File:AnimationFrames';
+    protected string $name = 'AnimationFrames';
 
-  protected string $name = 'AnimationFrames';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIF::Main
+             * line : 122109
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIF::Main.File:AnimationFrames',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIF::Main
-       * line : 122109
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIF::Main.File:AnimationFrames',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

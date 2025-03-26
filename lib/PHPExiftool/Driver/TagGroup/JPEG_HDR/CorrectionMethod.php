@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CorrectionMethod extends AbstractTagGroup
 {
+    protected string $id = 'JPEG-HDR:CorrectionMethod';
 
-  protected string $id = 'JPEG-HDR:CorrectionMethod';
+    protected string $name = 'CorrectionMethod';
 
-  protected string $name = 'CorrectionMethod';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::HDR
+             * line : 152474
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::HDR.JPEG-HDR:CorrectionMethod',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::HDR
-       * line : 152474
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::HDR.JPEG-HDR:CorrectionMethod',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

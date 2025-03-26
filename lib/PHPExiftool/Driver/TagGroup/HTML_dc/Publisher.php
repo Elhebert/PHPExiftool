@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Publisher extends AbstractTagGroup
 {
+    protected string $id = 'HTML-dc:Publisher';
 
-  protected string $id = 'HTML-dc:Publisher';
+    protected string $name = 'Publisher';
 
-  protected string $name = 'Publisher';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::dc
+             * line : 142765
+             * type : ?
+             * writable : false
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'HTML::dc.HTML-dc:Publisher',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::dc
-       * line : 142765
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'HTML::dc.HTML-dc:Publisher',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 320;
-
+    protected int $flags = 320;
 }

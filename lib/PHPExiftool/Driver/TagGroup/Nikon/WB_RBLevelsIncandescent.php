@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RBLevelsIncandescent extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:WB_RBLevelsIncandescent';
 
-  protected string $id = 'Nikon:WB_RBLevelsIncandescent';
+    protected string $name = 'WB_RBLevelsIncandescent';
 
-  protected string $name = 'WB_RBLevelsIncandescent';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ColorBalanceA
+             * line : 191987
+             * type : int16u
+             * writable : true
+             * count : 14
+             * flags : permanent,unsafe
+             */
+            'id' => 'Nikon::ColorBalanceA.Nikon:WB_RBLevelsIncandescent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ColorBalanceA
-       * line : 191987
-       * type : int16u
-       * writable : true
-       * count : 14
-       * flags : permanent,unsafe
-       */
-      'id' => 'Nikon::ColorBalanceA.Nikon:WB_RBLevelsIncandescent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 14;
 
-  protected int $count = 14;
-
-  protected int $flags = 2068;
-
+    protected int $flags = 2068;
 }

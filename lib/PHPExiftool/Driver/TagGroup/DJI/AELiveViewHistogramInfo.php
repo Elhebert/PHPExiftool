@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AELiveViewHistogramInfo extends AbstractTagGroup
 {
+    protected string $id = 'DJI:AELiveViewHistogramInfo';
 
-  protected string $id = 'DJI:AELiveViewHistogramInfo';
+    protected string $name = 'AELiveViewHistogramInfo';
 
-  protected string $name = 'AELiveViewHistogramInfo';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::Info
+             * line : 104455
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'DJI::Info.DJI:AELiveViewHistogramInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::Info
-       * line : 104455
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'DJI::Info.DJI:AELiveViewHistogramInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

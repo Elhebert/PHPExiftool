@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DynamicRangeOptimizerSetting extends AbstractTagGroup
 {
+    protected string $id = 'Sony:DynamicRangeOptimizerSetting';
 
-  protected string $id = 'Sony:DynamicRangeOptimizerSetting';
+    protected string $name = 'DynamicRangeOptimizerSetting';
 
-  protected string $name = 'DynamicRangeOptimizerSetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 350282
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:DynamicRangeOptimizerSetting',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 360151
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:DynamicRangeOptimizerSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 350282
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:DynamicRangeOptimizerSetting',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 360151
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:DynamicRangeOptimizerSetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Position extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Position';
 
-  protected string $id = 'QuickTime:Position';
+    protected string $name = 'Position';
 
-  protected string $name = 'Position';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::camm4
+             * line : 326344
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::camm4.QuickTime:Position',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::camm4
-       * line : 326344
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::camm4.QuickTime:Position',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

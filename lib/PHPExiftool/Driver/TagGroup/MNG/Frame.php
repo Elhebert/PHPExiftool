@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Frame extends AbstractTagGroup
 {
+    protected string $id = 'MNG:Frame';
 
-  protected string $id = 'MNG:Frame';
+    protected string $name = 'Frame';
 
-  protected string $name = 'Frame';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::Main
+             * line : 165205
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'MNG::Main.MNG:Frame',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::Main
-       * line : 165205
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'MNG::Main.MNG:Frame',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

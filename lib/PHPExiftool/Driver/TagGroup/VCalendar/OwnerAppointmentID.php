@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OwnerAppointmentID extends AbstractTagGroup
 {
+    protected string $id = 'VCalendar:OwnerAppointmentID';
 
-  protected string $id = 'VCalendar:OwnerAppointmentID';
+    protected string $name = 'OwnerAppointmentID';
 
-  protected string $name = 'OwnerAppointmentID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : VCard::VCalendar
+             * line : 395626
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'VCard::VCalendar.VCalendar:OwnerAppointmentID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : VCard::VCalendar
-       * line : 395626
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'VCard::VCalendar.VCalendar:OwnerAppointmentID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

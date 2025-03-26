@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContentLanguage extends AbstractTagGroup
 {
+    protected string $id = 'HTTP-equiv:ContentLanguage';
 
-  protected string $id = 'HTTP-equiv:ContentLanguage';
+    protected string $name = 'ContentLanguage';
 
-  protected string $name = 'ContentLanguage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::equiv
+             * line : 142853
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'HTML::equiv.HTTP-equiv:ContentLanguage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::equiv
-       * line : 142853
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'HTML::equiv.HTTP-equiv:ContentLanguage',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

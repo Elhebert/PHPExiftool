@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Unused extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:Unused';
 
-  protected string $id = 'SigmaRaw:Unused';
+    protected string $name = 'Unused';
 
-  protected string $name = 'Unused';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::HeaderExt
+             * line : 339485
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Unused',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::HeaderExt
-       * line : 339485
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Unused',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

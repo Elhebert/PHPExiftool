@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BMPVersion extends AbstractTagGroup
 {
+    protected string $id = 'File:BMPVersion';
 
-  protected string $id = 'File:BMPVersion';
+    protected string $name = 'BMPVersion';
 
-  protected string $name = 'BMPVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Main
+             * line : 3181
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::Main.File:BMPVersion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : BMP::OS2
+             * line : 3484
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::OS2.File:BMPVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Main
-       * line : 3181
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::Main.File:BMPVersion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : BMP::OS2
-       * line : 3484
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::OS2.File:BMPVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

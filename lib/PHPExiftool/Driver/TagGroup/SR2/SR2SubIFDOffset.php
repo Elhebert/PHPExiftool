@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SR2SubIFDOffset extends AbstractTagGroup
 {
+    protected string $id = 'SR2:SR2SubIFDOffset';
 
-  protected string $id = 'SR2:SR2SubIFDOffset';
+    protected string $name = 'SR2SubIFDOffset';
 
-  protected string $name = 'SR2SubIFDOffset';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::SR2Private
+             * line : 361671
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::SR2Private.SR2:SR2SubIFDOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::SR2Private
-       * line : 361671
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::SR2Private.SR2:SR2SubIFDOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

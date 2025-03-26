@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Follow_meAnimation extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:Follow-meAnimation';
 
-  protected string $id = 'Parrot:Follow-meAnimation';
+    protected string $name = 'Follow-meAnimation';
 
-  protected string $name = 'Follow-meAnimation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::FollowMe
+             * line : 281988
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::FollowMe.Parrot:Follow-meAnimation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::FollowMe
-       * line : 281988
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::FollowMe.Parrot:Follow-meAnimation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

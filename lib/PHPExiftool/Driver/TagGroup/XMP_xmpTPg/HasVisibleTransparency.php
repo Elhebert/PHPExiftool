@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HasVisibleTransparency extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpTPg:HasVisibleTransparency';
 
-  protected string $id = 'XMP-xmpTPg:HasVisibleTransparency';
+    protected string $name = 'HasVisibleTransparency';
 
-  protected string $name = 'HasVisibleTransparency';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpTPg
+             * line : 414522
+             * type : boolean
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::xmpTPg.XMP-xmpTPg:HasVisibleTransparency',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpTPg
-       * line : 414522
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::xmpTPg.XMP-xmpTPg:HasVisibleTransparency',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CleanApertureHeight extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:CleanApertureHeight';
 
-  protected string $id = 'QuickTime:CleanApertureHeight';
+    protected string $name = 'CleanApertureHeight';
 
-  protected string $name = 'CleanApertureHeight';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::CleanAperture
+             * line : 312596
+             * type : rational64s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::CleanAperture.QuickTime:CleanApertureHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::CleanAperture
-       * line : 312596
-       * type : rational64s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::CleanAperture.QuickTime:CleanApertureHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

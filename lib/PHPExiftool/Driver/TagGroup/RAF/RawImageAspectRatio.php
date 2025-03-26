@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawImageAspectRatio extends AbstractTagGroup
 {
+    protected string $id = 'RAF:RawImageAspectRatio';
 
-  protected string $id = 'RAF:RawImageAspectRatio';
+    protected string $name = 'RawImageAspectRatio';
 
-  protected string $name = 'RawImageAspectRatio';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::RAF
+             * line : 131065
+             * type : int16u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'FujiFilm::RAF.RAF:RawImageAspectRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::RAF
-       * line : 131065
-       * type : int16u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'FujiFilm::RAF.RAF:RawImageAspectRatio',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

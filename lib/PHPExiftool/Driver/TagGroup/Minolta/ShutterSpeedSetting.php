@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShutterSpeedSetting extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:ShutterSpeedSetting';
 
-  protected string $id = 'Minolta:ShutterSpeedSetting';
+    protected string $name = 'ShutterSpeedSetting';
 
-  protected string $name = 'ShutterSpeedSetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraSettingsA100
+             * line : 180268
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettingsA100.Minolta:ShutterSpeedSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraSettingsA100
-       * line : 180268
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettingsA100.Minolta:ShutterSpeedSetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

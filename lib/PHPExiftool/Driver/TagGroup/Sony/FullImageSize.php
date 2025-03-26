@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FullImageSize extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FullImageSize';
 
-  protected string $id = 'Sony:FullImageSize';
+    protected string $name = 'FullImageSize';
 
-  protected string $name = 'FullImageSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 358676
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:FullImageSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 358676
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:FullImageSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

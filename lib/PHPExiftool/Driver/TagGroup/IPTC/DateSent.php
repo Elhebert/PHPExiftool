@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateSent extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:DateSent';
 
-  protected string $id = 'IPTC:DateSent';
+    protected string $name = 'DateSent';
 
-  protected string $name = 'DateSent';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::EnvelopeRecord
+             * line : 151274
+             * type : digits
+             * writable : true
+             * count : 8
+             * flags :
+             */
+            'id' => 'IPTC::EnvelopeRecord.IPTC:DateSent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::EnvelopeRecord
-       * line : 151274
-       * type : digits
-       * writable : true
-       * count : 8
-       * flags : 
-       */
-      'id' => 'IPTC::EnvelopeRecord.IPTC:DateSent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

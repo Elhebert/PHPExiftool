@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GenPurposeScheduledProcStepStatus extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:GenPurposeScheduledProcStepStatus';
 
-  protected string $id = 'DICOM:GenPurposeScheduledProcStepStatus';
+    protected string $name = 'GenPurposeScheduledProcStepStatus';
 
-  protected string $name = 'GenPurposeScheduledProcStepStatus';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99923
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:GenPurposeScheduledProcStepStatus',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99923
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:GenPurposeScheduledProcStepStatus',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

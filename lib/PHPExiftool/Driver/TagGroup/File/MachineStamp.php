@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MachineStamp extends AbstractTagGroup
 {
+    protected string $id = 'File:MachineStamp';
 
-  protected string $id = 'File:MachineStamp';
+    protected string $name = 'MachineStamp';
 
-  protected string $name = 'MachineStamp';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166973
+             * type : int8u
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'MRC::Main.File:MachineStamp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166973
-       * type : int8u
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:MachineStamp',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

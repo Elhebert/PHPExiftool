@@ -11,58 +11,44 @@
 
 namespace PHPExiftool;
 
-
+use ArrayIterator;
 use DOMDocument;
 use Exception;
 use IteratorAggregate;
+use PHPExiftool\Driver\Metadata\Metadata;
 use PHPExiftool\Driver\Metadata\MetadataBag;
 use PHPExiftool\Driver\Value\ValueInterface;
+use PHPExiftool\Exception\ParseErrorException;
+use PHPExiftool\Exception\TagUnknown;
 use Psr\Cache\CacheItemPoolInterface;
 use Psr\Cache\InvalidArgumentException;
 use Symfony\Component\Cache\Adapter\ArrayAdapter;
-
+use Traversable;
 
 /**
- *
- *
  * @author      Romain Neutron - imprec@gmail.com
  * @license     http://opensource.org/licenses/MIT MIT
  */
 class FileEntity implements IteratorAggregate
 {
-    // private DOMDocument $dom;
-
-    private string $file;
-
     private CacheItemPoolInterface $cache;
 
-    private RDFParser $parser;
-
-    /**
-     * Construct a new FileEntity
-     *
-     * @param string $file
-     * @param DOMDocument $dom
-     * @param RDFParser $parser
-     * @return FileEntity
-     */
-    public function __construct(string $file, DOMDocument $dom, RDFParser $parser)
-    {
-        // $this->dom = $dom;
-        $this->file = $file;
-
-        $this->cache = new ArrayAdapter();
-
+    public function __construct(
+        private string $file,
+        DOMDocument $dom,
+        private RDFParser $parser,
+    ) {
+        $this->cache = new ArrayAdapter;
         $this->parser = $parser->open($dom->saveXML());
-
-        return $this;
     }
 
     /**
+     * @return ArrayIterator<string, Metadata>
+     *
      * @throws InvalidArgumentException
      * @throws Exception
      */
-    public function getIterator(): \Traversable
+    public function getIterator(): Traversable
     {
         return $this->getMetadatas()->getIterator();
     }
@@ -73,15 +59,15 @@ class FileEntity implements IteratorAggregate
     }
 
     /**
-     *
-     * @return MetadataBag
+     * @throws ParseErrorException
+     * @throws TagUnknown
      * @throws InvalidArgumentException
      */
     public function getMetadatas(): MetadataBag
     {
         $key = $this->getCacheKey();
         $ci = $this->cache->getItem($key);
-        if($ci->isHit()) {
+        if ($ci->isHit()) {
             return $ci->get();
         }
 
@@ -99,13 +85,11 @@ class FileEntity implements IteratorAggregate
     /**
      * Execute a user defined query to retrieve metadata
      *
-     * @param string $query
-     *
-     * @return ValueInterface
+     * @throws ParseErrorException
+     * @throws TagUnknown
      */
     public function executeQuery(string $query): ValueInterface
     {
         return $this->parser->Query($query);
     }
-
 }

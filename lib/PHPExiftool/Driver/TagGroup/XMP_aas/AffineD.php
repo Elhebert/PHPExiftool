@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AffineD extends AbstractTagGroup
 {
+    protected string $id = 'XMP-aas:AffineD';
 
-  protected string $id = 'XMP-aas:AffineD';
+    protected string $name = 'AffineD';
 
-  protected string $name = 'AffineD';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::aas
+             * line : 397600
+             * type : real
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::aas.XMP-aas:AffineD',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::aas
-       * line : 397600
-       * type : real
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::aas.XMP-aas:AffineD',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChromaticAberration extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:ChromaticAberration';
 
-  protected string $id = 'Samsung:ChromaticAberration';
+    protected string $name = 'ChromaticAberration';
 
-  protected string $name = 'ChromaticAberration';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335616
+             * type : int16u
+             * writable : true
+             * count : 22
+             * flags : permanent,unknown
+             */
+            'id' => 'Samsung::Type2.Samsung:ChromaticAberration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335616
-       * type : int16u
-       * writable : true
-       * count : 22
-       * flags : permanent,unknown
-       */
-      'id' => 'Samsung::Type2.Samsung:ChromaticAberration',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 22;
 
-  protected int $count = 22;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

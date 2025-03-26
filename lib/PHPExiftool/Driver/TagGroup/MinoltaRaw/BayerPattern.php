@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BayerPattern extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:BayerPattern';
 
-  protected string $id = 'MinoltaRaw:BayerPattern';
+    protected string $name = 'BayerPattern';
 
-  protected string $name = 'BayerPattern';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::PRD
+             * line : 186823
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::PRD.MinoltaRaw:BayerPattern',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::PRD
-       * line : 186823
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::PRD.MinoltaRaw:BayerPattern',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,88 +19,86 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SafetyShiftInAvOrTv extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:SafetyShiftInAvOrTv';
 
-  protected string $id = 'CanonCustom:SafetyShiftInAvOrTv';
+    protected string $name = 'SafetyShiftInAvOrTv';
 
-  protected string $name = 'SafetyShiftInAvOrTv';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions10D
+             * line : 71792
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions10D.CanonCustom:SafetyShiftInAvOrTv',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions1D
+             * line : 72257
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions1D.CanonCustom:SafetyShiftInAvOrTv',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : CanonCustom::Functions20D
+             * line : 76097
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions20D.CanonCustom:SafetyShiftInAvOrTv',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : CanonCustom::Functions30D
+             * line : 76618
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions30D.CanonCustom:SafetyShiftInAvOrTv',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : CanonCustom::Functions5D
+             * line : 77736
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions5D.CanonCustom:SafetyShiftInAvOrTv',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions10D
-       * line : 71792
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions10D.CanonCustom:SafetyShiftInAvOrTv',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions1D
-       * line : 72257
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions1D.CanonCustom:SafetyShiftInAvOrTv',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : CanonCustom::Functions20D
-       * line : 76097
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions20D.CanonCustom:SafetyShiftInAvOrTv',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : CanonCustom::Functions30D
-       * line : 76618
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions30D.CanonCustom:SafetyShiftInAvOrTv',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : CanonCustom::Functions5D
-       * line : 77736
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions5D.CanonCustom:SafetyShiftInAvOrTv',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

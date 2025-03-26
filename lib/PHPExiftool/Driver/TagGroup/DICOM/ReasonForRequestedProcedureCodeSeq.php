@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReasonForRequestedProcedureCodeSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ReasonForRequestedProcedureCodeSeq';
 
-  protected string $id = 'DICOM:ReasonForRequestedProcedureCodeSeq';
+    protected string $name = 'ReasonForRequestedProcedureCodeSeq';
 
-  protected string $name = 'ReasonForRequestedProcedureCodeSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99866
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ReasonForRequestedProcedureCodeSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99866
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ReasonForRequestedProcedureCodeSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

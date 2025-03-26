@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DNGBackwardVersion extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:DNGBackwardVersion';
 
-  protected string $id = 'IFD0:DNGBackwardVersion';
+    protected string $name = 'DNGBackwardVersion';
 
-  protected string $name = 'DNGBackwardVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 118824
+             * type : int8u
+             * writable : true
+             * count : 4
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:DNGBackwardVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 118824
-       * type : int8u
-       * writable : true
-       * count : 4
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:DNGBackwardVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

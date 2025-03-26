@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GenOpColor extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GenOpColor';
 
-  protected string $id = 'QuickTime:GenOpColor';
+    protected string $name = 'GenOpColor';
 
-  protected string $name = 'GenOpColor';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::GenMediaInfo
+             * line : 313345
+             * type : int16u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::GenMediaInfo.QuickTime:GenOpColor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::GenMediaInfo
-       * line : 313345
-       * type : int16u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::GenMediaInfo.QuickTime:GenOpColor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

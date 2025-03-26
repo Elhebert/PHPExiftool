@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Comment extends AbstractTagGroup
 {
+    protected string $id = 'File:Comment';
 
-  protected string $id = 'File:Comment';
+    protected string $name = 'Comment';
 
-  protected string $name = 'Comment';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 120985
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Extra.File:Comment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 120985
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Extra.File:Comment',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

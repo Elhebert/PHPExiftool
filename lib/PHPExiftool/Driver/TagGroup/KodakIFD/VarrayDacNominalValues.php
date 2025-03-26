@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VarrayDacNominalValues extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:VarrayDacNominalValues';
 
-  protected string $id = 'KodakIFD:VarrayDacNominalValues';
+    protected string $name = 'VarrayDacNominalValues';
 
-  protected string $name = 'VarrayDacNominalValues';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 157332
+             * type : int32u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:VarrayDacNominalValues',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 157332
-       * type : int32u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:VarrayDacNominalValues',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LeafOpenProcHDR extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:LeafOpenProcHDR';
 
-  protected string $id = 'Leaf:LeafOpenProcHDR';
+    protected string $name = 'LeafOpenProcHDR';
 
-  protected string $name = 'LeafOpenProcHDR';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::SaveSetup
+             * line : 161964
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::SaveSetup.Leaf:LeafOpenProcHDR',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::SaveSetup
-       * line : 161964
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::SaveSetup.Leaf:LeafOpenProcHDR',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

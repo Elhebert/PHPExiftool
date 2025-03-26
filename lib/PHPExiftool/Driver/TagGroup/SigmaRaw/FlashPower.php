@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashPower extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:FlashPower';
 
-  protected string $id = 'SigmaRaw:FlashPower';
+    protected string $name = 'FlashPower';
 
-  protected string $name = 'FlashPower';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Properties
+             * line : 339942
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Properties.SigmaRaw:FlashPower',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Properties
-       * line : 339942
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Properties.SigmaRaw:FlashPower',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

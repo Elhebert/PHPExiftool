@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TextJunk extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:TextJunk';
 
-  protected string $id = 'RIFF:TextJunk';
+    protected string $name = 'TextJunk';
 
-  protected string $name = 'TextJunk';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Main
+             * line : 328651
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Main.RIFF:TextJunk',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Main
-       * line : 328651
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Main.RIFF:TextJunk',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

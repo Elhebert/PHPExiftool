@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StorageType extends AbstractTagGroup
 {
+    protected string $id = 'Red:StorageType';
 
-  protected string $id = 'Red:StorageType';
+    protected string $name = 'StorageType';
 
-  protected string $name = 'StorageType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Red::Main
+             * line : 331469
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Red::Main.Red:StorageType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Red::Main
-       * line : 331469
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Red::Main.Red:StorageType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

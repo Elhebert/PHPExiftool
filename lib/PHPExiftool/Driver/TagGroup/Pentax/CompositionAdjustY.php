@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompositionAdjustY extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:CompositionAdjustY';
 
-  protected string $id = 'Pentax:CompositionAdjustY';
+    protected string $name = 'CompositionAdjustY';
 
-  protected string $name = 'CompositionAdjustY';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::LevelInfo
+             * line : 294503
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::LevelInfo.Pentax:CompositionAdjustY',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::LevelInfo
-       * line : 294503
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::LevelInfo.Pentax:CompositionAdjustY',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

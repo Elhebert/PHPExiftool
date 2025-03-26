@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChromaBlurRadius extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:ChromaBlurRadius';
 
-  protected string $id = 'SubIFD:ChromaBlurRadius';
+    protected string $name = 'ChromaBlurRadius';
 
-  protected string $name = 'ChromaBlurRadius';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 119194
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:ChromaBlurRadius',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 119194
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:ChromaBlurRadius',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

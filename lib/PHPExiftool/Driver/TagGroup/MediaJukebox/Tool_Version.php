@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Tool_Version extends AbstractTagGroup
 {
+    protected string $id = 'MediaJukebox:Tool_Version';
 
-  protected string $id = 'MediaJukebox:Tool_Version';
+    protected string $name = 'Tool_Version';
 
-  protected string $name = 'Tool_Version';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::MediaJukebox
+             * line : 152760
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::MediaJukebox.MediaJukebox:Tool_Version',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::MediaJukebox
-       * line : 152760
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::MediaJukebox.MediaJukebox:Tool_Version',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

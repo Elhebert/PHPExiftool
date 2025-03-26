@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LastUpdate extends AbstractTagGroup
 {
+    protected string $id = 'XML:LastUpdate';
 
-  protected string $id = 'XML:LastUpdate';
+    protected string $name = 'LastUpdate';
 
-  protected string $name = 'LastUpdate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::XML
+             * line : 397581
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::XML.XML:LastUpdate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::XML
-       * line : 397581
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::XML.XML:LastUpdate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

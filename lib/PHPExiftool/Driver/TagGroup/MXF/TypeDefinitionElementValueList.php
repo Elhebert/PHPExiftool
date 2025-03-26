@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TypeDefinitionElementValueList extends AbstractTagGroup
 {
+    protected string $id = 'MXF:TypeDefinitionElementValueList';
 
-  protected string $id = 'MXF:TypeDefinitionElementValueList';
+    protected string $name = 'TypeDefinitionElementValueList';
 
-  protected string $name = 'TypeDefinitionElementValueList';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 168908
+             * type : int64s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:TypeDefinitionElementValueList',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 168908
-       * type : int64s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:TypeDefinitionElementValueList',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

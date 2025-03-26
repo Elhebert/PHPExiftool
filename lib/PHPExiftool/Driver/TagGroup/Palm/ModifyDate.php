@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'Palm:ModifyDate';
 
-  protected string $id = 'Palm:ModifyDate';
+    protected string $name = 'ModifyDate';
 
-  protected string $name = 'ModifyDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::Main
+             * line : 273844
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::Main.Palm:ModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::Main
-       * line : 273844
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::Main.Palm:ModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

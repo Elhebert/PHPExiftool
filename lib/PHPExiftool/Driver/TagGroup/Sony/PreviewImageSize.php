@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImageSize extends AbstractTagGroup
 {
+    protected string $id = 'Sony:PreviewImageSize';
 
-  protected string $id = 'Sony:PreviewImageSize';
+    protected string $name = 'PreviewImageSize';
 
-  protected string $name = 'PreviewImageSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 358680
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:PreviewImageSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 358680
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:PreviewImageSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

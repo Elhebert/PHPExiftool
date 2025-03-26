@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawBurstImageCount extends AbstractTagGroup
 {
+    protected string $id = 'Canon:RawBurstImageCount';
 
-  protected string $id = 'Canon:RawBurstImageCount';
+    protected string $name = 'RawBurstImageCount';
 
-  protected string $name = 'RawBurstImageCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::RawBurstInfo
+             * line : 70048
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::RawBurstInfo.Canon:RawBurstImageCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::RawBurstInfo
-       * line : 70048
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::RawBurstInfo.Canon:RawBurstImageCount',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

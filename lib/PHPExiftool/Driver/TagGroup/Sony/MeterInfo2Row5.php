@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MeterInfo2Row5 extends AbstractTagGroup
 {
+    protected string $id = 'Sony:MeterInfo2Row5';
 
-  protected string $id = 'Sony:MeterInfo2Row5';
+    protected string $name = 'MeterInfo2Row5';
 
-  protected string $name = 'MeterInfo2Row5';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::MeterInfo
+             * line : 359681
+             * type : int32u
+             * writable : true
+             * count : 33
+             * flags : permanent
+             */
+            'id' => 'Sony::MeterInfo.Sony:MeterInfo2Row5',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::MeterInfo9
+             * line : 359733
+             * type : undef
+             * writable : false
+             * count : 110
+             * flags : permanent
+             */
+            'id' => 'Sony::MeterInfo9.Sony:MeterInfo2Row5',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::MeterInfo
-       * line : 359681
-       * type : int32u
-       * writable : true
-       * count : 33
-       * flags : permanent
-       */
-      'id' => 'Sony::MeterInfo.Sony:MeterInfo2Row5',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::MeterInfo9
-       * line : 359733
-       * type : undef
-       * writable : false
-       * count : 110
-       * flags : permanent
-       */
-      'id' => 'Sony::MeterInfo9.Sony:MeterInfo2Row5',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

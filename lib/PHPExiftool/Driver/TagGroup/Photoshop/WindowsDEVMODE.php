@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WindowsDEVMODE extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:WindowsDEVMODE';
 
-  protected string $id = 'Photoshop:WindowsDEVMODE';
+    protected string $name = 'WindowsDEVMODE';
 
-  protected string $name = 'WindowsDEVMODE';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Main
+             * line : 305671
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Photoshop::Main.Photoshop:WindowsDEVMODE',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Main
-       * line : 305671
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Photoshop::Main.Photoshop:WindowsDEVMODE',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

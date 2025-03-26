@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Channels extends AbstractTagGroup
 {
+    protected string $id = 'Real-RA3:Channels';
 
-  protected string $id = 'Real-RA3:Channels';
+    protected string $name = 'Channels';
 
-  protected string $name = 'Channels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::AudioV3
+             * line : 329629
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::AudioV3.Real-RA3:Channels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::AudioV3
-       * line : 329629
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::AudioV3.Real-RA3:Channels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

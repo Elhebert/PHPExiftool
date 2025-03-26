@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StripByteCounts extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:StripByteCounts';
 
-  protected string $id = 'ExifIFD:StripByteCounts';
+    protected string $name = 'StripByteCounts';
 
-  protected string $name = 'StripByteCounts';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 110864
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:StripByteCounts',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Exif::Main
+             * line : 110882
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:StripByteCounts',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 110864
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:StripByteCounts',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Exif::Main
-       * line : 110882
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:StripByteCounts',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

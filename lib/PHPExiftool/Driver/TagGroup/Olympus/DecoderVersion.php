@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DecoderVersion extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:DecoderVersion';
 
-  protected string $id = 'Olympus:DecoderVersion';
+    protected string $name = 'DecoderVersion';
 
-  protected string $name = 'DecoderVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::MovableInfo
+             * line : 259237
+             * type : string
+             * writable : false
+             * count : 16
+             * flags : permanent
+             */
+            'id' => 'Olympus::MovableInfo.Olympus:DecoderVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::MovableInfo
-       * line : 259237
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : permanent
-       */
-      'id' => 'Olympus::MovableInfo.Olympus:DecoderVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 16;
 
-  protected int $count = 16;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Compass extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:Compass';
 
-  protected string $id = 'Ricoh:Compass';
+    protected string $name = 'Compass';
 
-  protected string $name = 'Compass';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::ThetaSubdir
+             * line : 333829
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::ThetaSubdir.Ricoh:Compass',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::ThetaSubdir
-       * line : 333829
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::ThetaSubdir.Ricoh:Compass',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

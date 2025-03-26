@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalTHMImage extends AbstractTagGroup
 {
+    protected string $id = 'DNG:OriginalTHMImage';
 
-  protected string $id = 'DNG:OriginalTHMImage';
+    protected string $name = 'OriginalTHMImage';
 
-  protected string $name = 'OriginalTHMImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DNG::OriginalRaw
+             * line : 105272
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'DNG::OriginalRaw.DNG:OriginalTHMImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DNG::OriginalRaw
-       * line : 105272
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'DNG::OriginalRaw.DNG:OriginalTHMImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

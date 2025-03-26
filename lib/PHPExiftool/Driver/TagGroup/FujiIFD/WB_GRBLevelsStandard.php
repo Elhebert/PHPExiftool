@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_GRBLevelsStandard extends AbstractTagGroup
 {
+    protected string $id = 'FujiIFD:WB_GRBLevelsStandard';
 
-  protected string $id = 'FujiIFD:WB_GRBLevelsStandard';
+    protected string $name = 'WB_GRBLevelsStandard';
 
-  protected string $name = 'WB_GRBLevelsStandard';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::IFD
+             * line : 128720
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FujiFilm::IFD.FujiIFD:WB_GRBLevelsStandard',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::IFD
-       * line : 128720
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FujiFilm::IFD.FujiIFD:WB_GRBLevelsStandard',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

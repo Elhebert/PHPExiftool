@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashModel extends AbstractTagGroup
 {
+    protected string $id = 'XMP-microsoft:FlashModel';
 
-  protected string $id = 'XMP-microsoft:FlashModel';
+    protected string $name = 'FlashModel';
 
-  protected string $name = 'FlashModel';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::XMP
+             * line : 174349
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Microsoft::XMP.XMP-microsoft:FlashModel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::XMP
-       * line : 174349
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Microsoft::XMP.XMP-microsoft:FlashModel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeOriginal extends AbstractTagGroup
 {
+    protected string $id = 'H264:DateTimeOriginal';
 
-  protected string $id = 'H264:DateTimeOriginal';
+    protected string $name = 'DateTimeOriginal';
 
-  protected string $name = 'DateTimeOriginal';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 140353
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.H264:DateTimeOriginal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 140353
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.H264:DateTimeOriginal',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

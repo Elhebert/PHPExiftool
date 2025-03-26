@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShutterAngle extends AbstractTagGroup
 {
+    protected string $id = 'File:ShutterAngle';
 
-  protected string $id = 'File:ShutterAngle';
+    protected string $name = 'ShutterAngle';
 
-  protected string $name = 'ShutterAngle';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105896
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DPX::Main.File:ShutterAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105896
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:ShutterAngle',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PanoramicStitchVersion extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:PanoramicStitchVersion';
 
-  protected string $id = 'Microsoft:PanoramicStitchVersion';
+    protected string $name = 'PanoramicStitchVersion';
 
-  protected string $name = 'PanoramicStitchVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Stitch
+             * line : 174251
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Microsoft::Stitch.Microsoft:PanoramicStitchVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Stitch
-       * line : 174251
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Microsoft::Stitch.Microsoft:PanoramicStitchVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

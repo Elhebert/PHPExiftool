@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PrimaryChromaticities extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:PrimaryChromaticities';
 
-  protected string $id = 'IFD0:PrimaryChromaticities';
+    protected string $name = 'PrimaryChromaticities';
 
-  protected string $name = 'PrimaryChromaticities';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 111492
+             * type : rational64u
+             * writable : true
+             * count : 6
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:PrimaryChromaticities',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 111492
-       * type : rational64u
-       * writable : true
-       * count : 6
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:PrimaryChromaticities',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 6;
 
-  protected int $count = 6;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

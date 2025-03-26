@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChapterList extends AbstractTagGroup
 {
+    protected string $id = 'UserData:ChapterList';
 
-  protected string $id = 'UserData:ChapterList';
+    protected string $name = 'ChapterList';
 
-  protected string $name = 'ChapterList';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 325385
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::UserData.UserData:ChapterList',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 325385
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::UserData.UserData:ChapterList',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

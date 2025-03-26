@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubimageTileCount extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:SubimageTileCount';
 
-  protected string $id = 'FlashPix:SubimageTileCount';
+    protected string $name = 'SubimageTileCount';
 
-  protected string $name = 'SubimageTileCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::SubimageHdr
+             * line : 126619
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::SubimageHdr.FlashPix:SubimageTileCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::SubimageHdr
-       * line : 126619
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::SubimageHdr.FlashPix:SubimageTileCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

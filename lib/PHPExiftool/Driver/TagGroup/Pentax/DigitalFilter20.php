@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DigitalFilter20 extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:DigitalFilter20';
 
-  protected string $id = 'Pentax:DigitalFilter20';
+    protected string $name = 'DigitalFilter20';
 
-  protected string $name = 'DigitalFilter20';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::FilterInfo
+             * line : 287794
+             * type : undef
+             * writable : true
+             * count : 17
+             * flags : permanent
+             */
+            'id' => 'Pentax::FilterInfo.Pentax:DigitalFilter20',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::FilterInfo
-       * line : 287794
-       * type : undef
-       * writable : true
-       * count : 17
-       * flags : permanent
-       */
-      'id' => 'Pentax::FilterInfo.Pentax:DigitalFilter20',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 17;
 
-  protected int $count = 17;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HighNote extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:HighNote';
 
-  protected string $id = 'RIFF:HighNote';
+    protected string $name = 'HighNote';
 
-  protected string $name = 'HighNote';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Instrument
+             * line : 328616
+             * type : int8s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Instrument.RIFF:HighNote',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Instrument
-       * line : 328616
-       * type : int8s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Instrument.RIFF:HighNote',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PF16AutoFocusPointShoot extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:PF16AutoFocusPointShoot';
 
-  protected string $id = 'CanonCustom:PF16AutoFocusPointShoot';
+    protected string $name = 'PF16AutoFocusPointShoot';
 
-  protected string $name = 'PF16AutoFocusPointShoot';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::PersonalFuncs
+             * line : 78395
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF16AutoFocusPointShoot',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::PersonalFuncs
-       * line : 78395
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF16AutoFocusPointShoot',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

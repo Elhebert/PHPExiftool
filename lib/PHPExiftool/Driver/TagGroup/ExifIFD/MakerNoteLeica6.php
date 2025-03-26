@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MakerNoteLeica6 extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:MakerNoteLeica6';
 
-  protected string $id = 'ExifIFD:MakerNoteLeica6';
+    protected string $name = 'MakerNoteLeica6';
 
-  protected string $name = 'MakerNoteLeica6';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DNG::AdobeData
+             * line : 105037
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'DNG::AdobeData.ExifIFD:MakerNoteLeica6',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Exif::Main
+             * line : 115998
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'Exif::Main.ExifIFD:MakerNoteLeica6',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DNG::AdobeData
-       * line : 105037
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'DNG::AdobeData.ExifIFD:MakerNoteLeica6',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Exif::Main
-       * line : 115998
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Exif::Main.ExifIFD:MakerNoteLeica6',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

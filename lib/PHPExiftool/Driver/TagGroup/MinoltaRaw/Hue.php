@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Hue extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:Hue';
 
-  protected string $id = 'MinoltaRaw:Hue';
+    protected string $name = 'Hue';
 
-  protected string $name = 'Hue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187613
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:Hue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187613
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:Hue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

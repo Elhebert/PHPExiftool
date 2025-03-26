@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StreamName extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:StreamName';
 
-  protected string $id = 'RIFF:StreamName';
+    protected string $name = 'StreamName';
 
-  protected string $name = 'StreamName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Stream
+             * line : 328751
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Stream.RIFF:StreamName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Stream
-       * line : 328751
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Stream.RIFF:StreamName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

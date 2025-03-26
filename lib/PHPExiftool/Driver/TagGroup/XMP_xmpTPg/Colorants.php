@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Colorants extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpTPg:Colorants';
 
-  protected string $id = 'XMP-xmpTPg:Colorants';
+    protected string $name = 'Colorants';
 
-  protected string $name = 'Colorants';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpTPg
+             * line : 414392
+             * type : struct
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::xmpTPg.XMP-xmpTPg:Colorants',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpTPg
-       * line : 414392
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::xmpTPg.XMP-xmpTPg:Colorants',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

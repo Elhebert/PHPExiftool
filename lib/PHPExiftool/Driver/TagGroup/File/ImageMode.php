@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageMode extends AbstractTagGroup
 {
+    protected string $id = 'File:ImageMode';
 
-  protected string $id = 'File:ImageMode';
+    protected string $name = 'ImageMode';
 
-  protected string $name = 'ImageMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166849
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::Main.File:ImageMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166849
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:ImageMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

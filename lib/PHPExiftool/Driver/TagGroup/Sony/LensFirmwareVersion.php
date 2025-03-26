@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensFirmwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'Sony:LensFirmwareVersion';
 
-  protected string $id = 'Sony:LensFirmwareVersion';
+    protected string $name = 'LensFirmwareVersion';
 
-  protected string $name = 'LensFirmwareVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 351448
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:LensFirmwareVersion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::Tag940c
+             * line : 391007
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag940c.Sony:LensFirmwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 351448
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:LensFirmwareVersion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::Tag940c
-       * line : 391007
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag940c.Sony:LensFirmwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TotalCompTrayWaterEquivThickness extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:TotalCompTrayWaterEquivThickness';
 
-  protected string $id = 'DICOM:TotalCompTrayWaterEquivThickness';
+    protected string $name = 'TotalCompTrayWaterEquivThickness';
 
-  protected string $name = 'TotalCompTrayWaterEquivThickness';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 103726
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:TotalCompTrayWaterEquivThickness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 103726
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:TotalCompTrayWaterEquivThickness',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

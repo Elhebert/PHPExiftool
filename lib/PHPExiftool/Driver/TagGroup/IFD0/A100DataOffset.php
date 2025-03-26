@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class A100DataOffset extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:A100DataOffset';
 
-  protected string $id = 'IFD0:A100DataOffset';
+    protected string $name = 'A100DataOffset';
 
-  protected string $name = 'A100DataOffset';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 111633
+             * type : ?
+             * writable : false
+             * count :
+             * flags : protected
+             */
+            'id' => 'Exif::Main.IFD0:A100DataOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 111633
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : protected
-       */
-      'id' => 'Exif::Main.IFD0:A100DataOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 8;
-
+    protected int $flags = 8;
 }

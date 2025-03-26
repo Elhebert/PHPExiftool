@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NetName extends AbstractTagGroup
 {
+    protected string $id = 'LNK:NetName';
 
-  protected string $id = 'LNK:NetName';
+    protected string $name = 'NetName';
 
-  protected string $name = 'NetName';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::LinkInfo
+             * line : 161120
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::LinkInfo.LNK:NetName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::LinkInfo
-       * line : 161120
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::LinkInfo.LNK:NetName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

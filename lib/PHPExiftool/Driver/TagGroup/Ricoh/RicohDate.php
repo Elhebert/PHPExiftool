@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RicohDate extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:RicohDate';
 
-  protected string $id = 'Ricoh:RicohDate';
+    protected string $name = 'RicohDate';
 
-  protected string $name = 'RicohDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::ImageInfo
+             * line : 331935
+             * type : int8u
+             * writable : true
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'Ricoh::ImageInfo.Ricoh:RicohDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::ImageInfo
-       * line : 331935
-       * type : int8u
-       * writable : true
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'Ricoh::ImageInfo.Ricoh:RicohDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 7;
 
-  protected int $count = 7;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

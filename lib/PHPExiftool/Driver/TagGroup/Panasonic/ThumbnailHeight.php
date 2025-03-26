@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailHeight extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:ThumbnailHeight';
 
-  protected string $id = 'Panasonic:ThumbnailHeight';
+    protected string $name = 'ThumbnailHeight';
 
-  protected string $name = 'ThumbnailHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::PANA
+             * line : 278792
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::PANA.Panasonic:ThumbnailHeight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Panasonic::PANA
+             * line : 278824
+             * type : int32uRev
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::PANA.Panasonic:ThumbnailHeight',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Panasonic::PANA
+             * line : 278863
+             * type : int32uRev
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::PANA.Panasonic:ThumbnailHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::PANA
-       * line : 278792
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::PANA.Panasonic:ThumbnailHeight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Panasonic::PANA
-       * line : 278824
-       * type : int32uRev
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::PANA.Panasonic:ThumbnailHeight',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Panasonic::PANA
-       * line : 278863
-       * type : int32uRev
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::PANA.Panasonic:ThumbnailHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

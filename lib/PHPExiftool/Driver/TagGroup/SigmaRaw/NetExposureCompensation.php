@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NetExposureCompensation extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:NetExposureCompensation';
 
-  protected string $id = 'SigmaRaw:NetExposureCompensation';
+    protected string $name = 'NetExposureCompensation';
 
-  protected string $name = 'NetExposureCompensation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Properties
+             * line : 339910
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Properties.SigmaRaw:NetExposureCompensation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Properties
-       * line : 339910
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Properties.SigmaRaw:NetExposureCompensation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageUIDList extends AbstractTagGroup
 {
+    protected string $id = 'MPF0:ImageUIDList';
 
-  protected string $id = 'MPF0:ImageUIDList';
+    protected string $name = 'ImageUIDList';
 
-  protected string $name = 'ImageUIDList';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPF::Main
+             * line : 166254
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'MPF::Main.MPF0:ImageUIDList',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPF::Main
-       * line : 166254
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'MPF::Main.MPF0:ImageUIDList',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

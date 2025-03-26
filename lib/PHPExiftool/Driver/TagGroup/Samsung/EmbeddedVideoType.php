@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedVideoType extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:EmbeddedVideoType';
 
-  protected string $id = 'Samsung:EmbeddedVideoType';
+    protected string $name = 'EmbeddedVideoType';
 
-  protected string $name = 'EmbeddedVideoType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Trailer
+             * line : 334318
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::Trailer.Samsung:EmbeddedVideoType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Trailer
-       * line : 334318
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::Trailer.Samsung:EmbeddedVideoType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

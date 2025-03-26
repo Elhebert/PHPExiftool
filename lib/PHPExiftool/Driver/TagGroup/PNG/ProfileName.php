@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProfileName extends AbstractTagGroup
 {
+    protected string $id = 'PNG:ProfileName';
 
-  protected string $id = 'PNG:ProfileName';
+    protected string $name = 'ProfileName';
 
-  protected string $name = 'ProfileName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::Main
+             * line : 272571
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::Main.PNG:ProfileName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::Main
-       * line : 272571
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::Main.PNG:ProfileName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

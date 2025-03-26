@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Location extends AbstractTagGroup
 {
+    protected string $id = 'XMP-prism:Location';
 
-  protected string $id = 'XMP-prism:Location';
+    protected string $name = 'Location';
 
-  protected string $name = 'Location';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::prism
+             * line : 410937
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid,bag,list
+             */
+            'id' => 'XMP::prism.XMP-prism:Location',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::prism
-       * line : 410937
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid,bag,list
-       */
-      'id' => 'XMP::prism.XMP-prism:Location',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2369;
-
+    protected int $flags = 2369;
 }

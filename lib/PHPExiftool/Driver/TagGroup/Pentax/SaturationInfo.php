@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SaturationInfo extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:SaturationInfo';
 
-  protected string $id = 'Pentax:SaturationInfo';
+    protected string $name = 'SaturationInfo';
 
-  protected string $name = 'SaturationInfo';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300807
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Pentax::Main.Pentax:SaturationInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300807
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Pentax::Main.Pentax:SaturationInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2086;
-
+    protected int $flags = 2086;
 }

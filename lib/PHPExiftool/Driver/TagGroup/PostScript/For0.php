@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class For0 extends AbstractTagGroup
 {
+    protected string $id = 'PostScript:For';
 
-  protected string $id = 'PostScript:For';
+    protected string $name = 'For';
 
-  protected string $name = 'For';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PostScript::Main
+             * line : 306011
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PostScript::Main.PostScript:For',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PostScript::Main
-       * line : 306011
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PostScript::Main.PostScript:For',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

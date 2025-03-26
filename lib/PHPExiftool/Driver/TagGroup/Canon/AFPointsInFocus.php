@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPointsInFocus extends AbstractTagGroup
 {
+    protected string $id = 'Canon:AFPointsInFocus';
 
-  protected string $id = 'Canon:AFPointsInFocus';
+    protected string $name = 'AFPointsInFocus';
 
-  protected string $name = 'AFPointsInFocus';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFInfo
+             * line : 4087
+             * type : int16s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo.Canon:AFPointsInFocus',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::AFInfo2
+             * line : 4247
+             * type : int16s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo2.Canon:AFPointsInFocus',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::ShotInfo
+             * line : 70557
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::ShotInfo.Canon:AFPointsInFocus',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFInfo
-       * line : 4087
-       * type : int16s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo.Canon:AFPointsInFocus',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::AFInfo2
-       * line : 4247
-       * type : int16s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo2.Canon:AFPointsInFocus',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::ShotInfo
-       * line : 70557
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::ShotInfo.Canon:AFPointsInFocus',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

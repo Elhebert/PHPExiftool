@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExternalFlashBounce extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:ExternalFlashBounce';
 
-  protected string $id = 'Pentax:ExternalFlashBounce';
+    protected string $name = 'ExternalFlashBounce';
 
-  protected string $name = 'ExternalFlashBounce';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::FlashInfo
+             * line : 288272
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::FlashInfo.Pentax:ExternalFlashBounce',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::FlashInfo
-       * line : 288272
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::FlashInfo.Pentax:ExternalFlashBounce',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

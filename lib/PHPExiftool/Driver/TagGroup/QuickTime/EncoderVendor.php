@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EncoderVendor extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:EncoderVendor';
 
-  protected string $id = 'QuickTime:EncoderVendor';
+    protected string $name = 'EncoderVendor';
 
-  protected string $name = 'EncoderVendor';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::DecodeConfig
+             * line : 312624
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'QuickTime::DecodeConfig.QuickTime:EncoderVendor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::DecodeConfig
-       * line : 312624
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'QuickTime::DecodeConfig.QuickTime:EncoderVendor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawDataLength extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:RawDataLength';
 
-  protected string $id = 'MinoltaRaw:RawDataLength';
+    protected string $name = 'RawDataLength';
 
-  protected string $name = 'RawDataLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187793
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:RawDataLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187793
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:RawDataLength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

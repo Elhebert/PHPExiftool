@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RBLevelsFineWeather extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:WB_RBLevelsFineWeather';
 
-  protected string $id = 'Olympus:WB_RBLevelsFineWeather';
+    protected string $name = 'WB_RBLevelsFineWeather';
 
-  protected string $name = 'WB_RBLevelsFineWeather';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::RawInfo
+             * line : 260871
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawInfo.Olympus:WB_RBLevelsFineWeather',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::RawInfo
-       * line : 260871
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawInfo.Olympus:WB_RBLevelsFineWeather',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

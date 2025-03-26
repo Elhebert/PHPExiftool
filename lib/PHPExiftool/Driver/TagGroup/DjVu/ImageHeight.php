@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'DjVu:ImageHeight';
 
-  protected string $id = 'DjVu:ImageHeight';
+    protected string $name = 'ImageHeight';
 
-  protected string $name = 'ImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Info
+             * line : 107102
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DjVu::Info.DjVu:ImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Info
-       * line : 107102
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DjVu::Info.DjVu:ImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

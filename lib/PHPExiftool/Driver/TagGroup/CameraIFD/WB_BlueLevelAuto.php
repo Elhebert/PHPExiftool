@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_BlueLevelAuto extends AbstractTagGroup
 {
+    protected string $id = 'CameraIFD:WB_BlueLevelAuto';
 
-  protected string $id = 'CameraIFD:WB_BlueLevelAuto';
+    protected string $name = 'WB_BlueLevelAuto';
 
-  protected string $name = 'WB_BlueLevelAuto';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::CameraIFD
+             * line : 279942
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::CameraIFD.CameraIFD:WB_BlueLevelAuto',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::CameraIFD
-       * line : 279942
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::CameraIFD.CameraIFD:WB_BlueLevelAuto',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

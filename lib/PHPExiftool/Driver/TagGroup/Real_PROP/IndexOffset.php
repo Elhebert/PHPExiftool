@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IndexOffset extends AbstractTagGroup
 {
+    protected string $id = 'Real-PROP:IndexOffset';
 
-  protected string $id = 'Real-PROP:IndexOffset';
+    protected string $name = 'IndexOffset';
 
-  protected string $name = 'IndexOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::Properties
+             * line : 330534
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Real::Properties.Real-PROP:IndexOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::Properties
-       * line : 330534
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Real::Properties.Real-PROP:IndexOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

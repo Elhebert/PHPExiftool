@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PxShiftPeriphEdgeNR extends AbstractTagGroup
 {
+    protected string $id = 'SonyIDC:PxShiftPeriphEdgeNR';
 
-  protected string $id = 'SonyIDC:PxShiftPeriphEdgeNR';
+    protected string $name = 'PxShiftPeriphEdgeNR';
 
-  protected string $name = 'PxShiftPeriphEdgeNR';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SonyIDC::Main
+             * line : 394453
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'SonyIDC::Main.SonyIDC:PxShiftPeriphEdgeNR',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SonyIDC::Main
-       * line : 394453
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'SonyIDC::Main.SonyIDC:PxShiftPeriphEdgeNR',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MakerNotePanasonic2 extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:MakerNotePanasonic2';
 
-  protected string $id = 'ExifIFD:MakerNotePanasonic2';
+    protected string $name = 'MakerNotePanasonic2';
 
-  protected string $name = 'MakerNotePanasonic2';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DNG::AdobeData
+             * line : 105065
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'DNG::AdobeData.ExifIFD:MakerNotePanasonic2',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Exif::Main
+             * line : 116026
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'Exif::Main.ExifIFD:MakerNotePanasonic2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DNG::AdobeData
-       * line : 105065
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'DNG::AdobeData.ExifIFD:MakerNotePanasonic2',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Exif::Main
-       * line : 116026
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Exif::Main.ExifIFD:MakerNotePanasonic2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

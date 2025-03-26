@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RegionPersonSourceID extends AbstractTagGroup
 {
+    protected string $id = 'XMP-MP:RegionPersonSourceID';
 
-  protected string $id = 'XMP-MP:RegionPersonSourceID';
+    protected string $name = 'RegionPersonSourceID';
 
-  protected string $name = 'RegionPersonSourceID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::MP
+             * line : 174088
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'Microsoft::MP.XMP-MP:RegionPersonSourceID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::MP
-       * line : 174088
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'Microsoft::MP.XMP-MP:RegionPersonSourceID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

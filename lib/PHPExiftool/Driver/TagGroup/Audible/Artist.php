@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Artist extends AbstractTagGroup
 {
+    protected string $id = 'Audible:Artist';
 
-  protected string $id = 'Audible:Artist';
+    protected string $name = 'Artist';
 
-  protected string $name = 'Artist';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Audible::meta
+             * line : 3063
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Audible::meta.Audible:Artist',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Audible::meta
-       * line : 3063
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Audible::meta.Audible:Artist',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

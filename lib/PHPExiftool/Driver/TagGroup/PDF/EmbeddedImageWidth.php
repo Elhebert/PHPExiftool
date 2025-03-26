@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'PDF:EmbeddedImageWidth';
 
-  protected string $id = 'PDF:EmbeddedImageWidth';
+    protected string $name = 'EmbeddedImageWidth';
 
-  protected string $name = 'EmbeddedImageWidth';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Im
+             * line : 264135
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::Im.PDF:EmbeddedImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Im
-       * line : 264135
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::Im.PDF:EmbeddedImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

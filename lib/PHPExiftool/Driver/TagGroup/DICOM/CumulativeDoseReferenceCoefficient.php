@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CumulativeDoseReferenceCoefficient extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:CumulativeDoseReferenceCoefficient';
 
-  protected string $id = 'DICOM:CumulativeDoseReferenceCoefficient';
+    protected string $name = 'CumulativeDoseReferenceCoefficient';
 
-  protected string $name = 'CumulativeDoseReferenceCoefficient';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 103336
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:CumulativeDoseReferenceCoefficient',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 103336
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:CumulativeDoseReferenceCoefficient',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExifVersion extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:ExifVersion';
 
-  protected string $id = 'RIFF:ExifVersion';
+    protected string $name = 'ExifVersion';
 
-  protected string $name = 'ExifVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Exif
+             * line : 327937
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Exif.RIFF:ExifVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Exif
-       * line : 327937
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Exif.RIFF:ExifVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

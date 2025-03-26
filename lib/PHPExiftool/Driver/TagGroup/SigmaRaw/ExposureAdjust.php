@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureAdjust extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:ExposureAdjust';
 
-  protected string $id = 'SigmaRaw:ExposureAdjust';
+    protected string $name = 'ExposureAdjust';
 
-  protected string $name = 'ExposureAdjust';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::HeaderExt
+             * line : 339488
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::HeaderExt.SigmaRaw:ExposureAdjust',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::HeaderExt
-       * line : 339488
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::HeaderExt.SigmaRaw:ExposureAdjust',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

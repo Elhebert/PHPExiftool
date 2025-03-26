@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RedLevelsTungsten extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:WB_RedLevelsTungsten';
 
-  protected string $id = 'Minolta:WB_RedLevelsTungsten';
+    protected string $name = 'WB_RedLevelsTungsten';
 
-  protected string $name = 'WB_RedLevelsTungsten';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::WBInfoA100
+             * line : 185506
+             * type : int16u
+             * writable : true
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'Minolta::WBInfoA100.Minolta:WB_RedLevelsTungsten',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::WBInfoA100
-       * line : 185506
-       * type : int16u
-       * writable : true
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'Minolta::WBInfoA100.Minolta:WB_RedLevelsTungsten',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 7;
 
-  protected int $count = 7;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

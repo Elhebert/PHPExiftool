@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChromaNoiseLowFThresh extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:ChromaNoiseLowFThresh';
 
-  protected string $id = 'KodakIFD:ChromaNoiseLowFThresh';
+    protected string $name = 'ChromaNoiseLowFThresh';
 
-  protected string $name = 'ChromaNoiseLowFThresh';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 156642
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:ChromaNoiseLowFThresh',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 156642
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:ChromaNoiseLowFThresh',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

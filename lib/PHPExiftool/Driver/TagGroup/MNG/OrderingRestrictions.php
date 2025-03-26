@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OrderingRestrictions extends AbstractTagGroup
 {
+    protected string $id = 'MNG:OrderingRestrictions';
 
-  protected string $id = 'MNG:OrderingRestrictions';
+    protected string $name = 'OrderingRestrictions';
 
-  protected string $name = 'OrderingRestrictions';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::Main
+             * line : 165208
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'MNG::Main.MNG:OrderingRestrictions',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::Main
-       * line : 165208
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'MNG::Main.MNG:OrderingRestrictions',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

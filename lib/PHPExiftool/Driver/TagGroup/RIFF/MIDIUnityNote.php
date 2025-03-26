@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MIDIUnityNote extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:MIDIUnityNote';
 
-  protected string $id = 'RIFF:MIDIUnityNote';
+    protected string $name = 'MIDIUnityNote';
 
-  protected string $name = 'MIDIUnityNote';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Sampler
+             * line : 328706
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Sampler.RIFF:MIDIUnityNote',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Sampler
-       * line : 328706
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Sampler.RIFF:MIDIUnityNote',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

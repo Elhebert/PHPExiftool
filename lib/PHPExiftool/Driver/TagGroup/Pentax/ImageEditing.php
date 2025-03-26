@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageEditing extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:ImageEditing';
 
-  protected string $id = 'Pentax:ImageEditing';
+    protected string $name = 'ImageEditing';
 
-  protected string $name = 'ImageEditing';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 298757
+             * type : undef
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:ImageEditing',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 298757
-       * type : undef
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:ImageEditing',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropRotation extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:CropRotation';
 
-  protected string $id = 'CanonVRD:CropRotation';
+    protected string $name = 'CropRotation';
 
-  protected string $name = 'CropRotation';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::CropInfo
+             * line : 80204
+             * type : double
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::CropInfo.CanonVRD:CropRotation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::CropInfo
-       * line : 80204
-       * type : double
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::CropInfo.CanonVRD:CropRotation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

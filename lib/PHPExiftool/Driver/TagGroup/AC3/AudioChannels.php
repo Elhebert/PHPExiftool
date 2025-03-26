@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioChannels extends AbstractTagGroup
 {
+    protected string $id = 'AC3:AudioChannels';
 
-  protected string $id = 'AC3:AudioChannels';
+    protected string $name = 'AudioChannels';
 
-  protected string $name = 'AudioChannels';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : M2TS::AC3
+             * line : 162417
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'M2TS::AC3.AC3:AudioChannels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : M2TS::AC3
-       * line : 162417
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'M2TS::AC3.AC3:AudioChannels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

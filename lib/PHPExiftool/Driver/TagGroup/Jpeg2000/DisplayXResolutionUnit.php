@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DisplayXResolutionUnit extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:DisplayXResolutionUnit';
 
-  protected string $id = 'Jpeg2000:DisplayXResolutionUnit';
+    protected string $name = 'DisplayXResolutionUnit';
 
-  protected string $name = 'DisplayXResolutionUnit';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::DisplayResolution
+             * line : 153889
+             * type : int8s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::DisplayResolution.Jpeg2000:DisplayXResolutionUnit',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::DisplayResolution
-       * line : 153889
-       * type : int8s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::DisplayResolution.Jpeg2000:DisplayXResolutionUnit',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

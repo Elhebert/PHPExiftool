@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BannerImageType extends AbstractTagGroup
 {
+    protected string $id = 'ASF:BannerImageType';
 
-  protected string $id = 'ASF:BannerImageType';
+    protected string $name = 'BannerImageType';
 
-  protected string $name = 'BannerImageType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::ContentBranding
+             * line : 896
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ContentBranding.ASF:BannerImageType',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : ASF::ExtendedDescr
+             * line : 1083
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ExtendedDescr.ASF:BannerImageType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::ContentBranding
-       * line : 896
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ContentBranding.ASF:BannerImageType',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : ASF::ExtendedDescr
-       * line : 1083
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ExtendedDescr.ASF:BannerImageType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

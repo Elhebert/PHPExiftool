@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISOSpeed extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:ISOSpeed';
 
-  protected string $id = 'ExifIFD:ISOSpeed';
+    protected string $name = 'ISOSpeed';
 
-  protected string $name = 'ISOSpeed';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 113943
+             * type : int32u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.ExifIFD:ISOSpeed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 113943
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.ExifIFD:ISOSpeed',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

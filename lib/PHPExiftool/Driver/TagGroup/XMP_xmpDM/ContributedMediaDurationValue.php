@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContributedMediaDurationValue extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:ContributedMediaDurationValue';
 
-  protected string $id = 'XMP-xmpDM:ContributedMediaDurationValue';
+    protected string $name = 'ContributedMediaDurationValue';
 
-  protected string $name = 'ContributedMediaDurationValue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413009
+             * type : integer
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaDurationValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413009
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaDurationValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

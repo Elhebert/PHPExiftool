@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensFirmwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:LensFirmwareVersion';
 
-  protected string $id = 'Panasonic:LensFirmwareVersion';
+    protected string $name = 'LensFirmwareVersion';
 
-  protected string $name = 'LensFirmwareVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 277315
+             * type : undef
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:LensFirmwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 277315
-       * type : undef
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:LensFirmwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

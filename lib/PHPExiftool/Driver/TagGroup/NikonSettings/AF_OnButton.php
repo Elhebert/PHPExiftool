@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AF_OnButton extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:AF-OnButton';
 
-  protected string $id = 'NikonSettings:AF-OnButton';
+    protected string $name = 'AF-OnButton';
 
-  protected string $name = 'AF-OnButton';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 246095
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:AF-OnButton',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 246187
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:AF-OnButton',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 246095
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:AF-OnButton',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 246187
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:AF-OnButton',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

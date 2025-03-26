@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'Sony:ModifyDate';
 
-  protected string $id = 'Sony:ModifyDate';
+    protected string $name = 'ModifyDate';
 
-  protected string $name = 'ModifyDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::PMP
+             * line : 361450
+             * type : int8u
+             * writable : false
+             * count : 6
+             * flags : permanent
+             */
+            'id' => 'Sony::PMP.Sony:ModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::PMP
-       * line : 361450
-       * type : int8u
-       * writable : false
-       * count : 6
-       * flags : permanent
-       */
-      'id' => 'Sony::PMP.Sony:ModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 6;
 
-  protected int $count = 6;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JpgFromRawLength extends AbstractTagGroup
 {
+    protected string $id = 'Sony:JpgFromRawLength';
 
-  protected string $id = 'Sony:JpgFromRawLength';
+    protected string $name = 'JpgFromRawLength';
 
-  protected string $name = 'JpgFromRawLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::PMP
+             * line : 361294
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::PMP.Sony:JpgFromRawLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::PMP
-       * line : 361294
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::PMP.Sony:JpgFromRawLength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

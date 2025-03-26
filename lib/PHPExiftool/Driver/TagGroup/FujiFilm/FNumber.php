@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FNumber extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:FNumber';
 
-  protected string $id = 'FujiFilm:FNumber';
+    protected string $name = 'FNumber';
 
-  protected string $name = 'FNumber';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::MOV
+             * line : 128793
+             * type : rational64u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::MOV.FujiFilm:FNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::MOV
-       * line : 128793
-       * type : rational64u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::MOV.FujiFilm:FNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

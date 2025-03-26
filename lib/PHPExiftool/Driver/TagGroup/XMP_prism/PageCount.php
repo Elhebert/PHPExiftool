@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PageCount extends AbstractTagGroup
 {
+    protected string $id = 'XMP-prism:PageCount';
 
-  protected string $id = 'XMP-prism:PageCount';
+    protected string $name = 'PageCount';
 
-  protected string $name = 'PageCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::prism
+             * line : 411030
+             * type : integer
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::prism.XMP-prism:PageCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::prism
-       * line : 411030
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::prism.XMP-prism:PageCount',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

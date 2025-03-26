@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Address extends AbstractTagGroup
 {
+    protected string $id = 'DjVu-Meta:Address';
 
-  protected string $id = 'DjVu-Meta:Address';
+    protected string $name = 'Address';
 
-  protected string $name = 'Address';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Meta
+             * line : 107369
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DjVu::Meta.DjVu-Meta:Address',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Meta
-       * line : 107369
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DjVu::Meta.DjVu-Meta:Address',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

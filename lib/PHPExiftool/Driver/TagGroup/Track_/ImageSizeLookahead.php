@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageSizeLookahead extends AbstractTagGroup
 {
+    protected string $id = 'Track#:ImageSizeLookahead';
 
-  protected string $id = 'Track#:ImageSizeLookahead';
+    protected string $name = 'ImageSizeLookahead';
 
-  protected string $name = 'ImageSizeLookahead';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::TrackHeader
+             * line : 325073
+             * type : int32u
+             * writable : false
+             * count : 14
+             * flags :
+             */
+            'id' => 'QuickTime::TrackHeader.Track#:ImageSizeLookahead',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::TrackHeader
-       * line : 325073
-       * type : int32u
-       * writable : false
-       * count : 14
-       * flags : 
-       */
-      'id' => 'QuickTime::TrackHeader.Track#:ImageSizeLookahead',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 14;
-
+    protected int $count = 14;
 }

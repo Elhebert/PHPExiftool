@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AlphaChannelsNames extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:AlphaChannelsNames';
 
-  protected string $id = 'Photoshop:AlphaChannelsNames';
+    protected string $name = 'AlphaChannelsNames';
 
-  protected string $name = 'AlphaChannelsNames';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Main
+             * line : 305384
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::Main.Photoshop:AlphaChannelsNames',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Main
-       * line : 305384
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::Main.Photoshop:AlphaChannelsNames',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

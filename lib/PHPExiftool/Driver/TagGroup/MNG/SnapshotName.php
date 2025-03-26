@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SnapshotName extends AbstractTagGroup
 {
+    protected string $id = 'MNG:SnapshotName';
 
-  protected string $id = 'MNG:SnapshotName';
+    protected string $name = 'SnapshotName';
 
-  protected string $name = 'SnapshotName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::ExportImage
+             * line : 164838
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::ExportImage.MNG:SnapshotName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::ExportImage
-       * line : 164838
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::ExportImage.MNG:SnapshotName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CPUSubtype extends AbstractTagGroup
 {
+    protected string $id = 'EXE:CPUSubtype';
 
-  protected string $id = 'EXE:CPUSubtype';
+    protected string $name = 'CPUSubtype';
 
-  protected string $name = 'CPUSubtype';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::MachO
+             * line : 108241
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'EXE::MachO.EXE:CPUSubtype',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::MachO
-       * line : 108241
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'EXE::MachO.EXE:CPUSubtype',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Make extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:Make';
 
-  protected string $id = 'RIFF:Make';
+    protected string $name = 'Make';
 
-  protected string $name = 'Make';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Exif
+             * line : 327852
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Exif.RIFF:Make',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Exif
-       * line : 327852
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Exif.RIFF:Make',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

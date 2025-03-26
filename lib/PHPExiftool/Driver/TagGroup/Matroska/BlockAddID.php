@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlockAddID extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:BlockAddID';
 
-  protected string $id = 'Matroska:BlockAddID';
+    protected string $name = 'BlockAddID';
 
-  protected string $name = 'BlockAddID';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Main
+             * line : 173396
+             * type : unsigned
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Matroska::Main.Matroska:BlockAddID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Main
-       * line : 173396
-       * type : unsigned
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Matroska::Main.Matroska:BlockAddID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

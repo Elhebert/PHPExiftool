@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BarometerInfoVersion extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:BarometerInfoVersion';
 
-  protected string $id = 'Nikon:BarometerInfoVersion';
+    protected string $name = 'BarometerInfoVersion';
 
-  protected string $name = 'BarometerInfoVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::BarometerInfo
+             * line : 191887
+             * type : undef
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::BarometerInfo.Nikon:BarometerInfoVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::BarometerInfo
-       * line : 191887
-       * type : undef
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::BarometerInfo.Nikon:BarometerInfoVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

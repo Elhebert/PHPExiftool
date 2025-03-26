@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EnvelopeNumber extends AbstractTagGroup
 {
+    protected string $id = 'MetaIFD:EnvelopeNumber';
 
-  protected string $id = 'MetaIFD:EnvelopeNumber';
+    protected string $name = 'EnvelopeNumber';
 
-  protected string $name = 'EnvelopeNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Meta
+             * line : 158414
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Kodak::Meta.MetaIFD:EnvelopeNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Meta
-       * line : 158414
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Kodak::Meta.MetaIFD:EnvelopeNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

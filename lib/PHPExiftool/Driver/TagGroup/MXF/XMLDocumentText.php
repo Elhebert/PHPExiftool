@@ -19,73 +19,71 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XMLDocumentText extends AbstractTagGroup
 {
+    protected string $id = 'MXF:XMLDocumentText';
 
-  protected string $id = 'MXF:XMLDocumentText';
+    protected string $name = 'XMLDocumentText';
 
-  protected string $name = 'XMLDocumentText';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171104
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'MXF::Main.MXF:XMLDocumentText',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171107
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:XMLDocumentText',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171110
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:XMLDocumentText',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171113
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'MXF::Main.MXF:XMLDocumentText',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171104
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'MXF::Main.MXF:XMLDocumentText',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171107
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:XMLDocumentText',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171110
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:XMLDocumentText',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171113
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'MXF::Main.MXF:XMLDocumentText',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

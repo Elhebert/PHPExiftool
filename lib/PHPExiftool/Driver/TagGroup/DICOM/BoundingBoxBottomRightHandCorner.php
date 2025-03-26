@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BoundingBoxBottomRightHandCorner extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:BoundingBoxBottomRightHandCorner';
 
-  protected string $id = 'DICOM:BoundingBoxBottomRightHandCorner';
+    protected string $name = 'BoundingBoxBottomRightHandCorner';
 
-  protected string $name = 'BoundingBoxBottomRightHandCorner';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 101259
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:BoundingBoxBottomRightHandCorner',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 101259
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:BoundingBoxBottomRightHandCorner',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

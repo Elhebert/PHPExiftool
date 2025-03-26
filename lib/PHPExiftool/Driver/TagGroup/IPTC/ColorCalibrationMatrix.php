@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorCalibrationMatrix extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ColorCalibrationMatrix';
 
-  protected string $id = 'IPTC:ColorCalibrationMatrix';
+    protected string $name = 'ColorCalibrationMatrix';
 
-  protected string $name = 'ColorCalibrationMatrix';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::NewsPhoto
+             * line : 151595
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'IPTC::NewsPhoto.IPTC:ColorCalibrationMatrix',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::NewsPhoto
-       * line : 151595
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'IPTC::NewsPhoto.IPTC:ColorCalibrationMatrix',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

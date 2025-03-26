@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Categories extends AbstractTagGroup
 {
+    protected string $id = 'Canon:Categories';
 
-  protected string $id = 'Canon:Categories';
+    protected string $name = 'Categories';
 
-  protected string $name = 'Categories';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::Main
+             * line : 65785
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Canon::Main.Canon:Categories',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::Main
-       * line : 65785
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Canon::Main.Canon:Categories',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

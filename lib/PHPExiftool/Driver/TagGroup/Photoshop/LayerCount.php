@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LayerCount extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:LayerCount';
 
-  protected string $id = 'Photoshop:LayerCount';
+    protected string $name = 'LayerCount';
 
-  protected string $name = 'LayerCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Layers
+             * line : 305334
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::Layers.Photoshop:LayerCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Layers
-       * line : 305334
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::Layers.Photoshop:LayerCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

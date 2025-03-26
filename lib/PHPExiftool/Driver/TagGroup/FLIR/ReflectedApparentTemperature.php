@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReflectedApparentTemperature extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:ReflectedApparentTemperature';
 
-  protected string $id = 'FLIR:ReflectedApparentTemperature';
+    protected string $name = 'ReflectedApparentTemperature';
 
-  protected string $name = 'ReflectedApparentTemperature';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122192
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:ReflectedApparentTemperature',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122596
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:ReflectedApparentTemperature',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : FLIR::Params
+             * line : 123571
+             * type : float
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FLIR::Params.FLIR:ReflectedApparentTemperature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122192
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:ReflectedApparentTemperature',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122596
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:ReflectedApparentTemperature',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : FLIR::Params
-       * line : 123571
-       * type : float
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FLIR::Params.FLIR:ReflectedApparentTemperature',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

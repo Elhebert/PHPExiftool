@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FrameRate extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:FrameRate';
 
-  protected string $id = 'MPEG:FrameRate';
+    protected string $name = 'FrameRate';
 
-  protected string $name = 'FrameRate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Video
+             * line : 166099
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Video.MPEG:FrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Video
-       * line : 166099
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Video.MPEG:FrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

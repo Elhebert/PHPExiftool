@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VolumeID extends AbstractTagGroup
 {
+    protected string $id = 'LNK:VolumeID';
 
-  protected string $id = 'LNK:VolumeID';
+    protected string $name = 'VolumeID';
 
-  protected string $name = 'VolumeID';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::LinkInfo
+             * line : 161229
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::LinkInfo.LNK:VolumeID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::LinkInfo
-       * line : 161229
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::LinkInfo.LNK:VolumeID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

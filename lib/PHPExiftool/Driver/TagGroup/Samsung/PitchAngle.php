@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PitchAngle extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:PitchAngle';
 
-  protected string $id = 'Samsung:PitchAngle';
+    protected string $name = 'PitchAngle';
 
-  protected string $name = 'PitchAngle';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::OrientationInfo
+             * line : 334068
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::OrientationInfo.Samsung:PitchAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::OrientationInfo
-       * line : 334068
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::OrientationInfo.Samsung:PitchAngle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

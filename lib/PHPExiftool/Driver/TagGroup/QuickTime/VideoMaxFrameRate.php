@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoMaxFrameRate extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:VideoMaxFrameRate';
 
-  protected string $id = 'QuickTime:VideoMaxFrameRate';
+    protected string $name = 'VideoMaxFrameRate';
 
-  protected string $name = 'VideoMaxFrameRate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::VideoProf
+             * line : 326278
+             * type : fixed32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::VideoProf.QuickTime:VideoMaxFrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::VideoProf
-       * line : 326278
-       * type : fixed32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::VideoProf.QuickTime:VideoMaxFrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

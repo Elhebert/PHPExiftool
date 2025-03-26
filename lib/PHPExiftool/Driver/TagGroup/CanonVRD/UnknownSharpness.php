@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownSharpness extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:UnknownSharpness';
 
-  protected string $id = 'CanonVRD:UnknownSharpness';
+    protected string $name = 'UnknownSharpness';
 
-  protected string $name = 'UnknownSharpness';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Ver2
+             * line : 83085
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : unknown
+             */
+            'id' => 'CanonVRD::Ver2.CanonVRD:UnknownSharpness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Ver2
-       * line : 83085
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'CanonVRD::Ver2.CanonVRD:UnknownSharpness',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2080;
-
+    protected int $flags = 2080;
 }

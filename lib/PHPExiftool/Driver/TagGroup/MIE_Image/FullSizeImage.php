@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FullSizeImage extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Image:FullSizeImage';
 
-  protected string $id = 'MIE-Image:FullSizeImage';
+    protected string $name = 'FullSizeImage';
 
-  protected string $name = 'FullSizeImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Image
+             * line : 163888
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'MIE::Image.MIE-Image:FullSizeImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Image
-       * line : 163888
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'MIE::Image.MIE-Image:FullSizeImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

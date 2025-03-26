@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Orientation extends AbstractTagGroup
 {
+    protected string $id = 'DjVu:Orientation';
 
-  protected string $id = 'DjVu:Orientation';
+    protected string $name = 'Orientation';
 
-  protected string $name = 'Orientation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Info
+             * line : 107143
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DjVu::Info.DjVu:Orientation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Info
-       * line : 107143
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DjVu::Info.DjVu:Orientation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

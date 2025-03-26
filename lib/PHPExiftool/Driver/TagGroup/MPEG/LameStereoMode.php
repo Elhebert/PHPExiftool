@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LameStereoMode extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:LameStereoMode';
 
-  protected string $id = 'MPEG:LameStereoMode';
+    protected string $name = 'LameStereoMode';
 
-  protected string $name = 'LameStereoMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Lame
+             * line : 165974
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Lame.MPEG:LameStereoMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Lame
-       * line : 165974
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Lame.MPEG:LameStereoMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

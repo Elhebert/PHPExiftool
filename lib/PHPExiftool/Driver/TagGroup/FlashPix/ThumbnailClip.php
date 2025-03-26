@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailClip extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:ThumbnailClip';
 
-  protected string $id = 'FlashPix:ThumbnailClip';
+    protected string $name = 'ThumbnailClip';
 
-  protected string $name = 'ThumbnailClip';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::SummaryInfo
+             * line : 127262
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'FlashPix::SummaryInfo.FlashPix:ThumbnailClip',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::SummaryInfo
-       * line : 127262
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'FlashPix::SummaryInfo.FlashPix:ThumbnailClip',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

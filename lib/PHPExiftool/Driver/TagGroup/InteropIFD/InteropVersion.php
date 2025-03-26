@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InteropVersion extends AbstractTagGroup
 {
+    protected string $id = 'InteropIFD:InteropVersion';
 
-  protected string $id = 'InteropIFD:InteropVersion';
+    protected string $name = 'InteropVersion';
 
-  protected string $name = 'InteropVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 109770
+             * type : undef
+             * writable : true
+             * count :
+             * flags : mandatory,unsafe
+             */
+            'id' => 'Exif::Main.InteropIFD:InteropVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 109770
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : mandatory,unsafe
-       */
-      'id' => 'Exif::Main.InteropIFD:InteropVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2192;
-
+    protected int $flags = 2192;
 }

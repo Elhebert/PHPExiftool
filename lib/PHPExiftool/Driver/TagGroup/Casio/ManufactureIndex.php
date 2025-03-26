@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ManufactureIndex extends AbstractTagGroup
 {
+    protected string $id = 'Casio:ManufactureIndex';
 
-  protected string $id = 'Casio:ManufactureIndex';
+    protected string $name = 'ManufactureIndex';
 
-  protected string $name = 'ManufactureIndex';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::QVCI
+             * line : 85229
+             * type : string
+             * writable : false
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Casio::QVCI.Casio:ManufactureIndex',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::QVCI
-       * line : 85229
-       * type : string
-       * writable : false
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Casio::QVCI.Casio:ManufactureIndex',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

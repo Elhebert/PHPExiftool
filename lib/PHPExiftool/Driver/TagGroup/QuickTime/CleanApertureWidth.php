@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CleanApertureWidth extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:CleanApertureWidth';
 
-  protected string $id = 'QuickTime:CleanApertureWidth';
+    protected string $name = 'CleanApertureWidth';
 
-  protected string $name = 'CleanApertureWidth';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::CleanAperture
+             * line : 312593
+             * type : rational64s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::CleanAperture.QuickTime:CleanApertureWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::CleanAperture
-       * line : 312593
-       * type : rational64s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::CleanAperture.QuickTime:CleanApertureWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

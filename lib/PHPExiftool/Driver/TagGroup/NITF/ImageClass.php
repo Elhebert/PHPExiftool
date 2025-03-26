@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageClass extends AbstractTagGroup
 {
+    protected string $id = 'NITF:ImageClass';
 
-  protected string $id = 'NITF:ImageClass';
+    protected string $name = 'ImageClass';
 
-  protected string $name = 'ImageClass';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::NITF
+             * line : 152802
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::NITF.NITF:ImageClass',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::NITF
-       * line : 152802
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::NITF.NITF:ImageClass',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LimitAF_AreaModeSelWideLAnimals extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:LimitAF-AreaModeSelWideLAnimals';
 
-  protected string $id = 'NikonSettings:LimitAF-AreaModeSelWideLAnimals';
+    protected string $name = 'LimitAF-AreaModeSelWideLAnimals';
 
-  protected string $name = 'LimitAF-AreaModeSelWideLAnimals';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 248843
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:LimitAF-AreaModeSelWideLAnimals',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 248843
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:LimitAF-AreaModeSelWideLAnimals',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

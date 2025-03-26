@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeStamp extends AbstractTagGroup
 {
+    protected string $id = 'XMP-apple-fi:TimeStamp';
 
-  protected string $id = 'XMP-apple-fi:TimeStamp';
+    protected string $name = 'TimeStamp';
 
-  protected string $name = 'TimeStamp';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::apple_fi
+             * line : 397904
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::apple_fi.XMP-apple-fi:TimeStamp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::apple_fi
-       * line : 397904
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::apple_fi.XMP-apple-fi:TimeStamp',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

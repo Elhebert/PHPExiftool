@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FilterParametersCustomCustomData extends AbstractTagGroup
 {
+    protected string $id = 'NineEdits:FilterParametersCustomCustomData';
 
-  protected string $id = 'NineEdits:FilterParametersCustomCustomData';
+    protected string $name = 'FilterParametersCustomCustomData';
 
-  protected string $name = 'FilterParametersCustomCustomData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::NineEdits
+             * line : 203605
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Nikon::NineEdits.NineEdits:FilterParametersCustomCustomData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::NineEdits
-       * line : 203605
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Nikon::NineEdits.NineEdits:FilterParametersCustomCustomData',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

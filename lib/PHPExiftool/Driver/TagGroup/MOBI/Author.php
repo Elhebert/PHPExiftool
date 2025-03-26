@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Author extends AbstractTagGroup
 {
+    protected string $id = 'MOBI:Author';
 
-  protected string $id = 'MOBI:Author';
+    protected string $name = 'Author';
 
-  protected string $name = 'Author';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::EXTH
+             * line : 273419
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::EXTH.MOBI:Author',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::EXTH
-       * line : 273419
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::EXTH.MOBI:Author',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocusDistance extends AbstractTagGroup
 {
+    protected string $id = 'Leica:FocusDistance';
 
-  protected string $id = 'Leica:FocusDistance';
+    protected string $name = 'FocusDistance';
 
-  protected string $name = 'FocusDistance';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::FocusInfo
+             * line : 274248
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::FocusInfo.Leica:FocusDistance',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Panasonic::Leica6
+             * line : 274939
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Leica6.Leica:FocusDistance',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Panasonic::Leica9
+             * line : 274982
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Leica9.Leica:FocusDistance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::FocusInfo
-       * line : 274248
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::FocusInfo.Leica:FocusDistance',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Panasonic::Leica6
-       * line : 274939
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Leica6.Leica:FocusDistance',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Panasonic::Leica9
-       * line : 274982
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Leica9.Leica:FocusDistance',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

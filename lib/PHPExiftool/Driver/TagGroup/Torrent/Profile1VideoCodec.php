@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Profile1VideoCodec extends AbstractTagGroup
 {
+    protected string $id = 'Torrent:Profile1VideoCodec';
 
-  protected string $id = 'Torrent:Profile1VideoCodec';
+    protected string $name = 'Profile1VideoCodec';
 
-  protected string $name = 'Profile1VideoCodec';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Torrent::Profiles
+             * line : 395091
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Torrent::Profiles.Torrent:Profile1VideoCodec',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Torrent::Profiles
-       * line : 395091
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Torrent::Profiles.Torrent:Profile1VideoCodec',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

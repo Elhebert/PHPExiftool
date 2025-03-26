@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShutterSpeedValue extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:ShutterSpeedValue';
 
-  protected string $id = 'Kodak:ShutterSpeedValue';
+    protected string $name = 'ShutterSpeedValue';
 
-  protected string $name = 'ShutterSpeedValue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Free
+             * line : 154653
+             * type : int16s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::Free.Kodak:ShutterSpeedValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Free
-       * line : 154653
-       * type : int16s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::Free.Kodak:ShutterSpeedValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

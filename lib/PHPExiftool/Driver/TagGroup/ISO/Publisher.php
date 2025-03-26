@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Publisher extends AbstractTagGroup
 {
+    protected string $id = 'ISO:Publisher';
 
-  protected string $id = 'ISO:Publisher';
+    protected string $name = 'Publisher';
 
-  protected string $name = 'Publisher';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 152030
+             * type : string
+             * writable : false
+             * count : 128
+             * flags :
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:Publisher',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 152030
-       * type : string
-       * writable : false
-       * count : 128
-       * flags : 
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:Publisher',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 128;
-
+    protected int $count = 128;
 }

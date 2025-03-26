@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DLOVersion extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:DLOVersion';
 
-  protected string $id = 'CanonVRD:DLOVersion';
+    protected string $name = 'DLOVersion';
 
-  protected string $name = 'DLOVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DLOInfo
+             * line : 80222
+             * type : string
+             * writable : true
+             * count : 10
+             * flags :
+             */
+            'id' => 'CanonVRD::DLOInfo.CanonVRD:DLOVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DLOInfo
-       * line : 80222
-       * type : string
-       * writable : true
-       * count : 10
-       * flags : 
-       */
-      'id' => 'CanonVRD::DLOInfo.CanonVRD:DLOVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 10;
 
-  protected int $count = 10;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

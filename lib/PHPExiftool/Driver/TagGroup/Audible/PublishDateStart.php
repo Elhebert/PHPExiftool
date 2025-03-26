@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PublishDateStart extends AbstractTagGroup
 {
+    protected string $id = 'Audible:PublishDateStart';
 
-  protected string $id = 'Audible:PublishDateStart';
+    protected string $name = 'PublishDateStart';
 
-  protected string $name = 'PublishDateStart';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Audible::Main
+             * line : 3023
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Audible::Main.Audible:PublishDateStart',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Audible::Main
-       * line : 3023
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Audible::Main.Audible:PublishDateStart',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

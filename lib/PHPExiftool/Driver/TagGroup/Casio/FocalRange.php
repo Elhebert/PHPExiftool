@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalRange extends AbstractTagGroup
 {
+    protected string $id = 'Casio:FocalRange';
 
-  protected string $id = 'Casio:FocalRange';
+    protected string $name = 'FocalRange';
 
-  protected string $name = 'FocalRange';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::QVCI
+             * line : 85205
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Casio::QVCI.Casio:FocalRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::QVCI
-       * line : 85205
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Casio::QVCI.Casio:FocalRange',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DroneQuaternion extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:DroneQuaternion';
 
-  protected string $id = 'Parrot:DroneQuaternion';
+    protected string $name = 'DroneQuaternion';
 
-  protected string $name = 'DroneQuaternion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::V2
+             * line : 282310
+             * type : int16s
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'Parrot::V2.Parrot:DroneQuaternion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Parrot::V3
+             * line : 282517
+             * type : int16s
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'Parrot::V3.Parrot:DroneQuaternion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::V2
-       * line : 282310
-       * type : int16s
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'Parrot::V2.Parrot:DroneQuaternion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Parrot::V3
-       * line : 282517
-       * type : int16s
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'Parrot::V3.Parrot:DroneQuaternion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

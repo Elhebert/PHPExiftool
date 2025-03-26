@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Quoting extends AbstractTagGroup
 {
+    protected string $id = 'File:Quoting';
 
-  protected string $id = 'File:Quoting';
+    protected string $name = 'Quoting';
 
-  protected string $name = 'Quoting';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Text::Main
+             * line : 394768
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Text::Main.File:Quoting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Text::Main
-       * line : 394768
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Text::Main.File:Quoting',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

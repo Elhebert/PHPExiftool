@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToneCurveContrast extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:ToneCurveContrast';
 
-  protected string $id = 'CanonVRD:ToneCurveContrast';
+    protected string $name = 'ToneCurveContrast';
 
-  protected string $name = 'ToneCurveContrast';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DR4
+             * line : 80622
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::DR4.CanonVRD:ToneCurveContrast',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DR4
-       * line : 80622
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::DR4.CanonVRD:ToneCurveContrast',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

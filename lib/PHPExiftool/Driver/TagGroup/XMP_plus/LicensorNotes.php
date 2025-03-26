@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LicensorNotes extends AbstractTagGroup
 {
+    protected string $id = 'XMP-plus:LicensorNotes';
 
-  protected string $id = 'XMP-plus:LicensorNotes';
+    protected string $name = 'LicensorNotes';
 
-  protected string $name = 'LicensorNotes';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PLUS::XMP
+             * line : 265751
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PLUS::XMP.XMP-plus:LicensorNotes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PLUS::XMP
-       * line : 265751
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PLUS::XMP.XMP-plus:LicensorNotes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

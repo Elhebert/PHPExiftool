@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreationDate extends AbstractTagGroup
 {
+    protected string $id = 'ASF:CreationDate';
 
-  protected string $id = 'ASF:CreationDate';
+    protected string $name = 'CreationDate';
 
-  protected string $name = 'CreationDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::FileProperties
+             * line : 1723
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::FileProperties.ASF:CreationDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::FileProperties
-       * line : 1723
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::FileProperties.ASF:CreationDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

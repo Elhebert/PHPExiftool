@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PopupFillAttributes extends AbstractTagGroup
 {
+    protected string $id = 'LNK:PopupFillAttributes';
 
-  protected string $id = 'LNK:PopupFillAttributes';
+    protected string $name = 'PopupFillAttributes';
 
-  protected string $name = 'PopupFillAttributes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::ConsoleData
+             * line : 160951
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::ConsoleData.LNK:PopupFillAttributes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::ConsoleData
-       * line : 160951
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::ConsoleData.LNK:PopupFillAttributes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLatitude extends AbstractTagGroup
 {
+    protected string $id = 'XMP-ast:GPSLatitude';
 
-  protected string $id = 'XMP-ast:GPSLatitude';
+    protected string $name = 'GPSLatitude';
 
-  protected string $name = 'GPSLatitude';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ast
+             * line : 209858
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Nikon::ast.XMP-ast:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ast
-       * line : 209858
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Nikon::ast.XMP-ast:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

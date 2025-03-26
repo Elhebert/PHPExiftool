@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IconFileName extends AbstractTagGroup
 {
+    protected string $id = 'LNK:IconFileName';
 
-  protected string $id = 'LNK:IconFileName';
+    protected string $name = 'IconFileName';
 
-  protected string $name = 'IconFileName';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::Main
+             * line : 161567
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::Main.LNK:IconFileName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::Main
-       * line : 161567
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::Main.LNK:IconFileName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

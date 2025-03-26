@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContributedMediaManaged extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:ContributedMediaManaged';
 
-  protected string $id = 'XMP-xmpDM:ContributedMediaManaged';
+    protected string $name = 'ContributedMediaManaged';
 
-  protected string $name = 'ContributedMediaManaged';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413012
+             * type : boolean
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaManaged',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413012
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaManaged',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

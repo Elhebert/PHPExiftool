@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DisplayedUnitsX extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:DisplayedUnitsX';
 
-  protected string $id = 'Photoshop:DisplayedUnitsX';
+    protected string $name = 'DisplayedUnitsX';
 
-  protected string $name = 'DisplayedUnitsX';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Resolution
+             * line : 305772
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::Resolution.Photoshop:DisplayedUnitsX',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Resolution
-       * line : 305772
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::Resolution.Photoshop:DisplayedUnitsX',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

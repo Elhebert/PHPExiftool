@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JXLCodestream extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:JXLCodestream';
 
-  protected string $id = 'Jpeg2000:JXLCodestream';
+    protected string $name = 'JXLCodestream';
 
-  protected string $name = 'JXLCodestream';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::Main
+             * line : 154250
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::Main.Jpeg2000:JXLCodestream',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::Main
-       * line : 154250
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::Main.Jpeg2000:JXLCodestream',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

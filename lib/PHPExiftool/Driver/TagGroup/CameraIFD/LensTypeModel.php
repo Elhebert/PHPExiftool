@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensTypeModel extends AbstractTagGroup
 {
+    protected string $id = 'CameraIFD:LensTypeModel';
 
-  protected string $id = 'CameraIFD:LensTypeModel';
+    protected string $name = 'LensTypeModel';
 
-  protected string $name = 'LensTypeModel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::CameraIFD
+             * line : 279747
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::CameraIFD.CameraIFD:LensTypeModel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::CameraIFD
-       * line : 279747
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::CameraIFD.CameraIFD:LensTypeModel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

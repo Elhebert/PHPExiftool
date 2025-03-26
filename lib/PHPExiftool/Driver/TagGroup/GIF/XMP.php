@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XMP extends AbstractTagGroup
 {
+    protected string $id = 'GIF:XMP';
 
-  protected string $id = 'GIF:XMP';
+    protected string $name = 'XMP';
 
-  protected string $name = 'XMP';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIF::Extensions
+             * line : 131258
+             * type : undef
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'GIF::Extensions.GIF:XMP',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIF::Extensions
-       * line : 131258
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIF::Extensions.GIF:XMP',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

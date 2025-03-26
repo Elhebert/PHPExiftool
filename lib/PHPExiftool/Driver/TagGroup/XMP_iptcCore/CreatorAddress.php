@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreatorAddress extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcCore:CreatorAddress';
 
-  protected string $id = 'XMP-iptcCore:CreatorAddress';
+    protected string $name = 'CreatorAddress';
 
-  protected string $name = 'CreatorAddress';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcCore
+             * line : 408949
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorAddress',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcCore
-       * line : 408949
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorAddress',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

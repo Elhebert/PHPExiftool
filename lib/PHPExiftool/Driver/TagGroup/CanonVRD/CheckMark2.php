@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CheckMark2 extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:CheckMark2';
 
-  protected string $id = 'CanonVRD:CheckMark2';
+    protected string $name = 'CheckMark2';
 
-  protected string $name = 'CheckMark2';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Ver2
+             * line : 83638
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver2.CanonVRD:CheckMark2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Ver2
-       * line : 83638
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver2.CanonVRD:CheckMark2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

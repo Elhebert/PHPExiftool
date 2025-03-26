@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GainDeadMapImageType extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:GainDeadMapImageType';
 
-  protected string $id = 'FLIR:GainDeadMapImageType';
+    protected string $name = 'GainDeadMapImageType';
 
-  protected string $name = 'GainDeadMapImageType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::GainDeadData
+             * line : 123192
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::GainDeadData.FLIR:GainDeadMapImageType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::GainDeadData
-       * line : 123192
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::GainDeadData.FLIR:GainDeadMapImageType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

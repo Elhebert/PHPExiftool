@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalFileSize extends AbstractTagGroup
 {
+    protected string $id = 'Rawzor:OriginalFileSize';
 
-  protected string $id = 'Rawzor:OriginalFileSize';
+    protected string $name = 'OriginalFileSize';
 
-  protected string $name = 'OriginalFileSize';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Rawzor::Main
+             * line : 329607
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Rawzor::Main.Rawzor:OriginalFileSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Rawzor::Main
-       * line : 329607
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Rawzor::Main.Rawzor:OriginalFileSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

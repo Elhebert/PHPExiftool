@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LibraryID extends AbstractTagGroup
 {
+    protected string $id = 'ITC:LibraryID';
 
-  protected string $id = 'ITC:LibraryID';
+    protected string $name = 'LibraryID';
 
-  protected string $name = 'LibraryID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ITC::Item
+             * line : 152113
+             * type : undef
+             * writable : false
+             * count : 8
+             * flags :
+             */
+            'id' => 'ITC::Item.ITC:LibraryID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ITC::Item
-       * line : 152113
-       * type : undef
-       * writable : false
-       * count : 8
-       * flags : 
-       */
-      'id' => 'ITC::Item.ITC:LibraryID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 8;
-
+    protected int $count = 8;
 }

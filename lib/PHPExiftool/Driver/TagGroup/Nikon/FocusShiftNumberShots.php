@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocusShiftNumberShots extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:FocusShiftNumberShots';
 
-  protected string $id = 'Nikon:FocusShiftNumberShots';
+    protected string $name = 'FocusShiftNumberShots';
 
-  protected string $name = 'FocusShiftNumberShots';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::MenuSettingsZ7II
+             * line : 199758
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::MenuSettingsZ7II.Nikon:FocusShiftNumberShots',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::MenuSettingsZ9
+             * line : 200392
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::MenuSettingsZ9.Nikon:FocusShiftNumberShots',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::ShotInfoD6
+             * line : 207975
+             * type : ?
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::ShotInfoD6.Nikon:FocusShiftNumberShots',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::MenuSettingsZ7II
-       * line : 199758
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::MenuSettingsZ7II.Nikon:FocusShiftNumberShots',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::MenuSettingsZ9
-       * line : 200392
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::MenuSettingsZ9.Nikon:FocusShiftNumberShots',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::ShotInfoD6
-       * line : 207975
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::ShotInfoD6.Nikon:FocusShiftNumberShots',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

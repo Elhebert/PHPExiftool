@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GrayResponseCurve extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:GrayResponseCurve';
 
-  protected string $id = 'ExifIFD:GrayResponseCurve';
+    protected string $name = 'GrayResponseCurve';
 
-  protected string $name = 'GrayResponseCurve';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 111177
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'Exif::Main.ExifIFD:GrayResponseCurve',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 111177
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Exif::Main.ExifIFD:GrayResponseCurve',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

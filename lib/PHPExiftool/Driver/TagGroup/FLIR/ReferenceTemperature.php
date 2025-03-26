@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReferenceTemperature extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:ReferenceTemperature';
 
-  protected string $id = 'FLIR:ReferenceTemperature';
+    protected string $name = 'ReferenceTemperature';
 
-  protected string $name = 'ReferenceTemperature';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122611
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:ReferenceTemperature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122611
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:ReferenceTemperature',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

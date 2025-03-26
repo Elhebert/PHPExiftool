@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RGBtoeV7 extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:RGBtoeV7';
 
-  protected string $id = 'KodakIFD:RGBtoeV7';
+    protected string $name = 'RGBtoeV7';
 
-  protected string $name = 'RGBtoeV7';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 156753
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:RGBtoeV7',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 156753
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:RGBtoeV7',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 6;
-
+    protected int $flags = 6;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BatteryCurrent extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:BatteryCurrent';
 
-  protected string $id = 'GoPro:BatteryCurrent';
+    protected string $name = 'BatteryCurrent';
 
-  protected string $name = 'BatteryCurrent';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::KBAT
+             * line : 139984
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GoPro::KBAT.GoPro:BatteryCurrent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::KBAT
-       * line : 139984
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GoPro::KBAT.GoPro:BatteryCurrent',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

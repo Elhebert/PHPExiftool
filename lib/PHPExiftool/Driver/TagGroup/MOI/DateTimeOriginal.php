@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeOriginal extends AbstractTagGroup
 {
+    protected string $id = 'MOI:DateTimeOriginal';
 
-  protected string $id = 'MOI:DateTimeOriginal';
+    protected string $name = 'DateTimeOriginal';
 
-  protected string $name = 'DateTimeOriginal';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MOI::Main
+             * line : 165441
+             * type : undef
+             * writable : false
+             * count : 8
+             * flags :
+             */
+            'id' => 'MOI::Main.MOI:DateTimeOriginal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MOI::Main
-       * line : 165441
-       * type : undef
-       * writable : false
-       * count : 8
-       * flags : 
-       */
-      'id' => 'MOI::Main.MOI:DateTimeOriginal',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 8;
-
+    protected int $count = 8;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IlluminationMode extends AbstractTagGroup
 {
+    protected string $id = 'File:IlluminationMode';
 
-  protected string $id = 'File:IlluminationMode';
+    protected string $name = 'IlluminationMode';
 
-  protected string $name = 'IlluminationMode';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166540
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:IlluminationMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166540
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:IlluminationMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:RawImageWidth';
 
-  protected string $id = 'FujiFilm:RawImageWidth';
+    protected string $name = 'RawImageWidth';
 
-  protected string $name = 'RawImageWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::RAFData
+             * line : 131136
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::RAFData.FujiFilm:RawImageWidth',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FujiFilm::RAFData
+             * line : 131144
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::RAFData.FujiFilm:RawImageWidth',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : FujiFilm::RAFData
+             * line : 131160
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::RAFData.FujiFilm:RawImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::RAFData
-       * line : 131136
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::RAFData.FujiFilm:RawImageWidth',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FujiFilm::RAFData
-       * line : 131144
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::RAFData.FujiFilm:RawImageWidth',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : FujiFilm::RAFData
-       * line : 131160
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::RAFData.FujiFilm:RawImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

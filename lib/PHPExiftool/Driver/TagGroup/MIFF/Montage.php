@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Montage extends AbstractTagGroup
 {
+    protected string $id = 'MIFF:Montage';
 
-  protected string $id = 'MIFF:Montage';
+    protected string $name = 'Montage';
 
-  protected string $name = 'Montage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIFF::Main
+             * line : 164371
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MIFF::Main.MIFF:Montage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIFF::Main
-       * line : 164371
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIFF::Main.MIFF:Montage',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

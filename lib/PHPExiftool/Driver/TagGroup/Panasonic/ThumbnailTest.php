@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailTest extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:ThumbnailTest';
 
-  protected string $id = 'Panasonic:ThumbnailTest';
+    protected string $name = 'ThumbnailTest';
 
-  protected string $name = 'ThumbnailTest';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::PANA
+             * line : 278782
+             * type : undef
+             * writable : false
+             * count : 600
+             * flags : permanent
+             */
+            'id' => 'Panasonic::PANA.Panasonic:ThumbnailTest',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::PANA
-       * line : 278782
-       * type : undef
-       * writable : false
-       * count : 600
-       * flags : permanent
-       */
-      'id' => 'Panasonic::PANA.Panasonic:ThumbnailTest',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 600;
 
-  protected int $count = 600;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

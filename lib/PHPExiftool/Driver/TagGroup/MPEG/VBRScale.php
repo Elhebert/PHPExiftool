@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VBRScale extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:VBRScale';
 
-  protected string $id = 'MPEG:VBRScale';
+    protected string $name = 'VBRScale';
 
-  protected string $name = 'VBRScale';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Xing
+             * line : 166133
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Xing.MPEG:VBRScale',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Xing
-       * line : 166133
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Xing.MPEG:VBRScale',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

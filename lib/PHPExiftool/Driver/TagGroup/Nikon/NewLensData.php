@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NewLensData extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:NewLensData';
 
-  protected string $id = 'Nikon:NewLensData';
+    protected string $name = 'NewLensData';
 
-  protected string $name = 'NewLensData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::LensData0800
+             * line : 196105
+             * type : undef
+             * writable : true
+             * count : 17
+             * flags : permanent
+             */
+            'id' => 'Nikon::LensData0800.Nikon:NewLensData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::LensData0800
-       * line : 196105
-       * type : undef
-       * writable : true
-       * count : 17
-       * flags : permanent
-       */
-      'id' => 'Nikon::LensData0800.Nikon:NewLensData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 17;
 
-  protected int $count = 17;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HueSetting extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:HueSetting';
 
-  protected string $id = 'Olympus:HueSetting';
+    protected string $name = 'HueSetting';
 
-  protected string $name = 'HueSetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::RawInfo
+             * line : 261202
+             * type : int16s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawInfo.Olympus:HueSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::RawInfo
-       * line : 261202
-       * type : int16s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawInfo.Olympus:HueSetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

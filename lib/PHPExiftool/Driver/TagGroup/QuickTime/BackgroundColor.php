@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BackgroundColor extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:BackgroundColor';
 
-  protected string $id = 'QuickTime:BackgroundColor';
+    protected string $name = 'BackgroundColor';
 
-  protected string $name = 'BackgroundColor';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::TCMediaInfo
+             * line : 324999
+             * type : int16u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::TCMediaInfo.QuickTime:BackgroundColor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::TCMediaInfo
-       * line : 324999
-       * type : int16u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::TCMediaInfo.QuickTime:BackgroundColor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

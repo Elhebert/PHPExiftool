@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SampleDegradationPriority extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:SampleDegradationPriority';
 
-  protected string $id = 'QuickTime:SampleDegradationPriority';
+    protected string $name = 'SampleDegradationPriority';
 
-  protected string $name = 'SampleDegradationPriority';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::SampleTable
+             * line : 324428
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'QuickTime::SampleTable.QuickTime:SampleDegradationPriority',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::SampleTable
-       * line : 324428
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'QuickTime::SampleTable.QuickTime:SampleDegradationPriority',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 34;
-
+    protected int $flags = 34;
 }

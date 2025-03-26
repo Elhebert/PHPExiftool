@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Tamper_proofKeys extends AbstractTagGroup
 {
+    protected string $id = 'MOBI:Tamper-proofKeys';
 
-  protected string $id = 'MOBI:Tamper-proofKeys';
+    protected string $name = 'Tamper-proofKeys';
 
-  protected string $name = 'Tamper-proofKeys';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::EXTH
+             * line : 273605
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::EXTH.MOBI:Tamper-proofKeys',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::EXTH
-       * line : 273605
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::EXTH.MOBI:Tamper-proofKeys',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FilterEffectAuto extends AbstractTagGroup
 {
+    protected string $id = 'Canon:FilterEffectAuto';
 
-  protected string $id = 'Canon:FilterEffectAuto';
+    protected string $name = 'FilterEffectAuto';
 
-  protected string $name = 'FilterEffectAuto';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::PSInfo2
+             * line : 68722
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::PSInfo2.Canon:FilterEffectAuto',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::PSInfo2
-       * line : 68722
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::PSInfo2.Canon:FilterEffectAuto',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

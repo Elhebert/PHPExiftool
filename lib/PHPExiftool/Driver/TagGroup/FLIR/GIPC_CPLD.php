@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GIPC_CPLD extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:GIPC_CPLD';
 
-  protected string $id = 'FLIR:GIPC_CPLD';
+    protected string $name = 'GIPC_CPLD';
 
-  protected string $name = 'GIPC_CPLD';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::Parts
+             * line : 123629
+             * type : undef
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FLIR::Parts.FLIR:GIPC_CPLD',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::Parts
-       * line : 123629
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FLIR::Parts.FLIR:GIPC_CPLD',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

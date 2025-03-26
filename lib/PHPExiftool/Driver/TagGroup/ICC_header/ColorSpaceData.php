@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorSpaceData extends AbstractTagGroup
 {
+    protected string $id = 'ICC-header:ColorSpaceData';
 
-  protected string $id = 'ICC-header:ColorSpaceData';
+    protected string $name = 'ColorSpaceData';
 
-  protected string $name = 'ColorSpaceData';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Header
+             * line : 144119
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'ICC_Profile::Header.ICC-header:ColorSpaceData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Header
-       * line : 144119
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Header.ICC-header:ColorSpaceData',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

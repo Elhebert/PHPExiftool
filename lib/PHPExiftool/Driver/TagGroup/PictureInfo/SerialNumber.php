@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'PictureInfo:SerialNumber';
 
-  protected string $id = 'PictureInfo:SerialNumber';
+    protected string $name = 'SerialNumber';
 
-  protected string $name = 'SerialNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APP12::PictureInfo
+             * line : 745
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APP12::PictureInfo.PictureInfo:SerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APP12::PictureInfo
-       * line : 745
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APP12::PictureInfo.PictureInfo:SerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

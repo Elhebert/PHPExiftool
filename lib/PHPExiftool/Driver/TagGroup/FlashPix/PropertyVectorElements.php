@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PropertyVectorElements extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:PropertyVectorElements';
 
-  protected string $id = 'FlashPix:PropertyVectorElements';
+    protected string $name = 'PropertyVectorElements';
 
-  protected string $name = 'PropertyVectorElements';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::Extensions
+             * line : 124604
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::Extensions.FlashPix:PropertyVectorElements',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::Extensions
-       * line : 124604
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::Extensions.FlashPix:PropertyVectorElements',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

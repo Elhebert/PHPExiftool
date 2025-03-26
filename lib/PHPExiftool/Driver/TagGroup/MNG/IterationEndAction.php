@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IterationEndAction extends AbstractTagGroup
 {
+    protected string $id = 'MNG:IterationEndAction';
 
-  protected string $id = 'MNG:IterationEndAction';
+    protected string $name = 'IterationEndAction';
 
-  protected string $name = 'IterationEndAction';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::TerminationAction
+             * line : 165412
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::TerminationAction.MNG:IterationEndAction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::TerminationAction
-       * line : 165412
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::TerminationAction.MNG:IterationEndAction',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

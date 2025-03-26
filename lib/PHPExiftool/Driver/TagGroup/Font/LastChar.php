@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LastChar extends AbstractTagGroup
 {
+    protected string $id = 'Font:LastChar';
 
-  protected string $id = 'Font:LastChar';
+    protected string $name = 'LastChar';
 
-  protected string $name = 'LastChar';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::PFM
+             * line : 128091
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PFM.Font:LastChar',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::PFM
-       * line : 128091
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PFM.Font:LastChar',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

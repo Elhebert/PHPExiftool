@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MediaTrackBytes extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MediaTrackBytes';
 
-  protected string $id = 'QuickTime:MediaTrackBytes';
+    protected string $name = 'MediaTrackBytes';
 
-  protected string $name = 'MediaTrackBytes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintTrackInfo
+             * line : 313770
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintTrackInfo.QuickTime:MediaTrackBytes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintTrackInfo
-       * line : 313770
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintTrackInfo.QuickTime:MediaTrackBytes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

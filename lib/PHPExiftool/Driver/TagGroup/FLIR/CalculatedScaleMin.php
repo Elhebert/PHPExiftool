@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CalculatedScaleMin extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:CalculatedScaleMin';
 
-  protected string $id = 'FLIR:CalculatedScaleMin';
+    protected string $name = 'CalculatedScaleMin';
 
-  protected string $name = 'CalculatedScaleMin';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122644
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:CalculatedScaleMin',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122644
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:CalculatedScaleMin',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

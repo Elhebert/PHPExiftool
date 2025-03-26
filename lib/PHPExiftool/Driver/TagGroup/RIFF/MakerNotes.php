@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MakerNotes extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:MakerNotes';
 
-  protected string $id = 'RIFF:MakerNotes';
+    protected string $name = 'MakerNotes';
 
-  protected string $name = 'MakerNotes';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Exif
+             * line : 327888
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'RIFF::Exif.RIFF:MakerNotes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Exif
-       * line : 327888
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'RIFF::Exif.RIFF:MakerNotes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

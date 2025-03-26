@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MicrophoneJackPower extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:MicrophoneJackPower';
 
-  protected string $id = 'Nikon:MicrophoneJackPower';
+    protected string $name = 'MicrophoneJackPower';
 
-  protected string $name = 'MicrophoneJackPower';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::MenuSettingsZ9
+             * line : 201727
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Nikon::MenuSettingsZ9.Nikon:MicrophoneJackPower',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::MenuSettingsZ9
-       * line : 201727
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Nikon::MenuSettingsZ9.Nikon:MicrophoneJackPower',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

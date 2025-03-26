@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LocalDeltaType extends AbstractTagGroup
 {
+    protected string $id = 'MNG:LocalDeltaType';
 
-  protected string $id = 'MNG:LocalDeltaType';
+    protected string $name = 'LocalDeltaType';
 
-  protected string $name = 'LocalDeltaType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::CloneObject
+             * line : 164728
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::CloneObject.MNG:LocalDeltaType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::CloneObject
-       * line : 164728
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::CloneObject.MNG:LocalDeltaType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

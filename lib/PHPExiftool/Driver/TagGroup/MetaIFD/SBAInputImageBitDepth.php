@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SBAInputImageBitDepth extends AbstractTagGroup
 {
+    protected string $id = 'MetaIFD:SBAInputImageBitDepth';
 
-  protected string $id = 'MetaIFD:SBAInputImageBitDepth';
+    protected string $name = 'SBAInputImageBitDepth';
 
-  protected string $name = 'SBAInputImageBitDepth';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Meta
+             * line : 158455
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Kodak::Meta.MetaIFD:SBAInputImageBitDepth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Meta
-       * line : 158455
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Kodak::Meta.MetaIFD:SBAInputImageBitDepth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

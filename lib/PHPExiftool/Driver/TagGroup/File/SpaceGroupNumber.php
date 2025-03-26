@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SpaceGroupNumber extends AbstractTagGroup
 {
+    protected string $id = 'File:SpaceGroupNumber';
 
-  protected string $id = 'File:SpaceGroupNumber';
+    protected string $name = 'SpaceGroupNumber';
 
-  protected string $name = 'SpaceGroupNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166957
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MRC::Main.File:SpaceGroupNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166957
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:SpaceGroupNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IntroTimeScale extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:IntroTimeScale';
 
-  protected string $id = 'XMP-xmpDM:IntroTimeScale';
+    protected string $name = 'IntroTimeScale';
 
-  protected string $name = 'IntroTimeScale';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413098
+             * type : rational
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:IntroTimeScale',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413098
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:IntroTimeScale',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

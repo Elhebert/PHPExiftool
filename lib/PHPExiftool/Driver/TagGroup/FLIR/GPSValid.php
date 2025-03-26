@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSValid extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:GPSValid';
 
-  protected string $id = 'FLIR:GPSValid';
+    protected string $name = 'GPSValid';
 
-  protected string $name = 'GPSValid';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::GPSInfo
+             * line : 122660
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::GPSInfo.FLIR:GPSValid',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::GPSInfo
-       * line : 122660
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::GPSInfo.FLIR:GPSValid',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

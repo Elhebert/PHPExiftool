@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LinearizationTable extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:LinearizationTable';
 
-  protected string $id = 'SubIFD:LinearizationTable';
+    protected string $name = 'LinearizationTable';
 
-  protected string $name = 'LinearizationTable';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 118941
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:LinearizationTable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 118941
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:LinearizationTable',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

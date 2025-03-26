@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Watermark extends AbstractTagGroup
 {
+    protected string $id = 'MOBI:Watermark';
 
-  protected string $id = 'MOBI:Watermark';
+    protected string $name = 'Watermark';
 
-  protected string $name = 'Watermark';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::EXTH
+             * line : 273599
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::EXTH.MOBI:Watermark',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::EXTH
-       * line : 273599
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::EXTH.MOBI:Watermark',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

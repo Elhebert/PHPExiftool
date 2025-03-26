@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BannerImageURL extends AbstractTagGroup
 {
+    protected string $id = 'ASF:BannerImageURL';
 
-  protected string $id = 'ASF:BannerImageURL';
+    protected string $name = 'BannerImageURL';
 
-  protected string $name = 'BannerImageURL';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::ContentBranding
+             * line : 924
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ContentBranding.ASF:BannerImageURL',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : ASF::ExtendedDescr
+             * line : 1086
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::ExtendedDescr.ASF:BannerImageURL',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::ContentBranding
-       * line : 924
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ContentBranding.ASF:BannerImageURL',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : ASF::ExtendedDescr
-       * line : 1086
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::ExtendedDescr.ASF:BannerImageURL',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class KhufuUSpaceC2MixingCoefficient extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:KhufuUSpaceC2MixingCoefficient';
 
-  protected string $id = 'KodakIFD:KhufuUSpaceC2MixingCoefficient';
+    protected string $name = 'KhufuUSpaceC2MixingCoefficient';
 
-  protected string $name = 'KhufuUSpaceC2MixingCoefficient';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 156858
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:KhufuUSpaceC2MixingCoefficient',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 156858
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:KhufuUSpaceC2MixingCoefficient',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

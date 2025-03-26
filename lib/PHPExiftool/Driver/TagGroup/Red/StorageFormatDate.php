@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StorageFormatDate extends AbstractTagGroup
 {
+    protected string $id = 'Red:StorageFormatDate';
 
-  protected string $id = 'Red:StorageFormatDate';
+    protected string $name = 'StorageFormatDate';
 
-  protected string $name = 'StorageFormatDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Red::Main
+             * line : 331473
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Red::Main.Red:StorageFormatDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Red::Main
-       * line : 331473
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Red::Main.Red:StorageFormatDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

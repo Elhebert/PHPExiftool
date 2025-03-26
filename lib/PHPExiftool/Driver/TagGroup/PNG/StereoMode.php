@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StereoMode extends AbstractTagGroup
 {
+    protected string $id = 'PNG:StereoMode';
 
-  protected string $id = 'PNG:StereoMode';
+    protected string $name = 'StereoMode';
 
-  protected string $name = 'StereoMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::StereoImage
+             * line : 272753
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::StereoImage.PNG:StereoMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::StereoImage
-       * line : 272753
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::StereoImage.PNG:StereoMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

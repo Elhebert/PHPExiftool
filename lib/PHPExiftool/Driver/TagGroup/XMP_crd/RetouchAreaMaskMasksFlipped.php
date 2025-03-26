@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RetouchAreaMaskMasksFlipped extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:RetouchAreaMaskMasksFlipped';
 
-  protected string $id = 'XMP-crd:RetouchAreaMaskMasksFlipped';
+    protected string $name = 'RetouchAreaMaskMasksFlipped';
 
-  protected string $name = 'RetouchAreaMaskMasksFlipped';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 400789
+             * type : boolean
+             * writable : true
+             * count :
+             * flags : avoid,flattened
+             */
+            'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskMasksFlipped',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 400789
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : avoid,flattened
-       */
-      'id' => 'XMP::crd.XMP-crd:RetouchAreaMaskMasksFlipped',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

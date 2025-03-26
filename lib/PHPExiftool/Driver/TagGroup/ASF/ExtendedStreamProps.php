@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExtendedStreamProps extends AbstractTagGroup
 {
+    protected string $id = 'ASF:ExtendedStreamProps';
 
-  protected string $id = 'ASF:ExtendedStreamProps';
+    protected string $name = 'ExtendedStreamProps';
 
-  protected string $name = 'ExtendedStreamProps';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::HeaderExtension
+             * line : 1824
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::HeaderExtension.ASF:ExtendedStreamProps',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::HeaderExtension
-       * line : 1824
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::HeaderExtension.ASF:ExtendedStreamProps',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

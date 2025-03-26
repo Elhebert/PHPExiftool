@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LookupTable extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:LookupTable';
 
-  protected string $id = 'IPTC:LookupTable';
+    protected string $name = 'LookupTable';
 
-  protected string $name = 'LookupTable';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::NewsPhoto
+             * line : 151605
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'IPTC::NewsPhoto.IPTC:LookupTable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::NewsPhoto
-       * line : 151605
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'IPTC::NewsPhoto.IPTC:LookupTable',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

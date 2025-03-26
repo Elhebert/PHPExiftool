@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConfirmedObjectSize extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ConfirmedObjectSize';
 
-  protected string $id = 'IPTC:ConfirmedObjectSize';
+    protected string $name = 'ConfirmedObjectSize';
 
-  protected string $name = 'ConfirmedObjectSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::PostObjectData
+             * line : 151939
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::PostObjectData.IPTC:ConfirmedObjectSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::PostObjectData
-       * line : 151939
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::PostObjectData.IPTC:ConfirmedObjectSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InternalIDNumber extends AbstractTagGroup
 {
+    protected string $id = 'RTF:InternalIDNumber';
 
-  protected string $id = 'RTF:InternalIDNumber';
+    protected string $name = 'InternalIDNumber';
 
-  protected string $name = 'InternalIDNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RTF::Main
+             * line : 329245
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RTF::Main.RTF:InternalIDNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RTF::Main
-       * line : 329245
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RTF::Main.RTF:InternalIDNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

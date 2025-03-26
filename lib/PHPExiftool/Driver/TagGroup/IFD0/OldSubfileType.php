@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OldSubfileType extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:OldSubfileType';
 
-  protected string $id = 'IFD0:OldSubfileType';
+    protected string $name = 'OldSubfileType';
 
-  protected string $name = 'OldSubfileType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 109895
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:OldSubfileType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 109895
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:OldSubfileType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

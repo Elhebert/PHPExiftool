@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Make extends AbstractTagGroup
 {
+    protected string $id = 'KyoceraRaw:Make';
 
-  protected string $id = 'KyoceraRaw:Make';
+    protected string $name = 'Make';
 
-  protected string $name = 'Make';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : KyoceraRaw::Main
+             * line : 160747
+             * type : string
+             * writable : false
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'KyoceraRaw::Main.KyoceraRaw:Make',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : KyoceraRaw::Main
-       * line : 160747
-       * type : string
-       * writable : false
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'KyoceraRaw::Main.KyoceraRaw:Make',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 7;
 
-  protected int $count = 7;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

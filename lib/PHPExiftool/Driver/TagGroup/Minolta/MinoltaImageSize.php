@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MinoltaImageSize extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:MinoltaImageSize';
 
-  protected string $id = 'Minolta:MinoltaImageSize';
+    protected string $name = 'MinoltaImageSize';
 
-  protected string $name = 'MinoltaImageSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraSettings
+             * line : 177155
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings.Minolta:MinoltaImageSize',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Minolta::CameraSettings5D
+             * line : 178381
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings5D.Minolta:MinoltaImageSize',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Minolta::CameraSettings7D
+             * line : 179361
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings7D.Minolta:MinoltaImageSize',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Minolta::Main
+             * line : 183653
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::Main.Minolta:MinoltaImageSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraSettings
-       * line : 177155
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings.Minolta:MinoltaImageSize',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Minolta::CameraSettings5D
-       * line : 178381
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings5D.Minolta:MinoltaImageSize',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Minolta::CameraSettings7D
-       * line : 179361
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings7D.Minolta:MinoltaImageSize',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Minolta::Main
-       * line : 183653
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::Main.Minolta:MinoltaImageSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

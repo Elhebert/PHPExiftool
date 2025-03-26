@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Gamma extends AbstractTagGroup
 {
+    protected string $id = 'DjVu:Gamma';
 
-  protected string $id = 'DjVu:Gamma';
+    protected string $name = 'Gamma';
 
-  protected string $name = 'Gamma';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Info
+             * line : 107135
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DjVu::Info.DjVu:Gamma',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Info
-       * line : 107135
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DjVu::Info.DjVu:Gamma',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

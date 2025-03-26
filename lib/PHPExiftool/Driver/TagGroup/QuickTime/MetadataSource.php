@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MetadataSource extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MetadataSource';
 
-  protected string $id = 'QuickTime:MetadataSource';
+    protected string $name = 'MetadataSource';
 
-  protected string $name = 'MetadataSource';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::sv3d
+             * line : 326740
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::sv3d.QuickTime:MetadataSource',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::sv3d
-       * line : 326740
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::sv3d.QuickTime:MetadataSource',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

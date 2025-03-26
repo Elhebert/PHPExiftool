@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Duration extends AbstractTagGroup
 {
+    protected string $id = 'Flash:Duration';
 
-  protected string $id = 'Flash:Duration';
+    protected string $name = 'Duration';
 
-  protected string $name = 'Duration';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Flash::Main
+             * line : 123910
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Flash::Main.Flash:Duration',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Flash::Meta
+             * line : 124063
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Flash::Meta.Flash:Duration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Flash::Main
-       * line : 123910
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Flash::Main.Flash:Duration',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Flash::Meta
-       * line : 124063
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Flash::Meta.Flash:Duration',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

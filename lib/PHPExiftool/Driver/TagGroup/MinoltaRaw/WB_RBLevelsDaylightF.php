@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RBLevelsDaylightF extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:WB_RBLevelsDaylightF';
 
-  protected string $id = 'MinoltaRaw:WB_RBLevelsDaylightF';
+    protected string $name = 'WB_RBLevelsDaylightF';
 
-  protected string $name = 'WB_RBLevelsDaylightF';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187513
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:WB_RBLevelsDaylightF',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187513
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:WB_RBLevelsDaylightF',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

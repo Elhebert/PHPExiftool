@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IncludedFileID extends AbstractTagGroup
 {
+    protected string $id = 'DjVu:IncludedFileID';
 
-  protected string $id = 'DjVu:IncludedFileID';
+    protected string $name = 'IncludedFileID';
 
-  protected string $name = 'IncludedFileID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Main
+             * line : 107234
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DjVu::Main.DjVu:IncludedFileID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Main
-       * line : 107234
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DjVu::Main.DjVu:IncludedFileID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

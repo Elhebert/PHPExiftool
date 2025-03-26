@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ManualFlash extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ManualFlash';
 
-  protected string $id = 'Olympus:ManualFlash';
+    protected string $name = 'ManualFlash';
 
-  protected string $name = 'ManualFlash';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::FocusInfo
+             * line : 255095
+             * type : int16u
+             * writable : false
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Olympus::FocusInfo.Olympus:ManualFlash',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::FocusInfo
-       * line : 255095
-       * type : int16u
-       * writable : false
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Olympus::FocusInfo.Olympus:ManualFlash',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

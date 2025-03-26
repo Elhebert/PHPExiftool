@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoStreamType extends AbstractTagGroup
 {
+    protected string $id = 'M2TS:VideoStreamType';
 
-  protected string $id = 'M2TS:VideoStreamType';
+    protected string $name = 'VideoStreamType';
 
-  protected string $name = 'VideoStreamType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : M2TS::Main
+             * line : 162630
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'M2TS::Main.M2TS:VideoStreamType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : M2TS::Main
-       * line : 162630
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'M2TS::Main.M2TS:VideoStreamType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

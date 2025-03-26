@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalLengthIn35mmFormat extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:FocalLengthIn35mmFormat';
 
-  protected string $id = 'SigmaRaw:FocalLengthIn35mmFormat';
+    protected string $name = 'FocalLengthIn35mmFormat';
 
-  protected string $name = 'FocalLengthIn35mmFormat';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Properties
+             * line : 339978
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Properties.SigmaRaw:FocalLengthIn35mmFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Properties
-       * line : 339978
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Properties.SigmaRaw:FocalLengthIn35mmFormat',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

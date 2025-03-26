@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JPEGImageLength extends AbstractTagGroup
 {
+    protected string $id = 'File:JPEGImageLength';
 
-  protected string $id = 'File:JPEGImageLength';
+    protected string $name = 'JPEGImageLength';
 
-  protected string $name = 'JPEGImageLength';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 121449
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Extra.File:JPEGImageLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 121449
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Extra.File:JPEGImageLength',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

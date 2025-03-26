@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraIdentifier extends AbstractTagGroup
 {
+    protected string $id = 'Keys:CameraIdentifier';
 
-  protected string $id = 'Keys:CameraIdentifier';
+    protected string $name = 'CameraIdentifier';
 
-  protected string $name = 'CameraIdentifier';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Keys
+             * line : 323314
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Keys.Keys:CameraIdentifier',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Keys
-       * line : 323314
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Keys.Keys:CameraIdentifier',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

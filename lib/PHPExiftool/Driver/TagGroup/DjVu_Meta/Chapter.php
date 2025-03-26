@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Chapter extends AbstractTagGroup
 {
+    protected string $id = 'DjVu-Meta:Chapter';
 
-  protected string $id = 'DjVu-Meta:Chapter';
+    protected string $name = 'Chapter';
 
-  protected string $name = 'Chapter';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Meta
+             * line : 107405
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DjVu::Meta.DjVu-Meta:Chapter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Meta
-       * line : 107405
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DjVu::Meta.DjVu-Meta:Chapter',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

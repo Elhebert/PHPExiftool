@@ -19,151 +19,149 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPointsUsed extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:AFPointsUsed';
 
-  protected string $id = 'Nikon:AFPointsUsed';
+    protected string $name = 'AFPointsUsed';
 
-  protected string $name = 'AFPointsUsed';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189771
+             * type : undef
+             * writable : true
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189780
+             * type : undef
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189870
+             * type : undef
+             * writable : true
+             * count : 5
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189879
+             * type : undef
+             * writable : true
+             * count : 17
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189888
+             * type : undef
+             * writable : true
+             * count : 21
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        5 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189897
+             * type : undef
+             * writable : true
+             * count : 29
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        6 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189906
+             * type : undef
+             * writable : true
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        7 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189915
+             * type : undef
+             * writable : true
+             * count : 13
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        8 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189924
+             * type : undef
+             * writable : true
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+        9 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189933
+             * type : undef
+             * writable : true
+             * count : 14
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189771
-       * type : undef
-       * writable : true
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189780
-       * type : undef
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189870
-       * type : undef
-       * writable : true
-       * count : 5
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189879
-       * type : undef
-       * writable : true
-       * count : 17
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189888
-       * type : undef
-       * writable : true
-       * count : 21
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    5 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189897
-       * type : undef
-       * writable : true
-       * count : 29
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    6 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189906
-       * type : undef
-       * writable : true
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    7 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189915
-       * type : undef
-       * writable : true
-       * count : 13
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    8 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189924
-       * type : undef
-       * writable : true
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-    9 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189933
-       * type : undef
-       * writable : true
-       * count : 14
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsUsed',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

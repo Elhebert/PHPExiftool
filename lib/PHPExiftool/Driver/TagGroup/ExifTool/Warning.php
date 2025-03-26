@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Warning extends AbstractTagGroup
 {
+    protected string $id = 'ExifTool:Warning';
 
-  protected string $id = 'ExifTool:Warning';
+    protected string $name = 'Warning';
 
-  protected string $name = 'Warning';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 121568
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Extra.ExifTool:Warning',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 121568
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Extra.ExifTool:Warning',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

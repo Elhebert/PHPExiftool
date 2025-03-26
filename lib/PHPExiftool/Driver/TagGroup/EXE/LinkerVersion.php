@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LinkerVersion extends AbstractTagGroup
 {
+    protected string $id = 'EXE:LinkerVersion';
 
-  protected string $id = 'EXE:LinkerVersion';
+    protected string $name = 'LinkerVersion';
 
-  protected string $name = 'LinkerVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::Main
+             * line : 108868
+             * type : int8u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'EXE::Main.EXE:LinkerVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::Main
-       * line : 108868
-       * type : int8u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'EXE::Main.EXE:LinkerVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_GRGBLevelsCloudy extends AbstractTagGroup
 {
+    protected string $id = 'RAF:WB_GRGBLevelsCloudy';
 
-  protected string $id = 'RAF:WB_GRGBLevelsCloudy';
+    protected string $name = 'WB_GRGBLevelsCloudy';
 
-  protected string $name = 'WB_GRGBLevelsCloudy';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::RAF
+             * line : 131098
+             * type : int16u
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'FujiFilm::RAF.RAF:WB_GRGBLevelsCloudy',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::RAF
-       * line : 131098
-       * type : int16u
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'FujiFilm::RAF.RAF:WB_GRGBLevelsCloudy',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

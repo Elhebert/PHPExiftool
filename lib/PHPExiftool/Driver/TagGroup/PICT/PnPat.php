@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PnPat extends AbstractTagGroup
 {
+    protected string $id = 'PICT:PnPat';
 
-  protected string $id = 'PICT:PnPat';
+    protected string $name = 'PnPat';
 
-  protected string $name = 'PnPat';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264635
+             * type : int8u
+             * writable : false
+             * count : 8
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:PnPat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264635
-       * type : int8u
-       * writable : false
-       * count : 8
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:PnPat',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 8;
-
+    protected int $count = 8;
 }

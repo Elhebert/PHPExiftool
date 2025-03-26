@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PrintIM extends AbstractTagGroup
 {
+    protected string $id = 'EPPIM:PrintIM';
 
-  protected string $id = 'EPPIM:PrintIM';
+    protected string $name = 'PrintIM';
 
-  protected string $name = 'PrintIM';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::EPPIM
+             * line : 152435
+             * type : undef
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::EPPIM.EPPIM:PrintIM',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::EPPIM
-       * line : 152435
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::EPPIM.EPPIM:PrintIM',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

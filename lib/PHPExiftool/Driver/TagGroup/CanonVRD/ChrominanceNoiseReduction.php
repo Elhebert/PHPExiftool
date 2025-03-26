@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChrominanceNoiseReduction extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:ChrominanceNoiseReduction';
 
-  protected string $id = 'CanonVRD:ChrominanceNoiseReduction';
+    protected string $name = 'ChrominanceNoiseReduction';
 
-  protected string $name = 'ChrominanceNoiseReduction';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DR4
+             * line : 80661
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::DR4.CanonVRD:ChrominanceNoiseReduction',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonVRD::Ver2
+             * line : 83145
+             * type : int16s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver2.CanonVRD:ChrominanceNoiseReduction',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : CanonVRD::Ver2
+             * line : 83177
+             * type : int16s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver2.CanonVRD:ChrominanceNoiseReduction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DR4
-       * line : 80661
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::DR4.CanonVRD:ChrominanceNoiseReduction',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonVRD::Ver2
-       * line : 83145
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver2.CanonVRD:ChrominanceNoiseReduction',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : CanonVRD::Ver2
-       * line : 83177
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver2.CanonVRD:ChrominanceNoiseReduction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

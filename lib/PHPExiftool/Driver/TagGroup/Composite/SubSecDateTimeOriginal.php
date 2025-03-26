@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubSecDateTimeOriginal extends AbstractTagGroup
 {
+    protected string $id = 'Composite:SubSecDateTimeOriginal';
 
-  protected string $id = 'Composite:SubSecDateTimeOriginal';
+    protected string $name = 'SubSecDateTimeOriginal';
 
-  protected string $name = 'SubSecDateTimeOriginal';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90508
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:SubSecDateTimeOriginal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90508
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:SubSecDateTimeOriginal',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

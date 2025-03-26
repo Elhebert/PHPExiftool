@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DetectorCommercialName extends AbstractTagGroup
 {
+    protected string $id = 'File:DetectorCommercialName';
 
-  protected string $id = 'File:DetectorCommercialName';
+    protected string $name = 'DetectorCommercialName';
 
-  protected string $name = 'DetectorCommercialName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166770
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:DetectorCommercialName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166770
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:DetectorCommercialName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

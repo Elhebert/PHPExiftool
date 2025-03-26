@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReuseAllowed extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpPLUS:ReuseAllowed';
 
-  protected string $id = 'XMP-xmpPLUS:ReuseAllowed';
+    protected string $name = 'ReuseAllowed';
 
-  protected string $name = 'ReuseAllowed';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpPLUS
+             * line : 414354
+             * type : boolean
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::xmpPLUS.XMP-xmpPLUS:ReuseAllowed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpPLUS
-       * line : 414354
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::xmpPLUS.XMP-xmpPLUS:ReuseAllowed',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

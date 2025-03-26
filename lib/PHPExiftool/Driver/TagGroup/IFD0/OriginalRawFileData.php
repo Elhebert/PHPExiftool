@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalRawFileData extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:OriginalRawFileData';
 
-  protected string $id = 'IFD0:OriginalRawFileData';
+    protected string $name = 'OriginalRawFileData';
 
-  protected string $name = 'OriginalRawFileData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 119962
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Exif::Main.IFD0:OriginalRawFileData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 119962
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Exif::Main.IFD0:OriginalRawFileData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

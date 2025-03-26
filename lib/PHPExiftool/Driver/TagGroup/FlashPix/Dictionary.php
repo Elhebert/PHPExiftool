@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Dictionary extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:Dictionary';
 
-  protected string $id = 'FlashPix:Dictionary';
+    protected string $name = 'Dictionary';
 
-  protected string $name = 'Dictionary';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::SummaryInfo
+             * line : 126639
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'FlashPix::SummaryInfo.FlashPix:Dictionary',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::SummaryInfo
-       * line : 126639
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'FlashPix::SummaryInfo.FlashPix:Dictionary',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

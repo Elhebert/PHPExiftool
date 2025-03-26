@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HuffmanTable extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:HuffmanTable';
 
-  protected string $id = 'Pentax:HuffmanTable';
+    protected string $name = 'HuffmanTable';
 
-  protected string $name = 'HuffmanTable';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300817
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Pentax::Main.Pentax:HuffmanTable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300817
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Pentax::Main.Pentax:HuffmanTable',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2086;
-
+    protected int $flags = 2086;
 }

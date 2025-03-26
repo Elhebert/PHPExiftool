@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MonochromeProfileSettings extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:MonochromeProfileSettings';
 
-  protected string $id = 'Olympus:MonochromeProfileSettings';
+    protected string $name = 'MonochromeProfileSettings';
 
-  protected string $name = 'MonochromeProfileSettings';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 252740
+             * type : int16s
+             * writable : true
+             * count : 6
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:MonochromeProfileSettings',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 252740
-       * type : int16s
-       * writable : true
-       * count : 6
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:MonochromeProfileSettings',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 6;
 
-  protected int $count = 6;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

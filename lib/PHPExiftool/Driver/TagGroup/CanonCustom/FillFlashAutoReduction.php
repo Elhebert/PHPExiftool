@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FillFlashAutoReduction extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:FillFlashAutoReduction';
 
-  protected string $id = 'CanonCustom:FillFlashAutoReduction';
+    protected string $name = 'FillFlashAutoReduction';
 
-  protected string $name = 'FillFlashAutoReduction';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions10D
+             * line : 71751
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions10D.CanonCustom:FillFlashAutoReduction',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions1D
+             * line : 72216
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions1D.CanonCustom:FillFlashAutoReduction',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : CanonCustom::FunctionsD30
+             * line : 78126
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::FunctionsD30.CanonCustom:FillFlashAutoReduction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions10D
-       * line : 71751
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions10D.CanonCustom:FillFlashAutoReduction',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions1D
-       * line : 72216
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions1D.CanonCustom:FillFlashAutoReduction',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : CanonCustom::FunctionsD30
-       * line : 78126
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::FunctionsD30.CanonCustom:FillFlashAutoReduction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AF_SPriority extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:AF-SPriority';
 
-  protected string $id = 'FujiFilm:AF-SPriority';
+    protected string $name = 'AF-SPriority';
 
-  protected string $name = 'AF-SPriority';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::PrioritySettings
+             * line : 131029
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::PrioritySettings.FujiFilm:AF-SPriority',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::PrioritySettings
-       * line : 131029
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::PrioritySettings.FujiFilm:AF-SPriority',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

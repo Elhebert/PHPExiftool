@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BorderLocation extends AbstractTagGroup
 {
+    protected string $id = 'KodakBordersIFD:BorderLocation';
 
-  protected string $id = 'KodakBordersIFD:BorderLocation';
+    protected string $name = 'BorderLocation';
 
-  protected string $name = 'BorderLocation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Borders
+             * line : 154325
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Kodak::Borders.KodakBordersIFD:BorderLocation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Borders
-       * line : 154325
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Kodak::Borders.KodakBordersIFD:BorderLocation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SignType extends AbstractTagGroup
 {
+    protected string $id = 'RMETA:SignType';
 
-  protected string $id = 'RMETA:SignType';
+    protected string $name = 'SignType';
 
-  protected string $name = 'SignType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::RMETA
+             * line : 333685
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Ricoh::RMETA.RMETA:SignType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::RMETA
-       * line : 333685
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Ricoh::RMETA.RMETA:SignType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

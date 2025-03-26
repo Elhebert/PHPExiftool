@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:AFImageHeight';
 
-  protected string $id = 'Nikon:AFImageHeight';
+    protected string $name = 'AFImageHeight';
 
-  protected string $name = 'AFImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189949
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFImageHeight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 190005
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFImageHeight',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 190972
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFImageHeight',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Nikon::AFInfo2V0400
+             * line : 191031
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2V0400.Nikon:AFImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189949
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFImageHeight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 190005
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFImageHeight',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 190972
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFImageHeight',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Nikon::AFInfo2V0400
-       * line : 191031
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2V0400.Nikon:AFImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

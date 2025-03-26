@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SetButtonCrossKeysFunc extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:SetButtonCrossKeysFunc';
 
-  protected string $id = 'CanonCustom:SetButtonCrossKeysFunc';
+    protected string $name = 'SetButtonCrossKeysFunc';
 
-  protected string $name = 'SetButtonCrossKeysFunc';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions350D
+             * line : 76731
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions350D.CanonCustom:SetButtonCrossKeysFunc',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions400D
+             * line : 76990
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions400D.CanonCustom:SetButtonCrossKeysFunc',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions350D
-       * line : 76731
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions350D.CanonCustom:SetButtonCrossKeysFunc',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions400D
-       * line : 76990
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions400D.CanonCustom:SetButtonCrossKeysFunc',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorBalance extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Camera:ColorBalance';
 
-  protected string $id = 'MIE-Camera:ColorBalance';
+    protected string $name = 'ColorBalance';
 
-  protected string $name = 'ColorBalance';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Camera
+             * line : 162814
+             * type : rational64u
+             * writable : true
+             * count : 3
+             * flags :
+             */
+            'id' => 'MIE::Camera.MIE-Camera:ColorBalance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Camera
-       * line : 162814
-       * type : rational64u
-       * writable : true
-       * count : 3
-       * flags : 
-       */
-      'id' => 'MIE::Camera.MIE-Camera:ColorBalance',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

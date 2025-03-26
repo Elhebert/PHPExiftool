@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ErrorCorrectionType extends AbstractTagGroup
 {
+    protected string $id = 'ASF:ErrorCorrectionType';
 
-  protected string $id = 'ASF:ErrorCorrectionType';
+    protected string $name = 'ErrorCorrectionType';
 
-  protected string $name = 'ErrorCorrectionType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::StreamProperties
+             * line : 2076
+             * type : binary
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'ASF::StreamProperties.ASF:ErrorCorrectionType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::StreamProperties
-       * line : 2076
-       * type : binary
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'ASF::StreamProperties.ASF:ErrorCorrectionType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

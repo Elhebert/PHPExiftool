@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class KeywordInfo extends AbstractTagGroup
 {
+    protected string $id = 'XMP-mwg-kw:KeywordInfo';
 
-  protected string $id = 'XMP-mwg-kw:KeywordInfo';
+    protected string $name = 'KeywordInfo';
 
-  protected string $name = 'KeywordInfo';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MWG::Keywords
+             * line : 167033
+             * type : struct
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MWG::Keywords.XMP-mwg-kw:KeywordInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MWG::Keywords
-       * line : 167033
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MWG::Keywords.XMP-mwg-kw:KeywordInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

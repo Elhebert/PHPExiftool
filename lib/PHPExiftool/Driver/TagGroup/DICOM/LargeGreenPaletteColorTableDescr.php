@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LargeGreenPaletteColorTableDescr extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:LargeGreenPaletteColorTableDescr';
 
-  protected string $id = 'DICOM:LargeGreenPaletteColorTableDescr';
+    protected string $name = 'LargeGreenPaletteColorTableDescr';
 
-  protected string $name = 'LargeGreenPaletteColorTableDescr';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98966
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:LargeGreenPaletteColorTableDescr',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98966
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:LargeGreenPaletteColorTableDescr',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

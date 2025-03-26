@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToneCurveShape extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:ToneCurveShape';
 
-  protected string $id = 'CanonVRD:ToneCurveShape';
+    protected string $name = 'ToneCurveShape';
 
-  protected string $name = 'ToneCurveShape';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::ToneCurve
+             * line : 82130
+             * type : int32u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::ToneCurve.CanonVRD:ToneCurveShape',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::ToneCurve
-       * line : 82130
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::ToneCurve.CanonVRD:ToneCurveShape',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFAreaPointSize extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:AFAreaPointSize';
 
-  protected string $id = 'FujiFilm:AFAreaPointSize';
+    protected string $name = 'AFAreaPointSize';
 
-  protected string $name = 'AFAreaPointSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::FocusSettings
+             * line : 128627
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::FocusSettings.FujiFilm:AFAreaPointSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::FocusSettings
-       * line : 128627
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::FocusSettings.FujiFilm:AFAreaPointSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

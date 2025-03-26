@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ARMIdentifier extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ARMIdentifier';
 
-  protected string $id = 'IPTC:ARMIdentifier';
+    protected string $name = 'ARMIdentifier';
 
-  protected string $name = 'ARMIdentifier';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::EnvelopeRecord
+             * line : 151317
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::EnvelopeRecord.IPTC:ARMIdentifier',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::EnvelopeRecord
-       * line : 151317
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::EnvelopeRecord.IPTC:ARMIdentifier',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PixelAspectRatio extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:PixelAspectRatio';
 
-  protected string $id = 'CanonRaw:PixelAspectRatio';
+    protected string $name = 'PixelAspectRatio';
 
-  protected string $name = 'PixelAspectRatio';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::ImageInfo
+             * line : 78607
+             * type : float
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::ImageInfo.CanonRaw:PixelAspectRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::ImageInfo
-       * line : 78607
-       * type : float
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::ImageInfo.CanonRaw:PixelAspectRatio',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

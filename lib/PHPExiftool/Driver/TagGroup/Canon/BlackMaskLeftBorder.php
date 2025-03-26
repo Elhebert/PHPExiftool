@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlackMaskLeftBorder extends AbstractTagGroup
 {
+    protected string $id = 'Canon:BlackMaskLeftBorder';
 
-  protected string $id = 'Canon:BlackMaskLeftBorder';
+    protected string $name = 'BlackMaskLeftBorder';
 
-  protected string $name = 'BlackMaskLeftBorder';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::SensorInfo
+             * line : 70101
+             * type : int16s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::SensorInfo.Canon:BlackMaskLeftBorder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::SensorInfo
-       * line : 70101
-       * type : int16s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::SensorInfo.Canon:BlackMaskLeftBorder',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

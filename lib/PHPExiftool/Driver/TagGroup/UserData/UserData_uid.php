@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UserData_uid extends AbstractTagGroup
 {
+    protected string $id = 'UserData:UserData_uid';
 
-  protected string $id = 'UserData:UserData_uid';
+    protected string $name = 'UserData_uid';
 
-  protected string $name = 'UserData_uid';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 326052
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'QuickTime::UserData.UserData:UserData_uid',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 326052
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'QuickTime::UserData.UserData:UserData_uid',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2082;
-
+    protected int $flags = 2082;
 }

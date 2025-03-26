@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RegionExtensions extends AbstractTagGroup
 {
+    protected string $id = 'XMP-mwg-rs:RegionExtensions';
 
-  protected string $id = 'XMP-mwg-rs:RegionExtensions';
+    protected string $name = 'RegionExtensions';
 
-  protected string $name = 'RegionExtensions';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MWG::Regions
+             * line : 167176
+             * type : struct
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'MWG::Regions.XMP-mwg-rs:RegionExtensions',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MWG::Regions
-       * line : 167176
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'MWG::Regions.XMP-mwg-rs:RegionExtensions',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

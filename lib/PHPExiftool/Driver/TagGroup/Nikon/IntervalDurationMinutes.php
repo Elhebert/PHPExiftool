@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IntervalDurationMinutes extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:IntervalDurationMinutes';
 
-  protected string $id = 'Nikon:IntervalDurationMinutes';
+    protected string $name = 'IntervalDurationMinutes';
 
-  protected string $name = 'IntervalDurationMinutes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::MenuSettingsZ7II
+             * line : 199724
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::MenuSettingsZ7II.Nikon:IntervalDurationMinutes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::MenuSettingsZ7II
-       * line : 199724
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::MenuSettingsZ7II.Nikon:IntervalDurationMinutes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

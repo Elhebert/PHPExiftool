@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:ImageWidth';
 
-  protected string $id = 'SigmaRaw:ImageWidth';
+    protected string $name = 'ImageWidth';
 
-  protected string $name = 'ImageWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Header
+             * line : 339337
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header.SigmaRaw:ImageWidth',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : SigmaRaw::Header4
+             * line : 339434
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header4.SigmaRaw:ImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Header
-       * line : 339337
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header.SigmaRaw:ImageWidth',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : SigmaRaw::Header4
-       * line : 339434
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header4.SigmaRaw:ImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

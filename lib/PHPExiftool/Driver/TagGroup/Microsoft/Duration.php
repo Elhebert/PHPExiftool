@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Duration extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:Duration';
 
-  protected string $id = 'Microsoft:Duration';
+    protected string $name = 'Duration';
 
-  protected string $name = 'Duration';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 174602
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:Duration',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175628
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:Duration',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175852
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:Duration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 174602
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:Duration',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175628
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:Duration',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175852
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:Duration',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 1;
-
+    protected int $flags = 1;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Pages extends AbstractTagGroup
 {
+    protected string $id = 'MS-DOC:Pages';
 
-  protected string $id = 'MS-DOC:Pages';
+    protected string $name = 'Pages';
 
-  protected string $name = 'Pages';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::DOP
+             * line : 124334
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DOP.MS-DOC:Pages',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::DOP
-       * line : 124334
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DOP.MS-DOC:Pages',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MinTransmissionTime extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MinTransmissionTime';
 
-  protected string $id = 'QuickTime:MinTransmissionTime';
+    protected string $name = 'MinTransmissionTime';
 
-  protected string $name = 'MinTransmissionTime';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintTrackInfo
+             * line : 313796
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintTrackInfo.QuickTime:MinTransmissionTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintTrackInfo
-       * line : 313796
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintTrackInfo.QuickTime:MinTransmissionTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

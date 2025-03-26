@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NominalVideoBitrate extends AbstractTagGroup
 {
+    protected string $id = 'Theora:NominalVideoBitrate';
 
-  protected string $id = 'Theora:NominalVideoBitrate';
+    protected string $name = 'NominalVideoBitrate';
 
-  protected string $name = 'NominalVideoBitrate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Theora::Identification
+             * line : 394896
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Theora::Identification.Theora:NominalVideoBitrate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Theora::Identification
-       * line : 394896
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Theora::Identification.Theora:NominalVideoBitrate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

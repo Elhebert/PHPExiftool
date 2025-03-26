@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedAudioFile extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:EmbeddedAudioFile';
 
-  protected string $id = 'Samsung:EmbeddedAudioFile';
+    protected string $name = 'EmbeddedAudioFile';
 
-  protected string $name = 'EmbeddedAudioFile';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Trailer
+             * line : 334288
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Samsung::Trailer.Samsung:EmbeddedAudioFile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Trailer
-       * line : 334288
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Samsung::Trailer.Samsung:EmbeddedAudioFile',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 6;
-
+    protected int $flags = 6;
 }

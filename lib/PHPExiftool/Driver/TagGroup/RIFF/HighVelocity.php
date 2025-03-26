@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HighVelocity extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:HighVelocity';
 
-  protected string $id = 'RIFF:HighVelocity';
+    protected string $name = 'HighVelocity';
 
-  protected string $name = 'HighVelocity';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Instrument
+             * line : 328622
+             * type : int8s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Instrument.RIFF:HighVelocity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Instrument
-       * line : 328622
-       * type : int8s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Instrument.RIFF:HighVelocity',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

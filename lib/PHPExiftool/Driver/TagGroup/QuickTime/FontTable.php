@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FontTable extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:FontTable';
 
-  protected string $id = 'QuickTime:FontTable';
+    protected string $name = 'FontTable';
 
-  protected string $name = 'FontTable';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::OtherSampleDesc
+             * line : 324168
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::OtherSampleDesc.QuickTime:FontTable',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::OtherSampleDesc
-       * line : 324168
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::OtherSampleDesc.QuickTime:FontTable',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

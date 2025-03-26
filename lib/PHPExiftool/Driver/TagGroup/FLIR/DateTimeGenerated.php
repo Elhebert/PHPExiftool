@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeGenerated extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:DateTimeGenerated';
 
-  protected string $id = 'FLIR:DateTimeGenerated';
+    protected string $name = 'DateTimeGenerated';
 
-  protected string $name = 'DateTimeGenerated';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::ParamInfo
+             * line : 123552
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::ParamInfo.FLIR:DateTimeGenerated',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::ParamInfo
-       * line : 123552
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::ParamInfo.FLIR:DateTimeGenerated',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

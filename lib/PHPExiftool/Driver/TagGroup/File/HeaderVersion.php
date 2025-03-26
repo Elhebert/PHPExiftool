@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HeaderVersion extends AbstractTagGroup
 {
+    protected string $id = 'File:HeaderVersion';
 
-  protected string $id = 'File:HeaderVersion';
+    protected string $name = 'HeaderVersion';
 
-  protected string $name = 'HeaderVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105307
+             * type : string
+             * writable : false
+             * count : 8
+             * flags :
+             */
+            'id' => 'DPX::Main.File:HeaderVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105307
-       * type : string
-       * writable : false
-       * count : 8
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:HeaderVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 8;
-
+    protected int $count = 8;
 }

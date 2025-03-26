@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RollAngle extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:RollAngle';
 
-  protected string $id = 'Samsung:RollAngle';
+    protected string $name = 'RollAngle';
 
-  protected string $name = 'RollAngle';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::OrientationInfo
+             * line : 334072
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::OrientationInfo.Samsung:RollAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::OrientationInfo
-       * line : 334072
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::OrientationInfo.Samsung:RollAngle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RollAngle extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:RollAngle';
 
-  protected string $id = 'Olympus:RollAngle';
+    protected string $name = 'RollAngle';
 
-  protected string $name = 'RollAngle';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 253005
+             * type : int16s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:RollAngle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 253005
-       * type : int16s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:RollAngle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

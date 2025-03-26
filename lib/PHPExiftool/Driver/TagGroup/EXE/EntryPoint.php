@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EntryPoint extends AbstractTagGroup
 {
+    protected string $id = 'EXE:EntryPoint';
 
-  protected string $id = 'EXE:EntryPoint';
+    protected string $name = 'EntryPoint';
 
-  protected string $name = 'EntryPoint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::Main
+             * line : 108886
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::Main.EXE:EntryPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::Main
-       * line : 108886
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::Main.EXE:EntryPoint',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

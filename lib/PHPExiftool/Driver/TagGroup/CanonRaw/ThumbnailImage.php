@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailImage extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:ThumbnailImage';
 
-  protected string $id = 'CanonRaw:ThumbnailImage';
+    protected string $name = 'ThumbnailImage';
 
-  protected string $name = 'ThumbnailImage';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 79977
+             * type : resize
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:ThumbnailImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 79977
-       * type : resize
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:ThumbnailImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

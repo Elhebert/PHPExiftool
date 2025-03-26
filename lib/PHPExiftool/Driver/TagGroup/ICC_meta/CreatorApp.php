@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreatorApp extends AbstractTagGroup
 {
+    protected string $id = 'ICC-meta:CreatorApp';
 
-  protected string $id = 'ICC-meta:CreatorApp';
+    protected string $name = 'CreatorApp';
 
-  protected string $name = 'CreatorApp';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Metadata
+             * line : 147017
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::Metadata.ICC-meta:CreatorApp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Metadata
-       * line : 147017
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Metadata.ICC-meta:CreatorApp',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

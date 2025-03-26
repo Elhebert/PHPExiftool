@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropArea extends AbstractTagGroup
 {
+    protected string $id = 'SonyIDC:CropArea';
 
-  protected string $id = 'SonyIDC:CropArea';
+    protected string $name = 'CropArea';
 
-  protected string $name = 'CropArea';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SonyIDC::Main
+             * line : 394438
+             * type : int32u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'SonyIDC::Main.SonyIDC:CropArea',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SonyIDC::Main
-       * line : 394438
-       * type : int32u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'SonyIDC::Main.SonyIDC:CropArea',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RotationXYZ extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:RotationXYZ';
 
-  protected string $id = 'QuickTime:RotationXYZ';
+    protected string $name = 'RotationXYZ';
 
-  protected string $name = 'RotationXYZ';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Rot360Fly
+             * line : 324397
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::Rot360Fly.QuickTime:RotationXYZ',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Rot360Fly
-       * line : 324397
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::Rot360Fly.QuickTime:RotationXYZ',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BrightnessValue extends AbstractTagGroup
 {
+    protected string $id = 'H264:BrightnessValue';
 
-  protected string $id = 'H264:BrightnessValue';
+    protected string $name = 'BrightnessValue';
 
-  protected string $name = 'BrightnessValue';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 140585
+             * type : rational32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.H264:BrightnessValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 140585
-       * type : rational32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.H264:BrightnessValue',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

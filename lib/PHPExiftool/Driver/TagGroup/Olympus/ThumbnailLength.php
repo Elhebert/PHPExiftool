@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailLength extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ThumbnailLength';
 
-  protected string $id = 'Olympus:ThumbnailLength';
+    protected string $name = 'ThumbnailLength';
 
-  protected string $name = 'ThumbnailLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Thumbnail
+             * line : 262193
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::Thumbnail.Olympus:ThumbnailLength',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::thmb
+             * line : 263292
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::thmb.Olympus:ThumbnailLength',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Olympus::thmb2
+             * line : 263335
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::thmb2.Olympus:ThumbnailLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Thumbnail
-       * line : 262193
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::Thumbnail.Olympus:ThumbnailLength',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::thmb
-       * line : 263292
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::thmb.Olympus:ThumbnailLength',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Olympus::thmb2
-       * line : 263335
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::thmb2.Olympus:ThumbnailLength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

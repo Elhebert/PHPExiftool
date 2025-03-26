@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CaptureYResolution extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:CaptureYResolution';
 
-  protected string $id = 'Jpeg2000:CaptureYResolution';
+    protected string $name = 'CaptureYResolution';
 
-  protected string $name = 'CaptureYResolution';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::CaptureResolution
+             * line : 153560
+             * type : rational32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::CaptureResolution.Jpeg2000:CaptureYResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::CaptureResolution
-       * line : 153560
-       * type : rational32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::CaptureResolution.Jpeg2000:CaptureYResolution',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

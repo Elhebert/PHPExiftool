@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CroppedImageLeft extends AbstractTagGroup
 {
+    protected string $id = 'Canon:CroppedImageLeft';
 
-  protected string $id = 'Canon:CroppedImageLeft';
+    protected string $name = 'CroppedImageLeft';
 
-  protected string $name = 'CroppedImageLeft';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AspectInfo
+             * line : 4393
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AspectInfo.Canon:CroppedImageLeft',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AspectInfo
-       * line : 4393
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AspectInfo.Canon:CroppedImageLeft',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

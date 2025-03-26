@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo';
 
-  protected string $id = 'XMP-crd:CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo';
+    protected string $name = 'CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo';
 
-  protected string $name = 'CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 398577
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid,flattened,list
+             */
+            'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 398577
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid,flattened,list
-       */
-      'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrRangeMaskAreaModelsColorSampleInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2113;
-
+    protected int $flags = 2113;
 }

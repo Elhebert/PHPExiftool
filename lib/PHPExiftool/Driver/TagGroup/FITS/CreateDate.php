@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreateDate extends AbstractTagGroup
 {
+    protected string $id = 'FITS:CreateDate';
 
-  protected string $id = 'FITS:CreateDate';
+    protected string $name = 'CreateDate';
 
-  protected string $name = 'CreateDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FITS::Main
+             * line : 121668
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FITS::Main.FITS:CreateDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FITS::Main
-       * line : 121668
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FITS::Main.FITS:CreateDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

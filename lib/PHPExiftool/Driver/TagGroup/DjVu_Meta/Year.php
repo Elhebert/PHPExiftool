@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Year extends AbstractTagGroup
 {
+    protected string $id = 'DjVu-Meta:Year';
 
-  protected string $id = 'DjVu-Meta:Year';
+    protected string $name = 'Year';
 
-  protected string $name = 'Year';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Meta
+             * line : 107514
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DjVu::Meta.DjVu-Meta:Year',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Meta
-       * line : 107514
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DjVu::Meta.DjVu-Meta:Year',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

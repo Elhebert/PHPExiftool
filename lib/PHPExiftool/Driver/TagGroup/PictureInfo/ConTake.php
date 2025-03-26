@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConTake extends AbstractTagGroup
 {
+    protected string $id = 'PictureInfo:ConTake';
 
-  protected string $id = 'PictureInfo:ConTake';
+    protected string $name = 'ConTake';
 
-  protected string $name = 'ConTake';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APP12::PictureInfo
+             * line : 545
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APP12::PictureInfo.PictureInfo:ConTake',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APP12::PictureInfo
-       * line : 545
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APP12::PictureInfo.PictureInfo:ConTake',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

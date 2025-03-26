@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioCodecID extends AbstractTagGroup
 {
+    protected string $id = 'ASF:AudioCodecID';
 
-  protected string $id = 'ASF:AudioCodecID';
+    protected string $name = 'AudioCodecID';
 
-  protected string $name = 'AudioCodecID';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::StreamProperties
+             * line : 2096
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::StreamProperties.ASF:AudioCodecID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::StreamProperties
-       * line : 2096
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::StreamProperties.ASF:AudioCodecID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

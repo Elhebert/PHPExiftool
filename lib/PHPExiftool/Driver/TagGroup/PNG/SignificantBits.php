@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SignificantBits extends AbstractTagGroup
 {
+    protected string $id = 'PNG:SignificantBits';
 
-  protected string $id = 'PNG:SignificantBits';
+    protected string $name = 'SignificantBits';
 
-  protected string $name = 'SignificantBits';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::Main
+             * line : 272597
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::Main.PNG:SignificantBits',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::Main
-       * line : 272597
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::Main.PNG:SignificantBits',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

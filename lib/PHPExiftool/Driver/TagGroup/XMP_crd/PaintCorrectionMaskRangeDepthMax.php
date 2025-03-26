@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PaintCorrectionMaskRangeDepthMax extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:PaintCorrectionMaskRangeDepthMax';
 
-  protected string $id = 'XMP-crd:PaintCorrectionMaskRangeDepthMax';
+    protected string $name = 'PaintCorrectionMaskRangeDepthMax';
 
-  protected string $name = 'PaintCorrectionMaskRangeDepthMax';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 400159
+             * type : real
+             * writable : true
+             * count :
+             * flags : avoid,flattened,list
+             */
+            'id' => 'XMP::crd.XMP-crd:PaintCorrectionMaskRangeDepthMax',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 400159
-       * type : real
-       * writable : true
-       * count : 
-       * flags : avoid,flattened,list
-       */
-      'id' => 'XMP::crd.XMP-crd:PaintCorrectionMaskRangeDepthMax',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2113;
-
+    protected int $flags = 2113;
 }

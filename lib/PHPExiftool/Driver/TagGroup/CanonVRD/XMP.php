@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XMP extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:XMP';
 
-  protected string $id = 'CanonVRD:XMP';
+    protected string $name = 'XMP';
 
-  protected string $name = 'XMP';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Main
+             * line : 82087
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'CanonVRD::Main.CanonVRD:XMP',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Main
-       * line : 82087
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'CanonVRD::Main.CanonVRD:XMP',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MakerNoteVersion extends AbstractTagGroup
 {
+    protected string $id = 'Sigma:MakerNoteVersion';
 
-  protected string $id = 'Sigma:MakerNoteVersion';
+    protected string $name = 'MakerNoteVersion';
 
-  protected string $name = 'MakerNoteVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sigma::Main
+             * line : 337493
+             * type : undef
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sigma::Main.Sigma:MakerNoteVersion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sigma::Main
+             * line : 337536
+             * type : undef
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sigma::Main.Sigma:MakerNoteVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sigma::Main
-       * line : 337493
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sigma::Main.Sigma:MakerNoteVersion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sigma::Main
-       * line : 337536
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sigma::Main.Sigma:MakerNoteVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BrightnessValue extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:BrightnessValue';
 
-  protected string $id = 'Minolta:BrightnessValue';
+    protected string $name = 'BrightnessValue';
 
-  protected string $name = 'BrightnessValue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::WBInfoA100
+             * line : 185643
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::WBInfoA100.Minolta:BrightnessValue',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Minolta::WBInfoA100
+             * line : 186674
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::WBInfoA100.Minolta:BrightnessValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::WBInfoA100
-       * line : 185643
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::WBInfoA100.Minolta:BrightnessValue',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Minolta::WBInfoA100
-       * line : 186674
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::WBInfoA100.Minolta:BrightnessValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

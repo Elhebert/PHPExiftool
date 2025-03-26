@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorCalibration_0x0408 extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:SensorCalibration_0x0408';
 
-  protected string $id = 'PhaseOne:SensorCalibration_0x0408';
+    protected string $name = 'SensorCalibration_0x0408';
 
-  protected string $name = 'SensorCalibration_0x0408';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::SensorCalibration
+             * line : 303624
+             * type : float
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'PhaseOne::SensorCalibration.PhaseOne:SensorCalibration_0x0408',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::SensorCalibration
-       * line : 303624
-       * type : float
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'PhaseOne::SensorCalibration.PhaseOne:SensorCalibration_0x0408',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

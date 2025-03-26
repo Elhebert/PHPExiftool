@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageDescription extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:ImageDescription';
 
-  protected string $id = 'IFD0:ImageDescription';
+    protected string $name = 'ImageDescription';
 
-  protected string $name = 'ImageDescription';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 110566
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:ImageDescription',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 110566
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:ImageDescription',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

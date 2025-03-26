@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UniqueMatrixFlash extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:UniqueMatrixFlash';
 
-  protected string $id = 'KodakIFD:UniqueMatrixFlash';
+    protected string $name = 'UniqueMatrixFlash';
 
-  protected string $name = 'UniqueMatrixFlash';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155147
+             * type : rational64s
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:UniqueMatrixFlash',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155147
-       * type : rational64s
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:UniqueMatrixFlash',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CoverArtType extends AbstractTagGroup
 {
+    protected string $id = 'Audible:CoverArtType';
 
-  protected string $id = 'Audible:CoverArtType';
+    protected string $name = 'CoverArtType';
 
-  protected string $name = 'CoverArtType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Audible::cvrx
+             * line : 3040
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Audible::cvrx.Audible:CoverArtType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Audible::cvrx
-       * line : 3040
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Audible::cvrx.Audible:CoverArtType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

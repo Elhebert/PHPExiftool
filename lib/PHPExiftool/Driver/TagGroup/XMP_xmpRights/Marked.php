@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Marked extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpRights:Marked';
 
-  protected string $id = 'XMP-xmpRights:Marked';
+    protected string $name = 'Marked';
 
-  protected string $name = 'Marked';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpRights
+             * line : 414367
+             * type : boolean
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::xmpRights.XMP-xmpRights:Marked',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpRights
-       * line : 414367
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::xmpRights.XMP-xmpRights:Marked',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

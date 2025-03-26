@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LinkedProfileName extends AbstractTagGroup
 {
+    protected string $id = 'File:LinkedProfileName';
 
-  protected string $id = 'File:LinkedProfileName';
+    protected string $name = 'LinkedProfileName';
 
-  protected string $name = 'LinkedProfileName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Extra
+             * line : 3173
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::Extra.File:LinkedProfileName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Extra
-       * line : 3173
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::Extra.File:LinkedProfileName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

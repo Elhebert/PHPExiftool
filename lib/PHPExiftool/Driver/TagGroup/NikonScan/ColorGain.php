@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorGain extends AbstractTagGroup
 {
+    protected string $id = 'NikonScan:ColorGain';
 
-  protected string $id = 'NikonScan:ColorGain';
+    protected string $name = 'ColorGain';
 
-  protected string $name = 'ColorGain';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::Scan
+             * line : 205241
+             * type : rational64s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Nikon::Scan.NikonScan:ColorGain',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::Scan
-       * line : 205241
-       * type : rational64s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Nikon::Scan.NikonScan:ColorGain',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

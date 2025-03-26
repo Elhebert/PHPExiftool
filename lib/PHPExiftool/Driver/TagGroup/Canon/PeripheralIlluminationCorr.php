@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PeripheralIlluminationCorr extends AbstractTagGroup
 {
+    protected string $id = 'Canon:PeripheralIlluminationCorr';
 
-  protected string $id = 'Canon:PeripheralIlluminationCorr';
+    protected string $name = 'PeripheralIlluminationCorr';
 
-  protected string $name = 'PeripheralIlluminationCorr';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::LightingOpt
+             * line : 64207
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::LightingOpt.Canon:PeripheralIlluminationCorr',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::LightingOpt
-       * line : 64207
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::LightingOpt.Canon:PeripheralIlluminationCorr',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

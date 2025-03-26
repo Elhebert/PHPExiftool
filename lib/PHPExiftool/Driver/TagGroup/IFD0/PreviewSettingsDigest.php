@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewSettingsDigest extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:PreviewSettingsDigest';
 
-  protected string $id = 'IFD0:PreviewSettingsDigest';
+    protected string $name = 'PreviewSettingsDigest';
 
-  protected string $name = 'PreviewSettingsDigest';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120241
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:PreviewSettingsDigest',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120241
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:PreviewSettingsDigest',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

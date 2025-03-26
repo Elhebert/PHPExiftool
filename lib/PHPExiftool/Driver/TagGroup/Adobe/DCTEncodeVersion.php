@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DCTEncodeVersion extends AbstractTagGroup
 {
+    protected string $id = 'Adobe:DCTEncodeVersion';
 
-  protected string $id = 'Adobe:DCTEncodeVersion';
+    protected string $name = 'DCTEncodeVersion';
 
-  protected string $name = 'DCTEncodeVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::Adobe
+             * line : 152383
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::Adobe.Adobe:DCTEncodeVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::Adobe
-       * line : 152383
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::Adobe.Adobe:DCTEncodeVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StreamMimeLen extends AbstractTagGroup
 {
+    protected string $id = 'Real-MDPR:StreamMimeLen';
 
-  protected string $id = 'Real-MDPR:StreamMimeLen';
+    protected string $name = 'StreamMimeLen';
 
-  protected string $name = 'StreamMimeLen';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::MediaProps
+             * line : 330409
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Real::MediaProps.Real-MDPR:StreamMimeLen',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::MediaProps
-       * line : 330409
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Real::MediaProps.Real-MDPR:StreamMimeLen',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CheckedBy extends AbstractTagGroup
 {
+    protected string $id = 'XML:CheckedBy';
 
-  protected string $id = 'XML:CheckedBy';
+    protected string $name = 'CheckedBy';
 
-  protected string $name = 'CheckedBy';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : OOXML::Main
+             * line : 249056
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'OOXML::Main.XML:CheckedBy',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : OOXML::Main
-       * line : 249056
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'OOXML::Main.XML:CheckedBy',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

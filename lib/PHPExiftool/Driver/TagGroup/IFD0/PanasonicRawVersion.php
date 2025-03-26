@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PanasonicRawVersion extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:PanasonicRawVersion';
 
-  protected string $id = 'IFD0:PanasonicRawVersion';
+    protected string $name = 'PanasonicRawVersion';
 
-  protected string $name = 'PanasonicRawVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::Main
+             * line : 280209
+             * type : undef
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::Main.IFD0:PanasonicRawVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::Main
-       * line : 280209
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::Main.IFD0:PanasonicRawVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

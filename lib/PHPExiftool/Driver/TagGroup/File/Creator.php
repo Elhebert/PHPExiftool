@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Creator extends AbstractTagGroup
 {
+    protected string $id = 'File:Creator';
 
-  protected string $id = 'File:Creator';
+    protected string $name = 'Creator';
 
-  protected string $name = 'Creator';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105351
+             * type : string
+             * writable : false
+             * count : 100
+             * flags :
+             */
+            'id' => 'DPX::Main.File:Creator',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105351
-       * type : string
-       * writable : false
-       * count : 100
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:Creator',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 100;
-
+    protected int $count = 100;
 }

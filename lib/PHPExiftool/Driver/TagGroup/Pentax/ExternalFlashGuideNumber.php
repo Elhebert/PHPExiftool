@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExternalFlashGuideNumber extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:ExternalFlashGuideNumber';
 
-  protected string $id = 'Pentax:ExternalFlashGuideNumber';
+    protected string $name = 'ExternalFlashGuideNumber';
 
-  protected string $name = 'ExternalFlashGuideNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::FlashInfo
+             * line : 288194
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::FlashInfo.Pentax:ExternalFlashGuideNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::FlashInfo
-       * line : 288194
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::FlashInfo.Pentax:ExternalFlashGuideNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

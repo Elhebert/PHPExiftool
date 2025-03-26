@@ -19,86 +19,84 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensID extends AbstractTagGroup
 {
+    protected string $id = 'Composite:LensID';
 
-  protected string $id = 'Composite:LensID';
+    protected string $name = 'LensID';
 
-  protected string $name = 'LensID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90401
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:LensID',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Composite
+             * line : 90413
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:LensID',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Composite
+             * line : 90792
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:LensID',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Composite
+             * line : 93755
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:LensID',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : Composite
+             * line : 94542
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:LensID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90401
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:LensID',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Composite
-       * line : 90413
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:LensID',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Composite
-       * line : 90792
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:LensID',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Composite
-       * line : 93755
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:LensID',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : Composite
-       * line : 94542
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:LensID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

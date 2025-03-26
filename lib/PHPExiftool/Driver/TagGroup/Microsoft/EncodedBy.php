@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EncodedBy extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:EncodedBy';
 
-  protected string $id = 'Microsoft:EncodedBy';
+    protected string $name = 'EncodedBy';
 
-  protected string $name = 'EncodedBy';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175027
+             * type : Unicode
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:EncodedBy',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175968
+             * type : ?
+             * writable : false
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:EncodedBy',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175027
-       * type : Unicode
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:EncodedBy',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175968
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:EncodedBy',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

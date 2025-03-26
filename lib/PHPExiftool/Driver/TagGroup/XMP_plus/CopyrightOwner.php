@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CopyrightOwner extends AbstractTagGroup
 {
+    protected string $id = 'XMP-plus:CopyrightOwner';
 
-  protected string $id = 'XMP-plus:CopyrightOwner';
+    protected string $name = 'CopyrightOwner';
 
-  protected string $name = 'CopyrightOwner';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PLUS::XMP
+             * line : 265241
+             * type : struct
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'PLUS::XMP.XMP-plus:CopyrightOwner',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PLUS::XMP
-       * line : 265241
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'PLUS::XMP.XMP-plus:CopyrightOwner',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Channel3Flags extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Channel3Flags';
 
-  protected string $id = 'QuickTime:Channel3Flags';
+    protected string $name = 'Channel3Flags';
 
-  protected string $name = 'Channel3Flags';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ChannelLayout
+             * line : 311502
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ChannelLayout.QuickTime:Channel3Flags',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ChannelLayout
-       * line : 311502
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ChannelLayout.QuickTime:Channel3Flags',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

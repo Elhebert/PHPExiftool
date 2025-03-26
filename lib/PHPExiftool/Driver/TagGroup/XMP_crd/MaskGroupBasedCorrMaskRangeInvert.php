@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaskGroupBasedCorrMaskRangeInvert extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:MaskGroupBasedCorrMaskRangeInvert';
 
-  protected string $id = 'XMP-crd:MaskGroupBasedCorrMaskRangeInvert';
+    protected string $name = 'MaskGroupBasedCorrMaskRangeInvert';
 
-  protected string $name = 'MaskGroupBasedCorrMaskRangeInvert';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 399691
+             * type : boolean
+             * writable : true
+             * count :
+             * flags : avoid,flattened,list
+             */
+            'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrMaskRangeInvert',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 399691
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : avoid,flattened,list
-       */
-      'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrMaskRangeInvert',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2113;
-
+    protected int $flags = 2113;
 }

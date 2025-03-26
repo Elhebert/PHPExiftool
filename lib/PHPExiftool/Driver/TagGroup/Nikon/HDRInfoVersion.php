@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HDRInfoVersion extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:HDRInfoVersion';
 
-  protected string $id = 'Nikon:HDRInfoVersion';
+    protected string $name = 'HDRInfoVersion';
 
-  protected string $name = 'HDRInfoVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::HDRInfo
+             * line : 195264
+             * type : string
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::HDRInfo.Nikon:HDRInfoVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::HDRInfo
-       * line : 195264
-       * type : string
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::HDRInfo.Nikon:HDRInfoVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

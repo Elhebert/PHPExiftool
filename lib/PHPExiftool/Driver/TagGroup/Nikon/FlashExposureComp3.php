@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashExposureComp3 extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:FlashExposureComp3';
 
-  protected string $id = 'Nikon:FlashExposureComp3';
+    protected string $name = 'FlashExposureComp3';
 
-  protected string $name = 'FlashExposureComp3';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::FlashInfo0103
+             * line : 194035
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfo0103.Nikon:FlashExposureComp3',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::FlashInfo0103
-       * line : 194035
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfo0103.Nikon:FlashExposureComp3',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

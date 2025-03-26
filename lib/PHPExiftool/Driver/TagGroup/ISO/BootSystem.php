@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BootSystem extends AbstractTagGroup
 {
+    protected string $id = 'ISO:BootSystem';
 
-  protected string $id = 'ISO:BootSystem';
+    protected string $name = 'BootSystem';
 
-  protected string $name = 'BootSystem';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::BootRecord
+             * line : 151978
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'ISO::BootRecord.ISO:BootSystem',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::BootRecord
-       * line : 151978
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'ISO::BootRecord.ISO:BootSystem',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

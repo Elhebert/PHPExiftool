@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageStabilization extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Camera:ImageStabilization';
 
-  protected string $id = 'MIE-Camera:ImageStabilization';
+    protected string $name = 'ImageStabilization';
 
-  protected string $name = 'ImageStabilization';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Camera
+             * line : 163012
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Camera.MIE-Camera:ImageStabilization',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Camera
-       * line : 163012
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Camera.MIE-Camera:ImageStabilization',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

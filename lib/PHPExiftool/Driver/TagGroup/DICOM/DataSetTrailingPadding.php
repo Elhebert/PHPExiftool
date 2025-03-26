@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataSetTrailingPadding extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:DataSetTrailingPadding';
 
-  protected string $id = 'DICOM:DataSetTrailingPadding';
+    protected string $name = 'DataSetTrailingPadding';
 
-  protected string $name = 'DataSetTrailingPadding';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 104420
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'DICOM::Main.DICOM:DataSetTrailingPadding',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 104420
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'DICOM::Main.DICOM:DataSetTrailingPadding',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

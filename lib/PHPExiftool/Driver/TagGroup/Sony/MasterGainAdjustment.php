@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MasterGainAdjustment extends AbstractTagGroup
 {
+    protected string $id = 'Sony:MasterGainAdjustment';
 
-  protected string $id = 'Sony:MasterGainAdjustment';
+    protected string $name = 'MasterGainAdjustment';
 
-  protected string $name = 'MasterGainAdjustment';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::rtmd
+             * line : 393479
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Sony::rtmd.Sony:MasterGainAdjustment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::rtmd
-       * line : 393479
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Sony::rtmd.Sony:MasterGainAdjustment',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

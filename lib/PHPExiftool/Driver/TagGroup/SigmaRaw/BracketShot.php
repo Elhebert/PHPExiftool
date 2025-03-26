@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BracketShot extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:BracketShot';
 
-  protected string $id = 'SigmaRaw:BracketShot';
+    protected string $name = 'BracketShot';
 
-  protected string $name = 'BracketShot';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Properties
+             * line : 339729
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Properties.SigmaRaw:BracketShot',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Properties
-       * line : 339729
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Properties.SigmaRaw:BracketShot',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

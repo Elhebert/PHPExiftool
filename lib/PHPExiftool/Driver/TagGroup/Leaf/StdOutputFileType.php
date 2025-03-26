@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StdOutputFileType extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:StdOutputFileType';
 
-  protected string $id = 'Leaf:StdOutputFileType';
+    protected string $name = 'StdOutputFileType';
 
-  protected string $name = 'StdOutputFileType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::SaveSetup
+             * line : 161996
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::SaveSetup.Leaf:StdOutputFileType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::SaveSetup
-       * line : 161996
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::SaveSetup.Leaf:StdOutputFileType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TextColor extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:TextColor';
 
-  protected string $id = 'QuickTime:TextColor';
+    protected string $name = 'TextColor';
 
-  protected string $name = 'TextColor';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::TCMediaInfo
+             * line : 324993
+             * type : int16u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::TCMediaInfo.QuickTime:TextColor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::TCMediaInfo
-       * line : 324993
-       * type : int16u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::TCMediaInfo.QuickTime:TextColor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

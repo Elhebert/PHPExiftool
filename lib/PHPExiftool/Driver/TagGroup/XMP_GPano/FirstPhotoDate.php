@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirstPhotoDate extends AbstractTagGroup
 {
+    protected string $id = 'XMP-GPano:FirstPhotoDate';
 
-  protected string $id = 'XMP-GPano:FirstPhotoDate';
+    protected string $name = 'FirstPhotoDate';
 
-  protected string $name = 'FirstPhotoDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GPano
+             * line : 397107
+             * type : date
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::GPano.XMP-GPano:FirstPhotoDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GPano
-       * line : 397107
-       * type : date
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::GPano.XMP-GPano:FirstPhotoDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

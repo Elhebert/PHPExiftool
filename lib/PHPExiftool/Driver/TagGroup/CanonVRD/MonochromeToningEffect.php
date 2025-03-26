@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MonochromeToningEffect extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:MonochromeToningEffect';
 
-  protected string $id = 'CanonVRD:MonochromeToningEffect';
+    protected string $name = 'MonochromeToningEffect';
 
-  protected string $name = 'MonochromeToningEffect';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DR4
+             * line : 80494
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::DR4.CanonVRD:MonochromeToningEffect',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonVRD::Ver2
+             * line : 82987
+             * type : int16s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver2.CanonVRD:MonochromeToningEffect',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DR4
-       * line : 80494
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::DR4.CanonVRD:MonochromeToningEffect',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonVRD::Ver2
-       * line : 82987
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver2.CanonVRD:MonochromeToningEffect',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

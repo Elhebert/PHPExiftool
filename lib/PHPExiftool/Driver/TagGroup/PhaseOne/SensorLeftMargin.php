@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorLeftMargin extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:SensorLeftMargin';
 
-  protected string $id = 'PhaseOne:SensorLeftMargin';
+    protected string $name = 'SensorLeftMargin';
 
-  protected string $name = 'SensorLeftMargin';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::Main
+             * line : 303251
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'PhaseOne::Main.PhaseOne:SensorLeftMargin',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::Main
-       * line : 303251
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'PhaseOne::Main.PhaseOne:SensorLeftMargin',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

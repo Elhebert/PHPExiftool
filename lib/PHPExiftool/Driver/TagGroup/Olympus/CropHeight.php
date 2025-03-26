@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropHeight extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:CropHeight';
 
-  protected string $id = 'Olympus:CropHeight';
+    protected string $name = 'CropHeight';
 
-  protected string $name = 'CropHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::ImageProcessing
+             * line : 255367
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::ImageProcessing.Olympus:CropHeight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::RawInfo
+             * line : 260989
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawInfo.Olympus:CropHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::ImageProcessing
-       * line : 255367
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::ImageProcessing.Olympus:CropHeight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::RawInfo
-       * line : 260989
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawInfo.Olympus:CropHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

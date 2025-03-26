@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RevisionNumber extends AbstractTagGroup
 {
+    protected string $id = 'MS-DOC:RevisionNumber';
 
-  protected string $id = 'MS-DOC:RevisionNumber';
+    protected string $name = 'RevisionNumber';
 
-  protected string $name = 'RevisionNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::DOP
+             * line : 124312
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DOP.MS-DOC:RevisionNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::DOP
-       * line : 124312
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DOP.MS-DOC:RevisionNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

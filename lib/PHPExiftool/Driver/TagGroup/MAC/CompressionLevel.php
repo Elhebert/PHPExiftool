@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompressionLevel extends AbstractTagGroup
 {
+    protected string $id = 'MAC:CompressionLevel';
 
-  protected string $id = 'MAC:CompressionLevel';
+    protected string $name = 'CompressionLevel';
 
-  protected string $name = 'CompressionLevel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APE::NewHeader
+             * line : 345
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::NewHeader.MAC:CompressionLevel',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : APE::OldHeader
+             * line : 417
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::OldHeader.MAC:CompressionLevel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APE::NewHeader
-       * line : 345
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::NewHeader.MAC:CompressionLevel',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : APE::OldHeader
-       * line : 417
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::OldHeader.MAC:CompressionLevel',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Fonts extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpTPg:Fonts';
 
-  protected string $id = 'XMP-xmpTPg:Fonts';
+    protected string $name = 'Fonts';
 
-  protected string $name = 'Fonts';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpTPg
+             * line : 414483
+             * type : struct
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'XMP::xmpTPg.XMP-xmpTPg:Fonts',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpTPg
-       * line : 414483
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'XMP::xmpTPg.XMP-xmpTPg:Fonts',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

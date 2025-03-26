@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Brightness extends AbstractTagGroup
 {
+    protected string $id = 'Sony:Brightness';
 
-  protected string $id = 'Sony:Brightness';
+    protected string $name = 'Brightness';
 
-  protected string $name = 'Brightness';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings
+             * line : 347466
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings.Sony:Brightness',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::Main
+             * line : 353929
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:Brightness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings
-       * line : 347466
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings.Sony:Brightness',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::Main
-       * line : 353929
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:Brightness',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

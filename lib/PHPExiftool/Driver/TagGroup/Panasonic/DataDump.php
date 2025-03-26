@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataDump extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:DataDump';
 
-  protected string $id = 'Panasonic:DataDump';
+    protected string $name = 'DataDump';
 
-  protected string $name = 'DataDump';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 275969
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:DataDump',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 275969
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:DataDump',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2054;
-
+    protected int $flags = 2054;
 }

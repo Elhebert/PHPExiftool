@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FNumber extends AbstractTagGroup
 {
+    protected string $id = 'PictureInfo:FNumber';
 
-  protected string $id = 'PictureInfo:FNumber';
+    protected string $name = 'FNumber';
 
-  protected string $name = 'FNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APP12::PictureInfo
+             * line : 566
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APP12::PictureInfo.PictureInfo:FNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APP12::PictureInfo
-       * line : 566
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APP12::PictureInfo.PictureInfo:FNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

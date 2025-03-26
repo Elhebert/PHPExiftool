@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompatibleBrands extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:CompatibleBrands';
 
-  protected string $id = 'Jpeg2000:CompatibleBrands';
+    protected string $name = 'CompatibleBrands';
 
-  protected string $name = 'CompatibleBrands';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::FileType
+             * line : 153971
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::FileType.Jpeg2000:CompatibleBrands',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::FileType
-       * line : 153971
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::FileType.Jpeg2000:CompatibleBrands',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

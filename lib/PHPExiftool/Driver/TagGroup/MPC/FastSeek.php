@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FastSeek extends AbstractTagGroup
 {
+    protected string $id = 'MPC:FastSeek';
 
-  protected string $id = 'MPC:FastSeek';
+    protected string $name = 'FastSeek';
 
-  protected string $name = 'FastSeek';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPC::Main
+             * line : 165607
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPC::Main.MPC:FastSeek',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPC::Main
-       * line : 165607
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPC::Main.MPC:FastSeek',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

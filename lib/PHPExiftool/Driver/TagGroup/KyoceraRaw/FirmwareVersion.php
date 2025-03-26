@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirmwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'KyoceraRaw:FirmwareVersion';
 
-  protected string $id = 'KyoceraRaw:FirmwareVersion';
+    protected string $name = 'FirmwareVersion';
 
-  protected string $name = 'FirmwareVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : KyoceraRaw::Main
+             * line : 160719
+             * type : string
+             * writable : false
+             * count : 10
+             * flags : permanent
+             */
+            'id' => 'KyoceraRaw::Main.KyoceraRaw:FirmwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : KyoceraRaw::Main
-       * line : 160719
-       * type : string
-       * writable : false
-       * count : 10
-       * flags : permanent
-       */
-      'id' => 'KyoceraRaw::Main.KyoceraRaw:FirmwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 10;
 
-  protected int $count = 10;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

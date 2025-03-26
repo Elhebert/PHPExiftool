@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGGBLevelsCloudy extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:WB_RGGBLevelsCloudy';
 
-  protected string $id = 'Pentax:WB_RGGBLevelsCloudy';
+    protected string $name = 'WB_RGGBLevelsCloudy';
 
-  protected string $name = 'WB_RGGBLevelsCloudy';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300759
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsCloudy',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Pentax::WBLevels
+             * line : 303060
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsCloudy',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300759
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsCloudy',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Pentax::WBLevels
-       * line : 303060
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsCloudy',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

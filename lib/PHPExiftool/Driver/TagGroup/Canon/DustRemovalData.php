@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DustRemovalData extends AbstractTagGroup
 {
+    protected string $id = 'Canon:DustRemovalData';
 
-  protected string $id = 'Canon:DustRemovalData';
+    protected string $name = 'DustRemovalData';
 
-  protected string $name = 'DustRemovalData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::Main
+             * line : 65893
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,permanent,unsafe
+             */
+            'id' => 'Canon::Main.Canon:DustRemovalData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::Main
-       * line : 65893
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,permanent,unsafe
-       */
-      'id' => 'Canon::Main.Canon:DustRemovalData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2070;
-
+    protected int $flags = 2070;
 }

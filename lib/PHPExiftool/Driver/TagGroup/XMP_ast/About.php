@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class About extends AbstractTagGroup
 {
+    protected string $id = 'XMP-ast:About';
 
-  protected string $id = 'XMP-ast:About';
+    protected string $name = 'About';
 
-  protected string $name = 'About';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ast
+             * line : 210042
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Nikon::ast.XMP-ast:About',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ast
-       * line : 210042
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Nikon::ast.XMP-ast:About',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

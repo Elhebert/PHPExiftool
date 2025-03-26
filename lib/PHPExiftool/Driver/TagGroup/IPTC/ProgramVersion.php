@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProgramVersion extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ProgramVersion';
 
-  protected string $id = 'IPTC:ProgramVersion';
+    protected string $name = 'ProgramVersion';
 
-  protected string $name = 'ProgramVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150159
+             * type : string
+             * writable : true
+             * count : 10
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ProgramVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150159
-       * type : string
-       * writable : true
-       * count : 10
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ProgramVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 10;
 
-  protected int $count = 10;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

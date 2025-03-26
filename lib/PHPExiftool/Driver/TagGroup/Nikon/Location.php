@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Location extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:Location';
 
-  protected string $id = 'Nikon:Location';
+    protected string $name = 'Location';
 
-  protected string $name = 'Location';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::LocationInfo
+             * line : 196293
+             * type : undef
+             * writable : true
+             * count : 70
+             * flags : permanent
+             */
+            'id' => 'Nikon::LocationInfo.Nikon:Location',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::LocationInfo
-       * line : 196293
-       * type : undef
-       * writable : true
-       * count : 70
-       * flags : permanent
-       */
-      'id' => 'Nikon::LocationInfo.Nikon:Location',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 70;
 
-  protected int $count = 70;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

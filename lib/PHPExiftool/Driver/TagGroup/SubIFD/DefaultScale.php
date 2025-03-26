@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DefaultScale extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:DefaultScale';
 
-  protected string $id = 'SubIFD:DefaultScale';
+    protected string $name = 'DefaultScale';
 
-  protected string $name = 'DefaultScale';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 119001
+             * type : rational64u
+             * writable : true
+             * count : 2
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:DefaultScale',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 119001
-       * type : rational64u
-       * writable : true
-       * count : 2
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:DefaultScale',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShortDocumentID extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ShortDocumentID';
 
-  protected string $id = 'IPTC:ShortDocumentID';
+    protected string $name = 'ShortDocumentID';
 
-  protected string $name = 'ShortDocumentID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150743
+             * type : string
+             * writable : true
+             * count : 64
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ShortDocumentID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150743
-       * type : string
-       * writable : true
-       * count : 64
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ShortDocumentID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 64;
 
-  protected int $count = 64;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

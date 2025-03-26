@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FillerOrderNum_ImagingServiceReq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:FillerOrderNum-ImagingServiceReq';
 
-  protected string $id = 'DICOM:FillerOrderNum-ImagingServiceReq';
+    protected string $name = 'FillerOrderNum-ImagingServiceReq';
 
-  protected string $name = 'FillerOrderNum-ImagingServiceReq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99899
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:FillerOrderNum-ImagingServiceReq',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99914
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:FillerOrderNum-ImagingServiceReq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99899
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:FillerOrderNum-ImagingServiceReq',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99914
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:FillerOrderNum-ImagingServiceReq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

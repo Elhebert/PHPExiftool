@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InternalLeading extends AbstractTagGroup
 {
+    protected string $id = 'Font:InternalLeading';
 
-  protected string $id = 'Font:InternalLeading';
+    protected string $name = 'InternalLeading';
 
-  protected string $name = 'InternalLeading';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::PFM
+             * line : 128030
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PFM.Font:InternalLeading',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::PFM
-       * line : 128030
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PFM.Font:InternalLeading',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

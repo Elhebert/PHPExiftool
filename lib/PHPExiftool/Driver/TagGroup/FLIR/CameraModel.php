@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraModel extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:CameraModel';
 
-  protected string $id = 'FLIR:CameraModel';
+    protected string $name = 'CameraModel';
 
-  protected string $name = 'CameraModel';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122255
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:CameraModel',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122530
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:CameraModel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122255
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:CameraModel',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122530
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:CameraModel',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Command extends AbstractTagGroup
 {
+    protected string $id = 'Radiance:Command';
 
-  protected string $id = 'Radiance:Command';
+    protected string $name = 'Command';
 
-  protected string $name = 'Command';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Radiance::Main
+             * line : 329366
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Radiance::Main.Radiance:Command',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Radiance::Main
-       * line : 329366
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Radiance::Main.Radiance:Command',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

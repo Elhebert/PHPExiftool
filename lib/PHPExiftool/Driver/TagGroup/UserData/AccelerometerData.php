@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AccelerometerData extends AbstractTagGroup
 {
+    protected string $id = 'UserData:AccelerometerData';
 
-  protected string $id = 'UserData:AccelerometerData';
+    protected string $name = 'AccelerometerData';
 
-  protected string $name = 'AccelerometerData';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 325711
+             * type : rational64s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::UserData.UserData:AccelerometerData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 325711
-       * type : rational64s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::UserData.UserData:AccelerometerData',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

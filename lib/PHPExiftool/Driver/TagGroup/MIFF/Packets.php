@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Packets extends AbstractTagGroup
 {
+    protected string $id = 'MIFF:Packets';
 
-  protected string $id = 'MIFF:Packets';
+    protected string $name = 'Packets';
 
-  protected string $name = 'Packets';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIFF::Main
+             * line : 164375
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MIFF::Main.MIFF:Packets',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIFF::Main
-       * line : 164375
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIFF::Main.MIFF:Packets',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

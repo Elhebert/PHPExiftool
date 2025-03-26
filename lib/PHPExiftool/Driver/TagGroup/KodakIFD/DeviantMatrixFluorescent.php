@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DeviantMatrixFluorescent extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:DeviantMatrixFluorescent';
 
-  protected string $id = 'KodakIFD:DeviantMatrixFluorescent';
+    protected string $name = 'DeviantMatrixFluorescent';
 
-  protected string $name = 'DeviantMatrixFluorescent';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155129
+             * type : rational64s
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:DeviantMatrixFluorescent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155129
-       * type : rational64s
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:DeviantMatrixFluorescent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

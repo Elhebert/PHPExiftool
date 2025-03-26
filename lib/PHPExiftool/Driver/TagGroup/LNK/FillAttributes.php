@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FillAttributes extends AbstractTagGroup
 {
+    protected string $id = 'LNK:FillAttributes';
 
-  protected string $id = 'LNK:FillAttributes';
+    protected string $name = 'FillAttributes';
 
-  protected string $name = 'FillAttributes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::ConsoleData
+             * line : 160947
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::ConsoleData.LNK:FillAttributes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::ConsoleData
-       * line : 160947
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::ConsoleData.LNK:FillAttributes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

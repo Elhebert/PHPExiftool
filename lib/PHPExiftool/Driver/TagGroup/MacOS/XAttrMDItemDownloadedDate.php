@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XAttrMDItemDownloadedDate extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:XAttrMDItemDownloadedDate';
 
-  protected string $id = 'MacOS:XAttrMDItemDownloadedDate';
+    protected string $name = 'XAttrMDItemDownloadedDate';
 
-  protected string $name = 'XAttrMDItemDownloadedDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::XAttr
+             * line : 173132
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::XAttr.MacOS:XAttrMDItemDownloadedDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::XAttr
-       * line : 173132
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::XAttr.MacOS:XAttrMDItemDownloadedDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

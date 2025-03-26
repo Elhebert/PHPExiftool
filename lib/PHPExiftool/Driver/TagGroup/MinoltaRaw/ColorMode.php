@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorMode extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:ColorMode';
 
-  protected string $id = 'MinoltaRaw:ColorMode';
+    protected string $name = 'ColorMode';
 
-  protected string $name = 'ColorMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187006
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorMode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187152
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187006
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorMode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187152
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

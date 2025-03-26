@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGGBLevelsUserSelected extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:WB_RGGBLevelsUserSelected';
 
-  protected string $id = 'Pentax:WB_RGGBLevelsUserSelected';
+    protected string $name = 'WB_RGGBLevelsUserSelected';
 
-  protected string $name = 'WB_RGGBLevelsUserSelected';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::WBLevels
+             * line : 303115
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsUserSelected',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::WBLevels
-       * line : 303115
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsUserSelected',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

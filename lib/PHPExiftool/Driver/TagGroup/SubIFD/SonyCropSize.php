@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SonyCropSize extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:SonyCropSize';
 
-  protected string $id = 'SubIFD:SonyCropSize';
+    protected string $name = 'SonyCropSize';
 
-  protected string $name = 'SonyCropSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112845
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags : permanent,unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:SonyCropSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112845
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : permanent,unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:SonyCropSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2068;
-
+    protected int $flags = 2068;
 }

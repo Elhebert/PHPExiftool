@@ -13,7 +13,4 @@ namespace PHPExiftool\Exception;
 
 use Exception;
 
-class DirectoryNotFoundException extends Exception implements ExceptionInterface
-{
-
-}
+class DirectoryNotFoundException extends Exception implements ExceptionInterface {}

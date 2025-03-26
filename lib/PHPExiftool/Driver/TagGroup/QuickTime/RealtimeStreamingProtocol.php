@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RealtimeStreamingProtocol extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:RealtimeStreamingProtocol';
 
-  protected string $id = 'QuickTime:RealtimeStreamingProtocol';
+    protected string $name = 'RealtimeStreamingProtocol';
 
-  protected string $name = 'RealtimeStreamingProtocol';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintInfo
+             * line : 313730
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintInfo.QuickTime:RealtimeStreamingProtocol',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintInfo
-       * line : 313730
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintInfo.QuickTime:RealtimeStreamingProtocol',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

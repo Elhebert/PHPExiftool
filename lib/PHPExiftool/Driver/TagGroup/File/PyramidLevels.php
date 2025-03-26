@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PyramidLevels extends AbstractTagGroup
 {
+    protected string $id = 'File:PyramidLevels';
 
-  protected string $id = 'File:PyramidLevels';
+    protected string $name = 'PyramidLevels';
 
-  protected string $name = 'PyramidLevels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PGF::Main
+             * line : 264505
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PGF::Main.File:PyramidLevels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PGF::Main
-       * line : 264505
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PGF::Main.File:PyramidLevels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

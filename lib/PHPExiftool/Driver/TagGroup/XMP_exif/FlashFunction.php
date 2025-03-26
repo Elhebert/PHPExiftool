@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashFunction extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exif:FlashFunction';
 
-  protected string $id = 'XMP-exif:FlashFunction';
+    protected string $name = 'FlashFunction';
 
-  protected string $name = 'FlashFunction';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exif
+             * line : 405884
+             * type : boolean
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::exif.XMP-exif:FlashFunction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exif
-       * line : 405884
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::exif.XMP-exif:FlashFunction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MovieAFTrackingSensitivity extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:MovieAFTrackingSensitivity';
 
-  protected string $id = 'NikonCustom:MovieAFTrackingSensitivity';
+    protected string $name = 'MovieAFTrackingSensitivity';
 
-  protected string $name = 'MovieAFTrackingSensitivity';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsZ9
+             * line : 238314
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieAFTrackingSensitivity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsZ9
-       * line : 238314
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieAFTrackingSensitivity',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

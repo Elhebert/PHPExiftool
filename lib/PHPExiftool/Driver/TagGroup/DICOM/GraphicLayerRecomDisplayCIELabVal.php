@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GraphicLayerRecomDisplayCIELabVal extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:GraphicLayerRecomDisplayCIELabVal';
 
-  protected string $id = 'DICOM:GraphicLayerRecomDisplayCIELabVal';
+    protected string $name = 'GraphicLayerRecomDisplayCIELabVal';
 
-  protected string $name = 'GraphicLayerRecomDisplayCIELabVal';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 101402
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:GraphicLayerRecomDisplayCIELabVal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 101402
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:GraphicLayerRecomDisplayCIELabVal',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

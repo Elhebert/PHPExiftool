@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocusPositionVertical extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:FocusPositionVertical';
 
-  protected string $id = 'Nikon:FocusPositionVertical';
+    protected string $name = 'FocusPositionVertical';
 
-  protected string $name = 'FocusPositionVertical';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AFInfo2V0400
+             * line : 191041
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2V0400.Nikon:FocusPositionVertical',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AFInfo2V0400
-       * line : 191041
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2V0400.Nikon:FocusPositionVertical',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InitialViewHeadingDegrees extends AbstractTagGroup
 {
+    protected string $id = 'XMP-GPano:InitialViewHeadingDegrees';
 
-  protected string $id = 'XMP-GPano:InitialViewHeadingDegrees';
+    protected string $name = 'InitialViewHeadingDegrees';
 
-  protected string $name = 'InitialViewHeadingDegrees';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GPano
+             * line : 397130
+             * type : real
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::GPano.XMP-GPano:InitialViewHeadingDegrees',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GPano
-       * line : 397130
-       * type : real
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::GPano.XMP-GPano:InitialViewHeadingDegrees',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

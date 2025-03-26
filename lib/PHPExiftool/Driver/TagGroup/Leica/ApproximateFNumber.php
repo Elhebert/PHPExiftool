@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ApproximateFNumber extends AbstractTagGroup
 {
+    protected string $id = 'Leica:ApproximateFNumber';
 
-  protected string $id = 'Leica:ApproximateFNumber';
+    protected string $name = 'ApproximateFNumber';
 
-  protected string $name = 'ApproximateFNumber';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Leica2
+             * line : 274673
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Leica2.Leica:ApproximateFNumber',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Panasonic::Subdir
+             * line : 279639
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Subdir.Leica:ApproximateFNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Leica2
-       * line : 274673
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Leica2.Leica:ApproximateFNumber',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Panasonic::Subdir
-       * line : 279639
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Subdir.Leica:ApproximateFNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

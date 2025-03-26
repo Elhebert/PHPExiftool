@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GammaBlue extends AbstractTagGroup
 {
+    protected string $id = 'File:GammaBlue';
 
-  protected string $id = 'File:GammaBlue';
+    protected string $name = 'GammaBlue';
 
-  protected string $name = 'GammaBlue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Main
+             * line : 3438
+             * type : fixed32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::Main.File:GammaBlue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Main
-       * line : 3438
-       * type : fixed32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::Main.File:GammaBlue',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

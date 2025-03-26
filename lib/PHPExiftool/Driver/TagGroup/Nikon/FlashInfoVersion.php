@@ -19,114 +19,112 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashInfoVersion extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:FlashInfoVersion';
 
-  protected string $id = 'Nikon:FlashInfoVersion';
+    protected string $name = 'FlashInfoVersion';
 
-  protected string $name = 'FlashInfoVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::FlashInfo0100
+             * line : 192344
+             * type : string
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfo0100.Nikon:FlashInfoVersion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::FlashInfo0102
+             * line : 192851
+             * type : string
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfo0102.Nikon:FlashInfoVersion',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::FlashInfo0103
+             * line : 193423
+             * type : string
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfo0103.Nikon:FlashInfoVersion',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Nikon::FlashInfo0106
+             * line : 194047
+             * type : string
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfo0106.Nikon:FlashInfoVersion',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : Nikon::FlashInfo0107
+             * line : 194659
+             * type : string
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfo0107.Nikon:FlashInfoVersion',
+            'desc' => [
+            ],
+        ],
+        5 => [
+            /**
+             * table_name : Nikon::FlashInfo0300
+             * line : 195146
+             * type : string
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfo0300.Nikon:FlashInfoVersion',
+            'desc' => [
+            ],
+        ],
+        6 => [
+            /**
+             * table_name : Nikon::FlashInfoUnknown
+             * line : 195242
+             * type : string
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfoUnknown.Nikon:FlashInfoVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::FlashInfo0100
-       * line : 192344
-       * type : string
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfo0100.Nikon:FlashInfoVersion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::FlashInfo0102
-       * line : 192851
-       * type : string
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfo0102.Nikon:FlashInfoVersion',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::FlashInfo0103
-       * line : 193423
-       * type : string
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfo0103.Nikon:FlashInfoVersion',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Nikon::FlashInfo0106
-       * line : 194047
-       * type : string
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfo0106.Nikon:FlashInfoVersion',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : Nikon::FlashInfo0107
-       * line : 194659
-       * type : string
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfo0107.Nikon:FlashInfoVersion',
-      'desc' => [
-      ],
-    ],
-    5 => [
-      /**
-       * table_name : Nikon::FlashInfo0300
-       * line : 195146
-       * type : string
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfo0300.Nikon:FlashInfoVersion',
-      'desc' => [
-      ],
-    ],
-    6 => [
-      /**
-       * table_name : Nikon::FlashInfoUnknown
-       * line : 195242
-       * type : string
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfoUnknown.Nikon:FlashInfoVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

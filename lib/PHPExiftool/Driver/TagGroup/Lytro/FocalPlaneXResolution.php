@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalPlaneXResolution extends AbstractTagGroup
 {
+    protected string $id = 'Lytro:FocalPlaneXResolution';
 
-  protected string $id = 'Lytro:FocalPlaneXResolution';
+    protected string $name = 'FocalPlaneXResolution';
 
-  protected string $name = 'FocalPlaneXResolution';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Lytro::Main
+             * line : 162298
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Lytro::Main.Lytro:FocalPlaneXResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Lytro::Main
-       * line : 162298
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Lytro::Main.Lytro:FocalPlaneXResolution',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

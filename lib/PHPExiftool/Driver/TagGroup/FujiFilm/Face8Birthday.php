@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Face8Birthday extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:Face8Birthday';
 
-  protected string $id = 'FujiFilm:Face8Birthday';
+    protected string $name = 'Face8Birthday';
 
-  protected string $name = 'Face8Birthday';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::FaceRecInfo
+             * line : 128544
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::FaceRecInfo.FujiFilm:Face8Birthday',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::FaceRecInfo
-       * line : 128544
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::FaceRecInfo.FujiFilm:Face8Birthday',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

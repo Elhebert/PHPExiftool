@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WindMode extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:WindMode';
 
-  protected string $id = 'KodakIFD:WindMode';
+    protected string $name = 'WindMode';
 
-  protected string $name = 'WindMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 154751
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Kodak::IFD.KodakIFD:WindMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 154751
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Kodak::IFD.KodakIFD:WindMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

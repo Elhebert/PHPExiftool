@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObservationTime extends AbstractTagGroup
 {
+    protected string $id = 'FITS:ObservationTime';
 
-  protected string $id = 'FITS:ObservationTime';
+    protected string $name = 'ObservationTime';
 
-  protected string $name = 'ObservationTime';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FITS::Main
+             * line : 121725
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FITS::Main.FITS:ObservationTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FITS::Main
-       * line : 121725
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FITS::Main.FITS:ObservationTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

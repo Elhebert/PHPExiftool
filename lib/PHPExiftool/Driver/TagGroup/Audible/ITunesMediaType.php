@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ITunesMediaType extends AbstractTagGroup
 {
+    protected string $id = 'Audible:iTunesMediaType';
 
-  protected string $id = 'Audible:iTunesMediaType';
+    protected string $name = 'iTunesMediaType';
 
-  protected string $name = 'iTunesMediaType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Audible::meta
+             * line : 3145
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Audible::meta.Audible:iTunesMediaType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Audible::meta
-       * line : 3145
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Audible::meta.Audible:iTunesMediaType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

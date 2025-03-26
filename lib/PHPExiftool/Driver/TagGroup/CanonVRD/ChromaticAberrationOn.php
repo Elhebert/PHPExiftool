@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChromaticAberrationOn extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:ChromaticAberrationOn';
 
-  protected string $id = 'CanonVRD:ChromaticAberrationOn';
+    protected string $name = 'ChromaticAberrationOn';
 
-  protected string $name = 'ChromaticAberrationOn';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DR4
+             * line : 80900
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::DR4.CanonVRD:ChromaticAberrationOn',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonVRD::Ver2
+             * line : 83445
+             * type : int16s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver2.CanonVRD:ChromaticAberrationOn',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DR4
-       * line : 80900
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::DR4.CanonVRD:ChromaticAberrationOn',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonVRD::Ver2
-       * line : 83445
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver2.CanonVRD:ChromaticAberrationOn',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

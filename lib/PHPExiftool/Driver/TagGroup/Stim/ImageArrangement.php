@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageArrangement extends AbstractTagGroup
 {
+    protected string $id = 'Stim:ImageArrangement';
 
-  protected string $id = 'Stim:ImageArrangement';
+    protected string $name = 'ImageArrangement';
 
-  protected string $name = 'ImageArrangement';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Stim::Main
+             * line : 394581
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Stim::Main.Stim:ImageArrangement',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Stim::Main
-       * line : 394581
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Stim::Main.Stim:ImageArrangement',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

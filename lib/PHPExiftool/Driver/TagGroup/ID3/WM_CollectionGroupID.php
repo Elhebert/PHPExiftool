@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WM_CollectionGroupID extends AbstractTagGroup
 {
+    protected string $id = 'ID3:WM_CollectionGroupID';
 
-  protected string $id = 'ID3:WM_CollectionGroupID';
+    protected string $name = 'WM_CollectionGroupID';
 
-  protected string $name = 'WM_CollectionGroupID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::Private
+             * line : 147150
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::Private.ID3:WM_CollectionGroupID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::Private
-       * line : 147150
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::Private.ID3:WM_CollectionGroupID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

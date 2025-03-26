@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirstObject extends AbstractTagGroup
 {
+    protected string $id = 'MNG:FirstObject';
 
-  protected string $id = 'MNG:FirstObject';
+    protected string $name = 'FirstObject';
 
-  protected string $name = 'FirstObject';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::ClipObjects
+             * line : 164676
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::ClipObjects.MNG:FirstObject',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::MoveObjects
+             * line : 165228
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::MoveObjects.MNG:FirstObject',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : MNG::ShowObjects
+             * line : 165381
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::ShowObjects.MNG:FirstObject',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::ClipObjects
-       * line : 164676
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::ClipObjects.MNG:FirstObject',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::MoveObjects
-       * line : 165228
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::MoveObjects.MNG:FirstObject',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : MNG::ShowObjects
-       * line : 165381
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::ShowObjects.MNG:FirstObject',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

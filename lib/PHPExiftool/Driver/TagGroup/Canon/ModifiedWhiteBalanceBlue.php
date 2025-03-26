@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifiedWhiteBalanceBlue extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ModifiedWhiteBalanceBlue';
 
-  protected string $id = 'Canon:ModifiedWhiteBalanceBlue';
+    protected string $name = 'ModifiedWhiteBalanceBlue';
 
-  protected string $name = 'ModifiedWhiteBalanceBlue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ModifiedInfo
+             * line : 66547
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::ModifiedInfo.Canon:ModifiedWhiteBalanceBlue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ModifiedInfo
-       * line : 66547
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::ModifiedInfo.Canon:ModifiedWhiteBalanceBlue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

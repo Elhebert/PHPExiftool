@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLatitude extends AbstractTagGroup
 {
+    protected string $id = 'XML:GPSLatitude';
 
-  protected string $id = 'XML:GPSLatitude';
+    protected string $name = 'GPSLatitude';
 
-  protected string $name = 'GPSLatitude';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PLIST::Main
+             * line : 265133
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PLIST::Main.XML:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PLIST::Main
-       * line : 265133
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PLIST::Main.XML:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

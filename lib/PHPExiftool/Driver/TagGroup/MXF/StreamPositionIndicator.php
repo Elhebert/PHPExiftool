@@ -19,73 +19,71 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StreamPositionIndicator extends AbstractTagGroup
 {
+    protected string $id = 'MXF:StreamPositionIndicator';
 
-  protected string $id = 'MXF:StreamPositionIndicator';
+    protected string $name = 'StreamPositionIndicator';
 
-  protected string $name = 'StreamPositionIndicator';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 169667
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:StreamPositionIndicator',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MXF::Main
+             * line : 170863
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:StreamPositionIndicator',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : MXF::Main
+             * line : 170866
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:StreamPositionIndicator',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : MXF::Main
+             * line : 170869
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:StreamPositionIndicator',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 169667
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:StreamPositionIndicator',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MXF::Main
-       * line : 170863
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:StreamPositionIndicator',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : MXF::Main
-       * line : 170866
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:StreamPositionIndicator',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : MXF::Main
-       * line : 170869
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:StreamPositionIndicator',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

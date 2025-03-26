@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashFiring extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:FlashFiring';
 
-  protected string $id = 'CanonCustom:FlashFiring';
+    protected string $name = 'FlashFiring';
 
-  protected string $name = 'FlashFiring';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 73386
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:FlashFiring',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions20D
+             * line : 75869
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions20D.CanonCustom:FlashFiring',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : CanonCustom::Functions30D
+             * line : 76390
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions30D.CanonCustom:FlashFiring',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : CanonCustom::Functions5D
+             * line : 77508
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions5D.CanonCustom:FlashFiring',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 73386
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:FlashFiring',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions20D
-       * line : 75869
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions20D.CanonCustom:FlashFiring',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : CanonCustom::Functions30D
-       * line : 76390
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions30D.CanonCustom:FlashFiring',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : CanonCustom::Functions5D
-       * line : 77508
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions5D.CanonCustom:FlashFiring',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

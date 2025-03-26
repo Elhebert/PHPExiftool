@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataSign extends AbstractTagGroup
 {
+    protected string $id = 'File:DataSign';
 
-  protected string $id = 'File:DataSign';
+    protected string $name = 'DataSign';
 
-  protected string $name = 'DataSign';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105575
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DPX::Main.File:DataSign',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105575
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:DataSign',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

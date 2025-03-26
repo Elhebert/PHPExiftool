@@ -19,73 +19,71 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawDataType extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:RawDataType';
 
-  protected string $id = 'DICOM:RawDataType';
+    protected string $name = 'RawDataType';
 
-  protected string $name = 'RawDataType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 97783
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:RawDataType',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 100418
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:RawDataType',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 100421
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:RawDataType',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 100427
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:RawDataType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 97783
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:RawDataType',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 100418
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:RawDataType',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 100421
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:RawDataType',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 100427
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:RawDataType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

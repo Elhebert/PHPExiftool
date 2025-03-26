@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StampToolCount extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:StampToolCount';
 
-  protected string $id = 'CanonVRD:StampToolCount';
+    protected string $name = 'StampToolCount';
 
-  protected string $name = 'StampToolCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::StampInfo
+             * line : 82103
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::StampInfo.CanonVRD:StampToolCount',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonVRD::StampTool
+             * line : 82110
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::StampTool.CanonVRD:StampToolCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::StampInfo
-       * line : 82103
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::StampInfo.CanonVRD:StampToolCount',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonVRD::StampTool
-       * line : 82110
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::StampTool.CanonVRD:StampToolCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

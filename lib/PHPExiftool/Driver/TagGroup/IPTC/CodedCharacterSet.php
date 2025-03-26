@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CodedCharacterSet extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:CodedCharacterSet';
 
-  protected string $id = 'IPTC:CodedCharacterSet';
+    protected string $name = 'CodedCharacterSet';
 
-  protected string $name = 'CodedCharacterSet';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::EnvelopeRecord
+             * line : 151297
+             * type : string
+             * writable : true
+             * count : 32
+             * flags : unsafe
+             */
+            'id' => 'IPTC::EnvelopeRecord.IPTC:CodedCharacterSet',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::EnvelopeRecord
-       * line : 151297
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : unsafe
-       */
-      'id' => 'IPTC::EnvelopeRecord.IPTC:CodedCharacterSet',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

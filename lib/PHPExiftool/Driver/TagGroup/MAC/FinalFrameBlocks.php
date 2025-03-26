@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FinalFrameBlocks extends AbstractTagGroup
 {
+    protected string $id = 'MAC:FinalFrameBlocks';
 
-  protected string $id = 'MAC:FinalFrameBlocks';
+    protected string $name = 'FinalFrameBlocks';
 
-  protected string $name = 'FinalFrameBlocks';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APE::NewHeader
+             * line : 358
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::NewHeader.MAC:FinalFrameBlocks',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : APE::OldHeader
+             * line : 443
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::OldHeader.MAC:FinalFrameBlocks',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APE::NewHeader
-       * line : 358
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::NewHeader.MAC:FinalFrameBlocks',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : APE::OldHeader
-       * line : 443
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::OldHeader.MAC:FinalFrameBlocks',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

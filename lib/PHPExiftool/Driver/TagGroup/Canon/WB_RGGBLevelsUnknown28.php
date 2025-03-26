@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGGBLevelsUnknown28 extends AbstractTagGroup
 {
+    protected string $id = 'Canon:WB_RGGBLevelsUnknown28';
 
-  protected string $id = 'Canon:WB_RGGBLevelsUnknown28';
+    protected string $name = 'WB_RGGBLevelsUnknown28';
 
-  protected string $name = 'WB_RGGBLevelsUnknown28';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorData10
+             * line : 60264
+             * type : int16s
+             * writable : true
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsUnknown28',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::ColorData8
+             * line : 62555
+             * type : int16s
+             * writable : true
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsUnknown28',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::ColorData9
+             * line : 63037
+             * type : int16s
+             * writable : true
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsUnknown28',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorData10
-       * line : 60264
-       * type : int16s
-       * writable : true
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorData10.Canon:WB_RGGBLevelsUnknown28',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::ColorData8
-       * line : 62555
-       * type : int16s
-       * writable : true
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsUnknown28',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::ColorData9
-       * line : 63037
-       * type : int16s
-       * writable : true
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorData9.Canon:WB_RGGBLevelsUnknown28',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

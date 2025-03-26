@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirmwareID extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:FirmwareID';
 
-  protected string $id = 'MinoltaRaw:FirmwareID';
+    protected string $name = 'FirmwareID';
 
-  protected string $name = 'FirmwareID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::PRD
+             * line : 186737
+             * type : string
+             * writable : true
+             * count : 8
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::PRD.MinoltaRaw:FirmwareID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::PRD
-       * line : 186737
-       * type : string
-       * writable : true
-       * count : 8
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::PRD.MinoltaRaw:FirmwareID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

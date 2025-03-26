@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CoyoteStatus extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:CoyoteStatus';
 
-  protected string $id = 'GoPro:CoyoteStatus';
+    protected string $name = 'CoyoteStatus';
 
-  protected string $name = 'CoyoteStatus';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPMF
+             * line : 139430
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'GoPro::GPMF.GoPro:CoyoteStatus',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPMF
-       * line : 139430
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'GoPro::GPMF.GoPro:CoyoteStatus',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

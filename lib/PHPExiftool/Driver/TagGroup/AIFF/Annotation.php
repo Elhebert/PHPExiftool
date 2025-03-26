@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Annotation extends AbstractTagGroup
 {
+    protected string $id = 'AIFF:Annotation';
 
-  protected string $id = 'AIFF:Annotation';
+    protected string $name = 'Annotation';
 
-  protected string $name = 'Annotation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : AIFF::Main
+             * line : 211
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'AIFF::Main.AIFF:Annotation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : AIFF::Main
-       * line : 211
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'AIFF::Main.AIFF:Annotation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ManualAFPointSelPattern extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ManualAFPointSelPattern';
 
-  protected string $id = 'Canon:ManualAFPointSelPattern';
+    protected string $name = 'ManualAFPointSelPattern';
 
-  protected string $name = 'ManualAFPointSelPattern';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFConfig
+             * line : 3947
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFConfig.Canon:ManualAFPointSelPattern',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFConfig
-       * line : 3947
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFConfig.Canon:ManualAFPointSelPattern',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileFormat extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FileFormat';
 
-  protected string $id = 'Sony:FileFormat';
+    protected string $name = 'FileFormat';
 
-  protected string $name = 'FileFormat';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 355998
+             * type : int8u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:FileFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 355998
-       * type : int8u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:FileFormat',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

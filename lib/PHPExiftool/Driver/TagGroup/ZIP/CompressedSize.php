@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompressedSize extends AbstractTagGroup
 {
+    protected string $id = 'ZIP:CompressedSize';
 
-  protected string $id = 'ZIP:CompressedSize';
+    protected string $name = 'CompressedSize';
 
-  protected string $name = 'CompressedSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZIP::RAR
+             * line : 414951
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::RAR.ZIP:CompressedSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZIP::RAR
-       * line : 414951
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::RAR.ZIP:CompressedSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

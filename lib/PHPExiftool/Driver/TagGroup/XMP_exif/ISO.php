@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISO extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exif:ISO';
 
-  protected string $id = 'XMP-exif:ISO';
+    protected string $name = 'ISO';
 
-  protected string $name = 'ISO';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exif
+             * line : 407106
+             * type : integer
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::exif.XMP-exif:ISO',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exif
-       * line : 407106
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::exif.XMP-exif:ISO',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

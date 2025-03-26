@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownEV extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:UnknownEV';
 
-  protected string $id = 'KodakIFD:UnknownEV';
+    protected string $name = 'UnknownEV';
 
-  protected string $name = 'UnknownEV';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 154678
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Kodak::IFD.KodakIFD:UnknownEV',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 154678
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Kodak::IFD.KodakIFD:UnknownEV',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

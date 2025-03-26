@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StudyDateTime extends AbstractTagGroup
 {
+    protected string $id = 'XMP-DICOM:StudyDateTime';
 
-  protected string $id = 'XMP-DICOM:StudyDateTime';
+    protected string $name = 'StudyDateTime';
 
-  protected string $name = 'StudyDateTime';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::DICOM
+             * line : 396472
+             * type : date
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::DICOM.XMP-DICOM:StudyDateTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::DICOM
-       * line : 396472
-       * type : date
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::DICOM.XMP-DICOM:StudyDateTime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

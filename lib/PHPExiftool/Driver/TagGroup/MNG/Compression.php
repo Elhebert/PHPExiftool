@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Compression extends AbstractTagGroup
 {
+    protected string $id = 'MNG:Compression';
 
-  protected string $id = 'MNG:Compression';
+    protected string $name = 'Compression';
 
-  protected string $name = 'Compression';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::BasisObject
+             * line : 164600
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::BasisObject.MNG:Compression',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::JNGHeader
+             * line : 164934
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::JNGHeader.MNG:Compression',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::BasisObject
-       * line : 164600
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::BasisObject.MNG:Compression',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::JNGHeader
-       * line : 164934
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::JNGHeader.MNG:Compression',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

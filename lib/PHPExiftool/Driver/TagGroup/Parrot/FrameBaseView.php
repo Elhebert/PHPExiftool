@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FrameBaseView extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:FrameBaseView';
 
-  protected string $id = 'Parrot:FrameBaseView';
+    protected string $name = 'FrameBaseView';
 
-  protected string $name = 'FrameBaseView';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::V3
+             * line : 282520
+             * type : int16s
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'Parrot::V3.Parrot:FrameBaseView',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::V3
-       * line : 282520
-       * type : int16s
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'Parrot::V3.Parrot:FrameBaseView',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

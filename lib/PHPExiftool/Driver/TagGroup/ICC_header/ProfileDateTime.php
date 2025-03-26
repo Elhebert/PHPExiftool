@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProfileDateTime extends AbstractTagGroup
 {
+    protected string $id = 'ICC-header:ProfileDateTime';
 
-  protected string $id = 'ICC-header:ProfileDateTime';
+    protected string $name = 'ProfileDateTime';
 
-  protected string $name = 'ProfileDateTime';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Header
+             * line : 144142
+             * type : int16u
+             * writable : false
+             * count : 6
+             * flags :
+             */
+            'id' => 'ICC_Profile::Header.ICC-header:ProfileDateTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Header
-       * line : 144142
-       * type : int16u
-       * writable : false
-       * count : 6
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Header.ICC-header:ProfileDateTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 6;
-
+    protected int $count = 6;
 }

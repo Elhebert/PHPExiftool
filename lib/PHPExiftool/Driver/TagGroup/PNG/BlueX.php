@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlueX extends AbstractTagGroup
 {
+    protected string $id = 'PNG:BlueX';
 
-  protected string $id = 'PNG:BlueX';
+    protected string $name = 'BlueX';
 
-  protected string $name = 'BlueX';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::PrimaryChromaticities
+             * line : 272735
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::PrimaryChromaticities.PNG:BlueX',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::PrimaryChromaticities
-       * line : 272735
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::PrimaryChromaticities.PNG:BlueX',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

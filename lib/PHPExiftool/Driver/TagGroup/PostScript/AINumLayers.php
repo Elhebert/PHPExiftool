@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AINumLayers extends AbstractTagGroup
 {
+    protected string $id = 'PostScript:AINumLayers';
 
-  protected string $id = 'PostScript:AINumLayers';
+    protected string $name = 'AINumLayers';
 
-  protected string $name = 'AINumLayers';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PostScript::Main
+             * line : 305885
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PostScript::Main.PostScript:AINumLayers',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PostScript::Main
-       * line : 305885
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PostScript::Main.PostScript:AINumLayers',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

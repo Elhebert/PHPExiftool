@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFFocusPointYPosition extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:AFFocusPointYPosition';
 
-  protected string $id = 'Nikon:AFFocusPointYPosition';
+    protected string $name = 'AFFocusPointYPosition';
 
-  protected string $name = 'AFFocusPointYPosition';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 190034
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFFocusPointYPosition',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 190034
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFFocusPointYPosition',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

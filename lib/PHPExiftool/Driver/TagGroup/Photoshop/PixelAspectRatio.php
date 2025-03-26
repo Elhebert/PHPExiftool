@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PixelAspectRatio extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:PixelAspectRatio';
 
-  protected string $id = 'Photoshop:PixelAspectRatio';
+    protected string $name = 'PixelAspectRatio';
 
-  protected string $name = 'PixelAspectRatio';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::PixelInfo
+             * line : 305714
+             * type : double
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::PixelInfo.Photoshop:PixelAspectRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::PixelInfo
-       * line : 305714
-       * type : double
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::PixelInfo.Photoshop:PixelAspectRatio',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

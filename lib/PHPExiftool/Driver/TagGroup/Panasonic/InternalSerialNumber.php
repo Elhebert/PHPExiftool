@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InternalSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:InternalSerialNumber';
 
-  protected string $id = 'Panasonic:InternalSerialNumber';
+    protected string $name = 'InternalSerialNumber';
 
-  protected string $name = 'InternalSerialNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 275993
+             * type : undef
+             * writable : true
+             * count : 16
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:InternalSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 275993
-       * type : undef
-       * writable : true
-       * count : 16
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:InternalSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 16;
 
-  protected int $count = 16;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

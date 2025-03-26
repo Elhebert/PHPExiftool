@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IndicatesNoofUpdatesToHeader extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:IndicatesNoofUpdatesToHeader';
 
-  protected string $id = 'DICOM:IndicatesNoofUpdatesToHeader';
+    protected string $name = 'IndicatesNoofUpdatesToHeader';
 
-  protected string $name = 'IndicatesNoofUpdatesToHeader';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98477
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IndicatesNoofUpdatesToHeader',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98477
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IndicatesNoofUpdatesToHeader',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirmwareVersions extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:FirmwareVersions';
 
-  protected string $id = 'PhaseOne:FirmwareVersions';
+    protected string $name = 'FirmwareVersions';
 
-  protected string $name = 'FirmwareVersions';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::Main
+             * line : 303464
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'PhaseOne::Main.PhaseOne:FirmwareVersions',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::Main
-       * line : 303464
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'PhaseOne::Main.PhaseOne:FirmwareVersions',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Multishot extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:Multishot';
 
-  protected string $id = 'IFD0:Multishot';
+    protected string $name = 'Multishot';
 
-  protected string $name = 'Multishot';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::Main
+             * line : 280763
+             * type : int32u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::Main.IFD0:Multishot',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::Main
-       * line : 280763
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::Main.IFD0:Multishot',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

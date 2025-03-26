@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectTypeReference extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ObjectTypeReference';
 
-  protected string $id = 'IPTC:ObjectTypeReference';
+    protected string $name = 'ObjectTypeReference';
 
-  protected string $name = 'ObjectTypeReference';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 149708
+             * type : string
+             * writable : true
+             * count : 67
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ObjectTypeReference',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 149708
-       * type : string
-       * writable : true
-       * count : 67
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ObjectTypeReference',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 67;
 
-  protected int $count = 67;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

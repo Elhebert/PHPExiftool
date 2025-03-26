@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MenuButtonReturn extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:MenuButtonReturn';
 
-  protected string $id = 'CanonCustom:MenuButtonReturn';
+    protected string $name = 'MenuButtonReturn';
 
-  protected string $name = 'MenuButtonReturn';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::FunctionsD30
+             * line : 78147
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::FunctionsD30.CanonCustom:MenuButtonReturn',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::FunctionsD30
-       * line : 78147
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::FunctionsD30.CanonCustom:MenuButtonReturn',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

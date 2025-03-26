@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PrimaryAFPoint extends AbstractTagGroup
 {
+    protected string $id = 'Canon:PrimaryAFPoint';
 
-  protected string $id = 'Canon:PrimaryAFPoint';
+    protected string $name = 'PrimaryAFPoint';
 
-  protected string $name = 'PrimaryAFPoint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFInfo
+             * line : 4098
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo.Canon:PrimaryAFPoint',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::AFInfo
+             * line : 4108
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo.Canon:PrimaryAFPoint',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::AFInfo2
+             * line : 4270
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFInfo2.Canon:PrimaryAFPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFInfo
-       * line : 4098
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo.Canon:PrimaryAFPoint',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::AFInfo
-       * line : 4108
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo.Canon:PrimaryAFPoint',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::AFInfo2
-       * line : 4270
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFInfo2.Canon:PrimaryAFPoint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

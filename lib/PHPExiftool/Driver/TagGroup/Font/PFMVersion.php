@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PFMVersion extends AbstractTagGroup
 {
+    protected string $id = 'Font:PFMVersion';
 
-  protected string $id = 'Font:PFMVersion';
+    protected string $name = 'PFMVersion';
 
-  protected string $name = 'PFMVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::PFM
+             * line : 127963
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PFM.Font:PFMVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::PFM
-       * line : 127963
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PFM.Font:PFMVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

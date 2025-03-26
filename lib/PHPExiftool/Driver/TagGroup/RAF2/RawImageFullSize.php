@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawImageFullSize extends AbstractTagGroup
 {
+    protected string $id = 'RAF2:RawImageFullSize';
 
-  protected string $id = 'RAF2:RawImageFullSize';
+    protected string $name = 'RawImageFullSize';
 
-  protected string $name = 'RawImageFullSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::RAF
+             * line : 131055
+             * type : int16u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'FujiFilm::RAF.RAF2:RawImageFullSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::RAF
-       * line : 131055
-       * type : int16u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'FujiFilm::RAF.RAF2:RawImageFullSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

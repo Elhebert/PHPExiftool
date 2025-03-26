@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Shadow extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:Shadow';
 
-  protected string $id = 'SigmaRaw:Shadow';
+    protected string $name = 'Shadow';
 
-  protected string $name = 'Shadow';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::HeaderExt
+             * line : 339510
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Shadow',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::HeaderExt
-       * line : 339510
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Shadow',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

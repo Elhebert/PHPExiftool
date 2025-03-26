@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Channels extends AbstractTagGroup
 {
+    protected string $id = 'MAC:Channels';
 
-  protected string $id = 'MAC:Channels';
+    protected string $name = 'Channels';
 
-  protected string $name = 'Channels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APE::NewHeader
+             * line : 387
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::NewHeader.MAC:Channels',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : APE::OldHeader
+             * line : 424
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::OldHeader.MAC:Channels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APE::NewHeader
-       * line : 387
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::NewHeader.MAC:Channels',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : APE::OldHeader
-       * line : 424
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::OldHeader.MAC:Channels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

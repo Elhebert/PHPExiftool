@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SelfData extends AbstractTagGroup
 {
+    protected string $id = 'XMP-drone-dji:SelfData';
 
-  protected string $id = 'XMP-drone-dji:SelfData';
+    protected string $name = 'SelfData';
 
-  protected string $name = 'SelfData';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::XMP
+             * line : 104737
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'DJI::XMP.XMP-drone-dji:SelfData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::XMP
-       * line : 104737
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'DJI::XMP.XMP-drone-dji:SelfData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

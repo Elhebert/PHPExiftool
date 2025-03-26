@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XAttrMDItemFinderComment extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:XAttrMDItemFinderComment';
 
-  protected string $id = 'MacOS:XAttrMDItemFinderComment';
+    protected string $name = 'XAttrMDItemFinderComment';
 
-  protected string $name = 'XAttrMDItemFinderComment';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::XAttr
+             * line : 173136
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MacOS::XAttr.MacOS:XAttrMDItemFinderComment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::XAttr
-       * line : 173136
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MacOS::XAttr.MacOS:XAttrMDItemFinderComment',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

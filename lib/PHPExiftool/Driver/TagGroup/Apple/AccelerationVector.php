@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AccelerationVector extends AbstractTagGroup
 {
+    protected string $id = 'Apple:AccelerationVector';
 
-  protected string $id = 'Apple:AccelerationVector';
+    protected string $name = 'AccelerationVector';
 
-  protected string $name = 'AccelerationVector';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Apple::Main
+             * line : 2886
+             * type : rational64s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Apple::Main.Apple:AccelerationVector',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Apple::Main
-       * line : 2886
-       * type : rational64s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Apple::Main.Apple:AccelerationVector',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

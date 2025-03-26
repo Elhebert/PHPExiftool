@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SpecialMode extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:SpecialMode';
 
-  protected string $id = 'Olympus:SpecialMode';
+    protected string $name = 'SpecialMode';
 
-  protected string $name = 'SpecialMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Main
+             * line : 256898
+             * type : int32u
+             * writable : false
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::Main.Olympus:SpecialMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Main
-       * line : 256898
-       * type : int32u
-       * writable : false
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::Main.Olympus:SpecialMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

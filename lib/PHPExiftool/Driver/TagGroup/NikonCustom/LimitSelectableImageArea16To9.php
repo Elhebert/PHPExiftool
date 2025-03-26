@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LimitSelectableImageArea16To9 extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:LimitSelectableImageArea16To9';
 
-  protected string $id = 'NikonCustom:LimitSelectableImageArea16To9';
+    protected string $name = 'LimitSelectableImageArea16To9';
 
-  protected string $name = 'LimitSelectableImageArea16To9';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsZ9
+             * line : 235734
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'NikonCustom::SettingsZ9.NikonCustom:LimitSelectableImageArea16To9',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsZ9
-       * line : 235734
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'NikonCustom::SettingsZ9.NikonCustom:LimitSelectableImageArea16To9',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

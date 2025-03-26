@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraByteOrder extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:CameraByteOrder';
 
-  protected string $id = 'Kodak:CameraByteOrder';
+    protected string $name = 'CameraByteOrder';
 
-  protected string $name = 'CameraByteOrder';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::DcMD
+             * line : 154456
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::DcMD.Kodak:CameraByteOrder',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Kodak::DcMD
+             * line : 154469
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::DcMD.Kodak:CameraByteOrder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::DcMD
-       * line : 154456
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::DcMD.Kodak:CameraByteOrder',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Kodak::DcMD
-       * line : 154469
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::DcMD.Kodak:CameraByteOrder',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

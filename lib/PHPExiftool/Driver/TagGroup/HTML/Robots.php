@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Robots extends AbstractTagGroup
 {
+    protected string $id = 'HTML:Robots';
 
-  protected string $id = 'HTML:Robots';
+    protected string $name = 'Robots';
 
-  protected string $name = 'Robots';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::Main
+             * line : 142484
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'HTML::Main.HTML:Robots',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::Main
-       * line : 142484
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'HTML::Main.HTML:Robots',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

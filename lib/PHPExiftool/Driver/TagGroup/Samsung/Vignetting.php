@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Vignetting extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:Vignetting';
 
-  protected string $id = 'Samsung:Vignetting';
+    protected string $name = 'Vignetting';
 
-  protected string $name = 'Vignetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335620
+             * type : int16u
+             * writable : true
+             * count : 15
+             * flags : permanent,unknown
+             */
+            'id' => 'Samsung::Type2.Samsung:Vignetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335620
-       * type : int16u
-       * writable : true
-       * count : 15
-       * flags : permanent,unknown
-       */
-      'id' => 'Samsung::Type2.Samsung:Vignetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 15;
 
-  protected int $count = 15;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChromaticAberrationParams extends AbstractTagGroup
 {
+    protected string $id = 'FujiIFD:ChromaticAberrationParams';
 
-  protected string $id = 'FujiIFD:ChromaticAberrationParams';
+    protected string $name = 'ChromaticAberrationParams';
 
-  protected string $name = 'ChromaticAberrationParams';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::IFD
+             * line : 128729
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FujiFilm::IFD.FujiIFD:ChromaticAberrationParams',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::IFD
-       * line : 128729
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FujiFilm::IFD.FujiIFD:ChromaticAberrationParams',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

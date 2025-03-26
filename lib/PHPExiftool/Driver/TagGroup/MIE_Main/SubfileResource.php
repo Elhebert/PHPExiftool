@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubfileResource extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Main:SubfileResource';
 
-  protected string $id = 'MIE-Main:SubfileResource';
+    protected string $name = 'SubfileResource';
 
-  protected string $name = 'SubfileResource';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Main
+             * line : 164069
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'MIE::Main.MIE-Main:SubfileResource',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Main
-       * line : 164069
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'MIE::Main.MIE-Main:SubfileResource',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGBLevelsUnknown6 extends AbstractTagGroup
 {
+    protected string $id = 'Sigma:WB_RGBLevelsUnknown6';
 
-  protected string $id = 'Sigma:WB_RGBLevelsUnknown6';
+    protected string $name = 'WB_RGBLevelsUnknown6';
 
-  protected string $name = 'WB_RGBLevelsUnknown6';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sigma::WBSettings2
+             * line : 339288
+             * type : float
+             * writable : true
+             * count : 3
+             * flags : permanent,unknown
+             */
+            'id' => 'Sigma::WBSettings2.Sigma:WB_RGBLevelsUnknown6',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sigma::WBSettings2
-       * line : 339288
-       * type : float
-       * writable : true
-       * count : 3
-       * flags : permanent,unknown
-       */
-      'id' => 'Sigma::WBSettings2.Sigma:WB_RGBLevelsUnknown6',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

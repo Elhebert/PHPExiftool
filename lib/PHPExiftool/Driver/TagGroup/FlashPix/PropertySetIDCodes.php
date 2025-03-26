@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PropertySetIDCodes extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:PropertySetIDCodes';
 
-  protected string $id = 'FlashPix:PropertySetIDCodes';
+    protected string $name = 'PropertySetIDCodes';
 
-  protected string $name = 'PropertySetIDCodes';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::Extensions
+             * line : 124601
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::Extensions.FlashPix:PropertySetIDCodes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::Extensions
-       * line : 124601
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::Extensions.FlashPix:PropertySetIDCodes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

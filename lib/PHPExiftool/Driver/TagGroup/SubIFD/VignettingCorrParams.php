@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VignettingCorrParams extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:VignettingCorrParams';
 
-  protected string $id = 'SubIFD:VignettingCorrParams';
+    protected string $name = 'VignettingCorrParams';
 
-  protected string $name = 'VignettingCorrParams';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112775
+             * type : int16s
+             * writable : true
+             * count : 17
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:VignettingCorrParams',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112775
-       * type : int16s
-       * writable : true
-       * count : 17
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:VignettingCorrParams',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 17;
 
-  protected int $count = 17;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

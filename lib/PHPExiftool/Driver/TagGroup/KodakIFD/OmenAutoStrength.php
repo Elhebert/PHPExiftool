@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OmenAutoStrength extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:OmenAutoStrength';
 
-  protected string $id = 'KodakIFD:OmenAutoStrength';
+    protected string $name = 'OmenAutoStrength';
 
-  protected string $name = 'OmenAutoStrength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155654
+             * type : int32s
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:OmenAutoStrength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155654
-       * type : int32s
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:OmenAutoStrength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

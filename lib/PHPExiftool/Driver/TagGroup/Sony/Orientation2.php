@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Orientation2 extends AbstractTagGroup
 {
+    protected string $id = 'Sony:Orientation2';
 
-  protected string $id = 'Sony:Orientation2';
+    protected string $name = 'Orientation2';
 
-  protected string $name = 'Orientation2';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 360974
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:Orientation2',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 361068
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:Orientation2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 360974
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:Orientation2',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 361068
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:Orientation2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

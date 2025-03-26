@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PageRange extends AbstractTagGroup
 {
+    protected string $id = 'XMP-prism:PageRange';
 
-  protected string $id = 'XMP-prism:PageRange';
+    protected string $name = 'PageRange';
 
-  protected string $name = 'PageRange';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::prism
+             * line : 411045
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid,bag,list
+             */
+            'id' => 'XMP::prism.XMP-prism:PageRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::prism
-       * line : 411045
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid,bag,list
-       */
-      'id' => 'XMP::prism.XMP-prism:PageRange',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2369;
-
+    protected int $flags = 2369;
 }

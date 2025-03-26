@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureWizardSharpness extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:PictureWizardSharpness';
 
-  protected string $id = 'Samsung:PictureWizardSharpness';
+    protected string $name = 'PictureWizardSharpness';
 
-  protected string $name = 'PictureWizardSharpness';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::PictureWizard
+             * line : 334147
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::PictureWizard.Samsung:PictureWizardSharpness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::PictureWizard
-       * line : 334147
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::PictureWizard.Samsung:PictureWizardSharpness',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

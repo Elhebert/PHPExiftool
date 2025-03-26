@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Face3Position extends AbstractTagGroup
 {
+    protected string $id = 'Canon:Face3Position';
 
-  protected string $id = 'Canon:Face3Position';
+    protected string $name = 'Face3Position';
 
-  protected string $name = 'Face3Position';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::FaceDetect1
+             * line : 63299
+             * type : int16s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Canon::FaceDetect1.Canon:Face3Position',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::FaceDetect1
-       * line : 63299
-       * type : int16s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Canon::FaceDetect1.Canon:Face3Position',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

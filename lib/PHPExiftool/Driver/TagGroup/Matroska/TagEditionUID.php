@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TagEditionUID extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:TagEditionUID';
 
-  protected string $id = 'Matroska:TagEditionUID';
+    protected string $name = 'TagEditionUID';
 
-  protected string $name = 'TagEditionUID';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Main
+             * line : 173788
+             * type : unsigned
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Matroska::Main.Matroska:TagEditionUID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Main
-       * line : 173788
-       * type : unsigned
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Matroska::Main.Matroska:TagEditionUID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

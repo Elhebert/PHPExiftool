@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AvgBytesPerSec extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:AvgBytesPerSec';
 
-  protected string $id = 'RIFF:AvgBytesPerSec';
+    protected string $name = 'AvgBytesPerSec';
 
-  protected string $name = 'AvgBytesPerSec';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::AudioFormat
+             * line : 327737
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::AudioFormat.RIFF:AvgBytesPerSec',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::AudioFormat
-       * line : 327737
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::AudioFormat.RIFF:AvgBytesPerSec',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

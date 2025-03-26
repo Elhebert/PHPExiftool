@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RelativeHumidity extends AbstractTagGroup
 {
+    protected string $id = 'DJI:RelativeHumidity';
 
-  protected string $id = 'DJI:RelativeHumidity';
+    protected string $name = 'RelativeHumidity';
 
-  protected string $name = 'RelativeHumidity';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::ThermalParams
+             * line : 104572
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DJI::ThermalParams.DJI:RelativeHumidity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::ThermalParams
-       * line : 104572
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DJI::ThermalParams.DJI:RelativeHumidity',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

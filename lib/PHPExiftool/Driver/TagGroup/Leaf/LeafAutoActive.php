@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LeafAutoActive extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:LeafAutoActive';
 
-  protected string $id = 'Leaf:LeafAutoActive';
+    protected string $name = 'LeafAutoActive';
 
-  protected string $name = 'LeafAutoActive';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::SaveSetup
+             * line : 161955
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::SaveSetup.Leaf:LeafAutoActive',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::SaveSetup
-       * line : 161955
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::SaveSetup.Leaf:LeafAutoActive',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

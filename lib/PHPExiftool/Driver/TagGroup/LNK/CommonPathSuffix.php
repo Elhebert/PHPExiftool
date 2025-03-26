@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CommonPathSuffix extends AbstractTagGroup
 {
+    protected string $id = 'LNK:CommonPathSuffix';
 
-  protected string $id = 'LNK:CommonPathSuffix';
+    protected string $name = 'CommonPathSuffix';
 
-  protected string $name = 'CommonPathSuffix';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::LinkInfo
+             * line : 161068
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::LinkInfo.LNK:CommonPathSuffix',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::LinkInfo
-       * line : 161068
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::LinkInfo.LNK:CommonPathSuffix',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AeProjectLinkRenderTimeStamp extends AbstractTagGroup
 {
+    protected string $id = 'XMP-creatorAtom:AeProjectLinkRenderTimeStamp';
 
-  protected string $id = 'XMP-creatorAtom:AeProjectLinkRenderTimeStamp';
+    protected string $name = 'AeProjectLinkRenderTimeStamp';
 
-  protected string $name = 'AeProjectLinkRenderTimeStamp';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::creatorAtom
+             * line : 401468
+             * type : integer
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::creatorAtom.XMP-creatorAtom:AeProjectLinkRenderTimeStamp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::creatorAtom
-       * line : 401468
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::creatorAtom.XMP-creatorAtom:AeProjectLinkRenderTimeStamp',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

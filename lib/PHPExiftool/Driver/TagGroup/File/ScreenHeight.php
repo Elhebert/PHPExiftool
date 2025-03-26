@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ScreenHeight extends AbstractTagGroup
 {
+    protected string $id = 'File:ScreenHeight';
 
-  protected string $id = 'File:ScreenHeight';
+    protected string $name = 'ScreenHeight';
 
-  protected string $name = 'ScreenHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PCX::Main
+             * line : 264022
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PCX::Main.File:ScreenHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PCX::Main
-       * line : 264022
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PCX::Main.File:ScreenHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

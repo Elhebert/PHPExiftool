@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ItemSubType extends AbstractTagGroup
 {
+    protected string $id = 'XMP-microsoft:ItemSubType';
 
-  protected string $id = 'XMP-microsoft:ItemSubType';
+    protected string $name = 'ItemSubType';
 
-  protected string $name = 'ItemSubType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::XMP
+             * line : 174360
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Microsoft::XMP.XMP-microsoft:ItemSubType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::XMP
-       * line : 174360
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Microsoft::XMP.XMP-microsoft:ItemSubType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

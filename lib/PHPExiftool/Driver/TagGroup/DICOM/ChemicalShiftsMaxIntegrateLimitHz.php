@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChemicalShiftsMaxIntegrateLimitHz extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ChemicalShiftsMaxIntegrateLimitHz';
 
-  protected string $id = 'DICOM:ChemicalShiftsMaxIntegrateLimitHz';
+    protected string $name = 'ChemicalShiftsMaxIntegrateLimitHz';
 
-  protected string $name = 'ChemicalShiftsMaxIntegrateLimitHz';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 96877
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ChemicalShiftsMaxIntegrateLimitHz',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 96877
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ChemicalShiftsMaxIntegrateLimitHz',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

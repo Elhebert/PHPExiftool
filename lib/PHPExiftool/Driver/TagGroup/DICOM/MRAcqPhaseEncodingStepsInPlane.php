@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MRAcqPhaseEncodingStepsInPlane extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:MRAcqPhaseEncodingStepsInPlane';
 
-  protected string $id = 'DICOM:MRAcqPhaseEncodingStepsInPlane';
+    protected string $name = 'MRAcqPhaseEncodingStepsInPlane';
 
-  protected string $name = 'MRAcqPhaseEncodingStepsInPlane';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 96913
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:MRAcqPhaseEncodingStepsInPlane',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 96913
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:MRAcqPhaseEncodingStepsInPlane',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

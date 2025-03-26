@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HasSBA extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:HasSBA';
 
-  protected string $id = 'PhotoCD:HasSBA';
+    protected string $name = 'HasSBA';
 
-  protected string $name = 'HasSBA';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303824
+             * type : undef
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:HasSBA',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303824
-       * type : undef
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:HasSBA',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

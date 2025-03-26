@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AngleInfoRoll extends AbstractTagGroup
 {
+    protected string $id = 'XMP-apple-fi:AngleInfoRoll';
 
-  protected string $id = 'XMP-apple-fi:AngleInfoRoll';
+    protected string $name = 'AngleInfoRoll';
 
-  protected string $name = 'AngleInfoRoll';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::apple_fi
+             * line : 397888
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::apple_fi.XMP-apple-fi:AngleInfoRoll',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::apple_fi
-       * line : 397888
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::apple_fi.XMP-apple-fi:AngleInfoRoll',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

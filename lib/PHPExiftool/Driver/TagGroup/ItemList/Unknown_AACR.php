@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Unknown_AACR extends AbstractTagGroup
 {
+    protected string $id = 'ItemList:Unknown_AACR';
 
-  protected string $id = 'ItemList:Unknown_AACR';
+    protected string $name = 'Unknown_AACR';
 
-  protected string $name = 'Unknown_AACR';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 314079
+             * type : string
+             * writable : true
+             * count :
+             * flags : unknown
+             */
+            'id' => 'QuickTime::ItemList.ItemList:Unknown_AACR',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 314079
-       * type : string
-       * writable : true
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'QuickTime::ItemList.ItemList:Unknown_AACR',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2080;
-
+    protected int $flags = 2080;
 }

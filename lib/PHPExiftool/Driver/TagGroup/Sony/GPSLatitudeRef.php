@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLatitudeRef extends AbstractTagGroup
 {
+    protected string $id = 'Sony:GPSLatitudeRef';
 
-  protected string $id = 'Sony:GPSLatitudeRef';
+    protected string $name = 'GPSLatitudeRef';
 
-  protected string $name = 'GPSLatitudeRef';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::rtmd
+             * line : 393524
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Sony::rtmd.Sony:GPSLatitudeRef',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::rtmd
-       * line : 393524
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Sony::rtmd.Sony:GPSLatitudeRef',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

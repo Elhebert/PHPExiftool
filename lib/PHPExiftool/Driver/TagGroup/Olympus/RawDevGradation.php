@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawDevGradation extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:RawDevGradation';
 
-  protected string $id = 'Olympus:RawDevGradation';
+    protected string $name = 'RawDevGradation';
 
-  protected string $name = 'RawDevGradation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::RawDevelopment2
+             * line : 260656
+             * type : int16s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawDevelopment2.Olympus:RawDevGradation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::RawDevelopment2
-       * line : 260656
-       * type : int16s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawDevelopment2.Olympus:RawDevGradation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Creator extends AbstractTagGroup
 {
+    protected string $id = 'Torrent:Creator';
 
-  protected string $id = 'Torrent:Creator';
+    protected string $name = 'Creator';
 
-  protected string $name = 'Creator';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Torrent::Main
+             * line : 395041
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Torrent::Main.Torrent:Creator',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Torrent::Main
-       * line : 395041
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Torrent::Main.Torrent:Creator',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

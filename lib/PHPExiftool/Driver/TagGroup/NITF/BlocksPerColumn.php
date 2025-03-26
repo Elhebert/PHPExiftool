@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlocksPerColumn extends AbstractTagGroup
 {
+    protected string $id = 'NITF:BlocksPerColumn';
 
-  protected string $id = 'NITF:BlocksPerColumn';
+    protected string $name = 'BlocksPerColumn';
 
-  protected string $name = 'BlocksPerColumn';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::NITF
+             * line : 152781
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::NITF.NITF:BlocksPerColumn',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::NITF
-       * line : 152781
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::NITF.NITF:BlocksPerColumn',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

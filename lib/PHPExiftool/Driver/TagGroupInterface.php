@@ -17,25 +17,18 @@ namespace PHPExiftool\Driver;
  */
 interface TagGroupInterface
 {
-
     /**
      * Return TagGroup Id - TagGroup dependant
-     *
-     * @return string
      */
     public function getId(): string;
 
     /**
      * Return the tagGroup name
-     *
-     * @return string
      */
     public function getName(): string;
 
     /**
      * A small string about the TagGroup
-     *
-     * @return string
      */
     public function getDescription(string $lng = 'en'): ?string;
 
@@ -45,19 +38,15 @@ interface TagGroupInterface
      *
      * @return array
      */
-//    public function getValues(): array;
+    //    public function getValues(): array;
 
     /**
      * Returns true if the TagGroup handles list values
-     *
-     * @return boolean
      */
     public function isMulti(): bool;
 
     /**
      * Returns true if the value is binary
-     *
-     * @return bool
      */
     public function isBinary(): bool;
 
@@ -65,8 +54,6 @@ interface TagGroupInterface
 
     /**
      * Returns true if the value can be written in the tag
-     *
-     * @return bool
      */
     public function isWritable(): bool;
 

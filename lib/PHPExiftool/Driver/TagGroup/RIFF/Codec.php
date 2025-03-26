@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Codec extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:Codec';
 
-  protected string $id = 'RIFF:Codec';
+    protected string $name = 'Codec';
 
-  protected string $name = 'Codec';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::StreamHeader
+             * line : 328802
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'RIFF::StreamHeader.RIFF:Codec',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::StreamHeader
-       * line : 328802
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'RIFF::StreamHeader.RIFF:Codec',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

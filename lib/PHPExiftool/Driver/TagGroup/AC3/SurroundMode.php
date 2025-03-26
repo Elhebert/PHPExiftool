@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SurroundMode extends AbstractTagGroup
 {
+    protected string $id = 'AC3:SurroundMode';
 
-  protected string $id = 'AC3:SurroundMode';
+    protected string $name = 'SurroundMode';
 
-  protected string $name = 'SurroundMode';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : M2TS::AC3
+             * line : 162482
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'M2TS::AC3.AC3:SurroundMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : M2TS::AC3
-       * line : 162482
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'M2TS::AC3.AC3:SurroundMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

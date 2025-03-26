@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalTransmissionReference extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:OriginalTransmissionReference';
 
-  protected string $id = 'IPTC:OriginalTransmissionReference';
+    protected string $name = 'OriginalTransmissionReference';
 
-  protected string $name = 'OriginalTransmissionReference';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150318
+             * type : string
+             * writable : true
+             * count : 32
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:OriginalTransmissionReference',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150318
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:OriginalTransmissionReference',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

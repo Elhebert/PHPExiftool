@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeOffset extends AbstractTagGroup
 {
+    protected string $id = 'ASF:TimeOffset';
 
-  protected string $id = 'ASF:TimeOffset';
+    protected string $name = 'TimeOffset';
 
-  protected string $name = 'TimeOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::StreamProperties
+             * line : 2089
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::StreamProperties.ASF:TimeOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::StreamProperties
-       * line : 2089
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::StreamProperties.ASF:TimeOffset',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

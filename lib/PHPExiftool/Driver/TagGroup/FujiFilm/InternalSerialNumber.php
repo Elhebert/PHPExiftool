@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InternalSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:InternalSerialNumber';
 
-  protected string $id = 'FujiFilm:InternalSerialNumber';
+    protected string $name = 'InternalSerialNumber';
 
-  protected string $name = 'InternalSerialNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::Main
+             * line : 128844
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::Main.FujiFilm:InternalSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::Main
-       * line : 128844
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::Main.FujiFilm:InternalSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

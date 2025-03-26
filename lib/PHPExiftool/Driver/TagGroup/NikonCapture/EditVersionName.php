@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EditVersionName extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:EditVersionName';
 
-  protected string $id = 'NikonCapture:EditVersionName';
+    protected string $name = 'EditVersionName';
 
-  protected string $name = 'EditVersionName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::Main
+             * line : 210501
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::Main.NikonCapture:EditVersionName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::Main
-       * line : 210501
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::Main.NikonCapture:EditVersionName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

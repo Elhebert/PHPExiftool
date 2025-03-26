@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Text extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Text';
 
-  protected string $id = 'QuickTime:Text';
+    protected string $name = 'Text';
 
-  protected string $name = 'Text';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::GenMediaHeader
+             * line : 313227
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'QuickTime::GenMediaHeader.QuickTime:Text',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : QuickTime::Stream
+             * line : 324906
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Stream.QuickTime:Text',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : QuickTime::tx3g
+             * line : 326830
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::tx3g.QuickTime:Text',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::GenMediaHeader
-       * line : 313227
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'QuickTime::GenMediaHeader.QuickTime:Text',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : QuickTime::Stream
-       * line : 324906
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Stream.QuickTime:Text',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : QuickTime::tx3g
-       * line : 326830
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::tx3g.QuickTime:Text',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

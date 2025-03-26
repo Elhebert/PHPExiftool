@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NameUTF_8 extends AbstractTagGroup
 {
+    protected string $id = 'Torrent:NameUTF-8';
 
-  protected string $id = 'Torrent:NameUTF-8';
+    protected string $name = 'NameUTF-8';
 
-  protected string $name = 'NameUTF-8';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Torrent::Info
+             * line : 394994
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Torrent::Info.Torrent:NameUTF-8',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Torrent::Info
-       * line : 394994
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Torrent::Info.Torrent:NameUTF-8',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

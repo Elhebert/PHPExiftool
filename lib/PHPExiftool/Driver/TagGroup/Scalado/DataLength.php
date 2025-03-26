@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataLength extends AbstractTagGroup
 {
+    protected string $id = 'Scalado:DataLength';
 
-  protected string $id = 'Scalado:DataLength';
+    protected string $name = 'DataLength';
 
-  protected string $name = 'DataLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Scalado::Main
+             * line : 336943
+             * type : int32s
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Scalado::Main.Scalado:DataLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Scalado::Main
-       * line : 336943
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Scalado::Main.Scalado:DataLength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

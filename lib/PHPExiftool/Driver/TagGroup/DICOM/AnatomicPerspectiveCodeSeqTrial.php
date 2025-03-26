@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AnatomicPerspectiveCodeSeqTrial extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:AnatomicPerspectiveCodeSeqTrial';
 
-  protected string $id = 'DICOM:AnatomicPerspectiveCodeSeqTrial';
+    protected string $name = 'AnatomicPerspectiveCodeSeqTrial';
 
-  protected string $name = 'AnatomicPerspectiveCodeSeqTrial';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 95084
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:AnatomicPerspectiveCodeSeqTrial',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 95084
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:AnatomicPerspectiveCodeSeqTrial',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

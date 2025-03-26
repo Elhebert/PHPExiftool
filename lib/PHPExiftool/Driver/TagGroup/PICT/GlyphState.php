@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GlyphState extends AbstractTagGroup
 {
+    protected string $id = 'PICT:GlyphState';
 
-  protected string $id = 'PICT:GlyphState';
+    protected string $name = 'GlyphState';
 
-  protected string $name = 'GlyphState';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264754
+             * type : int8u
+             * writable : false
+             * count : 8
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:GlyphState',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264754
-       * type : int8u
-       * writable : false
-       * count : 8
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:GlyphState',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 8;
-
+    protected int $count = 8;
 }

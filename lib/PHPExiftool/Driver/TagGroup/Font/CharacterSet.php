@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CharacterSet extends AbstractTagGroup
 {
+    protected string $id = 'Font:CharacterSet';
 
-  protected string $id = 'Font:CharacterSet';
+    protected string $name = 'CharacterSet';
 
-  protected string $name = 'CharacterSet';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::AFM
+             * line : 127715
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::AFM.Font:CharacterSet',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Font::PFM
+             * line : 128055
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PFM.Font:CharacterSet',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::AFM
-       * line : 127715
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::AFM.Font:CharacterSet',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Font::PFM
-       * line : 128055
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PFM.Font:CharacterSet',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

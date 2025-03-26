@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ZipModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'ZIP:ZipModifyDate';
 
-  protected string $id = 'ZIP:ZipModifyDate';
+    protected string $name = 'ZipModifyDate';
 
-  protected string $name = 'ZipModifyDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZIP::Main
+             * line : 414917
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::Main.ZIP:ZipModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZIP::Main
-       * line : 414917
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::Main.ZIP:ZipModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

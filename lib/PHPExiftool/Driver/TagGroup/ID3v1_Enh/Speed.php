@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Speed extends AbstractTagGroup
 {
+    protected string $id = 'ID3v1_Enh:Speed';
 
-  protected string $id = 'ID3v1_Enh:Speed';
+    protected string $name = 'Speed';
 
-  protected string $name = 'Speed';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v1_Enh
+             * line : 147978
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v1_Enh.ID3v1_Enh:Speed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v1_Enh
-       * line : 147978
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v1_Enh.ID3v1_Enh:Speed',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

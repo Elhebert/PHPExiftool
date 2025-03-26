@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MobiType extends AbstractTagGroup
 {
+    protected string $id = 'MOBI:MobiType';
 
-  protected string $id = 'MOBI:MobiType';
+    protected string $name = 'MobiType';
 
-  protected string $name = 'MobiType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::MOBI
+             * line : 273737
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::MOBI.MOBI:MobiType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::MOBI
-       * line : 273737
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::MOBI.MOBI:MobiType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Reading2Value extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:Reading2Value';
 
-  protected string $id = 'FLIR:Reading2Value';
+    protected string $name = 'Reading2Value';
 
-  protected string $name = 'Reading2Value';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::MeterLink
+             * line : 123360
+             * type : double
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::MeterLink.FLIR:Reading2Value',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::MeterLink
-       * line : 123360
-       * type : double
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::MeterLink.FLIR:Reading2Value',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

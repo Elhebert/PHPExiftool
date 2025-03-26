@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThermalData extends AbstractTagGroup
 {
+    protected string $id = 'DJI:ThermalData';
 
-  protected string $id = 'DJI:ThermalData';
+    protected string $name = 'ThermalData';
 
-  protected string $name = 'ThermalData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::Main
+             * line : 152578
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'JPEG::Main.DJI:ThermalData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::Main
-       * line : 152578
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'JPEG::Main.DJI:ThermalData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

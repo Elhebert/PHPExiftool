@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AlbumSortOrder extends AbstractTagGroup
 {
+    protected string $id = 'ID3v2_4:AlbumSortOrder';
 
-  protected string $id = 'ID3v2_4:AlbumSortOrder';
+    protected string $name = 'AlbumSortOrder';
 
-  protected string $name = 'AlbumSortOrder';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v2_4
+             * line : 149595
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_4.ID3v2_4:AlbumSortOrder',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : ID3::v2_4
+             * line : 149679
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_4.ID3v2_4:AlbumSortOrder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v2_4
-       * line : 149595
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_4.ID3v2_4:AlbumSortOrder',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : ID3::v2_4
-       * line : 149679
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_4.ID3v2_4:AlbumSortOrder',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

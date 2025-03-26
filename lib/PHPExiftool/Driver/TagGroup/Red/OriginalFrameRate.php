@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalFrameRate extends AbstractTagGroup
 {
+    protected string $id = 'Red:OriginalFrameRate';
 
-  protected string $id = 'Red:OriginalFrameRate';
+    protected string $name = 'OriginalFrameRate';
 
-  protected string $name = 'OriginalFrameRate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Red::Main
+             * line : 331592
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Red::Main.Red:OriginalFrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Red::Main
-       * line : 331592
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Red::Main.Red:OriginalFrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

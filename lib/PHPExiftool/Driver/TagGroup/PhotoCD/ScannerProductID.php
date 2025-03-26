@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ScannerProductID extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:ScannerProductID';
 
-  protected string $id = 'PhotoCD:ScannerProductID';
+    protected string $name = 'ScannerProductID';
 
-  protected string $name = 'ScannerProductID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303769
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:ScannerProductID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303769
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:ScannerProductID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

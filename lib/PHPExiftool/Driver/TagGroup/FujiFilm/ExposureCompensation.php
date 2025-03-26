@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureCompensation extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:ExposureCompensation';
 
-  protected string $id = 'FujiFilm:ExposureCompensation';
+    protected string $name = 'ExposureCompensation';
 
-  protected string $name = 'ExposureCompensation';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::MOV
+             * line : 128811
+             * type : rational64s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::MOV.FujiFilm:ExposureCompensation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::MOV
-       * line : 128811
-       * type : rational64s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::MOV.FujiFilm:ExposureCompensation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

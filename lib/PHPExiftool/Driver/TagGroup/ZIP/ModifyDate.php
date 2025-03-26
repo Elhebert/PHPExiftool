@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'ZIP:ModifyDate';
 
-  protected string $id = 'ZIP:ModifyDate';
+    protected string $name = 'ModifyDate';
 
-  protected string $name = 'ModifyDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZIP::GZIP
+             * line : 414701
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::GZIP.ZIP:ModifyDate',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : ZIP::RAR
+             * line : 414980
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::RAR.ZIP:ModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZIP::GZIP
-       * line : 414701
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::GZIP.ZIP:ModifyDate',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : ZIP::RAR
-       * line : 414980
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::RAR.ZIP:ModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StreamMimeType extends AbstractTagGroup
 {
+    protected string $id = 'Real-MDPR:StreamMimeType';
 
-  protected string $id = 'Real-MDPR:StreamMimeType';
+    protected string $name = 'StreamMimeType';
 
-  protected string $name = 'StreamMimeType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::MediaProps
+             * line : 330413
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::MediaProps.Real-MDPR:StreamMimeType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::MediaProps
-       * line : 330413
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::MediaProps.Real-MDPR:StreamMimeType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

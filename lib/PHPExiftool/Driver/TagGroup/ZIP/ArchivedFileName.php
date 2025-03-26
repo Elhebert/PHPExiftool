@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ArchivedFileName extends AbstractTagGroup
 {
+    protected string $id = 'ZIP:ArchivedFileName';
 
-  protected string $id = 'ZIP:ArchivedFileName';
+    protected string $name = 'ArchivedFileName';
 
-  protected string $name = 'ArchivedFileName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZIP::GZIP
+             * line : 414799
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::GZIP.ZIP:ArchivedFileName',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : ZIP::RAR
+             * line : 415041
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::RAR.ZIP:ArchivedFileName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZIP::GZIP
-       * line : 414799
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::GZIP.ZIP:ArchivedFileName',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : ZIP::RAR
-       * line : 415041
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::RAR.ZIP:ArchivedFileName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

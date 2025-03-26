@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Unknown_CDEK extends AbstractTagGroup
 {
+    protected string $id = 'ItemList:Unknown_CDEK';
 
-  protected string $id = 'ItemList:Unknown_CDEK';
+    protected string $name = 'Unknown_CDEK';
 
-  protected string $name = 'Unknown_CDEK';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemList
+             * line : 314082
+             * type : string
+             * writable : true
+             * count :
+             * flags : unknown
+             */
+            'id' => 'QuickTime::ItemList.ItemList:Unknown_CDEK',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemList
-       * line : 314082
-       * type : string
-       * writable : true
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'QuickTime::ItemList.ItemList:Unknown_CDEK',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2080;
-
+    protected int $flags = 2080;
 }

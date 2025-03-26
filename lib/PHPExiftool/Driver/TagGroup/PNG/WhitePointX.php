@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhitePointX extends AbstractTagGroup
 {
+    protected string $id = 'PNG:WhitePointX';
 
-  protected string $id = 'PNG:WhitePointX';
+    protected string $name = 'WhitePointX';
 
-  protected string $name = 'WhitePointX';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::PrimaryChromaticities
+             * line : 272699
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::PrimaryChromaticities.PNG:WhitePointX',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::PrimaryChromaticities
-       * line : 272699
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::PrimaryChromaticities.PNG:WhitePointX',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

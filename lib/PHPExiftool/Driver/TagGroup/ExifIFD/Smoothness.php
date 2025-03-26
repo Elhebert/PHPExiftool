@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Smoothness extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:Smoothness';
 
-  protected string $id = 'ExifIFD:Smoothness';
+    protected string $name = 'Smoothness';
 
-  protected string $name = 'Smoothness';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120958
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Exif::Main.ExifIFD:Smoothness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120958
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Exif::Main.ExifIFD:Smoothness',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

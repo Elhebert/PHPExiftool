@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumRules extends AbstractTagGroup
 {
+    protected string $id = 'Real-MDPR:NumRules';
 
-  protected string $id = 'Real-MDPR:NumRules';
+    protected string $name = 'NumRules';
 
-  protected string $name = 'NumRules';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::MediaProps
+             * line : 330446
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Real::MediaProps.Real-MDPR:NumRules',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::MediaProps
-       * line : 330446
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Real::MediaProps.Real-MDPR:NumRules',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GenMediaVersion extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GenMediaVersion';
 
-  protected string $id = 'QuickTime:GenMediaVersion';
+    protected string $name = 'GenMediaVersion';
 
-  protected string $name = 'GenMediaVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::GenMediaInfo
+             * line : 313241
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::GenMediaInfo.QuickTime:GenMediaVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::GenMediaInfo
-       * line : 313241
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::GenMediaInfo.QuickTime:GenMediaVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

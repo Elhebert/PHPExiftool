@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SharpeningKernel extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:SharpeningKernel';
 
-  protected string $id = 'KodakIFD:SharpeningKernel';
+    protected string $name = 'SharpeningKernel';
 
-  protected string $name = 'SharpeningKernel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155403
+             * type : int16s
+             * writable : true
+             * count : 25
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:SharpeningKernel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155403
-       * type : int16s
-       * writable : true
-       * count : 25
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:SharpeningKernel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 25;
 
-  protected int $count = 25;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

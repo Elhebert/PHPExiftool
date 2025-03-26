@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSFramingLatitude extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:GPSFramingLatitude';
 
-  protected string $id = 'Parrot:GPSFramingLatitude';
+    protected string $name = 'GPSFramingLatitude';
 
-  protected string $name = 'GPSFramingLatitude';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::Automation
+             * line : 281849
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::Automation.Parrot:GPSFramingLatitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::Automation
-       * line : 281849
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::Automation.Parrot:GPSFramingLatitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

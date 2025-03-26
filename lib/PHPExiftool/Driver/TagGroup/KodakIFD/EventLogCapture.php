@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EventLogCapture extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:EventLogCapture';
 
-  protected string $id = 'KodakIFD:EventLogCapture';
+    protected string $name = 'EventLogCapture';
 
-  protected string $name = 'EventLogCapture';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 154854
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Kodak::IFD.KodakIFD:EventLogCapture',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 154854
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Kodak::IFD.KodakIFD:EventLogCapture',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 38;
-
+    protected int $flags = 38;
 }

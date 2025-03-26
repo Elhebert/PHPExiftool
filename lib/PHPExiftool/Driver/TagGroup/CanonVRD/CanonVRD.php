@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CanonVRD extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:CanonVRD';
 
-  protected string $id = 'CanonVRD:CanonVRD';
+    protected string $name = 'CanonVRD';
 
-  protected string $name = 'CanonVRD';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 120982
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Extra.CanonVRD:CanonVRD',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 120982
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Extra.CanonVRD:CanonVRD',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

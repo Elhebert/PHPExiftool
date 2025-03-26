@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Face5Position extends AbstractTagGroup
 {
+    protected string $id = 'Casio:Face5Position';
 
-  protected string $id = 'Casio:Face5Position';
+    protected string $name = 'Face5Position';
 
-  protected string $name = 'Face5Position';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::FaceInfo1
+             * line : 83905
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Casio::FaceInfo1.Casio:Face5Position',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Casio::FaceInfo2
+             * line : 84051
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Casio::FaceInfo2.Casio:Face5Position',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::FaceInfo1
-       * line : 83905
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Casio::FaceInfo1.Casio:Face5Position',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Casio::FaceInfo2
-       * line : 84051
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Casio::FaceInfo2.Casio:Face5Position',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

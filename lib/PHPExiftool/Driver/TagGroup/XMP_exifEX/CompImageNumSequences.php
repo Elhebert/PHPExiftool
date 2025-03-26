@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompImageNumSequences extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:CompImageNumSequences';
 
-  protected string $id = 'XMP-exifEX:CompImageNumSequences';
+    protected string $name = 'CompImageNumSequences';
 
-  protected string $name = 'CompImageNumSequences';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408533
+             * type : integer
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:CompImageNumSequences',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408533
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:CompImageNumSequences',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

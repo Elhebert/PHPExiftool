@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawDataByteOrder extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:RawDataByteOrder';
 
-  protected string $id = 'FLIR:RawDataByteOrder';
+    protected string $name = 'RawDataByteOrder';
 
-  protected string $name = 'RawDataByteOrder';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::AFF1
+             * line : 122127
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::AFF1.FLIR:RawDataByteOrder',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::AFF5
+             * line : 122153
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::AFF5.FLIR:RawDataByteOrder',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : FLIR::RawData
+             * line : 123676
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::RawData.FLIR:RawDataByteOrder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::AFF1
-       * line : 122127
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::AFF1.FLIR:RawDataByteOrder',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::AFF5
-       * line : 122153
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::AFF5.FLIR:RawDataByteOrder',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : FLIR::RawData
-       * line : 123676
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::RawData.FLIR:RawDataByteOrder',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

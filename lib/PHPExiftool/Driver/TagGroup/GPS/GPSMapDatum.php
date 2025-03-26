@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSMapDatum extends AbstractTagGroup
 {
+    protected string $id = 'GPS:GPSMapDatum';
 
-  protected string $id = 'GPS:GPSMapDatum';
+    protected string $name = 'GPSMapDatum';
 
-  protected string $name = 'GPSMapDatum';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GPS::Main
+             * line : 132321
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'GPS::Main.GPS:GPSMapDatum',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 141911
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.GPS:GPSMapDatum',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::NCTG
+             * line : 203087
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::NCTG.GPS:GPSMapDatum',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Pentax::PENT
+             * line : 301458
+             * type : string
+             * writable : false
+             * count : 7
+             * flags : permanent
+             */
+            'id' => 'Pentax::PENT.GPS:GPSMapDatum',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GPS::Main
-       * line : 132321
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'GPS::Main.GPS:GPSMapDatum',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 141911
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.GPS:GPSMapDatum',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::NCTG
-       * line : 203087
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::NCTG.GPS:GPSMapDatum',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Pentax::PENT
-       * line : 301458
-       * type : string
-       * writable : false
-       * count : 7
-       * flags : permanent
-       */
-      'id' => 'Pentax::PENT.GPS:GPSMapDatum',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 7;
 
-  protected int $count = 7;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

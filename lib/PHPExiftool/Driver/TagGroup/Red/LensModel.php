@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensModel extends AbstractTagGroup
 {
+    protected string $id = 'Red:LensModel';
 
-  protected string $id = 'Red:LensModel';
+    protected string $name = 'LensModel';
 
-  protected string $name = 'LensModel';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Red::Main
+             * line : 331519
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Red::Main.Red:LensModel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Red::Main
-       * line : 331519
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Red::Main.Red:LensModel',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

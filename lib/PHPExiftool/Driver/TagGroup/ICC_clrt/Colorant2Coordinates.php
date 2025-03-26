@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Colorant2Coordinates extends AbstractTagGroup
 {
+    protected string $id = 'ICC-clrt:Colorant2Coordinates';
 
-  protected string $id = 'ICC-clrt:Colorant2Coordinates';
+    protected string $name = 'Colorant2Coordinates';
 
-  protected string $name = 'Colorant2Coordinates';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::ColorantTable
+             * line : 143145
+             * type : int16u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'ICC_Profile::ColorantTable.ICC-clrt:Colorant2Coordinates',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::ColorantTable
-       * line : 143145
-       * type : int16u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'ICC_Profile::ColorantTable.ICC-clrt:Colorant2Coordinates',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

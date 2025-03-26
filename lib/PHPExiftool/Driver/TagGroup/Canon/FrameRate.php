@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FrameRate extends AbstractTagGroup
 {
+    protected string $id = 'Canon:FrameRate';
 
-  protected string $id = 'Canon:FrameRate';
+    protected string $name = 'FrameRate';
 
-  protected string $name = 'FrameRate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::MovieInfo
+             * line : 66844
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::MovieInfo.Canon:FrameRate',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::MovieInfo
+             * line : 66869
+             * type : rational32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::MovieInfo.Canon:FrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::MovieInfo
-       * line : 66844
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::MovieInfo.Canon:FrameRate',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::MovieInfo
-       * line : 66869
-       * type : rational32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::MovieInfo.Canon:FrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

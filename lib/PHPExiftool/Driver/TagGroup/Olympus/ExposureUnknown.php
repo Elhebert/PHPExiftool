@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExposureUnknown extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ExposureUnknown';
 
-  protected string $id = 'Olympus:ExposureUnknown';
+    protected string $name = 'ExposureUnknown';
 
-  protected string $name = 'ExposureUnknown';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::MOV1
+             * line : 256530
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Olympus::MOV1.Olympus:ExposureUnknown',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::MOV1
-       * line : 256530
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Olympus::MOV1.Olympus:ExposureUnknown',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

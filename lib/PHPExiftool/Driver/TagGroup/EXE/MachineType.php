@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MachineType extends AbstractTagGroup
 {
+    protected string $id = 'EXE:MachineType';
 
-  protected string $id = 'EXE:MachineType';
+    protected string $name = 'MachineType';
 
-  protected string $name = 'MachineType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::Main
+             * line : 108694
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::Main.EXE:MachineType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::Main
-       * line : 108694
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::Main.EXE:MachineType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Revision extends AbstractTagGroup
 {
+    protected string $id = 'Red:Revision';
 
-  protected string $id = 'Red:Revision';
+    protected string $name = 'Revision';
 
-  protected string $name = 'Revision';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Red::Main
+             * line : 331495
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Red::Main.Red:Revision',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Red::Main
-       * line : 331495
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Red::Main.Red:Revision',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

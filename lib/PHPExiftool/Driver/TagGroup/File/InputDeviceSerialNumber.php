@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InputDeviceSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'File:InputDeviceSerialNumber';
 
-  protected string $id = 'File:InputDeviceSerialNumber';
+    protected string $name = 'InputDeviceSerialNumber';
 
-  protected string $name = 'InputDeviceSerialNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105882
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'DPX::Main.File:InputDeviceSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105882
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:InputDeviceSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

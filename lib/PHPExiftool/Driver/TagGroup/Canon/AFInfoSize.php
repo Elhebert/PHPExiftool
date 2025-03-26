@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFInfoSize extends AbstractTagGroup
 {
+    protected string $id = 'Canon:AFInfoSize';
 
-  protected string $id = 'Canon:AFInfoSize';
+    protected string $name = 'AFInfoSize';
 
-  protected string $name = 'AFInfoSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFInfo2
+             * line : 4119
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::AFInfo2.Canon:AFInfoSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFInfo2
-       * line : 4119
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::AFInfo2.Canon:AFInfoSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Saturation extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:Saturation';
 
-  protected string $id = 'Ricoh:Saturation';
+    protected string $name = 'Saturation';
 
-  protected string $name = 'Saturation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::ImageInfo
+             * line : 332287
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::ImageInfo.Ricoh:Saturation',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Ricoh::Main
+             * line : 333255
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Main.Ricoh:Saturation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::ImageInfo
-       * line : 332287
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::ImageInfo.Ricoh:Saturation',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Ricoh::Main
-       * line : 333255
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Main.Ricoh:Saturation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

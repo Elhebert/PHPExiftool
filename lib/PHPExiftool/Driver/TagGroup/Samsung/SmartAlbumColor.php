@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SmartAlbumColor extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:SmartAlbumColor';
 
-  protected string $id = 'Samsung:SmartAlbumColor';
+    protected string $name = 'SmartAlbumColor';
 
-  protected string $name = 'SmartAlbumColor';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335182
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Samsung::Type2.Samsung:SmartAlbumColor',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335192
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Samsung::Type2.Samsung:SmartAlbumColor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335182
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Samsung::Type2.Samsung:SmartAlbumColor',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335192
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Samsung::Type2.Samsung:SmartAlbumColor',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

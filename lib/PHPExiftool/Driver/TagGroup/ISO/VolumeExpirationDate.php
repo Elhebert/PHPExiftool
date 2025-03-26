@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VolumeExpirationDate extends AbstractTagGroup
 {
+    protected string $id = 'ISO:VolumeExpirationDate';
 
-  protected string $id = 'ISO:VolumeExpirationDate';
+    protected string $name = 'VolumeExpirationDate';
 
-  protected string $name = 'VolumeExpirationDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 152079
+             * type : undef
+             * writable : false
+             * count : 17
+             * flags :
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:VolumeExpirationDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 152079
-       * type : undef
-       * writable : false
-       * count : 17
-       * flags : 
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:VolumeExpirationDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 17;
-
+    protected int $count = 17;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FacePosition extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:FacePosition';
 
-  protected string $id = 'Pentax:FacePosition';
+    protected string $name = 'FacePosition';
 
-  protected string $name = 'FacePosition';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::FaceInfo
+             * line : 285632
+             * type : int8u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Pentax::FaceInfo.Pentax:FacePosition',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::FaceInfo
-       * line : 285632
-       * type : int8u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Pentax::FaceInfo.Pentax:FacePosition',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

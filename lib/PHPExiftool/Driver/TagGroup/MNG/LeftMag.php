@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LeftMag extends AbstractTagGroup
 {
+    protected string $id = 'MNG:LeftMag';
 
-  protected string $id = 'MNG:LeftMag';
+    protected string $name = 'LeftMag';
 
-  protected string $name = 'LeftMag';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::MagnifyObject
+             * line : 165152
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::MagnifyObject.MNG:LeftMag',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::MagnifyObject
-       * line : 165152
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::MagnifyObject.MNG:LeftMag',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

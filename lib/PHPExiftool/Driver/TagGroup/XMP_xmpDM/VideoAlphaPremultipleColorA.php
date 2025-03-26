@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoAlphaPremultipleColorA extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:VideoAlphaPremultipleColorA';
 
-  protected string $id = 'XMP-xmpDM:VideoAlphaPremultipleColorA';
+    protected string $name = 'VideoAlphaPremultipleColorA';
 
-  protected string $name = 'VideoAlphaPremultipleColorA';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 413613
+             * type : integer
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:VideoAlphaPremultipleColorA',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 413613
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:VideoAlphaPremultipleColorA',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

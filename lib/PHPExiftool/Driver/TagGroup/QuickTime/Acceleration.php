@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Acceleration extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Acceleration';
 
-  protected string $id = 'QuickTime:Acceleration';
+    protected string $name = 'Acceleration';
 
-  protected string $name = 'Acceleration';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::GPS360Fly
+             * line : 313219
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::GPS360Fly.QuickTime:Acceleration',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : QuickTime::camm3
+             * line : 326336
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::camm3.QuickTime:Acceleration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::GPS360Fly
-       * line : 313219
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::GPS360Fly.QuickTime:Acceleration',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : QuickTime::camm3
-       * line : 326336
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::camm3.QuickTime:Acceleration',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

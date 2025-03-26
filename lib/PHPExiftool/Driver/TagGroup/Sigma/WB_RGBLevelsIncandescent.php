@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGBLevelsIncandescent extends AbstractTagGroup
 {
+    protected string $id = 'Sigma:WB_RGBLevelsIncandescent';
 
-  protected string $id = 'Sigma:WB_RGBLevelsIncandescent';
+    protected string $name = 'WB_RGBLevelsIncandescent';
 
-  protected string $name = 'WB_RGBLevelsIncandescent';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sigma::WBSettings
+             * line : 339242
+             * type : float
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Sigma::WBSettings.Sigma:WB_RGBLevelsIncandescent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sigma::WBSettings
-       * line : 339242
-       * type : float
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Sigma::WBSettings.Sigma:WB_RGBLevelsIncandescent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

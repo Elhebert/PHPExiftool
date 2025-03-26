@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Project extends AbstractTagGroup
 {
+    protected string $id = 'File:Project';
 
-  protected string $id = 'File:Project';
+    protected string $name = 'Project';
 
-  protected string $name = 'Project';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105361
+             * type : string
+             * writable : false
+             * count : 200
+             * flags :
+             */
+            'id' => 'DPX::Main.File:Project',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105361
-       * type : string
-       * writable : false
-       * count : 200
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:Project',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 200;
-
+    protected int $count = 200;
 }

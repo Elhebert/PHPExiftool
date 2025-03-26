@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NominalRespiratoryTriggerDelayTime extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:NominalRespiratoryTriggerDelayTime';
 
-  protected string $id = 'DICOM:NominalRespiratoryTriggerDelayTime';
+    protected string $name = 'NominalRespiratoryTriggerDelayTime';
 
-  protected string $name = 'NominalRespiratoryTriggerDelayTime';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98145
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:NominalRespiratoryTriggerDelayTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98145
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:NominalRespiratoryTriggerDelayTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

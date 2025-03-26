@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreateDate extends AbstractTagGroup
 {
+    protected string $id = 'PDF:CreateDate';
 
-  protected string $id = 'PDF:CreateDate';
+    protected string $name = 'CreateDate';
 
-  protected string $name = 'CreateDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Info
+             * line : 264167
+             * type : date
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::Info.PDF:CreateDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Info
-       * line : 264167
-       * type : date
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::Info.PDF:CreateDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

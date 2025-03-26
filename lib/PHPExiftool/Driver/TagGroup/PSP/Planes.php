@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Planes extends AbstractTagGroup
 {
+    protected string $id = 'PSP:Planes';
 
-  protected string $id = 'PSP:Planes';
+    protected string $name = 'Planes';
 
-  protected string $name = 'Planes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PSP::Image
+             * line : 273375
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PSP::Image.PSP:Planes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PSP::Image
-       * line : 273375
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PSP::Image.PSP:Planes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

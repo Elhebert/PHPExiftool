@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailURL extends AbstractTagGroup
 {
+    protected string $id = 'CBOR:ThumbnailURL';
 
-  protected string $id = 'CBOR:ThumbnailURL';
+    protected string $name = 'ThumbnailURL';
 
-  protected string $name = 'ThumbnailURL';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CBOR::Main
+             * line : 3779
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'CBOR::Main.CBOR:ThumbnailURL',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CBOR::Main
-       * line : 3779
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'CBOR::Main.CBOR:ThumbnailURL',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

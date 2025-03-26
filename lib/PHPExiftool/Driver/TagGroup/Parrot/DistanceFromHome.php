@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DistanceFromHome extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:DistanceFromHome';
 
-  protected string $id = 'Parrot:DistanceFromHome';
+    protected string $name = 'DistanceFromHome';
 
-  protected string $name = 'DistanceFromHome';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::V1
+             * line : 282157
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V1.Parrot:DistanceFromHome',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::V1
-       * line : 282157
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V1.Parrot:DistanceFromHome',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

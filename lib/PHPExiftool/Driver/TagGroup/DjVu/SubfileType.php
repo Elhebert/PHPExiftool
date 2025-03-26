@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubfileType extends AbstractTagGroup
 {
+    protected string $id = 'DjVu:SubfileType';
 
-  protected string $id = 'DjVu:SubfileType';
+    protected string $name = 'SubfileType';
 
-  protected string $name = 'SubfileType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DjVu::Form
+             * line : 107035
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'DjVu::Form.DjVu:SubfileType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DjVu::Form
-       * line : 107035
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'DjVu::Form.DjVu:SubfileType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

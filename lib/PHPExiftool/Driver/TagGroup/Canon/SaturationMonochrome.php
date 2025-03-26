@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SaturationMonochrome extends AbstractTagGroup
 {
+    protected string $id = 'Canon:SaturationMonochrome';
 
-  protected string $id = 'Canon:SaturationMonochrome';
+    protected string $name = 'SaturationMonochrome';
 
-  protected string $name = 'SaturationMonochrome';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::PSInfo
+             * line : 67460
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::PSInfo.Canon:SaturationMonochrome',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::PSInfo2
+             * line : 68558
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::PSInfo2.Canon:SaturationMonochrome',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::PSInfo
-       * line : 67460
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::PSInfo.Canon:SaturationMonochrome',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::PSInfo2
-       * line : 68558
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::PSInfo2.Canon:SaturationMonochrome',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

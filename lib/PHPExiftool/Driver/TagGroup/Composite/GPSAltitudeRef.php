@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSAltitudeRef extends AbstractTagGroup
 {
+    protected string $id = 'Composite:GPSAltitudeRef';
 
-  protected string $id = 'Composite:GPSAltitudeRef';
+    protected string $name = 'GPSAltitudeRef';
 
-  protected string $name = 'GPSAltitudeRef';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 93544
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSAltitudeRef',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Composite
+             * line : 93600
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSAltitudeRef',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 93544
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSAltitudeRef',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Composite
-       * line : 93600
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSAltitudeRef',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

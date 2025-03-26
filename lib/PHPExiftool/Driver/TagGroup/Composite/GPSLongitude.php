@@ -19,73 +19,71 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLongitude extends AbstractTagGroup
 {
+    protected string $id = 'Composite:GPSLongitude';
 
-  protected string $id = 'Composite:GPSLongitude';
+    protected string $name = 'GPSLongitude';
 
-  protected string $name = 'GPSLongitude';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90660
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSLongitude',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Composite
+             * line : 93692
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSLongitude',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Composite
+             * line : 93710
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSLongitude',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Composite
+             * line : 93855
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSLongitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90660
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSLongitude',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Composite
-       * line : 93692
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSLongitude',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Composite
-       * line : 93710
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSLongitude',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Composite
-       * line : 93855
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSLongitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

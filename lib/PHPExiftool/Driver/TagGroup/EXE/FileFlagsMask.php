@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileFlagsMask extends AbstractTagGroup
 {
+    protected string $id = 'EXE:FileFlagsMask';
 
-  protected string $id = 'EXE:FileFlagsMask';
+    protected string $name = 'FileFlagsMask';
 
-  protected string $name = 'FileFlagsMask';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::PEVersion
+             * line : 109585
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::PEVersion.EXE:FileFlagsMask',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::PEVersion
-       * line : 109585
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::PEVersion.EXE:FileFlagsMask',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PhotographicSensitivity extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:PhotographicSensitivity';
 
-  protected string $id = 'XMP-exifEX:PhotographicSensitivity';
+    protected string $name = 'PhotographicSensitivity';
 
-  protected string $name = 'PhotographicSensitivity';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408681
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:PhotographicSensitivity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408681
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:PhotographicSensitivity',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

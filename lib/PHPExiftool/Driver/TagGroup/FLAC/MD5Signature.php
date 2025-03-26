@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MD5Signature extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:MD5Signature';
 
-  protected string $id = 'FLAC:MD5Signature';
+    protected string $name = 'MD5Signature';
 
-  protected string $name = 'MD5Signature';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::StreamInfo
+             * line : 121984
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::StreamInfo.FLAC:MD5Signature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::StreamInfo
-       * line : 121984
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::StreamInfo.FLAC:MD5Signature',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

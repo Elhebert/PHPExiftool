@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OwnerName extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:OwnerName';
 
-  protected string $id = 'CanonRaw:OwnerName';
+    protected string $name = 'OwnerName';
 
-  protected string $name = 'OwnerName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 78689
+             * type : string
+             * writable : true
+             * count : 32
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:OwnerName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 78689
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:OwnerName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

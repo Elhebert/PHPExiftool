@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Unknown extends AbstractTagGroup
 {
+    protected string $id = 'Real-RA3:Unknown';
 
-  protected string $id = 'Real-RA3:Unknown';
+    protected string $name = 'Unknown';
 
-  protected string $name = 'Unknown';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::AudioV3
+             * line : 329636
+             * type : int16u
+             * writable : false
+             * count : 3
+             * flags : unknown
+             */
+            'id' => 'Real::AudioV3.Real-RA3:Unknown',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::AudioV3
-       * line : 329636
-       * type : int16u
-       * writable : false
-       * count : 3
-       * flags : unknown
-       */
-      'id' => 'Real::AudioV3.Real-RA3:Unknown',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

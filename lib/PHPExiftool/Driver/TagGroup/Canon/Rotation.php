@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Rotation extends AbstractTagGroup
 {
+    protected string $id = 'Canon:Rotation';
 
-  protected string $id = 'Canon:Rotation';
+    protected string $name = 'Rotation';
 
-  protected string $name = 'Rotation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfoPowerShot
+             * line : 55386
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfoPowerShot.Canon:Rotation',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::CameraInfoPowerShot2
+             * line : 55475
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfoPowerShot2.Canon:Rotation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfoPowerShot
-       * line : 55386
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfoPowerShot.Canon:Rotation',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::CameraInfoPowerShot2
-       * line : 55475
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfoPowerShot2.Canon:Rotation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

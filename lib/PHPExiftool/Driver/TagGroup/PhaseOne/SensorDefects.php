@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorDefects extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:SensorDefects';
 
-  protected string $id = 'PhaseOne:SensorDefects';
+    protected string $name = 'SensorDefects';
 
-  protected string $name = 'SensorDefects';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::SensorCalibration
+             * line : 303584
+             * type : undef
+             * writable : false
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'PhaseOne::SensorCalibration.PhaseOne:SensorDefects',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::SensorCalibration
-       * line : 303584
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'PhaseOne::SensorCalibration.PhaseOne:SensorDefects',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 6;
-
+    protected int $flags = 6;
 }

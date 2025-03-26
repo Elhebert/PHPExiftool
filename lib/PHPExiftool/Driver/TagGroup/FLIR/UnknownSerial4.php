@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownSerial4 extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:UnknownSerial4';
 
-  protected string $id = 'FLIR:UnknownSerial4';
+    protected string $name = 'UnknownSerial4';
 
-  protected string $name = 'UnknownSerial4';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::SerialNums
+             * line : 123705
+             * type : string
+             * writable : false
+             * count : 11
+             * flags : permanent,unknown
+             */
+            'id' => 'FLIR::SerialNums.FLIR:UnknownSerial4',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::SerialNums
-       * line : 123705
-       * type : string
-       * writable : false
-       * count : 11
-       * flags : permanent,unknown
-       */
-      'id' => 'FLIR::SerialNums.FLIR:UnknownSerial4',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 11;
 
-  protected int $count = 11;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

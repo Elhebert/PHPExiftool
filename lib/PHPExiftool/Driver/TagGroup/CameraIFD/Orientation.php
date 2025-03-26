@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Orientation extends AbstractTagGroup
 {
+    protected string $id = 'CameraIFD:Orientation';
 
-  protected string $id = 'CameraIFD:Orientation';
+    protected string $name = 'Orientation';
 
-  protected string $name = 'Orientation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::CameraIFD
+             * line : 279945
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::CameraIFD.CameraIFD:Orientation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::CameraIFD
-       * line : 279945
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::CameraIFD.CameraIFD:Orientation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

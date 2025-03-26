@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawThermalImage extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:RawThermalImage';
 
-  protected string $id = 'Parrot:RawThermalImage';
+    protected string $name = 'RawThermalImage';
 
-  protected string $name = 'RawThermalImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::Main
+             * line : 152562
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'JPEG::Main.Parrot:RawThermalImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::Main
-       * line : 152562
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'JPEG::Main.Parrot:RawThermalImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

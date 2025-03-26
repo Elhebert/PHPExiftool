@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorimetricSpecification extends AbstractTagGroup
 {
+    protected string $id = 'File:ColorimetricSpecification';
 
-  protected string $id = 'File:ColorimetricSpecification';
+    protected string $name = 'ColorimetricSpecification';
 
-  protected string $name = 'ColorimetricSpecification';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105770
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DPX::Main.File:ColorimetricSpecification',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105770
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:ColorimetricSpecification',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

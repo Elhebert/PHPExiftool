@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Tagged extends AbstractTagGroup
 {
+    protected string $id = 'XMP-acdsee:Tagged';
 
-  protected string $id = 'XMP-acdsee:Tagged';
+    protected string $name = 'Tagged';
 
-  protected string $name = 'Tagged';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::acdsee
+             * line : 397880
+             * type : boolean
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::acdsee.XMP-acdsee:Tagged',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::acdsee
-       * line : 397880
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::acdsee.XMP-acdsee:Tagged',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

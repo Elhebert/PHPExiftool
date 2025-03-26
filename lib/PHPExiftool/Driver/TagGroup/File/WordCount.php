@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WordCount extends AbstractTagGroup
 {
+    protected string $id = 'File:WordCount';
 
-  protected string $id = 'File:WordCount';
+    protected string $name = 'WordCount';
 
-  protected string $name = 'WordCount';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Text::Main
+             * line : 394785
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Text::Main.File:WordCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Text::Main
-       * line : 394785
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Text::Main.File:WordCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

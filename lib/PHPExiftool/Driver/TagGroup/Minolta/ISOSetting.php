@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISOSetting extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:ISOSetting';
 
-  protected string $id = 'Minolta:ISOSetting';
+    protected string $name = 'ISOSetting';
 
-  protected string $name = 'ISOSetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraSettings
+             * line : 177886
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings.Minolta:ISOSetting',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Minolta::CameraSettings5D
+             * line : 178756
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings5D.Minolta:ISOSetting',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Minolta::CameraSettings7D
+             * line : 179727
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings7D.Minolta:ISOSetting',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Minolta::CameraSettingsA100
+             * line : 180781
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettingsA100.Minolta:ISOSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraSettings
-       * line : 177886
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings.Minolta:ISOSetting',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Minolta::CameraSettings5D
-       * line : 178756
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings5D.Minolta:ISOSetting',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Minolta::CameraSettings7D
-       * line : 179727
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings7D.Minolta:ISOSetting',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Minolta::CameraSettingsA100
-       * line : 180781
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettingsA100.Minolta:ISOSetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

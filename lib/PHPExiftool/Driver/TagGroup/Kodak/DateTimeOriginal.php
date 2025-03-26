@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeOriginal extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:DateTimeOriginal';
 
-  protected string $id = 'Kodak:DateTimeOriginal';
+    protected string $name = 'DateTimeOriginal';
 
-  protected string $name = 'DateTimeOriginal';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Type9
+             * line : 160609
+             * type : string
+             * writable : true
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'Kodak::Type9.Kodak:DateTimeOriginal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Type9
-       * line : 160609
-       * type : string
-       * writable : true
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'Kodak::Type9.Kodak:DateTimeOriginal',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 20;
 
-  protected int $count = 20;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

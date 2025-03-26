@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGGBLevelsUnknown30 extends AbstractTagGroup
 {
+    protected string $id = 'Canon:WB_RGGBLevelsUnknown30';
 
-  protected string $id = 'Canon:WB_RGGBLevelsUnknown30';
+    protected string $name = 'WB_RGGBLevelsUnknown30';
 
-  protected string $name = 'WB_RGGBLevelsUnknown30';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorData8
+             * line : 62571
+             * type : int16s
+             * writable : true
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsUnknown30',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorData8
-       * line : 62571
-       * type : int16s
-       * writable : true
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorData8.Canon:WB_RGGBLevelsUnknown30',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeCode extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:TimeCode';
 
-  protected string $id = 'RIFF:TimeCode';
+    protected string $name = 'TimeCode';
 
-  protected string $name = 'TimeCode';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Hdrl
+             * line : 327984
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Hdrl.RIFF:TimeCode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : RIFF::Info
+             * line : 328433
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Info.RIFF:TimeCode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Hdrl
-       * line : 327984
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Hdrl.RIFF:TimeCode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : RIFF::Info
-       * line : 328433
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Info.RIFF:TimeCode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

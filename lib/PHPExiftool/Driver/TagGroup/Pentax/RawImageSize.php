@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawImageSize extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:RawImageSize';
 
-  protected string $id = 'Pentax:RawImageSize';
+    protected string $name = 'RawImageSize';
 
-  protected string $name = 'RawImageSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 299408
+             * type : int16u
+             * writable : false
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:RawImageSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 299408
-       * type : int16u
-       * writable : false
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:RawImageSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

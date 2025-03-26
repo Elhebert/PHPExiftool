@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HighlightEndPoints extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:HighlightEndPoints';
 
-  protected string $id = 'Leaf:HighlightEndPoints';
+    protected string $name = 'HighlightEndPoints';
 
-  protected string $name = 'HighlightEndPoints';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::Neutrals
+             * line : 161930
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::Neutrals.Leaf:HighlightEndPoints',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::Neutrals
-       * line : 161930
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::Neutrals.Leaf:HighlightEndPoints',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

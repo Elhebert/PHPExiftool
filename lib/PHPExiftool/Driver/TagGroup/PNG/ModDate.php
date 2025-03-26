@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModDate extends AbstractTagGroup
 {
+    protected string $id = 'PNG:ModDate';
 
-  protected string $id = 'PNG:ModDate';
+    protected string $name = 'ModDate';
 
-  protected string $name = 'ModDate';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::TextualData
+             * line : 273031
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::TextualData.PNG:ModDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::TextualData
-       * line : 273031
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::TextualData.PNG:ModDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

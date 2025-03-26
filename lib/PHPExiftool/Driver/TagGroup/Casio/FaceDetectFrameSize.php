@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FaceDetectFrameSize extends AbstractTagGroup
 {
+    protected string $id = 'Casio:FaceDetectFrameSize';
 
-  protected string $id = 'Casio:FaceDetectFrameSize';
+    protected string $name = 'FaceDetectFrameSize';
 
-  protected string $name = 'FaceDetectFrameSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::FaceInfo1
+             * line : 83875
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Casio::FaceInfo1.Casio:FaceDetectFrameSize',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Casio::FaceInfo2
+             * line : 83952
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Casio::FaceInfo2.Casio:FaceDetectFrameSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::FaceInfo1
-       * line : 83875
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Casio::FaceInfo1.Casio:FaceDetectFrameSize',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Casio::FaceInfo2
-       * line : 83952
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Casio::FaceInfo2.Casio:FaceDetectFrameSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

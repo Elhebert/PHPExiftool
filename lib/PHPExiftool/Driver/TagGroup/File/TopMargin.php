@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TopMargin extends AbstractTagGroup
 {
+    protected string $id = 'File:TopMargin';
 
-  protected string $id = 'File:TopMargin';
+    protected string $name = 'TopMargin';
 
-  protected string $name = 'TopMargin';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PCX::Main
+             * line : 263900
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PCX::Main.File:TopMargin',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PCX::Main
-       * line : 263900
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PCX::Main.File:TopMargin',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CroppedAreaTopPixels extends AbstractTagGroup
 {
+    protected string $id = 'GSpherical:CroppedAreaTopPixels';
 
-  protected string $id = 'GSpherical:CroppedAreaTopPixels';
+    protected string $name = 'CroppedAreaTopPixels';
 
-  protected string $name = 'CroppedAreaTopPixels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GSpherical
+             * line : 397206
+             * type : integer
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::GSpherical.GSpherical:CroppedAreaTopPixels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GSpherical
-       * line : 397206
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::GSpherical.GSpherical:CroppedAreaTopPixels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

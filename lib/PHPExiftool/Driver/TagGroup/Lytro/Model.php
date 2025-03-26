@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Model extends AbstractTagGroup
 {
+    protected string $id = 'Lytro:Model';
 
-  protected string $id = 'Lytro:Model';
+    protected string $name = 'Model';
 
-  protected string $name = 'Model';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Lytro::Main
+             * line : 162171
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Lytro::Main.Lytro:Model',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Lytro::Main
-       * line : 162171
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Lytro::Main.Lytro:Model',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

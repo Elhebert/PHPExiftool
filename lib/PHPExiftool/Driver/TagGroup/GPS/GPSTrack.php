@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSTrack extends AbstractTagGroup
 {
+    protected string $id = 'GPS:GPSTrack';
 
-  protected string $id = 'GPS:GPSTrack';
+    protected string $name = 'GPSTrack';
 
-  protected string $name = 'GPSTrack';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GPS::Main
+             * line : 132239
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'GPS::Main.GPS:GPSTrack',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : H264::MDPM
+             * line : 141829
+             * type : rational32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MDPM.GPS:GPSTrack',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GPS::Main
-       * line : 132239
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'GPS::Main.GPS:GPSTrack',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : H264::MDPM
-       * line : 141829
-       * type : rational32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MDPM.GPS:GPSTrack',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

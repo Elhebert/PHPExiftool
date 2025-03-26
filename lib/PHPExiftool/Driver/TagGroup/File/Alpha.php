@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Alpha extends AbstractTagGroup
 {
+    protected string $id = 'File:Alpha';
 
-  protected string $id = 'File:Alpha';
+    protected string $name = 'Alpha';
 
-  protected string $name = 'Alpha';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BPG::Main
+             * line : 3597
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BPG::Main.File:Alpha',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BPG::Main
-       * line : 3597
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BPG::Main.File:Alpha',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

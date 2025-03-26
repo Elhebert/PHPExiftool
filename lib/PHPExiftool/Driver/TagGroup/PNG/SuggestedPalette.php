@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SuggestedPalette extends AbstractTagGroup
 {
+    protected string $id = 'PNG:SuggestedPalette';
 
-  protected string $id = 'PNG:SuggestedPalette';
+    protected string $name = 'SuggestedPalette';
 
-  protected string $name = 'SuggestedPalette';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::Main
+             * line : 272601
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'PNG::Main.PNG:SuggestedPalette',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::Main
-       * line : 272601
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'PNG::Main.PNG:SuggestedPalette',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

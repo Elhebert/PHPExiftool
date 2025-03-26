@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Stereoscopic3D extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Stereoscopic3D';
 
-  protected string $id = 'QuickTime:Stereoscopic3D';
+    protected string $name = 'Stereoscopic3D';
 
-  protected string $name = 'Stereoscopic3D';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ImageDesc
+             * line : 314030
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ImageDesc.QuickTime:Stereoscopic3D',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ImageDesc
-       * line : 314030
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ImageDesc.QuickTime:Stereoscopic3D',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

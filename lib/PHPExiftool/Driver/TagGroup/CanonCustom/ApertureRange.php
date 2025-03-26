@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ApertureRange extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:ApertureRange';
 
-  protected string $id = 'CanonCustom:ApertureRange';
+    protected string $name = 'ApertureRange';
 
-  protected string $name = 'ApertureRange';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72810
+             * type : int32s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:ApertureRange',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72832
+             * type : int32s
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:ApertureRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72810
-       * type : int32s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:ApertureRange',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72832
-       * type : int32s
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:ApertureRange',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

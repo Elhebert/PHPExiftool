@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeLapseShotNumber extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:TimeLapseShotNumber';
 
-  protected string $id = 'Panasonic:TimeLapseShotNumber';
+    protected string $name = 'TimeLapseShotNumber';
 
-  protected string $name = 'TimeLapseShotNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::TimeInfo
+             * line : 279658
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::TimeInfo.Panasonic:TimeLapseShotNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::TimeInfo
-       * line : 279658
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::TimeInfo.Panasonic:TimeLapseShotNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

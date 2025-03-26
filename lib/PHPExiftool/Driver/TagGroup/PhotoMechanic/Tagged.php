@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Tagged extends AbstractTagGroup
 {
+    protected string $id = 'PhotoMechanic:Tagged';
 
-  protected string $id = 'PhotoMechanic:Tagged';
+    protected string $name = 'Tagged';
 
-  protected string $name = 'Tagged';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoMechanic::SoftEdit
+             * line : 304766
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:Tagged',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoMechanic::SoftEdit
-       * line : 304766
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:Tagged',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

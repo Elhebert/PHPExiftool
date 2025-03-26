@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BelowColor extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:BelowColor';
 
-  protected string $id = 'FLIR:BelowColor';
+    protected string $name = 'BelowColor';
 
-  protected string $name = 'BelowColor';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::PaletteInfo
+             * line : 123507
+             * type : int8u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'FLIR::PaletteInfo.FLIR:BelowColor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::PaletteInfo
-       * line : 123507
-       * type : int8u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'FLIR::PaletteInfo.FLIR:BelowColor',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

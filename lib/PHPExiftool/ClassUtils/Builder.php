@@ -34,19 +34,28 @@ class Builder
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */';
-//    protected int $xmlLine = 0;
-//    protected array $duplicateXmlLines = [];
-//    protected array $conflictingXmlLines = [];
-    protected string $namespace = "";
-    protected string $classname = "";
+
+    //    protected int $xmlLine = 0;
+    //    protected array $duplicateXmlLines = [];
+    //    protected array $conflictingXmlLines = [];
+    protected string $namespace = '';
+
+    protected string $classname = '';
+
     protected array $consts = [];
+
     protected array $properties = [];
+
     protected $extends;
+
     protected array $uses = [];
+
     protected array $classAnnotations = [];
+
     protected LoggerInterface $logger;
 
-    static ?ReflectionClass $reflectionClass = null;
+    public static ?ReflectionClass $reflectionClass = null;
+
     private string $rootNamespace;
 
     /**
@@ -56,7 +65,7 @@ class Builder
     {
         // singleton
         if (is_null(self::$reflectionClass) && $extends) {
-            self::$reflectionClass = new ReflectionClass("PHPExiftool\\Driver\\" . $extends);
+            self::$reflectionClass = new ReflectionClass('PHPExiftool\\Driver\\'.$extends);
         }
 
         $namespace = trim($namespace, '\\');
@@ -66,11 +75,11 @@ class Builder
                 continue;
             }
 
-            if (!$this->checkPHPVarName($piece)) {
+            if (! $this->checkPHPVarName($piece)) {
                 throw new Exception(sprintf('Invalid namespace %s', $namespace));
             }
         }
-        if (!$this->checkPHPVarName($classname)) {
+        if (! $this->checkPHPVarName($classname)) {
             throw new Exception(sprintf('Invalid namespace %s', $namespace));
         }
 
@@ -84,7 +93,7 @@ class Builder
         $this->uses = $uses;
         $this->classAnnotations = $classAnnotations;
 
-        $this->logger = new NullLogger();
+        $this->logger = new NullLogger;
 
         return $this;
     }
@@ -96,20 +105,20 @@ class Builder
         return $this;
     }
 
-//    public function addDuplicate(int $xmlLine, bool $conflicting)
-//    {
-//        if($conflicting) {
-//            $this->conflictingXmlLines[] = $xmlLine;
-//        }
-//        else {
-//            $this->duplicateXmlLines[] = $xmlLine;
-//        }
-//    }
-//
-//    public function getXmlLine(): int
-//    {
-//        return $this->xmlLine;
-//    }
+    //    public function addDuplicate(int $xmlLine, bool $conflicting)
+    //    {
+    //        if($conflicting) {
+    //            $this->conflictingXmlLines[] = $xmlLine;
+    //        }
+    //        else {
+    //            $this->duplicateXmlLines[] = $xmlLine;
+    //        }
+    //    }
+    //
+    //    public function getXmlLine(): int
+    //    {
+    //        return $this->xmlLine;
+    //    }
 
     public function getNamespace(): string
     {
@@ -134,8 +143,9 @@ class Builder
     public function getPathfile(string $rootPath): string
     {
         $subdir = str_replace('\\', '/', $this->namespace);
-        @mkdir($rootPath . '/' . $subdir, 0754, true);
-        return $rootPath . '/' . $subdir . '/' . $this->classname . '.php';
+        @mkdir($rootPath.'/'.$subdir, 0754, true);
+
+        return $rootPath.'/'.$subdir.'/'.$this->classname.'.php';
     }
 
     /**
@@ -159,37 +169,36 @@ class Builder
         $content = "<?php\n\n<license>\n\nnamespace ".$this->rootNamespace.'\\'.$this->namespace.";\n\n";
 
         foreach ($this->uses as $use) {
-            $content .= "use " . ltrim($use, "\\") . ";\n";
+            $content .= 'use '.ltrim($use, '\\').";\n";
         }
         if ($this->uses) {
             $content .= "\n";
         }
 
-//        // add debug infos related to xml dump
-//        if($this->xmlLine > 0) {    // no line number for "type" classes
-//            $content .= "/**\n * XML line : " . $this->xmlLine . "\n";
-//            if (!empty($this->duplicateXmlLines)) {
-//                $content .= " * Duplicates: [" . join(', ', $this->duplicateXmlLines) . "]\n";
-//                if (!empty($this->conflictingXmlLines)) {
-//                    $content .= " * Conflictings: [" . join(', ', $this->conflictingXmlLines) . "]\n";
-//                }
-//            }
-//            $content .= " */\n";
-//        }
-
+        //        // add debug infos related to xml dump
+        //        if($this->xmlLine > 0) {    // no line number for "type" classes
+        //            $content .= "/**\n * XML line : " . $this->xmlLine . "\n";
+        //            if (!empty($this->duplicateXmlLines)) {
+        //                $content .= " * Duplicates: [" . join(', ', $this->duplicateXmlLines) . "]\n";
+        //                if (!empty($this->conflictingXmlLines)) {
+        //                    $content .= " * Conflictings: [" . join(', ', $this->conflictingXmlLines) . "]\n";
+        //                }
+        //            }
+        //            $content .= " */\n";
+        //        }
 
         if ($this->classAnnotations) {
             $content .= "/**\n";
             foreach ($this->classAnnotations as $annotation) {
-                $content .= " * " . $annotation . "\n";
+                $content .= ' * '.$annotation."\n";
             }
             $content .= " */\n";
         }
 
-        $content .= "class <classname>";
+        $content .= 'class <classname>';
 
         if ($this->extends) {
-            $content .= " extends <extends>";
+            $content .= ' extends <extends>';
         }
 
         $content .= "\n{\n";
@@ -200,9 +209,9 @@ class Builder
 
         $content .= "\n}\n";
 
-//        if (!is_dir(dirname($this->getPathfile()))) {
-//            mkdir(dirname($this->getPathfile()), 0754, true);
-//        }
+        //        if (!is_dir(dirname($this->getPathfile()))) {
+        //            mkdir(dirname($this->getPathfile()), 0754, true);
+        //        }
 
         return str_replace(
             ['<license>', '<namespace>', '<classname>', '<extends>'],
@@ -213,8 +222,8 @@ class Builder
 
     protected function generateClassConsts(array $consts, $depth = 0): string
     {
-        $buffer = "";
-        $space = "  ";
+        $buffer = '';
+        $space = '  ';
 
         foreach ($consts as $key => $value) {
             $buffer .= sprintf("%sconst %s = %s;\n", $space, $key, $this->quote($value));
@@ -227,12 +236,11 @@ class Builder
     {
         static $attrTypes = [];
 
-        if (!array_key_exists($key, $attrTypes)) {
+        if (! array_key_exists($key, $attrTypes)) {
             $attrTypes[$key] = null;
             try {
                 $attrTypes[$key] = self::$reflectionClass->getProperty($key);
-            }
-            catch (Exception $e) {
+            } catch (Exception $e) {
                 // no-op
                 // throw new Exception(sprintf("Attribute \"%s\" must be defined in %s", $key, self::$reflectionClass->getName()));
             }
@@ -241,49 +249,46 @@ class Builder
         return $attrTypes[$key];
     }
 
-
     protected function generateClassProperties(array $properties, $depth = 0): string
     {
-        $buffer = "";
-        $space = "  ";
+        $buffer = '';
+        $space = '  ';
         $spaces = str_repeat($space, $depth);
 
         foreach ($properties as $key => $value) {
 
-            if ($key === "/**/") {
+            if ($key === '/**/') {
                 // special key to be rendered as comments
-                $buffer .= $spaces . $space . "/**\n";
+                $buffer .= $spaces.$space."/**\n";
                 foreach ($value as $k => $v) {
-                    $buffer .= sprintf("%s * %s : %s\n", $spaces . $space, $k, $v);
+                    $buffer .= sprintf("%s * %s : %s\n", $spaces.$space, $k, $v);
                 }
-                $buffer .= $spaces . $space . " */\n";
+                $buffer .= $spaces.$space." */\n";
+
                 continue;
             }
 
-
-//            switch($this->extends) {
-//                case "AbstractTag":
-//                    $attributeType = AbstractTag::getAttributeType($key);
-//                    break;
-//                case "AbstractType":
-//                    $attributeType = AbstractType::getAttributeType($key);
-//                    break;
-//                default:
-//                    $attributeType = "string";
-//            }
+            //            switch($this->extends) {
+            //                case "AbstractTag":
+            //                    $attributeType = AbstractTag::getAttributeType($key);
+            //                    break;
+            //                case "AbstractType":
+            //                    $attributeType = AbstractType::getAttributeType($key);
+            //                    break;
+            //                default:
+            //                    $attributeType = "string";
+            //            }
 
             $visibility = 'private';
             $type = '';
-            if (!is_null($attributeProperty = $this->getAttributeProperty($key))) {
+            if (! is_null($attributeProperty = $this->getAttributeProperty($key))) {
                 $type = $attributeProperty->getType();
-                $type = ($type->allowsNull() ? '?' : '') . $type->getName();
+                $type = ($type->allowsNull() ? '?' : '').$type->getName();
                 if ($attributeProperty->isPrivate()) {
                     $visibility = 'private';
-                }
-                elseif ($attributeProperty->isProtected()) {
+                } elseif ($attributeProperty->isProtected()) {
                     $visibility = 'protected';
-                }
-                elseif ($attributeProperty->isPublic()) {
+                } elseif ($attributeProperty->isPublic()) {
                     $visibility = 'public';
                 }
             }
@@ -292,13 +297,11 @@ class Builder
                 if ($key === '') {
                     // special case empty key : render down one level
                     $val = $this->generateClassProperties($value, $depth);
+                } else {
+                    $val = "[\n".$this->generateClassProperties($value, $depth + 1);
+                    $val .= $spaces.$space.']';
                 }
-                else {
-                    $val = "[\n" . $this->generateClassProperties($value, $depth + 1);
-                    $val .= $spaces . $space . "]";
-                }
-            }
-            else {
+            } else {
                 $val = $this->quote($value, $type);
             }
             if ($depth == 0) {
@@ -309,14 +312,12 @@ class Builder
                     $key,
                     $val
                 );
-            }
-            else {
+            } else {
                 if ($key === '') {
                     // special case empty key : render down one level
                     $buffer .= $val;
-                }
-                else {
-                    $buffer .= $spaces . $space . $this->quote($key) . " => " . $val . ",\n";
+                } else {
+                    $buffer .= $spaces.$space.$this->quote($key).' => '.$val.",\n";
                 }
             }
         }
@@ -324,10 +325,7 @@ class Builder
         return $buffer;
     }
 
-    protected function generateFlags(string $name)
-    {
-
-    }
+    protected function generateFlags(string $name) {}
 
     protected function checkPHPVarName($var)
     {
@@ -340,17 +338,16 @@ class Builder
             // nullable type
             if (is_null($value)) {
                 return 'null';
-            }
-            else {
+            } else {
                 return $this->quote($value, substr($type, 1));
             }
         }
         switch ($type) {
             case 'string':
-                return "'" . str_replace(['\\', '\''], ['\\\\', '\\\''], $value) . "'";
+                return "'".str_replace(['\\', '\''], ['\\\\', '\\\''], $value)."'";
             case 'bool':
                 if (is_bool($value)) {
-                    return $value ? "true" : "false";
+                    return $value ? 'true' : 'false';
                 }
                 if (in_array(strtolower($value), ['true', 'false'])) {
                     return strtolower($value);
@@ -360,17 +357,16 @@ class Builder
                 $data = strval(intval($value));
 
                 // Do not use PHP_INT_MAX as 32/64 bit dependant
-//                if ($data >= -2147483648 && $data <= 2147483647) {
+                //                if ($data >= -2147483648 && $data <= 2147483647) {
                 return $data;
-//                }
-            // return "'" . $value . "'";
-//                throw new \InvalidArgumentException(sprintf("\"%s\" can't be converted to int", $value));
+                //                }
+                // return "'" . $value . "'";
+                //                throw new \InvalidArgumentException(sprintf("\"%s\" can't be converted to int", $value));
             default:
                 if (ctype_digit(trim($value))) {
                     try {
                         return $this->quote($value, 'int');
-                    }
-                    catch (InvalidArgumentException $e) {
+                    } catch (InvalidArgumentException $e) {
                         return $this->quote($value, 'string');
                     }
                 }

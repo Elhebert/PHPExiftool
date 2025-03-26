@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MoonPhase extends AbstractTagGroup
 {
+    protected string $id = 'Reconyx:MoonPhase';
 
-  protected string $id = 'Reconyx:MoonPhase';
+    protected string $name = 'MoonPhase';
 
-  protected string $name = 'MoonPhase';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Reconyx::Main
+             * line : 330651
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Main.Reconyx:MoonPhase',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Reconyx::Type2
+             * line : 330920
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type2.Reconyx:MoonPhase',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Reconyx::Type3
+             * line : 331145
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type3.Reconyx:MoonPhase',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Reconyx::Main
-       * line : 330651
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Main.Reconyx:MoonPhase',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Reconyx::Type2
-       * line : 330920
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type2.Reconyx:MoonPhase',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Reconyx::Type3
-       * line : 331145
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type3.Reconyx:MoonPhase',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

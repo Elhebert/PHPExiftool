@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WindowsAtom extends AbstractTagGroup
 {
+    protected string $id = 'XMP-creatorAtom:WindowsAtom';
 
-  protected string $id = 'XMP-creatorAtom:WindowsAtom';
+    protected string $name = 'WindowsAtom';
 
-  protected string $name = 'WindowsAtom';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::creatorAtom
+             * line : 401483
+             * type : struct
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::creatorAtom.XMP-creatorAtom:WindowsAtom',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::creatorAtom
-       * line : 401483
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::creatorAtom.XMP-creatorAtom:WindowsAtom',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

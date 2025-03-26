@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Unknown_CNDB extends AbstractTagGroup
 {
+    protected string $id = 'Canon:Unknown_CNDB';
 
-  protected string $id = 'Canon:Unknown_CNDB';
+    protected string $name = 'Unknown_CNDB';
 
-  protected string $name = 'Unknown_CNDB';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::Skip
+             * line : 70949
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Canon::Skip.Canon:Unknown_CNDB',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::Skip
-       * line : 70949
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Canon::Skip.Canon:Unknown_CNDB',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 38;
-
+    protected int $flags = 38;
 }

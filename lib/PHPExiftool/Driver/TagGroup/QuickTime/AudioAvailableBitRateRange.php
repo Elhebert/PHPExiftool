@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioAvailableBitRateRange extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AudioAvailableBitRateRange';
 
-  protected string $id = 'QuickTime:AudioAvailableBitRateRange';
+    protected string $name = 'AudioAvailableBitRateRange';
 
-  protected string $name = 'AudioAvailableBitRateRange';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::EncodingParams
+             * line : 312636
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::EncodingParams.QuickTime:AudioAvailableBitRateRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::EncodingParams
-       * line : 312636
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::EncodingParams.QuickTime:AudioAvailableBitRateRange',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

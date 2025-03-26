@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MDItemFinderComment extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:MDItemFinderComment';
 
-  protected string $id = 'MacOS:MDItemFinderComment';
+    protected string $name = 'MDItemFinderComment';
 
-  protected string $name = 'MDItemFinderComment';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::MDItem
+             * line : 172800
+             * type : ?
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'MacOS::MDItem.MacOS:MDItemFinderComment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::MDItem
-       * line : 172800
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'MacOS::MDItem.MacOS:MDItemFinderComment',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

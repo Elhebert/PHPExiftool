@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RedEyeInfo extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crs:RedEyeInfo';
 
-  protected string $id = 'XMP-crs:RedEyeInfo';
+    protected string $name = 'RedEyeInfo';
 
-  protected string $name = 'RedEyeInfo';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crs
+             * line : 403957
+             * type : string
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::crs.XMP-crs:RedEyeInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crs
-       * line : 403957
-       * type : string
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::crs.XMP-crs:RedEyeInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CommonNetworkRelLink extends AbstractTagGroup
 {
+    protected string $id = 'LNK:CommonNetworkRelLink';
 
-  protected string $id = 'LNK:CommonNetworkRelLink';
+    protected string $name = 'CommonNetworkRelLink';
 
-  protected string $name = 'CommonNetworkRelLink';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::LinkInfo
+             * line : 161064
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::LinkInfo.LNK:CommonNetworkRelLink',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::LinkInfo
-       * line : 161064
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::LinkInfo.LNK:CommonNetworkRelLink',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

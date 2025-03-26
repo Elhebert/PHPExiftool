@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StartTime extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:StartTime';
 
-  protected string $id = 'QuickTime:StartTime';
+    protected string $name = 'StartTime';
 
-  protected string $name = 'StartTime';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Pittasoft
+             * line : 324206
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Pittasoft.QuickTime:StartTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Pittasoft
-       * line : 324206
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Pittasoft.QuickTime:StartTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

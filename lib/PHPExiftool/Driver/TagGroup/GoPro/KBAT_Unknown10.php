@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class KBAT_Unknown10 extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:KBAT_Unknown10';
 
-  protected string $id = 'GoPro:KBAT_Unknown10';
+    protected string $name = 'KBAT_Unknown10';
 
-  protected string $name = 'KBAT_Unknown10';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::KBAT
+             * line : 140024
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'GoPro::KBAT.GoPro:KBAT_Unknown10',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::KBAT
-       * line : 140024
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'GoPro::KBAT.GoPro:KBAT_Unknown10',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

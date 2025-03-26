@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AICreatorVersion extends AbstractTagGroup
 {
+    protected string $id = 'PostScript:AICreatorVersion';
 
-  protected string $id = 'PostScript:AICreatorVersion';
+    protected string $name = 'AICreatorVersion';
 
-  protected string $name = 'AICreatorVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PostScript::Main
+             * line : 305923
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PostScript::Main.PostScript:AICreatorVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PostScript::Main
-       * line : 305923
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PostScript::Main.PostScript:AICreatorVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

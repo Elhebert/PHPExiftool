@@ -25,13 +25,14 @@ use PHPExiftool\Driver\Value\ValueInterface;
 class Metadata
 {
     protected TagGroupInterface $tagGroup;
+
     protected ValueInterface $value;
 
-    public function __construct(TagGroupInterface $tagGroup, ValueInterface $value = NULL)
+    public function __construct(TagGroupInterface $tagGroup, ?ValueInterface $value = null)
     {
         $this->tagGroup = $tagGroup;
-        if(!$value) {
-            $value = $tagGroup->isMulti() ? new Multi() : new Mono();
+        if (! $value) {
+            $value = $tagGroup->isMulti() ? new Multi : new Mono;
         }
         $this->value = $value;
 

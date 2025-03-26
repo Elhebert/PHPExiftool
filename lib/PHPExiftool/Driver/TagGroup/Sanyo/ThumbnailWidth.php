@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailWidth extends AbstractTagGroup
 {
+    protected string $id = 'Sanyo:ThumbnailWidth';
 
-  protected string $id = 'Sanyo:ThumbnailWidth';
+    protected string $name = 'ThumbnailWidth';
 
-  protected string $name = 'ThumbnailWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sanyo::Thumbnail
+             * line : 336901
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sanyo::Thumbnail.Sanyo:ThumbnailWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sanyo::Thumbnail
-       * line : 336901
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sanyo::Thumbnail.Sanyo:ThumbnailWidth',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

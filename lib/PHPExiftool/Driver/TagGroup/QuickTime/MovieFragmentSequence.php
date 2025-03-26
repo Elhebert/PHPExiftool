@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MovieFragmentSequence extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MovieFragmentSequence';
 
-  protected string $id = 'QuickTime:MovieFragmentSequence';
+    protected string $name = 'MovieFragmentSequence';
 
-  protected string $name = 'MovieFragmentSequence';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::MovieFragHdr
+             * line : 324072
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::MovieFragHdr.QuickTime:MovieFragmentSequence',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::MovieFragHdr
-       * line : 324072
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::MovieFragHdr.QuickTime:MovieFragmentSequence',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

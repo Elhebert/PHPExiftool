@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectCycle extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ObjectCycle';
 
-  protected string $id = 'IPTC:ObjectCycle';
+    protected string $name = 'ObjectCycle';
 
-  protected string $name = 'ObjectCycle';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150170
+             * type : string
+             * writable : true
+             * count : 1
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ObjectCycle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150170
-       * type : string
-       * writable : true
-       * count : 1
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ObjectCycle',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 1;
 
-  protected int $count = 1;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

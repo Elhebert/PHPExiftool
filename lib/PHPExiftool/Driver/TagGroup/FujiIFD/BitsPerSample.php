@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BitsPerSample extends AbstractTagGroup
 {
+    protected string $id = 'FujiIFD:BitsPerSample';
 
-  protected string $id = 'FujiIFD:BitsPerSample';
+    protected string $name = 'BitsPerSample';
 
-  protected string $name = 'BitsPerSample';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::IFD
+             * line : 128653
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FujiFilm::IFD.FujiIFD:BitsPerSample',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::IFD
-       * line : 128653
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FujiFilm::IFD.FujiIFD:BitsPerSample',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

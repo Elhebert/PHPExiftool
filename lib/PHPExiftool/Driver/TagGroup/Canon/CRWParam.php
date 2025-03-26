@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CRWParam extends AbstractTagGroup
 {
+    protected string $id = 'Canon:CRWParam';
 
-  protected string $id = 'Canon:CRWParam';
+    protected string $name = 'CRWParam';
 
-  protected string $name = 'CRWParam';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::Main
+             * line : 65983
+             * type : undef
+             * writable : false
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Canon::Main.Canon:CRWParam',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::Main
-       * line : 65983
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Canon::Main.Canon:CRWParam',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 38;
-
+    protected int $flags = 38;
 }

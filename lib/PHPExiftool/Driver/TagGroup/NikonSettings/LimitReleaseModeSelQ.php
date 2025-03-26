@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LimitReleaseModeSelQ extends AbstractTagGroup
 {
+    protected string $id = 'NikonSettings:LimitReleaseModeSelQ';
 
-  protected string $id = 'NikonSettings:LimitReleaseModeSelQ';
+    protected string $name = 'LimitReleaseModeSelQ';
 
-  protected string $name = 'LimitReleaseModeSelQ';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonSettings::Main
+             * line : 247906
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'NikonSettings::Main.NikonSettings:LimitReleaseModeSelQ',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonSettings::Main
-       * line : 247906
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'NikonSettings::Main.NikonSettings:LimitReleaseModeSelQ',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

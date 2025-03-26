@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashMetering extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:FlashMetering';
 
-  protected string $id = 'Minolta:FlashMetering';
+    protected string $name = 'FlashMetering';
 
-  protected string $name = 'FlashMetering';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraSettings
+             * line : 178284
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings.Minolta:FlashMetering',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Minolta::CameraSettingsA100
+             * line : 181153
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettingsA100.Minolta:FlashMetering',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraSettings
-       * line : 178284
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings.Minolta:FlashMetering',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Minolta::CameraSettingsA100
-       * line : 181153
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettingsA100.Minolta:FlashMetering',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

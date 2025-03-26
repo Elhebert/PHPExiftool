@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeStamp extends AbstractTagGroup
 {
+    protected string $id = 'EXE:TimeStamp';
 
-  protected string $id = 'EXE:TimeStamp';
+    protected string $name = 'TimeStamp';
 
-  protected string $name = 'TimeStamp';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::Main
+             * line : 108794
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::Main.EXE:TimeStamp',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : EXE::PEF
+             * line : 108988
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'EXE::PEF.EXE:TimeStamp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::Main
-       * line : 108794
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::Main.EXE:TimeStamp',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : EXE::PEF
-       * line : 108988
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'EXE::PEF.EXE:TimeStamp',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

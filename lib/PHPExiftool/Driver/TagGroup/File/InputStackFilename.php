@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InputStackFilename extends AbstractTagGroup
 {
+    protected string $id = 'File:InputStackFilename';
 
-  protected string $id = 'File:InputStackFilename';
+    protected string $name = 'InputStackFilename';
 
-  protected string $name = 'InputStackFilename';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166730
+             * type : string
+             * writable : false
+             * count : 80
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:InputStackFilename',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166730
-       * type : string
-       * writable : false
-       * count : 80
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:InputStackFilename',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 80;
-
+    protected int $count = 80;
 }

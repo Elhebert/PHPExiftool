@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PeripheralIlluminationCorr extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:PeripheralIlluminationCorr';
 
-  protected string $id = 'Pentax:PeripheralIlluminationCorr';
+    protected string $name = 'PeripheralIlluminationCorr';
 
-  protected string $name = 'PeripheralIlluminationCorr';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::LensCorr
+             * line : 288533
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::LensCorr.Pentax:PeripheralIlluminationCorr',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::LensCorr
-       * line : 288533
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::LensCorr.Pentax:PeripheralIlluminationCorr',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

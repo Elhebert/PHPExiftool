@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MDItemFSCreationDate extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:MDItemFSCreationDate';
 
-  protected string $id = 'MacOS:MDItemFSCreationDate';
+    protected string $name = 'MDItemFSCreationDate';
 
-  protected string $name = 'MDItemFSCreationDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::MDItem
+             * line : 172710
+             * type : ?
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'MacOS::MDItem.MacOS:MDItemFSCreationDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::MDItem
-       * line : 172710
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'MacOS::MDItem.MacOS:MDItemFSCreationDate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

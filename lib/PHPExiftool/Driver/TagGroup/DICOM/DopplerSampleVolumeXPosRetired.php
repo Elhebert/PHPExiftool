@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DopplerSampleVolumeXPosRetired extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:DopplerSampleVolumeXPosRetired';
 
-  protected string $id = 'DICOM:DopplerSampleVolumeXPosRetired';
+    protected string $name = 'DopplerSampleVolumeXPosRetired';
 
-  protected string $name = 'DopplerSampleVolumeXPosRetired';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 96313
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:DopplerSampleVolumeXPosRetired',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 96313
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:DopplerSampleVolumeXPosRetired',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorSpecApproximation extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:ColorSpecApproximation';
 
-  protected string $id = 'Jpeg2000:ColorSpecApproximation';
+    protected string $name = 'ColorSpecApproximation';
 
-  protected string $name = 'ColorSpecApproximation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::ColorSpec
+             * line : 153708
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpecApproximation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::ColorSpec
-       * line : 153708
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpecApproximation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

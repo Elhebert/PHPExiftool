@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CoarseMapImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:CoarseMapImageHeight';
 
-  protected string $id = 'FLIR:CoarseMapImageHeight';
+    protected string $name = 'CoarseMapImageHeight';
 
-  protected string $name = 'CoarseMapImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CoarseData
+             * line : 122392
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::CoarseData.FLIR:CoarseMapImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CoarseData
-       * line : 122392
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::CoarseData.FLIR:CoarseMapImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

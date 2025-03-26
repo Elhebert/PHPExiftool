@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AccessDate extends AbstractTagGroup
 {
+    protected string $id = 'LNK:AccessDate';
 
-  protected string $id = 'LNK:AccessDate';
+    protected string $name = 'AccessDate';
 
-  protected string $name = 'AccessDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::Main
+             * line : 161425
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::Main.LNK:AccessDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::Main
-       * line : 161425
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::Main.LNK:AccessDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

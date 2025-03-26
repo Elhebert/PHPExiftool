@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISO extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Camera:ISO';
 
-  protected string $id = 'MIE-Camera:ISO';
+    protected string $name = 'ISO';
 
-  protected string $name = 'ISO';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Camera
+             * line : 162962
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Camera.MIE-Camera:ISO',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Camera
-       * line : 162962
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Camera.MIE-Camera:ISO',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

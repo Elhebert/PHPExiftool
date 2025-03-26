@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImageData extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:PreviewImageData';
 
-  protected string $id = 'Olympus:PreviewImageData';
+    protected string $name = 'PreviewImageData';
 
-  protected string $name = 'PreviewImageData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Main
+             * line : 256842
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Olympus::Main.Olympus:PreviewImageData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Main
-       * line : 256842
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Olympus::Main.Olympus:PreviewImageData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2054;
-
+    protected int $flags = 2054;
 }

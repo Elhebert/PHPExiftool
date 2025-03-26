@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSTargetAltitude extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:GPSTargetAltitude';
 
-  protected string $id = 'Parrot:GPSTargetAltitude';
+    protected string $name = 'GPSTargetAltitude';
 
-  protected string $name = 'GPSTargetAltitude';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::FollowMe
+             * line : 281971
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::FollowMe.Parrot:GPSTargetAltitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::FollowMe
-       * line : 281971
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::FollowMe.Parrot:GPSTargetAltitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageLimitExposureBias extends AbstractTagGroup
 {
+    protected string $id = 'Lytro:ImageLimitExposureBias';
 
-  protected string $id = 'Lytro:ImageLimitExposureBias';
+    protected string $name = 'ImageLimitExposureBias';
 
-  protected string $name = 'ImageLimitExposureBias';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Lytro::Main
+             * line : 162350
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Lytro::Main.Lytro:ImageLimitExposureBias',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Lytro::Main
-       * line : 162350
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Lytro::Main.Lytro:ImageLimitExposureBias',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

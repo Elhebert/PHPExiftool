@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirmwareRevision2 extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:FirmwareRevision2';
 
-  protected string $id = 'Ricoh:FirmwareRevision2';
+    protected string $name = 'FirmwareRevision2';
 
-  protected string $name = 'FirmwareRevision2';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::FirmwareInfo
+             * line : 331915
+             * type : string
+             * writable : true
+             * count : 12
+             * flags : permanent
+             */
+            'id' => 'Ricoh::FirmwareInfo.Ricoh:FirmwareRevision2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::FirmwareInfo
-       * line : 331915
-       * type : string
-       * writable : true
-       * count : 12
-       * flags : permanent
-       */
-      'id' => 'Ricoh::FirmwareInfo.Ricoh:FirmwareRevision2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 12;
 
-  protected int $count = 12;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

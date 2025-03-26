@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Writer_Editor extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:Writer-Editor';
 
-  protected string $id = 'IPTC:Writer-Editor';
+    protected string $name = 'Writer-Editor';
 
-  protected string $name = 'Writer-Editor';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150432
+             * type : string
+             * writable : true
+             * count : 32
+             * flags : list
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:Writer-Editor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150432
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : list
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:Writer-Editor',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

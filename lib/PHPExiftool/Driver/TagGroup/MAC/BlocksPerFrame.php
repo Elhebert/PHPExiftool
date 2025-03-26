@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlocksPerFrame extends AbstractTagGroup
 {
+    protected string $id = 'MAC:BlocksPerFrame';
 
-  protected string $id = 'MAC:BlocksPerFrame';
+    protected string $name = 'BlocksPerFrame';
 
-  protected string $name = 'BlocksPerFrame';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APE::NewHeader
+             * line : 352
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::NewHeader.MAC:BlocksPerFrame',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APE::NewHeader
-       * line : 352
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::NewHeader.MAC:BlocksPerFrame',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

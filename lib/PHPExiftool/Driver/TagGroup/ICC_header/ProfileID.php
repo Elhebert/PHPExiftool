@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProfileID extends AbstractTagGroup
 {
+    protected string $id = 'ICC-header:ProfileID';
 
-  protected string $id = 'ICC-header:ProfileID';
+    protected string $name = 'ProfileID';
 
-  protected string $name = 'ProfileID';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Header
+             * line : 145950
+             * type : int8u
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'ICC_Profile::Header.ICC-header:ProfileID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Header
-       * line : 145950
-       * type : int8u
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Header.ICC-header:ProfileID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

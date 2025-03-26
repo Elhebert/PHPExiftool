@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageRotation extends AbstractTagGroup
 {
+    protected string $id = 'Stim:ImageRotation';
 
-  protected string $id = 'Stim:ImageRotation';
+    protected string $name = 'ImageRotation';
 
-  protected string $name = 'ImageRotation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Stim::Main
+             * line : 394595
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Stim::Main.Stim:ImageRotation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Stim::Main
-       * line : 394595
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Stim::Main.Stim:ImageRotation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

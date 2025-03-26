@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MeasurementIlluminant extends AbstractTagGroup
 {
+    protected string $id = 'ICC-meas:MeasurementIlluminant';
 
-  protected string $id = 'ICC-meas:MeasurementIlluminant';
+    protected string $name = 'MeasurementIlluminant';
 
-  protected string $name = 'MeasurementIlluminant';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Measurement
+             * line : 146979
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementIlluminant',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Measurement
-       * line : 146979
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementIlluminant',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VP8Version extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:VP8Version';
 
-  protected string $id = 'RIFF:VP8Version';
+    protected string $name = 'VP8Version';
 
-  protected string $name = 'VP8Version';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::VP8
+             * line : 328941
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::VP8.RIFF:VP8Version',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::VP8
-       * line : 328941
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::VP8.RIFF:VP8Version',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

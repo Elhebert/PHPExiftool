@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CustomWB_RBLevels extends AbstractTagGroup
 {
+    protected string $id = 'Sony:CustomWB_RBLevels';
 
-  protected string $id = 'Sony:CustomWB_RBLevels';
+    protected string $name = 'CustomWB_RBLevels';
 
-  protected string $name = 'CustomWB_RBLevels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 360760
+             * type : int16uRev
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:CustomWB_RBLevels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 360760
-       * type : int16uRev
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:CustomWB_RBLevels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

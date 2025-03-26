@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PathTableSize extends AbstractTagGroup
 {
+    protected string $id = 'ISO:PathTableSize';
 
-  protected string $id = 'ISO:PathTableSize';
+    protected string $name = 'PathTableSize';
 
-  protected string $name = 'PathTableSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 152014
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:PathTableSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 152014
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:PathTableSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompositeImageCount extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:CompositeImageCount';
 
-  protected string $id = 'XMP-exifEX:CompositeImageCount';
+    protected string $name = 'CompositeImageCount';
 
-  protected string $name = 'CompositeImageCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408510
+             * type : integer
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:CompositeImageCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408510
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:CompositeImageCount',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocusStepInfinity extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:FocusStepInfinity';
 
-  protected string $id = 'Olympus:FocusStepInfinity';
+    protected string $name = 'FocusStepInfinity';
 
-  protected string $name = 'FocusStepInfinity';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::FocusInfo
+             * line : 254757
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::FocusInfo.Olympus:FocusStepInfinity',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::Main
+             * line : 259188
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::Main.Olympus:FocusStepInfinity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::FocusInfo
-       * line : 254757
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::FocusInfo.Olympus:FocusStepInfinity',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::Main
-       * line : 259188
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::Main.Olympus:FocusStepInfinity',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

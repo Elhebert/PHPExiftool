@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFAreaMode extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:AFAreaMode';
 
-  protected string $id = 'Panasonic:AFAreaMode';
+    protected string $name = 'AFAreaMode';
 
-  protected string $name = 'AFAreaMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 275337
+             * type : int8u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:AFAreaMode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 275361
+             * type : int8u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:AFAreaMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 275337
-       * type : int8u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:AFAreaMode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 275361
-       * type : int8u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:AFAreaMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

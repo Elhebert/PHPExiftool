@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AspectRatio extends AbstractTagGroup
 {
+    protected string $id = 'MOI:AspectRatio';
 
-  protected string $id = 'MOI:AspectRatio';
+    protected string $name = 'AspectRatio';
 
-  protected string $name = 'AspectRatio';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MOI::Main
+             * line : 165467
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MOI::Main.MOI:AspectRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MOI::Main
-       * line : 165467
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MOI::Main.MOI:AspectRatio',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

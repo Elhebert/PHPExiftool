@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NoiseReductionParametersKhufu6MP extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:NoiseReductionParametersKhufu6MP';
 
-  protected string $id = 'KodakIFD:NoiseReductionParametersKhufu6MP';
+    protected string $name = 'NoiseReductionParametersKhufu6MP';
 
-  protected string $name = 'NoiseReductionParametersKhufu6MP';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 156633
+             * type : int16u
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:NoiseReductionParametersKhufu6MP',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 156633
-       * type : int16u
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:NoiseReductionParametersKhufu6MP',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

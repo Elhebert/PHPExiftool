@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorRepresentation extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ColorRepresentation';
 
-  protected string $id = 'QuickTime:ColorRepresentation';
+    protected string $name = 'ColorRepresentation';
 
-  protected string $name = 'ColorRepresentation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ImageDesc
+             * line : 313992
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ImageDesc.QuickTime:ColorRepresentation',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : QuickTime::ItemPropCont
+             * line : 323198
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ItemPropCont.QuickTime:ColorRepresentation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ImageDesc
-       * line : 313992
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ImageDesc.QuickTime:ColorRepresentation',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : QuickTime::ItemPropCont
-       * line : 323198
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ItemPropCont.QuickTime:ColorRepresentation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

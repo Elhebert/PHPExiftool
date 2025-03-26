@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'ITC:ImageWidth';
 
-  protected string $id = 'ITC:ImageWidth';
+    protected string $name = 'ImageWidth';
 
-  protected string $name = 'ImageWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ITC::Item
+             * line : 152148
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ITC::Item.ITC:ImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ITC::Item
-       * line : 152148
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ITC::Item.ITC:ImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

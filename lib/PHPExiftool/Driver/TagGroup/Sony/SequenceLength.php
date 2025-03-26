@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SequenceLength extends AbstractTagGroup
 {
+    protected string $id = 'Sony:SequenceLength';
 
-  protected string $id = 'Sony:SequenceLength';
+    protected string $name = 'SequenceLength';
 
-  protected string $name = 'SequenceLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Tag9400a
+             * line : 384058
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400a.Sony:SequenceLength',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::Tag9400b
+             * line : 384291
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400b.Sony:SequenceLength',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::Tag9400c
+             * line : 384494
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400c.Sony:SequenceLength',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::Tag9400c
+             * line : 384544
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9400c.Sony:SequenceLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Tag9400a
-       * line : 384058
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400a.Sony:SequenceLength',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::Tag9400b
-       * line : 384291
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400b.Sony:SequenceLength',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::Tag9400c
-       * line : 384494
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400c.Sony:SequenceLength',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::Tag9400c
-       * line : 384544
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9400c.Sony:SequenceLength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

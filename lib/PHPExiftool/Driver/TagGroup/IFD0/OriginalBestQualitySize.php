@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalBestQualitySize extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:OriginalBestQualitySize';
 
-  protected string $id = 'IFD0:OriginalBestQualitySize';
+    protected string $name = 'OriginalBestQualitySize';
 
-  protected string $name = 'OriginalBestQualitySize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120537
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:OriginalBestQualitySize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120537
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:OriginalBestQualitySize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

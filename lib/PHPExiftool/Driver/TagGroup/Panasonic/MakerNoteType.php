@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MakerNoteType extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:MakerNoteType';
 
-  protected string $id = 'Panasonic:MakerNoteType';
+    protected string $name = 'MakerNoteType';
 
-  protected string $name = 'MakerNoteType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Type2
+             * line : 279665
+             * type : string
+             * writable : false
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Type2.Panasonic:MakerNoteType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Type2
-       * line : 279665
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Type2.Panasonic:MakerNoteType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MetadataID extends AbstractTagGroup
 {
+    protected string $id = 'SVG:MetadataID';
 
-  protected string $id = 'SVG:MetadataID';
+    protected string $name = 'MetadataID';
 
-  protected string $name = 'MetadataID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::SVG
+             * line : 397545
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::SVG.SVG:MetadataID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::SVG
-       * line : 397545
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::SVG.SVG:MetadataID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

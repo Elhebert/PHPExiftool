@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PaletteName extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:PaletteName';
 
-  protected string $id = 'FLIR:PaletteName';
+    protected string $name = 'PaletteName';
 
-  protected string $name = 'PaletteName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::PaletteInfo
+             * line : 123541
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::PaletteInfo.FLIR:PaletteName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::PaletteInfo
-       * line : 123541
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::PaletteInfo.FLIR:PaletteName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

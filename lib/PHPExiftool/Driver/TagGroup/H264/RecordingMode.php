@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RecordingMode extends AbstractTagGroup
 {
+    protected string $id = 'H264:RecordingMode';
 
-  protected string $id = 'H264:RecordingMode';
+    protected string $name = 'RecordingMode';
 
-  protected string $name = 'RecordingMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::RecInfo
+             * line : 142045
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::RecInfo.H264:RecordingMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::RecInfo
-       * line : 142045
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::RecInfo.H264:RecordingMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

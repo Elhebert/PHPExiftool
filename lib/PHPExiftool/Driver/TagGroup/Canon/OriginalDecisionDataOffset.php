@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalDecisionDataOffset extends AbstractTagGroup
 {
+    protected string $id = 'Canon:OriginalDecisionDataOffset';
 
-  protected string $id = 'Canon:OriginalDecisionDataOffset';
+    protected string $name = 'OriginalDecisionDataOffset';
 
-  protected string $name = 'OriginalDecisionDataOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::Main
+             * line : 65864
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent,protected
+             */
+            'id' => 'Canon::Main.Canon:OriginalDecisionDataOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::Main
-       * line : 65864
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent,protected
-       */
-      'id' => 'Canon::Main.Canon:OriginalDecisionDataOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2060;
-
+    protected int $flags = 2060;
 }

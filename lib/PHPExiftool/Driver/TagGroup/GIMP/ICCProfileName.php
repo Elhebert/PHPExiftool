@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ICCProfileName extends AbstractTagGroup
 {
+    protected string $id = 'GIMP:ICCProfileName';
 
-  protected string $id = 'GIMP:ICCProfileName';
+    protected string $name = 'ICCProfileName';
 
-  protected string $name = 'ICCProfileName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIMP::Parasite
+             * line : 131640
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GIMP::Parasite.GIMP:ICCProfileName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIMP::Parasite
-       * line : 131640
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIMP::Parasite.GIMP:ICCProfileName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

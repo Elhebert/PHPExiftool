@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GeneralProfileIDC extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GeneralProfileIDC';
 
-  protected string $id = 'QuickTime:GeneralProfileIDC';
+    protected string $name = 'GeneralProfileIDC';
 
-  protected string $name = 'GeneralProfileIDC';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HEVCConfig
+             * line : 313392
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HEVCConfig.QuickTime:GeneralProfileIDC',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HEVCConfig
-       * line : 313392
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HEVCConfig.QuickTime:GeneralProfileIDC',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

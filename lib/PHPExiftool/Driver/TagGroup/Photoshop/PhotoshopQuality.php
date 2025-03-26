@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PhotoshopQuality extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:PhotoshopQuality';
 
-  protected string $id = 'Photoshop:PhotoshopQuality';
+    protected string $name = 'PhotoshopQuality';
 
-  protected string $name = 'PhotoshopQuality';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::JPEG_Quality
+             * line : 305150
+             * type : int16s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::JPEG_Quality.Photoshop:PhotoshopQuality',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::JPEG_Quality
-       * line : 305150
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::JPEG_Quality.Photoshop:PhotoshopQuality',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

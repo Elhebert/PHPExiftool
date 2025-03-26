@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Channels extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:Channels';
 
-  protected string $id = 'FLAC:Channels';
+    protected string $name = 'Channels';
 
-  protected string $name = 'Channels';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::StreamInfo
+             * line : 121955
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::StreamInfo.FLAC:Channels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::StreamInfo
-       * line : 121955
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::StreamInfo.FLAC:Channels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

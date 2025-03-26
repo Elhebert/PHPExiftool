@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PhotoEffectsGreen extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:PhotoEffectsGreen';
 
-  protected string $id = 'NikonCapture:PhotoEffectsGreen';
+    protected string $name = 'PhotoEffectsGreen';
 
-  protected string $name = 'PhotoEffectsGreen';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::PhotoEffects
+             * line : 211177
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::PhotoEffects.NikonCapture:PhotoEffectsGreen',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::PhotoEffects
-       * line : 211177
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::PhotoEffects.NikonCapture:PhotoEffectsGreen',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToolName extends AbstractTagGroup
 {
+    protected string $id = 'APE:ToolName';
 
-  protected string $id = 'APE:ToolName';
+    protected string $name = 'ToolName';
 
-  protected string $name = 'ToolName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APE::Main
+             * line : 312
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::Main.APE:ToolName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APE::Main
-       * line : 312
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::Main.APE:ToolName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

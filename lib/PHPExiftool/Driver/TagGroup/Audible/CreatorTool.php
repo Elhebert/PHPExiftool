@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreatorTool extends AbstractTagGroup
 {
+    protected string $id = 'Audible:CreatorTool';
 
-  protected string $id = 'Audible:CreatorTool';
+    protected string $name = 'CreatorTool';
 
-  protected string $name = 'CreatorTool';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Audible::meta
+             * line : 3112
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Audible::meta.Audible:CreatorTool',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Audible::meta
-       * line : 3112
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Audible::meta.Audible:CreatorTool',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DistortionCorrParamsNumber extends AbstractTagGroup
 {
+    protected string $id = 'Sony:DistortionCorrParamsNumber';
 
-  protected string $id = 'Sony:DistortionCorrParamsNumber';
+    protected string $name = 'DistortionCorrParamsNumber';
 
-  protected string $name = 'DistortionCorrParamsNumber';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Tag2010e
+             * line : 368911
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag2010e.Sony:DistortionCorrParamsNumber',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::Tag2010g
+             * line : 372942
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag2010g.Sony:DistortionCorrParamsNumber',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::Tag2010h
+             * line : 375943
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag2010h.Sony:DistortionCorrParamsNumber',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::Tag2010i
+             * line : 378944
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag2010i.Sony:DistortionCorrParamsNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Tag2010e
-       * line : 368911
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag2010e.Sony:DistortionCorrParamsNumber',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::Tag2010g
-       * line : 372942
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag2010g.Sony:DistortionCorrParamsNumber',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::Tag2010h
-       * line : 375943
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag2010h.Sony:DistortionCorrParamsNumber',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::Tag2010i
-       * line : 378944
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag2010i.Sony:DistortionCorrParamsNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

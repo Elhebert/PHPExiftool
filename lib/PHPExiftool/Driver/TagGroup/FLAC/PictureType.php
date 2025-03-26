@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureType extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:PictureType';
 
-  protected string $id = 'FLAC:PictureType';
+    protected string $name = 'PictureType';
 
-  protected string $name = 'PictureType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::Picture
+             * line : 121763
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::Picture.FLAC:PictureType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::Picture
-       * line : 121763
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::Picture.FLAC:PictureType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

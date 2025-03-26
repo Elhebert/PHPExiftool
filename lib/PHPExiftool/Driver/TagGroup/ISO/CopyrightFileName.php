@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CopyrightFileName extends AbstractTagGroup
 {
+    protected string $id = 'ISO:CopyrightFileName';
 
-  protected string $id = 'ISO:CopyrightFileName';
+    protected string $name = 'CopyrightFileName';
 
-  protected string $name = 'CopyrightFileName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 152059
+             * type : string
+             * writable : false
+             * count : 38
+             * flags :
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:CopyrightFileName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 152059
-       * type : string
-       * writable : false
-       * count : 38
-       * flags : 
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:CopyrightFileName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 38;
-
+    protected int $count = 38;
 }

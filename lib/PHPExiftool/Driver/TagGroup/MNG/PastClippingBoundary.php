@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PastClippingBoundary extends AbstractTagGroup
 {
+    protected string $id = 'MNG:PastClippingBoundary';
 
-  protected string $id = 'MNG:PastClippingBoundary';
+    protected string $name = 'PastClippingBoundary';
 
-  protected string $name = 'PastClippingBoundary';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::PasteImage
+             * line : 165351
+             * type : int32u
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'MNG::PasteImage.MNG:PastClippingBoundary',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::PasteImage
-       * line : 165351
-       * type : int32u
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'MNG::PasteImage.MNG:PastClippingBoundary',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

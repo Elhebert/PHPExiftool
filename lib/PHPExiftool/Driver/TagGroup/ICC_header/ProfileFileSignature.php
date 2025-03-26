@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProfileFileSignature extends AbstractTagGroup
 {
+    protected string $id = 'ICC-header:ProfileFileSignature';
 
-  protected string $id = 'ICC-header:ProfileFileSignature';
+    protected string $name = 'ProfileFileSignature';
 
-  protected string $name = 'ProfileFileSignature';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Header
+             * line : 144153
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'ICC_Profile::Header.ICC-header:ProfileFileSignature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Header
-       * line : 144153
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Header.ICC-header:ProfileFileSignature',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

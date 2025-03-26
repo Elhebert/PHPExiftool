@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class KelvinWB_16 extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:KelvinWB_16';
 
-  protected string $id = 'Pentax:KelvinWB_16';
+    protected string $name = 'KelvinWB_16';
 
-  protected string $name = 'KelvinWB_16';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::KelvinWB
+             * line : 288478
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Pentax::KelvinWB.Pentax:KelvinWB_16',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::KelvinWB
-       * line : 288478
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Pentax::KelvinWB.Pentax:KelvinWB_16',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

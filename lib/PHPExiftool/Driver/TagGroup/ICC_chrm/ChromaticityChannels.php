@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChromaticityChannels extends AbstractTagGroup
 {
+    protected string $id = 'ICC-chrm:ChromaticityChannels';
 
-  protected string $id = 'ICC-chrm:ChromaticityChannels';
+    protected string $name = 'ChromaticityChannels';
 
-  protected string $name = 'ChromaticityChannels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Chromaticity
+             * line : 143087
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::Chromaticity.ICC-chrm:ChromaticityChannels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Chromaticity
-       * line : 143087
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Chromaticity.ICC-chrm:ChromaticityChannels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

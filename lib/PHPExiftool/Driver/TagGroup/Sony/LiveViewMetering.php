@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LiveViewMetering extends AbstractTagGroup
 {
+    protected string $id = 'Sony:LiveViewMetering';
 
-  protected string $id = 'Sony:LiveViewMetering';
+    protected string $name = 'LiveViewMetering';
 
-  protected string $name = 'LiveViewMetering';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 351115
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:LiveViewMetering',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 351294
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:LiveViewMetering',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 351115
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:LiveViewMetering',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 351294
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:LiveViewMetering',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

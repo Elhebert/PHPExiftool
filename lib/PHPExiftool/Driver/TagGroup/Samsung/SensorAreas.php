@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorAreas extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:SensorAreas';
 
-  protected string $id = 'Samsung:SensorAreas';
+    protected string $name = 'SensorAreas';
 
-  protected string $name = 'SensorAreas';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335408
+             * type : int32u
+             * writable : true
+             * count : 8
+             * flags : permanent
+             */
+            'id' => 'Samsung::Type2.Samsung:SensorAreas',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335408
-       * type : int32u
-       * writable : true
-       * count : 8
-       * flags : permanent
-       */
-      'id' => 'Samsung::Type2.Samsung:SensorAreas',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

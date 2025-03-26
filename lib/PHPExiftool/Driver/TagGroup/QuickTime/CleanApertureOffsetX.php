@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CleanApertureOffsetX extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:CleanApertureOffsetX';
 
-  protected string $id = 'QuickTime:CleanApertureOffsetX';
+    protected string $name = 'CleanApertureOffsetX';
 
-  protected string $name = 'CleanApertureOffsetX';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::CleanAperture
+             * line : 312599
+             * type : rational64s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::CleanAperture.QuickTime:CleanApertureOffsetX',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::CleanAperture
-       * line : 312599
-       * type : rational64s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::CleanAperture.QuickTime:CleanApertureOffsetX',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

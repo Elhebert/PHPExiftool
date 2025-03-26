@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorMatrix extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ColorMatrix';
 
-  protected string $id = 'Canon:ColorMatrix';
+    protected string $name = 'ColorMatrix';
 
-  protected string $name = 'ColorMatrix';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::LogInfo
+             * line : 64522
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Canon::LogInfo.Canon:ColorMatrix',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::LogInfo
-       * line : 64522
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Canon::LogInfo.Canon:ColorMatrix',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

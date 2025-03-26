@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CoarseMapImageType extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:CoarseMapImageType';
 
-  protected string $id = 'FLIR:CoarseMapImageType';
+    protected string $name = 'CoarseMapImageType';
 
-  protected string $name = 'CoarseMapImageType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CoarseData
+             * line : 122395
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::CoarseData.FLIR:CoarseMapImageType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CoarseData
-       * line : 122395
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::CoarseData.FLIR:CoarseMapImageType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

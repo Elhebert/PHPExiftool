@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageSensorGain extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:ImageSensorGain';
 
-  protected string $id = 'GoPro:ImageSensorGain';
+    protected string $name = 'ImageSensorGain';
 
-  protected string $name = 'ImageSensorGain';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPMF
+             * line : 139582
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'GoPro::GPMF.GoPro:ImageSensorGain',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPMF
-       * line : 139582
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'GoPro::GPMF.GoPro:ImageSensorGain',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

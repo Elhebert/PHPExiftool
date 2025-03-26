@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Sub_location extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:Sub-location';
 
-  protected string $id = 'IPTC:Sub-location';
+    protected string $name = 'Sub-location';
 
-  protected string $name = 'Sub-location';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150260
+             * type : string
+             * writable : true
+             * count : 32
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:Sub-location',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150260
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:Sub-location',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

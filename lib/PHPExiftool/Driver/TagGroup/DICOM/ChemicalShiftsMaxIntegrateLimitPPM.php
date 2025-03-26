@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChemicalShiftsMaxIntegrateLimitPPM extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ChemicalShiftsMaxIntegrateLimitPPM';
 
-  protected string $id = 'DICOM:ChemicalShiftsMaxIntegrateLimitPPM';
+    protected string $name = 'ChemicalShiftsMaxIntegrateLimitPPM';
 
-  protected string $name = 'ChemicalShiftsMaxIntegrateLimitPPM';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 96937
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ChemicalShiftsMaxIntegrateLimitPPM',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 96937
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ChemicalShiftsMaxIntegrateLimitPPM',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

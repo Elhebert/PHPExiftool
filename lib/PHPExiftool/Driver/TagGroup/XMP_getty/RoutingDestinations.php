@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RoutingDestinations extends AbstractTagGroup
 {
+    protected string $id = 'XMP-getty:RoutingDestinations';
 
-  protected string $id = 'XMP-getty:RoutingDestinations';
+    protected string $name = 'RoutingDestinations';
 
-  protected string $name = 'RoutingDestinations';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GettyImages
+             * line : 397341
+             * type : string
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'XMP::GettyImages.XMP-getty:RoutingDestinations',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GettyImages
-       * line : 397341
-       * type : string
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'XMP::GettyImages.XMP-getty:RoutingDestinations',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFStatusFarRightHorizontal extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFStatusFarRightHorizontal';
 
-  protected string $id = 'Sony:AFStatusFarRightHorizontal';
+    protected string $name = 'AFStatusFarRightHorizontal';
 
-  protected string $name = 'AFStatusFarRightHorizontal';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::AFStatus19
+             * line : 343835
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFStatus19.Sony:AFStatusFarRightHorizontal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::AFStatus19
-       * line : 343835
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFStatus19.Sony:AFStatusFarRightHorizontal',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

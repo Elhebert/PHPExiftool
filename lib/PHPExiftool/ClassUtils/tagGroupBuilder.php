@@ -7,11 +7,17 @@ use PHPExiftool\Driver\AbstractTagGroup;
 class tagGroupBuilder extends Builder
 {
     private ?string $type = '';
+
     private ?string $php_type = '';
+
     private ?int $count = -1;
+
     private ?int $writable = -1;
+
     private array $tags = [];
+
     private array $descriptions = [];
+
     private array $flags = [];  // count of occurences for each flag
 
     public function addTag(array $tagComments, array $tagProperties)
@@ -24,26 +30,23 @@ class tagGroupBuilder extends Builder
 
     /**
      * reconciliate "desc" attribute : for the same lng, keep the longuest one
-     *
-     * @param array $descriptions
      */
     public function setDescription(array $descriptions)
     {
         foreach ($descriptions as $lng => $description) {
-            if(!array_key_exists($lng, $this->descriptions)) {
+            if (! array_key_exists($lng, $this->descriptions)) {
                 $this->descriptions[$lng] = $description;
-            }
-            else {
-                if($description !== $this->descriptions[$lng]) {
-                    $this->logger->alert(sprintf("Conflicting description for group \"%s:%s\" : [%s] \"%s\" != \"%s\"",
+            } else {
+                if ($description !== $this->descriptions[$lng]) {
+                    $this->logger->alert(sprintf('Conflicting description for group "%s:%s" : [%s] "%s" != "%s"',
                         $this->namespace, $this->classname,
                         $lng, $description, $this->descriptions[$lng]
                     ));
-                    if(strlen($description) > strlen($this->descriptions[$lng])) {
+                    if (strlen($description) > strlen($this->descriptions[$lng])) {
                         // arbitrary choice : keep the longest description
                         $this->descriptions[$lng] = $description;
                     }
-                    $this->logger->alert(sprintf(" (keeping \"%s\")", $this->descriptions[$lng]));
+                    $this->logger->alert(sprintf(' (keeping "%s")', $this->descriptions[$lng]));
                 }
             }
         }
@@ -51,19 +54,16 @@ class tagGroupBuilder extends Builder
 
     /**
      * reconciliate type -> php_type
-     *
-     * @param string $type
-     * @param string|null $php_type
      */
     public function setType(string $type, ?string $php_type)
     {
-        if(!is_null($php_type)) {
-            if($this->php_type === '') {
+        if (! is_null($php_type)) {
+            if ($this->php_type === '') {
                 $this->php_type = $php_type;
             }
-            if($php_type != $this->php_type) {
-                if($this->php_type) {   // do no report same conflict
-                    $this->logger->alert(sprintf("Conflicting php types for group \"%s:%s\" : \"%s\" (php:%s) != \"%s\" (php:%s)",
+            if ($php_type != $this->php_type) {
+                if ($this->php_type) {   // do no report same conflict
+                    $this->logger->alert(sprintf('Conflicting php types for group "%s:%s" : "%s" (php:%s) != "%s" (php:%s)',
                         $this->namespace, $this->classname,
                         $type, $php_type, $this->type, $this->php_type
                     ));
@@ -71,11 +71,10 @@ class tagGroupBuilder extends Builder
                 $this->php_type = null;     // mixed
             }
         }
-        if($this->type === '') {
+        if ($this->type === '') {
             $this->type = $type;
-        }
-        else {
-            if($type != $this->type) {
+        } else {
+            if ($type != $this->type) {
                 $this->type = null;     // mixed
             }
         }
@@ -83,40 +82,38 @@ class tagGroupBuilder extends Builder
 
     /**
      * reconciliate "writable" flag (optimistic : one writable tag sets the taggroup as writable)
-     * @param bool $writable
      */
     public function setWritable(bool $writable)
     {
-        if($this->writable === -1) {
+        if ($this->writable === -1) {
             $this->writable = $writable ? 1 : 0;
         }
-        if(($writable ? 1 : 0) !== $this->writable) {
+        if (($writable ? 1 : 0) !== $this->writable) {
             $this->logger->alert(sprintf("Conflicting 'writable' attr for group \"%s:%s\"",
                 $this->namespace, $this->classname
             ));
         }
-        if($writable) {
+        if ($writable) {
             $this->writable = 1;
         }
     }
 
     public function getFlags(): int
     {
-        return array_key_exists('flags', $this->properties) ? $this->properties["flags"] : 0;
+        return array_key_exists('flags', $this->properties) ? $this->properties['flags'] : 0;
     }
 
     /**
      * reconciliate "count" attribute : keep value if same for all tags
-     * @param int $count
      */
     public function setCount(int $count)
     {
-        if($this->count === -1) {
+        if ($this->count === -1) {
             $this->count = $count;
         }
 
-        if($count !== $this->count) {
-            if(!is_null($this->count)) {
+        if ($count !== $this->count) {
+            if (! is_null($this->count)) {
                 $this->logger->alert(sprintf("Conflicting 'count' attr for group \"%s:%s\"",
                     $this->namespace, $this->classname
                 ));
@@ -132,7 +129,7 @@ class tagGroupBuilder extends Builder
     public function setFlags(array $flags)
     {
         foreach ($flags as $flag) {    // "avoid", "binary", "permanent", ...
-            if(!array_key_exists($flag, $this->flags)) {
+            if (! array_key_exists($flag, $this->flags)) {
                 $this->flags[$flag] = 0;
             }
             $this->flags[$flag]++;
@@ -141,7 +138,7 @@ class tagGroupBuilder extends Builder
 
     public function isWritable(): bool
     {
-        return ($this->writable === 1);
+        return $this->writable === 1;
     }
 
     public function getCount(): int
@@ -154,34 +151,32 @@ class tagGroupBuilder extends Builder
         return $this->descriptions;
     }
 
-
-
     public function computeProperties(): Builder
     {
-        $this->properties['phpType'] = $this->php_type ?: "mixed";
+        $this->properties['phpType'] = $this->php_type ?: 'mixed';
         $this->properties['isWritable'] = $this->isWritable();
         $this->properties['description'] = $this->descriptions;
         $this->properties['tags'] = $this->tags;
-        if(!is_null($this->count)) {        // 0 = default parent value, don't write in child
+        if (! is_null($this->count)) {        // 0 = default parent value, don't write in child
             $this->properties['count'] = $this->getCount();
         }
         // flags
         $binFlags = 0;
         foreach ($this->flags as $flagName => $nOccurences) {
-            if($nOccurences === count($this->tags)) {
-                $name = "FLAG_" . strtoupper($flagName);
-                $fqName = AbstractTagGroup::class . '::' . $name;
-                if(defined($fqName)) {
+            if ($nOccurences === count($this->tags)) {
+                $name = 'FLAG_'.strtoupper($flagName);
+                $fqName = AbstractTagGroup::class.'::'.$name;
+                if (defined($fqName)) {
                     $binFlags |= constant($fqName);
                 }
             }
         }
         // also add "writable" as a flag
-        if($this->isWritable()) {
+        if ($this->isWritable()) {
             $binFlags |= AbstractTagGroup::FLAG_WRITABLE;
         }
-        if($binFlags !== 0) {   // 0 is the default parent value
-            $this->properties["flags"] = $binFlags;
+        if ($binFlags !== 0) {   // 0 is the default parent value
+            $this->properties['flags'] = $binFlags;
         }
 
         return $this;
@@ -190,7 +185,7 @@ class tagGroupBuilder extends Builder
     public function write(string $path): Builder
     {
         parent::write($path);
+
         return $this;
     }
-
 }

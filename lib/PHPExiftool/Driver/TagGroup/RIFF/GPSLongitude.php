@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLongitude extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:GPSLongitude';
 
-  protected string $id = 'RIFF:GPSLongitude';
+    protected string $name = 'GPSLongitude';
 
-  protected string $name = 'GPSLongitude';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::UserText
+             * line : 328908
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::UserText.RIFF:GPSLongitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::UserText
-       * line : 328908
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::UserText.RIFF:GPSLongitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

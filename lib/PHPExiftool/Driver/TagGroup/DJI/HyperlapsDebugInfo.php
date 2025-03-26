@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HyperlapsDebugInfo extends AbstractTagGroup
 {
+    protected string $id = 'DJI:HyperlapsDebugInfo';
 
-  protected string $id = 'DJI:HyperlapsDebugInfo';
+    protected string $name = 'HyperlapsDebugInfo';
 
-  protected string $name = 'HyperlapsDebugInfo';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::Info
+             * line : 104473
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'DJI::Info.DJI:HyperlapsDebugInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::Info
-       * line : 104473
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'DJI::Info.DJI:HyperlapsDebugInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

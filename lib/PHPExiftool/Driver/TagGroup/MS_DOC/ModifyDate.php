@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'MS-DOC:ModifyDate';
 
-  protected string $id = 'MS-DOC:ModifyDate';
+    protected string $name = 'ModifyDate';
 
-  protected string $name = 'ModifyDate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::DOP
+             * line : 124290
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DOP.MS-DOC:ModifyDate',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FlashPix::DocTable
+             * line : 124407
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DocTable.MS-DOC:ModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::DOP
-       * line : 124290
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DOP.MS-DOC:ModifyDate',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FlashPix::DocTable
-       * line : 124407
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DocTable.MS-DOC:ModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

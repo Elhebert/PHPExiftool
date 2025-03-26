@@ -31,17 +31,17 @@
         }
     ],
     "require": {
-        "php": "^7.4 || ^8.2",
+        "php": "^8.2",
         "doctrine/collections": "^1.0",
         "exiftool/exiftool": "*",
-        "symfony/console": "^5 || ^6.2 || ^7.0",
-        "symfony/css-selector": "^5 || ^6.2 || ^7.0",
-        "symfony/dom-crawler": "^5 || ^6.2 || ^7.0",
-        "symfony/process": "^5 || ^6 || ^7.0",
+        "symfony/console": "^7.0",
+        "symfony/css-selector": "^7.0",
+        "symfony/dom-crawler": "^7.0",
+        "symfony/process": "^7.0",
         "ext-dom": "*",
         "ext-json": "*",
-        "symfony/monolog-bridge": "^5.4 || ^6.2 || ^7.0",
-        "symfony/cache": "^5 || ^6.2 || ^7.0"
+        "symfony/monolog-bridge": "^7.0",
+        "symfony/cache": "^7.0"
     },
     "suggest": {
         "jms/serializer": "To serialize tags",
@@ -51,7 +51,9 @@
         "jms/serializer": "~3",
         "phpunit/phpunit": "^9.6.7",
         "symfony/finder": "^5",
-        "symfony/yaml": "^5 || ^6 || ^7.0"
+        "symfony/yaml": "^7.0",
+        "phpstan/phpstan": "^2.1",
+        "friendsofphp/php-cs-fixer": "^3.73"
     },
     "autoload": {
         "psr-4": {
@@ -63,6 +65,8 @@
         }
     },
     "scripts": {
-        "test": "./vendor/bin/phpunit"
+        "test": "./vendor/bin/phpunit",
+        "lint": "./vendor/bin/php-cs-fixer fix",
+        "static-analysis": "./vendor/bin/phpstan analyse"
     }
 }

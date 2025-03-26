@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxBitrate extends AbstractTagGroup
 {
+    protected string $id = 'ASF:MaxBitrate';
 
-  protected string $id = 'ASF:MaxBitrate';
+    protected string $name = 'MaxBitrate';
 
-  protected string $name = 'MaxBitrate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::FileProperties
+             * line : 1771
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::FileProperties.ASF:MaxBitrate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::FileProperties
-       * line : 1771
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::FileProperties.ASF:MaxBitrate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

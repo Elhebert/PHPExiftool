@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LateralSpreadingDevWaterEquivThick extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:LateralSpreadingDevWaterEquivThick';
 
-  protected string $id = 'DICOM:LateralSpreadingDevWaterEquivThick';
+    protected string $name = 'LateralSpreadingDevWaterEquivThick';
 
-  protected string $name = 'LateralSpreadingDevWaterEquivThick';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 103810
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:LateralSpreadingDevWaterEquivThick',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 103810
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:LateralSpreadingDevWaterEquivThick',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

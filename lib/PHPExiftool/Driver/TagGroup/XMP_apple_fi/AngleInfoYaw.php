@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AngleInfoYaw extends AbstractTagGroup
 {
+    protected string $id = 'XMP-apple-fi:AngleInfoYaw';
 
-  protected string $id = 'XMP-apple-fi:AngleInfoYaw';
+    protected string $name = 'AngleInfoYaw';
 
-  protected string $name = 'AngleInfoYaw';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::apple_fi
+             * line : 397892
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::apple_fi.XMP-apple-fi:AngleInfoYaw',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::apple_fi
-       * line : 397892
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::apple_fi.XMP-apple-fi:AngleInfoYaw',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

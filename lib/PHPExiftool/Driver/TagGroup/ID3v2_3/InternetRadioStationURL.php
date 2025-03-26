@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InternetRadioStationURL extends AbstractTagGroup
 {
+    protected string $id = 'ID3v2_3:InternetRadioStationURL';
 
-  protected string $id = 'ID3v2_3:InternetRadioStationURL';
+    protected string $name = 'InternetRadioStationURL';
 
-  protected string $name = 'InternetRadioStationURL';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v2_3
+             * line : 149068
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_3.ID3v2_3:InternetRadioStationURL',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v2_3
-       * line : 149068
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_3.ID3v2_3:InternetRadioStationURL',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

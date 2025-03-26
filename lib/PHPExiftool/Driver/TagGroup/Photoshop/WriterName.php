@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WriterName extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:WriterName';
 
-  protected string $id = 'Photoshop:WriterName';
+    protected string $name = 'WriterName';
 
-  protected string $name = 'WriterName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::VersionInfo
+             * line : 305860
+             * type : var_ustr32
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::VersionInfo.Photoshop:WriterName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::VersionInfo
-       * line : 305860
-       * type : var_ustr32
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::VersionInfo.Photoshop:WriterName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

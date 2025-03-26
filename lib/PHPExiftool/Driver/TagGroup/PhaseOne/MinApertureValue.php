@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MinApertureValue extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:MinApertureValue';
 
-  protected string $id = 'PhaseOne:MinApertureValue';
+    protected string $name = 'MinApertureValue';
 
-  protected string $name = 'MinApertureValue';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::Main
+             * line : 303570
+             * type : float
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'PhaseOne::Main.PhaseOne:MinApertureValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::Main
-       * line : 303570
-       * type : float
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'PhaseOne::Main.PhaseOne:MinApertureValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

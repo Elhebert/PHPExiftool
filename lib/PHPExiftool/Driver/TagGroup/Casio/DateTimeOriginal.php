@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeOriginal extends AbstractTagGroup
 {
+    protected string $id = 'Casio:DateTimeOriginal';
 
-  protected string $id = 'Casio:DateTimeOriginal';
+    protected string $name = 'DateTimeOriginal';
 
-  protected string $name = 'DateTimeOriginal';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::QVCI
+             * line : 85208
+             * type : string
+             * writable : false
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'Casio::QVCI.Casio:DateTimeOriginal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::QVCI
-       * line : 85208
-       * type : string
-       * writable : false
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'Casio::QVCI.Casio:DateTimeOriginal',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 20;
 
-  protected int $count = 20;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

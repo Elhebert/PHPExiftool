@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageOrientation extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ImageOrientation';
 
-  protected string $id = 'IPTC:ImageOrientation';
+    protected string $name = 'ImageOrientation';
 
-  protected string $name = 'ImageOrientation';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150473
+             * type : string
+             * writable : true
+             * count : 1
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ImageOrientation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150473
-       * type : string
-       * writable : true
-       * count : 1
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ImageOrientation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 1;
 
-  protected int $count = 1;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

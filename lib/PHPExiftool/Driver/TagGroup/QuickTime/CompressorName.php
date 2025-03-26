@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompressorName extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:CompressorName';
 
-  protected string $id = 'QuickTime:CompressorName';
+    protected string $name = 'CompressorName';
 
-  protected string $name = 'CompressorName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ImageDesc
+             * line : 313973
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'QuickTime::ImageDesc.QuickTime:CompressorName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ImageDesc
-       * line : 313973
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'QuickTime::ImageDesc.QuickTime:CompressorName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NoiseReduction extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:NoiseReduction';
 
-  protected string $id = 'Ricoh:NoiseReduction';
+    protected string $name = 'NoiseReduction';
 
-  protected string $name = 'NoiseReduction';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::Main
+             * line : 333126
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Main.Ricoh:NoiseReduction',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Ricoh::Subdir
+             * line : 333741
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Subdir.Ricoh:NoiseReduction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::Main
-       * line : 333126
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Main.Ricoh:NoiseReduction',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Ricoh::Subdir
-       * line : 333741
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Subdir.Ricoh:NoiseReduction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

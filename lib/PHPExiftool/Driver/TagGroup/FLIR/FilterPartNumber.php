@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FilterPartNumber extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:FilterPartNumber';
 
-  protected string $id = 'FLIR:FilterPartNumber';
+    protected string $name = 'FilterPartNumber';
 
-  protected string $name = 'FilterPartNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122307
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:FilterPartNumber',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122581
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:FilterPartNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122307
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:FilterPartNumber',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122581
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:FilterPartNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

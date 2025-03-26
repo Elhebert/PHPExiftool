@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MPEGAudioVersion extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:MPEGAudioVersion';
 
-  protected string $id = 'MPEG:MPEGAudioVersion';
+    protected string $name = 'MPEGAudioVersion';
 
-  protected string $name = 'MPEGAudioVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Audio
+             * line : 165665
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Audio.MPEG:MPEGAudioVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Audio
-       * line : 165665
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Audio.MPEG:MPEGAudioVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

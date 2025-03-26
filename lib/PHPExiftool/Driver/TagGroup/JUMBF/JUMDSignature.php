@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JUMDSignature extends AbstractTagGroup
 {
+    protected string $id = 'JUMBF:JUMDSignature';
 
-  protected string $id = 'JUMBF:JUMDSignature';
+    protected string $name = 'JUMDSignature';
 
-  protected string $name = 'JUMDSignature';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::JUMD
+             * line : 154118
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::JUMD.JUMBF:JUMDSignature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::JUMD
-       * line : 154118
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::JUMD.JUMBF:JUMDSignature',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

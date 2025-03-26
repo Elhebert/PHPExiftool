@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeStamp extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:TimeStamp';
 
-  protected string $id = 'Parrot:TimeStamp';
+    protected string $name = 'TimeStamp';
 
-  protected string $name = 'TimeStamp';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::TimeStamp
+             * line : 282012
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::TimeStamp.Parrot:TimeStamp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::TimeStamp
-       * line : 282012
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::TimeStamp.Parrot:TimeStamp',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

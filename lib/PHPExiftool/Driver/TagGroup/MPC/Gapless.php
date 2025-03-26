@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Gapless extends AbstractTagGroup
 {
+    protected string $id = 'MPC:Gapless';
 
-  protected string $id = 'MPC:Gapless';
+    protected string $name = 'Gapless';
 
-  protected string $name = 'Gapless';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPC::Main
+             * line : 165631
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPC::Main.MPC:Gapless',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPC::Main
-       * line : 165631
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPC::Main.MPC:Gapless',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

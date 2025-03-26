@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLongitudeRef extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:GPSLongitudeRef';
 
-  protected string $id = 'FLIR:GPSLongitudeRef';
+    protected string $name = 'GPSLongitudeRef';
 
-  protected string $name = 'GPSLongitudeRef';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::GPSInfo
+             * line : 122745
+             * type : string
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'FLIR::GPSInfo.FLIR:GPSLongitudeRef',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::GPSInfo
-       * line : 122745
-       * type : string
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'FLIR::GPSInfo.FLIR:GPSLongitudeRef',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

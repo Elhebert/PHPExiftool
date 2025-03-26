@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FullName extends AbstractTagGroup
 {
+    protected string $id = 'Font:FullName';
 
-  protected string $id = 'Font:FullName';
+    protected string $name = 'FullName';
 
-  protected string $name = 'FullName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::AFM
+             * line : 127772
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::AFM.Font:FullName',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Font::PSInfo
+             * line : 128149
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PSInfo.Font:FullName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::AFM
-       * line : 127772
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::AFM.Font:FullName',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Font::PSInfo
-       * line : 128149
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PSInfo.Font:FullName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

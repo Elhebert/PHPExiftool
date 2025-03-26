@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContainerFormatName extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:ContainerFormatName';
 
-  protected string $id = 'XMP-iptcExt:ContainerFormatName';
+    protected string $name = 'ContainerFormatName';
 
-  protected string $name = 'ContainerFormatName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409173
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:ContainerFormatName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409173
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:ContainerFormatName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

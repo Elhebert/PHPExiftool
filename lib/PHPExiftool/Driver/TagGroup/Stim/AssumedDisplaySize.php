@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AssumedDisplaySize extends AbstractTagGroup
 {
+    protected string $id = 'Stim:AssumedDisplaySize';
 
-  protected string $id = 'Stim:AssumedDisplaySize';
+    protected string $name = 'AssumedDisplaySize';
 
-  protected string $name = 'AssumedDisplaySize';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Stim::Main
+             * line : 394667
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Stim::Main.Stim:AssumedDisplaySize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Stim::Main
-       * line : 394667
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Stim::Main.Stim:AssumedDisplaySize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

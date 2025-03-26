@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExtendedTrackTitle extends AbstractTagGroup
 {
+    protected string $id = 'Lyrics3:ExtendedTrackTitle';
 
-  protected string $id = 'Lyrics3:ExtendedTrackTitle';
+    protected string $name = 'ExtendedTrackTitle';
 
-  protected string $name = 'ExtendedTrackTitle';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::Lyrics3
+             * line : 147110
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::Lyrics3.Lyrics3:ExtendedTrackTitle',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::Lyrics3
-       * line : 147110
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::Lyrics3.Lyrics3:ExtendedTrackTitle',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompressionFormat extends AbstractTagGroup
 {
+    protected string $id = 'Canon:CompressionFormat';
 
-  protected string $id = 'Canon:CompressionFormat';
+    protected string $name = 'CompressionFormat';
 
-  protected string $name = 'CompressionFormat';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::LogInfo
+             * line : 64413
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Canon::LogInfo.Canon:CompressionFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::LogInfo
-       * line : 64413
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Canon::LogInfo.Canon:CompressionFormat',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

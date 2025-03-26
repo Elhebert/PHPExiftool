@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SpatialFrequencyResponseValues extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exif:SpatialFrequencyResponseValues';
 
-  protected string $id = 'XMP-exif:SpatialFrequencyResponseValues';
+    protected string $name = 'SpatialFrequencyResponseValues';
 
-  protected string $name = 'SpatialFrequencyResponseValues';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exif
+             * line : 408213
+             * type : rational
+             * writable : true
+             * count :
+             * flags : flattened,list,seq
+             */
+            'id' => 'XMP::exif.XMP-exif:SpatialFrequencyResponseValues',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exif
-       * line : 408213
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : flattened,list,seq
-       */
-      'id' => 'XMP::exif.XMP-exif:SpatialFrequencyResponseValues',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

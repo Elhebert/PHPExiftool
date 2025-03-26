@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BackgroundAlpha extends AbstractTagGroup
 {
+    protected string $id = 'XMP-swf:BackgroundAlpha';
 
-  protected string $id = 'XMP-swf:BackgroundAlpha';
+    protected string $name = 'BackgroundAlpha';
 
-  protected string $name = 'BackgroundAlpha';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::swf
+             * line : 411352
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::swf.XMP-swf:BackgroundAlpha',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::swf
-       * line : 411352
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::swf.XMP-swf:BackgroundAlpha',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

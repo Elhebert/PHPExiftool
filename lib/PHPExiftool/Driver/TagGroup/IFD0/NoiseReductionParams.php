@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NoiseReductionParams extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:NoiseReductionParams';
 
-  protected string $id = 'IFD0:NoiseReductionParams';
+    protected string $name = 'NoiseReductionParams';
 
-  protected string $name = 'NoiseReductionParams';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::Main
+             * line : 280431
+             * type : undef
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'PanasonicRaw::Main.IFD0:NoiseReductionParams',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::Main
-       * line : 280431
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'PanasonicRaw::Main.IFD0:NoiseReductionParams',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

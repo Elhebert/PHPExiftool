@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalPlaneAFPointArea extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FocalPlaneAFPointArea';
 
-  protected string $id = 'Sony:FocalPlaneAFPointArea';
+    protected string $name = 'FocalPlaneAFPointArea';
 
-  protected string $name = 'FocalPlaneAFPointArea';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Tag202a
+             * line : 378962
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag202a.Sony:FocalPlaneAFPointArea',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Tag202a
-       * line : 378962
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag202a.Sony:FocalPlaneAFPointArea',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

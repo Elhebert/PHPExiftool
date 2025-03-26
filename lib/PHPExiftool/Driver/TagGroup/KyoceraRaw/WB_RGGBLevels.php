@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGGBLevels extends AbstractTagGroup
 {
+    protected string $id = 'KyoceraRaw:WB_RGGBLevels';
 
-  protected string $id = 'KyoceraRaw:WB_RGGBLevels';
+    protected string $name = 'WB_RGGBLevels';
 
-  protected string $name = 'WB_RGGBLevels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : KyoceraRaw::Main
+             * line : 160857
+             * type : int32u
+             * writable : false
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'KyoceraRaw::Main.KyoceraRaw:WB_RGGBLevels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : KyoceraRaw::Main
-       * line : 160857
-       * type : int32u
-       * writable : false
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'KyoceraRaw::Main.KyoceraRaw:WB_RGGBLevels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

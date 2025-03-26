@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalFileName extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:OriginalFileName';
 
-  protected string $id = 'Kodak:OriginalFileName';
+    protected string $name = 'OriginalFileName';
 
-  protected string $name = 'OriginalFileName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Type4
+             * line : 160137
+             * type : string
+             * writable : true
+             * count : 12
+             * flags : permanent
+             */
+            'id' => 'Kodak::Type4.Kodak:OriginalFileName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Type4
-       * line : 160137
-       * type : string
-       * writable : true
-       * count : 12
-       * flags : permanent
-       */
-      'id' => 'Kodak::Type4.Kodak:OriginalFileName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 12;
 
-  protected int $count = 12;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

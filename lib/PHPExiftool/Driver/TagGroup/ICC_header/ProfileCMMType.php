@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProfileCMMType extends AbstractTagGroup
 {
+    protected string $id = 'ICC-header:ProfileCMMType';
 
-  protected string $id = 'ICC-header:ProfileCMMType';
+    protected string $name = 'ProfileCMMType';
 
-  protected string $name = 'ProfileCMMType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Header
+             * line : 143164
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'ICC_Profile::Header.ICC-header:ProfileCMMType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Header
-       * line : 143164
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Header.ICC-header:ProfileCMMType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

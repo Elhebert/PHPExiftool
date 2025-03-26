@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BrachyAccessoryDeviceNomThickness extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:BrachyAccessoryDeviceNomThickness';
 
-  protected string $id = 'DICOM:BrachyAccessoryDeviceNomThickness';
+    protected string $name = 'BrachyAccessoryDeviceNomThickness';
 
-  protected string $name = 'BrachyAccessoryDeviceNomThickness';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 103621
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:BrachyAccessoryDeviceNomThickness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 103621
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:BrachyAccessoryDeviceNomThickness',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

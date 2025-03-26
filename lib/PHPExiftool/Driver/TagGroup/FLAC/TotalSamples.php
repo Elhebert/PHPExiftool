@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TotalSamples extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:TotalSamples';
 
-  protected string $id = 'FLAC:TotalSamples';
+    protected string $name = 'TotalSamples';
 
-  protected string $name = 'TotalSamples';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::StreamInfo
+             * line : 121980
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::StreamInfo.FLAC:TotalSamples',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::StreamInfo
-       * line : 121980
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::StreamInfo.FLAC:TotalSamples',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MeasurementGeometry extends AbstractTagGroup
 {
+    protected string $id = 'ICC-meas:MeasurementGeometry';
 
-  protected string $id = 'ICC-meas:MeasurementGeometry';
+    protected string $name = 'MeasurementGeometry';
 
-  protected string $name = 'MeasurementGeometry';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Measurement
+             * line : 146941
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementGeometry',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Measurement
-       * line : 146941
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementGeometry',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

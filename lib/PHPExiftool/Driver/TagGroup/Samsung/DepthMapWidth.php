@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DepthMapWidth extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:DepthMapWidth';
 
-  protected string $id = 'Samsung:DepthMapWidth';
+    protected string $name = 'DepthMapWidth';
 
-  protected string $name = 'DepthMapWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::DualShotExtra
+             * line : 333866
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::DualShotExtra.Samsung:DepthMapWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::DualShotExtra
-       * line : 333866
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::DualShotExtra.Samsung:DepthMapWidth',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

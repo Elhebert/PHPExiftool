@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DistortionVersion extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:DistortionVersion';
 
-  protected string $id = 'Nikon:DistortionVersion';
+    protected string $name = 'DistortionVersion';
 
-  protected string $name = 'DistortionVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::DistortInfo
+             * line : 192197
+             * type : undef
+             * writable : true
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Nikon::DistortInfo.Nikon:DistortionVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::DistortInfo
-       * line : 192197
-       * type : undef
-       * writable : true
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Nikon::DistortInfo.Nikon:DistortionVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

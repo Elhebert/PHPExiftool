@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Quality extends AbstractTagGroup
 {
+    protected string $id = 'JVC:Quality';
 
-  protected string $id = 'JVC:Quality';
+    protected string $name = 'Quality';
 
-  protected string $name = 'Quality';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JVC::Main
+             * line : 153407
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'JVC::Main.JVC:Quality',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : JVC::Text
+             * line : 153478
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'JVC::Text.JVC:Quality',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JVC::Main
-       * line : 153407
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'JVC::Main.JVC:Quality',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : JVC::Text
-       * line : 153478
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'JVC::Text.JVC:Quality',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

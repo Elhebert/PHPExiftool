@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GradientBasedCorrMaskRangeAreaModels extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:GradientBasedCorrMaskRangeAreaModels';
 
-  protected string $id = 'XMP-crd:GradientBasedCorrMaskRangeAreaModels';
+    protected string $name = 'GradientBasedCorrMaskRangeAreaModels';
 
-  protected string $name = 'GradientBasedCorrMaskRangeAreaModels';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 398997
+             * type : struct
+             * writable : true
+             * count :
+             * flags : avoid,flattened,list,seq
+             */
+            'id' => 'XMP::crd.XMP-crd:GradientBasedCorrMaskRangeAreaModels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 398997
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : avoid,flattened,list,seq
-       */
-      'id' => 'XMP::crd.XMP-crd:GradientBasedCorrMaskRangeAreaModels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2625;
-
+    protected int $flags = 2625;
 }

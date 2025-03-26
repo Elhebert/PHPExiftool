@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DefaultUserCrop extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:DefaultUserCrop';
 
-  protected string $id = 'SubIFD:DefaultUserCrop';
+    protected string $name = 'DefaultUserCrop';
 
-  protected string $name = 'DefaultUserCrop';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120609
+             * type : rational64u
+             * writable : true
+             * count : 4
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:DefaultUserCrop',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120609
-       * type : rational64u
-       * writable : true
-       * count : 4
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:DefaultUserCrop',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

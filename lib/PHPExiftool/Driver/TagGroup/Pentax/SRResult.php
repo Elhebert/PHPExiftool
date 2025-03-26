@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SRResult extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:SRResult';
 
-  protected string $id = 'Pentax:SRResult';
+    protected string $name = 'SRResult';
 
-  protected string $name = 'SRResult';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::SRInfo
+             * line : 301574
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::SRInfo.Pentax:SRResult',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Pentax::SRInfo2
+             * line : 301667
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Pentax::SRInfo2.Pentax:SRResult',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::SRInfo
-       * line : 301574
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::SRInfo.Pentax:SRResult',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Pentax::SRInfo2
-       * line : 301667
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Pentax::SRInfo2.Pentax:SRResult',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

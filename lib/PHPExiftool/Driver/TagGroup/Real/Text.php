@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Text extends AbstractTagGroup
 {
+    protected string $id = 'Real:Text';
 
-  protected string $id = 'Real:Text';
+    protected string $name = 'Text';
 
-  protected string $name = 'Text';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::Metafile
+             * line : 330483
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::Metafile.Real:Text',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::Metafile
-       * line : 330483
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::Metafile.Real:Text',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

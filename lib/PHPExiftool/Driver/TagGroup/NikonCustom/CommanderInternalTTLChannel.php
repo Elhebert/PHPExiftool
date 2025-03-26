@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CommanderInternalTTLChannel extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:CommanderInternalTTLChannel';
 
-  protected string $id = 'NikonCustom:CommanderInternalTTLChannel';
+    protected string $name = 'CommanderInternalTTLChannel';
 
-  protected string $name = 'CommanderInternalTTLChannel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD700
+             * line : 225483
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD700.NikonCustom:CommanderInternalTTLChannel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD700
-       * line : 225483
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD700.NikonCustom:CommanderInternalTTLChannel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

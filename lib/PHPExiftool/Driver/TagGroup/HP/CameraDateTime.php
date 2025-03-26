@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraDateTime extends AbstractTagGroup
 {
+    protected string $id = 'HP:CameraDateTime';
 
-  protected string $id = 'HP:CameraDateTime';
+    protected string $name = 'CameraDateTime';
 
-  protected string $name = 'CameraDateTime';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HP::Type4
+             * line : 142203
+             * type : string
+             * writable : false
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'HP::Type4.HP:CameraDateTime',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : HP::Type6
+             * line : 142282
+             * type : string
+             * writable : false
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'HP::Type6.HP:CameraDateTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HP::Type4
-       * line : 142203
-       * type : string
-       * writable : false
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'HP::Type4.HP:CameraDateTime',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : HP::Type6
-       * line : 142282
-       * type : string
-       * writable : false
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'HP::Type6.HP:CameraDateTime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 20;
 
-  protected int $count = 20;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

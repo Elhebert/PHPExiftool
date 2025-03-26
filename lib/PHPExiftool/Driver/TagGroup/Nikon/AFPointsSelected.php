@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPointsSelected extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:AFPointsSelected';
 
-  protected string $id = 'Nikon:AFPointsSelected';
+    protected string $name = 'AFPointsSelected';
 
-  protected string $name = 'AFPointsSelected';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AFInfo2
+             * line : 189989
+             * type : undef
+             * writable : true
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'Nikon::AFInfo2.Nikon:AFPointsSelected',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AFInfo2
-       * line : 189989
-       * type : undef
-       * writable : true
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'Nikon::AFInfo2.Nikon:AFPointsSelected',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 20;
 
-  protected int $count = 20;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

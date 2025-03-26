@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EncryptionKey extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:EncryptionKey';
 
-  protected string $id = 'Samsung:EncryptionKey';
+    protected string $name = 'EncryptionKey';
 
-  protected string $name = 'EncryptionKey';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335540
+             * type : int32u
+             * writable : true
+             * count : 11
+             * flags : permanent,unsafe
+             */
+            'id' => 'Samsung::Type2.Samsung:EncryptionKey',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335540
-       * type : int32u
-       * writable : true
-       * count : 11
-       * flags : permanent,unsafe
-       */
-      'id' => 'Samsung::Type2.Samsung:EncryptionKey',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 11;
 
-  protected int $count = 11;
-
-  protected int $flags = 2068;
-
+    protected int $flags = 2068;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MagnetometerXYZ extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MagnetometerXYZ';
 
-  protected string $id = 'QuickTime:MagnetometerXYZ';
+    protected string $name = 'MagnetometerXYZ';
 
-  protected string $name = 'MagnetometerXYZ';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Mag360Fly
+             * line : 323731
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::Mag360Fly.QuickTime:MagnetometerXYZ',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Mag360Fly
-       * line : 323731
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::Mag360Fly.QuickTime:MagnetometerXYZ',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AssociatedImageFile extends AbstractTagGroup
 {
+    protected string $id = 'Lyrics3:AssociatedImageFile';
 
-  protected string $id = 'Lyrics3:AssociatedImageFile';
+    protected string $name = 'AssociatedImageFile';
 
-  protected string $name = 'AssociatedImageFile';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::Lyrics3
+             * line : 147113
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::Lyrics3.Lyrics3:AssociatedImageFile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::Lyrics3
-       * line : 147113
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::Lyrics3.Lyrics3:AssociatedImageFile',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

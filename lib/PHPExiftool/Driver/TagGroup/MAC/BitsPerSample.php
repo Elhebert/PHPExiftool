@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BitsPerSample extends AbstractTagGroup
 {
+    protected string $id = 'MAC:BitsPerSample';
 
-  protected string $id = 'MAC:BitsPerSample';
+    protected string $name = 'BitsPerSample';
 
-  protected string $name = 'BitsPerSample';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APE::NewHeader
+             * line : 369
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::NewHeader.MAC:BitsPerSample',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APE::NewHeader
-       * line : 369
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::NewHeader.MAC:BitsPerSample',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

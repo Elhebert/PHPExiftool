@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AmbientTemperatureFahrenheit extends AbstractTagGroup
 {
+    protected string $id = 'Reconyx:AmbientTemperatureFahrenheit';
 
-  protected string $id = 'Reconyx:AmbientTemperatureFahrenheit';
+    protected string $name = 'AmbientTemperatureFahrenheit';
 
-  protected string $name = 'AmbientTemperatureFahrenheit';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Reconyx::Main
+             * line : 330689
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Main.Reconyx:AmbientTemperatureFahrenheit',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Reconyx::Type2
+             * line : 330958
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type2.Reconyx:AmbientTemperatureFahrenheit',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Reconyx::Type3
+             * line : 331183
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type3.Reconyx:AmbientTemperatureFahrenheit',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Reconyx::Main
-       * line : 330689
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Main.Reconyx:AmbientTemperatureFahrenheit',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Reconyx::Type2
-       * line : 330958
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type2.Reconyx:AmbientTemperatureFahrenheit',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Reconyx::Type3
-       * line : 331183
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type3.Reconyx:AmbientTemperatureFahrenheit',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

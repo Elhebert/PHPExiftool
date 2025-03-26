@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawThermalImageType extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:RawThermalImageType';
 
-  protected string $id = 'FLIR:RawThermalImageType';
+    protected string $name = 'RawThermalImageType';
 
-  protected string $name = 'RawThermalImageType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::RawData
+             * line : 123686
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::RawData.FLIR:RawThermalImageType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::RawData
-       * line : 123686
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::RawData.FLIR:RawThermalImageType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

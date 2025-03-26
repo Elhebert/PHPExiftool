@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BWF_UMID extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:BWF_UMID';
 
-  protected string $id = 'RIFF:BWF_UMID';
+    protected string $name = 'BWF_UMID';
 
-  protected string $name = 'BWF_UMID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::BroadcastExt
+             * line : 327805
+             * type : undef
+             * writable : false
+             * count : 64
+             * flags :
+             */
+            'id' => 'RIFF::BroadcastExt.RIFF:BWF_UMID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::BroadcastExt
-       * line : 327805
-       * type : undef
-       * writable : false
-       * count : 64
-       * flags : 
-       */
-      'id' => 'RIFF::BroadcastExt.RIFF:BWF_UMID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 64;
-
+    protected int $count = 64;
 }

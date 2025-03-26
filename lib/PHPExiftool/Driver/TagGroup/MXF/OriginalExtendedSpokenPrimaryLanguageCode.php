@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalExtendedSpokenPrimaryLanguageCode extends AbstractTagGroup
 {
+    protected string $id = 'MXF:OriginalExtendedSpokenPrimaryLanguageCode';
 
-  protected string $id = 'MXF:OriginalExtendedSpokenPrimaryLanguageCode';
+    protected string $name = 'OriginalExtendedSpokenPrimaryLanguageCode';
 
-  protected string $name = 'OriginalExtendedSpokenPrimaryLanguageCode';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 171676
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:OriginalExtendedSpokenPrimaryLanguageCode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 171676
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:OriginalExtendedSpokenPrimaryLanguageCode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

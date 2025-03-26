@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_GRGBLevelsFluorHigh extends AbstractTagGroup
 {
+    protected string $id = 'Canon:WB_GRGBLevelsFluorHigh';
 
-  protected string $id = 'Canon:WB_GRGBLevelsFluorHigh';
+    protected string $name = 'WB_GRGBLevelsFluorHigh';
 
-  protected string $name = 'WB_GRGBLevelsFluorHigh';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::WBInfo
+             * line : 71265
+             * type : int32s
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Canon::WBInfo.Canon:WB_GRGBLevelsFluorHigh',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::WBInfo
-       * line : 71265
-       * type : int32s
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Canon::WBInfo.Canon:WB_GRGBLevelsFluorHigh',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ComputedAtmosphericTrans extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:ComputedAtmosphericTrans';
 
-  protected string $id = 'FLIR:ComputedAtmosphericTrans';
+    protected string $name = 'ComputedAtmosphericTrans';
 
-  protected string $name = 'ComputedAtmosphericTrans';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122605
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:ComputedAtmosphericTrans',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122605
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:ComputedAtmosphericTrans',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

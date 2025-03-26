@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProjectionPoseRoll extends AbstractTagGroup
 {
+    protected string $id = 'Matroska:ProjectionPoseRoll';
 
-  protected string $id = 'Matroska:ProjectionPoseRoll';
+    protected string $name = 'ProjectionPoseRoll';
 
-  protected string $name = 'ProjectionPoseRoll';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Matroska::Projection
+             * line : 174056
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Matroska::Projection.Matroska:ProjectionPoseRoll',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Matroska::Projection
-       * line : 174056
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Matroska::Projection.Matroska:ProjectionPoseRoll',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

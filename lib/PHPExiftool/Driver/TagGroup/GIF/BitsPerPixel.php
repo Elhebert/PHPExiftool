@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BitsPerPixel extends AbstractTagGroup
 {
+    protected string $id = 'GIF:BitsPerPixel';
 
-  protected string $id = 'GIF:BitsPerPixel';
+    protected string $name = 'BitsPerPixel';
 
-  protected string $name = 'BitsPerPixel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIF::Screen
+             * line : 131428
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GIF::Screen.GIF:BitsPerPixel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIF::Screen
-       * line : 131428
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIF::Screen.GIF:BitsPerPixel',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InitialDisplayEffect extends AbstractTagGroup
 {
+    protected string $id = 'Stim:InitialDisplayEffect';
 
-  protected string $id = 'Stim:InitialDisplayEffect';
+    protected string $name = 'InitialDisplayEffect';
 
-  protected string $name = 'InitialDisplayEffect';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Stim::Main
+             * line : 394683
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Stim::Main.Stim:InitialDisplayEffect',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Stim::Main
-       * line : 394683
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Stim::Main.Stim:InitialDisplayEffect',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

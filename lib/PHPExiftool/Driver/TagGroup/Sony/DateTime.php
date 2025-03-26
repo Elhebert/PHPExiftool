@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTime extends AbstractTagGroup
 {
+    protected string $id = 'Sony:DateTime';
 
-  protected string $id = 'Sony:DateTime';
+    protected string $name = 'DateTime';
 
-  protected string $name = 'DateTime';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::rtmd
+             * line : 393944
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Sony::rtmd.Sony:DateTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::rtmd
-       * line : 393944
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Sony::rtmd.Sony:DateTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

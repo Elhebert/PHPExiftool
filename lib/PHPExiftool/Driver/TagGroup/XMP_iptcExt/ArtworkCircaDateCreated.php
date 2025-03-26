@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ArtworkCircaDateCreated extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:ArtworkCircaDateCreated';
 
-  protected string $id = 'XMP-iptcExt:ArtworkCircaDateCreated';
+    protected string $name = 'ArtworkCircaDateCreated';
 
-  protected string $name = 'ArtworkCircaDateCreated';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409084
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list,unsafe
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:ArtworkCircaDateCreated',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409084
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list,unsafe
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:ArtworkCircaDateCreated',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2128;
-
+    protected int $flags = 2128;
 }

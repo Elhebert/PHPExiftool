@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DeviantMatrixDaylight extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:DeviantMatrixDaylight';
 
-  protected string $id = 'KodakIFD:DeviantMatrixDaylight';
+    protected string $name = 'DeviantMatrixDaylight';
 
-  protected string $name = 'DeviantMatrixDaylight';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 155123
+             * type : rational64s
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Kodak::IFD.KodakIFD:DeviantMatrixDaylight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 155123
-       * type : rational64s
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Kodak::IFD.KodakIFD:DeviantMatrixDaylight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

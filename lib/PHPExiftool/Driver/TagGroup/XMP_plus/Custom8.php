@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Custom8 extends AbstractTagGroup
 {
+    protected string $id = 'XMP-plus:Custom8';
 
-  protected string $id = 'XMP-plus:Custom8';
+    protected string $name = 'Custom8';
 
-  protected string $name = 'Custom8';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PLUS::XMP
+             * line : 265355
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'PLUS::XMP.XMP-plus:Custom8',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PLUS::XMP
-       * line : 265355
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'PLUS::XMP.XMP-plus:Custom8',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Kodak_SubIFD3_0x200a extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:Kodak_SubIFD3_0x200a';
 
-  protected string $id = 'Kodak:Kodak_SubIFD3_0x200a';
+    protected string $name = 'Kodak_SubIFD3_0x200a';
 
-  protected string $name = 'Kodak_SubIFD3_0x200a';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::SubIFD3
+             * line : 159351
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Kodak::SubIFD3.Kodak:Kodak_SubIFD3_0x200a',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::SubIFD3
-       * line : 159351
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Kodak::SubIFD3.Kodak:Kodak_SubIFD3_0x200a',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

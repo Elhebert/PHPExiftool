@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashStatusExternal extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FlashStatusExternal';
 
-  protected string $id = 'Sony:FlashStatusExternal';
+    protected string $name = 'FlashStatusExternal';
 
-  protected string $name = 'FlashStatusExternal';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 351197
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:FlashStatusExternal',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 351376
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:FlashStatusExternal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 351197
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:FlashStatusExternal',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 351376
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:FlashStatusExternal',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

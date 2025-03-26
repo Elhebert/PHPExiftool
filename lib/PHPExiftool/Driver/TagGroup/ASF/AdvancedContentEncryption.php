@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AdvancedContentEncryption extends AbstractTagGroup
 {
+    protected string $id = 'ASF:AdvancedContentEncryption';
 
-  protected string $id = 'ASF:AdvancedContentEncryption';
+    protected string $name = 'AdvancedContentEncryption';
 
-  protected string $name = 'AdvancedContentEncryption';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::HeaderExtension
+             * line : 1827
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::HeaderExtension.ASF:AdvancedContentEncryption',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::HeaderExtension
-       * line : 1827
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::HeaderExtension.ASF:AdvancedContentEncryption',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxFaces extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:MaxFaces';
 
-  protected string $id = 'Olympus:MaxFaces';
+    protected string $name = 'MaxFaces';
 
-  protected string $name = 'MaxFaces';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::ImageProcessing
+             * line : 255557
+             * type : int32u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::ImageProcessing.Olympus:MaxFaces',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::ImageProcessing
-       * line : 255557
-       * type : int32u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::ImageProcessing.Olympus:MaxFaces',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

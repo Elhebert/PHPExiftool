@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Album extends AbstractTagGroup
 {
+    protected string $id = 'ID3v1:Album';
 
-  protected string $id = 'ID3v1:Album';
+    protected string $name = 'Album';
 
-  protected string $name = 'Album';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v1
+             * line : 147243
+             * type : string
+             * writable : false
+             * count : 30
+             * flags :
+             */
+            'id' => 'ID3::v1.ID3v1:Album',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v1
-       * line : 147243
-       * type : string
-       * writable : false
-       * count : 30
-       * flags : 
-       */
-      'id' => 'ID3::v1.ID3v1:Album',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 30;
-
+    protected int $count = 30;
 }

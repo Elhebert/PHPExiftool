@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AssignMB_D17FuncButton extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:AssignMB-D17FuncButton';
 
-  protected string $id = 'NikonCustom:AssignMB-D17FuncButton';
+    protected string $name = 'AssignMB-D17FuncButton';
 
-  protected string $name = 'AssignMB-D17FuncButton';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD500
+             * line : 221360
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMB-D17FuncButton',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD500
-       * line : 221360
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMB-D17FuncButton',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

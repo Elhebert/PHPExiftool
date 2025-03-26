@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DocumentNotes extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:DocumentNotes';
 
-  protected string $id = 'IPTC:DocumentNotes';
+    protected string $name = 'DocumentNotes';
 
-  protected string $name = 'DocumentNotes';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150948
+             * type : string
+             * writable : true
+             * count : 1024
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:DocumentNotes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150948
-       * type : string
-       * writable : true
-       * count : 1024
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:DocumentNotes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 1024;
 
-  protected int $count = 1024;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

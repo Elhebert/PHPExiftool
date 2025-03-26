@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Contact extends AbstractTagGroup
 {
+    protected string $id = 'Vorbis:Contact';
 
-  protected string $id = 'Vorbis:Contact';
+    protected string $name = 'Contact';
 
-  protected string $name = 'Contact';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Vorbis::Comments
+             * line : 395724
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'Vorbis::Comments.Vorbis:Contact',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Vorbis::Comments
-       * line : 395724
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'Vorbis::Comments.Vorbis:Contact',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

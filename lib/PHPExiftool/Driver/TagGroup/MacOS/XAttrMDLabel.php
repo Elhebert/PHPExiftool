@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XAttrMDLabel extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:XAttrMDLabel';
 
-  protected string $id = 'MacOS:XAttrMDLabel';
+    protected string $name = 'XAttrMDLabel';
 
-  protected string $name = 'XAttrMDLabel';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::XAttr
+             * line : 173144
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'MacOS::XAttr.MacOS:XAttrMDLabel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::XAttr
-       * line : 173144
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'MacOS::XAttr.MacOS:XAttrMDLabel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

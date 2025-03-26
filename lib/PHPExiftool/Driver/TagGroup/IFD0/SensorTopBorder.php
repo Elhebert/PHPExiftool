@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorTopBorder extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:SensorTopBorder';
 
-  protected string $id = 'IFD0:SensorTopBorder';
+    protected string $name = 'SensorTopBorder';
 
-  protected string $name = 'SensorTopBorder';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::Main
+             * line : 280235
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::Main.IFD0:SensorTopBorder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::Main
-       * line : 280235
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::Main.IFD0:SensorTopBorder',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

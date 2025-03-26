@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MatrixStructure extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MatrixStructure';
 
-  protected string $id = 'QuickTime:MatrixStructure';
+    protected string $name = 'MatrixStructure';
 
-  protected string $name = 'MatrixStructure';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::MovieHeader
+             * line : 324136
+             * type : fixed32s
+             * writable : false
+             * count : 9
+             * flags :
+             */
+            'id' => 'QuickTime::MovieHeader.QuickTime:MatrixStructure',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::MovieHeader
-       * line : 324136
-       * type : fixed32s
-       * writable : false
-       * count : 9
-       * flags : 
-       */
-      'id' => 'QuickTime::MovieHeader.QuickTime:MatrixStructure',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 9;
-
+    protected int $count = 9;
 }

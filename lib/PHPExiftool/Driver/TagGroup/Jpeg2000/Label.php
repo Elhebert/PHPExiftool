@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Label extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:Label';
 
-  protected string $id = 'Jpeg2000:Label';
+    protected string $name = 'Label';
 
-  protected string $name = 'Label';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::Main
+             * line : 154253
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::Main.Jpeg2000:Label',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::Main
-       * line : 154253
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::Main.Jpeg2000:Label',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

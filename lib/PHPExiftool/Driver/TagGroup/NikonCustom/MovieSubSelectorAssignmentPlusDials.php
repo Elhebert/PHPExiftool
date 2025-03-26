@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MovieSubSelectorAssignmentPlusDials extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:MovieSubSelectorAssignmentPlusDials';
 
-  protected string $id = 'NikonCustom:MovieSubSelectorAssignmentPlusDials';
+    protected string $name = 'MovieSubSelectorAssignmentPlusDials';
 
-  protected string $name = 'MovieSubSelectorAssignmentPlusDials';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD4
+             * line : 216516
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD4.NikonCustom:MovieSubSelectorAssignmentPlusDials',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD4
-       * line : 216516
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD4.NikonCustom:MovieSubSelectorAssignmentPlusDials',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

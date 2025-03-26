@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToneMatrix extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:ToneMatrix';
 
-  protected string $id = 'Leaf:ToneMatrix';
+    protected string $name = 'ToneMatrix';
 
-  protected string $name = 'ToneMatrix';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::Main
+             * line : 161899
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'Leaf::Main.Leaf:ToneMatrix',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::Main
-       * line : 161899
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Leaf::Main.Leaf:ToneMatrix',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

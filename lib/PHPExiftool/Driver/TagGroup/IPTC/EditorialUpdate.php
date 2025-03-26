@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EditorialUpdate extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:EditorialUpdate';
 
-  protected string $id = 'IPTC:EditorialUpdate';
+    protected string $name = 'EditorialUpdate';
 
-  protected string $name = 'EditorialUpdate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 149752
+             * type : digits
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:EditorialUpdate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 149752
-       * type : digits
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:EditorialUpdate',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BatteryUnknown extends AbstractTagGroup
 {
+    protected string $id = 'Sony:BatteryUnknown';
 
-  protected string $id = 'Sony:BatteryUnknown';
+    protected string $name = 'BatteryUnknown';
 
-  protected string $name = 'BatteryUnknown';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::ExtraInfo
+             * line : 352125
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Sony::ExtraInfo.Sony:BatteryUnknown',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::ExtraInfo3
+             * line : 352227
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Sony::ExtraInfo3.Sony:BatteryUnknown',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::ExtraInfo
-       * line : 352125
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Sony::ExtraInfo.Sony:BatteryUnknown',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::ExtraInfo3
-       * line : 352227
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Sony::ExtraInfo3.Sony:BatteryUnknown',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TotalFrames extends AbstractTagGroup
 {
+    protected string $id = 'MPC:TotalFrames';
 
-  protected string $id = 'MPC:TotalFrames';
+    protected string $name = 'TotalFrames';
 
-  protected string $name = 'TotalFrames';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPC::Main
+             * line : 165499
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPC::Main.MPC:TotalFrames',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPC::Main
-       * line : 165499
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPC::Main.MPC:TotalFrames',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

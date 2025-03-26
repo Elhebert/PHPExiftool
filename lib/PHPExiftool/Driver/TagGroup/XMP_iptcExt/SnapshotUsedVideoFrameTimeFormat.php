@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SnapshotUsedVideoFrameTimeFormat extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:SnapshotUsedVideoFrameTimeFormat';
 
-  protected string $id = 'XMP-iptcExt:SnapshotUsedVideoFrameTimeFormat';
+    protected string $name = 'SnapshotUsedVideoFrameTimeFormat';
 
-  protected string $name = 'SnapshotUsedVideoFrameTimeFormat';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409763
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:SnapshotUsedVideoFrameTimeFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409763
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:SnapshotUsedVideoFrameTimeFormat',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

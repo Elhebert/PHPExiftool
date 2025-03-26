@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AF_OnForMB_D10 extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:AF-OnForMB-D10';
 
-  protected string $id = 'NikonCustom:AF-OnForMB-D10';
+    protected string $name = 'AF-OnForMB-D10';
 
-  protected string $name = 'AF-OnForMB-D10';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD3
+             * line : 212174
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD3.NikonCustom:AF-OnForMB-D10',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonCustom::SettingsD700
+             * line : 224665
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD700.NikonCustom:AF-OnForMB-D10',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD3
-       * line : 212174
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD3.NikonCustom:AF-OnForMB-D10',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonCustom::SettingsD700
-       * line : 224665
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD700.NikonCustom:AF-OnForMB-D10',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

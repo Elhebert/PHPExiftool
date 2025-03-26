@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhiteBalanceFineTune extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:WhiteBalanceFineTune';
 
-  protected string $id = 'FujiFilm:WhiteBalanceFineTune';
+    protected string $name = 'WhiteBalanceFineTune';
 
-  protected string $name = 'WhiteBalanceFineTune';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::Main
+             * line : 129507
+             * type : int32s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::Main.FujiFilm:WhiteBalanceFineTune',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::Main
-       * line : 129507
-       * type : int32s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::Main.FujiFilm:WhiteBalanceFineTune',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

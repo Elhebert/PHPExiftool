@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SceneArea extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:SceneArea';
 
-  protected string $id = 'Olympus:SceneArea';
+    protected string $name = 'SceneArea';
 
-  protected string $name = 'SceneArea';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::FocusInfo
+             * line : 254735
+             * type : int32u
+             * writable : true
+             * count : 8
+             * flags : permanent,unknown
+             */
+            'id' => 'Olympus::FocusInfo.Olympus:SceneArea',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::Main
+             * line : 259058
+             * type : int32u
+             * writable : true
+             * count : 8
+             * flags : permanent,unknown
+             */
+            'id' => 'Olympus::Main.Olympus:SceneArea',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::FocusInfo
-       * line : 254735
-       * type : int32u
-       * writable : true
-       * count : 8
-       * flags : permanent,unknown
-       */
-      'id' => 'Olympus::FocusInfo.Olympus:SceneArea',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::Main
-       * line : 259058
-       * type : int32u
-       * writable : true
-       * count : 8
-       * flags : permanent,unknown
-       */
-      'id' => 'Olympus::Main.Olympus:SceneArea',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

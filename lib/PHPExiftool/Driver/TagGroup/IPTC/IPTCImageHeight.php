@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IPTCImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:IPTCImageHeight';
 
-  protected string $id = 'IPTC:IPTCImageHeight';
+    protected string $name = 'IPTCImageHeight';
 
-  protected string $name = 'IPTCImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::NewsPhoto
+             * line : 151370
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::NewsPhoto.IPTC:IPTCImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::NewsPhoto
-       * line : 151370
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::NewsPhoto.IPTC:IPTCImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Distortion extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:Distortion';
 
-  protected string $id = 'Samsung:Distortion';
+    protected string $name = 'Distortion';
 
-  protected string $name = 'Distortion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335613
+             * type : int32s
+             * writable : true
+             * count : 8
+             * flags : permanent,unknown
+             */
+            'id' => 'Samsung::Type2.Samsung:Distortion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335613
-       * type : int32s
-       * writable : true
-       * count : 8
-       * flags : permanent,unknown
-       */
-      'id' => 'Samsung::Type2.Samsung:Distortion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

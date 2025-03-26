@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class InitialDelaySamples extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:InitialDelaySamples';
 
-  protected string $id = 'QuickTime:InitialDelaySamples';
+    protected string $name = 'InitialDelaySamples';
 
-  protected string $name = 'InitialDelaySamples';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::AV1Config
+             * line : 310344
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'QuickTime::AV1Config.QuickTime:InitialDelaySamples',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::AV1Config
-       * line : 310344
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'QuickTime::AV1Config.QuickTime:InitialDelaySamples',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StripByteCounts extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:StripByteCounts';
 
-  protected string $id = 'IFD0:StripByteCounts';
+    protected string $name = 'StripByteCounts';
 
-  protected string $name = 'StripByteCounts';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::Main
+             * line : 280728
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::Main.IFD0:StripByteCounts',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::Main
-       * line : 280728
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::Main.IFD0:StripByteCounts',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

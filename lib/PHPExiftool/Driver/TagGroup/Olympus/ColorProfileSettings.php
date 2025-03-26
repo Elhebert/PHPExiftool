@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorProfileSettings extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ColorProfileSettings';
 
-  protected string $id = 'Olympus:ColorProfileSettings';
+    protected string $name = 'ColorProfileSettings';
 
-  protected string $name = 'ColorProfileSettings';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 252789
+             * type : int16s
+             * writable : true
+             * count : 14
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:ColorProfileSettings',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 252789
-       * type : int16s
-       * writable : true
-       * count : 14
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:ColorProfileSettings',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 14;
 
-  protected int $count = 14;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

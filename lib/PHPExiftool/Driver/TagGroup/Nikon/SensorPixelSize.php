@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SensorPixelSize extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:SensorPixelSize';
 
-  protected string $id = 'Nikon:SensorPixelSize';
+    protected string $name = 'SensorPixelSize';
 
-  protected string $name = 'SensorPixelSize';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::Main
+             * line : 197518
+             * type : rational64u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Nikon::Main.Nikon:SensorPixelSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::Main
-       * line : 197518
-       * type : rational64u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Nikon::Main.Nikon:SensorPixelSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Func2ButtonPlusDials extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:Func2ButtonPlusDials';
 
-  protected string $id = 'NikonCustom:Func2ButtonPlusDials';
+    protected string $name = 'Func2ButtonPlusDials';
 
-  protected string $name = 'Func2ButtonPlusDials';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD5
+             * line : 219604
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD5.NikonCustom:Func2ButtonPlusDials',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD5
-       * line : 219604
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD5.NikonCustom:Func2ButtonPlusDials',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

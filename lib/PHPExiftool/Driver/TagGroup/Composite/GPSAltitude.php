@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSAltitude extends AbstractTagGroup
 {
+    protected string $id = 'Composite:GPSAltitude';
 
-  protected string $id = 'Composite:GPSAltitude';
+    protected string $name = 'GPSAltitude';
 
-  protected string $name = 'GPSAltitude';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Composite
+             * line : 90577
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSAltitude',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Composite
+             * line : 93508
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSAltitude',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Composite
+             * line : 93526
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Composite.Composite:GPSAltitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Composite
-       * line : 90577
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSAltitude',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Composite
-       * line : 93508
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSAltitude',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Composite
-       * line : 93526
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Composite.Composite:GPSAltitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

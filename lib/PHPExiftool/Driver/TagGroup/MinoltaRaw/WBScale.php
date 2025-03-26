@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WBScale extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:WBScale';
 
-  protected string $id = 'MinoltaRaw:WBScale';
+    protected string $name = 'WBScale';
 
-  protected string $name = 'WBScale';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::WBG
+             * line : 187802
+             * type : int8u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::WBG.MinoltaRaw:WBScale',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::WBG
-       * line : 187802
-       * type : int8u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::WBG.MinoltaRaw:WBScale',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

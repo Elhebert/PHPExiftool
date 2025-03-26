@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NominalLayerCount extends AbstractTagGroup
 {
+    protected string $id = 'MNG:NominalLayerCount';
 
-  protected string $id = 'MNG:NominalLayerCount';
+    protected string $name = 'NominalLayerCount';
 
-  protected string $name = 'NominalLayerCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::MNGHeader
+             * line : 165095
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::MNGHeader.MNG:NominalLayerCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::MNGHeader
-       * line : 165095
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::MNGHeader.MNG:NominalLayerCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

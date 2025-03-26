@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LayerNames extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:LayerNames';
 
-  protected string $id = 'Photoshop:LayerNames';
+    protected string $name = 'LayerNames';
 
-  protected string $name = 'LayerNames';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Layers
+             * line : 305338
+             * type : string
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'Photoshop::Layers.Photoshop:LayerNames',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Layers
-       * line : 305338
-       * type : string
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'Photoshop::Layers.Photoshop:LayerNames',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

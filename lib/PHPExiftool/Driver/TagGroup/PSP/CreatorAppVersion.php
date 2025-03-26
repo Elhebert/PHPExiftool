@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreatorAppVersion extends AbstractTagGroup
 {
+    protected string $id = 'PSP:CreatorAppVersion';
 
-  protected string $id = 'PSP:CreatorAppVersion';
+    protected string $name = 'CreatorAppVersion';
 
-  protected string $name = 'CreatorAppVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PSP::Creator
+             * line : 273184
+             * type : int8u
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'PSP::Creator.PSP:CreatorAppVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PSP::Creator
-       * line : 273184
-       * type : int8u
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'PSP::Creator.PSP:CreatorAppVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

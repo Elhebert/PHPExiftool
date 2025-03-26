@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreateDate extends AbstractTagGroup
 {
+    protected string $id = 'EXE:CreateDate';
 
-  protected string $id = 'EXE:CreateDate';
+    protected string $name = 'CreateDate';
 
-  protected string $name = 'CreateDate';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : EXE::AR
+             * line : 107527
+             * type : string
+             * writable : false
+             * count : 12
+             * flags :
+             */
+            'id' => 'EXE::AR.EXE:CreateDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : EXE::AR
-       * line : 107527
-       * type : string
-       * writable : false
-       * count : 12
-       * flags : 
-       */
-      'id' => 'EXE::AR.EXE:CreateDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 12;
-
+    protected int $count = 12;
 }

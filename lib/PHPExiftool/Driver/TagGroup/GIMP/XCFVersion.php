@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XCFVersion extends AbstractTagGroup
 {
+    protected string $id = 'GIMP:XCFVersion';
 
-  protected string $id = 'GIMP:XCFVersion';
+    protected string $name = 'XCFVersion';
 
-  protected string $name = 'XCFVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIMP::Header
+             * line : 131451
+             * type : string
+             * writable : false
+             * count : 5
+             * flags :
+             */
+            'id' => 'GIMP::Header.GIMP:XCFVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIMP::Header
-       * line : 131451
-       * type : string
-       * writable : false
-       * count : 5
-       * flags : 
-       */
-      'id' => 'GIMP::Header.GIMP:XCFVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 5;
-
+    protected int $count = 5;
 }

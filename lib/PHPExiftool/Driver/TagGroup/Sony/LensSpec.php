@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensSpec extends AbstractTagGroup
 {
+    protected string $id = 'Sony:LensSpec';
 
-  protected string $id = 'Sony:LensSpec';
+    protected string $name = 'LensSpec';
 
-  protected string $name = 'LensSpec';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraInfo
+             * line : 344977
+             * type : undef
+             * writable : true
+             * count : 8
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraInfo.Sony:LensSpec',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::CameraInfo2
+             * line : 345570
+             * type : undef
+             * writable : true
+             * count : 8
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraInfo2.Sony:LensSpec',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::CameraInfo3
+             * line : 345940
+             * type : undef
+             * writable : true
+             * count : 8
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraInfo3.Sony:LensSpec',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::Main
+             * line : 358669
+             * type : int8u
+             * writable : true
+             * count : 8
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:LensSpec',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraInfo
-       * line : 344977
-       * type : undef
-       * writable : true
-       * count : 8
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraInfo.Sony:LensSpec',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::CameraInfo2
-       * line : 345570
-       * type : undef
-       * writable : true
-       * count : 8
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraInfo2.Sony:LensSpec',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::CameraInfo3
-       * line : 345940
-       * type : undef
-       * writable : true
-       * count : 8
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraInfo3.Sony:LensSpec',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::Main
-       * line : 358669
-       * type : int8u
-       * writable : true
-       * count : 8
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:LensSpec',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

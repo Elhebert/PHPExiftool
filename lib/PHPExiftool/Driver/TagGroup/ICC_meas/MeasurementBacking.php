@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MeasurementBacking extends AbstractTagGroup
 {
+    protected string $id = 'ICC-meas:MeasurementBacking';
 
-  protected string $id = 'ICC-meas:MeasurementBacking';
+    protected string $name = 'MeasurementBacking';
 
-  protected string $name = 'MeasurementBacking';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::Measurement
+             * line : 146933
+             * type : fixed32s
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementBacking',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::Measurement
-       * line : 146933
-       * type : fixed32s
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'ICC_Profile::Measurement.ICC-meas:MeasurementBacking',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

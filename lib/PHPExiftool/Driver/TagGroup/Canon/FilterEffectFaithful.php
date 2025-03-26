@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FilterEffectFaithful extends AbstractTagGroup
 {
+    protected string $id = 'Canon:FilterEffectFaithful';
 
-  protected string $id = 'Canon:FilterEffectFaithful';
+    protected string $name = 'FilterEffectFaithful';
 
-  protected string $name = 'FilterEffectFaithful';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::PSInfo
+             * line : 67412
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::PSInfo.Canon:FilterEffectFaithful',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::PSInfo2
+             * line : 68510
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::PSInfo2.Canon:FilterEffectFaithful',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::PSInfo
-       * line : 67412
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::PSInfo.Canon:FilterEffectFaithful',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::PSInfo2
-       * line : 68510
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::PSInfo2.Canon:FilterEffectFaithful',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

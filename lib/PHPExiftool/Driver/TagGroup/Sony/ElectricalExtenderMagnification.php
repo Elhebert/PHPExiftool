@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ElectricalExtenderMagnification extends AbstractTagGroup
 {
+    protected string $id = 'Sony:ElectricalExtenderMagnification';
 
-  protected string $id = 'Sony:ElectricalExtenderMagnification';
+    protected string $name = 'ElectricalExtenderMagnification';
 
-  protected string $name = 'ElectricalExtenderMagnification';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::rtmd
+             * line : 393497
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Sony::rtmd.Sony:ElectricalExtenderMagnification',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::rtmd
-       * line : 393497
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Sony::rtmd.Sony:ElectricalExtenderMagnification',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

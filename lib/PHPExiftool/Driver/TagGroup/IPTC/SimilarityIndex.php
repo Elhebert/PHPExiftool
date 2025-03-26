@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SimilarityIndex extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:SimilarityIndex';
 
-  protected string $id = 'IPTC:SimilarityIndex';
+    protected string $name = 'SimilarityIndex';
 
-  protected string $name = 'SimilarityIndex';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150937
+             * type : string
+             * writable : true
+             * count : 32
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:SimilarityIndex',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150937
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:SimilarityIndex',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

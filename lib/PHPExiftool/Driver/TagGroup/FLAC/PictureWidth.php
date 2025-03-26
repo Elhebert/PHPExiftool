@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureWidth extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:PictureWidth';
 
-  protected string $id = 'FLAC:PictureWidth';
+    protected string $name = 'PictureWidth';
 
-  protected string $name = 'PictureWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::Picture
+             * line : 121900
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::Picture.FLAC:PictureWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::Picture
-       * line : 121900
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::Picture.FLAC:PictureWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

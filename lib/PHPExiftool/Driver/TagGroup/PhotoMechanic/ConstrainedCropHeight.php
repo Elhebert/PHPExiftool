@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConstrainedCropHeight extends AbstractTagGroup
 {
+    protected string $id = 'PhotoMechanic:ConstrainedCropHeight';
 
-  protected string $id = 'PhotoMechanic:ConstrainedCropHeight';
+    protected string $name = 'ConstrainedCropHeight';
 
-  protected string $name = 'ConstrainedCropHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoMechanic::SoftEdit
+             * line : 304704
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:ConstrainedCropHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoMechanic::SoftEdit
-       * line : 304704
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:ConstrainedCropHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

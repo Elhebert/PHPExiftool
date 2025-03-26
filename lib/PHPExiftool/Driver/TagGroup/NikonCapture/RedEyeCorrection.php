@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RedEyeCorrection extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:RedEyeCorrection';
 
-  protected string $id = 'NikonCapture:RedEyeCorrection';
+    protected string $name = 'RedEyeCorrection';
 
-  protected string $name = 'RedEyeCorrection';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::RedEyeData
+             * line : 211259
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::RedEyeData.NikonCapture:RedEyeCorrection',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::RedEyeData
-       * line : 211259
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::RedEyeData.NikonCapture:RedEyeCorrection',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

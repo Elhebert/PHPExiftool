@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxDataRate extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MaxDataRate';
 
-  protected string $id = 'QuickTime:MaxDataRate';
+    protected string $name = 'MaxDataRate';
 
-  protected string $name = 'MaxDataRate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintTrackInfo
+             * line : 313776
+             * type : int32u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'QuickTime::HintTrackInfo.QuickTime:MaxDataRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintTrackInfo
-       * line : 313776
-       * type : int32u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'QuickTime::HintTrackInfo.QuickTime:MaxDataRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

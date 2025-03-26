@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalFrameRate extends AbstractTagGroup
 {
+    protected string $id = 'File:OriginalFrameRate';
 
-  protected string $id = 'File:OriginalFrameRate';
+    protected string $name = 'OriginalFrameRate';
 
-  protected string $name = 'OriginalFrameRate';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105892
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DPX::Main.File:OriginalFrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105892
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:OriginalFrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

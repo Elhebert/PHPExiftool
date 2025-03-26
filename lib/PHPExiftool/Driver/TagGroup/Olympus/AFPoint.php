@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPoint extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:AFPoint';
 
-  protected string $id = 'Olympus:AFPoint';
+    protected string $name = 'AFPoint';
 
-  protected string $name = 'AFPoint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::FocusInfo
+             * line : 254777
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::FocusInfo
+             * line : 254903
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Olympus::FocusInfo
+             * line : 254938
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::FocusInfo
-       * line : 254777
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::FocusInfo
-       * line : 254903
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Olympus::FocusInfo
-       * line : 254938
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::FocusInfo.Olympus:AFPoint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

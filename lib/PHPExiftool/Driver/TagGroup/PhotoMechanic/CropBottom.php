@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropBottom extends AbstractTagGroup
 {
+    protected string $id = 'PhotoMechanic:CropBottom';
 
-  protected string $id = 'PhotoMechanic:CropBottom';
+    protected string $name = 'CropBottom';
 
-  protected string $name = 'CropBottom';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoMechanic::SoftEdit
+             * line : 304760
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:CropBottom',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoMechanic::SoftEdit
-       * line : 304760
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:CropBottom',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

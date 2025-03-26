@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioVendorID extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AudioVendorID';
 
-  protected string $id = 'QuickTime:AudioVendorID';
+    protected string $name = 'AudioVendorID';
 
-  protected string $name = 'AudioVendorID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::AudioSampleDesc
+             * line : 310427
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'QuickTime::AudioSampleDesc.QuickTime:AudioVendorID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::AudioSampleDesc
-       * line : 310427
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'QuickTime::AudioSampleDesc.QuickTime:AudioVendorID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureMode extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:PictureMode';
 
-  protected string $id = 'Pentax:PictureMode';
+    protected string $name = 'PictureMode';
 
-  protected string $name = 'PictureMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 295435
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:PictureMode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 298812
+             * type : int8u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:PictureMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 295435
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:PictureMode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 298812
-       * type : int8u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:PictureMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

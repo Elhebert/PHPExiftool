@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HierarchicalSubject extends AbstractTagGroup
 {
+    protected string $id = 'XMP-lr:HierarchicalSubject';
 
-  protected string $id = 'XMP-lr:HierarchicalSubject';
+    protected string $name = 'HierarchicalSubject';
 
-  protected string $name = 'HierarchicalSubject';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::Lightroom
+             * line : 397377
+             * type : string
+             * writable : true
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'XMP::Lightroom.XMP-lr:HierarchicalSubject',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::Lightroom
-       * line : 397377
-       * type : string
-       * writable : true
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'XMP::Lightroom.XMP-lr:HierarchicalSubject',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

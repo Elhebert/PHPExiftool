@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LastModifier extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:LastModifier';
 
-  protected string $id = 'FlashPix:LastModifier';
+    protected string $name = 'LastModifier';
 
-  protected string $name = 'LastModifier';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::DataObject
+             * line : 124361
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::DataObject.FlashPix:LastModifier',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FlashPix::GlobalInfo
+             * line : 124623
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::GlobalInfo.FlashPix:LastModifier',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : FlashPix::Transform
+             * line : 127337
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::Transform.FlashPix:LastModifier',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::DataObject
-       * line : 124361
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::DataObject.FlashPix:LastModifier',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FlashPix::GlobalInfo
-       * line : 124623
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::GlobalInfo.FlashPix:LastModifier',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : FlashPix::Transform
-       * line : 127337
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::Transform.FlashPix:LastModifier',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

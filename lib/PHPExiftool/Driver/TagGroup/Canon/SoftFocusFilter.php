@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SoftFocusFilter extends AbstractTagGroup
 {
+    protected string $id = 'Canon:SoftFocusFilter';
 
-  protected string $id = 'Canon:SoftFocusFilter';
+    protected string $name = 'SoftFocusFilter';
 
-  protected string $name = 'SoftFocusFilter';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::FilterInfo
+             * line : 63961
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::FilterInfo.Canon:SoftFocusFilter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::FilterInfo
-       * line : 63961
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::FilterInfo.Canon:SoftFocusFilter',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

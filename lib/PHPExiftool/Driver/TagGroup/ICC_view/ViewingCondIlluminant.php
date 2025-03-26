@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ViewingCondIlluminant extends AbstractTagGroup
 {
+    protected string $id = 'ICC-view:ViewingCondIlluminant';
 
-  protected string $id = 'ICC-view:ViewingCondIlluminant';
+    protected string $name = 'ViewingCondIlluminant';
 
-  protected string $name = 'ViewingCondIlluminant';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::ViewingConditions
+             * line : 147035
+             * type : fixed32s
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'ICC_Profile::ViewingConditions.ICC-view:ViewingCondIlluminant',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::ViewingConditions
-       * line : 147035
-       * type : fixed32s
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'ICC_Profile::ViewingConditions.ICC-view:ViewingCondIlluminant',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

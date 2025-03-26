@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TargetCompressionRatio extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:TargetCompressionRatio';
 
-  protected string $id = 'CanonRaw:TargetCompressionRatio';
+    protected string $name = 'TargetCompressionRatio';
 
-  protected string $name = 'TargetCompressionRatio';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::ImageFormat
+             * line : 78563
+             * type : float
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::ImageFormat.CanonRaw:TargetCompressionRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::ImageFormat
-       * line : 78563
-       * type : float
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::ImageFormat.CanonRaw:TargetCompressionRatio',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

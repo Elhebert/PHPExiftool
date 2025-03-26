@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MDItemUserTags extends AbstractTagGroup
 {
+    protected string $id = 'MacOS:MDItemUserTags';
 
-  protected string $id = 'MacOS:MDItemUserTags';
+    protected string $name = 'MDItemUserTags';
 
-  protected string $name = 'MDItemUserTags';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MacOS::MDItem
+             * line : 173052
+             * type : ?
+             * writable : true
+             * count :
+             * flags : list,unsafe
+             */
+            'id' => 'MacOS::MDItem.MacOS:MDItemUserTags',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MacOS::MDItem
-       * line : 173052
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : list,unsafe
-       */
-      'id' => 'MacOS::MDItem.MacOS:MDItemUserTags',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2128;
-
+    protected int $flags = 2128;
 }

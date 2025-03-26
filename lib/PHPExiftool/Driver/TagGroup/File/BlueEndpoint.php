@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlueEndpoint extends AbstractTagGroup
 {
+    protected string $id = 'File:BlueEndpoint';
 
-  protected string $id = 'File:BlueEndpoint';
+    protected string $name = 'BlueEndpoint';
 
-  protected string $name = 'BlueEndpoint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Main
+             * line : 3426
+             * type : int32u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'BMP::Main.File:BlueEndpoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Main
-       * line : 3426
-       * type : int32u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'BMP::Main.File:BlueEndpoint',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

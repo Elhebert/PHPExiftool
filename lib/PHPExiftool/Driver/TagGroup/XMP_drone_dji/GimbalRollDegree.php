@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GimbalRollDegree extends AbstractTagGroup
 {
+    protected string $id = 'XMP-drone-dji:GimbalRollDegree';
 
-  protected string $id = 'XMP-drone-dji:GimbalRollDegree';
+    protected string $name = 'GimbalRollDegree';
 
-  protected string $name = 'GimbalRollDegree';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::XMP
+             * line : 104661
+             * type : real
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'DJI::XMP.XMP-drone-dji:GimbalRollDegree',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::XMP
-       * line : 104661
-       * type : real
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'DJI::XMP.XMP-drone-dji:GimbalRollDegree',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

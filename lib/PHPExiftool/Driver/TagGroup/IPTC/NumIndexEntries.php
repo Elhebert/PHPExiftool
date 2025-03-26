@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumIndexEntries extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:NumIndexEntries';
 
-  protected string $id = 'IPTC:NumIndexEntries';
+    protected string $name = 'NumIndexEntries';
 
-  protected string $name = 'NumIndexEntries';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::NewsPhoto
+             * line : 151613
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::NewsPhoto.IPTC:NumIndexEntries',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::NewsPhoto
-       * line : 151613
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::NewsPhoto.IPTC:NumIndexEntries',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

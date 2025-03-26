@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorMatrixSRGB extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:ColorMatrixSRGB';
 
-  protected string $id = 'Samsung:ColorMatrixSRGB';
+    protected string $name = 'ColorMatrixSRGB';
 
-  protected string $name = 'ColorMatrixSRGB';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335572
+             * type : int32s
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Samsung::Type2.Samsung:ColorMatrixSRGB',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335572
-       * type : int32s
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Samsung::Type2.Samsung:ColorMatrixSRGB',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

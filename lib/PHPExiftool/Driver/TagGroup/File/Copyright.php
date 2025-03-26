@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Copyright extends AbstractTagGroup
 {
+    protected string $id = 'File:Copyright';
 
-  protected string $id = 'File:Copyright';
+    protected string $name = 'Copyright';
 
-  protected string $name = 'Copyright';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105366
+             * type : string
+             * writable : false
+             * count : 200
+             * flags :
+             */
+            'id' => 'DPX::Main.File:Copyright',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105366
-       * type : string
-       * writable : false
-       * count : 200
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:Copyright',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 200;
-
+    protected int $count = 200;
 }

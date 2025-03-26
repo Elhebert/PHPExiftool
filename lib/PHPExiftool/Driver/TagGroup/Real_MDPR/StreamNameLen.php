@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StreamNameLen extends AbstractTagGroup
 {
+    protected string $id = 'Real-MDPR:StreamNameLen';
 
-  protected string $id = 'Real-MDPR:StreamNameLen';
+    protected string $name = 'StreamNameLen';
 
-  protected string $name = 'StreamNameLen';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::MediaProps
+             * line : 330401
+             * type : int8u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Real::MediaProps.Real-MDPR:StreamNameLen',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::MediaProps
-       * line : 330401
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Real::MediaProps.Real-MDPR:StreamNameLen',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Azimuth extends AbstractTagGroup
 {
+    protected string $id = 'RMETA:Azimuth';
 
-  protected string $id = 'RMETA:Azimuth';
+    protected string $name = 'Azimuth';
 
-  protected string $name = 'Azimuth';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::RMETA
+             * line : 333562
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Ricoh::RMETA.RMETA:Azimuth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::RMETA
-       * line : 333562
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Ricoh::RMETA.RMETA:Azimuth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

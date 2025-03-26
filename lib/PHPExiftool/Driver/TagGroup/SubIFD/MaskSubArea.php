@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaskSubArea extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:MaskSubArea';
 
-  protected string $id = 'SubIFD:MaskSubArea';
+    protected string $name = 'MaskSubArea';
 
-  protected string $name = 'MaskSubArea';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120759
+             * type : ?
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'Exif::Main.SubIFD:MaskSubArea',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120759
-       * type : ?
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'Exif::Main.SubIFD:MaskSubArea',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

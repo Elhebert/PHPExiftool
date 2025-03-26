@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NominalPlayTime extends AbstractTagGroup
 {
+    protected string $id = 'MNG:NominalPlayTime';
 
-  protected string $id = 'MNG:NominalPlayTime';
+    protected string $name = 'NominalPlayTime';
 
-  protected string $name = 'NominalPlayTime';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::MNGHeader
+             * line : 165101
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::MNGHeader.MNG:NominalPlayTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::MNGHeader
-       * line : 165101
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::MNGHeader.MNG:NominalPlayTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

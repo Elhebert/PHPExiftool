@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Software extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:Software';
 
-  protected string $id = 'Samsung:Software';
+    protected string $name = 'Software';
 
-  protected string $name = 'Software';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::MP4
+             * line : 334006
+             * type : string
+             * writable : false
+             * count : 32
+             * flags : permanent
+             */
+            'id' => 'Samsung::MP4.Samsung:Software',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::MP4
-       * line : 334006
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : permanent
-       */
-      'id' => 'Samsung::MP4.Samsung:Software',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

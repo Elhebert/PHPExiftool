@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SendDuration extends AbstractTagGroup
 {
+    protected string $id = 'ASF:SendDuration';
 
-  protected string $id = 'ASF:SendDuration';
+    protected string $name = 'SendDuration';
 
-  protected string $name = 'SendDuration';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::FileProperties
+             * line : 1752
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ASF::FileProperties.ASF:SendDuration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::FileProperties
-       * line : 1752
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ASF::FileProperties.ASF:SendDuration',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MPEG7Binary extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:MPEG7Binary';
 
-  protected string $id = 'Jpeg2000:MPEG7Binary';
+    protected string $name = 'MPEG7Binary';
 
-  protected string $name = 'MPEG7Binary';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::Main
+             * line : 154262
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::Main.Jpeg2000:MPEG7Binary',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::Main
-       * line : 154262
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::Main.Jpeg2000:MPEG7Binary',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

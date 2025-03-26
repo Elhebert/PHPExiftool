@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VRDOffset extends AbstractTagGroup
 {
+    protected string $id = 'Canon:VRDOffset';
 
-  protected string $id = 'Canon:VRDOffset';
+    protected string $name = 'VRDOffset';
 
-  protected string $name = 'VRDOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::Main
+             * line : 65979
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent,protected
+             */
+            'id' => 'Canon::Main.Canon:VRDOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::Main
-       * line : 65979
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent,protected
-       */
-      'id' => 'Canon::Main.Canon:VRDOffset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2060;
-
+    protected int $flags = 2060;
 }

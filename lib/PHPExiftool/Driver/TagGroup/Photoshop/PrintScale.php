@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PrintScale extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:PrintScale';
 
-  protected string $id = 'Photoshop:PrintScale';
+    protected string $name = 'PrintScale';
 
-  protected string $name = 'PrintScale';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::PrintScaleInfo
+             * line : 305746
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::PrintScaleInfo.Photoshop:PrintScale',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::PrintScaleInfo
-       * line : 305746
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::PrintScaleInfo.Photoshop:PrintScale',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

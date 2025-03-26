@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LameLowPassFilter extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:LameLowPassFilter';
 
-  protected string $id = 'MPEG:LameLowPassFilter';
+    protected string $name = 'LameLowPassFilter';
 
-  protected string $name = 'LameLowPassFilter';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Lame
+             * line : 165966
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Lame.MPEG:LameLowPassFilter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Lame
-       * line : 165966
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Lame.MPEG:LameLowPassFilter',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

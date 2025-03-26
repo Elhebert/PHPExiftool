@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubjectPixelWidth extends AbstractTagGroup
 {
+    protected string $id = 'PNG:SubjectPixelWidth';
 
-  protected string $id = 'PNG:SubjectPixelWidth';
+    protected string $name = 'SubjectPixelWidth';
 
-  protected string $name = 'SubjectPixelWidth';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::SubjectScale
+             * line : 272787
+             * type : var_string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::SubjectScale.PNG:SubjectPixelWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::SubjectScale
-       * line : 272787
-       * type : var_string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::SubjectScale.PNG:SubjectPixelWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

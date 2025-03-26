@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TemporalCoverageFrom extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:TemporalCoverageFrom';
 
-  protected string $id = 'XMP-iptcExt:TemporalCoverageFrom';
+    protected string $name = 'TemporalCoverageFrom';
 
-  protected string $name = 'TemporalCoverageFrom';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409839
+             * type : date
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:TemporalCoverageFrom',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409839
-       * type : date
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:TemporalCoverageFrom',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

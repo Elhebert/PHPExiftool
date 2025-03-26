@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PaintImageType extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:PaintImageType';
 
-  protected string $id = 'FLIR:PaintImageType';
+    protected string $name = 'PaintImageType';
 
-  protected string $name = 'PaintImageType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::PaintData
+             * line : 123487
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::PaintData.FLIR:PaintImageType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::PaintData
-       * line : 123487
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::PaintData.FLIR:PaintImageType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

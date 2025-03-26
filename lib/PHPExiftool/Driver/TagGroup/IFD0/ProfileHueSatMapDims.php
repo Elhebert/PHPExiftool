@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProfileHueSatMapDims extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:ProfileHueSatMapDims';
 
-  protected string $id = 'IFD0:ProfileHueSatMapDims';
+    protected string $name = 'ProfileHueSatMapDims';
 
-  protected string $name = 'ProfileHueSatMapDims';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 120106
+             * type : int32u
+             * writable : true
+             * count : 3
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:ProfileHueSatMapDims',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 120106
-       * type : int32u
-       * writable : true
-       * count : 3
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:ProfileHueSatMapDims',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

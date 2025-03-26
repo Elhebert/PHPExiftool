@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropHeight extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:CropHeight';
 
-  protected string $id = 'CanonVRD:CropHeight';
+    protected string $name = 'CropHeight';
 
-  protected string $name = 'CropHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::CropInfo
+             * line : 80198
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::CropInfo.CanonVRD:CropHeight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonVRD::Ver1
+             * line : 82528
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver1.CanonVRD:CropHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::CropInfo
-       * line : 80198
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::CropInfo.CanonVRD:CropHeight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonVRD::Ver1
-       * line : 82528
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver1.CanonVRD:CropHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,86 +19,84 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BitDepth extends AbstractTagGroup
 {
+    protected string $id = 'File:BitDepth';
 
-  protected string $id = 'File:BitDepth';
+    protected string $name = 'BitDepth';
 
-  protected string $name = 'BitDepth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Main
+             * line : 3241
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::Main.File:BitDepth',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : BMP::OS2
+             * line : 3537
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::OS2.File:BitDepth',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : BPG::Main
+             * line : 3625
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BPG::Main.File:BitDepth',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105820
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DPX::Main.File:BitDepth',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : FLIF::Main
+             * line : 122054
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIF::Main.File:BitDepth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Main
-       * line : 3241
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::Main.File:BitDepth',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : BMP::OS2
-       * line : 3537
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::OS2.File:BitDepth',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : BPG::Main
-       * line : 3625
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BPG::Main.File:BitDepth',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105820
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:BitDepth',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : FLIF::Main
-       * line : 122054
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIF::Main.File:BitDepth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPointsSelected extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:AFPointsSelected';
 
-  protected string $id = 'Pentax:AFPointsSelected';
+    protected string $name = 'AFPointsSelected';
 
-  protected string $name = 'AFPointsSelected';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::AFPointInfo
+             * line : 283667
+             * type : int8u
+             * writable : false
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Pentax::AFPointInfo.Pentax:AFPointsSelected',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::AFPointInfo
-       * line : 283667
-       * type : int8u
-       * writable : false
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Pentax::AFPointInfo.Pentax:AFPointsSelected',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

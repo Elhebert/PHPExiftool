@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawDevPMPictureTone extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:RawDevPMPictureTone';
 
-  protected string $id = 'Olympus:RawDevPMPictureTone';
+    protected string $name = 'RawDevPMPictureTone';
 
-  protected string $name = 'RawDevPMPictureTone';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::RawDevelopment2
+             * line : 260620
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawDevelopment2.Olympus:RawDevPMPictureTone',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::RawDevelopment2
-       * line : 260620
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawDevelopment2.Olympus:RawDevPMPictureTone',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

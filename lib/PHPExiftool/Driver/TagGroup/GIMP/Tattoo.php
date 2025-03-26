@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Tattoo extends AbstractTagGroup
 {
+    protected string $id = 'GIMP:Tattoo';
 
-  protected string $id = 'GIMP:Tattoo';
+    protected string $name = 'Tattoo';
 
-  protected string $name = 'Tattoo';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIMP::Main
+             * line : 131590
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GIMP::Main.GIMP:Tattoo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIMP::Main
-       * line : 131590
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIMP::Main.GIMP:Tattoo',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MIDIPitchFraction extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:MIDIPitchFraction';
 
-  protected string $id = 'RIFF:MIDIPitchFraction';
+    protected string $name = 'MIDIPitchFraction';
 
-  protected string $name = 'MIDIPitchFraction';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Sampler
+             * line : 328709
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Sampler.RIFF:MIDIPitchFraction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Sampler
-       * line : 328709
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Sampler.RIFF:MIDIPitchFraction',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SelectAFAreaSelectionMode extends AbstractTagGroup
 {
+    protected string $id = 'Canon:SelectAFAreaSelectionMode';
 
-  protected string $id = 'Canon:SelectAFAreaSelectionMode';
+    protected string $name = 'SelectAFAreaSelectionMode';
 
-  protected string $name = 'SelectAFAreaSelectionMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::AFConfig
+             * line : 3899
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::AFConfig.Canon:SelectAFAreaSelectionMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::AFConfig
-       * line : 3899
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::AFConfig.Canon:SelectAFAreaSelectionMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

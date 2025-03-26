@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SpecialEffectMode extends AbstractTagGroup
 {
+    protected string $id = 'Casio:SpecialEffectMode';
 
-  protected string $id = 'Casio:SpecialEffectMode';
+    protected string $name = 'SpecialEffectMode';
 
-  protected string $name = 'SpecialEffectMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::Type2
+             * line : 85944
+             * type : int8u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Casio::Type2.Casio:SpecialEffectMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::Type2
-       * line : 85944
-       * type : int8u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Casio::Type2.Casio:SpecialEffectMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

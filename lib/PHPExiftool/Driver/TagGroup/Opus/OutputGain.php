@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OutputGain extends AbstractTagGroup
 {
+    protected string $id = 'Opus:OutputGain';
 
-  protected string $id = 'Opus:OutputGain';
+    protected string $name = 'OutputGain';
 
-  protected string $name = 'OutputGain';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Opus::Header
+             * line : 263751
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Opus::Header.Opus:OutputGain',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Opus::Header
-       * line : 263751
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Opus::Header.Opus:OutputGain',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

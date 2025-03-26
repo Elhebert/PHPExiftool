@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedJPG extends AbstractTagGroup
 {
+    protected string $id = 'File:EmbeddedJPG';
 
-  protected string $id = 'File:EmbeddedJPG';
+    protected string $name = 'EmbeddedJPG';
 
-  protected string $name = 'EmbeddedJPG';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Extra
+             * line : 3165
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'BMP::Extra.File:EmbeddedJPG',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Extra
-       * line : 3165
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'BMP::Extra.File:EmbeddedJPG',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

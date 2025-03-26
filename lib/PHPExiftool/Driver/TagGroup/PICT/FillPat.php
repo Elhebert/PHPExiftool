@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FillPat extends AbstractTagGroup
 {
+    protected string $id = 'PICT:FillPat';
 
-  protected string $id = 'PICT:FillPat';
+    protected string $name = 'FillPat';
 
-  protected string $name = 'FillPat';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264638
+             * type : int8u
+             * writable : false
+             * count : 8
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:FillPat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264638
-       * type : int8u
-       * writable : false
-       * count : 8
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:FillPat',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 8;
-
+    protected int $count = 8;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Gamma extends AbstractTagGroup
 {
+    protected string $id = 'Radiance:Gamma';
 
-  protected string $id = 'Radiance:Gamma';
+    protected string $name = 'Gamma';
 
-  protected string $name = 'Gamma';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Radiance::Main
+             * line : 329555
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Radiance::Main.Radiance:Gamma',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Radiance::Main
-       * line : 329555
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Radiance::Main.Radiance:Gamma',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

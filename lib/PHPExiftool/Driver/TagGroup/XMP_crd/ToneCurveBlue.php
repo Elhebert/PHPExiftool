@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToneCurveBlue extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:ToneCurveBlue';
 
-  protected string $id = 'XMP-crd:ToneCurveBlue';
+    protected string $name = 'ToneCurveBlue';
 
-  protected string $name = 'ToneCurveBlue';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 401155
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid,list,seq
+             */
+            'id' => 'XMP::crd.XMP-crd:ToneCurveBlue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 401155
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid,list,seq
-       */
-      'id' => 'XMP::crd.XMP-crd:ToneCurveBlue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2625;
-
+    protected int $flags = 2625;
 }

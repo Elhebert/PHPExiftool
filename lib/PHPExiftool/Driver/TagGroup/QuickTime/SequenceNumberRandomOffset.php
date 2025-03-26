@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SequenceNumberRandomOffset extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:SequenceNumberRandomOffset';
 
-  protected string $id = 'QuickTime:SequenceNumberRandomOffset';
+    protected string $name = 'SequenceNumberRandomOffset';
 
-  protected string $name = 'SequenceNumberRandomOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintSampleDesc
+             * line : 313751
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintSampleDesc.QuickTime:SequenceNumberRandomOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintSampleDesc
-       * line : 313751
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintSampleDesc.QuickTime:SequenceNumberRandomOffset',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

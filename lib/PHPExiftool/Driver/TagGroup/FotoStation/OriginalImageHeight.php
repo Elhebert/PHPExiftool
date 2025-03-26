@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'FotoStation:OriginalImageHeight';
 
-  protected string $id = 'FotoStation:OriginalImageHeight';
+    protected string $name = 'OriginalImageHeight';
 
-  protected string $name = 'OriginalImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FotoStation::SoftEdit
+             * line : 128233
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'FotoStation::SoftEdit.FotoStation:OriginalImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FotoStation::SoftEdit
-       * line : 128233
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'FotoStation::SoftEdit.FotoStation:OriginalImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

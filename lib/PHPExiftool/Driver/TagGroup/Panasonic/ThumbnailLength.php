@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailLength extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:ThumbnailLength';
 
-  protected string $id = 'Panasonic:ThumbnailLength';
+    protected string $name = 'ThumbnailLength';
 
-  protected string $name = 'ThumbnailLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::PANA
+             * line : 278831
+             * type : int32uRev
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::PANA.Panasonic:ThumbnailLength',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Panasonic::PANA
+             * line : 278870
+             * type : int32uRev
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::PANA.Panasonic:ThumbnailLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::PANA
-       * line : 278831
-       * type : int32uRev
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::PANA.Panasonic:ThumbnailLength',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Panasonic::PANA
-       * line : 278870
-       * type : int32uRev
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::PANA.Panasonic:ThumbnailLength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

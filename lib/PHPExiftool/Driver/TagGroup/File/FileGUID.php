@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileGUID extends AbstractTagGroup
 {
+    protected string $id = 'File:FileGUID';
 
-  protected string $id = 'File:FileGUID';
+    protected string $name = 'FileGUID';
 
-  protected string $name = 'FileGUID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZISRAW::Main
+             * line : 415055
+             * type : undef
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'ZISRAW::Main.File:FileGUID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZISRAW::Main
-       * line : 415055
-       * type : undef
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'ZISRAW::Main.File:FileGUID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

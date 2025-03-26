@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VariousModes extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:VariousModes';
 
-  protected string $id = 'Kodak:VariousModes';
+    protected string $name = 'VariousModes';
 
-  protected string $name = 'VariousModes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Main
+             * line : 157938
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Kodak::Main.Kodak:VariousModes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Main
-       * line : 157938
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Kodak::Main.Kodak:VariousModes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Nikon_AVITags_0x001c extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:Nikon_AVITags_0x001c';
 
-  protected string $id = 'Nikon:Nikon_AVITags_0x001c';
+    protected string $name = 'Nikon_AVITags_0x001c';
 
-  protected string $name = 'Nikon_AVITags_0x001c';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AVITags
+             * line : 191784
+             * type : rational64u
+             * writable : false
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Nikon::AVITags.Nikon:Nikon_AVITags_0x001c',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AVITags
-       * line : 191784
-       * type : rational64u
-       * writable : false
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Nikon::AVITags.Nikon:Nikon_AVITags_0x001c',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MacAtomInvocationAppleEvent extends AbstractTagGroup
 {
+    protected string $id = 'XMP-creatorAtom:MacAtomInvocationAppleEvent';
 
-  protected string $id = 'XMP-creatorAtom:MacAtomInvocationAppleEvent';
+    protected string $name = 'MacAtomInvocationAppleEvent';
 
-  protected string $name = 'MacAtomInvocationAppleEvent';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::creatorAtom
+             * line : 401477
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::creatorAtom.XMP-creatorAtom:MacAtomInvocationAppleEvent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::creatorAtom
-       * line : 401477
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::creatorAtom.XMP-creatorAtom:MacAtomInvocationAppleEvent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

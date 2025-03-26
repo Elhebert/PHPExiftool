@@ -28,23 +28,23 @@ class PreviewExtractor // extends Exiftool
 
     public function extract(string $pathfile, string $outputDir): DirectoryIterator
     {
-        if ( ! file_exists($pathfile)) {
+        if (! file_exists($pathfile)) {
             throw new LogicException(sprintf('%s does not exists', $pathfile));
         }
 
-        if ( ! is_dir($outputDir) || ! is_writable($outputDir)) {
+        if (! is_dir($outputDir) || ! is_writable($outputDir)) {
             throw new LogicException(sprintf('%s is not writable', $outputDir));
         }
 
-//        $command = "-if " . escapeshellarg('$photoshopthumbnail') . " -b -PhotoshopThumbnail "
-//            . "-w " . escapeshellarg(realpath($outputDir) . '/PhotoshopThumbnail%c.jpg') . " -execute "
-//            . "-if " . escapeshellarg('$jpgfromraw') . " -b -jpgfromraw "
-//            . "-w " . escapeshellarg(realpath($outputDir) . '/JpgFromRaw%c.jpg') . " -execute "
-//            . "-if " . escapeshellarg('$previewimage') . " -b -previewimage "
-//            . "-w " . escapeshellarg(realpath($outputDir) . '/PreviewImage%c.jpg') . " -execute "
-//            . "-if " . escapeshellarg('$xmp:pageimage') . " -b -xmp:pageimage "
-//            . "-w " . escapeshellarg(realpath($outputDir) . '/XmpPageimage%c.jpg') . " "
-//            . "-common_args -q -m " . $pathfile;
+        //        $command = "-if " . escapeshellarg('$photoshopthumbnail') . " -b -PhotoshopThumbnail "
+        //            . "-w " . escapeshellarg(realpath($outputDir) . '/PhotoshopThumbnail%c.jpg') . " -execute "
+        //            . "-if " . escapeshellarg('$jpgfromraw') . " -b -jpgfromraw "
+        //            . "-w " . escapeshellarg(realpath($outputDir) . '/JpgFromRaw%c.jpg') . " -execute "
+        //            . "-if " . escapeshellarg('$previewimage') . " -b -previewimage "
+        //            . "-w " . escapeshellarg(realpath($outputDir) . '/PreviewImage%c.jpg') . " -execute "
+        //            . "-if " . escapeshellarg('$xmp:pageimage') . " -b -xmp:pageimage "
+        //            . "-w " . escapeshellarg(realpath($outputDir) . '/XmpPageimage%c.jpg') . " "
+        //            . "-common_args -q -m " . $pathfile;
 
         $command = [
             '-if',
@@ -52,38 +52,37 @@ class PreviewExtractor // extends Exiftool
             '-b',
             '-PhotoshopThumbnail',
             '-w',
-            realpath($outputDir) . '/PhotoshopThumbnail%c.jpg',
+            realpath($outputDir).'/PhotoshopThumbnail%c.jpg',
             '-execute',
             '-if',
             '$jpgfromraw',
             '-b',
             '-jpgfromraw',
             '-w',
-            realpath($outputDir) . '/JpgFromRaw%c.jpg',
+            realpath($outputDir).'/JpgFromRaw%c.jpg',
             '-execute',
             '-if',
             '$previewimage',
             '-b',
             '-previewimage',
             '-w',
-            realpath($outputDir) . '/PreviewImage%c.jpg',
+            realpath($outputDir).'/PreviewImage%c.jpg',
             '-execute',
             '-if',
             '$xmp:pageimage',
             '-b',
             '-xmp:pageimage',
             '-w',
-            realpath($outputDir) . '/XmpPageimage%c.jpg',
+            realpath($outputDir).'/XmpPageimage%c.jpg',
             '-common_args',
             '-q',
             '-m',
-            $pathfile
+            $pathfile,
         ];
 
         try {
             $this->exiftool->executeCommand($command);
-        }
-        catch (RuntimeException | Exception $e) {
+        } catch (RuntimeException|Exception $e) {
             // no-op
         }
 

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RowCount extends AbstractTagGroup
 {
+    protected string $id = 'File:RowCount';
 
-  protected string $id = 'File:RowCount';
+    protected string $name = 'RowCount';
 
-  protected string $name = 'RowCount';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Text::Main
+             * line : 394782
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Text::Main.File:RowCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Text::Main
-       * line : 394782
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Text::Main.File:RowCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

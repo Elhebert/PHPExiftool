@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioProfileVersion extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AudioProfileVersion';
 
-  protected string $id = 'QuickTime:AudioProfileVersion';
+    protected string $name = 'AudioProfileVersion';
 
-  protected string $name = 'AudioProfileVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::AudioProf
+             * line : 310371
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'QuickTime::AudioProf.QuickTime:AudioProfileVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::AudioProf
-       * line : 310371
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'QuickTime::AudioProf.QuickTime:AudioProfileVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

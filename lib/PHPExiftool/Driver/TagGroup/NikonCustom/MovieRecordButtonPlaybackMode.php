@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MovieRecordButtonPlaybackMode extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:MovieRecordButtonPlaybackMode';
 
-  protected string $id = 'NikonCustom:MovieRecordButtonPlaybackMode';
+    protected string $name = 'MovieRecordButtonPlaybackMode';
 
-  protected string $name = 'MovieRecordButtonPlaybackMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsZ9
+             * line : 240868
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieRecordButtonPlaybackMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsZ9
-       * line : 240868
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieRecordButtonPlaybackMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

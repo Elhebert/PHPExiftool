@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalPlaneXUnknown extends AbstractTagGroup
 {
+    protected string $id = 'Canon:FocalPlaneXUnknown';
 
-  protected string $id = 'Canon:FocalPlaneXUnknown';
+    protected string $name = 'FocalPlaneXUnknown';
 
-  protected string $name = 'FocalPlaneXUnknown';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::FocalLength
+             * line : 64109
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::FocalLength.Canon:FocalPlaneXUnknown',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::FocalLength
-       * line : 64109
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::FocalLength.Canon:FocalPlaneXUnknown',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

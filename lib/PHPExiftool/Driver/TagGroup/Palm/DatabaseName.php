@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DatabaseName extends AbstractTagGroup
 {
+    protected string $id = 'Palm:DatabaseName';
 
-  protected string $id = 'Palm:DatabaseName';
+    protected string $name = 'DatabaseName';
 
-  protected string $name = 'DatabaseName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::Main
+             * line : 273822
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'Palm::Main.Palm:DatabaseName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::Main
-       * line : 273822
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'Palm::Main.Palm:DatabaseName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

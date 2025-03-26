@@ -11,7 +11,4 @@
 
 namespace PHPExiftool\Exception;
 
-interface ExceptionInterface
-{
-
-}
+interface ExceptionInterface {}

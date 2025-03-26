@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GIFApplicationExtension extends AbstractTagGroup
 {
+    protected string $id = 'PNG:GIFApplicationExtension';
 
-  protected string $id = 'PNG:GIFApplicationExtension';
+    protected string $name = 'GIFApplicationExtension';
 
-  protected string $name = 'GIFApplicationExtension';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::Main
+             * line : 272563
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'PNG::Main.PNG:GIFApplicationExtension',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::Main
-       * line : 272563
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'PNG::Main.PNG:GIFApplicationExtension',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

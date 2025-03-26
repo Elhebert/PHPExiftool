@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumberOfComponents extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:NumberOfComponents';
 
-  protected string $id = 'Jpeg2000:NumberOfComponents';
+    protected string $name = 'NumberOfComponents';
 
-  protected string $name = 'NumberOfComponents';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::ImageHeader
+             * line : 154017
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::ImageHeader.Jpeg2000:NumberOfComponents',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::ImageHeader
-       * line : 154017
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::ImageHeader.Jpeg2000:NumberOfComponents',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

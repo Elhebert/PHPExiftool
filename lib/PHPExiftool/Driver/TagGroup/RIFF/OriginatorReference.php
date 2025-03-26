@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginatorReference extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:OriginatorReference';
 
-  protected string $id = 'RIFF:OriginatorReference';
+    protected string $name = 'OriginatorReference';
 
-  protected string $name = 'OriginatorReference';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::BroadcastExt
+             * line : 327778
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'RIFF::BroadcastExt.RIFF:OriginatorReference',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::BroadcastExt
-       * line : 327778
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'RIFF::BroadcastExt.RIFF:OriginatorReference',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

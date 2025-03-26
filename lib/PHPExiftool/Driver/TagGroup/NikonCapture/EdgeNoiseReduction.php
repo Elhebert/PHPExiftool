@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EdgeNoiseReduction extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:EdgeNoiseReduction';
 
-  protected string $id = 'NikonCapture:EdgeNoiseReduction';
+    protected string $name = 'EdgeNoiseReduction';
 
-  protected string $name = 'EdgeNoiseReduction';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::NoiseReduction
+             * line : 210953
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::NoiseReduction.NikonCapture:EdgeNoiseReduction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::NoiseReduction
-       * line : 210953
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::NoiseReduction.NikonCapture:EdgeNoiseReduction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

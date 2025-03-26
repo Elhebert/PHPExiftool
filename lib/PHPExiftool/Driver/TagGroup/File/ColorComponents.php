@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorComponents extends AbstractTagGroup
 {
+    protected string $id = 'File:ColorComponents';
 
-  protected string $id = 'File:ColorComponents';
+    protected string $name = 'ColorComponents';
 
-  protected string $name = 'ColorComponents';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::SOF
+             * line : 152887
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::SOF.File:ColorComponents',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : PGF::Main
+             * line : 264531
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PGF::Main.File:ColorComponents',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::SOF
-       * line : 152887
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::SOF.File:ColorComponents',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : PGF::Main
-       * line : 264531
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PGF::Main.File:ColorComponents',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

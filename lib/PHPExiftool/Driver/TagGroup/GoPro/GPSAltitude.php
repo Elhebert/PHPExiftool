@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSAltitude extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:GPSAltitude';
 
-  protected string $id = 'GoPro:GPSAltitude';
+    protected string $name = 'GPSAltitude';
 
-  protected string $name = 'GPSAltitude';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GLPI
+             * line : 139337
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GoPro::GLPI.GoPro:GPSAltitude',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : GoPro::GPS5
+             * line : 139940
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GoPro::GPS5.GoPro:GPSAltitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GLPI
-       * line : 139337
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GoPro::GLPI.GoPro:GPSAltitude',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : GoPro::GPS5
-       * line : 139940
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GoPro::GPS5.GoPro:GPSAltitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

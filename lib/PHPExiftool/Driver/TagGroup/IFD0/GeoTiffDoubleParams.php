@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GeoTiffDoubleParams extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:GeoTiffDoubleParams';
 
-  protected string $id = 'IFD0:GeoTiffDoubleParams';
+    protected string $name = 'GeoTiffDoubleParams';
 
-  protected string $name = 'GeoTiffDoubleParams';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 113580
+             * type : double
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'Exif::Main.IFD0:GeoTiffDoubleParams',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 113580
-       * type : double
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'Exif::Main.IFD0:GeoTiffDoubleParams',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

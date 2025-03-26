@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorSpace2 extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ColorSpace2';
 
-  protected string $id = 'Canon:ColorSpace2';
+    protected string $name = 'ColorSpace2';
 
-  protected string $name = 'ColorSpace2';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::LogInfo
+             * line : 64508
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Canon::LogInfo.Canon:ColorSpace2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::LogInfo
-       * line : 64508
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Canon::LogInfo.Canon:ColorSpace2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

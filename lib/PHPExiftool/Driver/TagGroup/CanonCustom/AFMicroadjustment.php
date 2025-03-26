@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFMicroadjustment extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:AFMicroadjustment';
 
-  protected string $id = 'CanonCustom:AFMicroadjustment';
+    protected string $name = 'AFMicroadjustment';
 
-  protected string $name = 'AFMicroadjustment';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 73734
+             * type : int32s
+             * writable : true
+             * count : 5
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:AFMicroadjustment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 73734
-       * type : int32s
-       * writable : true
-       * count : 5
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:AFMicroadjustment',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 5;
 
-  protected int $count = 5;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

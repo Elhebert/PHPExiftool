@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGBLevelsFluorescent extends AbstractTagGroup
 {
+    protected string $id = 'SR2SubIFD:WB_RGBLevelsFluorescent';
 
-  protected string $id = 'SR2SubIFD:WB_RGBLevelsFluorescent';
+    protected string $name = 'WB_RGBLevelsFluorescent';
 
-  protected string $name = 'WB_RGBLevelsFluorescent';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::SR2SubIFD
+             * line : 361751
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsFluorescent',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::SR2SubIFD
+             * line : 361839
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsFluorescent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::SR2SubIFD
-       * line : 361751
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsFluorescent',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::SR2SubIFD
-       * line : 361839
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsFluorescent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

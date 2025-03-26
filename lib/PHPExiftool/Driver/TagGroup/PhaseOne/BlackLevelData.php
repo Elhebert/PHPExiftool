@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlackLevelData extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:BlackLevelData';
 
-  protected string $id = 'PhaseOne:BlackLevelData';
+    protected string $name = 'BlackLevelData';
 
-  protected string $name = 'BlackLevelData';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::Main
+             * line : 303425
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'PhaseOne::Main.PhaseOne:BlackLevelData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::Main
-       * line : 303425
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'PhaseOne::Main.PhaseOne:BlackLevelData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2054;
-
+    protected int $flags = 2054;
 }

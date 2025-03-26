@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectSizeAnnounced extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ObjectSizeAnnounced';
 
-  protected string $id = 'IPTC:ObjectSizeAnnounced';
+    protected string $name = 'ObjectSizeAnnounced';
 
-  protected string $name = 'ObjectSizeAnnounced';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::PreObjectData
+             * line : 151966
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::PreObjectData.IPTC:ObjectSizeAnnounced',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::PreObjectData
-       * line : 151966
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::PreObjectData.IPTC:ObjectSizeAnnounced',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

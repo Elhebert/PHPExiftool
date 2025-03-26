@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageType extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ImageType';
 
-  protected string $id = 'IPTC:ImageType';
+    protected string $name = 'ImageType';
 
-  protected string $name = 'ImageType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150461
+             * type : string
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ImageType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150461
-       * type : string
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ImageType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

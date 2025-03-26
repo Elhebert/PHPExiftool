@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ScanningDirection extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ScanningDirection';
 
-  protected string $id = 'IPTC:ScanningDirection';
+    protected string $name = 'ScanningDirection';
 
-  protected string $name = 'ScanningDirection';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::NewsPhoto
+             * line : 151674
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::NewsPhoto.IPTC:ScanningDirection',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::NewsPhoto
-       * line : 151674
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::NewsPhoto.IPTC:ScanningDirection',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

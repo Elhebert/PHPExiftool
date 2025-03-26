@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DocumentID extends AbstractTagGroup
 {
+    protected string $id = 'CBOR:DocumentID';
 
-  protected string $id = 'CBOR:DocumentID';
+    protected string $name = 'DocumentID';
 
-  protected string $name = 'DocumentID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CBOR::Main
+             * line : 3767
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'CBOR::Main.CBOR:DocumentID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CBOR::Main
-       * line : 3767
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'CBOR::Main.CBOR:DocumentID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

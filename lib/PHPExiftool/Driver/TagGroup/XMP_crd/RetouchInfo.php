@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RetouchInfo extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:RetouchInfo';
 
-  protected string $id = 'XMP-crd:RetouchInfo';
+    protected string $name = 'RetouchInfo';
 
-  protected string $name = 'RetouchInfo';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 400969
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid,list,seq
+             */
+            'id' => 'XMP::crd.XMP-crd:RetouchInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 400969
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid,list,seq
-       */
-      'id' => 'XMP::crd.XMP-crd:RetouchInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2625;
-
+    protected int $flags = 2625;
 }

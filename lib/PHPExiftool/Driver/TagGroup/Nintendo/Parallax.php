@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Parallax extends AbstractTagGroup
 {
+    protected string $id = 'Nintendo:Parallax';
 
-  protected string $id = 'Nintendo:Parallax';
+    protected string $name = 'Parallax';
 
-  protected string $name = 'Parallax';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nintendo::CameraInfo
+             * line : 249000
+             * type : float
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nintendo::CameraInfo.Nintendo:Parallax',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nintendo::CameraInfo
-       * line : 249000
-       * type : float
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nintendo::CameraInfo.Nintendo:Parallax',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

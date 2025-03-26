@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFStatus_36_G6_Vertical extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFStatus_36_G6_Vertical';
 
-  protected string $id = 'Sony:AFStatus_36_G6_Vertical';
+    protected string $name = 'AFStatus_36_G6_Vertical';
 
-  protected string $name = 'AFStatus_36_G6_Vertical';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::AFStatus79
+             * line : 344323
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFStatus79.Sony:AFStatus_36_G6_Vertical',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::AFStatus79
-       * line : 344323
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFStatus79.Sony:AFStatus_36_G6_Vertical',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

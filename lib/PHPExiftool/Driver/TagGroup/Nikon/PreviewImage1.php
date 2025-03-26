@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImage1 extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:PreviewImage1';
 
-  protected string $id = 'Nikon:PreviewImage1';
+    protected string $name = 'PreviewImage1';
 
-  protected string $name = 'PreviewImage1';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::NCDT
+             * line : 202072
+             * type : undef
+             * writable : false
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Nikon::NCDT.Nikon:PreviewImage1',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::NCDT
-       * line : 202072
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Nikon::NCDT.Nikon:PreviewImage1',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 6;
-
+    protected int $flags = 6;
 }

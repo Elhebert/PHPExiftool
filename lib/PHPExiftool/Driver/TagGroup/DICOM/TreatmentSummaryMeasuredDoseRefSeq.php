@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TreatmentSummaryMeasuredDoseRefSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:TreatmentSummaryMeasuredDoseRefSeq';
 
-  protected string $id = 'DICOM:TreatmentSummaryMeasuredDoseRefSeq';
+    protected string $name = 'TreatmentSummaryMeasuredDoseRefSeq';
 
-  protected string $name = 'TreatmentSummaryMeasuredDoseRefSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 102828
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:TreatmentSummaryMeasuredDoseRefSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 102828
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:TreatmentSummaryMeasuredDoseRefSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

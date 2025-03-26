@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TransferFunction extends AbstractTagGroup
 {
+    protected string $id = 'XMP-tiff:TransferFunction';
 
-  protected string $id = 'XMP-tiff:TransferFunction';
+    protected string $name = 'TransferFunction';
 
-  protected string $name = 'TransferFunction';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::tiff
+             * line : 412358
+             * type : integer
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::tiff.XMP-tiff:TransferFunction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::tiff
-       * line : 412358
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::tiff.XMP-tiff:TransferFunction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

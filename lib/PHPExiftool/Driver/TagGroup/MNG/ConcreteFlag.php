@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConcreteFlag extends AbstractTagGroup
 {
+    protected string $id = 'MNG:ConcreteFlag';
 
-  protected string $id = 'MNG:ConcreteFlag';
+    protected string $name = 'ConcreteFlag';
 
-  protected string $name = 'ConcreteFlag';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::CloneObject
+             * line : 164725
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::CloneObject.MNG:ConcreteFlag',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::DefineObject
+             * line : 164753
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::DefineObject.MNG:ConcreteFlag',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::CloneObject
-       * line : 164725
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::CloneObject.MNG:ConcreteFlag',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::DefineObject
-       * line : 164753
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::DefineObject.MNG:ConcreteFlag',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

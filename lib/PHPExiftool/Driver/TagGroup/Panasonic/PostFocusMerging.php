@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PostFocusMerging extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:PostFocusMerging';
 
-  protected string $id = 'Panasonic:PostFocusMerging';
+    protected string $name = 'PostFocusMerging';
 
-  protected string $name = 'PostFocusMerging';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 278032
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:PostFocusMerging',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 278032
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:PostFocusMerging',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

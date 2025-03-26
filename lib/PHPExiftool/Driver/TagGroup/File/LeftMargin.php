@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LeftMargin extends AbstractTagGroup
 {
+    protected string $id = 'File:LeftMargin';
 
-  protected string $id = 'File:LeftMargin';
+    protected string $name = 'LeftMargin';
 
-  protected string $name = 'LeftMargin';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PCX::Main
+             * line : 263896
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PCX::Main.File:LeftMargin',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PCX::Main
-       * line : 263896
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PCX::Main.File:LeftMargin',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

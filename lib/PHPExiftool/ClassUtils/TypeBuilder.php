@@ -2,7 +2,4 @@
 
 namespace PHPExiftool\ClassUtils;
 
-class TypeBuilder extends Builder
-{
-
-}
+class TypeBuilder extends Builder {}

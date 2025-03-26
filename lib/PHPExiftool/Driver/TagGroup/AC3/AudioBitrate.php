@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioBitrate extends AbstractTagGroup
 {
+    protected string $id = 'AC3:AudioBitrate';
 
-  protected string $id = 'AC3:AudioBitrate';
+    protected string $name = 'AudioBitrate';
 
-  protected string $name = 'AudioBitrate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : M2TS::AC3
+             * line : 162413
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'M2TS::AC3.AC3:AudioBitrate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : M2TS::AC3
-       * line : 162413
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'M2TS::AC3.AC3:AudioBitrate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

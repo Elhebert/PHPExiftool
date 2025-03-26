@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SoftwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:SoftwareVersion';
 
-  protected string $id = 'Minolta:SoftwareVersion';
+    protected string $name = 'SoftwareVersion';
 
-  protected string $name = 'SoftwareVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::MMA
+             * line : 182549
+             * type : string
+             * writable : false
+             * count : 16
+             * flags : permanent
+             */
+            'id' => 'Minolta::MMA.Minolta:SoftwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::MMA
-       * line : 182549
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : permanent
-       */
-      'id' => 'Minolta::MMA.Minolta:SoftwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 16;
 
-  protected int $count = 16;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

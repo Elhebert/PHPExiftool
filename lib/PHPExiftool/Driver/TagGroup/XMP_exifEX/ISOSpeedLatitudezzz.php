@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISOSpeedLatitudezzz extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:ISOSpeedLatitudezzz';
 
-  protected string $id = 'XMP-exifEX:ISOSpeedLatitudezzz';
+    protected string $name = 'ISOSpeedLatitudezzz';
 
-  protected string $name = 'ISOSpeedLatitudezzz';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408630
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:ISOSpeedLatitudezzz',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408630
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:ISOSpeedLatitudezzz',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

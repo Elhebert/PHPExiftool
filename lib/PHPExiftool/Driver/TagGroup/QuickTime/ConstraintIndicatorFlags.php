@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ConstraintIndicatorFlags extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ConstraintIndicatorFlags';
 
-  protected string $id = 'QuickTime:ConstraintIndicatorFlags';
+    protected string $name = 'ConstraintIndicatorFlags';
 
-  protected string $name = 'ConstraintIndicatorFlags';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HEVCConfig
+             * line : 313474
+             * type : int8u
+             * writable : false
+             * count : 6
+             * flags :
+             */
+            'id' => 'QuickTime::HEVCConfig.QuickTime:ConstraintIndicatorFlags',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HEVCConfig
-       * line : 313474
-       * type : int8u
-       * writable : false
-       * count : 6
-       * flags : 
-       */
-      'id' => 'QuickTime::HEVCConfig.QuickTime:ConstraintIndicatorFlags',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 6;
-
+    protected int $count = 6;
 }

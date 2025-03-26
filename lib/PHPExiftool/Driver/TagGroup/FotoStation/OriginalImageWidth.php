@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'FotoStation:OriginalImageWidth';
 
-  protected string $id = 'FotoStation:OriginalImageWidth';
+    protected string $name = 'OriginalImageWidth';
 
-  protected string $name = 'OriginalImageWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FotoStation::SoftEdit
+             * line : 128228
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'FotoStation::SoftEdit.FotoStation:OriginalImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FotoStation::SoftEdit
-       * line : 128228
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'FotoStation::SoftEdit.FotoStation:OriginalImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

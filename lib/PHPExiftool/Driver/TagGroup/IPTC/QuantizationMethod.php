@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class QuantizationMethod extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:QuantizationMethod';
 
-  protected string $id = 'IPTC:QuantizationMethod';
+    protected string $name = 'QuantizationMethod';
 
-  protected string $name = 'QuantizationMethod';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::NewsPhoto
+             * line : 151798
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'IPTC::NewsPhoto.IPTC:QuantizationMethod',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::NewsPhoto
-       * line : 151798
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'IPTC::NewsPhoto.IPTC:QuantizationMethod',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

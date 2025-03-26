@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XResolution extends AbstractTagGroup
 {
+    protected string $id = 'SPIFF:XResolution';
 
-  protected string $id = 'SPIFF:XResolution';
+    protected string $name = 'XResolution';
 
-  protected string $name = 'XResolution';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::SPIFF
+             * line : 153358
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::SPIFF.SPIFF:XResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::SPIFF
-       * line : 153358
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::SPIFF.SPIFF:XResolution',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

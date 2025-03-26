@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompImageMaxExposureUsed extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:CompImageMaxExposureUsed';
 
-  protected string $id = 'XMP-exifEX:CompImageMaxExposureUsed';
+    protected string $name = 'CompImageMaxExposureUsed';
 
-  protected string $name = 'CompImageMaxExposureUsed';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408521
+             * type : rational
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:CompImageMaxExposureUsed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408521
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:CompImageMaxExposureUsed',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

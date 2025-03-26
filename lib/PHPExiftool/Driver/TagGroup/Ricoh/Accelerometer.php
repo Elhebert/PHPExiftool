@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Accelerometer extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:Accelerometer';
 
-  protected string $id = 'Ricoh:Accelerometer';
+    protected string $name = 'Accelerometer';
 
-  protected string $name = 'Accelerometer';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::ThetaSubdir
+             * line : 333825
+             * type : rational64s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Ricoh::ThetaSubdir.Ricoh:Accelerometer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::ThetaSubdir
-       * line : 333825
-       * type : rational64s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Ricoh::ThetaSubdir.Ricoh:Accelerometer',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PhaseOne_0x022b extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:PhaseOne_0x022b';
 
-  protected string $id = 'PhaseOne:PhaseOne_0x022b';
+    protected string $name = 'PhaseOne_0x022b';
 
-  protected string $name = 'PhaseOne_0x022b';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::Main
+             * line : 303446
+             * type : float
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'PhaseOne::Main.PhaseOne:PhaseOne_0x022b',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::Main
-       * line : 303446
-       * type : float
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'PhaseOne::Main.PhaseOne:PhaseOne_0x022b',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

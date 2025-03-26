@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AuthoringSoftwareRelease extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:AuthoringSoftwareRelease';
 
-  protected string $id = 'PhotoCD:AuthoringSoftwareRelease';
+    protected string $name = 'AuthoringSoftwareRelease';
 
-  protected string $name = 'AuthoringSoftwareRelease';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303683
+             * type : int8u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:AuthoringSoftwareRelease',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303683
-       * type : int8u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:AuthoringSoftwareRelease',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

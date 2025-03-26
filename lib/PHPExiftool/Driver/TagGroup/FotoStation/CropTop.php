@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropTop extends AbstractTagGroup
 {
+    protected string $id = 'FotoStation:CropTop';
 
-  protected string $id = 'FotoStation:CropTop';
+    protected string $name = 'CropTop';
 
-  protected string $name = 'CropTop';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FotoStation::SoftEdit
+             * line : 128269
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'FotoStation::SoftEdit.FotoStation:CropTop',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FotoStation::SoftEdit
-       * line : 128269
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'FotoStation::SoftEdit.FotoStation:CropTop',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

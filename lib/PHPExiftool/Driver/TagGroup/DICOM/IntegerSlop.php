@@ -19,86 +19,84 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IntegerSlop extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:IntegerSlop';
 
-  protected string $id = 'DICOM:IntegerSlop';
+    protected string $name = 'IntegerSlop';
 
-  protected string $name = 'IntegerSlop';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98243
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IntegerSlop',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98246
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IntegerSlop',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98249
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IntegerSlop',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98252
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IntegerSlop',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 98255
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IntegerSlop',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98243
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IntegerSlop',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98246
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IntegerSlop',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98249
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IntegerSlop',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98252
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IntegerSlop',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 98255
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IntegerSlop',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

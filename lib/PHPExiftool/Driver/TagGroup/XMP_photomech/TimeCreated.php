@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TimeCreated extends AbstractTagGroup
 {
+    protected string $id = 'XMP-photomech:TimeCreated';
 
-  protected string $id = 'XMP-photomech:TimeCreated';
+    protected string $name = 'TimeCreated';
 
-  protected string $name = 'TimeCreated';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoMechanic::XMP
+             * line : 304973
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'PhotoMechanic::XMP.XMP-photomech:TimeCreated',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoMechanic::XMP
-       * line : 304973
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'PhotoMechanic::XMP.XMP-photomech:TimeCreated',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

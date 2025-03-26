@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GenBalance extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GenBalance';
 
-  protected string $id = 'QuickTime:GenBalance';
+    protected string $name = 'GenBalance';
 
-  protected string $name = 'GenBalance';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::GenMediaInfo
+             * line : 313350
+             * type : fixed16s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::GenMediaInfo.QuickTime:GenBalance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::GenMediaInfo
-       * line : 313350
-       * type : fixed16s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::GenMediaInfo.QuickTime:GenBalance',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

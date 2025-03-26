@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CommanderGroupB_TTLComp extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:CommanderGroupB_TTLComp';
 
-  protected string $id = 'NikonCustom:CommanderGroupB_TTLComp';
+    protected string $name = 'CommanderGroupB_TTLComp';
 
-  protected string $name = 'CommanderGroupB_TTLComp';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD90
+             * line : 235079
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD90.NikonCustom:CommanderGroupB_TTLComp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD90
-       * line : 235079
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD90.NikonCustom:CommanderGroupB_TTLComp',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

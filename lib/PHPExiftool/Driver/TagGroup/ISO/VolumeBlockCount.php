@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VolumeBlockCount extends AbstractTagGroup
 {
+    protected string $id = 'ISO:VolumeBlockCount';
 
-  protected string $id = 'ISO:VolumeBlockCount';
+    protected string $name = 'VolumeBlockCount';
 
-  protected string $name = 'VolumeBlockCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 151998
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:VolumeBlockCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 151998
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:VolumeBlockCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

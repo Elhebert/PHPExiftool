@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompressionRatio extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Image:CompressionRatio';
 
-  protected string $id = 'MIE-Image:CompressionRatio';
+    protected string $name = 'CompressionRatio';
 
-  protected string $name = 'CompressionRatio';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Image
+             * line : 163856
+             * type : rational32u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Image.MIE-Image:CompressionRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Image
-       * line : 163856
-       * type : rational32u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Image.MIE-Image:CompressionRatio',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

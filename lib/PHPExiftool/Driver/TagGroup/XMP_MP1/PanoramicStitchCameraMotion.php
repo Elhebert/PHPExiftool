@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PanoramicStitchCameraMotion extends AbstractTagGroup
 {
+    protected string $id = 'XMP-MP1:PanoramicStitchCameraMotion';
 
-  protected string $id = 'XMP-MP1:PanoramicStitchCameraMotion';
+    protected string $name = 'PanoramicStitchCameraMotion';
 
-  protected string $name = 'PanoramicStitchCameraMotion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::MP1
+             * line : 174158
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Microsoft::MP1.XMP-MP1:PanoramicStitchCameraMotion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::MP1
-       * line : 174158
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Microsoft::MP1.XMP-MP1:PanoramicStitchCameraMotion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

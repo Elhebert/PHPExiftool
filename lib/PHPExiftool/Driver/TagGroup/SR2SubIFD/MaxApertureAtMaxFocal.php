@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxApertureAtMaxFocal extends AbstractTagGroup
 {
+    protected string $id = 'SR2SubIFD:MaxApertureAtMaxFocal';
 
-  protected string $id = 'SR2SubIFD:MaxApertureAtMaxFocal';
+    protected string $name = 'MaxApertureAtMaxFocal';
 
-  protected string $name = 'MaxApertureAtMaxFocal';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::SR2SubIFD
+             * line : 361757
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::SR2SubIFD.SR2SubIFD:MaxApertureAtMaxFocal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::SR2SubIFD
-       * line : 361757
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::SR2SubIFD.SR2SubIFD:MaxApertureAtMaxFocal',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

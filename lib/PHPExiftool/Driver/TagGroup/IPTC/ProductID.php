@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ProductID extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ProductID';
 
-  protected string $id = 'IPTC:ProductID';
+    protected string $name = 'ProductID';
 
-  protected string $name = 'ProductID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::EnvelopeRecord
+             * line : 151175
+             * type : string
+             * writable : true
+             * count : 32
+             * flags : list
+             */
+            'id' => 'IPTC::EnvelopeRecord.IPTC:ProductID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::EnvelopeRecord
-       * line : 151175
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : list
-       */
-      'id' => 'IPTC::EnvelopeRecord.IPTC:ProductID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

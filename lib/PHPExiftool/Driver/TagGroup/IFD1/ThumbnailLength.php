@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailLength extends AbstractTagGroup
 {
+    protected string $id = 'IFD1:ThumbnailLength';
 
-  protected string $id = 'IFD1:ThumbnailLength';
+    protected string $name = 'ThumbnailLength';
 
-  protected string $name = 'ThumbnailLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112362
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : protected
+             */
+            'id' => 'Exif::Main.IFD1:ThumbnailLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112362
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : protected
-       */
-      'id' => 'Exif::Main.IFD1:ThumbnailLength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2056;
-
+    protected int $flags = 2056;
 }

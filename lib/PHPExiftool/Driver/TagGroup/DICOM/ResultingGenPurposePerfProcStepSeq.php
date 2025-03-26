@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ResultingGenPurposePerfProcStepSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:ResultingGenPurposePerfProcStepSeq';
 
-  protected string $id = 'DICOM:ResultingGenPurposePerfProcStepSeq';
+    protected string $name = 'ResultingGenPurposePerfProcStepSeq';
 
-  protected string $name = 'ResultingGenPurposePerfProcStepSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99953
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:ResultingGenPurposePerfProcStepSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99953
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:ResultingGenPurposePerfProcStepSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

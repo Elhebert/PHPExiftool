@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RelativeHumidity extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:RelativeHumidity';
 
-  protected string $id = 'FLIR:RelativeHumidity';
+    protected string $name = 'RelativeHumidity';
 
-  protected string $name = 'RelativeHumidity';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122204
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:RelativeHumidity',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122602
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:RelativeHumidity',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : FLIR::Params
+             * line : 123586
+             * type : float
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FLIR::Params.FLIR:RelativeHumidity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122204
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:RelativeHumidity',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122602
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:RelativeHumidity',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : FLIR::Params
-       * line : 123586
-       * type : float
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FLIR::Params.FLIR:RelativeHumidity',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Compression extends AbstractTagGroup
 {
+    protected string $id = 'MOBI:Compression';
 
-  protected string $id = 'MOBI:Compression';
+    protected string $name = 'Compression';
 
-  protected string $name = 'Compression';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::MOBI
+             * line : 273675
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Palm::MOBI.MOBI:Compression',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::MOBI
-       * line : 273675
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Palm::MOBI.MOBI:Compression',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

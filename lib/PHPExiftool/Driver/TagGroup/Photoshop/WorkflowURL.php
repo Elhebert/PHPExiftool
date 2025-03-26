@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WorkflowURL extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:WorkflowURL';
 
-  protected string $id = 'Photoshop:WorkflowURL';
+    protected string $name = 'WorkflowURL';
 
-  protected string $name = 'WorkflowURL';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Main
+             * line : 305572
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::Main.Photoshop:WorkflowURL',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Main
-       * line : 305572
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::Main.Photoshop:WorkflowURL',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

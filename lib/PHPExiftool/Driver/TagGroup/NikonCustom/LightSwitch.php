@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LightSwitch extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:LightSwitch';
 
-  protected string $id = 'NikonCustom:LightSwitch';
+    protected string $name = 'LightSwitch';
 
-  protected string $name = 'LightSwitch';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD810
+             * line : 229394
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD810.NikonCustom:LightSwitch',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonCustom::SettingsD90
+             * line : 233913
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD90.NikonCustom:LightSwitch',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD810
-       * line : 229394
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD810.NikonCustom:LightSwitch',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonCustom::SettingsD90
-       * line : 233913
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD90.NikonCustom:LightSwitch',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

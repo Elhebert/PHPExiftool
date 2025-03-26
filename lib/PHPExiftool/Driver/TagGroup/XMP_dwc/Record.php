@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Record extends AbstractTagGroup
 {
+    protected string $id = 'XMP-dwc:Record';
 
-  protected string $id = 'XMP-dwc:Record';
+    protected string $name = 'Record';
 
-  protected string $name = 'Record';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DarwinCore::Main
+             * line : 106633
+             * type : struct
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'DarwinCore::Main.XMP-dwc:Record',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DarwinCore::Main
-       * line : 106633
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'DarwinCore::Main.XMP-dwc:Record',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XTransLayout extends AbstractTagGroup
 {
+    protected string $id = 'RAF:XTransLayout';
 
-  protected string $id = 'RAF:XTransLayout';
+    protected string $name = 'XTransLayout';
 
-  protected string $name = 'XTransLayout';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::RAF
+             * line : 131089
+             * type : int8u
+             * writable : false
+             * count : 36
+             * flags :
+             */
+            'id' => 'FujiFilm::RAF.RAF:XTransLayout',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::RAF
-       * line : 131089
-       * type : int8u
-       * writable : false
-       * count : 36
-       * flags : 
-       */
-      'id' => 'FujiFilm::RAF.RAF:XTransLayout',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 36;
-
+    protected int $count = 36;
 }

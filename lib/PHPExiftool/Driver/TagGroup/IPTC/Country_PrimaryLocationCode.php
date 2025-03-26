@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Country_PrimaryLocationCode extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:Country-PrimaryLocationCode';
 
-  protected string $id = 'IPTC:Country-PrimaryLocationCode';
+    protected string $name = 'Country-PrimaryLocationCode';
 
-  protected string $name = 'Country-PrimaryLocationCode';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150289
+             * type : string
+             * writable : true
+             * count : 3
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:Country-PrimaryLocationCode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150289
-       * type : string
-       * writable : true
-       * count : 3
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:Country-PrimaryLocationCode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

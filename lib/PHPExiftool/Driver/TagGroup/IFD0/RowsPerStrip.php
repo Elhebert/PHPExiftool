@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RowsPerStrip extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:RowsPerStrip';
 
-  protected string $id = 'IFD0:RowsPerStrip';
+    protected string $name = 'RowsPerStrip';
 
-  protected string $name = 'RowsPerStrip';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 110846
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:RowsPerStrip',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : PanasonicRaw::Main
+             * line : 280710
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::Main.IFD0:RowsPerStrip',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 110846
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:RowsPerStrip',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : PanasonicRaw::Main
-       * line : 280710
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::Main.IFD0:RowsPerStrip',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

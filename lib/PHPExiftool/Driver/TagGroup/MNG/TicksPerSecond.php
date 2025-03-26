@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TicksPerSecond extends AbstractTagGroup
 {
+    protected string $id = 'MNG:TicksPerSecond';
 
-  protected string $id = 'MNG:TicksPerSecond';
+    protected string $name = 'TicksPerSecond';
 
-  protected string $name = 'TicksPerSecond';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::MNGHeader
+             * line : 165092
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::MNGHeader.MNG:TicksPerSecond',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::MNGHeader
-       * line : 165092
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::MNGHeader.MNG:TicksPerSecond',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

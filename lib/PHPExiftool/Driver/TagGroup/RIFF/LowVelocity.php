@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LowVelocity extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:LowVelocity';
 
-  protected string $id = 'RIFF:LowVelocity';
+    protected string $name = 'LowVelocity';
 
-  protected string $name = 'LowVelocity';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Instrument
+             * line : 328619
+             * type : int8s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Instrument.RIFF:LowVelocity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Instrument
-       * line : 328619
-       * type : int8s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Instrument.RIFF:LowVelocity',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

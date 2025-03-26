@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DescriptiveMetadataApplicationEnvironmentID extends AbstractTagGroup
 {
+    protected string $id = 'MXF:DescriptiveMetadataApplicationEnvironmentID';
 
-  protected string $id = 'MXF:DescriptiveMetadataApplicationEnvironmentID';
+    protected string $name = 'DescriptiveMetadataApplicationEnvironmentID';
 
-  protected string $name = 'DescriptiveMetadataApplicationEnvironmentID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 172439
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:DescriptiveMetadataApplicationEnvironmentID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 172439
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:DescriptiveMetadataApplicationEnvironmentID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

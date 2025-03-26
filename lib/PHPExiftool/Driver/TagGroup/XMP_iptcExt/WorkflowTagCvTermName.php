@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WorkflowTagCvTermName extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:WorkflowTagCvTermName';
 
-  protected string $id = 'XMP-iptcExt:WorkflowTagCvTermName';
+    protected string $name = 'WorkflowTagCvTermName';
 
-  protected string $name = 'WorkflowTagCvTermName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409915
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:WorkflowTagCvTermName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409915
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:WorkflowTagCvTermName',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

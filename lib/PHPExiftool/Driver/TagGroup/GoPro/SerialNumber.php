@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:SerialNumber';
 
-  protected string $id = 'GoPro:SerialNumber';
+    protected string $name = 'SerialNumber';
 
-  protected string $name = 'SerialNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::fdsc
+             * line : 140069
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'GoPro::fdsc.GoPro:SerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::fdsc
-       * line : 140069
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'GoPro::fdsc.GoPro:SerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

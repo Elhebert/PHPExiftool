@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectPreviewData extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ObjectPreviewData';
 
-  protected string $id = 'IPTC:ObjectPreviewData';
+    protected string $name = 'ObjectPreviewData';
 
-  protected string $name = 'ObjectPreviewData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150911
+             * type : undef
+             * writable : true
+             * count : 256000
+             * flags : binary
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ObjectPreviewData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150911
-       * type : undef
-       * writable : true
-       * count : 256000
-       * flags : binary
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ObjectPreviewData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 256000;
 
-  protected int $count = 256000;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

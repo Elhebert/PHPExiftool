@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreatorSoftware extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:CreatorSoftware';
 
-  protected string $id = 'FLIR:CreatorSoftware';
+    protected string $name = 'CreatorSoftware';
 
-  protected string $name = 'CreatorSoftware';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::Header
+             * line : 123202
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'FLIR::Header.FLIR:CreatorSoftware',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::Header
-       * line : 123202
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'FLIR::Header.FLIR:CreatorSoftware',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BatteryVoltage extends AbstractTagGroup
 {
+    protected string $id = 'Reconyx:BatteryVoltage';
 
-  protected string $id = 'Reconyx:BatteryVoltage';
+    protected string $name = 'BatteryVoltage';
 
-  protected string $name = 'BatteryVoltage';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Reconyx::Main
+             * line : 330805
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Main.Reconyx:BatteryVoltage',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Reconyx::Type2
+             * line : 330998
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type2.Reconyx:BatteryVoltage',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Reconyx::Type3
+             * line : 331314
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type3.Reconyx:BatteryVoltage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Reconyx::Main
-       * line : 330805
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Main.Reconyx:BatteryVoltage',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Reconyx::Type2
-       * line : 330998
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type2.Reconyx:BatteryVoltage',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Reconyx::Type3
-       * line : 331314
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type3.Reconyx:BatteryVoltage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

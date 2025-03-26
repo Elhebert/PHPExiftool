@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AutoLightingOptimizer extends AbstractTagGroup
 {
+    protected string $id = 'Canon:AutoLightingOptimizer';
 
-  protected string $id = 'Canon:AutoLightingOptimizer';
+    protected string $name = 'AutoLightingOptimizer';
 
-  protected string $name = 'AutoLightingOptimizer';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfo500D
+             * line : 24664
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo500D.Canon:AutoLightingOptimizer',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::CameraInfo50D
+             * line : 26966
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo50D.Canon:AutoLightingOptimizer',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::CameraInfo5DmkII
+             * line : 35671
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo5DmkII.Canon:AutoLightingOptimizer',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Canon::LightingOpt
+             * line : 64218
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::LightingOpt.Canon:AutoLightingOptimizer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfo500D
-       * line : 24664
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo500D.Canon:AutoLightingOptimizer',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::CameraInfo50D
-       * line : 26966
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo50D.Canon:AutoLightingOptimizer',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::CameraInfo5DmkII
-       * line : 35671
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo5DmkII.Canon:AutoLightingOptimizer',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Canon::LightingOpt
-       * line : 64218
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::LightingOpt.Canon:AutoLightingOptimizer',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

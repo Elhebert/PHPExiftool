@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RestrictDriveModes extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:RestrictDriveModes';
 
-  protected string $id = 'CanonCustom:RestrictDriveModes';
+    protected string $name = 'RestrictDriveModes';
 
-  protected string $name = 'RestrictDriveModes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 74535
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:RestrictDriveModes',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 74538
+             * type : int32s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:RestrictDriveModes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 74535
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:RestrictDriveModes',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 74538
-       * type : int32s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:RestrictDriveModes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BoundingBox extends AbstractTagGroup
 {
+    protected string $id = 'PostScript:BoundingBox';
 
-  protected string $id = 'PostScript:BoundingBox';
+    protected string $name = 'BoundingBox';
 
-  protected string $name = 'BoundingBox';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PostScript::Main
+             * line : 305957
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PostScript::Main.PostScript:BoundingBox',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PostScript::Main
-       * line : 305957
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PostScript::Main.PostScript:BoundingBox',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

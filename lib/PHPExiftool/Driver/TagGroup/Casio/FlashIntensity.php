@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashIntensity extends AbstractTagGroup
 {
+    protected string $id = 'Casio:FlashIntensity';
 
-  protected string $id = 'Casio:FlashIntensity';
+    protected string $name = 'FlashIntensity';
 
-  protected string $name = 'FlashIntensity';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Casio::Main
+             * line : 84382
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Casio::Main.Casio:FlashIntensity',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Casio::Main
+             * line : 85151
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Casio::Main.Casio:FlashIntensity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Casio::Main
-       * line : 84382
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Casio::Main.Casio:FlashIntensity',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Casio::Main
-       * line : 85151
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Casio::Main.Casio:FlashIntensity',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

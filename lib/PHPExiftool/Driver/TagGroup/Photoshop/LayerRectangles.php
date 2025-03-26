@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LayerRectangles extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:LayerRectangles';
 
-  protected string $id = 'Photoshop:LayerRectangles';
+    protected string $name = 'LayerRectangles';
 
-  protected string $name = 'LayerRectangles';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Layers
+             * line : 305346
+             * type : int32u
+             * writable : false
+             * count : 4
+             * flags : list
+             */
+            'id' => 'Photoshop::Layers.Photoshop:LayerRectangles',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Layers
-       * line : 305346
-       * type : int32u
-       * writable : false
-       * count : 4
-       * flags : list
-       */
-      'id' => 'Photoshop::Layers.Photoshop:LayerRectangles',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

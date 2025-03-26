@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Make extends AbstractTagGroup
 {
+    protected string $id = 'H264:Make';
 
-  protected string $id = 'H264:Make';
+    protected string $name = 'Make';
 
-  protected string $name = 'Make';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::MakeModel
+             * line : 142009
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::MakeModel.H264:Make',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::MakeModel
-       * line : 142009
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::MakeModel.H264:Make',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TrackID extends AbstractTagGroup
 {
+    protected string $id = 'ITC:TrackID';
 
-  protected string $id = 'ITC:TrackID';
+    protected string $name = 'TrackID';
 
-  protected string $name = 'TrackID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ITC::Item
+             * line : 152117
+             * type : undef
+             * writable : false
+             * count : 8
+             * flags :
+             */
+            'id' => 'ITC::Item.ITC:TrackID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ITC::Item
-       * line : 152117
-       * type : undef
-       * writable : false
-       * count : 8
-       * flags : 
-       */
-      'id' => 'ITC::Item.ITC:TrackID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 8;
-
+    protected int $count = 8;
 }

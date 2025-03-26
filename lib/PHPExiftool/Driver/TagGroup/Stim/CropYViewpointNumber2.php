@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropYViewpointNumber2 extends AbstractTagGroup
 {
+    protected string $id = 'Stim:CropYViewpointNumber2';
 
-  protected string $id = 'Stim:CropYViewpointNumber2';
+    protected string $name = 'CropYViewpointNumber2';
 
-  protected string $name = 'CropYViewpointNumber2';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Stim::CropY
+             * line : 394561
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Stim::CropY.Stim:CropYViewpointNumber2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Stim::CropY
-       * line : 394561
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Stim::CropY.Stim:CropYViewpointNumber2',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

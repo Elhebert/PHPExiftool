@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPointSelected extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:AFPointSelected';
 
-  protected string $id = 'Olympus:AFPointSelected';
+    protected string $name = 'AFPointSelected';
 
-  protected string $name = 'AFPointSelected';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 250790
+             * type : rational64s
+             * writable : true
+             * count : 5
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:AFPointSelected',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 250790
-       * type : rational64s
-       * writable : true
-       * count : 5
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:AFPointSelected',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 5;
 
-  protected int $count = 5;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

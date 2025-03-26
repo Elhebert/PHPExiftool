@@ -19,101 +19,99 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ETTLII extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:ETTLII';
 
-  protected string $id = 'CanonCustom:ETTLII';
+    protected string $name = 'ETTLII';
 
-  protected string $name = 'ETTLII';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 73346
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:ETTLII',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions20D
+             * line : 76057
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions20D.CanonCustom:ETTLII',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : CanonCustom::Functions30D
+             * line : 76578
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions30D.CanonCustom:ETTLII',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : CanonCustom::Functions350D
+             * line : 76946
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions350D.CanonCustom:ETTLII',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : CanonCustom::Functions400D
+             * line : 77212
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions400D.CanonCustom:ETTLII',
+            'desc' => [
+            ],
+        ],
+        5 => [
+            /**
+             * table_name : CanonCustom::Functions5D
+             * line : 77696
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions5D.CanonCustom:ETTLII',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 73346
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:ETTLII',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions20D
-       * line : 76057
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions20D.CanonCustom:ETTLII',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : CanonCustom::Functions30D
-       * line : 76578
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions30D.CanonCustom:ETTLII',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : CanonCustom::Functions350D
-       * line : 76946
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions350D.CanonCustom:ETTLII',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : CanonCustom::Functions400D
-       * line : 77212
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions400D.CanonCustom:ETTLII',
-      'desc' => [
-      ],
-    ],
-    5 => [
-      /**
-       * table_name : CanonCustom::Functions5D
-       * line : 77696
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions5D.CanonCustom:ETTLII',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

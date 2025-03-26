@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubLabels1 extends AbstractTagGroup
 {
+    protected string $id = 'XMP-ics:SubLabels1';
 
-  protected string $id = 'XMP-ics:SubLabels1';
+    protected string $name = 'SubLabels1';
 
-  protected string $name = 'SubLabels1';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::ics
+             * line : 408833
+             * type : struct
+             * writable : true
+             * count :
+             * flags : bag,flattened,list
+             */
+            'id' => 'XMP::ics.XMP-ics:SubLabels1',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::ics
-       * line : 408833
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : bag,flattened,list
-       */
-      'id' => 'XMP::ics.XMP-ics:SubLabels1',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

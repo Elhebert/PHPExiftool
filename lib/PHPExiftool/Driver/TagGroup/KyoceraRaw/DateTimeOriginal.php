@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeOriginal extends AbstractTagGroup
 {
+    protected string $id = 'KyoceraRaw:DateTimeOriginal';
 
-  protected string $id = 'KyoceraRaw:DateTimeOriginal';
+    protected string $name = 'DateTimeOriginal';
 
-  protected string $name = 'DateTimeOriginal';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : KyoceraRaw::Main
+             * line : 160765
+             * type : string
+             * writable : false
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'KyoceraRaw::Main.KyoceraRaw:DateTimeOriginal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : KyoceraRaw::Main
-       * line : 160765
-       * type : string
-       * writable : false
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'KyoceraRaw::Main.KyoceraRaw:DateTimeOriginal',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 20;
 
-  protected int $count = 20;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

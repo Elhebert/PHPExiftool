@@ -11,6 +11,7 @@
 
 namespace PHPExiftool;
 
+use ArrayIterator;
 use Doctrine\Common\Collections\ArrayCollection;
 use Exception;
 use Iterator;
@@ -18,17 +19,15 @@ use IteratorAggregate;
 use PHPExiftool\Exception\EmptyCollectionException;
 use PHPExiftool\Exception\LogicException;
 use PHPExiftool\Exception\RuntimeException;
-use Psr\Log\LoggerInterface;
+use Traversable;
 
 /**
- *
  * Exiftool Reader, inspired by Symfony2 Finder.
  *
  * It scans files and directories, and provide an iterator on the FileEntities
  * generated based on the results.
  *
- * Example usage:
- *
+ * @example:
  *      $Reader = new Reader();
  *
  *      $Reader->in('/path/to/directory')
@@ -46,7 +45,6 @@ use Psr\Log\LoggerInterface;
  *          //Do your logic with FileEntity
  *      }
  *
- *
  * @todo   implement match conditions (-if EXPR) (name or metadata tag)
  * @todo   implement match filter
  * @todo   implement sort
@@ -60,31 +58,40 @@ class Reader implements IteratorAggregate
 {
     /** @var string[] */
     protected array $files = [];
+
     /** @var string[] */
     protected array $dirs = [];
+
     /** @var string[] */
     protected array $excludeDirs = [];
+
     /** @var string[] */
     protected array $extensions = [];
+
     protected ?bool $extensionsToggle = null;
+
     protected bool $followSymLinks = false;
+
     protected bool $recursive = true;
+
     protected bool $ignoreDotFile = false;
+
     /** @var string[] */
     protected array $sort = [];
+
     protected ?RDFParser $parser;
+
     protected Exiftool $exiftool;
+
     protected int $timeout = 60;
 
-    /** @var ArrayCollection<string, FileEntity>|null  */
+    /** @var ArrayCollection<string, FileEntity>|null */
     protected ?ArrayCollection $collection = null;
+
     /** @var Reader[] */
     protected array $readers = [];
 
-    /**
-     *  Constructor
-     */
-    private function __construct(Exiftool $exiftool, RDFParser $parser)
+    public function __construct(Exiftool $exiftool, RDFParser $parser)
     {
         $this->exiftool = $exiftool;
         $this->parser = $parser;
@@ -101,7 +108,7 @@ class Reader implements IteratorAggregate
         $this->collection = null;
     }
 
-    public function setTimeout(int $timeout):self
+    public function setTimeout(int $timeout): self
     {
         $this->timeout = $timeout;
 
@@ -127,10 +134,11 @@ class Reader implements IteratorAggregate
     /**
      * Implements \IteratorAggregate Interface
      *
-     * @return \ArrayIterator<int, FileEntity>
+     * @return ArrayIterator<int, FileEntity>
+     *
      * @throws Exception
      */
-    public function getIterator(): \Traversable
+    public function getIterator(): Traversable
     {
         return $this->all()->getIterator();
     }
@@ -138,20 +146,16 @@ class Reader implements IteratorAggregate
     /**
      * Add files to scan
      *
-     * Example usage:
-     *
+     * @example
      *      // Will scan 3 files : dc00.jpg in CWD and absolute
      *      // paths /tmp/image.jpg and /tmp/raw.CR2
      *      $Reader ->files('dc00.jpg')
      *              ->files(array('/tmp/image.jpg', '/tmp/raw.CR2'))
-     *
-     * @param string|array $files The files
-     * @return Reader
      */
-    public function files($files): self
+    public function files(array|string $files): self
     {
         $this->resetResults();
-        $this->files = array_merge($this->files, (array)$files);
+        $this->files = array_merge($this->files, (array) $files);
 
         return $this;
     }
@@ -159,20 +163,18 @@ class Reader implements IteratorAggregate
     /**
      * Add dirs to scan
      *
-     * Example usage:
+     * @param  array|string  $dirs  The directories
      *
+     *@example
      *      // Will scan 3 dirs : documents in CWD and absolute
      *      // paths /usr and /var
      *      $Reader ->in('documents')
      *              ->in(array('/tmp', '/var'))
-     *
-     * @param string|array $dirs The directories
-     * @return Reader
      */
-    public function in($dirs): self
+    public function in(array|string $dirs): self
     {
         $this->resetResults();
-        $this->dirs = array_merge($this->dirs, (array)$dirs);
+        $this->dirs = array_merge($this->dirs, (array) $dirs);
 
         return $this;
     }
@@ -180,9 +182,6 @@ class Reader implements IteratorAggregate
     /**
      * Append a reader to this one.
      * Finale result will be the sum of the current reader and all appended ones.
-     *
-     * @param Reader $reader The reader to append
-     * @return Reader
      */
     public function append(Reader $reader): self
     {
@@ -195,8 +194,7 @@ class Reader implements IteratorAggregate
     /**
      * Sort results with one or many criteria
      *
-     * Example usage:
-     *
+     * @example
      *      // Will sort by directory then filename
      *      $Reader ->in('documents')
      *              ->sort(array('directory', 'filename'))
@@ -204,19 +202,16 @@ class Reader implements IteratorAggregate
      *      // Will sort by filename
      *      $Reader ->in('documents')
      *              ->sort('filename')
-     *
-     * @param string|array $by
-     * @return Reader
      */
-    public function sort($by): self
+    public function sort(array|string $by): self
     {
         static $availableSorts = [
-            'directory', 'filename', 'createdate', 'modifydate', 'filesize'
+            'directory', 'filename', 'createdate', 'modifydate', 'filesize',
         ];
 
-        foreach ((array)$by as $sort) {
+        foreach ((array) $by as $sort) {
 
-            if (!in_array($sort, $availableSorts)) {
+            if (! in_array($sort, $availableSorts)) {
                 continue;
             }
             $this->sort[] = $sort;
@@ -237,19 +232,15 @@ class Reader implements IteratorAggregate
      *      └── sub2
      *          └── subsub
      *
-     * Example usage:
-     *
+     * @example
      *      // Will scan documents recursively, discarding documents/test
      *      $Reader ->in('documents')
      *              ->exclude(array('test'))
-     *
-     * @param string|array $dirs The directories
-     * @return Reader
      */
-    public function exclude($dirs): self
+    public function exclude(array|string $dirs): self
     {
         $this->resetResults();
-        $this->excludeDirs = array_merge($this->excludeDirs, (array)$dirs);
+        $this->excludeDirs = array_merge($this->excludeDirs, (array) $dirs);
 
         return $this;
     }
@@ -258,32 +249,25 @@ class Reader implements IteratorAggregate
      * Restrict / Discard files based on extensions.
      * Extensions are case_insensitive.
      *
-     * @param string|array $extensions The list of extension
-     * @param Boolean $restrict        Toggle restrict/discard method
-     * @return Reader
      * @throws LogicException
      */
-    public function extensions($extensions, bool $restrict = true): self
+    public function extensions(array|string $extensions, bool $restrict = true): self
     {
         $this->resetResults();
 
-        if (!is_null($this->extensionsToggle)) {
-            if ($restrict !== $this->extensionsToggle) {
-                throw new LogicException('You cannot restrict extensions AND exclude extension at the same time');
-            }
+        if (! is_null($this->extensionsToggle) && $restrict !== $this->extensionsToggle) {
+            throw new LogicException('You cannot restrict extensions AND exclude extension at the same time');
         }
 
-        $this->extensionsToggle = (boolean)$restrict;
+        $this->extensionsToggle = $restrict;
 
-        $this->extensions = array_merge($this->extensions, (array)$extensions);
+        $this->extensions = array_merge($this->extensions, (array) $extensions);
 
         return $this;
     }
 
     /**
      * Toggle to enable follow Symbolic Links
-     *
-     * @return Reader
      */
     public function followSymLinks(): self
     {
@@ -298,8 +282,6 @@ class Reader implements IteratorAggregate
      *
      * Folders starting with a dot are always exluded due to exiftool behaviour.
      * You should include them manually
-     *
-     * @return Reader
      */
     public function ignoreDotFiles(): self
     {
@@ -312,8 +294,6 @@ class Reader implements IteratorAggregate
     /**
      * Disable recursivity in directories scan.
      * If you only specify files, this toggle has no effect
-     *
-     * @return Reader
      */
     public function notRecursive(): self
     {
@@ -326,7 +306,6 @@ class Reader implements IteratorAggregate
     /**
      * Return the first result. If no result available, null is returned
      *
-     * @return FileEntity
      * @throws Exception
      */
     public function getOneOrNull(): ?FileEntity
@@ -337,7 +316,6 @@ class Reader implements IteratorAggregate
     /**
      * Return the first result. If no result available, throws an exception
      *
-     * @return FileEntity
      * @throws EmptyCollectionException
      * @throws Exception
      */
@@ -354,11 +332,12 @@ class Reader implements IteratorAggregate
      * Perform the scan and returns all the results
      *
      * @return ArrayCollection<string, FileEntity>|null
+     *
      * @throws Exception
      */
     public function all(): ?ArrayCollection
     {
-        if (!$this->collection) {
+        if (! $this->collection) {
             $this->collection = $this->buildQueryAndExecute();
         }
 
@@ -379,8 +358,6 @@ class Reader implements IteratorAggregate
 
     /**
      * Reset any computed result
-     *
-     * @return Reader
      */
     protected function resetResults(): self
     {
@@ -393,6 +370,7 @@ class Reader implements IteratorAggregate
      * Build the command returns an ArrayCollection of FileEntity
      *
      * @return ArrayCollection<string, FileEntity>
+     *
      * @throws Exception
      */
     protected function buildQueryAndExecute(): ArrayCollection
@@ -401,18 +379,17 @@ class Reader implements IteratorAggregate
 
         try {
             $result = trim($this->exiftool->executeCommand($this->buildQuery(), $this->timeout));
-        }
-        catch (RuntimeException $e) {
+        } catch (RuntimeException $e) {
             /**
              * In case no file found, an exit code 1 is returned
              */
-            if (!$this->ignoreDotFile) {
+            if (! $this->ignoreDotFile) {
                 throw $e;
             }
         }
 
         if ($result === '') {
-            return new ArrayCollection();
+            return new ArrayCollection;
         }
 
         $this->parser->open($result);
@@ -423,9 +400,10 @@ class Reader implements IteratorAggregate
     /**
      * Compute raw exclude rules to simple ones, based on exclude dirs and search dirs
      *
-     * @param string[] $rawExcludeDirs
-     * @param string[] $rawSearchDirs
+     * @param  string[]  $rawExcludeDirs
+     * @param  string[]  $rawSearchDirs
      * @return string[]
+     *
      * @throws RuntimeException
      */
     protected function computeExcludeDirs(array $rawExcludeDirs, array $rawSearchDirs): array
@@ -438,15 +416,15 @@ class Reader implements IteratorAggregate
              * is this a relative path ?
              */
             foreach ($rawSearchDirs as $dir) {
-                $currentPrefix = realpath($dir) . DIRECTORY_SEPARATOR;
+                $currentPrefix = realpath($dir).DIRECTORY_SEPARATOR;
 
-                $supposedExcluded = str_replace($currentPrefix, '', realpath($currentPrefix . $excludeDir));
+                $supposedExcluded = str_replace($currentPrefix, '', realpath($currentPrefix.$excludeDir));
 
-                if (!$supposedExcluded) {
+                if (! $supposedExcluded) {
                     continue;
                 }
 
-                if (strpos($supposedExcluded, DIRECTORY_SEPARATOR) === false) {
+                if (! str_contains($supposedExcluded, DIRECTORY_SEPARATOR)) {
                     $excludeDirs[] = $supposedExcluded;
                     $found = true;
                     break;
@@ -464,19 +442,19 @@ class Reader implements IteratorAggregate
 
             if ($supposedExcluded) {
                 foreach ($rawSearchDirs as $dir) {
-                    $searchDir = realpath($dir) . DIRECTORY_SEPARATOR;
+                    $searchDir = realpath($dir).DIRECTORY_SEPARATOR;
 
                     $supposedRelative = str_replace($searchDir, '', $supposedExcluded);
 
-                    if (strpos($supposedRelative, DIRECTORY_SEPARATOR) !== false) {
+                    if (str_contains($supposedRelative, DIRECTORY_SEPARATOR)) {
                         continue;
                     }
 
-                    if (strpos($supposedExcluded, $searchDir) !== 0) {
+                    if (! str_starts_with($supposedExcluded, $searchDir)) {
                         continue;
                     }
 
-                    if (!trim($supposedRelative)) {
+                    if (! trim($supposedRelative)) {
                         continue;
                     }
 
@@ -486,9 +464,8 @@ class Reader implements IteratorAggregate
                 }
             }
 
-
-            if (!$found) {
-                throw new RuntimeException(sprintf("Invalid exclude dir %s ; Exclude dir is limited to the name of a directory at first depth", $excludeDir));
+            if (! $found) {
+                throw new RuntimeException(sprintf('Invalid exclude dir %s ; Exclude dir is limited to the name of a directory at first depth', $excludeDir));
             }
         }
 
@@ -504,7 +481,7 @@ class Reader implements IteratorAggregate
      */
     protected function buildQuery(): array
     {
-        if (!$this->dirs && !$this->files) {
+        if (! $this->dirs && ! $this->files) {
             throw new LogicException('You have not set any files or directory');
         }
 
@@ -513,27 +490,26 @@ class Reader implements IteratorAggregate
             '-q',               // quiet
             '-b',               // some binary
             '-X',               // XML
-            '-charset', 'UTF8'
+            '-charset', 'UTF8',
         ];
-//        $command = [
-//            '-n',
-//            '-q',
-//            '-b',
-//            '-j',               // json
-//            '-D',               // decimal tag id
-//            '-t',               // add table info
-//            '-charset', 'UTF8'
-//        ];
+        //        $command = [
+        //            '-n',
+        //            '-q',
+        //            '-b',
+        //            '-j',               // json
+        //            '-D',               // decimal tag id
+        //            '-t',               // add table info
+        //            '-charset', 'UTF8'
+        //        ];
 
         if ($this->recursive) {
             $command[] = '-r';
         }
 
-        if (!empty($this->extensions)) {
-            if (!$this->extensionsToggle) {
+        if (! empty($this->extensions)) {
+            if (! $this->extensionsToggle) {
                 $extensionPrefix = '--ext';
-            }
-            else {
+            } else {
                 $extensionPrefix = '-ext';
             }
 
@@ -543,7 +519,7 @@ class Reader implements IteratorAggregate
             }
         }
 
-        if (!$this->followSymLinks) {
+        if (! $this->followSymLinks) {
             $command[] = '-i';
             $command[] = 'SYMLINKS';
         }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExternalFlashZoomOverride extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:ExternalFlashZoomOverride';
 
-  protected string $id = 'Nikon:ExternalFlashZoomOverride';
+    protected string $name = 'ExternalFlashZoomOverride';
 
-  protected string $name = 'ExternalFlashZoomOverride';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::FlashInfo0107
+             * line : 194740
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::FlashInfo0107.Nikon:ExternalFlashZoomOverride',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::FlashInfo0107
-       * line : 194740
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::FlashInfo0107.Nikon:ExternalFlashZoomOverride',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DocFlags extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:DocFlags';
 
-  protected string $id = 'FlashPix:DocFlags';
+    protected string $name = 'DocFlags';
 
-  protected string $name = 'DocFlags';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::WordDocument
+             * line : 127639
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::WordDocument.FlashPix:DocFlags',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::WordDocument
-       * line : 127639
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::WordDocument.FlashPix:DocFlags',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

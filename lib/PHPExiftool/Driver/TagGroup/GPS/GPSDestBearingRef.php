@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSDestBearingRef extends AbstractTagGroup
 {
+    protected string $id = 'GPS:GPSDestBearingRef';
 
-  protected string $id = 'GPS:GPSDestBearingRef';
+    protected string $name = 'GPSDestBearingRef';
 
-  protected string $name = 'GPSDestBearingRef';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GPS::Main
+             * line : 132471
+             * type : string
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'GPS::Main.GPS:GPSDestBearingRef',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GPS::Main
-       * line : 132471
-       * type : string
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'GPS::Main.GPS:GPSDestBearingRef',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

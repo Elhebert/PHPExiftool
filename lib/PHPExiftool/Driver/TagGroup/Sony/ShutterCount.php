@@ -19,101 +19,99 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ShutterCount extends AbstractTagGroup
 {
+    protected string $id = 'Sony:ShutterCount';
 
-  protected string $id = 'Sony:ShutterCount';
+    protected string $name = 'ShutterCount';
 
-  protected string $name = 'ShutterCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::FocusInfo
+             * line : 353418
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::FocusInfo.Sony:ShutterCount',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::MoreInfo0201
+             * line : 359768
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreInfo0201.Sony:ShutterCount',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::MoreInfo0201
+             * line : 359779
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreInfo0201.Sony:ShutterCount',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::Tag9050a
+             * line : 379117
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9050a.Sony:ShutterCount',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : Sony::Tag9050b
+             * line : 381339
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9050b.Sony:ShutterCount',
+            'desc' => [
+            ],
+        ],
+        5 => [
+            /**
+             * table_name : Sony::Tag9050c
+             * line : 383754
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9050c.Sony:ShutterCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::FocusInfo
-       * line : 353418
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::FocusInfo.Sony:ShutterCount',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::MoreInfo0201
-       * line : 359768
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreInfo0201.Sony:ShutterCount',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::MoreInfo0201
-       * line : 359779
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreInfo0201.Sony:ShutterCount',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::Tag9050a
-       * line : 379117
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9050a.Sony:ShutterCount',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : Sony::Tag9050b
-       * line : 381339
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9050b.Sony:ShutterCount',
-      'desc' => [
-      ],
-    ],
-    5 => [
-      /**
-       * table_name : Sony::Tag9050c
-       * line : 383754
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9050c.Sony:ShutterCount',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

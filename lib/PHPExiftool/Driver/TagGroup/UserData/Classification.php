@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Classification extends AbstractTagGroup
 {
+    protected string $id = 'UserData:Classification';
 
-  protected string $id = 'UserData:Classification';
+    protected string $name = 'Classification';
 
-  protected string $name = 'Classification';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::UserData
+             * line : 325394
+             * type : undef
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'QuickTime::UserData.UserData:Classification',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::UserData
-       * line : 325394
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'QuickTime::UserData.UserData:Classification',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

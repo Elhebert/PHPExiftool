@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OffsetMapVertical extends AbstractTagGroup
 {
+    protected string $id = 'KodakIFD:OffsetMapVertical';
 
-  protected string $id = 'KodakIFD:OffsetMapVertical';
+    protected string $name = 'OffsetMapVertical';
 
-  protected string $name = 'OffsetMapVertical';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::IFD
+             * line : 154913
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Kodak::IFD.KodakIFD:OffsetMapVertical',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::IFD
-       * line : 154913
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Kodak::IFD.KodakIFD:OffsetMapVertical',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 38;
-
+    protected int $flags = 38;
 }

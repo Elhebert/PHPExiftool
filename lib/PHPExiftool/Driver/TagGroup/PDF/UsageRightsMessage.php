@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UsageRightsMessage extends AbstractTagGroup
 {
+    protected string $id = 'PDF:UsageRightsMessage';
 
-  protected string $id = 'PDF:UsageRightsMessage';
+    protected string $name = 'UsageRightsMessage';
 
-  protected string $name = 'UsageRightsMessage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::TransformParams
+             * line : 264427
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::TransformParams.PDF:UsageRightsMessage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::TransformParams
-       * line : 264427
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::TransformParams.PDF:UsageRightsMessage',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

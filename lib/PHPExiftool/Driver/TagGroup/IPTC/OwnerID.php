@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OwnerID extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:OwnerID';
 
-  protected string $id = 'IPTC:OwnerID';
+    protected string $name = 'OwnerID';
 
-  protected string $name = 'OwnerID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150765
+             * type : string
+             * writable : true
+             * count : 128
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:OwnerID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150765
-       * type : string
-       * writable : true
-       * count : 128
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:OwnerID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 128;
 
-  protected int $count = 128;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

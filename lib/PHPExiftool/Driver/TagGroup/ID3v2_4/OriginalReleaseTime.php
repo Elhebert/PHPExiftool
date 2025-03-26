@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalReleaseTime extends AbstractTagGroup
 {
+    protected string $id = 'ID3v2_4:OriginalReleaseTime';
 
-  protected string $id = 'ID3v2_4:OriginalReleaseTime';
+    protected string $name = 'OriginalReleaseTime';
 
-  protected string $name = 'OriginalReleaseTime';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::v2_4
+             * line : 149384
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_4.ID3v2_4:OriginalReleaseTime',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : ID3::v2_4
+             * line : 149674
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::v2_4.ID3v2_4:OriginalReleaseTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::v2_4
-       * line : 149384
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_4.ID3v2_4:OriginalReleaseTime',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : ID3::v2_4
-       * line : 149674
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::v2_4.ID3v2_4:OriginalReleaseTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

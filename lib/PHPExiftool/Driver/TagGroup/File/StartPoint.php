@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StartPoint extends AbstractTagGroup
 {
+    protected string $id = 'File:StartPoint';
 
-  protected string $id = 'File:StartPoint';
+    protected string $name = 'StartPoint';
 
-  protected string $name = 'StartPoint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166872
+             * type : int32u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'MRC::Main.File:StartPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166872
-       * type : int32u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:StartPoint',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

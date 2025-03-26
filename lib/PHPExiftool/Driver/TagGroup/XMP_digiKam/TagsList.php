@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TagsList extends AbstractTagGroup
 {
+    protected string $id = 'XMP-digiKam:TagsList';
 
-  protected string $id = 'XMP-digiKam:TagsList';
+    protected string $name = 'TagsList';
 
-  protected string $name = 'TagsList';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::digiKam
+             * line : 405058
+             * type : string
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::digiKam.XMP-digiKam:TagsList',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::digiKam
-       * line : 405058
-       * type : string
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::digiKam.XMP-digiKam:TagsList',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

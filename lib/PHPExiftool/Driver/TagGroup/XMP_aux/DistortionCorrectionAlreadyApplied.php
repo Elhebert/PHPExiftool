@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DistortionCorrectionAlreadyApplied extends AbstractTagGroup
 {
+    protected string $id = 'XMP-aux:DistortionCorrectionAlreadyApplied';
 
-  protected string $id = 'XMP-aux:DistortionCorrectionAlreadyApplied';
+    protected string $name = 'DistortionCorrectionAlreadyApplied';
 
-  protected string $name = 'DistortionCorrectionAlreadyApplied';
+    protected ?string $phpType = 'boolean';
 
-  protected ?string $phpType = 'boolean';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::aux
+             * line : 397922
+             * type : boolean
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::aux.XMP-aux:DistortionCorrectionAlreadyApplied',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::aux
-       * line : 397922
-       * type : boolean
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::aux.XMP-aux:DistortionCorrectionAlreadyApplied',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

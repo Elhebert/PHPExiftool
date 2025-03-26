@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFPointAtShutterRelease extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFPointAtShutterRelease';
 
-  protected string $id = 'Sony:AFPointAtShutterRelease';
+    protected string $name = 'AFPointAtShutterRelease';
 
-  protected string $name = 'AFPointAtShutterRelease';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::AFInfo
+             * line : 341362
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFInfo.Sony:AFPointAtShutterRelease',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::AFInfo
+             * line : 341444
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFInfo.Sony:AFPointAtShutterRelease',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::AFInfo
+             * line : 342457
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFInfo.Sony:AFPointAtShutterRelease',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::AFInfo
-       * line : 341362
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFInfo.Sony:AFPointAtShutterRelease',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::AFInfo
-       * line : 341444
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFInfo.Sony:AFPointAtShutterRelease',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::AFInfo
-       * line : 342457
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFInfo.Sony:AFPointAtShutterRelease',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

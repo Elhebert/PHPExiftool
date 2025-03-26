@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedImageByteOrder extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:EmbeddedImageByteOrder';
 
-  protected string $id = 'FLIR:EmbeddedImageByteOrder';
+    protected string $name = 'EmbeddedImageByteOrder';
 
-  protected string $name = 'EmbeddedImageByteOrder';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::EmbeddedImage
+             * line : 122405
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImageByteOrder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::EmbeddedImage
-       * line : 122405
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImageByteOrder',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

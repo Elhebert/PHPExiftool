@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensModel extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:LensModel';
 
-  protected string $id = 'Olympus:LensModel';
+    protected string $name = 'LensModel';
 
-  protected string $name = 'LensModel';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Equipment
+             * line : 254439
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::Equipment.Olympus:LensModel',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::prms
+             * line : 263251
+             * type : string
+             * writable : false
+             * count : 32
+             * flags : permanent
+             */
+            'id' => 'Olympus::prms.Olympus:LensModel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Equipment
-       * line : 254439
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::Equipment.Olympus:LensModel',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::prms
-       * line : 263251
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : permanent
-       */
-      'id' => 'Olympus::prms.Olympus:LensModel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BatteryVoltage extends AbstractTagGroup
 {
+    protected string $id = 'Sony:BatteryVoltage';
 
-  protected string $id = 'Sony:BatteryVoltage';
+    protected string $name = 'BatteryVoltage';
 
-  protected string $name = 'BatteryVoltage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::ExtraInfo
+             * line : 352128
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Sony::ExtraInfo.Sony:BatteryVoltage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::ExtraInfo
-       * line : 352128
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Sony::ExtraInfo.Sony:BatteryVoltage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 36;
-
+    protected int $flags = 36;
 }

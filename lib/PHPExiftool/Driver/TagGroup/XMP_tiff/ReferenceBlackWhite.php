@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReferenceBlackWhite extends AbstractTagGroup
 {
+    protected string $id = 'XMP-tiff:ReferenceBlackWhite';
 
-  protected string $id = 'XMP-tiff:ReferenceBlackWhite';
+    protected string $name = 'ReferenceBlackWhite';
 
-  protected string $name = 'ReferenceBlackWhite';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::tiff
+             * line : 412238
+             * type : rational
+             * writable : true
+             * count :
+             * flags : list,seq
+             */
+            'id' => 'XMP::tiff.XMP-tiff:ReferenceBlackWhite',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::tiff
-       * line : 412238
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : list,seq
-       */
-      'id' => 'XMP::tiff.XMP-tiff:ReferenceBlackWhite',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

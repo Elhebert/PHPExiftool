@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LargestPacketDuration extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:LargestPacketDuration';
 
-  protected string $id = 'QuickTime:LargestPacketDuration';
+    protected string $name = 'LargestPacketDuration';
 
-  protected string $name = 'LargestPacketDuration';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintTrackInfo
+             * line : 313767
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintTrackInfo.QuickTime:LargestPacketDuration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintTrackInfo
-       * line : 313767
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintTrackInfo.QuickTime:LargestPacketDuration',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class APEVersion extends AbstractTagGroup
 {
+    protected string $id = 'MAC:APEVersion';
 
-  protected string $id = 'MAC:APEVersion';
+    protected string $name = 'APEVersion';
 
-  protected string $name = 'APEVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : APE::OldHeader
+             * line : 405
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'APE::OldHeader.MAC:APEVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : APE::OldHeader
-       * line : 405
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'APE::OldHeader.MAC:APEVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SharpnessUserDef2 extends AbstractTagGroup
 {
+    protected string $id = 'Canon:SharpnessUserDef2';
 
-  protected string $id = 'Canon:SharpnessUserDef2';
+    protected string $name = 'SharpnessUserDef2';
 
-  protected string $name = 'SharpnessUserDef2';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfo5D
+             * line : 34521
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo5D.Canon:SharpnessUserDef2',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::PSInfo
+             * line : 67726
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::PSInfo.Canon:SharpnessUserDef2',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::PSInfo2
+             * line : 68904
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::PSInfo2.Canon:SharpnessUserDef2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfo5D
-       * line : 34521
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo5D.Canon:SharpnessUserDef2',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::PSInfo
-       * line : 67726
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::PSInfo.Canon:SharpnessUserDef2',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::PSInfo2
-       * line : 68904
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::PSInfo2.Canon:SharpnessUserDef2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PostScriptFontName extends AbstractTagGroup
 {
+    protected string $id = 'Font:PostScriptFontName';
 
-  protected string $id = 'Font:PostScriptFontName';
+    protected string $name = 'PostScriptFontName';
 
-  protected string $name = 'PostScriptFontName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::Main
+             * line : 127825
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::Main.Font:PostScriptFontName',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Font::Name
+             * line : 127878
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::Name.Font:PostScriptFontName',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Font::Name
+             * line : 127944
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::Name.Font:PostScriptFontName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::Main
-       * line : 127825
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::Main.Font:PostScriptFontName',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Font::Name
-       * line : 127878
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::Name.Font:PostScriptFontName',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Font::Name
-       * line : 127944
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::Name.Font:PostScriptFontName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

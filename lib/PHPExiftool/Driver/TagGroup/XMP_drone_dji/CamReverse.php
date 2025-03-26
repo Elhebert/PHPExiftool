@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CamReverse extends AbstractTagGroup
 {
+    protected string $id = 'XMP-drone-dji:CamReverse';
 
-  protected string $id = 'XMP-drone-dji:CamReverse';
+    protected string $name = 'CamReverse';
 
-  protected string $name = 'CamReverse';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::XMP
+             * line : 104617
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'DJI::XMP.XMP-drone-dji:CamReverse',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::XMP
-       * line : 104617
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'DJI::XMP.XMP-drone-dji:CamReverse',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

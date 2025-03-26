@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LayerBlendModes extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:LayerBlendModes';
 
-  protected string $id = 'Photoshop:LayerBlendModes';
+    protected string $name = 'LayerBlendModes';
 
-  protected string $name = 'LayerBlendModes';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Layers
+             * line : 305206
+             * type : undef
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'Photoshop::Layers.Photoshop:LayerBlendModes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Layers
-       * line : 305206
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'Photoshop::Layers.Photoshop:LayerBlendModes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

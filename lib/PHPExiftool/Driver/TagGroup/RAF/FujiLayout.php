@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FujiLayout extends AbstractTagGroup
 {
+    protected string $id = 'RAF:FujiLayout';
 
-  protected string $id = 'RAF:FujiLayout';
+    protected string $name = 'FujiLayout';
 
-  protected string $name = 'FujiLayout';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::RAF
+             * line : 131086
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FujiFilm::RAF.RAF:FujiLayout',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::RAF
-       * line : 131086
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FujiFilm::RAF.RAF:FujiLayout',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

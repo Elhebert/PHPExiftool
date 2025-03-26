@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class YResolution extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:YResolution';
 
-  protected string $id = 'IFD0:YResolution';
+    protected string $name = 'YResolution';
 
-  protected string $name = 'YResolution';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 110972
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags : mandatory
+             */
+            'id' => 'Exif::Main.IFD0:YResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 110972
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : mandatory
-       */
-      'id' => 'Exif::Main.IFD0:YResolution',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2176;
-
+    protected int $flags = 2176;
 }

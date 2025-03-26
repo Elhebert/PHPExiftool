@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Samsung_Type2_0xa056 extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:Samsung_Type2_0xa056';
 
-  protected string $id = 'Samsung:Samsung_Type2_0xa056';
+    protected string $name = 'Samsung_Type2_0xa056';
 
-  protected string $name = 'Samsung_Type2_0xa056';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335633
+             * type : int32s
+             * writable : true
+             * count : 8
+             * flags : permanent,unknown
+             */
+            'id' => 'Samsung::Type2.Samsung:Samsung_Type2_0xa056',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335633
-       * type : int32s
-       * writable : true
-       * count : 8
-       * flags : permanent,unknown
-       */
-      'id' => 'Samsung::Type2.Samsung:Samsung_Type2_0xa056',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 8;
 
-  protected int $count = 8;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

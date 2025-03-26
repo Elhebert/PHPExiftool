@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SigmaRowNumberWhichRowsWereUsed extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:SigmaRowNumberWhichRowsWereUsed';
 
-  protected string $id = 'DICOM:SigmaRowNumberWhichRowsWereUsed';
+    protected string $name = 'SigmaRowNumberWhichRowsWereUsed';
 
-  protected string $name = 'SigmaRowNumberWhichRowsWereUsed';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 100576
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:SigmaRowNumberWhichRowsWereUsed',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 100576
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:SigmaRowNumberWhichRowsWereUsed',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

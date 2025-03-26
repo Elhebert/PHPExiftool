@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FacesDetected extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FacesDetected';
 
-  protected string $id = 'Sony:FacesDetected';
+    protected string $name = 'FacesDetected';
 
-  protected string $name = 'FacesDetected';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::FaceInfo
+             * line : 352617
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::FaceInfo.Sony:FacesDetected',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::FaceInfoA
+             * line : 352792
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::FaceInfoA.Sony:FacesDetected',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::ShotInfo
+             * line : 362032
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::ShotInfo.Sony:FacesDetected',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::Tag900b
+             * line : 379014
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag900b.Sony:FacesDetected',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::FaceInfo
-       * line : 352617
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::FaceInfo.Sony:FacesDetected',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::FaceInfoA
-       * line : 352792
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::FaceInfoA.Sony:FacesDetected',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::ShotInfo
-       * line : 362032
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::ShotInfo.Sony:FacesDetected',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::Tag900b
-       * line : 379014
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag900b.Sony:FacesDetected',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

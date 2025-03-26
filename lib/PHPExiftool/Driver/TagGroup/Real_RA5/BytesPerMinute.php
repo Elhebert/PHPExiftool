@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BytesPerMinute extends AbstractTagGroup
 {
+    protected string $id = 'Real-RA5:BytesPerMinute';
 
-  protected string $id = 'Real-RA5:BytesPerMinute';
+    protected string $name = 'BytesPerMinute';
 
-  protected string $name = 'BytesPerMinute';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::AudioV5
+             * line : 330022
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::AudioV5.Real-RA5:BytesPerMinute',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::AudioV5
-       * line : 330022
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::AudioV5.Real-RA5:BytesPerMinute',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

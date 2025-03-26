@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LateralSpreadingDeviceSettingsSeq extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:LateralSpreadingDeviceSettingsSeq';
 
-  protected string $id = 'DICOM:LateralSpreadingDeviceSettingsSeq';
+    protected string $name = 'LateralSpreadingDeviceSettingsSeq';
 
-  protected string $name = 'LateralSpreadingDeviceSettingsSeq';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 103864
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:LateralSpreadingDeviceSettingsSeq',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 103864
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:LateralSpreadingDeviceSettingsSeq',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

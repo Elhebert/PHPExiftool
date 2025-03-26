@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UserComment extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:UserComment';
 
-  protected string $id = 'CanonRaw:UserComment';
+    protected string $name = 'UserComment';
 
-  protected string $name = 'UserComment';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 78658
+             * type : string
+             * writable : true
+             * count : 256
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:UserComment',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 78658
-       * type : string
-       * writable : true
-       * count : 256
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:UserComment',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 256;
 
-  protected int $count = 256;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

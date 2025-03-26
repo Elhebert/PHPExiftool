@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocusFrameSize extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FocusFrameSize';
 
-  protected string $id = 'Sony:FocusFrameSize';
+    protected string $name = 'FocusFrameSize';
 
-  protected string $name = 'FocusFrameSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 355933
+             * type : int16u
+             * writable : false
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:FocusFrameSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 355933
-       * type : int16u
-       * writable : false
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:FocusFrameSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

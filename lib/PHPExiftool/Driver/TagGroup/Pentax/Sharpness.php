@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Sharpness extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:Sharpness';
 
-  protected string $id = 'Pentax:Sharpness';
+    protected string $name = 'Sharpness';
 
-  protected string $name = 'Sharpness';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 298065
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:Sharpness',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Pentax::Type2
+             * line : 302707
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::Type2.Pentax:Sharpness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 298065
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:Sharpness',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Pentax::Type2
-       * line : 302707
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::Type2.Pentax:Sharpness',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

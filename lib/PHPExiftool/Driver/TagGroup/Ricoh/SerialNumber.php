@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:SerialNumber';
 
-  protected string $id = 'Ricoh:SerialNumber';
+    protected string $name = 'SerialNumber';
 
-  protected string $name = 'SerialNumber';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::Main
+             * line : 332400
+             * type : undef
+             * writable : true
+             * count : 16
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Main.Ricoh:SerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::Main
-       * line : 332400
-       * type : undef
-       * writable : true
-       * count : 16
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Main.Ricoh:SerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 16;
 
-  protected int $count = 16;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

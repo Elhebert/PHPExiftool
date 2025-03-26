@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WBAdjRedBalance extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:WBAdjRedBalance';
 
-  protected string $id = 'NikonCapture:WBAdjRedBalance';
+    protected string $name = 'WBAdjRedBalance';
 
-  protected string $name = 'WBAdjRedBalance';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::WBAdjData
+             * line : 211578
+             * type : double
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::WBAdjData.NikonCapture:WBAdjRedBalance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::WBAdjData
-       * line : 211578
-       * type : double
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::WBAdjData.NikonCapture:WBAdjRedBalance',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraType extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:CameraType';
 
-  protected string $id = 'Leaf:CameraType';
+    protected string $name = 'CameraType';
 
-  protected string $name = 'CameraType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::CameraProfile
+             * line : 161590
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::CameraProfile.Leaf:CameraType',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Leaf::CameraSetup
+             * line : 161617
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::CameraSetup.Leaf:CameraType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::CameraProfile
-       * line : 161590
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::CameraProfile.Leaf:CameraType',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Leaf::CameraSetup
-       * line : 161617
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::CameraSetup.Leaf:CameraType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SonyTimeMinSec extends AbstractTagGroup
 {
+    protected string $id = 'Sony:SonyTimeMinSec';
 
-  protected string $id = 'Sony:SonyTimeMinSec';
+    protected string $name = 'SonyTimeMinSec';
 
-  protected string $name = 'SonyTimeMinSec';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Tag9050b
+             * line : 381439
+             * type : undef
+             * writable : false
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Sony::Tag9050b.Sony:SonyTimeMinSec',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Tag9050b
-       * line : 381439
-       * type : undef
-       * writable : false
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Sony::Tag9050b.Sony:SonyTimeMinSec',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

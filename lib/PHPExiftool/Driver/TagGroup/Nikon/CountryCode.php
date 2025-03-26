@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CountryCode extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:CountryCode';
 
-  protected string $id = 'Nikon:CountryCode';
+    protected string $name = 'CountryCode';
 
-  protected string $name = 'CountryCode';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::LocationInfo
+             * line : 196282
+             * type : undef
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Nikon::LocationInfo.Nikon:CountryCode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::LocationInfo
-       * line : 196282
-       * type : undef
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Nikon::LocationInfo.Nikon:CountryCode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

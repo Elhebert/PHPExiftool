@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImmediateDataBytes extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ImmediateDataBytes';
 
-  protected string $id = 'QuickTime:ImmediateDataBytes';
+    protected string $name = 'ImmediateDataBytes';
 
-  protected string $name = 'ImmediateDataBytes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintTrackInfo
+             * line : 313764
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintTrackInfo.QuickTime:ImmediateDataBytes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintTrackInfo
-       * line : 313764
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintTrackInfo.QuickTime:ImmediateDataBytes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

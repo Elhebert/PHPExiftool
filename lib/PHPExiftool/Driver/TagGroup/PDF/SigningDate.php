@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SigningDate extends AbstractTagGroup
 {
+    protected string $id = 'PDF:SigningDate';
 
-  protected string $id = 'PDF:SigningDate';
+    protected string $name = 'SigningDate';
 
-  protected string $name = 'SigningDate';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Signature
+             * line : 264360
+             * type : date
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PDF::Signature.PDF:SigningDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Signature
-       * line : 264360
-       * type : date
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PDF::Signature.PDF:SigningDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

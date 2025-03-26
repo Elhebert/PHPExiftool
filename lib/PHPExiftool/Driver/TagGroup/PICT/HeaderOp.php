@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HeaderOp extends AbstractTagGroup
 {
+    protected string $id = 'PICT:HeaderOp';
 
-  protected string $id = 'PICT:HeaderOp';
+    protected string $name = 'HeaderOp';
 
-  protected string $name = 'HeaderOp';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 265074
+             * type : int16u
+             * writable : false
+             * count : 12
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:HeaderOp',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 265074
-       * type : int16u
-       * writable : false
-       * count : 12
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:HeaderOp',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 12;
-
+    protected int $count = 12;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class YCbCrSubSampling extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:YCbCrSubSampling';
 
-  protected string $id = 'IFD0:YCbCrSubSampling';
+    protected string $name = 'YCbCrSubSampling';
 
-  protected string $name = 'YCbCrSubSampling';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112508
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:YCbCrSubSampling',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112508
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:YCbCrSubSampling',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

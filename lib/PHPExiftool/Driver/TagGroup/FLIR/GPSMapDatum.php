@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSMapDatum extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:GPSMapDatum';
 
-  protected string $id = 'FLIR:GPSMapDatum';
+    protected string $name = 'GPSMapDatum';
 
-  protected string $name = 'GPSMapDatum';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::GPSInfo
+             * line : 123103
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'FLIR::GPSInfo.FLIR:GPSMapDatum',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::GPSInfo
-       * line : 123103
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'FLIR::GPSInfo.FLIR:GPSMapDatum',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

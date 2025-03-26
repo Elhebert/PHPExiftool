@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IssueTimeOfImagingServiceRequest extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:IssueTimeOfImagingServiceRequest';
 
-  protected string $id = 'DICOM:IssueTimeOfImagingServiceRequest';
+    protected string $name = 'IssueTimeOfImagingServiceRequest';
 
-  protected string $name = 'IssueTimeOfImagingServiceRequest';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 99893
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IssueTimeOfImagingServiceRequest',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 99893
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IssueTimeOfImagingServiceRequest',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

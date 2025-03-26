@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensCorrectionSettings extends AbstractTagGroup
 {
+    protected string $id = 'XMP-digiKam:LensCorrectionSettings';
 
-  protected string $id = 'XMP-digiKam:LensCorrectionSettings';
+    protected string $name = 'LensCorrectionSettings';
 
-  protected string $name = 'LensCorrectionSettings';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::digiKam
+             * line : 405052
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::digiKam.XMP-digiKam:LensCorrectionSettings',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::digiKam
-       * line : 405052
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::digiKam.XMP-digiKam:LensCorrectionSettings',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

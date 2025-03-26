@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AEXv extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:AEXv';
 
-  protected string $id = 'Pentax:AEXv';
+    protected string $name = 'AEXv';
 
-  protected string $name = 'AEXv';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::AEInfo
+             * line : 282690
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::AEInfo.Pentax:AEXv',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Pentax::AEInfo2
+             * line : 283048
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::AEInfo2.Pentax:AEXv',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::AEInfo
-       * line : 282690
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::AEInfo.Pentax:AEXv',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Pentax::AEInfo2
-       * line : 283048
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::AEInfo2.Pentax:AEXv',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

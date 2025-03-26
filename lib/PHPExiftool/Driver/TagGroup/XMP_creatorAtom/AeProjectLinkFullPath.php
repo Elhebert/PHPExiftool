@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AeProjectLinkFullPath extends AbstractTagGroup
 {
+    protected string $id = 'XMP-creatorAtom:AeProjectLinkFullPath';
 
-  protected string $id = 'XMP-creatorAtom:AeProjectLinkFullPath';
+    protected string $name = 'AeProjectLinkFullPath';
 
-  protected string $name = 'AeProjectLinkFullPath';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::creatorAtom
+             * line : 401459
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::creatorAtom.XMP-creatorAtom:AeProjectLinkFullPath',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::creatorAtom
-       * line : 401459
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::creatorAtom.XMP-creatorAtom:AeProjectLinkFullPath',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

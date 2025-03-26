@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureStylePC extends AbstractTagGroup
 {
+    protected string $id = 'Canon:PictureStylePC';
 
-  protected string $id = 'Canon:PictureStylePC';
+    protected string $name = 'PictureStylePC';
 
-  protected string $name = 'PictureStylePC';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::Main
+             * line : 66214
+             * type : int16u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Canon::Main.Canon:PictureStylePC',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::Main
-       * line : 66214
-       * type : int16u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Canon::Main.Canon:PictureStylePC',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

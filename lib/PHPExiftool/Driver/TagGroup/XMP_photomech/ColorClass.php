@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorClass extends AbstractTagGroup
 {
+    protected string $id = 'XMP-photomech:ColorClass';
 
-  protected string $id = 'XMP-photomech:ColorClass';
+    protected string $name = 'ColorClass';
 
-  protected string $name = 'ColorClass';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoMechanic::XMP
+             * line : 304875
+             * type : integer
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoMechanic::XMP.XMP-photomech:ColorClass',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoMechanic::XMP
-       * line : 304875
-       * type : integer
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoMechanic::XMP.XMP-photomech:ColorClass',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

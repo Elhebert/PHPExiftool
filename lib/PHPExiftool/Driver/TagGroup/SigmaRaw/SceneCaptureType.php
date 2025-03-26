@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SceneCaptureType extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:SceneCaptureType';
 
-  protected string $id = 'SigmaRaw:SceneCaptureType';
+    protected string $name = 'SceneCaptureType';
 
-  protected string $name = 'SceneCaptureType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Header
+             * line : 339402
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header.SigmaRaw:SceneCaptureType',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : SigmaRaw::Properties
+             * line : 339795
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Properties.SigmaRaw:SceneCaptureType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Header
-       * line : 339402
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header.SigmaRaw:SceneCaptureType',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : SigmaRaw::Properties
-       * line : 339795
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Properties.SigmaRaw:SceneCaptureType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 32;
-
+    protected int $count = 32;
 }

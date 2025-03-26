@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CanonFlashInfo extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:CanonFlashInfo';
 
-  protected string $id = 'CanonRaw:CanonFlashInfo';
+    protected string $name = 'CanonFlashInfo';
 
-  protected string $name = 'CanonFlashInfo';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 78764
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:CanonFlashInfo',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 78764
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:CanonFlashInfo',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

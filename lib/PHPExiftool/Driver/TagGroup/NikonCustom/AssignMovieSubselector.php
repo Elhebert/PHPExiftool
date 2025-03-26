@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AssignMovieSubselector extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:AssignMovieSubselector';
 
-  protected string $id = 'NikonCustom:AssignMovieSubselector';
+    protected string $name = 'AssignMovieSubselector';
 
-  protected string $name = 'AssignMovieSubselector';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD5
+             * line : 219278
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD5.NikonCustom:AssignMovieSubselector',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonCustom::SettingsD500
+             * line : 221738
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMovieSubselector',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : NikonCustom::SettingsD850
+             * line : 233651
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD850.NikonCustom:AssignMovieSubselector',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD5
-       * line : 219278
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD5.NikonCustom:AssignMovieSubselector',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonCustom::SettingsD500
-       * line : 221738
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD500.NikonCustom:AssignMovieSubselector',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : NikonCustom::SettingsD850
-       * line : 233651
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD850.NikonCustom:AssignMovieSubselector',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

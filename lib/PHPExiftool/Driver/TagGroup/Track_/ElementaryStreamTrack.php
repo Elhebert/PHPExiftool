@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ElementaryStreamTrack extends AbstractTagGroup
 {
+    protected string $id = 'Track#:ElementaryStreamTrack';
 
-  protected string $id = 'Track#:ElementaryStreamTrack';
+    protected string $name = 'ElementaryStreamTrack';
 
-  protected string $name = 'ElementaryStreamTrack';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::TrackRef
+             * line : 325131
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::TrackRef.Track#:ElementaryStreamTrack',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::TrackRef
-       * line : 325131
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::TrackRef.Track#:ElementaryStreamTrack',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

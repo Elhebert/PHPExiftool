@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FaceDetectFrameCrop extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:FaceDetectFrameCrop';
 
-  protected string $id = 'Olympus:FaceDetectFrameCrop';
+    protected string $name = 'FaceDetectFrameCrop';
 
-  protected string $name = 'FaceDetectFrameCrop';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::ImageProcessing
+             * line : 255567
+             * type : int16s
+             * writable : true
+             * count : 12
+             * flags : permanent
+             */
+            'id' => 'Olympus::ImageProcessing.Olympus:FaceDetectFrameCrop',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::ImageProcessing
-       * line : 255567
-       * type : int16s
-       * writable : true
-       * count : 12
-       * flags : permanent
-       */
-      'id' => 'Olympus::ImageProcessing.Olympus:FaceDetectFrameCrop',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 12;
 
-  protected int $count = 12;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

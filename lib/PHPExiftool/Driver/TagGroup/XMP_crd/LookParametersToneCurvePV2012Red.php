@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LookParametersToneCurvePV2012Red extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:LookParametersToneCurvePV2012Red';
 
-  protected string $id = 'XMP-crd:LookParametersToneCurvePV2012Red';
+    protected string $name = 'LookParametersToneCurvePV2012Red';
 
-  protected string $name = 'LookParametersToneCurvePV2012Red';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 399589
+             * type : string
+             * writable : true
+             * count :
+             * flags : avoid,flattened,list,seq
+             */
+            'id' => 'XMP::crd.XMP-crd:LookParametersToneCurvePV2012Red',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 399589
-       * type : string
-       * writable : true
-       * count : 
-       * flags : avoid,flattened,list,seq
-       */
-      'id' => 'XMP::crd.XMP-crd:LookParametersToneCurvePV2012Red',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2625;
-
+    protected int $flags = 2625;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Colorimetry extends AbstractTagGroup
 {
+    protected string $id = 'DV:Colorimetry';
 
-  protected string $id = 'DV:Colorimetry';
+    protected string $name = 'Colorimetry';
 
-  protected string $name = 'Colorimetry';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DV::Main
+             * line : 105960
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DV::Main.DV:Colorimetry',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DV::Main
-       * line : 105960
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DV::Main.DV:Colorimetry',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

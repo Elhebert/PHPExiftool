@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CustomWB_RGBLevels extends AbstractTagGroup
 {
+    protected string $id = 'Sony:CustomWB_RGBLevels';
 
-  protected string $id = 'Sony:CustomWB_RGBLevels';
+    protected string $name = 'CustomWB_RGBLevels';
 
-  protected string $name = 'CustomWB_RGBLevels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings2
+             * line : 348450
+             * type : int16u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings2.Sony:CustomWB_RGBLevels',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::CameraSettings3
+             * line : 350571
+             * type : int16uRev
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings3.Sony:CustomWB_RGBLevels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings2
-       * line : 348450
-       * type : int16u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings2.Sony:CustomWB_RGBLevels',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::CameraSettings3
-       * line : 350571
-       * type : int16uRev
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings3.Sony:CustomWB_RGBLevels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RollingShutterSkewTime extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:RollingShutterSkewTime';
 
-  protected string $id = 'QuickTime:RollingShutterSkewTime';
+    protected string $name = 'RollingShutterSkewTime';
 
-  protected string $name = 'RollingShutterSkewTime';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::camm1
+             * line : 326322
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::camm1.QuickTime:RollingShutterSkewTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::camm1
-       * line : 326322
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::camm1.QuickTime:RollingShutterSkewTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

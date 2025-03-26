@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RBLevelsAuto extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:WB_RBLevelsAuto';
 
-  protected string $id = 'Nikon:WB_RBLevelsAuto';
+    protected string $name = 'WB_RBLevelsAuto';
 
-  protected string $name = 'WB_RBLevelsAuto';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ColorBalanceA
+             * line : 191977
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent,unsafe
+             */
+            'id' => 'Nikon::ColorBalanceA.Nikon:WB_RBLevelsAuto',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ColorBalanceA
-       * line : 191977
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent,unsafe
-       */
-      'id' => 'Nikon::ColorBalanceA.Nikon:WB_RBLevelsAuto',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2068;
-
+    protected int $flags = 2068;
 }

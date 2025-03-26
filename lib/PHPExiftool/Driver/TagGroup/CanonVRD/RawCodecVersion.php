@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawCodecVersion extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:RawCodecVersion';
 
-  protected string $id = 'CanonVRD:RawCodecVersion';
+    protected string $name = 'RawCodecVersion';
 
-  protected string $name = 'RawCodecVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::IHL
+             * line : 82077
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::IHL.CanonVRD:RawCodecVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::IHL
-       * line : 82077
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::IHL.CanonVRD:RawCodecVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

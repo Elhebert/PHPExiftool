@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SRGBRendering extends AbstractTagGroup
 {
+    protected string $id = 'PNG:SRGBRendering';
 
-  protected string $id = 'PNG:SRGBRendering';
+    protected string $name = 'SRGBRendering';
 
-  protected string $name = 'SRGBRendering';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::Main
+             * line : 272606
+             * type : ?
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'PNG::Main.PNG:SRGBRendering',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::Main
-       * line : 272606
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'PNG::Main.PNG:SRGBRendering',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

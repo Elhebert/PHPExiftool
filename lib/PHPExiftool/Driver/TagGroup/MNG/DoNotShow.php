@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DoNotShow extends AbstractTagGroup
 {
+    protected string $id = 'MNG:DoNotShow';
 
-  protected string $id = 'MNG:DoNotShow';
+    protected string $name = 'DoNotShow';
 
-  protected string $name = 'DoNotShow';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::CloneObject
+             * line : 164722
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::CloneObject.MNG:DoNotShow',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::DefineObject
+             * line : 164750
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::DefineObject.MNG:DoNotShow',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::CloneObject
-       * line : 164722
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::CloneObject.MNG:DoNotShow',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::DefineObject
-       * line : 164750
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::DefineObject.MNG:DoNotShow',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

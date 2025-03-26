@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioMinimumNumberInputPackets extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AudioMinimumNumberInputPackets';
 
-  protected string $id = 'QuickTime:AudioMinimumNumberInputPackets';
+    protected string $name = 'AudioMinimumNumberInputPackets';
 
-  protected string $name = 'AudioMinimumNumberInputPackets';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::EncodingParams
+             * line : 312664
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::EncodingParams.QuickTime:AudioMinimumNumberInputPackets',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::EncodingParams
-       * line : 312664
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::EncodingParams.QuickTime:AudioMinimumNumberInputPackets',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

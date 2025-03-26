@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGBLevels extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:WB_RGBLevels';
 
-  protected string $id = 'PhaseOne:WB_RGBLevels';
+    protected string $name = 'WB_RGBLevels';
 
-  protected string $name = 'WB_RGBLevels';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::Main
+             * line : 303226
+             * type : float
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'PhaseOne::Main.PhaseOne:WB_RGBLevels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::Main
-       * line : 303226
-       * type : float
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'PhaseOne::Main.PhaseOne:WB_RGBLevels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

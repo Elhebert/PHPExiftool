@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSVelocityNorth extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GPSVelocityNorth';
 
-  protected string $id = 'QuickTime:GPSVelocityNorth';
+    protected string $name = 'GPSVelocityNorth';
 
-  protected string $name = 'GPSVelocityNorth';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::camm6
+             * line : 326540
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::camm6.QuickTime:GPSVelocityNorth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::camm6
-       * line : 326540
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::camm6.QuickTime:GPSVelocityNorth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WBAdjRGGBLevels extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:WBAdjRGGBLevels';
 
-  protected string $id = 'CanonVRD:WBAdjRGGBLevels';
+    protected string $name = 'WBAdjRGGBLevels';
 
-  protected string $name = 'WBAdjRGGBLevels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DR4
+             * line : 80396
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::DR4.CanonVRD:WBAdjRGGBLevels',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonVRD::Ver1
+             * line : 82181
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver1.CanonVRD:WBAdjRGGBLevels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DR4
-       * line : 80396
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::DR4.CanonVRD:WBAdjRGGBLevels',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonVRD::Ver1
-       * line : 82181
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver1.CanonVRD:WBAdjRGGBLevels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

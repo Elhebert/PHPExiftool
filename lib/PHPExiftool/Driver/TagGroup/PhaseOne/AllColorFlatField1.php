@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AllColorFlatField1 extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:AllColorFlatField1';
 
-  protected string $id = 'PhaseOne:AllColorFlatField1';
+    protected string $name = 'AllColorFlatField1';
 
-  protected string $name = 'AllColorFlatField1';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::SensorCalibration
+             * line : 303588
+             * type : undef
+             * writable : false
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'PhaseOne::SensorCalibration.PhaseOne:AllColorFlatField1',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::SensorCalibration
-       * line : 303588
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'PhaseOne::SensorCalibration.PhaseOne:AllColorFlatField1',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 38;
-
+    protected int $flags = 38;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DistortionCorrectionSetting extends AbstractTagGroup
 {
+    protected string $id = 'Canon:DistortionCorrectionSetting';
 
-  protected string $id = 'Canon:DistortionCorrectionSetting';
+    protected string $name = 'DistortionCorrectionSetting';
 
-  protected string $name = 'DistortionCorrectionSetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::VignettingCorr2
+             * line : 71228
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::VignettingCorr2.Canon:DistortionCorrectionSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::VignettingCorr2
-       * line : 71228
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::VignettingCorr2.Canon:DistortionCorrectionSetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Dialect extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:Dialect';
 
-  protected string $id = 'RIFF:Dialect';
+    protected string $name = 'Dialect';
 
-  protected string $name = 'Dialect';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::CSET
+             * line : 327832
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::CSET.RIFF:Dialect',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::CSET
-       * line : 327832
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::CSET.RIFF:Dialect',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FaceDetectFrameSize extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:FaceDetectFrameSize';
 
-  protected string $id = 'Nikon:FaceDetectFrameSize';
+    protected string $name = 'FaceDetectFrameSize';
 
-  protected string $name = 'FaceDetectFrameSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::FaceDetect
+             * line : 192224
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Nikon::FaceDetect.Nikon:FaceDetectFrameSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::FaceDetect
-       * line : 192224
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Nikon::FaceDetect.Nikon:FaceDetectFrameSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExtenderMagnification extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Extender:ExtenderMagnification';
 
-  protected string $id = 'MIE-Extender:ExtenderMagnification';
+    protected string $name = 'ExtenderMagnification';
 
-  protected string $name = 'ExtenderMagnification';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Extender
+             * line : 163340
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Extender.MIE-Extender:ExtenderMagnification',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Extender
-       * line : 163340
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Extender.MIE-Extender:ExtenderMagnification',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

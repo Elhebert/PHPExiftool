@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class URL extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:URL';
 
-  protected string $id = 'Photoshop:URL';
+    protected string $name = 'URL';
 
-  protected string $name = 'URL';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Main
+             * line : 305513
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::Main.Photoshop:URL',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Main
-       * line : 305513
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::Main.Photoshop:URL',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

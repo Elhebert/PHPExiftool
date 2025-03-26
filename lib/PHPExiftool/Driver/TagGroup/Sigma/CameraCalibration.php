@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraCalibration extends AbstractTagGroup
 {
+    protected string $id = 'Sigma:CameraCalibration';
 
-  protected string $id = 'Sigma:CameraCalibration';
+    protected string $name = 'CameraCalibration';
 
-  protected string $name = 'CameraCalibration';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sigma::Main
+             * line : 339217
+             * type : float
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'Sigma::Main.Sigma:CameraCalibration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sigma::Main
-       * line : 339217
-       * type : float
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'Sigma::Main.Sigma:CameraCalibration',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

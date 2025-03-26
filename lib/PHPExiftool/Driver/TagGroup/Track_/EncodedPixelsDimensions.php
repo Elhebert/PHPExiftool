@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EncodedPixelsDimensions extends AbstractTagGroup
 {
+    protected string $id = 'Track#:EncodedPixelsDimensions';
 
-  protected string $id = 'Track#:EncodedPixelsDimensions';
+    protected string $name = 'EncodedPixelsDimensions';
 
-  protected string $name = 'EncodedPixelsDimensions';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::TrackAperture
+             * line : 325043
+             * type : fixed32u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::TrackAperture.Track#:EncodedPixelsDimensions',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::TrackAperture
-       * line : 325043
-       * type : fixed32u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::TrackAperture.Track#:EncodedPixelsDimensions',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

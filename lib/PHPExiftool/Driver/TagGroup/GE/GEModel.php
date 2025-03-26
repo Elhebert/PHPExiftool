@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GEModel extends AbstractTagGroup
 {
+    protected string $id = 'GE:GEModel';
 
-  protected string $id = 'GE:GEModel';
+    protected string $name = 'GEModel';
 
-  protected string $name = 'GEModel';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GE::Main
+             * line : 131220
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'GE::Main.GE:GEModel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GE::Main
-       * line : 131220
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'GE::Main.GE:GEModel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

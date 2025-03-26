@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ISOSpeedRange extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:ISOSpeedRange';
 
-  protected string $id = 'CanonCustom:ISOSpeedRange';
+    protected string $name = 'ISOSpeedRange';
 
-  protected string $name = 'ISOSpeedRange';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72490
+             * type : int32s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:ISOSpeedRange',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72490
-       * type : int32s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:ISOSpeedRange',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

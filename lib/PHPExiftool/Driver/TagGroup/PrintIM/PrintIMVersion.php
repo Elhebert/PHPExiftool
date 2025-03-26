@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PrintIMVersion extends AbstractTagGroup
 {
+    protected string $id = 'PrintIM:PrintIMVersion';
 
-  protected string $id = 'PrintIM:PrintIMVersion';
+    protected string $name = 'PrintIMVersion';
 
-  protected string $name = 'PrintIMVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PrintIM::Main
+             * line : 306121
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PrintIM::Main.PrintIM:PrintIMVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PrintIM::Main
-       * line : 306121
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PrintIM::Main.PrintIM:PrintIMVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

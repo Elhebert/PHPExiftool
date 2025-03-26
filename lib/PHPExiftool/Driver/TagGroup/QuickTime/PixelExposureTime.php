@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PixelExposureTime extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:PixelExposureTime';
 
-  protected string $id = 'QuickTime:PixelExposureTime';
+    protected string $name = 'PixelExposureTime';
 
-  protected string $name = 'PixelExposureTime';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::camm1
+             * line : 326319
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::camm1.QuickTime:PixelExposureTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::camm1
-       * line : 326319
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::camm1.QuickTime:PixelExposureTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

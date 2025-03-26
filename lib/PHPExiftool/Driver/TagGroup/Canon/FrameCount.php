@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FrameCount extends AbstractTagGroup
 {
+    protected string $id = 'Canon:FrameCount';
 
-  protected string $id = 'Canon:FrameCount';
+    protected string $name = 'FrameCount';
 
-  protected string $name = 'FrameCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::MovieInfo
+             * line : 66861
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::MovieInfo.Canon:FrameCount',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::MovieInfo
+             * line : 66865
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::MovieInfo.Canon:FrameCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::MovieInfo
-       * line : 66861
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::MovieInfo.Canon:FrameCount',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::MovieInfo
-       * line : 66865
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::MovieInfo.Canon:FrameCount',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

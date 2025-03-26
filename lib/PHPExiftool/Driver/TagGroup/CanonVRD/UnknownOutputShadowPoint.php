@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownOutputShadowPoint extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:UnknownOutputShadowPoint';
 
-  protected string $id = 'CanonVRD:UnknownOutputShadowPoint';
+    protected string $name = 'UnknownOutputShadowPoint';
 
-  protected string $name = 'UnknownOutputShadowPoint';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Ver2
+             * line : 83097
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : unknown
+             */
+            'id' => 'CanonVRD::Ver2.CanonVRD:UnknownOutputShadowPoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Ver2
-       * line : 83097
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'CanonVRD::Ver2.CanonVRD:UnknownOutputShadowPoint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2080;
-
+    protected int $flags = 2080;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioType extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:AudioType';
 
-  protected string $id = 'IPTC:AudioType';
+    protected string $name = 'AudioType';
 
-  protected string $name = 'AudioType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150531
+             * type : string
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:AudioType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150531
-       * type : string
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:AudioType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

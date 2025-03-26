@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGGBLevelsFluorescentW extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:WB_RGGBLevelsFluorescentW';
 
-  protected string $id = 'Pentax:WB_RGGBLevelsFluorescentW';
+    protected string $name = 'WB_RGGBLevelsFluorescentW';
 
-  protected string $name = 'WB_RGGBLevelsFluorescentW';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300791
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsFluorescentW',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Pentax::WBLevels
+             * line : 303092
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsFluorescentW',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300791
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:WB_RGGBLevelsFluorescentW',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Pentax::WBLevels
-       * line : 303092
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Pentax::WBLevels.Pentax:WB_RGGBLevelsFluorescentW',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

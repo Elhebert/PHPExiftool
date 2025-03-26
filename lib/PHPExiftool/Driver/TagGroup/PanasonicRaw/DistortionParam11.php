@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DistortionParam11 extends AbstractTagGroup
 {
+    protected string $id = 'PanasonicRaw:DistortionParam11';
 
-  protected string $id = 'PanasonicRaw:DistortionParam11';
+    protected string $name = 'DistortionParam11';
 
-  protected string $name = 'DistortionParam11';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PanasonicRaw::DistortionInfo
+             * line : 280196
+             * type : int16s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PanasonicRaw::DistortionInfo.PanasonicRaw:DistortionParam11',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PanasonicRaw::DistortionInfo
-       * line : 280196
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PanasonicRaw::DistortionInfo.PanasonicRaw:DistortionParam11',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

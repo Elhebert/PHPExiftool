@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorFilter extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:ColorFilter';
 
-  protected string $id = 'MinoltaRaw:ColorFilter';
+    protected string $name = 'ColorFilter';
 
-  protected string $name = 'ColorFilter';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187525
+             * type : int8s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187733
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187773
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187525
-       * type : int8s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187733
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187773
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorFilter',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

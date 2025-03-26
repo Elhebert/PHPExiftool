@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TheoraVersion extends AbstractTagGroup
 {
+    protected string $id = 'Theora:TheoraVersion';
 
-  protected string $id = 'Theora:TheoraVersion';
+    protected string $name = 'TheoraVersion';
 
-  protected string $name = 'TheoraVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Theora::Identification
+             * line : 394793
+             * type : int8u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'Theora::Identification.Theora:TheoraVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Theora::Identification
-       * line : 394793
-       * type : int8u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'Theora::Identification.Theora:TheoraVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

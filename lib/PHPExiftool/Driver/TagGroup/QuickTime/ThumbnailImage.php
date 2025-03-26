@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailImage extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ThumbnailImage';
 
-  protected string $id = 'QuickTime:ThumbnailImage';
+    protected string $name = 'ThumbnailImage';
 
-  protected string $name = 'ThumbnailImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Main
+             * line : 323766
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : QuickTime::Main
+             * line : 323823
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : QuickTime::Main
+             * line : 323841
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Main
-       * line : 323766
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : QuickTime::Main
-       * line : 323823
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : QuickTime::Main
-       * line : 323841
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'QuickTime::Main.QuickTime:ThumbnailImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExifImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'ExifIFD:ExifImageHeight';
 
-  protected string $id = 'ExifIFD:ExifImageHeight';
+    protected string $name = 'ExifImageHeight';
 
-  protected string $name = 'ExifImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 116495
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : mandatory
+             */
+            'id' => 'Exif::Main.ExifIFD:ExifImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 116495
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : mandatory
-       */
-      'id' => 'Exif::Main.ExifIFD:ExifImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2176;
-
+    protected int $flags = 2176;
 }

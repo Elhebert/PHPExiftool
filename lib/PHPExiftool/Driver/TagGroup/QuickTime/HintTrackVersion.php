@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HintTrackVersion extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:HintTrackVersion';
 
-  protected string $id = 'QuickTime:HintTrackVersion';
+    protected string $name = 'HintTrackVersion';
 
-  protected string $name = 'HintTrackVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HintSampleDesc
+             * line : 313743
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HintSampleDesc.QuickTime:HintTrackVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HintSampleDesc
-       * line : 313743
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HintSampleDesc.QuickTime:HintTrackVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class YCbCrPositioning extends AbstractTagGroup
 {
+    protected string $id = 'PreviewIFD:YCbCrPositioning';
 
-  protected string $id = 'PreviewIFD:YCbCrPositioning';
+    protected string $name = 'YCbCrPositioning';
 
-  protected string $name = 'YCbCrPositioning';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::PreviewIFD
+             * line : 205131
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::PreviewIFD.PreviewIFD:YCbCrPositioning',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::PreviewIFD
-       * line : 205131
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::PreviewIFD.PreviewIFD:YCbCrPositioning',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

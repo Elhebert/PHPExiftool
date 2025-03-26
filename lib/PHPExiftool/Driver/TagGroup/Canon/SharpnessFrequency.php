@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SharpnessFrequency extends AbstractTagGroup
 {
+    protected string $id = 'Canon:SharpnessFrequency';
 
-  protected string $id = 'Canon:SharpnessFrequency';
+    protected string $name = 'SharpnessFrequency';
 
-  protected string $name = 'SharpnessFrequency';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfo1D
+             * line : 8062
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo1D.Canon:SharpnessFrequency',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::CameraInfo1D
+             * line : 8421
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo1D.Canon:SharpnessFrequency',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::Processing
+             * line : 69497
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::Processing.Canon:SharpnessFrequency',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfo1D
-       * line : 8062
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo1D.Canon:SharpnessFrequency',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::CameraInfo1D
-       * line : 8421
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo1D.Canon:SharpnessFrequency',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::Processing
-       * line : 69497
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::Processing.Canon:SharpnessFrequency',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

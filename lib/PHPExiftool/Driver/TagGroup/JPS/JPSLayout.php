@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JPSLayout extends AbstractTagGroup
 {
+    protected string $id = 'JPS:JPSLayout';
 
-  protected string $id = 'JPS:JPSLayout';
+    protected string $name = 'JPSLayout';
 
-  protected string $name = 'JPSLayout';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::JPS
+             * line : 152513
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::JPS.JPS:JPSLayout',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : JPEG::JPS
+             * line : 152527
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::JPS.JPS:JPSLayout',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::JPS
-       * line : 152513
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::JPS.JPS:JPSLayout',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : JPEG::JPS
-       * line : 152527
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::JPS.JPS:JPSLayout',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

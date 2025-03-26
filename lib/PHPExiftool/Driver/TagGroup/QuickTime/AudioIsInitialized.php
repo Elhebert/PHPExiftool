@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioIsInitialized extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AudioIsInitialized';
 
-  protected string $id = 'QuickTime:AudioIsInitialized';
+    protected string $name = 'AudioIsInitialized';
 
-  protected string $name = 'AudioIsInitialized';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::EncodingParams
+             * line : 312654
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::EncodingParams.QuickTime:AudioIsInitialized',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::EncodingParams
-       * line : 312654
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::EncodingParams.QuickTime:AudioIsInitialized',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

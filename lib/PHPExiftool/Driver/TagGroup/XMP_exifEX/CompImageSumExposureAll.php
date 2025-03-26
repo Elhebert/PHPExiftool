@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompImageSumExposureAll extends AbstractTagGroup
 {
+    protected string $id = 'XMP-exifEX:CompImageSumExposureAll';
 
-  protected string $id = 'XMP-exifEX:CompImageSumExposureAll';
+    protected string $name = 'CompImageSumExposureAll';
 
-  protected string $name = 'CompImageSumExposureAll';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::exifEX
+             * line : 408536
+             * type : rational
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::exifEX.XMP-exifEX:CompImageSumExposureAll',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::exifEX
-       * line : 408536
-       * type : rational
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::exifEX.XMP-exifEX:CompImageSumExposureAll',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

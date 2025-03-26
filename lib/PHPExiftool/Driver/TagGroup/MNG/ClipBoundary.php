@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ClipBoundary extends AbstractTagGroup
 {
+    protected string $id = 'MNG:ClipBoundary';
 
-  protected string $id = 'MNG:ClipBoundary';
+    protected string $name = 'ClipBoundary';
 
-  protected string $name = 'ClipBoundary';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::ClipObjects
+             * line : 164695
+             * type : int32u
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'MNG::ClipObjects.MNG:ClipBoundary',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::ClipObjects
-       * line : 164695
-       * type : int32u
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'MNG::ClipObjects.MNG:ClipBoundary',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

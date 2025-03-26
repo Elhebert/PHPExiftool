@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Projects extends AbstractTagGroup
 {
+    protected string $id = 'XML:Projects';
 
-  protected string $id = 'XML:Projects';
+    protected string $name = 'Projects';
 
-  protected string $name = 'Projects';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : iWork::Main
+             * line : 415134
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'iWork::Main.XML:Projects',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : iWork::Main
-       * line : 415134
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'iWork::Main.XML:Projects',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorTempUnknown28 extends AbstractTagGroup
 {
+    protected string $id = 'Canon:ColorTempUnknown28';
 
-  protected string $id = 'Canon:ColorTempUnknown28';
+    protected string $name = 'ColorTempUnknown28';
 
-  protected string $name = 'ColorTempUnknown28';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorData10
+             * line : 60267
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorData10.Canon:ColorTempUnknown28',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::ColorData8
+             * line : 62558
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorData8.Canon:ColorTempUnknown28',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::ColorData9
+             * line : 63040
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Canon::ColorData9.Canon:ColorTempUnknown28',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorData10
-       * line : 60267
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorData10.Canon:ColorTempUnknown28',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::ColorData8
-       * line : 62558
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorData8.Canon:ColorTempUnknown28',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::ColorData9
-       * line : 63040
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Canon::ColorData9.Canon:ColorTempUnknown28',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

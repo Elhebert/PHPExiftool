@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SPIFFVersion extends AbstractTagGroup
 {
+    protected string $id = 'SPIFF:SPIFFVersion';
 
-  protected string $id = 'SPIFF:SPIFFVersion';
+    protected string $name = 'SPIFFVersion';
 
-  protected string $name = 'SPIFFVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::SPIFF
+             * line : 153057
+             * type : int8u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'JPEG::SPIFF.SPIFF:SPIFFVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::SPIFF
-       * line : 153057
-       * type : int8u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'JPEG::SPIFF.SPIFF:SPIFFVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

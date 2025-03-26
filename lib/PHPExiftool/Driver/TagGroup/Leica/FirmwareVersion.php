@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirmwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'Leica:FirmwareVersion';
 
-  protected string $id = 'Leica:FirmwareVersion';
+    protected string $name = 'FirmwareVersion';
 
-  protected string $name = 'FirmwareVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Leica6
+             * line : 274957
+             * type : int8u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Leica6.Leica:FirmwareVersion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Panasonic::Subdir
+             * line : 279403
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Panasonic::Subdir.Leica:FirmwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Leica6
-       * line : 274957
-       * type : int8u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Leica6.Leica:FirmwareVersion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Panasonic::Subdir
-       * line : 279403
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Panasonic::Subdir.Leica:FirmwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

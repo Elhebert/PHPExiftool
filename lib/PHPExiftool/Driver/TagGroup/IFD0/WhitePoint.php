@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WhitePoint extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:WhitePoint';
 
-  protected string $id = 'IFD0:WhitePoint';
+    protected string $name = 'WhitePoint';
 
-  protected string $name = 'WhitePoint';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 111474
+             * type : rational64u
+             * writable : true
+             * count : 2
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:WhitePoint',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 111474
-       * type : rational64u
-       * writable : true
-       * count : 2
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:WhitePoint',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

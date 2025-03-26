@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailImageType extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Thumbnail:ThumbnailImageType';
 
-  protected string $id = 'MIE-Thumbnail:ThumbnailImageType';
+    protected string $name = 'ThumbnailImageType';
 
-  protected string $name = 'ThumbnailImageType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Thumbnail
+             * line : 164152
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Thumbnail.MIE-Thumbnail:ThumbnailImageType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Thumbnail
-       * line : 164152
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Thumbnail.MIE-Thumbnail:ThumbnailImageType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

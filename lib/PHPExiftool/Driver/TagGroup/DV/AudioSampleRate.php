@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioSampleRate extends AbstractTagGroup
 {
+    protected string $id = 'DV:AudioSampleRate';
 
-  protected string $id = 'DV:AudioSampleRate';
+    protected string $name = 'AudioSampleRate';
 
-  protected string $name = 'AudioSampleRate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DV::Main
+             * line : 105956
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DV::Main.DV:AudioSampleRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DV::Main
-       * line : 105956
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DV::Main.DV:AudioSampleRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

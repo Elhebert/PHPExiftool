@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class D_LightingHQHighlight extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:D-LightingHQHighlight';
 
-  protected string $id = 'NikonCapture:D-LightingHQHighlight';
+    protected string $name = 'D-LightingHQHighlight';
 
-  protected string $name = 'D-LightingHQHighlight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::DLightingHQ
+             * line : 210267
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCapture::DLightingHQ.NikonCapture:D-LightingHQHighlight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::DLightingHQ
-       * line : 210267
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCapture::DLightingHQ.NikonCapture:D-LightingHQHighlight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EditStatus extends AbstractTagGroup
 {
+    protected string $id = 'XMP-photomech:EditStatus';
 
-  protected string $id = 'XMP-photomech:EditStatus';
+    protected string $name = 'EditStatus';
 
-  protected string $name = 'EditStatus';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoMechanic::XMP
+             * line : 304929
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoMechanic::XMP.XMP-photomech:EditStatus',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoMechanic::XMP
-       * line : 304929
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoMechanic::XMP.XMP-photomech:EditStatus',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

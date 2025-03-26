@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Exposure extends AbstractTagGroup
 {
+    protected string $id = 'Radiance:Exposure';
 
-  protected string $id = 'Radiance:Exposure';
+    protected string $name = 'Exposure';
 
-  protected string $name = 'Exposure';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Radiance::Main
+             * line : 329542
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Radiance::Main.Radiance:Exposure',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Radiance::Main
-       * line : 329542
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Radiance::Main.Radiance:Exposure',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

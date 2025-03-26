@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExternalFlashGuideNumber extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ExternalFlashGuideNumber';
 
-  protected string $id = 'Olympus:ExternalFlashGuideNumber';
+    protected string $name = 'ExternalFlashGuideNumber';
 
-  protected string $name = 'ExternalFlashGuideNumber';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::FocusInfo
+             * line : 255011
+             * type : rational64s
+             * writable : true
+             * count :
+             * flags : permanent,unknown
+             */
+            'id' => 'Olympus::FocusInfo.Olympus:ExternalFlashGuideNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::FocusInfo
-       * line : 255011
-       * type : rational64s
-       * writable : true
-       * count : 
-       * flags : permanent,unknown
-       */
-      'id' => 'Olympus::FocusInfo.Olympus:ExternalFlashGuideNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubimageHeight extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:SubimageHeight';
 
-  protected string $id = 'FlashPix:SubimageHeight';
+    protected string $name = 'SubimageHeight';
 
-  protected string $name = 'SubimageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::Image
+             * line : 124718
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::Image.FlashPix:SubimageHeight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FlashPix::SubimageHdr
+             * line : 126616
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::SubimageHdr.FlashPix:SubimageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::Image
-       * line : 124718
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::Image.FlashPix:SubimageHeight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FlashPix::SubimageHdr
-       * line : 126616
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::SubimageHdr.FlashPix:SubimageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

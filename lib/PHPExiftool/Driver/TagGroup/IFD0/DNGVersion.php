@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DNGVersion extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:DNGVersion';
 
-  protected string $id = 'IFD0:DNGVersion';
+    protected string $name = 'DNGVersion';
 
-  protected string $name = 'DNGVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 118813
+             * type : int8u
+             * writable : true
+             * count : 4
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.IFD0:DNGVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 118813
-       * type : int8u
-       * writable : true
-       * count : 4
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.IFD0:DNGVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

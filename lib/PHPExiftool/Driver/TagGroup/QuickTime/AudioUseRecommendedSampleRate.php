@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioUseRecommendedSampleRate extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:AudioUseRecommendedSampleRate';
 
-  protected string $id = 'QuickTime:AudioUseRecommendedSampleRate';
+    protected string $name = 'AudioUseRecommendedSampleRate';
 
-  protected string $name = 'AudioUseRecommendedSampleRate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::EncodingParams
+             * line : 312697
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::EncodingParams.QuickTime:AudioUseRecommendedSampleRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::EncodingParams
-       * line : 312697
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::EncodingParams.QuickTime:AudioUseRecommendedSampleRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlockSize extends AbstractTagGroup
 {
+    protected string $id = 'MNG:BlockSize';
 
-  protected string $id = 'MNG:BlockSize';
+    protected string $name = 'BlockSize';
 
-  protected string $name = 'BlockSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::DeltaPNGHeader
+             * line : 164825
+             * type : int32u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'MNG::DeltaPNGHeader.MNG:BlockSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::DeltaPNGHeader
-       * line : 164825
-       * type : int32u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'MNG::DeltaPNGHeader.MNG:BlockSize',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

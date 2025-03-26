@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ContributorRole extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcExt:ContributorRole';
 
-  protected string $id = 'XMP-iptcExt:ContributorRole';
+    protected string $name = 'ContributorRole';
 
-  protected string $name = 'ContributorRole';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcExt
+             * line : 409188
+             * type : string
+             * writable : true
+             * count :
+             * flags : bag,flattened,list
+             */
+            'id' => 'XMP::iptcExt.XMP-iptcExt:ContributorRole',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcExt
-       * line : 409188
-       * type : string
-       * writable : true
-       * count : 
-       * flags : bag,flattened,list
-       */
-      'id' => 'XMP::iptcExt.XMP-iptcExt:ContributorRole',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2368;
-
+    protected int $flags = 2368;
 }

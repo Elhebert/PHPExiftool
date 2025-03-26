@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HEVCConfigurationVersion extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:HEVCConfigurationVersion';
 
-  protected string $id = 'QuickTime:HEVCConfigurationVersion';
+    protected string $name = 'HEVCConfigurationVersion';
 
-  protected string $name = 'HEVCConfigurationVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HEVCConfig
+             * line : 313370
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::HEVCConfig.QuickTime:HEVCConfigurationVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HEVCConfig
-       * line : 313370
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::HEVCConfig.QuickTime:HEVCConfigurationVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaxApertureValue extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:MaxApertureValue';
 
-  protected string $id = 'Nikon:MaxApertureValue';
+    protected string $name = 'MaxApertureValue';
 
-  protected string $name = 'MaxApertureValue';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AVITags
+             * line : 191398
+             * type : rational64u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AVITags.Nikon:MaxApertureValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AVITags
-       * line : 191398
-       * type : rational64u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AVITags.Nikon:MaxApertureValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

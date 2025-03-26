@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Weight extends AbstractTagGroup
 {
+    protected string $id = 'Font:Weight';
 
-  protected string $id = 'Font:Weight';
+    protected string $name = 'Weight';
 
-  protected string $name = 'Weight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Font::AFM
+             * line : 127802
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::AFM.Font:Weight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Font::PFM
+             * line : 128051
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PFM.Font:Weight',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Font::PSInfo
+             * line : 128169
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Font::PSInfo.Font:Weight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Font::AFM
-       * line : 127802
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::AFM.Font:Weight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Font::PFM
-       * line : 128051
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PFM.Font:Weight',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Font::PSInfo
-       * line : 128169
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Font::PSInfo.Font:Weight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ServiceIdentifier extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ServiceIdentifier';
 
-  protected string $id = 'IPTC:ServiceIdentifier';
+    protected string $name = 'ServiceIdentifier';
 
-  protected string $name = 'ServiceIdentifier';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::EnvelopeRecord
+             * line : 151154
+             * type : string
+             * writable : true
+             * count : 10
+             * flags :
+             */
+            'id' => 'IPTC::EnvelopeRecord.IPTC:ServiceIdentifier',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::EnvelopeRecord
-       * line : 151154
-       * type : string
-       * writable : true
-       * count : 10
-       * flags : 
-       */
-      'id' => 'IPTC::EnvelopeRecord.IPTC:ServiceIdentifier',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 10;
 
-  protected int $count = 10;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

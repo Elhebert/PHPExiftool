@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumSlices extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:NumSlices';
 
-  protected string $id = 'Photoshop:NumSlices';
+    protected string $name = 'NumSlices';
 
-  protected string $name = 'NumSlices';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::SliceInfo
+             * line : 305838
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::SliceInfo.Photoshop:NumSlices',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::SliceInfo
-       * line : 305838
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::SliceInfo.Photoshop:NumSlices',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

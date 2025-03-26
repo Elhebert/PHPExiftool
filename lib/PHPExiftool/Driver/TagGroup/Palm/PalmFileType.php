@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PalmFileType extends AbstractTagGroup
 {
+    protected string $id = 'Palm:PalmFileType';
 
-  protected string $id = 'Palm:PalmFileType';
+    protected string $name = 'PalmFileType';
 
-  protected string $name = 'PalmFileType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Palm::Main
+             * line : 273870
+             * type : undef
+             * writable : false
+             * count : 8
+             * flags :
+             */
+            'id' => 'Palm::Main.Palm:PalmFileType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Palm::Main
-       * line : 273870
-       * type : undef
-       * writable : false
-       * count : 8
-       * flags : 
-       */
-      'id' => 'Palm::Main.Palm:PalmFileType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 8;
-
+    protected int $count = 8;
 }

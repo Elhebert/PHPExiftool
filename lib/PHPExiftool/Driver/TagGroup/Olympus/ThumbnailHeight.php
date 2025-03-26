@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ThumbnailHeight extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ThumbnailHeight';
 
-  protected string $id = 'Olympus:ThumbnailHeight';
+    protected string $name = 'ThumbnailHeight';
 
-  protected string $name = 'ThumbnailHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::OLYM
+             * line : 260210
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::OLYM.Olympus:ThumbnailHeight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::Thumbnail
+             * line : 262186
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::Thumbnail.Olympus:ThumbnailHeight',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Olympus::thmb2
+             * line : 263328
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Olympus::thmb2.Olympus:ThumbnailHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::OLYM
-       * line : 260210
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::OLYM.Olympus:ThumbnailHeight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::Thumbnail
-       * line : 262186
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::Thumbnail.Olympus:ThumbnailHeight',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Olympus::thmb2
-       * line : 263328
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Olympus::thmb2.Olympus:ThumbnailHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

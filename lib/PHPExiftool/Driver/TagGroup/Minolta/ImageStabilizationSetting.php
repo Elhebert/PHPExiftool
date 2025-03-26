@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageStabilizationSetting extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:ImageStabilizationSetting';
 
-  protected string $id = 'Minolta:ImageStabilizationSetting';
+    protected string $name = 'ImageStabilizationSetting';
 
-  protected string $name = 'ImageStabilizationSetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::WBInfoA100
+             * line : 185106
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::WBInfoA100.Minolta:ImageStabilizationSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::WBInfoA100
-       * line : 185106
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::WBInfoA100.Minolta:ImageStabilizationSetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

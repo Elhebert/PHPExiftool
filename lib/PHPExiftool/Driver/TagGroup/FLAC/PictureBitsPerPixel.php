@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureBitsPerPixel extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:PictureBitsPerPixel';
 
-  protected string $id = 'FLAC:PictureBitsPerPixel';
+    protected string $name = 'PictureBitsPerPixel';
 
-  protected string $name = 'PictureBitsPerPixel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::Picture
+             * line : 121908
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::Picture.FLAC:PictureBitsPerPixel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::Picture
-       * line : 121908
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::Picture.FLAC:PictureBitsPerPixel',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

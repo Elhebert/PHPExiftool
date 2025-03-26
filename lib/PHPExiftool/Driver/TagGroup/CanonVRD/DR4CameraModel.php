@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DR4CameraModel extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:DR4CameraModel';
 
-  protected string $id = 'CanonVRD:DR4CameraModel';
+    protected string $name = 'DR4CameraModel';
 
-  protected string $name = 'DR4CameraModel';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::DR4Header
+             * line : 80942
+             * type : int32u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonVRD::DR4Header.CanonVRD:DR4CameraModel',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::DR4Header
-       * line : 80942
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonVRD::DR4Header.CanonVRD:DR4CameraModel',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JpgFromRaw extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:JpgFromRaw';
 
-  protected string $id = 'CanonRaw:JpgFromRaw';
+    protected string $name = 'JpgFromRaw';
 
-  protected string $name = 'JpgFromRaw';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 79971
+             * type : resize
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:JpgFromRaw',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 79971
-       * type : resize
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:JpgFromRaw',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WBShiftAB_GM_Precise extends AbstractTagGroup
 {
+    protected string $id = 'Sony:WBShiftAB_GM_Precise';
 
-  protected string $id = 'Sony:WBShiftAB_GM_Precise';
+    protected string $name = 'WBShiftAB_GM_Precise';
 
-  protected string $name = 'WBShiftAB_GM_Precise';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::Main
+             * line : 355709
+             * type : int32s
+             * writable : false
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:WBShiftAB_GM_Precise',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::Main
-       * line : 355709
-       * type : int32s
-       * writable : false
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:WBShiftAB_GM_Precise',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

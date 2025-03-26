@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IHL_EXIF extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:IHL_EXIF';
 
-  protected string $id = 'CanonVRD:IHL_EXIF';
+    protected string $name = 'IHL_EXIF';
 
-  protected string $name = 'IHL_EXIF';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::IHL
+             * line : 82043
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,unknown
+             */
+            'id' => 'CanonVRD::IHL.CanonVRD:IHL_EXIF',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::IHL
-       * line : 82043
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,unknown
-       */
-      'id' => 'CanonVRD::IHL.CanonVRD:IHL_EXIF',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 34;
-
+    protected int $flags = 34;
 }

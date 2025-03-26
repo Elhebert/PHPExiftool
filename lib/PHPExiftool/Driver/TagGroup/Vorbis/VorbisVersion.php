@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VorbisVersion extends AbstractTagGroup
 {
+    protected string $id = 'Vorbis:VorbisVersion';
 
-  protected string $id = 'Vorbis:VorbisVersion';
+    protected string $name = 'VorbisVersion';
 
-  protected string $name = 'VorbisVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Vorbis::Identification
+             * line : 395917
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Vorbis::Identification.Vorbis:VorbisVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Vorbis::Identification
-       * line : 395917
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Vorbis::Identification.Vorbis:VorbisVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

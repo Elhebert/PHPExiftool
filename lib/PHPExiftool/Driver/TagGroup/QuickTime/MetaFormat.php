@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MetaFormat extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:MetaFormat';
 
-  protected string $id = 'QuickTime:MetaFormat';
+    protected string $name = 'MetaFormat';
 
-  protected string $name = 'MetaFormat';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::MetaSampleDesc
+             * line : 324051
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'QuickTime::MetaSampleDesc.QuickTime:MetaFormat',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::MetaSampleDesc
-       * line : 324051
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'QuickTime::MetaSampleDesc.QuickTime:MetaFormat',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

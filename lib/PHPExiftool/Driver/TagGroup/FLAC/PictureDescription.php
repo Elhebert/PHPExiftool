@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PictureDescription extends AbstractTagGroup
 {
+    protected string $id = 'FLAC:PictureDescription';
 
-  protected string $id = 'FLAC:PictureDescription';
+    protected string $name = 'PictureDescription';
 
-  protected string $name = 'PictureDescription';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLAC::Picture
+             * line : 121894
+             * type : var_pstr32
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLAC::Picture.FLAC:PictureDescription',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLAC::Picture
-       * line : 121894
-       * type : var_pstr32
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLAC::Picture.FLAC:PictureDescription',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

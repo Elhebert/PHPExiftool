@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Make extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:Make';
 
-  protected string $id = 'FujiFilm:Make';
+    protected string $name = 'Make';
 
-  protected string $name = 'Make';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::MOV
+             * line : 128739
+             * type : string
+             * writable : false
+             * count : 24
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::MOV.FujiFilm:Make',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::MOV
-       * line : 128739
-       * type : string
-       * writable : false
-       * count : 24
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::MOV.FujiFilm:Make',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 24;
 
-  protected int $count = 24;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

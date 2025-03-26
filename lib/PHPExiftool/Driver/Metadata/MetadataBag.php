@@ -12,8 +12,6 @@
 namespace PHPExiftool\Driver\Metadata;
 
 use Doctrine\Common\Collections\ArrayCollection;
-use Doctrine\Common\Collections\Collection;
-use Doctrine\Common\Collections\Selectable;
 
 /**
  * Container for Metadatas
@@ -25,16 +23,12 @@ use Doctrine\Common\Collections\Selectable;
  */
 class MetadataBag extends ArrayCollection
 {
-
     /**
      * Returns all the elements which key matches the regexp
-     *
-     * @param string $regexp
-     * @return MetadataBag
      */
     public function filterKeysByRegExp(string $regexp): MetadataBag
     {
-        $partitions = $this->partition(function($key, $element) use ($regexp) {
+        $partitions = $this->partition(function ($key, $element) use ($regexp) {
             return preg_match($regexp, $key);
         });
 

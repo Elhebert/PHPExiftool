@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BrightnessValue extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:BrightnessValue';
 
-  protected string $id = 'Kodak:BrightnessValue';
+    protected string $name = 'BrightnessValue';
 
-  protected string $name = 'BrightnessValue';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Free
+             * line : 154505
+             * type : int32s
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::Free.Kodak:BrightnessValue',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Kodak::TextualInfo
+             * line : 159459
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::TextualInfo.Kodak:BrightnessValue',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Free
-       * line : 154505
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::Free.Kodak:BrightnessValue',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Kodak::TextualInfo
-       * line : 159459
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::TextualInfo.Kodak:BrightnessValue',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

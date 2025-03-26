@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFMicroAdjRegisteredLenses extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFMicroAdjRegisteredLenses';
 
-  protected string $id = 'Sony:AFMicroAdjRegisteredLenses';
+    protected string $name = 'AFMicroAdjRegisteredLenses';
 
-  protected string $name = 'AFMicroAdjRegisteredLenses';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraInfo
+             * line : 345561
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraInfo.Sony:AFMicroAdjRegisteredLenses',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraInfo
-       * line : 345561
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraInfo.Sony:AFMicroAdjRegisteredLenses',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

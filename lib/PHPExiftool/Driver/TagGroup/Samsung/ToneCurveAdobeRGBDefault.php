@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ToneCurveAdobeRGBDefault extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:ToneCurveAdobeRGBDefault';
 
-  protected string $id = 'Samsung:ToneCurveAdobeRGBDefault';
+    protected string $name = 'ToneCurveAdobeRGBDefault';
 
-  protected string $name = 'ToneCurveAdobeRGBDefault';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335599
+             * type : int32u
+             * writable : true
+             * count : 23
+             * flags : permanent
+             */
+            'id' => 'Samsung::Type2.Samsung:ToneCurveAdobeRGBDefault',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335599
-       * type : int32u
-       * writable : true
-       * count : 23
-       * flags : permanent
-       */
-      'id' => 'Samsung::Type2.Samsung:ToneCurveAdobeRGBDefault',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 23;
 
-  protected int $count = 23;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

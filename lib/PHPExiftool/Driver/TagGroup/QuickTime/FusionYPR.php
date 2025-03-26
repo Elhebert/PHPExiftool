@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FusionYPR extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:FusionYPR';
 
-  protected string $id = 'QuickTime:FusionYPR';
+    protected string $name = 'FusionYPR';
 
-  protected string $name = 'FusionYPR';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Fusion360Fly
+             * line : 313116
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::Fusion360Fly.QuickTime:FusionYPR',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Fusion360Fly
-       * line : 313116
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::Fusion360Fly.QuickTime:FusionYPR',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

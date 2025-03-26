@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ByteOrder extends AbstractTagGroup
 {
+    protected string $id = 'File:ByteOrder';
 
-  protected string $id = 'File:ByteOrder';
+    protected string $name = 'ByteOrder';
 
-  protected string $name = 'ByteOrder';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105292
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'DPX::Main.File:ByteOrder',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Other::PFM
+             * line : 263758
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Other::PFM.File:ByteOrder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105292
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:ByteOrder',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Other::PFM
-       * line : 263758
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Other::PFM.File:ByteOrder',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

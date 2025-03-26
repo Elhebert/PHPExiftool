@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VolumeModifyDate extends AbstractTagGroup
 {
+    protected string $id = 'ISO:VolumeModifyDate';
 
-  protected string $id = 'ISO:VolumeModifyDate';
+    protected string $name = 'VolumeModifyDate';
 
-  protected string $name = 'VolumeModifyDate';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ISO::PrimaryVolume
+             * line : 152075
+             * type : undef
+             * writable : false
+             * count : 17
+             * flags :
+             */
+            'id' => 'ISO::PrimaryVolume.ISO:VolumeModifyDate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ISO::PrimaryVolume
-       * line : 152075
-       * type : undef
-       * writable : false
-       * count : 17
-       * flags : 
-       */
-      'id' => 'ISO::PrimaryVolume.ISO:VolumeModifyDate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 17;
-
+    protected int $count = 17;
 }

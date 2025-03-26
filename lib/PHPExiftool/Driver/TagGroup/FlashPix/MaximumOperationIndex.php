@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaximumOperationIndex extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:MaximumOperationIndex';
 
-  protected string $id = 'FlashPix:MaximumOperationIndex';
+    protected string $name = 'MaximumOperationIndex';
 
-  protected string $name = 'MaximumOperationIndex';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::GlobalInfo
+             * line : 124635
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::GlobalInfo.FlashPix:MaximumOperationIndex',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::GlobalInfo
-       * line : 124635
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::GlobalInfo.FlashPix:MaximumOperationIndex',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

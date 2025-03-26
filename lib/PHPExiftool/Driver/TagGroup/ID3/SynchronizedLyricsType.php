@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SynchronizedLyricsType extends AbstractTagGroup
 {
+    protected string $id = 'ID3:SynchronizedLyricsType';
 
-  protected string $id = 'ID3:SynchronizedLyricsType';
+    protected string $name = 'SynchronizedLyricsType';
 
-  protected string $name = 'SynchronizedLyricsType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::SynLyrics
+             * line : 147169
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::SynLyrics.ID3:SynchronizedLyricsType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::SynLyrics
-       * line : 147169
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::SynLyrics.ID3:SynchronizedLyricsType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CopyrightNotice extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:CopyrightNotice';
 
-  protected string $id = 'IPTC:CopyrightNotice';
+    protected string $name = 'CopyrightNotice';
 
-  protected string $name = 'CopyrightNotice';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150382
+             * type : string
+             * writable : true
+             * count : 128
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:CopyrightNotice',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150382
-       * type : string
-       * writable : true
-       * count : 128
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:CopyrightNotice',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 128;
 
-  protected int $count = 128;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

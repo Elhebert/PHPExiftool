@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Make extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:Make';
 
-  protected string $id = 'Nikon:Make';
+    protected string $name = 'Make';
 
-  protected string $name = 'Make';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::AVITags
+             * line : 191138
+             * type : string
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::AVITags.Nikon:Make',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::MOV
+             * line : 196314
+             * type : string
+             * writable : false
+             * count : 24
+             * flags : permanent
+             */
+            'id' => 'Nikon::MOV.Nikon:Make',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Nikon::NCTG
+             * line : 202113
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::NCTG.Nikon:Make',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::AVITags
-       * line : 191138
-       * type : string
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::AVITags.Nikon:Make',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::MOV
-       * line : 196314
-       * type : string
-       * writable : false
-       * count : 24
-       * flags : permanent
-       */
-      'id' => 'Nikon::MOV.Nikon:Make',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Nikon::NCTG
-       * line : 202113
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::NCTG.Nikon:Make',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 24;
 
-  protected int $count = 24;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

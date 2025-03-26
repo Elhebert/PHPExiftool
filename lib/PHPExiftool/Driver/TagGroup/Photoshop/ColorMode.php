@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorMode extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:ColorMode';
 
-  protected string $id = 'Photoshop:ColorMode';
+    protected string $name = 'ColorMode';
 
-  protected string $name = 'ColorMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Header
+             * line : 305039
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::Header.Photoshop:ColorMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Header
-       * line : 305039
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::Header.Photoshop:ColorMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -43,7 +43,7 @@ class Factory
     {
         return TagGroupFactory::loadClass(
             $this->phpExiftool->getClassesRootDirectory(),
-            "TagGroup\\Helper",
+            'TagGroup\\Helper',
             $this->phpExiftool->getLogger()
         );
     }

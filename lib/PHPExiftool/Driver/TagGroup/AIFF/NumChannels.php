@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumChannels extends AbstractTagGroup
 {
+    protected string $id = 'AIFF:NumChannels';
 
-  protected string $id = 'AIFF:NumChannels';
+    protected string $name = 'NumChannels';
 
-  protected string $name = 'NumChannels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : AIFF::Common
+             * line : 88
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'AIFF::Common.AIFF:NumChannels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : AIFF::Common
-       * line : 88
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'AIFF::Common.AIFF:NumChannels',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

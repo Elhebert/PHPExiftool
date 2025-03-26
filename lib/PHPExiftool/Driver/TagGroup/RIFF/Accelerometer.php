@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Accelerometer extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:Accelerometer';
 
-  protected string $id = 'RIFF:Accelerometer';
+    protected string $name = 'Accelerometer';
 
-  protected string $name = 'Accelerometer';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::UserText
+             * line : 328868
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'RIFF::UserText.RIFF:Accelerometer',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::UserText
-       * line : 328868
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'RIFF::UserText.RIFF:Accelerometer',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

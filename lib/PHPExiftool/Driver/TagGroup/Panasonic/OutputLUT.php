@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OutputLUT extends AbstractTagGroup
 {
+    protected string $id = 'Panasonic:OutputLUT';
 
-  protected string $id = 'Panasonic:OutputLUT';
+    protected string $name = 'OutputLUT';
 
-  protected string $name = 'OutputLUT';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Main
+             * line : 277861
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Panasonic::Main.Panasonic:OutputLUT',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Main
-       * line : 277861
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Panasonic::Main.Panasonic:OutputLUT',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2054;
-
+    protected int $flags = 2054;
 }

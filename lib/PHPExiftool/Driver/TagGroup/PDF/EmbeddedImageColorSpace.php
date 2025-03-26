@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedImageColorSpace extends AbstractTagGroup
 {
+    protected string $id = 'PDF:EmbeddedImageColorSpace';
 
-  protected string $id = 'PDF:EmbeddedImageColorSpace';
+    protected string $name = 'EmbeddedImageColorSpace';
 
-  protected string $name = 'EmbeddedImageColorSpace';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Im
+             * line : 264115
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'PDF::Im.PDF:EmbeddedImageColorSpace',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Im
-       * line : 264115
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'PDF::Im.PDF:EmbeddedImageColorSpace',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

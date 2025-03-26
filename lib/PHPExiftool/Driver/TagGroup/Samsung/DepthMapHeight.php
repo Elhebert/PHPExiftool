@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DepthMapHeight extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:DepthMapHeight';
 
-  protected string $id = 'Samsung:DepthMapHeight';
+    protected string $name = 'DepthMapHeight';
 
-  protected string $name = 'DepthMapHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::DualShotExtra
+             * line : 333869
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Samsung::DualShotExtra.Samsung:DepthMapHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::DualShotExtra
-       * line : 333869
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Samsung::DualShotExtra.Samsung:DepthMapHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

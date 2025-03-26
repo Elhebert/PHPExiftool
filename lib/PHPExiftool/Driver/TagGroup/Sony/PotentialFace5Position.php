@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PotentialFace5Position extends AbstractTagGroup
 {
+    protected string $id = 'Sony:PotentialFace5Position';
 
-  protected string $id = 'Sony:PotentialFace5Position';
+    protected string $name = 'PotentialFace5Position';
 
-  protected string $name = 'PotentialFace5Position';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::FaceInfoA
+             * line : 352816
+             * type : int16u
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Sony::FaceInfoA.Sony:PotentialFace5Position',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::FaceInfoA
-       * line : 352816
-       * type : int16u
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Sony::FaceInfoA.Sony:PotentialFace5Position',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

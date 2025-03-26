@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataSize64 extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:DataSize64';
 
-  protected string $id = 'RIFF:DataSize64';
+    protected string $name = 'DataSize64';
 
-  protected string $name = 'DataSize64';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::DS64
+             * line : 327842
+             * type : int64u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::DS64.RIFF:DataSize64',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::DS64
-       * line : 327842
-       * type : int64u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::DS64.RIFF:DataSize64',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

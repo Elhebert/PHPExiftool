@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewQuality extends AbstractTagGroup
 {
+    protected string $id = 'Scalado:PreviewQuality';
 
-  protected string $id = 'Scalado:PreviewQuality';
+    protected string $name = 'PreviewQuality';
 
-  protected string $name = 'PreviewQuality';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Scalado::Main
+             * line : 336938
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Scalado::Main.Scalado:PreviewQuality',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Scalado::Main
-       * line : 336938
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Scalado::Main.Scalado:PreviewQuality',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OpusVersion extends AbstractTagGroup
 {
+    protected string $id = 'Opus:OpusVersion';
 
-  protected string $id = 'Opus:OpusVersion';
+    protected string $name = 'OpusVersion';
 
-  protected string $name = 'OpusVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Opus::Header
+             * line : 263736
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Opus::Header.Opus:OpusVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Opus::Header
-       * line : 263736
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Opus::Header.Opus:OpusVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PhotoEffectHistoryXML extends AbstractTagGroup
 {
+    protected string $id = 'NikonCapture:PhotoEffectHistoryXML';
 
-  protected string $id = 'NikonCapture:PhotoEffectHistoryXML';
+    protected string $name = 'PhotoEffectHistoryXML';
 
-  protected string $name = 'PhotoEffectHistoryXML';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCapture::Main
+             * line : 210896
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'NikonCapture::Main.NikonCapture:PhotoEffectHistoryXML',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCapture::Main
-       * line : 210896
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'NikonCapture::Main.NikonCapture:PhotoEffectHistoryXML',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2054;
-
+    protected int $flags = 2054;
 }

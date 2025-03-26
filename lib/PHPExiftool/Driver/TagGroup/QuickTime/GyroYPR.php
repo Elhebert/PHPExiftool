@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GyroYPR extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GyroYPR';
 
-  protected string $id = 'QuickTime:GyroYPR';
+    protected string $name = 'GyroYPR';
 
-  protected string $name = 'GyroYPR';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Gyro360Fly
+             * line : 313363
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'QuickTime::Gyro360Fly.QuickTime:GyroYPR',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Gyro360Fly
-       * line : 313363
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'QuickTime::Gyro360Fly.QuickTime:GyroYPR',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

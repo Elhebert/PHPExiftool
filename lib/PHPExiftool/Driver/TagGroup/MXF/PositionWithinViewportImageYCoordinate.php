@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PositionWithinViewportImageYCoordinate extends AbstractTagGroup
 {
+    protected string $id = 'MXF:PositionWithinViewportImageYCoordinate';
 
-  protected string $id = 'MXF:PositionWithinViewportImageYCoordinate';
+    protected string $name = 'PositionWithinViewportImageYCoordinate';
 
-  protected string $name = 'PositionWithinViewportImageYCoordinate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MXF::Main
+             * line : 168329
+             * type : int16s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MXF::Main.MXF:PositionWithinViewportImageYCoordinate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MXF::Main
-       * line : 168329
-       * type : int16s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MXF::Main.MXF:PositionWithinViewportImageYCoordinate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

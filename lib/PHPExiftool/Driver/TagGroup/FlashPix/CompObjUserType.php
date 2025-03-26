@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CompObjUserType extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:CompObjUserType';
 
-  protected string $id = 'FlashPix:CompObjUserType';
+    protected string $name = 'CompObjUserType';
 
-  protected string $name = 'CompObjUserType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::CompObj
+             * line : 124265
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::CompObj.FlashPix:CompObjUserType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::CompObj
-       * line : 124265
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::CompObj.FlashPix:CompObjUserType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

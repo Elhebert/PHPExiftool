@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class YOffset extends AbstractTagGroup
 {
+    protected string $id = 'Theora:YOffset';
 
-  protected string $id = 'Theora:YOffset';
+    protected string $name = 'YOffset';
 
-  protected string $name = 'YOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Theora::Identification
+             * line : 394837
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Theora::Identification.Theora:YOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Theora::Identification
-       * line : 394837
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Theora::Identification.Theora:YOffset',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

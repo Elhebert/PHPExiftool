@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DistortionCorrParams extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:DistortionCorrParams';
 
-  protected string $id = 'SubIFD:DistortionCorrParams';
+    protected string $name = 'DistortionCorrParams';
 
-  protected string $name = 'DistortionCorrParams';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112837
+             * type : int16s
+             * writable : true
+             * count : 17
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:DistortionCorrParams',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112837
-       * type : int16s
-       * writable : true
-       * count : 17
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:DistortionCorrParams',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 17;
 
-  protected int $count = 17;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

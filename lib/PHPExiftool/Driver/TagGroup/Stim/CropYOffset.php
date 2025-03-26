@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CropYOffset extends AbstractTagGroup
 {
+    protected string $id = 'Stim:CropYOffset';
 
-  protected string $id = 'Stim:CropYOffset';
+    protected string $name = 'CropYOffset';
 
-  protected string $name = 'CropYOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Stim::CropY
+             * line : 394557
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Stim::CropY.Stim:CropYOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Stim::CropY
-       * line : 394557
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Stim::CropY.Stim:CropYOffset',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

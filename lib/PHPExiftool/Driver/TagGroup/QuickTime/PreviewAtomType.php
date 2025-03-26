@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewAtomType extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:PreviewAtomType';
 
-  protected string $id = 'QuickTime:PreviewAtomType';
+    protected string $name = 'PreviewAtomType';
 
-  protected string $name = 'PreviewAtomType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Preview
+             * line : 324235
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'QuickTime::Preview.QuickTime:PreviewAtomType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Preview
-       * line : 324235
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'QuickTime::Preview.QuickTime:PreviewAtomType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

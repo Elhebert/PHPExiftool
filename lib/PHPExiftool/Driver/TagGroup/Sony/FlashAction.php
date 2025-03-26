@@ -19,101 +19,99 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FlashAction extends AbstractTagGroup
 {
+    protected string $id = 'Sony:FlashAction';
 
-  protected string $id = 'Sony:FlashAction';
+    protected string $name = 'FlashAction';
 
-  protected string $name = 'FlashAction';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings
+             * line : 347917
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings.Sony:FlashAction',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::CameraSettings2
+             * line : 349309
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings2.Sony:FlashAction',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::Main
+             * line : 354449
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::Main.Sony:FlashAction',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 361001
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:FlashAction',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 361036
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:FlashAction',
+            'desc' => [
+            ],
+        ],
+        5 => [
+            /**
+             * table_name : Sony::MoreSettings
+             * line : 361092
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::MoreSettings.Sony:FlashAction',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings
-       * line : 347917
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings.Sony:FlashAction',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::CameraSettings2
-       * line : 349309
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings2.Sony:FlashAction',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::Main
-       * line : 354449
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::Main.Sony:FlashAction',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 361001
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:FlashAction',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 361036
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:FlashAction',
-      'desc' => [
-      ],
-    ],
-    5 => [
-      /**
-       * table_name : Sony::MoreSettings
-       * line : 361092
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::MoreSettings.Sony:FlashAction',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

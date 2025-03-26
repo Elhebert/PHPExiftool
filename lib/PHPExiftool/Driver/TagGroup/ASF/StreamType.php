@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class StreamType extends AbstractTagGroup
 {
+    protected string $id = 'ASF:StreamType';
 
-  protected string $id = 'ASF:StreamType';
+    protected string $name = 'StreamType';
 
-  protected string $name = 'StreamType';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ASF::StreamProperties
+             * line : 2046
+             * type : binary
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'ASF::StreamProperties.ASF:StreamType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ASF::StreamProperties
-       * line : 2046
-       * type : binary
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'ASF::StreamProperties.ASF:StreamType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensType extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:LensType';
 
-  protected string $id = 'Olympus:LensType';
+    protected string $name = 'LensType';
 
-  protected string $name = 'LensType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Equipment
+             * line : 254017
+             * type : int8u
+             * writable : true
+             * count : 6
+             * flags : permanent
+             */
+            'id' => 'Olympus::Equipment.Olympus:LensType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Equipment
-       * line : 254017
-       * type : int8u
-       * writable : true
-       * count : 6
-       * flags : permanent
-       */
-      'id' => 'Olympus::Equipment.Olympus:LensType',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 6;
 
-  protected int $count = 6;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

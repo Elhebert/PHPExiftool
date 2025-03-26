@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ItemPropertyAssociation extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ItemPropertyAssociation';
 
-  protected string $id = 'QuickTime:ItemPropertyAssociation';
+    protected string $name = 'ItemPropertyAssociation';
 
-  protected string $name = 'ItemPropertyAssociation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemProp
+             * line : 323185
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::ItemProp.QuickTime:ItemPropertyAssociation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemProp
-       * line : 323185
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::ItemProp.QuickTime:ItemPropertyAssociation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

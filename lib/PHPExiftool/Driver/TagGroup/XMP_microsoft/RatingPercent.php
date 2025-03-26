@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RatingPercent extends AbstractTagGroup
 {
+    protected string $id = 'XMP-microsoft:RatingPercent';
 
-  protected string $id = 'XMP-microsoft:RatingPercent';
+    protected string $name = 'RatingPercent';
 
-  protected string $name = 'RatingPercent';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::XMP
+             * line : 174390
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Microsoft::XMP.XMP-microsoft:RatingPercent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::XMP
-       * line : 174390
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Microsoft::XMP.XMP-microsoft:RatingPercent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

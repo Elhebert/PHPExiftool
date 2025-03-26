@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:PreviewImageHeight';
 
-  protected string $id = 'Kodak:PreviewImageHeight';
+    protected string $name = 'PreviewImageHeight';
 
-  protected string $name = 'PreviewImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Scrn
+             * line : 158539
+             * type : int16u
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::Scrn.Kodak:PreviewImageHeight',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Kodak::SubIFD0
+             * line : 158932
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Kodak::SubIFD0.Kodak:PreviewImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Scrn
-       * line : 158539
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::Scrn.Kodak:PreviewImageHeight',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Kodak::SubIFD0
-       * line : 158932
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Kodak::SubIFD0.Kodak:PreviewImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

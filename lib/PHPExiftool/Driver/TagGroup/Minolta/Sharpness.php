@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Sharpness extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:Sharpness';
 
-  protected string $id = 'Minolta:Sharpness';
+    protected string $name = 'Sharpness';
 
-  protected string $name = 'Sharpness';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::CameraSettings
+             * line : 177743
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings.Minolta:Sharpness',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Minolta::CameraSettings5D
+             * line : 178849
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings5D.Minolta:Sharpness',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Minolta::CameraSettings7D
+             * line : 179819
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettings7D.Minolta:Sharpness',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Minolta::CameraSettingsA100
+             * line : 181043
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Minolta::CameraSettingsA100.Minolta:Sharpness',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::CameraSettings
-       * line : 177743
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings.Minolta:Sharpness',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Minolta::CameraSettings5D
-       * line : 178849
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings5D.Minolta:Sharpness',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Minolta::CameraSettings7D
-       * line : 179819
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettings7D.Minolta:Sharpness',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Minolta::CameraSettingsA100
-       * line : 181043
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Minolta::CameraSettingsA100.Minolta:Sharpness',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

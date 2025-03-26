@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AppVersion extends AbstractTagGroup
 {
+    protected string $id = 'File:AppVersion';
 
-  protected string $id = 'File:AppVersion';
+    protected string $name = 'AppVersion';
 
-  protected string $name = 'AppVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166422
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:AppVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166422
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:AppVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ScannerSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:ScannerSerialNumber';
 
-  protected string $id = 'PhotoCD:ScannerSerialNumber';
+    protected string $name = 'ScannerSerialNumber';
 
-  protected string $name = 'ScannerSerialNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303778
+             * type : string
+             * writable : false
+             * count : 20
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:ScannerSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303778
-       * type : string
-       * writable : false
-       * count : 20
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:ScannerSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 20;
-
+    protected int $count = 20;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Rotation extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Rotation';
 
-  protected string $id = 'QuickTime:Rotation';
+    protected string $name = 'Rotation';
 
-  protected string $name = 'Rotation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ItemPropCont
+             * line : 323210
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'QuickTime::ItemPropCont.QuickTime:Rotation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ItemPropCont
-       * line : 323210
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'QuickTime::ItemPropCont.QuickTime:Rotation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ScannerFirmwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:ScannerFirmwareVersion';
 
-  protected string $id = 'PhotoCD:ScannerFirmwareVersion';
+    protected string $name = 'ScannerFirmwareVersion';
 
-  protected string $name = 'ScannerFirmwareVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303772
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:ScannerFirmwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303772
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:ScannerFirmwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

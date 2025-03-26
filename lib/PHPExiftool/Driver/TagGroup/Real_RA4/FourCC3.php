@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FourCC3 extends AbstractTagGroup
 {
+    protected string $id = 'Real-RA4:FourCC3';
 
-  protected string $id = 'Real-RA4:FourCC3';
+    protected string $name = 'FourCC3';
 
-  protected string $name = 'FourCC3';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::AudioV4
+             * line : 329872
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags : unknown
+             */
+            'id' => 'Real::AudioV4.Real-RA4:FourCC3',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::AudioV4
-       * line : 329872
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : unknown
-       */
-      'id' => 'Real::AudioV4.Real-RA4:FourCC3',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

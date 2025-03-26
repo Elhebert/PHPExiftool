@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Origin extends AbstractTagGroup
 {
+    protected string $id = 'File:Origin';
 
-  protected string $id = 'File:Origin';
+    protected string $name = 'Origin';
 
-  protected string $name = 'Origin';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166969
+             * type : float
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'MRC::Main.File:Origin',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166969
-       * type : float
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:Origin',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

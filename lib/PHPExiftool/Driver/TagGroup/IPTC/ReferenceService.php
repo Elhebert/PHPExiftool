@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReferenceService extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ReferenceService';
 
-  protected string $id = 'IPTC:ReferenceService';
+    protected string $name = 'ReferenceService';
 
-  protected string $name = 'ReferenceService';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150064
+             * type : string
+             * writable : true
+             * count : 10
+             * flags : list
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ReferenceService',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150064
-       * type : string
-       * writable : true
-       * count : 10
-       * flags : list
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ReferenceService',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 10;
 
-  protected int $count = 10;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

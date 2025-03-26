@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFStatusBottomHorizontal extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFStatusBottomHorizontal';
 
-  protected string $id = 'Sony:AFStatusBottomHorizontal';
+    protected string $name = 'AFStatusBottomHorizontal';
 
-  protected string $name = 'AFStatusBottomHorizontal';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::AFStatus15
+             * line : 343467
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFStatus15.Sony:AFStatusBottomHorizontal',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::AFStatus19
+             * line : 343744
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::AFStatus19.Sony:AFStatusBottomHorizontal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::AFStatus15
-       * line : 343467
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFStatus15.Sony:AFStatusBottomHorizontal',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::AFStatus19
-       * line : 343744
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::AFStatus19.Sony:AFStatusBottomHorizontal',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MachineID extends AbstractTagGroup
 {
+    protected string $id = 'LNK:MachineID';
 
-  protected string $id = 'LNK:MachineID';
+    protected string $name = 'MachineID';
 
-  protected string $name = 'MachineID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : LNK::TrackerData
+             * line : 161575
+             * type : var_string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'LNK::TrackerData.LNK:MachineID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : LNK::TrackerData
-       * line : 161575
-       * type : var_string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'LNK::TrackerData.LNK:MachineID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

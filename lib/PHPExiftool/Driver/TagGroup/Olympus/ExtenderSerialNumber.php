@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExtenderSerialNumber extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:ExtenderSerialNumber';
 
-  protected string $id = 'Olympus:ExtenderSerialNumber';
+    protected string $name = 'ExtenderSerialNumber';
 
-  protected string $name = 'ExtenderSerialNumber';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Equipment
+             * line : 254542
+             * type : string
+             * writable : true
+             * count : 32
+             * flags : permanent
+             */
+            'id' => 'Olympus::Equipment.Olympus:ExtenderSerialNumber',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Equipment
-       * line : 254542
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : permanent
-       */
-      'id' => 'Olympus::Equipment.Olympus:ExtenderSerialNumber',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

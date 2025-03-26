@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DropByKeyword extends AbstractTagGroup
 {
+    protected string $id = 'MNG:DropByKeyword';
 
-  protected string $id = 'MNG:DropByKeyword';
+    protected string $name = 'DropByKeyword';
 
-  protected string $name = 'DropByKeyword';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::Main
+             * line : 165196
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'MNG::Main.MNG:DropByKeyword',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::Main
-       * line : 165196
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'MNG::Main.MNG:DropByKeyword',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

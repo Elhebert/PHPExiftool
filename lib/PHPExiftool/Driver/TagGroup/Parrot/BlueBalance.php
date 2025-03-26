@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlueBalance extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:BlueBalance';
 
-  protected string $id = 'Parrot:BlueBalance';
+    protected string $name = 'BlueBalance';
 
-  protected string $name = 'BlueBalance';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::V3
+             * line : 282569
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V3.Parrot:BlueBalance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::V3
-       * line : 282569
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V3.Parrot:BlueBalance',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

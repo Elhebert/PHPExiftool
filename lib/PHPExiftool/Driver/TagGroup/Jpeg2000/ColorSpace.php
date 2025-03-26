@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorSpace extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:ColorSpace';
 
-  protected string $id = 'Jpeg2000:ColorSpace';
+    protected string $name = 'ColorSpace';
 
-  protected string $name = 'ColorSpace';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::ColorSpec
+             * line : 153737
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpace',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::ColorSpec
-       * line : 153737
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpace',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

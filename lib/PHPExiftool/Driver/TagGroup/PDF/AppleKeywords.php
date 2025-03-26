@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AppleKeywords extends AbstractTagGroup
 {
+    protected string $id = 'PDF:AppleKeywords';
 
-  protected string $id = 'PDF:AppleKeywords';
+    protected string $name = 'AppleKeywords';
 
-  protected string $name = 'AppleKeywords';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PDF::Info
+             * line : 264145
+             * type : string
+             * writable : true
+             * count :
+             * flags : list
+             */
+            'id' => 'PDF::Info.PDF:AppleKeywords',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PDF::Info
-       * line : 264145
-       * type : string
-       * writable : true
-       * count : 
-       * flags : list
-       */
-      'id' => 'PDF::Info.PDF:AppleKeywords',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

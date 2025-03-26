@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LuminanceCurvePoints extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:LuminanceCurvePoints';
 
-  protected string $id = 'CanonVRD:LuminanceCurvePoints';
+    protected string $name = 'LuminanceCurvePoints';
 
-  protected string $name = 'LuminanceCurvePoints';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::Ver1
+             * line : 82436
+             * type : int16u
+             * writable : true
+             * count : 21
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver1.CanonVRD:LuminanceCurvePoints',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::Ver1
-       * line : 82436
-       * type : int16u
-       * writable : true
-       * count : 21
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver1.CanonVRD:LuminanceCurvePoints',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 21;
 
-  protected int $count = 21;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

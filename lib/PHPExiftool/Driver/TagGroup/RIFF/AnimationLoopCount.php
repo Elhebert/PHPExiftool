@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AnimationLoopCount extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:AnimationLoopCount';
 
-  protected string $id = 'RIFF:AnimationLoopCount';
+    protected string $name = 'AnimationLoopCount';
 
-  protected string $name = 'AnimationLoopCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::ANIM
+             * line : 326899
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::ANIM.RIFF:AnimationLoopCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::ANIM
-       * line : 326899
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::ANIM.RIFF:AnimationLoopCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

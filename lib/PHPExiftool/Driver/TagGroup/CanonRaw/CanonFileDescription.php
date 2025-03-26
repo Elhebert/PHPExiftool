@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CanonFileDescription extends AbstractTagGroup
 {
+    protected string $id = 'CanonRaw:CanonFileDescription';
 
-  protected string $id = 'CanonRaw:CanonFileDescription';
+    protected string $name = 'CanonFileDescription';
 
-  protected string $name = 'CanonFileDescription';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonRaw::Main
+             * line : 78654
+             * type : string
+             * writable : true
+             * count : 32
+             * flags : permanent
+             */
+            'id' => 'CanonRaw::Main.CanonRaw:CanonFileDescription',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonRaw::Main
-       * line : 78654
-       * type : string
-       * writable : true
-       * count : 32
-       * flags : permanent
-       */
-      'id' => 'CanonRaw::Main.CanonRaw:CanonFileDescription',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 32;
 
-  protected int $count = 32;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

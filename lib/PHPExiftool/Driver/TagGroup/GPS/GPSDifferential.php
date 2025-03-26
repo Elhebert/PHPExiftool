@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSDifferential extends AbstractTagGroup
 {
+    protected string $id = 'GPS:GPSDifferential';
 
-  protected string $id = 'GPS:GPSDifferential';
+    protected string $name = 'GPSDifferential';
 
-  protected string $name = 'GPSDifferential';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GPS::Main
+             * line : 132667
+             * type : int16u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'GPS::Main.GPS:GPSDifferential',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GPS::Main
-       * line : 132667
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'GPS::Main.GPS:GPSDifferential',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DefaultCropSize extends AbstractTagGroup
 {
+    protected string $id = 'SubIFD:DefaultCropSize';
 
-  protected string $id = 'SubIFD:DefaultCropSize';
+    protected string $name = 'DefaultCropSize';
 
-  protected string $name = 'DefaultCropSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 119021
+             * type : int32u
+             * writable : true
+             * count : 2
+             * flags : unsafe
+             */
+            'id' => 'Exif::Main.SubIFD:DefaultCropSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 119021
-       * type : int32u
-       * writable : true
-       * count : 2
-       * flags : unsafe
-       */
-      'id' => 'Exif::Main.SubIFD:DefaultCropSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

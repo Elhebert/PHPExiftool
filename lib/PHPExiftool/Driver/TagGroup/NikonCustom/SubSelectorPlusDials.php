@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubSelectorPlusDials extends AbstractTagGroup
 {
+    protected string $id = 'NikonCustom:SubSelectorPlusDials';
 
-  protected string $id = 'NikonCustom:SubSelectorPlusDials';
+    protected string $name = 'SubSelectorPlusDials';
 
-  protected string $name = 'SubSelectorPlusDials';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : NikonCustom::SettingsD4
+             * line : 216404
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD4.NikonCustom:SubSelectorPlusDials',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : NikonCustom::SettingsD5
+             * line : 219258
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD5.NikonCustom:SubSelectorPlusDials',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : NikonCustom::SettingsD500
+             * line : 221718
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD500.NikonCustom:SubSelectorPlusDials',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : NikonCustom::SettingsD850
+             * line : 233631
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'NikonCustom::SettingsD850.NikonCustom:SubSelectorPlusDials',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : NikonCustom::SettingsD4
-       * line : 216404
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD4.NikonCustom:SubSelectorPlusDials',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : NikonCustom::SettingsD5
-       * line : 219258
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD5.NikonCustom:SubSelectorPlusDials',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : NikonCustom::SettingsD500
-       * line : 221718
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD500.NikonCustom:SubSelectorPlusDials',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : NikonCustom::SettingsD850
-       * line : 233631
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'NikonCustom::SettingsD850.NikonCustom:SubSelectorPlusDials',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

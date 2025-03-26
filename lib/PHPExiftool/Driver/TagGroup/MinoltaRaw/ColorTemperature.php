@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorTemperature extends AbstractTagGroup
 {
+    protected string $id = 'MinoltaRaw:ColorTemperature';
 
-  protected string $id = 'MinoltaRaw:ColorTemperature';
+    protected string $name = 'ColorTemperature';
 
-  protected string $name = 'ColorTemperature';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187631
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187713
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : MinoltaRaw::RIF
+             * line : 187753
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187631
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187713
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : MinoltaRaw::RIF
-       * line : 187753
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'MinoltaRaw::RIF.MinoltaRaw:ColorTemperature',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

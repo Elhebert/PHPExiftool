@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Thumbnails extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmp:Thumbnails';
 
-  protected string $id = 'XMP-xmp:Thumbnails';
+    protected string $name = 'Thumbnails';
 
-  protected string $name = 'Thumbnails';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmp
+             * line : 412727
+             * type : struct
+             * writable : true
+             * count :
+             * flags : alt,list
+             */
+            'id' => 'XMP::xmp.XMP-xmp:Thumbnails',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmp
-       * line : 412727
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : alt,list
-       */
-      'id' => 'XMP::xmp.XMP-xmp:Thumbnails',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 3136;
-
+    protected int $flags = 3136;
 }

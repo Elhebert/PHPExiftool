@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PGFVersion extends AbstractTagGroup
 {
+    protected string $id = 'File:PGFVersion';
 
-  protected string $id = 'File:PGFVersion';
+    protected string $name = 'PGFVersion';
 
-  protected string $name = 'PGFVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PGF::Main
+             * line : 264465
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PGF::Main.File:PGFVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PGF::Main
-       * line : 264465
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PGF::Main.File:PGFVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

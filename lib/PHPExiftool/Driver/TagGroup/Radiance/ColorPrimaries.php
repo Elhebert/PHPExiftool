@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorPrimaries extends AbstractTagGroup
 {
+    protected string $id = 'Radiance:ColorPrimaries';
 
-  protected string $id = 'Radiance:ColorPrimaries';
+    protected string $name = 'ColorPrimaries';
 
-  protected string $name = 'ColorPrimaries';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Radiance::Main
+             * line : 329568
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Radiance::Main.Radiance:ColorPrimaries',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Radiance::Main
-       * line : 329568
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Radiance::Main.Radiance:ColorPrimaries',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

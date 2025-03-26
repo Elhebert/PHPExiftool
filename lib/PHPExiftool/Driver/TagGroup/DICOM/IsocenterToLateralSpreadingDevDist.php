@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class IsocenterToLateralSpreadingDevDist extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:IsocenterToLateralSpreadingDevDist';
 
-  protected string $id = 'DICOM:IsocenterToLateralSpreadingDevDist';
+    protected string $name = 'IsocenterToLateralSpreadingDevDist';
 
-  protected string $name = 'IsocenterToLateralSpreadingDevDist';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 103870
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:IsocenterToLateralSpreadingDevDist',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 103870
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:IsocenterToLateralSpreadingDevDist',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

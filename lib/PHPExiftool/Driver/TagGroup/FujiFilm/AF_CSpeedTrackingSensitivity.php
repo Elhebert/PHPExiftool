@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AF_CSpeedTrackingSensitivity extends AbstractTagGroup
 {
+    protected string $id = 'FujiFilm:AF-CSpeedTrackingSensitivity';
 
-  protected string $id = 'FujiFilm:AF-CSpeedTrackingSensitivity';
+    protected string $name = 'AF-CSpeedTrackingSensitivity';
 
-  protected string $name = 'AF-CSpeedTrackingSensitivity';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FujiFilm::AFCSettings
+             * line : 128321
+             * type : int32u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'FujiFilm::AFCSettings.FujiFilm:AF-CSpeedTrackingSensitivity',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FujiFilm::AFCSettings
-       * line : 128321
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'FujiFilm::AFCSettings.FujiFilm:AF-CSpeedTrackingSensitivity',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

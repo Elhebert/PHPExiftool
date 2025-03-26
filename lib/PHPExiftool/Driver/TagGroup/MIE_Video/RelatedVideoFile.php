@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RelatedVideoFile extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Video:RelatedVideoFile';
 
-  protected string $id = 'MIE-Video:RelatedVideoFile';
+    protected string $name = 'RelatedVideoFile';
 
-  protected string $name = 'RelatedVideoFile';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Video
+             * line : 164234
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary
+             */
+            'id' => 'MIE::Video.MIE-Video:RelatedVideoFile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Video
-       * line : 164234
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary
-       */
-      'id' => 'MIE::Video.MIE-Video:RelatedVideoFile',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SaturationSetting extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:SaturationSetting';
 
-  protected string $id = 'Olympus:SaturationSetting';
+    protected string $name = 'SaturationSetting';
 
-  protected string $name = 'SaturationSetting';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::RawInfo
+             * line : 261196
+             * type : int16s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::RawInfo.Olympus:SaturationSetting',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::RawInfo
-       * line : 261196
-       * type : int16s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::RawInfo.Olympus:SaturationSetting',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

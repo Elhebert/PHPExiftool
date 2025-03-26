@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawData extends AbstractTagGroup
 {
+    protected string $id = 'Samsung:RawData';
 
-  protected string $id = 'Samsung:RawData';
+    protected string $name = 'RawData';
 
-  protected string $name = 'RawData';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Samsung::Type2
+             * line : 335608
+             * type : int32s
+             * writable : true
+             * count : 12
+             * flags : permanent,unknown
+             */
+            'id' => 'Samsung::Type2.Samsung:RawData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Samsung::Type2
-       * line : 335608
-       * type : int32s
-       * writable : true
-       * count : 12
-       * flags : permanent,unknown
-       */
-      'id' => 'Samsung::Type2.Samsung:RawData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 12;
 
-  protected int $count = 12;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

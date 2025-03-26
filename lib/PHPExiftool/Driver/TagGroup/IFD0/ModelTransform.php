@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ModelTransform extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:ModelTransform';
 
-  protected string $id = 'IFD0:ModelTransform';
+    protected string $name = 'ModelTransform';
 
-  protected string $name = 'ModelTransform';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 113443
+             * type : double
+             * writable : true
+             * count : 16
+             * flags :
+             */
+            'id' => 'Exif::Main.IFD0:ModelTransform',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 113443
-       * type : double
-       * writable : true
-       * count : 16
-       * flags : 
-       */
-      'id' => 'Exif::Main.IFD0:ModelTransform',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 16;
 
-  protected int $count = 16;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocalLength extends AbstractTagGroup
 {
+    protected string $id = 'MIE-Lens:FocalLength';
 
-  protected string $id = 'MIE-Lens:FocalLength';
+    protected string $name = 'FocalLength';
 
-  protected string $name = 'FocalLength';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MIE::Lens
+             * line : 163913
+             * type : rational64u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'MIE::Lens.MIE-Lens:FocalLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MIE::Lens
-       * line : 163913
-       * type : rational64u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'MIE::Lens.MIE-Lens:FocalLength',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

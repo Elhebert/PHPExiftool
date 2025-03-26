@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FileNameLength extends AbstractTagGroup
 {
+    protected string $id = 'ZIP:FileNameLength';
 
-  protected string $id = 'ZIP:FileNameLength';
+    protected string $name = 'FileNameLength';
 
-  protected string $name = 'FileNameLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZIP::RAR
+             * line : 415036
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::RAR.ZIP:FileNameLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZIP::RAR
-       * line : 415036
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::RAR.ZIP:FileNameLength',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

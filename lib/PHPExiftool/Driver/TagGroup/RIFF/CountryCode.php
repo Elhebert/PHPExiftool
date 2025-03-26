@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CountryCode extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:CountryCode';
 
-  protected string $id = 'RIFF:CountryCode';
+    protected string $name = 'CountryCode';
 
-  protected string $name = 'CountryCode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::CSET
+             * line : 327819
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::CSET.RIFF:CountryCode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::CSET
-       * line : 327819
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::CSET.RIFF:CountryCode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

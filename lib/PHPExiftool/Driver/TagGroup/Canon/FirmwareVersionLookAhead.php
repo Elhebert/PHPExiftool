@@ -19,99 +19,97 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirmwareVersionLookAhead extends AbstractTagGroup
 {
+    protected string $id = 'Canon:FirmwareVersionLookAhead';
 
-  protected string $id = 'Canon:FirmwareVersionLookAhead';
+    protected string $name = 'FirmwareVersionLookAhead';
 
-  protected string $name = 'FirmwareVersionLookAhead';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfo1DX
+             * line : 9111
+             * type : undef
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo1DX.Canon:FirmwareVersionLookAhead',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::CameraInfo1DmkIV
+             * line : 17829
+             * type : undef
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo1DmkIV.Canon:FirmwareVersionLookAhead',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Canon::CameraInfo50D
+             * line : 26244
+             * type : undef
+             * writable : true
+             * count : 164
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo50D.Canon:FirmwareVersionLookAhead',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Canon::CameraInfo5DmkII
+             * line : 34945
+             * type : undef
+             * writable : true
+             * count : 184
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo5DmkII.Canon:FirmwareVersionLookAhead',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : Canon::CameraInfo5DmkIII
+             * line : 37251
+             * type : undef
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo5DmkIII.Canon:FirmwareVersionLookAhead',
+            'desc' => [
+            ],
+        ],
+        5 => [
+            /**
+             * table_name : Canon::CameraInfo7D
+             * line : 51478
+             * type : undef
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo7D.Canon:FirmwareVersionLookAhead',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfo1DX
-       * line : 9111
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo1DX.Canon:FirmwareVersionLookAhead',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::CameraInfo1DmkIV
-       * line : 17829
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo1DmkIV.Canon:FirmwareVersionLookAhead',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Canon::CameraInfo50D
-       * line : 26244
-       * type : undef
-       * writable : true
-       * count : 164
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo50D.Canon:FirmwareVersionLookAhead',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Canon::CameraInfo5DmkII
-       * line : 34945
-       * type : undef
-       * writable : true
-       * count : 184
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo5DmkII.Canon:FirmwareVersionLookAhead',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : Canon::CameraInfo5DmkIII
-       * line : 37251
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo5DmkIII.Canon:FirmwareVersionLookAhead',
-      'desc' => [
-      ],
-    ],
-    5 => [
-      /**
-       * table_name : Canon::CameraInfo7D
-       * line : 51478
-       * type : undef
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo7D.Canon:FirmwareVersionLookAhead',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

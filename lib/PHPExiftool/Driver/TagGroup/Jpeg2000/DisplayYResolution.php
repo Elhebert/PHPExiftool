@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DisplayYResolution extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:DisplayYResolution';
 
-  protected string $id = 'Jpeg2000:DisplayYResolution';
+    protected string $name = 'DisplayYResolution';
 
-  protected string $name = 'DisplayYResolution';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::DisplayResolution
+             * line : 153830
+             * type : rational32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::DisplayResolution.Jpeg2000:DisplayYResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::DisplayResolution
-       * line : 153830
-       * type : rational32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::DisplayResolution.Jpeg2000:DisplayYResolution',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

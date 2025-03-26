@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BodyBatteryVoltage2 extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:BodyBatteryVoltage2';
 
-  protected string $id = 'Pentax:BodyBatteryVoltage2';
+    protected string $name = 'BodyBatteryVoltage2';
 
-  protected string $name = 'BodyBatteryVoltage2';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::BatteryInfo
+             * line : 283879
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Pentax::BatteryInfo.Pentax:BodyBatteryVoltage2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::BatteryInfo
-       * line : 283879
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Pentax::BatteryInfo.Pentax:BodyBatteryVoltage2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

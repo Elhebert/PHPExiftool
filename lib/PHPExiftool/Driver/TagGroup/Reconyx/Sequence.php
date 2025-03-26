@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Sequence extends AbstractTagGroup
 {
+    protected string $id = 'Reconyx:Sequence';
 
-  protected string $id = 'Reconyx:Sequence';
+    protected string $name = 'Sequence';
 
-  protected string $name = 'Sequence';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Reconyx::Main
+             * line : 330622
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Main.Reconyx:Sequence',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Reconyx::Type2
+             * line : 330857
+             * type : int8u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type2.Reconyx:Sequence',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Reconyx::Type3
+             * line : 331082
+             * type : int16u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Reconyx::Type3.Reconyx:Sequence',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Reconyx::Main
-       * line : 330622
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Main.Reconyx:Sequence',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Reconyx::Type2
-       * line : 330857
-       * type : int8u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type2.Reconyx:Sequence',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Reconyx::Type3
-       * line : 331082
-       * type : int16u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Reconyx::Type3.Reconyx:Sequence',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AudioCodecID extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:AudioCodecID';
 
-  protected string $id = 'Pentax:AudioCodecID';
+    protected string $name = 'AudioCodecID';
 
-  protected string $name = 'AudioCodecID';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::PENT
+             * line : 301494
+             * type : string
+             * writable : false
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Pentax::PENT.Pentax:AudioCodecID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::PENT
-       * line : 301494
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Pentax::PENT.Pentax:AudioCodecID',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

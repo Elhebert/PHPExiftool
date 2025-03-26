@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UUID_Signature extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:UUID-Signature';
 
-  protected string $id = 'Jpeg2000:UUID-Signature';
+    protected string $name = 'UUID-Signature';
 
-  protected string $name = 'UUID-Signature';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::Main
+             * line : 154299
+             * type : undef
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::Main.Jpeg2000:UUID-Signature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::Main
-       * line : 154299
-       * type : undef
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::Main.Jpeg2000:UUID-Signature',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

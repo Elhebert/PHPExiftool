@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WB_RGGBLevelsCloudy extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:WB_RGGBLevelsCloudy';
 
-  protected string $id = 'Nikon:WB_RGGBLevelsCloudy';
+    protected string $name = 'WB_RGGBLevelsCloudy';
 
-  protected string $name = 'WB_RGGBLevelsCloudy';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::ColorBalanceB
+             * line : 192041
+             * type : int32u
+             * writable : true
+             * count : 4
+             * flags : permanent,unsafe
+             */
+            'id' => 'Nikon::ColorBalanceB.Nikon:WB_RGGBLevelsCloudy',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Nikon::ColorBalanceC
+             * line : 192120
+             * type : int32u
+             * writable : true
+             * count : 4
+             * flags : permanent,unsafe
+             */
+            'id' => 'Nikon::ColorBalanceC.Nikon:WB_RGGBLevelsCloudy',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::ColorBalanceB
-       * line : 192041
-       * type : int32u
-       * writable : true
-       * count : 4
-       * flags : permanent,unsafe
-       */
-      'id' => 'Nikon::ColorBalanceB.Nikon:WB_RGGBLevelsCloudy',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Nikon::ColorBalanceC
-       * line : 192120
-       * type : int32u
-       * writable : true
-       * count : 4
-       * flags : permanent,unsafe
-       */
-      'id' => 'Nikon::ColorBalanceC.Nikon:WB_RGGBLevelsCloudy',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2068;
-
+    protected int $flags = 2068;
 }

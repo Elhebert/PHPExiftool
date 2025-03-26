@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExtendedHeaderType extends AbstractTagGroup
 {
+    protected string $id = 'File:ExtendedHeaderType';
 
-  protected string $id = 'File:ExtendedHeaderType';
+    protected string $name = 'ExtendedHeaderType';
 
-  protected string $name = 'ExtendedHeaderType';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166963
+             * type : string
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'MRC::Main.File:ExtendedHeaderType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166963
-       * type : string
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:ExtendedHeaderType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

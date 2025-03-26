@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DistanceReceptorPlaneToDetHousing extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:DistanceReceptorPlaneToDetHousing';
 
-  protected string $id = 'DICOM:DistanceReceptorPlaneToDetHousing';
+    protected string $name = 'DistanceReceptorPlaneToDetHousing';
 
-  protected string $name = 'DistanceReceptorPlaneToDetHousing';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 97125
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:DistanceReceptorPlaneToDetHousing',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 97125
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:DistanceReceptorPlaneToDetHousing',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

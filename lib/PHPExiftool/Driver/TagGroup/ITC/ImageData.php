@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageData extends AbstractTagGroup
 {
+    protected string $id = 'ITC:ImageData';
 
-  protected string $id = 'ITC:ImageData';
+    protected string $name = 'ImageData';
 
-  protected string $name = 'ImageData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ITC::Main
+             * line : 152189
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ITC::Main.ITC:ImageData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ITC::Main
-       * line : 152189
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ITC::Main.ITC:ImageData',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

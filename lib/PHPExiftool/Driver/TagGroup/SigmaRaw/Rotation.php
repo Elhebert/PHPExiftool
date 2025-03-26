@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Rotation extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:Rotation';
 
-  protected string $id = 'SigmaRaw:Rotation';
+    protected string $name = 'Rotation';
 
-  protected string $name = 'Rotation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Header
+             * line : 339373
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header.SigmaRaw:Rotation',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : SigmaRaw::Header4
+             * line : 339470
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header4.SigmaRaw:Rotation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Header
-       * line : 339373
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header.SigmaRaw:Rotation',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : SigmaRaw::Header4
-       * line : 339470
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header4.SigmaRaw:Rotation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorSpecData extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:ColorSpecData';
 
-  protected string $id = 'Jpeg2000:ColorSpecData';
+    protected string $name = 'ColorSpecData';
 
-  protected string $name = 'ColorSpecData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::ColorSpec
+             * line : 153819
+             * type : undef
+             * writable : true
+             * count :
+             * flags : binary,unsafe
+             */
+            'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpecData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::ColorSpec
-       * line : 153819
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : binary,unsafe
-       */
-      'id' => 'Jpeg2000::ColorSpec.Jpeg2000:ColorSpecData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2066;
-
+    protected int $flags = 2066;
 }

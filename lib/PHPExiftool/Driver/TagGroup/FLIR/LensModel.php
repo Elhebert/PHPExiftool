@@ -19,58 +19,56 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LensModel extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:LensModel';
 
-  protected string $id = 'FLIR:LensModel';
+    protected string $name = 'LensModel';
 
-  protected string $name = 'LensModel';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
-
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122277
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:LensModel',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122555
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:LensModel',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : FLIR::MoreInfo
-       * line : 123459
-       * type : string
-       * writable : false
-       * count : 6
-       * flags : permanent
-       */
-      'id' => 'FLIR::MoreInfo.FLIR:LensModel',
-      'desc' => [
-      ],
-    ],
-  ];
-
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122277
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:LensModel',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122555
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:LensModel',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : FLIR::MoreInfo
+             * line : 123459
+             * type : string
+             * writable : false
+             * count : 6
+             * flags : permanent
+             */
+            'id' => 'FLIR::MoreInfo.FLIR:LensModel',
+            'desc' => [
+            ],
+        ],
+    ];
 }

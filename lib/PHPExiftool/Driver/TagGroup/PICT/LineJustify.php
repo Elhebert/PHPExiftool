@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LineJustify extends AbstractTagGroup
 {
+    protected string $id = 'PICT:LineJustify';
 
-  protected string $id = 'PICT:LineJustify';
+    protected string $name = 'LineJustify';
 
-  protected string $name = 'LineJustify';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PICT::Main
+             * line : 264751
+             * type : int8u
+             * writable : false
+             * count : 10
+             * flags :
+             */
+            'id' => 'PICT::Main.PICT:LineJustify',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PICT::Main
-       * line : 264751
-       * type : int8u
-       * writable : false
-       * count : 10
-       * flags : 
-       */
-      'id' => 'PICT::Main.PICT:LineJustify',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 10;
-
+    protected int $count = 10;
 }

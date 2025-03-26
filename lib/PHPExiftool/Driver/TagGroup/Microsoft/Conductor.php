@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Conductor extends AbstractTagGroup
 {
+    protected string $id = 'Microsoft:Conductor';
 
-  protected string $id = 'Microsoft:Conductor';
+    protected string $name = 'Conductor';
 
-  protected string $name = 'Conductor';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::Xtra
+             * line : 175009
+             * type : Unicode
+             * writable : true
+             * count :
+             * flags : avoid,list
+             */
+            'id' => 'Microsoft::Xtra.Microsoft:Conductor',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::Xtra
-       * line : 175009
-       * type : Unicode
-       * writable : true
-       * count : 
-       * flags : avoid,list
-       */
-      'id' => 'Microsoft::Xtra.Microsoft:Conductor',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2113;
-
+    protected int $flags = 2113;
 }

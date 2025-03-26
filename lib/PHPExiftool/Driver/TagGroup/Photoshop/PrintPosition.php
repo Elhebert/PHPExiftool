@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PrintPosition extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:PrintPosition';
 
-  protected string $id = 'Photoshop:PrintPosition';
+    protected string $name = 'PrintPosition';
 
-  protected string $name = 'PrintPosition';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::PrintScaleInfo
+             * line : 305742
+             * type : float
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'Photoshop::PrintScaleInfo.Photoshop:PrintPosition',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::PrintScaleInfo
-       * line : 305742
-       * type : float
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'Photoshop::PrintScaleInfo.Photoshop:PrintPosition',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

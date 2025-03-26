@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CrossProcessParams extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:CrossProcessParams';
 
-  protected string $id = 'Pentax:CrossProcessParams';
+    protected string $name = 'CrossProcessParams';
 
-  protected string $name = 'CrossProcessParams';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300890
+             * type : undef
+             * writable : true
+             * count : 10
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:CrossProcessParams',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300890
-       * type : undef
-       * writable : true
-       * count : 10
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:CrossProcessParams',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 10;
 
-  protected int $count = 10;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

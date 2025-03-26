@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class XA_XRFFrameCharacteristicsSequence extends AbstractTagGroup
 {
+    protected string $id = 'DICOM:XA-XRFFrameCharacteristicsSequence';
 
-  protected string $id = 'DICOM:XA-XRFFrameCharacteristicsSequence';
+    protected string $name = 'XA-XRFFrameCharacteristicsSequence';
 
-  protected string $name = 'XA-XRFFrameCharacteristicsSequence';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DICOM::Main
+             * line : 97105
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DICOM::Main.DICOM:XA-XRFFrameCharacteristicsSequence',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DICOM::Main
-       * line : 97105
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DICOM::Main.DICOM:XA-XRFFrameCharacteristicsSequence',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

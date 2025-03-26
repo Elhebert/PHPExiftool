@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FormatVersionTime extends AbstractTagGroup
 {
+    protected string $id = 'AIFF:FormatVersionTime';
 
-  protected string $id = 'AIFF:FormatVersionTime';
+    protected string $name = 'FormatVersionTime';
 
-  protected string $name = 'FormatVersionTime';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : AIFF::FormatVers
+             * line : 185
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'AIFF::FormatVers.AIFF:FormatVersionTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : AIFF::FormatVers
-       * line : 185
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'AIFF::FormatVers.AIFF:FormatVersionTime',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

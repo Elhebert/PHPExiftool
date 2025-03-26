@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreatorWorkEmail extends AbstractTagGroup
 {
+    protected string $id = 'XMP-iptcCore:CreatorWorkEmail';
 
-  protected string $id = 'XMP-iptcCore:CreatorWorkEmail';
+    protected string $name = 'CreatorWorkEmail';
 
-  protected string $name = 'CreatorWorkEmail';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::iptcCore
+             * line : 408979
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorWorkEmail',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::iptcCore
-       * line : 408979
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorWorkEmail',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

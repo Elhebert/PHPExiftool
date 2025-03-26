@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PoseRollDegrees extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:PoseRollDegrees';
 
-  protected string $id = 'QuickTime:PoseRollDegrees';
+    protected string $name = 'PoseRollDegrees';
 
-  protected string $name = 'PoseRollDegrees';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::prhd
+             * line : 326732
+             * type : fixed32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::prhd.QuickTime:PoseRollDegrees',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::prhd
-       * line : 326732
-       * type : fixed32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::prhd.QuickTime:PoseRollDegrees',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

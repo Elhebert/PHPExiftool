@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'Scalado:PreviewImageWidth';
 
-  protected string $id = 'Scalado:PreviewImageWidth';
+    protected string $name = 'PreviewImageWidth';
 
-  protected string $name = 'PreviewImageWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Scalado::Main
+             * line : 336947
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Scalado::Main.Scalado:PreviewImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Scalado::Main
-       * line : 336947
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Scalado::Main.Scalado:PreviewImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

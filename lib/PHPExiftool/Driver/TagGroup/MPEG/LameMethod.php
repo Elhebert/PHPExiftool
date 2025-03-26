@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LameMethod extends AbstractTagGroup
 {
+    protected string $id = 'MPEG:LameMethod';
 
-  protected string $id = 'MPEG:LameMethod';
+    protected string $name = 'LameMethod';
 
-  protected string $name = 'LameMethod';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPEG::Lame
+             * line : 165928
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPEG::Lame.MPEG:LameMethod',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPEG::Lame
-       * line : 165928
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPEG::Lame.MPEG:LameMethod',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

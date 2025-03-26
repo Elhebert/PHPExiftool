@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageWorkstationMake extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:ImageWorkstationMake';
 
-  protected string $id = 'PhotoCD:ImageWorkstationMake';
+    protected string $name = 'ImageWorkstationMake';
 
-  protected string $name = 'ImageWorkstationMake';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 303784
+             * type : string
+             * writable : false
+             * count : 20
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:ImageWorkstationMake',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 303784
-       * type : string
-       * writable : false
-       * count : 20
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:ImageWorkstationMake',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 20;
-
+    protected int $count = 20;
 }

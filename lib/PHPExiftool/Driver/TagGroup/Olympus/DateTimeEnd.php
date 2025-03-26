@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeEnd extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:DateTimeEnd';
 
-  protected string $id = 'Olympus:DateTimeEnd';
+    protected string $name = 'DateTimeEnd';
 
-  protected string $name = 'DateTimeEnd';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::WAV
+             * line : 262257
+             * type : undef
+             * writable : false
+             * count : 12
+             * flags : permanent
+             */
+            'id' => 'Olympus::WAV.Olympus:DateTimeEnd',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::WAV
-       * line : 262257
-       * type : undef
-       * writable : false
-       * count : 12
-       * flags : permanent
-       */
-      'id' => 'Olympus::WAV.Olympus:DateTimeEnd',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 12;
 
-  protected int $count = 12;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

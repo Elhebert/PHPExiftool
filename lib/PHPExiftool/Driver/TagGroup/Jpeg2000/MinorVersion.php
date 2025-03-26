@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MinorVersion extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:MinorVersion';
 
-  protected string $id = 'Jpeg2000:MinorVersion';
+    protected string $name = 'MinorVersion';
 
-  protected string $name = 'MinorVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::FileType
+             * line : 153967
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'Jpeg2000::FileType.Jpeg2000:MinorVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::FileType
-       * line : 153967
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'Jpeg2000::FileType.Jpeg2000:MinorVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

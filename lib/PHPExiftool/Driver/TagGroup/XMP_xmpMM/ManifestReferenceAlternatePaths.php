@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ManifestReferenceAlternatePaths extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpMM:ManifestReferenceAlternatePaths';
 
-  protected string $id = 'XMP-xmpMM:ManifestReferenceAlternatePaths';
+    protected string $name = 'ManifestReferenceAlternatePaths';
 
-  protected string $name = 'ManifestReferenceAlternatePaths';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpMM
+             * line : 414103
+             * type : string
+             * writable : true
+             * count :
+             * flags : flattened,list,seq
+             */
+            'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceAlternatePaths',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpMM
-       * line : 414103
-       * type : string
-       * writable : true
-       * count : 
-       * flags : flattened,list,seq
-       */
-      'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceAlternatePaths',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2624;
-
+    protected int $flags = 2624;
 }

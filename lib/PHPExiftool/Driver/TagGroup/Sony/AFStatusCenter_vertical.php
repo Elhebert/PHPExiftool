@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFStatusCenter_vertical extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFStatusCenter-vertical';
 
-  protected string $id = 'Sony:AFStatusCenter-vertical';
+    protected string $name = 'AFStatusCenter-vertical';
 
-  protected string $name = 'AFStatusCenter-vertical';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraInfo
+             * line : 345427
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraInfo.Sony:AFStatusCenter-vertical',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraInfo
-       * line : 345427
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraInfo.Sony:AFStatusCenter-vertical',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

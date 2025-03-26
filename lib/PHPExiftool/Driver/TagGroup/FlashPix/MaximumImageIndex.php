@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MaximumImageIndex extends AbstractTagGroup
 {
+    protected string $id = 'FlashPix:MaximumImageIndex';
 
-  protected string $id = 'FlashPix:MaximumImageIndex';
+    protected string $name = 'MaximumImageIndex';
 
-  protected string $name = 'MaximumImageIndex';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FlashPix::GlobalInfo
+             * line : 124629
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FlashPix::GlobalInfo.FlashPix:MaximumImageIndex',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FlashPix::GlobalInfo
-       * line : 124629
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FlashPix::GlobalInfo.FlashPix:MaximumImageIndex',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

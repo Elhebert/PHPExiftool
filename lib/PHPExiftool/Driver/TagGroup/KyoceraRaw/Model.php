@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Model extends AbstractTagGroup
 {
+    protected string $id = 'KyoceraRaw:Model';
 
-  protected string $id = 'KyoceraRaw:Model';
+    protected string $name = 'Model';
 
-  protected string $name = 'Model';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : KyoceraRaw::Main
+             * line : 160729
+             * type : string
+             * writable : false
+             * count : 12
+             * flags : permanent
+             */
+            'id' => 'KyoceraRaw::Main.KyoceraRaw:Model',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : KyoceraRaw::Main
-       * line : 160729
-       * type : string
-       * writable : false
-       * count : 12
-       * flags : permanent
-       */
-      'id' => 'KyoceraRaw::Main.KyoceraRaw:Model',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 12;
 
-  protected int $count = 12;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

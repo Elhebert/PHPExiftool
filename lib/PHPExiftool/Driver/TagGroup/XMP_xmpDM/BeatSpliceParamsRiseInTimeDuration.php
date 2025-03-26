@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BeatSpliceParamsRiseInTimeDuration extends AbstractTagGroup
 {
+    protected string $id = 'XMP-xmpDM:BeatSpliceParamsRiseInTimeDuration';
 
-  protected string $id = 'XMP-xmpDM:BeatSpliceParamsRiseInTimeDuration';
+    protected string $name = 'BeatSpliceParamsRiseInTimeDuration';
 
-  protected string $name = 'BeatSpliceParamsRiseInTimeDuration';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::xmpDM
+             * line : 412957
+             * type : struct
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'XMP::xmpDM.XMP-xmpDM:BeatSpliceParamsRiseInTimeDuration',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::xmpDM
-       * line : 412957
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'XMP::xmpDM.XMP-xmpDM:BeatSpliceParamsRiseInTimeDuration',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

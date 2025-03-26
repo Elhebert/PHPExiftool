@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PaintBasedCorrections extends AbstractTagGroup
 {
+    protected string $id = 'XMP-crd:PaintBasedCorrections';
 
-  protected string $id = 'XMP-crd:PaintBasedCorrections';
+    protected string $name = 'PaintBasedCorrections';
 
-  protected string $name = 'PaintBasedCorrections';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::crd
+             * line : 400114
+             * type : struct
+             * writable : true
+             * count :
+             * flags : avoid,list,seq
+             */
+            'id' => 'XMP::crd.XMP-crd:PaintBasedCorrections',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::crd
-       * line : 400114
-       * type : struct
-       * writable : true
-       * count : 
-       * flags : avoid,list,seq
-       */
-      'id' => 'XMP::crd.XMP-crd:PaintBasedCorrections',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2625;
-
+    protected int $flags = 2625;
 }

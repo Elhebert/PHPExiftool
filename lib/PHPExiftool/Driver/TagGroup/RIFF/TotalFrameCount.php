@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TotalFrameCount extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:TotalFrameCount';
 
-  protected string $id = 'RIFF:TotalFrameCount';
+    protected string $name = 'TotalFrameCount';
 
-  protected string $name = 'TotalFrameCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::ExtAVIHdr
+             * line : 327959
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::ExtAVIHdr.RIFF:TotalFrameCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::ExtAVIHdr
-       * line : 327959
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::ExtAVIHdr.RIFF:TotalFrameCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

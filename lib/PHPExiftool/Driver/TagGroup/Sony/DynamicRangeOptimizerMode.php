@@ -19,75 +19,73 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DynamicRangeOptimizerMode extends AbstractTagGroup
 {
+    protected string $id = 'Sony:DynamicRangeOptimizerMode';
 
-  protected string $id = 'Sony:DynamicRangeOptimizerMode';
+    protected string $name = 'DynamicRangeOptimizerMode';
 
-  protected string $name = 'DynamicRangeOptimizerMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraSettings
+             * line : 347243
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings.Sony:DynamicRangeOptimizerMode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Sony::CameraSettings2
+             * line : 348811
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraSettings2.Sony:DynamicRangeOptimizerMode',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Sony::FocusInfo
+             * line : 353019
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::FocusInfo.Sony:DynamicRangeOptimizerMode',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : Sony::FocusInfo
+             * line : 353393
+             * type : int8u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::FocusInfo.Sony:DynamicRangeOptimizerMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraSettings
-       * line : 347243
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings.Sony:DynamicRangeOptimizerMode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Sony::CameraSettings2
-       * line : 348811
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraSettings2.Sony:DynamicRangeOptimizerMode',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Sony::FocusInfo
-       * line : 353019
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::FocusInfo.Sony:DynamicRangeOptimizerMode',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : Sony::FocusInfo
-       * line : 353393
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::FocusInfo.Sony:DynamicRangeOptimizerMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

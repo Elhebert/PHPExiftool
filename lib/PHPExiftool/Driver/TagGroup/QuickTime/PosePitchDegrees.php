@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PosePitchDegrees extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:PosePitchDegrees';
 
-  protected string $id = 'QuickTime:PosePitchDegrees';
+    protected string $name = 'PosePitchDegrees';
 
-  protected string $name = 'PosePitchDegrees';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::prhd
+             * line : 326728
+             * type : fixed32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::prhd.QuickTime:PosePitchDegrees',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::prhd
-       * line : 326728
-       * type : fixed32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::prhd.QuickTime:PosePitchDegrees',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

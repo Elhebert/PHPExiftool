@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MarkBits extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:MarkBits';
 
-  protected string $id = 'SigmaRaw:MarkBits';
+    protected string $name = 'MarkBits';
 
-  protected string $name = 'MarkBits';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::Header
+             * line : 339332
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::Header.SigmaRaw:MarkBits',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::Header
-       * line : 339332
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::Header.SigmaRaw:MarkBits',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

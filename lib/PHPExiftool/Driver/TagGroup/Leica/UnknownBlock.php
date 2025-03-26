@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownBlock extends AbstractTagGroup
 {
+    protected string $id = 'Leica:UnknownBlock';
 
-  protected string $id = 'Leica:UnknownBlock';
+    protected string $name = 'UnknownBlock';
 
-  protected string $name = 'UnknownBlock';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Panasonic::Leica6
+             * line : 274925
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary,permanent,unknown
+             */
+            'id' => 'Panasonic::Leica6.Leica:UnknownBlock',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Panasonic::Leica6
-       * line : 274925
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary,permanent,unknown
-       */
-      'id' => 'Panasonic::Leica6.Leica:UnknownBlock',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 38;
-
+    protected int $flags = 38;
 }

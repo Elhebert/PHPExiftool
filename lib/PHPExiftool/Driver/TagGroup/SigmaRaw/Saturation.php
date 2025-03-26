@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Saturation extends AbstractTagGroup
 {
+    protected string $id = 'SigmaRaw:Saturation';
 
-  protected string $id = 'SigmaRaw:Saturation';
+    protected string $name = 'Saturation';
 
-  protected string $name = 'Saturation';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : SigmaRaw::HeaderExt
+             * line : 339525
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Saturation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : SigmaRaw::HeaderExt
-       * line : 339525
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Saturation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

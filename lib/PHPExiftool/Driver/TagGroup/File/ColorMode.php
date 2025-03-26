@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorMode extends AbstractTagGroup
 {
+    protected string $id = 'File:ColorMode';
 
-  protected string $id = 'File:ColorMode';
+    protected string $name = 'ColorMode';
 
-  protected string $name = 'ColorMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PCX::Main
+             * line : 263983
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PCX::Main.File:ColorMode',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : PGF::Main
+             * line : 264540
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PGF::Main.File:ColorMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PCX::Main
-       * line : 263983
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PCX::Main.File:ColorMode',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : PGF::Main
-       * line : 264540
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PGF::Main.File:ColorMode',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

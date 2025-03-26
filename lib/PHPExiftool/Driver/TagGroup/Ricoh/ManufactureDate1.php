@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ManufactureDate1 extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:ManufactureDate1';
 
-  protected string $id = 'Ricoh:ManufactureDate1';
+    protected string $name = 'ManufactureDate1';
 
-  protected string $name = 'ManufactureDate1';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::Subdir
+             * line : 333735
+             * type : string
+             * writable : true
+             * count : 20
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Subdir.Ricoh:ManufactureDate1',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::Subdir
-       * line : 333735
-       * type : string
-       * writable : true
-       * count : 20
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Subdir.Ricoh:ManufactureDate1',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 20;
 
-  protected int $count = 20;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

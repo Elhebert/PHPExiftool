@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class HorizontalScale extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:HorizontalScale';
 
-  protected string $id = 'RIFF:HorizontalScale';
+    protected string $name = 'HorizontalScale';
 
-  protected string $name = 'HorizontalScale';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::VP8
+             * line : 328976
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::VP8.RIFF:HorizontalScale',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::VP8
-       * line : 328976
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::VP8.RIFF:HorizontalScale',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

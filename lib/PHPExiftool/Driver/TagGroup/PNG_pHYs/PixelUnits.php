@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PixelUnits extends AbstractTagGroup
 {
+    protected string $id = 'PNG-pHYs:PixelUnits';
 
-  protected string $id = 'PNG-pHYs:PixelUnits';
+    protected string $name = 'PixelUnits';
 
-  protected string $name = 'PixelUnits';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PNG::PhysicalPixel
+             * line : 272670
+             * type : int8u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PNG::PhysicalPixel.PNG-pHYs:PixelUnits',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PNG::PhysicalPixel
-       * line : 272670
-       * type : int8u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PNG::PhysicalPixel.PNG-pHYs:PixelUnits',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

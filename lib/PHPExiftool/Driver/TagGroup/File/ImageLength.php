@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageLength extends AbstractTagGroup
 {
+    protected string $id = 'File:ImageLength';
 
-  protected string $id = 'File:ImageLength';
+    protected string $name = 'ImageLength';
 
-  protected string $name = 'ImageLength';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Main
+             * line : 3314
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::Main.File:ImageLength',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : BPG::Main
+             * line : 3728
+             * type : var_ue7
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BPG::Main.File:ImageLength',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Main
-       * line : 3314
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::Main.File:ImageLength',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : BPG::Main
-       * line : 3728
-       * type : var_ue7
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BPG::Main.File:ImageLength',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

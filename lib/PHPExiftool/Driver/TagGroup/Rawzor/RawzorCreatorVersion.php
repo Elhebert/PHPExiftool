@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RawzorCreatorVersion extends AbstractTagGroup
 {
+    protected string $id = 'Rawzor:RawzorCreatorVersion';
 
-  protected string $id = 'Rawzor:RawzorCreatorVersion';
+    protected string $name = 'RawzorCreatorVersion';
 
-  protected string $name = 'RawzorCreatorVersion';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Rawzor::Main
+             * line : 329616
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Rawzor::Main.Rawzor:RawzorCreatorVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Rawzor::Main
-       * line : 329616
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Rawzor::Main.Rawzor:RawzorCreatorVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,60 +19,58 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLongitude extends AbstractTagGroup
 {
+    protected string $id = 'Parrot:GPSLongitude';
 
-  protected string $id = 'Parrot:GPSLongitude';
+    protected string $name = 'GPSLongitude';
 
-  protected string $name = 'GPSLongitude';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Parrot::V1
+             * line : 282100
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V1.Parrot:GPSLongitude',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Parrot::V2
+             * line : 282244
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V2.Parrot:GPSLongitude',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Parrot::V3
+             * line : 282451
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Parrot::V3.Parrot:GPSLongitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Parrot::V1
-       * line : 282100
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V1.Parrot:GPSLongitude',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Parrot::V2
-       * line : 282244
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V2.Parrot:GPSLongitude',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Parrot::V3
-       * line : 282451
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Parrot::V3.Parrot:GPSLongitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

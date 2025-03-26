@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LocalPositionNED extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:LocalPositionNED';
 
-  protected string $id = 'GoPro:LocalPositionNED';
+    protected string $name = 'LocalPositionNED';
 
-  protected string $name = 'LocalPositionNED';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPMF
+             * line : 139586
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'GoPro::GPMF.GoPro:LocalPositionNED',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPMF
-       * line : 139586
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'GoPro::GPMF.GoPro:LocalPositionNED',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

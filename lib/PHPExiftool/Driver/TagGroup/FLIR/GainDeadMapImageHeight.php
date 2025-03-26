@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GainDeadMapImageHeight extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:GainDeadMapImageHeight';
 
-  protected string $id = 'FLIR:GainDeadMapImageHeight';
+    protected string $name = 'GainDeadMapImageHeight';
 
-  protected string $name = 'GainDeadMapImageHeight';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::GainDeadData
+             * line : 123189
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::GainDeadData.FLIR:GainDeadMapImageHeight',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::GainDeadData
-       * line : 123189
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::GainDeadData.FLIR:GainDeadMapImageHeight',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

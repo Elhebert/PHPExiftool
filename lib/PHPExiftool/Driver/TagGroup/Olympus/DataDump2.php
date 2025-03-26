@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataDump2 extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:DataDump2';
 
-  protected string $id = 'Olympus:DataDump2';
+    protected string $name = 'DataDump2';
 
-  protected string $name = 'DataDump2';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::Main
+             * line : 258345
+             * type : ?
+             * writable : true
+             * count :
+             * flags : binary,permanent
+             */
+            'id' => 'Olympus::Main.Olympus:DataDump2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::Main
-       * line : 258345
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : binary,permanent
-       */
-      'id' => 'Olympus::Main.Olympus:DataDump2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2054;
-
+    protected int $flags = 2054;
 }

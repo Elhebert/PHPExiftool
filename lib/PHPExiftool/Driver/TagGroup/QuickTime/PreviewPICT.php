@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PreviewPICT extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:PreviewPICT';
 
-  protected string $id = 'QuickTime:PreviewPICT';
+    protected string $name = 'PreviewPICT';
 
-  protected string $name = 'PreviewPICT';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Main
+             * line : 323760
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'QuickTime::Main.QuickTime:PreviewPICT',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : QuickTime::Main
+             * line : 323801
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'QuickTime::Main.QuickTime:PreviewPICT',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Main
-       * line : 323760
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'QuickTime::Main.QuickTime:PreviewPICT',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : QuickTime::Main
-       * line : 323801
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'QuickTime::Main.QuickTime:PreviewPICT',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

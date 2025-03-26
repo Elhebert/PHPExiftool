@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSAltitudeRaw extends AbstractTagGroup
 {
+    protected string $id = 'GoPro:GPSAltitudeRaw';
 
-  protected string $id = 'GoPro:GPSAltitudeRaw';
+    protected string $name = 'GPSAltitudeRaw';
 
-  protected string $name = 'GPSAltitudeRaw';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GoPro::GPRI
+             * line : 139872
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GoPro::GPRI.GoPro:GPSAltitudeRaw',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GoPro::GPRI
-       * line : 139872
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GoPro::GPRI.GoPro:GPSAltitudeRaw',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

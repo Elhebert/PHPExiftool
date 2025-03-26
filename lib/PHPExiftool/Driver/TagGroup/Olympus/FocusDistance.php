@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FocusDistance extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:FocusDistance';
 
-  protected string $id = 'Olympus:FocusDistance';
+    protected string $name = 'FocusDistance';
 
-  protected string $name = 'FocusDistance';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::FocusInfo
+             * line : 254767
+             * type : rational64u
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Olympus::FocusInfo.Olympus:FocusDistance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::FocusInfo
-       * line : 254767
-       * type : rational64u
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Olympus::FocusInfo.Olympus:FocusDistance',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

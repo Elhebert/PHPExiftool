@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DateTimeOriginal extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:DateTimeOriginal';
 
-  protected string $id = 'Olympus:DateTimeOriginal';
+    protected string $name = 'DateTimeOriginal';
 
-  protected string $name = 'DateTimeOriginal';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::OLYM
+             * line : 260182
+             * type : string
+             * writable : false
+             * count : 24
+             * flags : permanent
+             */
+            'id' => 'Olympus::OLYM.Olympus:DateTimeOriginal',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Olympus::WAV
+             * line : 262239
+             * type : undef
+             * writable : false
+             * count : 12
+             * flags : permanent
+             */
+            'id' => 'Olympus::WAV.Olympus:DateTimeOriginal',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::OLYM
-       * line : 260182
-       * type : string
-       * writable : false
-       * count : 24
-       * flags : permanent
-       */
-      'id' => 'Olympus::OLYM.Olympus:DateTimeOriginal',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Olympus::WAV
-       * line : 262239
-       * type : undef
-       * writable : false
-       * count : 12
-       * flags : permanent
-       */
-      'id' => 'Olympus::WAV.Olympus:DateTimeOriginal',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

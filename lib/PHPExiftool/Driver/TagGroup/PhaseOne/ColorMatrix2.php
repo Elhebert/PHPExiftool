@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorMatrix2 extends AbstractTagGroup
 {
+    protected string $id = 'PhaseOne:ColorMatrix2';
 
-  protected string $id = 'PhaseOne:ColorMatrix2';
+    protected string $name = 'ColorMatrix2';
 
-  protected string $name = 'ColorMatrix2';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhaseOne::Main
+             * line : 303433
+             * type : float
+             * writable : true
+             * count : 9
+             * flags : permanent
+             */
+            'id' => 'PhaseOne::Main.PhaseOne:ColorMatrix2',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhaseOne::Main
-       * line : 303433
-       * type : float
-       * writable : true
-       * count : 9
-       * flags : permanent
-       */
-      'id' => 'PhaseOne::Main.PhaseOne:ColorMatrix2',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9;
 
-  protected int $count = 9;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

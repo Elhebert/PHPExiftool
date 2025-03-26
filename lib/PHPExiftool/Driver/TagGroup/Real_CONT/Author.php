@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Author extends AbstractTagGroup
 {
+    protected string $id = 'Real-CONT:Author';
 
-  protected string $id = 'Real-CONT:Author';
+    protected string $name = 'Author';
 
-  protected string $name = 'Author';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::ContentDescr
+             * line : 330137
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::ContentDescr.Real-CONT:Author',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::ContentDescr
-       * line : 330137
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::ContentDescr.Real-CONT:Author',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

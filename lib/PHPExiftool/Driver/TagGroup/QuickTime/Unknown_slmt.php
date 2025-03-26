@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Unknown_slmt extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:Unknown_slmt';
 
-  protected string $id = 'QuickTime:Unknown_slmt';
+    protected string $name = 'Unknown_slmt';
 
-  protected string $name = 'Unknown_slmt';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::HTCInfo
+             * line : 313544
+             * type : int32u
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'QuickTime::HTCInfo.QuickTime:Unknown_slmt',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::HTCInfo
-       * line : 313544
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'QuickTime::HTCInfo.QuickTime:Unknown_slmt',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

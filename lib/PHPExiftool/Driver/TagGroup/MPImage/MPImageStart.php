@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MPImageStart extends AbstractTagGroup
 {
+    protected string $id = 'MPImage:MPImageStart';
 
-  protected string $id = 'MPImage:MPImageStart';
+    protected string $name = 'MPImageStart';
 
-  protected string $name = 'MPImageStart';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MPF::MPImage
+             * line : 166228
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MPF::MPImage.MPImage:MPImageStart',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MPF::MPImage
-       * line : 166228
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MPF::MPImage.MPImage:MPImageStart',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

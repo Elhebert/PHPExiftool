@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class BlackLevels extends AbstractTagGroup
 {
+    protected string $id = 'Canon:BlackLevels';
 
-  protected string $id = 'Canon:BlackLevels';
+    protected string $name = 'BlackLevels';
 
-  protected string $name = 'BlackLevels';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::ColorBalance
+             * line : 58920
+             * type : int16s
+             * writable : true
+             * count : 4
+             * flags : permanent
+             */
+            'id' => 'Canon::ColorBalance.Canon:BlackLevels',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::ColorBalance
-       * line : 58920
-       * type : int16s
-       * writable : true
-       * count : 4
-       * flags : permanent
-       */
-      'id' => 'Canon::ColorBalance.Canon:BlackLevels',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

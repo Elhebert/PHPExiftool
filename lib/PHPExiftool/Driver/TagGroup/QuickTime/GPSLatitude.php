@@ -19,99 +19,97 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GPSLatitude extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:GPSLatitude';
 
-  protected string $id = 'QuickTime:GPSLatitude';
+    protected string $name = 'GPSLatitude';
 
-  protected string $name = 'GPSLatitude';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::GPS360Fly
+             * line : 313129
+             * type : float
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::GPS360Fly.QuickTime:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : QuickTime::RVMI_gReV
+             * line : 324280
+             * type : int32s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::RVMI_gReV.QuickTime:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : QuickTime::Stream
+             * line : 324629
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Stream.QuickTime:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+        3 => [
+            /**
+             * table_name : QuickTime::camm5
+             * line : 326352
+             * type : double
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::camm5.QuickTime:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+        4 => [
+            /**
+             * table_name : QuickTime::camm6
+             * line : 326477
+             * type : double
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::camm6.QuickTime:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+        5 => [
+            /**
+             * table_name : QuickTime::tx3g
+             * line : 326786
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::tx3g.QuickTime:GPSLatitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::GPS360Fly
-       * line : 313129
-       * type : float
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::GPS360Fly.QuickTime:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : QuickTime::RVMI_gReV
-       * line : 324280
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::RVMI_gReV.QuickTime:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : QuickTime::Stream
-       * line : 324629
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Stream.QuickTime:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-    3 => [
-      /**
-       * table_name : QuickTime::camm5
-       * line : 326352
-       * type : double
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::camm5.QuickTime:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-    4 => [
-      /**
-       * table_name : QuickTime::camm6
-       * line : 326477
-       * type : double
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::camm6.QuickTime:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-    5 => [
-      /**
-       * table_name : QuickTime::tx3g
-       * line : 326786
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::tx3g.QuickTime:GPSLatitude',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

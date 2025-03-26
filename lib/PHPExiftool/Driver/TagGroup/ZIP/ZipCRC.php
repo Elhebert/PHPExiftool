@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ZipCRC extends AbstractTagGroup
 {
+    protected string $id = 'ZIP:ZipCRC';
 
-  protected string $id = 'ZIP:ZipCRC';
+    protected string $name = 'ZipCRC';
 
-  protected string $name = 'ZipCRC';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ZIP::Main
+             * line : 414921
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ZIP::Main.ZIP:ZipCRC',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ZIP::Main
-       * line : 414921
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ZIP::Main.ZIP:ZipCRC',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

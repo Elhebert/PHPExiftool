@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Directory extends AbstractTagGroup
 {
+    protected string $id = 'System:Directory';
 
-  protected string $id = 'System:Directory';
+    protected string $name = 'Directory';
 
-  protected string $name = 'Directory';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 121009
+             * type : ?
+             * writable : true
+             * count :
+             * flags : unsafe
+             */
+            'id' => 'Extra.System:Directory',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 121009
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : unsafe
-       */
-      'id' => 'Extra.System:Directory',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2064;
-
+    protected int $flags = 2064;
 }

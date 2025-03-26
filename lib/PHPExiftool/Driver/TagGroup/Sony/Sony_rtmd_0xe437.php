@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Sony_rtmd_0xe437 extends AbstractTagGroup
 {
+    protected string $id = 'Sony:Sony_rtmd_0xe437';
 
-  protected string $id = 'Sony:Sony_rtmd_0xe437';
+    protected string $name = 'Sony_rtmd_0xe437';
 
-  protected string $name = 'Sony_rtmd_0xe437';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::rtmd
+             * line : 393959
+             * type : int32s
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Sony::rtmd.Sony:Sony_rtmd_0xe437',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::rtmd
-       * line : 393959
-       * type : int32s
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Sony::rtmd.Sony:Sony_rtmd_0xe437',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

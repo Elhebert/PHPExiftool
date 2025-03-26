@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoFrameRate extends AbstractTagGroup
 {
+    protected string $id = 'H264:VideoFrameRate';
 
-  protected string $id = 'H264:VideoFrameRate';
+    protected string $name = 'VideoFrameRate';
 
-  protected string $name = 'VideoFrameRate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::FrameInfo
+             * line : 140342
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::FrameInfo.H264:VideoFrameRate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::FrameInfo
-       * line : 140342
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::FrameInfo.H264:VideoFrameRate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CaptionsDateTimeStamps extends AbstractTagGroup
 {
+    protected string $id = 'XMP-digiKam:CaptionsDateTimeStamps';
 
-  protected string $id = 'XMP-digiKam:CaptionsDateTimeStamps';
+    protected string $name = 'CaptionsDateTimeStamps';
 
-  protected string $name = 'CaptionsDateTimeStamps';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::digiKam
+             * line : 405012
+             * type : lang-alt
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'XMP::digiKam.XMP-digiKam:CaptionsDateTimeStamps',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::digiKam
-       * line : 405012
-       * type : lang-alt
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'XMP::digiKam.XMP-digiKam:CaptionsDateTimeStamps',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

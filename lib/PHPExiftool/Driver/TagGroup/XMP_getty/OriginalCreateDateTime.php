@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OriginalCreateDateTime extends AbstractTagGroup
 {
+    protected string $id = 'XMP-getty:OriginalCreateDateTime';
 
-  protected string $id = 'XMP-getty:OriginalCreateDateTime';
+    protected string $name = 'OriginalCreateDateTime';
 
-  protected string $name = 'OriginalCreateDateTime';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : XMP::GettyImages
+             * line : 397314
+             * type : date
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'XMP::GettyImages.XMP-getty:OriginalCreateDateTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : XMP::GettyImages
-       * line : 397314
-       * type : date
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'XMP::GettyImages.XMP-getty:OriginalCreateDateTime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DataLocation extends AbstractTagGroup
 {
+    protected string $id = 'ITC:DataLocation';
 
-  protected string $id = 'ITC:DataLocation';
+    protected string $name = 'DataLocation';
 
-  protected string $name = 'DataLocation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ITC::Item
+             * line : 152122
+             * type : undef
+             * writable : false
+             * count : 4
+             * flags :
+             */
+            'id' => 'ITC::Item.ITC:DataLocation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ITC::Item
-       * line : 152122
-       * type : undef
-       * writable : false
-       * count : 4
-       * flags : 
-       */
-      'id' => 'ITC::Item.ITC:DataLocation',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 4;
-
+    protected int $count = 4;
 }

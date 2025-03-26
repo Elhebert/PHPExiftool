@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CanonImageSize extends AbstractTagGroup
 {
+    protected string $id = 'Canon:CanonImageSize';
 
-  protected string $id = 'Canon:CanonImageSize';
+    protected string $name = 'CanonImageSize';
 
-  protected string $name = 'CanonImageSize';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Canon::CameraInfo1DmkII
+             * line : 13126
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraInfo1DmkII.Canon:CanonImageSize',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Canon::CameraSettings
+             * line : 56021
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Canon::CameraSettings.Canon:CanonImageSize',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Canon::CameraInfo1DmkII
-       * line : 13126
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraInfo1DmkII.Canon:CanonImageSize',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Canon::CameraSettings
-       * line : 56021
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Canon::CameraSettings.Canon:CanonImageSize',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectID extends AbstractTagGroup
 {
+    protected string $id = 'MNG:ObjectID';
 
-  protected string $id = 'MNG:ObjectID';
+    protected string $name = 'ObjectID';
 
-  protected string $name = 'ObjectID';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::DefineObject
+             * line : 164747
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::DefineObject.MNG:ObjectID',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::DeltaPNGHeader
+             * line : 164766
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::DeltaPNGHeader.MNG:ObjectID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::DefineObject
-       * line : 164747
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::DefineObject.MNG:ObjectID',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::DeltaPNGHeader
-       * line : 164766
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::DeltaPNGHeader.MNG:ObjectID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

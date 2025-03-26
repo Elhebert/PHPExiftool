@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CreatorApplication extends AbstractTagGroup
 {
+    protected string $id = 'RSRC:CreatorApplication';
 
-  protected string $id = 'RSRC:CreatorApplication';
+    protected string $name = 'CreatorApplication';
 
-  protected string $name = 'CreatorApplication';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RSRC::Main
+             * line : 329087
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RSRC::Main.RSRC:CreatorApplication',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RSRC::Main
-       * line : 329087
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RSRC::Main.RSRC:CreatorApplication',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

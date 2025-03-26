@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AdobeCMType extends AbstractTagGroup
 {
+    protected string $id = 'AdobeCM:AdobeCMType';
 
-  protected string $id = 'AdobeCM:AdobeCMType';
+    protected string $name = 'AdobeCMType';
 
-  protected string $name = 'AdobeCMType';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::AdobeCM
+             * line : 152427
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'JPEG::AdobeCM.AdobeCM:AdobeCMType',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::AdobeCM
-       * line : 152427
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'JPEG::AdobeCM.AdobeCM:AdobeCMType',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

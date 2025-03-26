@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JP2Signature extends AbstractTagGroup
 {
+    protected string $id = 'Jpeg2000:JP2Signature';
 
-  protected string $id = 'Jpeg2000:JP2Signature';
+    protected string $name = 'JP2Signature';
 
-  protected string $name = 'JP2Signature';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::Main
+             * line : 154225
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::Main.Jpeg2000:JP2Signature',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Jpeg2000::Main
+             * line : 154229
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Jpeg2000::Main.Jpeg2000:JP2Signature',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::Main
-       * line : 154225
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::Main.Jpeg2000:JP2Signature',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Jpeg2000::Main
-       * line : 154229
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Jpeg2000::Main.Jpeg2000:JP2Signature',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

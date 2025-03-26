@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EncryptionKey extends AbstractTagGroup
 {
+    protected string $id = 'File:EncryptionKey';
 
-  protected string $id = 'File:EncryptionKey';
+    protected string $name = 'EncryptionKey';
 
-  protected string $name = 'EncryptionKey';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DPX::Main
+             * line : 105384
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DPX::Main.File:EncryptionKey',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DPX::Main
-       * line : 105384
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DPX::Main.File:EncryptionKey',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

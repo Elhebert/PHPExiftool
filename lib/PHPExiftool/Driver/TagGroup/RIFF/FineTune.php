@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FineTune extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:FineTune';
 
-  protected string $id = 'RIFF:FineTune';
+    protected string $name = 'FineTune';
 
-  protected string $name = 'FineTune';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Instrument
+             * line : 328607
+             * type : int8s
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Instrument.RIFF:FineTune',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Instrument
-       * line : 328607
-       * type : int8s
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Instrument.RIFF:FineTune',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

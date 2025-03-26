@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UnknownInfo2Version extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:UnknownInfo2Version';
 
-  protected string $id = 'Nikon:UnknownInfo2Version';
+    protected string $name = 'UnknownInfo2Version';
 
-  protected string $name = 'UnknownInfo2Version';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::UnknownInfo2
+             * line : 209556
+             * type : undef
+             * writable : true
+             * count : 4
+             * flags : permanent,unknown
+             */
+            'id' => 'Nikon::UnknownInfo2.Nikon:UnknownInfo2Version',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::UnknownInfo2
-       * line : 209556
-       * type : undef
-       * writable : true
-       * count : 4
-       * flags : permanent,unknown
-       */
-      'id' => 'Nikon::UnknownInfo2.Nikon:UnknownInfo2Version',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 4;
 
-  protected int $count = 4;
-
-  protected int $flags = 2084;
-
+    protected int $flags = 2084;
 }

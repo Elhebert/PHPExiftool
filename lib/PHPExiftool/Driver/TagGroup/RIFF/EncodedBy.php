@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EncodedBy extends AbstractTagGroup
 {
+    protected string $id = 'RIFF:EncodedBy';
 
-  protected string $id = 'RIFF:EncodedBy';
+    protected string $name = 'EncodedBy';
 
-  protected string $name = 'EncodedBy';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : RIFF::Info
+             * line : 328013
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Info.RIFF:EncodedBy',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : RIFF::Info
+             * line : 328240
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'RIFF::Info.RIFF:EncodedBy',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : RIFF::Info
-       * line : 328013
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Info.RIFF:EncodedBy',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : RIFF::Info
-       * line : 328240
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'RIFF::Info.RIFF:EncodedBy',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

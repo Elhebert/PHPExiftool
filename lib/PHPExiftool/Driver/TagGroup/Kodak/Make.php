@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Make extends AbstractTagGroup
 {
+    protected string $id = 'Kodak:Make';
 
-  protected string $id = 'Kodak:Make';
+    protected string $name = 'Make';
 
-  protected string $name = 'Make';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::MOV
+             * line : 157553
+             * type : string
+             * writable : false
+             * count : 21
+             * flags : permanent
+             */
+            'id' => 'Kodak::MOV.Kodak:Make',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::MOV
-       * line : 157553
-       * type : string
-       * writable : false
-       * count : 21
-       * flags : permanent
-       */
-      'id' => 'Kodak::MOV.Kodak:Make',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 21;
 
-  protected int $count = 21;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

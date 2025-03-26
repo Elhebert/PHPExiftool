@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class DeltaXY extends AbstractTagGroup
 {
+    protected string $id = 'MNG:DeltaXY';
 
-  protected string $id = 'MNG:DeltaXY';
+    protected string $name = 'DeltaXY';
 
-  protected string $name = 'DeltaXY';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::CloneObject
+             * line : 164740
+             * type : int32u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'MNG::CloneObject.MNG:DeltaXY',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::MoveObjects
+             * line : 165247
+             * type : int32u
+             * writable : false
+             * count : 2
+             * flags :
+             */
+            'id' => 'MNG::MoveObjects.MNG:DeltaXY',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::CloneObject
-       * line : 164740
-       * type : int32u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'MNG::CloneObject.MNG:DeltaXY',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::MoveObjects
-       * line : 165247
-       * type : int32u
-       * writable : false
-       * count : 2
-       * flags : 
-       */
-      'id' => 'MNG::MoveObjects.MNG:DeltaXY',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 2;
-
+    protected int $count = 2;
 }

@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class UsableMeteringModes extends AbstractTagGroup
 {
+    protected string $id = 'CanonCustom:UsableMeteringModes';
 
-  protected string $id = 'CanonCustom:UsableMeteringModes';
+    protected string $name = 'UsableMeteringModes';
 
-  protected string $name = 'UsableMeteringModes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72710
+             * type : int32s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:UsableMeteringModes',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonCustom::Functions2
+             * line : 72716
+             * type : int32s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'CanonCustom::Functions2.CanonCustom:UsableMeteringModes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72710
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:UsableMeteringModes',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonCustom::Functions2
-       * line : 72716
-       * type : int32s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'CanonCustom::Functions2.CanonCustom:UsableMeteringModes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 2;
 
-  protected int $count = 2;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

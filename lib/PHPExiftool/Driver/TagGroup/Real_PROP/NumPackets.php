@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumPackets extends AbstractTagGroup
 {
+    protected string $id = 'Real-PROP:NumPackets';
 
-  protected string $id = 'Real-PROP:NumPackets';
+    protected string $name = 'NumPackets';
 
-  protected string $name = 'NumPackets';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Real::Properties
+             * line : 330519
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Real::Properties.Real-PROP:NumPackets',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Real::Properties
-       * line : 330519
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Real::Properties.Real-PROP:NumPackets',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ChannelUsage extends AbstractTagGroup
 {
+    protected string $id = 'GIF:ChannelUsage';
 
-  protected string $id = 'GIF:ChannelUsage';
+    protected string $name = 'ChannelUsage';
 
-  protected string $name = 'ChannelUsage';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIF::MIDIControl
+             * line : 131296
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GIF::MIDIControl.GIF:ChannelUsage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIF::MIDIControl
-       * line : 131296
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIF::MIDIControl.GIF:ChannelUsage',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

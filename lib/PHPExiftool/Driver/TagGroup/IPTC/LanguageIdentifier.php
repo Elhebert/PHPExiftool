@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class LanguageIdentifier extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:LanguageIdentifier';
 
-  protected string $id = 'IPTC:LanguageIdentifier';
+    protected string $name = 'LanguageIdentifier';
 
-  protected string $name = 'LanguageIdentifier';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150520
+             * type : string
+             * writable : true
+             * count : 3
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:LanguageIdentifier',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150520
-       * type : string
-       * writable : true
-       * count : 3
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:LanguageIdentifier',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

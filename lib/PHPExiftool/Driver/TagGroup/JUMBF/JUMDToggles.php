@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class JUMDToggles extends AbstractTagGroup
 {
+    protected string $id = 'JUMBF:JUMDToggles';
 
-  protected string $id = 'JUMBF:JUMDToggles';
+    protected string $name = 'JUMDToggles';
 
-  protected string $name = 'JUMDToggles';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Jpeg2000::JUMD
+             * line : 154121
+             * type : ?
+             * writable : false
+             * count :
+             * flags : unknown
+             */
+            'id' => 'Jpeg2000::JUMD.JUMBF:JUMDToggles',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Jpeg2000::JUMD
-       * line : 154121
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : unknown
-       */
-      'id' => 'Jpeg2000::JUMD.JUMBF:JUMDToggles',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 32;
-
+    protected int $flags = 32;
 }

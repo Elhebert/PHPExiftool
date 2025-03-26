@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CameraOwner extends AbstractTagGroup
 {
+    protected string $id = 'MetaIFD:CameraOwner';
 
-  protected string $id = 'MetaIFD:CameraOwner';
+    protected string $name = 'CameraOwner';
 
-  protected string $name = 'CameraOwner';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Kodak::Meta
+             * line : 158379
+             * type : undef
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Kodak::Meta.MetaIFD:CameraOwner',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Kodak::Meta
-       * line : 158379
-       * type : undef
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Kodak::Meta.MetaIFD:CameraOwner',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

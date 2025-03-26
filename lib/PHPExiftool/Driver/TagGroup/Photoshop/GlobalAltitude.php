@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class GlobalAltitude extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:GlobalAltitude';
 
-  protected string $id = 'Photoshop:GlobalAltitude';
+    protected string $name = 'GlobalAltitude';
 
-  protected string $name = 'GlobalAltitude';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Main
+             * line : 305568
+             * type : int32u
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::Main.Photoshop:GlobalAltitude',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Main
-       * line : 305568
-       * type : int32u
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::Main.Photoshop:GlobalAltitude',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

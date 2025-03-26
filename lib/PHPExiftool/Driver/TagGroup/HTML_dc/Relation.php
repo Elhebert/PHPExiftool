@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Relation extends AbstractTagGroup
 {
+    protected string $id = 'HTML-dc:Relation';
 
-  protected string $id = 'HTML-dc:Relation';
+    protected string $name = 'Relation';
 
-  protected string $name = 'Relation';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : HTML::dc
+             * line : 142773
+             * type : ?
+             * writable : false
+             * count :
+             * flags : bag,list
+             */
+            'id' => 'HTML::dc.HTML-dc:Relation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : HTML::dc
-       * line : 142773
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : bag,list
-       */
-      'id' => 'HTML::dc.HTML-dc:Relation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 320;
-
+    protected int $flags = 320;
 }

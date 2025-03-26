@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RatingPercent extends AbstractTagGroup
 {
+    protected string $id = 'IFD0:RatingPercent';
 
-  protected string $id = 'IFD0:RatingPercent';
+    protected string $name = 'RatingPercent';
 
-  protected string $name = 'RatingPercent';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Exif::Main
+             * line : 112710
+             * type : int16u
+             * writable : true
+             * count :
+             * flags : avoid
+             */
+            'id' => 'Exif::Main.IFD0:RatingPercent',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Exif::Main
-       * line : 112710
-       * type : int16u
-       * writable : true
-       * count : 
-       * flags : avoid
-       */
-      'id' => 'Exif::Main.IFD0:RatingPercent',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2049;
-
+    protected int $flags = 2049;
 }

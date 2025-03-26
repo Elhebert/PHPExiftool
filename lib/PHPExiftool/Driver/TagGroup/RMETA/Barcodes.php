@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Barcodes extends AbstractTagGroup
 {
+    protected string $id = 'RMETA:Barcodes';
 
-  protected string $id = 'RMETA:Barcodes';
+    protected string $name = 'Barcodes';
 
-  protected string $name = 'Barcodes';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::RMETA
+             * line : 333702
+             * type : ?
+             * writable : false
+             * count :
+             * flags : list
+             */
+            'id' => 'Ricoh::RMETA.RMETA:Barcodes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::RMETA
-       * line : 333702
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : list
-       */
-      'id' => 'Ricoh::RMETA.RMETA:Barcodes',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 64;
-
+    protected int $flags = 64;
 }

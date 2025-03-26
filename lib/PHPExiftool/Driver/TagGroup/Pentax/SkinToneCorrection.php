@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SkinToneCorrection extends AbstractTagGroup
 {
+    protected string $id = 'Pentax:SkinToneCorrection';
 
-  protected string $id = 'Pentax:SkinToneCorrection';
+    protected string $name = 'SkinToneCorrection';
 
-  protected string $name = 'SkinToneCorrection';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300651
+             * type : int8s
+             * writable : true
+             * count : 2
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:SkinToneCorrection',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Pentax::Main
+             * line : 300665
+             * type : int8s
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Pentax::Main.Pentax:SkinToneCorrection',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300651
-       * type : int8s
-       * writable : true
-       * count : 2
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:SkinToneCorrection',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Pentax::Main
-       * line : 300665
-       * type : int8s
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Pentax::Main.Pentax:SkinToneCorrection',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

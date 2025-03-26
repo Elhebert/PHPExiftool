@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SimplicityProfile extends AbstractTagGroup
 {
+    protected string $id = 'MNG:SimplicityProfile';
 
-  protected string $id = 'MNG:SimplicityProfile';
+    protected string $name = 'SimplicityProfile';
 
-  protected string $name = 'SimplicityProfile';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::MNGHeader
+             * line : 165104
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::MNGHeader.MNG:SimplicityProfile',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::MNGHeader
-       * line : 165104
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::MNGHeader.MNG:SimplicityProfile',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

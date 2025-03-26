@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class WM_MediaClassSecondaryID extends AbstractTagGroup
 {
+    protected string $id = 'ID3:WM_MediaClassSecondaryID';
 
-  protected string $id = 'ID3:WM_MediaClassSecondaryID';
+    protected string $name = 'WM_MediaClassSecondaryID';
 
-  protected string $name = 'WM_MediaClassSecondaryID';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ID3::Private
+             * line : 147144
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ID3::Private.ID3:WM_MediaClassSecondaryID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ID3::Private
-       * line : 147144
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ID3::Private.ID3:WM_MediaClassSecondaryID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

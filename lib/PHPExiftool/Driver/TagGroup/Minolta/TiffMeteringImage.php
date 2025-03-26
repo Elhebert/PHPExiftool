@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class TiffMeteringImage extends AbstractTagGroup
 {
+    protected string $id = 'Minolta:TiffMeteringImage';
 
-  protected string $id = 'Minolta:TiffMeteringImage';
+    protected string $name = 'TiffMeteringImage';
 
-  protected string $name = 'TiffMeteringImage';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Minolta::WBInfoA100
+             * line : 185658
+             * type : undef
+             * writable : false
+             * count : 9600
+             * flags : permanent
+             */
+            'id' => 'Minolta::WBInfoA100.Minolta:TiffMeteringImage',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Minolta::WBInfoA100
-       * line : 185658
-       * type : undef
-       * writable : false
-       * count : 9600
-       * flags : permanent
-       */
-      'id' => 'Minolta::WBInfoA100.Minolta:TiffMeteringImage',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 9600;
 
-  protected int $count = 9600;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

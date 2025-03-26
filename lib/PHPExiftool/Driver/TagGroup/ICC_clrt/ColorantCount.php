@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ColorantCount extends AbstractTagGroup
 {
+    protected string $id = 'ICC-clrt:ColorantCount';
 
-  protected string $id = 'ICC-clrt:ColorantCount';
+    protected string $name = 'ColorantCount';
 
-  protected string $name = 'ColorantCount';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : ICC_Profile::ColorantTable
+             * line : 143125
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'ICC_Profile::ColorantTable.ICC-clrt:ColorantCount',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : ICC_Profile::ColorantTable
-       * line : 143125
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'ICC_Profile::ColorantTable.ICC-clrt:ColorantCount',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

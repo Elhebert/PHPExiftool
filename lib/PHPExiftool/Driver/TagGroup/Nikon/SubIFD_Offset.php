@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SubIFD_Offset extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:SubIFD_Offset';
 
-  protected string $id = 'Nikon:SubIFD_Offset';
+    protected string $name = 'SubIFD_Offset';
 
-  protected string $name = 'SubIFD_Offset';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::CaptureOffsets
+             * line : 191903
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Nikon::CaptureOffsets.Nikon:SubIFD_Offset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::CaptureOffsets
-       * line : 191903
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Nikon::CaptureOffsets.Nikon:SubIFD_Offset',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

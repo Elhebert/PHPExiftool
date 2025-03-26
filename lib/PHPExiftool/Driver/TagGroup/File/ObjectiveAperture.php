@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectiveAperture extends AbstractTagGroup
 {
+    protected string $id = 'File:ObjectiveAperture';
 
-  protected string $id = 'File:ObjectiveAperture';
+    protected string $name = 'ObjectiveAperture';
 
-  protected string $name = 'ObjectiveAperture';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::FEI12
+             * line : 166797
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'MRC::FEI12.File:ObjectiveAperture',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::FEI12
-       * line : 166797
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'MRC::FEI12.File:ObjectiveAperture',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 16;
-
+    protected int $count = 16;
 }

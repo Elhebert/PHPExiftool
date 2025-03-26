@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SpecialMode extends AbstractTagGroup
 {
+    protected string $id = 'Sanyo:SpecialMode';
 
-  protected string $id = 'Sanyo:SpecialMode';
+    protected string $name = 'SpecialMode';
 
-  protected string $name = 'SpecialMode';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sanyo::Main
+             * line : 336116
+             * type : int32u
+             * writable : true
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Sanyo::Main.Sanyo:SpecialMode',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sanyo::Main
-       * line : 336116
-       * type : int32u
-       * writable : true
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Sanyo::Main.Sanyo:SpecialMode',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

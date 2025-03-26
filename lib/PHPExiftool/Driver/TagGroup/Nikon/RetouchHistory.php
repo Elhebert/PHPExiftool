@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RetouchHistory extends AbstractTagGroup
 {
+    protected string $id = 'Nikon:RetouchHistory';
 
-  protected string $id = 'Nikon:RetouchHistory';
+    protected string $name = 'RetouchHistory';
 
-  protected string $name = 'RetouchHistory';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Nikon::Main
+             * line : 197565
+             * type : int16u
+             * writable : true
+             * count : 10
+             * flags : permanent
+             */
+            'id' => 'Nikon::Main.Nikon:RetouchHistory',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Nikon::Main
-       * line : 197565
-       * type : int16u
-       * writable : true
-       * count : 10
-       * flags : permanent
-       */
-      'id' => 'Nikon::Main.Nikon:RetouchHistory',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 10;
 
-  protected int $count = 10;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ItemTool extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ItemTool';
 
-  protected string $id = 'QuickTime:ItemTool';
+    protected string $name = 'ItemTool';
 
-  protected string $name = 'ItemTool';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::Rights
+             * line : 324378
+             * type : string
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'QuickTime::Rights.QuickTime:ItemTool',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::Rights
-       * line : 324378
-       * type : string
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'QuickTime::Rights.QuickTime:ItemTool',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

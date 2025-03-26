@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class EmbeddedImageWidth extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:EmbeddedImageWidth';
 
-  protected string $id = 'FLIR:EmbeddedImageWidth';
+    protected string $name = 'EmbeddedImageWidth';
 
-  protected string $name = 'EmbeddedImageWidth';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::EmbeddedImage
+             * line : 122409
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImageWidth',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::EmbeddedImage
-       * line : 122409
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImageWidth',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

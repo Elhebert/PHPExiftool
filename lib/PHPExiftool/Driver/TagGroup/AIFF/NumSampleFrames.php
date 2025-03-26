@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class NumSampleFrames extends AbstractTagGroup
 {
+    protected string $id = 'AIFF:NumSampleFrames';
 
-  protected string $id = 'AIFF:NumSampleFrames';
+    protected string $name = 'NumSampleFrames';
 
-  protected string $name = 'NumSampleFrames';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : AIFF::Common
+             * line : 95
+             * type : int32u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'AIFF::Common.AIFF:NumSampleFrames',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : AIFF::Common
-       * line : 95
-       * type : int32u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'AIFF::Common.AIFF:NumSampleFrames',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

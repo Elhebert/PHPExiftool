@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CatalogSets extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:CatalogSets';
 
-  protected string $id = 'IPTC:CatalogSets';
+    protected string $name = 'CatalogSets';
 
-  protected string $name = 'CatalogSets';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150981
+             * type : string
+             * writable : true
+             * count : 256
+             * flags : list
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:CatalogSets',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150981
-       * type : string
-       * writable : true
-       * count : 256
-       * flags : list
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:CatalogSets',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 256;
 
-  protected int $count = 256;
-
-  protected int $flags = 2112;
-
+    protected int $flags = 2112;
 }

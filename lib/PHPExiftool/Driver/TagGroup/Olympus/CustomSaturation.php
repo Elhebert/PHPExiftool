@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CustomSaturation extends AbstractTagGroup
 {
+    protected string $id = 'Olympus:CustomSaturation';
 
-  protected string $id = 'Olympus:CustomSaturation';
+    protected string $name = 'CustomSaturation';
 
-  protected string $name = 'CustomSaturation';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Olympus::CameraSettings
+             * line : 251185
+             * type : int16s
+             * writable : false
+             * count : 3
+             * flags : permanent
+             */
+            'id' => 'Olympus::CameraSettings.Olympus:CustomSaturation',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Olympus::CameraSettings
-       * line : 251185
-       * type : int16s
-       * writable : false
-       * count : 3
-       * flags : permanent
-       */
-      'id' => 'Olympus::CameraSettings.Olympus:CustomSaturation',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 3;
 
-  protected int $count = 3;
-
-  protected int $flags = 4;
-
+    protected int $flags = 4;
 }

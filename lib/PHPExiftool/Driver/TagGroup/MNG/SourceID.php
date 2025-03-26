@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class SourceID extends AbstractTagGroup
 {
+    protected string $id = 'MNG:SourceID';
 
-  protected string $id = 'MNG:SourceID';
+    protected string $name = 'SourceID';
 
-  protected string $name = 'SourceID';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MNG::CloneObject
+             * line : 164702
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::CloneObject.MNG:SourceID',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : MNG::PasteImage
+             * line : 165272
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MNG::PasteImage.MNG:SourceID',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MNG::CloneObject
-       * line : 164702
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::CloneObject.MNG:SourceID',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : MNG::PasteImage
-       * line : 165272
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MNG::PasteImage.MNG:SourceID',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

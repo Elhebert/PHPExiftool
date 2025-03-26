@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ObjectDistance extends AbstractTagGroup
 {
+    protected string $id = 'DJI:ObjectDistance';
 
-  protected string $id = 'DJI:ObjectDistance';
+    protected string $name = 'ObjectDistance';
 
-  protected string $name = 'ObjectDistance';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : DJI::ThermalParams
+             * line : 104566
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'DJI::ThermalParams.DJI:ObjectDistance',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : DJI::ThermalParams
-       * line : 104566
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'DJI::ThermalParams.DJI:ObjectDistance',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

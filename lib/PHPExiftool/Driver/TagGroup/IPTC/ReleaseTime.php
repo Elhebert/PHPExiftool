@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ReleaseTime extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:ReleaseTime';
 
-  protected string $id = 'IPTC:ReleaseTime';
+    protected string $name = 'ReleaseTime';
 
-  protected string $name = 'ReleaseTime';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 149969
+             * type : string
+             * writable : true
+             * count : 11
+             * flags :
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:ReleaseTime',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 149969
-       * type : string
-       * writable : true
-       * count : 11
-       * flags : 
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:ReleaseTime',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 11;
 
-  protected int $count = 11;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RasterizedCaption extends AbstractTagGroup
 {
+    protected string $id = 'IPTC:RasterizedCaption';
 
-  protected string $id = 'IPTC:RasterizedCaption';
+    protected string $name = 'RasterizedCaption';
 
-  protected string $name = 'RasterizedCaption';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : IPTC::ApplicationRecord
+             * line : 150450
+             * type : undef
+             * writable : true
+             * count : 7360
+             * flags : binary
+             */
+            'id' => 'IPTC::ApplicationRecord.IPTC:RasterizedCaption',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : IPTC::ApplicationRecord
-       * line : 150450
-       * type : undef
-       * writable : true
-       * count : 7360
-       * flags : binary
-       */
-      'id' => 'IPTC::ApplicationRecord.IPTC:RasterizedCaption',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 7360;
 
-  protected int $count = 7360;
-
-  protected int $flags = 2050;
-
+    protected int $flags = 2050;
 }

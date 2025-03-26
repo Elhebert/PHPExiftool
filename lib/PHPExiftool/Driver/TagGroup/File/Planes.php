@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Planes extends AbstractTagGroup
 {
+    protected string $id = 'File:Planes';
 
-  protected string $id = 'File:Planes';
+    protected string $name = 'Planes';
 
-  protected string $name = 'Planes';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : BMP::Main
+             * line : 3236
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::Main.File:Planes',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : BMP::OS2
+             * line : 3532
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'BMP::OS2.File:Planes',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : BMP::Main
-       * line : 3236
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::Main.File:Planes',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : BMP::OS2
-       * line : 3532
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'BMP::OS2.File:Planes',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

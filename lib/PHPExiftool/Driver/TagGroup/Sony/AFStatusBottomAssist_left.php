@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class AFStatusBottomAssist_left extends AbstractTagGroup
 {
+    protected string $id = 'Sony:AFStatusBottomAssist-left';
 
-  protected string $id = 'Sony:AFStatusBottomAssist-left';
+    protected string $name = 'AFStatusBottomAssist-left';
 
-  protected string $name = 'AFStatusBottomAssist-left';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Sony::CameraInfo
+             * line : 345325
+             * type : int16s
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Sony::CameraInfo.Sony:AFStatusBottomAssist-left',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Sony::CameraInfo
-       * line : 345325
-       * type : int16s
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Sony::CameraInfo.Sony:AFStatusBottomAssist-left',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PMVersion extends AbstractTagGroup
 {
+    protected string $id = 'XMP-photomech:PMVersion';
 
-  protected string $id = 'XMP-photomech:PMVersion';
+    protected string $name = 'PMVersion';
 
-  protected string $name = 'PMVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoMechanic::XMP
+             * line : 304940
+             * type : string
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoMechanic::XMP.XMP-photomech:PMVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoMechanic::XMP
-       * line : 304940
-       * type : string
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoMechanic::XMP.XMP-photomech:PMVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

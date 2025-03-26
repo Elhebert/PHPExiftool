@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class CopyrightFileName extends AbstractTagGroup
 {
+    protected string $id = 'PhotoCD:CopyrightFileName';
 
-  protected string $id = 'PhotoCD:CopyrightFileName';
+    protected string $name = 'CopyrightFileName';
 
-  protected string $name = 'CopyrightFileName';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoCD::Main
+             * line : 304530
+             * type : string
+             * writable : false
+             * count : 12
+             * flags :
+             */
+            'id' => 'PhotoCD::Main.PhotoCD:CopyrightFileName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoCD::Main
-       * line : 304530
-       * type : string
-       * writable : false
-       * count : 12
-       * flags : 
-       */
-      'id' => 'PhotoCD::Main.PhotoCD:CopyrightFileName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 12;
-
+    protected int $count = 12;
 }

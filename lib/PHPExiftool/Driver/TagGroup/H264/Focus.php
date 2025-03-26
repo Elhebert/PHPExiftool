@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Focus extends AbstractTagGroup
 {
+    protected string $id = 'H264:Focus';
 
-  protected string $id = 'H264:Focus';
+    protected string $name = 'Focus';
 
-  protected string $name = 'Focus';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : H264::Camera1
+             * line : 140286
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'H264::Camera1.H264:Focus',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : H264::Camera1
-       * line : 140286
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'H264::Camera1.H264:Focus',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

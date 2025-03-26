@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FrameNum extends AbstractTagGroup
 {
+    protected string $id = 'PhotoMechanic:FrameNum';
 
-  protected string $id = 'PhotoMechanic:FrameNum';
+    protected string $name = 'FrameNum';
 
-  protected string $name = 'FrameNum';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PhotoMechanic::SoftEdit
+             * line : 304709
+             * type : int32s
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:FrameNum',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PhotoMechanic::SoftEdit
-       * line : 304709
-       * type : int32s
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:FrameNum',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

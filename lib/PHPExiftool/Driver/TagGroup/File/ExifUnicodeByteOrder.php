@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ExifUnicodeByteOrder extends AbstractTagGroup
 {
+    protected string $id = 'File:ExifUnicodeByteOrder';
 
-  protected string $id = 'File:ExifUnicodeByteOrder';
+    protected string $name = 'ExifUnicodeByteOrder';
 
-  protected string $name = 'ExifUnicodeByteOrder';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Extra
+             * line : 121069
+             * type : ?
+             * writable : true
+             * count :
+             * flags :
+             */
+            'id' => 'Extra.File:ExifUnicodeByteOrder',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Extra
-       * line : 121069
-       * type : ?
-       * writable : true
-       * count : 
-       * flags : 
-       */
-      'id' => 'Extra.File:ExifUnicodeByteOrder',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

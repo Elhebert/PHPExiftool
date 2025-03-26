@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class PixelAspectRatio extends AbstractTagGroup
 {
+    protected string $id = 'Theora:PixelAspectRatio';
 
-  protected string $id = 'Theora:PixelAspectRatio';
+    protected string $name = 'PixelAspectRatio';
 
-  protected string $name = 'PixelAspectRatio';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Theora::Identification
+             * line : 394858
+             * type : int16u
+             * writable : false
+             * count : 3
+             * flags :
+             */
+            'id' => 'Theora::Identification.Theora:PixelAspectRatio',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Theora::Identification
-       * line : 394858
-       * type : int16u
-       * writable : false
-       * count : 3
-       * flags : 
-       */
-      'id' => 'Theora::Identification.Theora:PixelAspectRatio',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 3;
-
+    protected int $count = 3;
 }

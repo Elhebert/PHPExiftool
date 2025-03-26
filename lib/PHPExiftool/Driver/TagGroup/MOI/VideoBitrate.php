@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class VideoBitrate extends AbstractTagGroup
 {
+    protected string $id = 'MOI:VideoBitrate';
 
-  protected string $id = 'MOI:VideoBitrate';
+    protected string $name = 'VideoBitrate';
 
-  protected string $name = 'VideoBitrate';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MOI::Main
+             * line : 165490
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'MOI::Main.MOI:VideoBitrate',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MOI::Main
-       * line : 165490
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'MOI::Main.MOI:VideoBitrate',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

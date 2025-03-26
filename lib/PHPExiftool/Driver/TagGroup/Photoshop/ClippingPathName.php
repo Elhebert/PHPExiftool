@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ClippingPathName extends AbstractTagGroup
 {
+    protected string $id = 'Photoshop:ClippingPathName';
 
-  protected string $id = 'Photoshop:ClippingPathName';
+    protected string $name = 'ClippingPathName';
 
-  protected string $name = 'ClippingPathName';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Photoshop::Main
+             * line : 305686
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Photoshop::Main.Photoshop:ClippingPathName',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Photoshop::Main
-       * line : 305686
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Photoshop::Main.Photoshop:ClippingPathName',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

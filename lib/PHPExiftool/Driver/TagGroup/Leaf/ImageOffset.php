@@ -19,47 +19,45 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageOffset extends AbstractTagGroup
 {
+    protected string $id = 'Leaf:ImageOffset';
 
-  protected string $id = 'Leaf:ImageOffset';
+    protected string $name = 'ImageOffset';
 
-  protected string $name = 'ImageOffset';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Leaf::CaptureProfile
+             * line : 161707
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::CaptureProfile.Leaf:ImageOffset',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Leaf::Main
+             * line : 161905
+             * type : int16u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'Leaf::Main.Leaf:ImageOffset',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Leaf::CaptureProfile
-       * line : 161707
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::CaptureProfile.Leaf:ImageOffset',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Leaf::Main
-       * line : 161905
-       * type : int16u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'Leaf::Main.Leaf:ImageOffset',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

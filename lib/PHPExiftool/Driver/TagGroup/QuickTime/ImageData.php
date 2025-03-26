@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageData extends AbstractTagGroup
 {
+    protected string $id = 'QuickTime:ImageData';
 
-  protected string $id = 'QuickTime:ImageData';
+    protected string $name = 'ImageData';
 
-  protected string $name = 'ImageData';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : QuickTime::ImageFile
+             * line : 314051
+             * type : ?
+             * writable : false
+             * count :
+             * flags : binary
+             */
+            'id' => 'QuickTime::ImageFile.QuickTime:ImageData',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : QuickTime::ImageFile
-       * line : 314051
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : binary
-       */
-      'id' => 'QuickTime::ImageFile.QuickTime:ImageData',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2;
-
+    protected int $flags = 2;
 }

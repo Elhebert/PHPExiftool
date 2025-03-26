@@ -19,62 +19,60 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FirmwareVersion extends AbstractTagGroup
 {
+    protected string $id = 'Ricoh:FirmwareVersion';
 
-  protected string $id = 'Ricoh:FirmwareVersion';
+    protected string $name = 'FirmwareVersion';
 
-  protected string $name = 'FirmwareVersion';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Ricoh::Main
+             * line : 332390
+             * type : string
+             * writable : true
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Main.Ricoh:FirmwareVersion',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : Ricoh::Text
+             * line : 333797
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Text.Ricoh:FirmwareVersion',
+            'desc' => [
+            ],
+        ],
+        2 => [
+            /**
+             * table_name : Ricoh::Text
+             * line : 333811
+             * type : ?
+             * writable : false
+             * count :
+             * flags : permanent
+             */
+            'id' => 'Ricoh::Text.Ricoh:FirmwareVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Ricoh::Main
-       * line : 332390
-       * type : string
-       * writable : true
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Main.Ricoh:FirmwareVersion',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : Ricoh::Text
-       * line : 333797
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Text.Ricoh:FirmwareVersion',
-      'desc' => [
-      ],
-    ],
-    2 => [
-      /**
-       * table_name : Ricoh::Text
-       * line : 333811
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : permanent
-       */
-      'id' => 'Ricoh::Text.Ricoh:FirmwareVersion',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2052;
-
+    protected int $flags = 2052;
 }

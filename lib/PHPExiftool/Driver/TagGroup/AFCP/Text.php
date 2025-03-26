@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Text extends AbstractTagGroup
 {
+    protected string $id = 'AFCP:Text';
 
-  protected string $id = 'AFCP:Text';
+    protected string $name = 'Text';
 
-  protected string $name = 'Text';
+    protected ?string $phpType = 'mixed';
 
-  protected ?string $phpType = 'mixed';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : AFCP::Main
+             * line : 38
+             * type : ?
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'AFCP::Main.AFCP:Text',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : AFCP::Main
-       * line : 38
-       * type : ?
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'AFCP::Main.AFCP:Text',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

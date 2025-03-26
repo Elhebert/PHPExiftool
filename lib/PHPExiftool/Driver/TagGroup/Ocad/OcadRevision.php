@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class OcadRevision extends AbstractTagGroup
 {
+    protected string $id = 'Ocad:OcadRevision';
 
-  protected string $id = 'Ocad:OcadRevision';
+    protected string $name = 'OcadRevision';
 
-  protected string $name = 'OcadRevision';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : JPEG::Ocad
+             * line : 152862
+             * type : string
+             * writable : false
+             * count : 6
+             * flags :
+             */
+            'id' => 'JPEG::Ocad.Ocad:OcadRevision',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : JPEG::Ocad
-       * line : 152862
-       * type : string
-       * writable : false
-       * count : 6
-       * flags : 
-       */
-      'id' => 'JPEG::Ocad.Ocad:OcadRevision',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 6;
-
+    protected int $count = 6;
 }

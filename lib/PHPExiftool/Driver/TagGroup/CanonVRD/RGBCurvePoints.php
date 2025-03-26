@@ -19,49 +19,47 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RGBCurvePoints extends AbstractTagGroup
 {
+    protected string $id = 'CanonVRD:RGBCurvePoints';
 
-  protected string $id = 'CanonVRD:RGBCurvePoints';
+    protected string $name = 'RGBCurvePoints';
 
-  protected string $name = 'RGBCurvePoints';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : CanonVRD::ToneCurve
+             * line : 82147
+             * type : int32u
+             * writable : true
+             * count : 21
+             * flags :
+             */
+            'id' => 'CanonVRD::ToneCurve.CanonVRD:RGBCurvePoints',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : CanonVRD::Ver1
+             * line : 82476
+             * type : int16u
+             * writable : true
+             * count : 21
+             * flags :
+             */
+            'id' => 'CanonVRD::Ver1.CanonVRD:RGBCurvePoints',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : CanonVRD::ToneCurve
-       * line : 82147
-       * type : int32u
-       * writable : true
-       * count : 21
-       * flags : 
-       */
-      'id' => 'CanonVRD::ToneCurve.CanonVRD:RGBCurvePoints',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : CanonVRD::Ver1
-       * line : 82476
-       * type : int16u
-       * writable : true
-       * count : 21
-       * flags : 
-       */
-      'id' => 'CanonVRD::Ver1.CanonVRD:RGBCurvePoints',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 21;
 
-  protected int $count = 21;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

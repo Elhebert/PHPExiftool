@@ -19,45 +19,43 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class FilterModel extends AbstractTagGroup
 {
+    protected string $id = 'FLIR:FilterModel';
 
-  protected string $id = 'FLIR:FilterModel';
+    protected string $name = 'FilterModel';
 
-  protected string $name = 'FilterModel';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
-
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : FLIR::CameraInfo
-       * line : 122304
-       * type : string
-       * writable : false
-       * count : 16
-       * flags : 
-       */
-      'id' => 'FLIR::CameraInfo.FLIR:FilterModel',
-      'desc' => [
-      ],
-    ],
-    1 => [
-      /**
-       * table_name : FLIR::FPF
-       * line : 122578
-       * type : string
-       * writable : false
-       * count : 32
-       * flags : 
-       */
-      'id' => 'FLIR::FPF.FLIR:FilterModel',
-      'desc' => [
-      ],
-    ],
-  ];
-
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : FLIR::CameraInfo
+             * line : 122304
+             * type : string
+             * writable : false
+             * count : 16
+             * flags :
+             */
+            'id' => 'FLIR::CameraInfo.FLIR:FilterModel',
+            'desc' => [
+            ],
+        ],
+        1 => [
+            /**
+             * table_name : FLIR::FPF
+             * line : 122578
+             * type : string
+             * writable : false
+             * count : 32
+             * flags :
+             */
+            'id' => 'FLIR::FPF.FLIR:FilterModel',
+            'desc' => [
+            ],
+        ],
+    ];
 }

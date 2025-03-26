@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class ImageResolution extends AbstractTagGroup
 {
+    protected string $id = 'PSP:ImageResolution';
 
-  protected string $id = 'PSP:ImageResolution';
+    protected string $name = 'ImageResolution';
 
-  protected string $name = 'ImageResolution';
+    protected ?string $phpType = 'float';
 
-  protected ?string $phpType = 'float';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : PSP::Image
+             * line : 273231
+             * type : double
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'PSP::Image.PSP:ImageResolution',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : PSP::Image
-       * line : 273231
-       * type : double
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'PSP::Image.PSP:ImageResolution',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }

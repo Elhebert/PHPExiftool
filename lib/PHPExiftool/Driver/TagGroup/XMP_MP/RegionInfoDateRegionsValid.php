@@ -19,36 +19,34 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class RegionInfoDateRegionsValid extends AbstractTagGroup
 {
+    protected string $id = 'XMP-MP:RegionInfoDateRegionsValid';
 
-  protected string $id = 'XMP-MP:RegionInfoDateRegionsValid';
+    protected string $name = 'RegionInfoDateRegionsValid';
 
-  protected string $name = 'RegionInfoDateRegionsValid';
+    protected ?string $phpType = 'date';
 
-  protected ?string $phpType = 'date';
+    protected bool $isWritable = true;
 
-  protected bool $isWritable = true;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : Microsoft::MP
+             * line : 174068
+             * type : date
+             * writable : true
+             * count :
+             * flags : flattened
+             */
+            'id' => 'Microsoft::MP.XMP-MP:RegionInfoDateRegionsValid',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : Microsoft::MP
-       * line : 174068
-       * type : date
-       * writable : true
-       * count : 
-       * flags : flattened
-       */
-      'id' => 'Microsoft::MP.XMP-MP:RegionInfoDateRegionsValid',
-      'desc' => [
-      ],
-    ],
-  ];
+    protected int $count = 0;
 
-  protected int $count = 0;
-
-  protected int $flags = 2048;
-
+    protected int $flags = 2048;
 }

@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class Label0 extends AbstractTagGroup
 {
+    protected string $id = 'File:Label0';
 
-  protected string $id = 'File:Label0';
+    protected string $name = 'Label0';
 
-  protected string $name = 'Label0';
+    protected ?string $phpType = 'string';
 
-  protected ?string $phpType = 'string';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : MRC::Main
+             * line : 166982
+             * type : string
+             * writable : false
+             * count : 80
+             * flags :
+             */
+            'id' => 'MRC::Main.File:Label0',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : MRC::Main
-       * line : 166982
-       * type : string
-       * writable : false
-       * count : 80
-       * flags : 
-       */
-      'id' => 'MRC::Main.File:Label0',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 80;
-
+    protected int $count = 80;
 }

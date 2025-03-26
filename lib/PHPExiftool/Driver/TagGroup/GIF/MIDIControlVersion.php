@@ -19,34 +19,32 @@ use PHPExiftool\Driver\AbstractTagGroup;
  */
 class MIDIControlVersion extends AbstractTagGroup
 {
+    protected string $id = 'GIF:MIDIControlVersion';
 
-  protected string $id = 'GIF:MIDIControlVersion';
+    protected string $name = 'MIDIControlVersion';
 
-  protected string $name = 'MIDIControlVersion';
+    protected ?string $phpType = 'int';
 
-  protected ?string $phpType = 'int';
+    protected bool $isWritable = false;
 
-  protected bool $isWritable = false;
+    protected array $description = [
+    ];
 
-  protected array $description = [
-  ];
+    protected array $tags = [
+        0 => [
+            /**
+             * table_name : GIF::MIDIControl
+             * line : 131275
+             * type : int8u
+             * writable : false
+             * count :
+             * flags :
+             */
+            'id' => 'GIF::MIDIControl.GIF:MIDIControlVersion',
+            'desc' => [
+            ],
+        ],
+    ];
 
-  protected array $tags = [
-    0 => [
-      /**
-       * table_name : GIF::MIDIControl
-       * line : 131275
-       * type : int8u
-       * writable : false
-       * count : 
-       * flags : 
-       */
-      'id' => 'GIF::MIDIControl.GIF:MIDIControlVersion',
-      'desc' => [
-      ],
-    ],
-  ];
-
-  protected int $count = 0;
-
+    protected int $count = 0;
 }
