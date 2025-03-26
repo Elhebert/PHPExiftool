@@ -28,13 +28,14 @@ class LameVBRQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lame VBR Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Xing
-             * line : 166143
+             * line : 112967
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LameVBRQuality extends AbstractTagGroup
              */
             'id' => 'MPEG::Xing.MPEG:LameVBRQuality',
             'desc' => [
+                'en' => 'Lame VBR Quality',
             ],
         ],
     ];

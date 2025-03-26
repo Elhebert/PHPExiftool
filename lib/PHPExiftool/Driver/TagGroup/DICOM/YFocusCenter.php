@@ -28,13 +28,14 @@ class YFocusCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Focus Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95918
+             * line : 69343
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YFocusCenter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:YFocusCenter',
             'desc' => [
+                'en' => 'Y Focus Center',
             ],
         ],
     ];

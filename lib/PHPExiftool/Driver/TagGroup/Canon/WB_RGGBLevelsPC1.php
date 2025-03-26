@@ -28,13 +28,14 @@ class WB_RGGBLevelsPC1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels PC1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 61026
+             * line : 46867
              * type : int16s
              * writable : true
              * count : 4
@@ -42,12 +43,13 @@ class WB_RGGBLevelsPC1 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:WB_RGGBLevelsPC1',
             'desc' => [
+                'en' => 'WB RGGB Levels PC1',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61217
+             * line : 46966
              * type : int16s
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WB_RGGBLevelsPC1 extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:WB_RGGBLevelsPC1',
             'desc' => [
+                'en' => 'WB RGGB Levels PC1',
             ],
         ],
     ];

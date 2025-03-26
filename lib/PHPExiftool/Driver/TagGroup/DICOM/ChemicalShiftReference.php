@@ -28,13 +28,14 @@ class ChemicalShiftReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chemical Shift Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96641
+             * line : 70045
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChemicalShiftReference extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChemicalShiftReference',
             'desc' => [
+                'en' => 'Chemical Shift Reference',
             ],
         ],
     ];

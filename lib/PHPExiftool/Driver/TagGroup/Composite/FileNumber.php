@@ -28,13 +28,14 @@ class FileNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90113
+             * line : 65086
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileNumber extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:FileNumber',
             'desc' => [
+                'en' => 'File Number',
             ],
         ],
     ];

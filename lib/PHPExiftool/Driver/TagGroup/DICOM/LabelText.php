@@ -28,13 +28,14 @@ class LabelText extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Label Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102326
+             * line : 75426
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LabelText extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LabelText',
             'desc' => [
+                'en' => 'Label Text',
             ],
         ],
     ];

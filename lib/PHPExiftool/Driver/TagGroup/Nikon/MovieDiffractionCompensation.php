@@ -28,13 +28,14 @@ class MovieDiffractionCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Diffraction Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200281
+             * line : 135245
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieDiffractionCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieDiffractionCompensation',
             'desc' => [
+                'en' => 'Movie Diffraction Compensation',
             ],
         ],
     ];

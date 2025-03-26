@@ -28,13 +28,14 @@ class HighlightTone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Tone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130140
+             * line : 89907
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightTone extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:HighlightTone',
             'desc' => [
+                'en' => 'Highlight Tone',
             ],
         ],
     ];

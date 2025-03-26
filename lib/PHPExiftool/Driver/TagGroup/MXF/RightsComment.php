@@ -28,13 +28,14 @@ class RightsComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rights Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171905
+             * line : 118090
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class RightsComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RightsComment',
             'desc' => [
+                'en' => 'Rights Comment',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171908
+             * line : 118093
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class RightsComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RightsComment',
             'desc' => [
+                'en' => 'Rights Comment',
             ],
         ],
     ];

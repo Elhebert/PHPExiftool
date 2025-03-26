@@ -28,13 +28,14 @@ class ShutterReleaseTiming extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shutter Release Timing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78742
+             * line : 57288
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShutterReleaseTiming extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:ShutterReleaseTiming',
             'desc' => [
+                'en' => 'Shutter Release Timing',
             ],
         ],
     ];

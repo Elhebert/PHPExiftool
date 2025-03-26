@@ -28,13 +28,14 @@ class VideoNoiseReductionAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Noise Reduction Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168152
+             * line : 114650
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoNoiseReductionAlgorithm extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoNoiseReductionAlgorithm',
             'desc' => [
+                'en' => 'Video Noise Reduction Algorithm',
             ],
         ],
     ];

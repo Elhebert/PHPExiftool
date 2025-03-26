@@ -28,13 +28,14 @@ class PDFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PDF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Root
-             * line : 264342
+             * line : 182713
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PDFVersion extends AbstractTagGroup
              */
             'id' => 'PDF::Root.PDF:PDFVersion',
             'desc' => [
+                'en' => 'PDF Version',
             ],
         ],
     ];

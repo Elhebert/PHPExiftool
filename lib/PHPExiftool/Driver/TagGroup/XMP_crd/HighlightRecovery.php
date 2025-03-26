@@ -28,13 +28,14 @@ class HighlightRecovery extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Recovery',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399450
+             * line : 282957
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightRecovery extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:HighlightRecovery',
             'desc' => [
+                'en' => 'Highlight Recovery',
             ],
         ],
     ];

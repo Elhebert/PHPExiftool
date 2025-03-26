@@ -28,13 +28,14 @@ class Watermark extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Watermark',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273599
+             * line : 190801
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Watermark extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Watermark',
             'desc' => [
+                'en' => 'Watermark',
             ],
         ],
     ];

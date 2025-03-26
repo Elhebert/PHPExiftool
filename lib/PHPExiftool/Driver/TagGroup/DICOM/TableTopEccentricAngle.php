@@ -28,13 +28,14 @@ class TableTopEccentricAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Eccentric Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103390
+             * line : 76485
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopEccentricAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopEccentricAngle',
             'desc' => [
+                'en' => 'Table Top Eccentric Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StartPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166872
+             * line : 113571
              * type : int32u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class StartPoint extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:StartPoint',
             'desc' => [
+                'en' => 'Start Point',
             ],
         ],
     ];

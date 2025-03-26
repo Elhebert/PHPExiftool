@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::MakeModel
-             * line : 80017
+             * line : 58416
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'CanonRaw::MakeModel.CanonRaw:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

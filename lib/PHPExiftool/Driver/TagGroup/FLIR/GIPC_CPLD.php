@@ -28,13 +28,14 @@ class GIPC_CPLD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GIPC CPLD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123629
+             * line : 86430
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GIPC_CPLD extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:GIPC_CPLD',
             'desc' => [
+                'en' => 'GIPC CPLD',
             ],
         ],
     ];

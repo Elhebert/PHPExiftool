@@ -28,13 +28,14 @@ class RunTimeEpoch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Run Time Epoch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Apple::RunTime
-             * line : 2937
+             * line : 1882
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RunTimeEpoch extends AbstractTagGroup
              */
             'id' => 'Apple::RunTime.Apple:RunTimeEpoch',
             'desc' => [
+                'en' => 'Run Time Epoch',
             ],
         ],
     ];

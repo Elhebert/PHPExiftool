@@ -28,13 +28,14 @@ class HostSoftwareExportVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Host Software Export Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156192
+             * line : 107396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HostSoftwareExportVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:HostSoftwareExportVersion',
             'desc' => [
+                'en' => 'Host Software Export Version',
             ],
         ],
     ];

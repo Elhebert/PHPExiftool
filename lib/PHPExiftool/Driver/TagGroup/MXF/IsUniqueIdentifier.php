@@ -28,13 +28,14 @@ class IsUniqueIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Unique Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169616
+             * line : 116007
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsUniqueIdentifier extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsUniqueIdentifier',
             'desc' => [
+                'en' => 'Is Unique Identifier',
             ],
         ],
     ];

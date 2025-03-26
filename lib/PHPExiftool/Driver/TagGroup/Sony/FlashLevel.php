@@ -28,13 +28,14 @@ class FlashLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 359162
+             * line : 250529
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashLevel extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FlashLevel',
             'desc' => [
+                'en' => 'Flash Level',
             ],
         ],
     ];

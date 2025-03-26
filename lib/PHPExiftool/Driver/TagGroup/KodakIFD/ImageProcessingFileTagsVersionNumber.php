@@ -28,13 +28,14 @@ class ImageProcessingFileTagsVersionNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Processing File Tags Version Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156128
+             * line : 107339
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageProcessingFileTagsVersionNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImageProcessingFileTagsVersionNumber',
             'desc' => [
+                'en' => 'Image Processing File Tags Version Number',
             ],
         ],
     ];

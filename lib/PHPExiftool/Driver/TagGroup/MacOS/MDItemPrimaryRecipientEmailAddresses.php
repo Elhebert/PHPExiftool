@@ -28,13 +28,14 @@ class MDItemPrimaryRecipientEmailAddresses extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Primary Recipient Email Addresses',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172956
+             * line : 119011
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemPrimaryRecipientEmailAddresses extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemPrimaryRecipientEmailAddresses',
             'desc' => [
+                'en' => 'MD Item Primary Recipient Email Addresses',
             ],
         ],
     ];

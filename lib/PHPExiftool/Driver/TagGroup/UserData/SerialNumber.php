@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325294
+             * line : 229628
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325637
+             * line : 229781
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Allergies extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Allergies',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95269
+             * line : 68734
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Allergies extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Allergies',
             'desc' => [
+                'en' => 'Allergies',
             ],
         ],
     ];

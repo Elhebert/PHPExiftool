@@ -28,13 +28,14 @@ class AFUndershootProtect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Undershoot Protect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306579
+             * line : 213077
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFUndershootProtect extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFUndershootProtect',
             'desc' => [
+                'en' => 'AF Undershoot Protect',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Acknowledged extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acknowledged',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395262
+             * line : 279954
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Acknowledged extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Acknowledged',
             'desc' => [
+                'en' => 'Acknowledged',
             ],
         ],
     ];

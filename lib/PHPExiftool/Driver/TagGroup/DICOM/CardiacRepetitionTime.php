@@ -28,13 +28,14 @@ class CardiacRepetitionTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Repetition Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97581
+             * line : 70966
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacRepetitionTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacRepetitionTime',
             'desc' => [
+                'en' => 'Cardiac Repetition Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Sequence extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330622
+             * line : 232636
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class Sequence extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:Sequence',
             'desc' => [
+                'en' => 'Sequence',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330857
+             * line : 232745
              * type : int8u
              * writable : true
              * count : 2
@@ -55,12 +57,13 @@ class Sequence extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:Sequence',
             'desc' => [
+                'en' => 'Sequence',
             ],
         ],
         2 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331082
+             * line : 232865
              * type : int16u
              * writable : true
              * count : 2
@@ -68,6 +71,7 @@ class Sequence extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:Sequence',
             'desc' => [
+                'en' => 'Sequence',
             ],
         ],
     ];

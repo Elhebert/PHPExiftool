@@ -28,13 +28,14 @@ class MACIDNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MACID Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101886
+             * line : 75027
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MACIDNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MACIDNumber',
             'desc' => [
+                'en' => 'MACID Number',
             ],
         ],
     ];

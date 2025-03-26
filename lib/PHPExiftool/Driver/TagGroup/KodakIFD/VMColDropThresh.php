@@ -28,13 +28,14 @@ class VMColDropThresh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VM Col Drop Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155831
+             * line : 107042
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VMColDropThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:VMColDropThresh',
             'desc' => [
+                'en' => 'VM Col Drop Thresh',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PictureControlAdjust extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Control Adjust',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203639
+             * line : 137344
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PictureControlAdjust extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:PictureControlAdjust',
             'desc' => [
+                'en' => 'Picture Control Adjust',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 203950
+             * line : 137453
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class PictureControlAdjust extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:PictureControlAdjust',
             'desc' => [
+                'en' => 'Picture Control Adjust',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204273
+             * line : 137565
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class PictureControlAdjust extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:PictureControlAdjust',
             'desc' => [
+                'en' => 'Picture Control Adjust',
             ],
         ],
     ];

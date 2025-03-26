@@ -28,13 +28,14 @@ class XMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::MagnifyObject
-             * line : 165118
+             * line : 112221
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XMethod extends AbstractTagGroup
              */
             'id' => 'MNG::MagnifyObject.MNG:XMethod',
             'desc' => [
+                'en' => 'X Method',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferenceTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122611
+             * line : 85862
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceTemperature extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:ReferenceTemperature',
             'desc' => [
+                'en' => 'Reference Temperature',
             ],
         ],
     ];

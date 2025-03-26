@@ -28,13 +28,14 @@ class VideoFieldOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Field Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 314004
+             * line : 219667
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoFieldOrder extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:VideoFieldOrder',
             'desc' => [
+                'en' => 'Video Field Order',
             ],
         ],
     ];

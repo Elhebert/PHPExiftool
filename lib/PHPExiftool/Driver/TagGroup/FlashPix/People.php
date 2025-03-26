@@ -28,13 +28,14 @@ class People extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'People',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125009
+             * line : 87341
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class People extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:People',
             'desc' => [
+                'en' => 'People',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LimitAFAreaModeSelGroupC2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limit AF Area Mode Sel Group C2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247802
+             * line : 170495
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LimitAFAreaModeSelGroupC2 extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitAFAreaModeSelGroupC2',
             'desc' => [
+                'en' => 'Limit AF Area Mode Sel Group C2',
             ],
         ],
     ];

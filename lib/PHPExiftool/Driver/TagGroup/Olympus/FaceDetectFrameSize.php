@@ -28,13 +28,14 @@ class FaceDetectFrameSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Detect Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255561
+             * line : 176363
              * type : int16u
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class FaceDetectFrameSize extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:FaceDetectFrameSize',
             'desc' => [
+                'en' => 'Face Detect Frame Size',
             ],
         ],
     ];

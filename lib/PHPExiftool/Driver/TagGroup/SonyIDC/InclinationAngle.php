@@ -28,13 +28,14 @@ class InclinationAngle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Inclination Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394420
+             * line : 279408
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InclinationAngle extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:InclinationAngle',
             'desc' => [
+                'en' => 'Inclination Angle',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RepresentativeDisparityFar extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Representative Disparity Far',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::Main
-             * line : 394679
+             * line : 279600
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RepresentativeDisparityFar extends AbstractTagGroup
              */
             'id' => 'Stim::Main.Stim:RepresentativeDisparityFar',
             'desc' => [
+                'en' => 'Representative Disparity Far',
             ],
         ],
     ];

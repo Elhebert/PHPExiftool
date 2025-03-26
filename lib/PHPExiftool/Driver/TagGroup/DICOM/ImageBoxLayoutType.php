@@ -28,13 +28,14 @@ class ImageBoxLayoutType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Layout Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101616
+             * line : 74760
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxLayoutType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxLayoutType',
             'desc' => [
+                'en' => 'Image Box Layout Type',
             ],
         ],
     ];

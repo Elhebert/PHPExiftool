@@ -28,13 +28,14 @@ class BatteryTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Battery Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::KBAT
-             * line : 139996
+             * line : 97871
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BatteryTemperature extends AbstractTagGroup
              */
             'id' => 'GoPro::KBAT.GoPro:BatteryTemperature',
             'desc' => [
+                'en' => 'Battery Temperature',
             ],
         ],
     ];

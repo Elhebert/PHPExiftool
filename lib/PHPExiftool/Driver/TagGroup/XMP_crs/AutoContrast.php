@@ -28,13 +28,14 @@ class AutoContrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401507
+             * line : 284768
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoContrast extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:AutoContrast',
             'desc' => [
+                'en' => 'Auto Contrast',
             ],
         ],
     ];

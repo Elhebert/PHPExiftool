@@ -28,13 +28,14 @@ class ExposureReferenceOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Reference Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155894
+             * line : 107105
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureReferenceOffset extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ExposureReferenceOffset',
             'desc' => [
+                'en' => 'Exposure Reference Offset',
             ],
         ],
     ];

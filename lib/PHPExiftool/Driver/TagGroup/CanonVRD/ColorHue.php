@@ -28,13 +28,14 @@ class ColorHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80743
+             * line : 58869
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorHue extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ColorHue',
             'desc' => [
+                'en' => 'Color Hue',
             ],
         ],
     ];

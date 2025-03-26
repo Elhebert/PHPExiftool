@@ -28,13 +28,14 @@ class TotalNumberInSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Number In Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171603
+             * line : 117799
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TotalNumberInSequence',
             'desc' => [
+                'en' => 'Total Number In Sequence',
             ],
         ],
     ];

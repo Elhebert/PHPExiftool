@@ -28,13 +28,14 @@ class TotalBytes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Bytes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313799
+             * line : 219537
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TotalBytes extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:TotalBytes',
             'desc' => [
+                'en' => 'Total Bytes',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313811
+             * line : 219549
              * type : int64u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class TotalBytes extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:TotalBytes',
             'desc' => [
+                'en' => 'Total Bytes',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313814
+             * line : 219552
              * type : int64u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class TotalBytes extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:TotalBytes',
             'desc' => [
+                'en' => 'Total Bytes',
             ],
         ],
     ];

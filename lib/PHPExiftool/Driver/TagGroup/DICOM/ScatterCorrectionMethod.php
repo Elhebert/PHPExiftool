@@ -28,13 +28,14 @@ class ScatterCorrectionMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scatter Correction Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100989
+             * line : 74139
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScatterCorrectionMethod extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScatterCorrectionMethod',
             'desc' => [
+                'en' => 'Scatter Correction Method',
             ],
         ],
     ];

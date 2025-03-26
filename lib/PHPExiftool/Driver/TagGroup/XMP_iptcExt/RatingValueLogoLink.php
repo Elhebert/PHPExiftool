@@ -28,13 +28,14 @@ class RatingValueLogoLink extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Value Logo Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409684
+             * line : 289444
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingValueLogoLink extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RatingValueLogoLink',
             'desc' => [
+                'en' => 'Rating Value Logo Link',
             ],
         ],
     ];

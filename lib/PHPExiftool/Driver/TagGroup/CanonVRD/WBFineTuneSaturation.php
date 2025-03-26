@@ -28,13 +28,14 @@ class WBFineTuneSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Fine Tune Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82296
+             * line : 60282
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBFineTuneSaturation extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:WBFineTuneSaturation',
             'desc' => [
+                'en' => 'WB Fine Tune Saturation',
             ],
         ],
     ];

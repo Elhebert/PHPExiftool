@@ -28,13 +28,14 @@ class Keyword extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Keyword',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410911
+             * line : 290166
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Keyword extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Keyword',
             'desc' => [
+                'en' => 'Keyword',
             ],
         ],
     ];

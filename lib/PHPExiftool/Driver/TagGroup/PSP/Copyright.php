@@ -28,13 +28,14 @@ class Copyright extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PSP::Creator
-             * line : 273138
+             * line : 190610
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Copyright extends AbstractTagGroup
              */
             'id' => 'PSP::Creator.PSP:Copyright',
             'desc' => [
+                'en' => 'Copyright',
             ],
         ],
     ];

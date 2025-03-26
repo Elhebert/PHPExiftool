@@ -28,13 +28,14 @@ class Script extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Script',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326649
+             * line : 230390
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Script extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:Script',
             'desc' => [
+                'en' => 'Script',
             ],
         ],
     ];

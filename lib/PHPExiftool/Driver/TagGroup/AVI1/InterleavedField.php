@@ -28,13 +28,14 @@ class InterleavedField extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interleaved Field',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::AVI1
-             * line : 152364
+             * line : 104847
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterleavedField extends AbstractTagGroup
              */
             'id' => 'JPEG::AVI1.AVI1:InterleavedField',
             'desc' => [
+                'en' => 'Interleaved Field',
             ],
         ],
     ];

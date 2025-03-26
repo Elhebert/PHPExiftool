@@ -28,13 +28,14 @@ class ToneLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tone Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252424
+             * line : 173938
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToneLevel extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ToneLevel',
             'desc' => [
+                'en' => 'Tone Level',
             ],
         ],
     ];

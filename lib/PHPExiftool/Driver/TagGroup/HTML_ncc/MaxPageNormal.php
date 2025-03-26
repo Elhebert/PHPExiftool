@@ -28,13 +28,14 @@ class MaxPageNormal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Page Normal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 142972
+             * line : 98734
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxPageNormal extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:MaxPageNormal',
             'desc' => [
+                'en' => 'Max Page Normal',
             ],
         ],
     ];

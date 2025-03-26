@@ -28,13 +28,14 @@ class CatalogNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Catalog Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326602
+             * line : 230360
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CatalogNumber extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:CatalogNumber',
             'desc' => [
+                'en' => 'Catalog Number',
             ],
         ],
     ];

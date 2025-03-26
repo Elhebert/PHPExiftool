@@ -28,13 +28,14 @@ class MultiplexTypeArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multiplex Type Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146429
+             * line : 101790
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiplexTypeArray extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:MultiplexTypeArray',
             'desc' => [
+                'en' => 'Multiplex Type Array',
             ],
         ],
     ];

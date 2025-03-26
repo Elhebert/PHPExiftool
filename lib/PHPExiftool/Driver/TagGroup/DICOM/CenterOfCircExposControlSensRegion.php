@@ -28,13 +28,14 @@ class CenterOfCircExposControlSensRegion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Center Of Circ Expos Control Sens Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97158
+             * line : 70555
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CenterOfCircExposControlSensRegion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CenterOfCircExposControlSensRegion',
             'desc' => [
+                'en' => 'Center Of Circ Expos Control Sens Region',
             ],
         ],
     ];

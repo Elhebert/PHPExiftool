@@ -28,13 +28,14 @@ class DateImported extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Imported',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175379
+             * line : 120762
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateImported extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DateImported',
             'desc' => [
+                'en' => 'Date Imported',
             ],
         ],
     ];

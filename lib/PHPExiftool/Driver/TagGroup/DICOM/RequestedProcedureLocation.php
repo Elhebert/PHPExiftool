@@ -28,13 +28,14 @@ class RequestedProcedureLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Requested Procedure Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99851
+             * line : 73053
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestedProcedureLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestedProcedureLocation',
             'desc' => [
+                'en' => 'Requested Procedure Location',
             ],
         ],
     ];

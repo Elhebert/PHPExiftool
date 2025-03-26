@@ -28,13 +28,14 @@ class TableTopRollRotationDirection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Roll Rotation Direction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103426
+             * line : 76521
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopRollRotationDirection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopRollRotationDirection',
             'desc' => [
+                'en' => 'Table Top Roll Rotation Direction',
             ],
         ],
     ];

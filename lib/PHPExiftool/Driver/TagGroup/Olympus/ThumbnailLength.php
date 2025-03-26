@@ -28,13 +28,14 @@ class ThumbnailLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Thumbnail
-             * line : 262193
+             * line : 181236
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ThumbnailLength extends AbstractTagGroup
              */
             'id' => 'Olympus::Thumbnail.Olympus:ThumbnailLength',
             'desc' => [
+                'en' => 'Thumbnail Length',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::thmb
-             * line : 263292
+             * line : 182229
              * type : int32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ThumbnailLength extends AbstractTagGroup
              */
             'id' => 'Olympus::thmb.Olympus:ThumbnailLength',
             'desc' => [
+                'en' => 'Thumbnail Length',
             ],
         ],
         2 => [
             /**
              * table_name : Olympus::thmb2
-             * line : 263335
+             * line : 182245
              * type : int32u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ThumbnailLength extends AbstractTagGroup
              */
             'id' => 'Olympus::thmb2.Olympus:ThumbnailLength',
             'desc' => [
+                'en' => 'Thumbnail Length',
             ],
         ],
     ];

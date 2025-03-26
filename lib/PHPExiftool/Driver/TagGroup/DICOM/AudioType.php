@@ -28,13 +28,14 @@ class AudioType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104194
+             * line : 77280
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AudioType',
             'desc' => [
+                'en' => 'Audio Type',
             ],
         ],
     ];

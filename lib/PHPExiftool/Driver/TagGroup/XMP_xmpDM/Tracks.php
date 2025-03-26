@@ -28,13 +28,14 @@ class Tracks extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Tracks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413537
+             * line : 291616
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Tracks extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Tracks',
             'desc' => [
+                'en' => 'Tracks',
             ],
         ],
     ];

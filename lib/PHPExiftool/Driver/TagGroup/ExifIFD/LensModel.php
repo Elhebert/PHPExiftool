@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117915
+             * line : 83683
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

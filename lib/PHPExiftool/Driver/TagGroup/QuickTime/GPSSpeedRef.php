@@ -28,13 +28,14 @@ class GPSSpeedRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Speed Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324701
+             * line : 229335
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSSpeedRef extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSSpeedRef',
             'desc' => [
+                'en' => 'GPS Speed Ref',
             ],
         ],
     ];

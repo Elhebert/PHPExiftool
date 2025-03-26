@@ -28,13 +28,14 @@ class MultiplexGroupLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multiplex Group Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99474
+             * line : 72687
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiplexGroupLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MultiplexGroupLabel',
             'desc' => [
+                'en' => 'Multiplex Group Label',
             ],
         ],
     ];

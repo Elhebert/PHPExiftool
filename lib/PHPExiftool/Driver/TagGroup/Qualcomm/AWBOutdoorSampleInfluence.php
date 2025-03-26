@@ -28,13 +28,14 @@ class AWBOutdoorSampleInfluence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Outdoor Sample Influence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307173
+             * line : 213671
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBOutdoorSampleInfluence extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBOutdoorSampleInfluence',
             'desc' => [
+                'en' => 'AWB Outdoor Sample Influence',
             ],
         ],
     ];

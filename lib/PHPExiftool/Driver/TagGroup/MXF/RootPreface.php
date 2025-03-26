@@ -28,13 +28,14 @@ class RootPreface extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Root Preface',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172276
+             * line : 118441
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RootPreface extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RootPreface',
             'desc' => [
+                'en' => 'Root Preface',
             ],
         ],
     ];

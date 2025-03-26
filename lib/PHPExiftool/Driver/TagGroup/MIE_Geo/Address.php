@@ -28,13 +28,14 @@ class Address extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Geo
-             * line : 163737
+             * line : 111484
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Address extends AbstractTagGroup
              */
             'id' => 'MIE::Geo.MIE-Geo:Address',
             'desc' => [
+                'en' => 'Address',
             ],
         ],
     ];

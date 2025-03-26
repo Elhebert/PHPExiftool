@@ -28,13 +28,14 @@ class FlashButtonFunction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Button Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75251
+             * line : 55403
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashButtonFunction extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:FlashButtonFunction',
             'desc' => [
+                'en' => 'Flash Button Function',
             ],
         ],
     ];

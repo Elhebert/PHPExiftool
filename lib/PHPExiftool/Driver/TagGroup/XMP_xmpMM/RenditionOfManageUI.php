@@ -28,13 +28,14 @@ class RenditionOfManageUI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Manage UI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414236
+             * line : 292256
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfManageUI extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfManageUI',
             'desc' => [
+                'en' => 'Rendition Of Manage UI',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CTTableDynamicsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CT Table Dynamics Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96962
+             * line : 70363
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CTTableDynamicsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CTTableDynamicsSequence',
             'desc' => [
+                'en' => 'CT Table Dynamics Sequence',
             ],
         ],
     ];

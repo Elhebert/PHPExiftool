@@ -28,13 +28,14 @@ class RegionType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MWG::Regions
-             * line : 167211
+             * line : 113849
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionType extends AbstractTagGroup
              */
             'id' => 'MWG::Regions.XMP-mwg-rs:RegionType',
             'desc' => [
+                'en' => 'Region Type',
             ],
         ],
     ];

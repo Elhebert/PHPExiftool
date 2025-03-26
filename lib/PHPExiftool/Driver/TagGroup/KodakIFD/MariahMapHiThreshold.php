@@ -28,13 +28,14 @@ class MariahMapHiThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mariah Map Hi Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156828
+             * line : 108032
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MariahMapHiThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MariahMapHiThreshold',
             'desc' => [
+                'en' => 'Mariah Map Hi Threshold',
             ],
         ],
     ];

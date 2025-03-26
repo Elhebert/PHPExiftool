@@ -28,13 +28,14 @@ class ReferencedBasicAnnotationBoxSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Basic Annotation Box Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102127
+             * line : 75258
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedBasicAnnotationBoxSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedBasicAnnotationBoxSeq',
             'desc' => [
+                'en' => 'Referenced Basic Annotation Box Seq',
             ],
         ],
     ];

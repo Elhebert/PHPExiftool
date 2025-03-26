@@ -28,13 +28,14 @@ class InstanceNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Instance Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97860
+             * line : 71236
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InstanceNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InstanceNumber',
             'desc' => [
+                'en' => 'Instance Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NativeDisplayInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Native Display Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146467
+             * line : 101811
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NativeDisplayInfo extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:NativeDisplayInfo',
             'desc' => [
+                'en' => 'Native Display Info',
             ],
         ],
     ];

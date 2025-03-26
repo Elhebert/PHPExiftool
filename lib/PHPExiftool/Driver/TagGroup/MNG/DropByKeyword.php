@@ -28,13 +28,14 @@ class DropByKeyword extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Drop By Keyword',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::Main
-             * line : 165196
+             * line : 112289
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DropByKeyword extends AbstractTagGroup
              */
             'id' => 'MNG::Main.MNG:DropByKeyword',
             'desc' => [
+                'en' => 'Drop By Keyword',
             ],
         ],
     ];

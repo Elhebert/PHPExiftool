@@ -28,13 +28,14 @@ class OverflowColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overflow Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaletteInfo
-             * line : 123512
+             * line : 86325
              * type : int8u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class OverflowColor extends AbstractTagGroup
              */
             'id' => 'FLIR::PaletteInfo.FLIR:OverflowColor',
             'desc' => [
+                'en' => 'Overflow Color',
             ],
         ],
     ];

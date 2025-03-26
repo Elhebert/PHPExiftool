@@ -28,13 +28,14 @@ class MeterInfo1Row2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Meter Info 1 Row 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MeterInfo
-             * line : 359651
+             * line : 250761
              * type : int32u
              * writable : true
              * count : 27
@@ -42,12 +43,13 @@ class MeterInfo1Row2 extends AbstractTagGroup
              */
             'id' => 'Sony::MeterInfo.Sony:MeterInfo1Row2',
             'desc' => [
+                'en' => 'Meter Info 1 Row 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MeterInfo9
-             * line : 359703
+             * line : 250813
              * type : undef
              * writable : false
              * count : 90
@@ -55,6 +57,7 @@ class MeterInfo1Row2 extends AbstractTagGroup
              */
             'id' => 'Sony::MeterInfo9.Sony:MeterInfo1Row2',
             'desc' => [
+                'en' => 'Meter Info 1 Row 2',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlurControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blur Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300506
+             * line : 209491
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class BlurControl extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:BlurControl',
             'desc' => [
+                'en' => 'Blur Control',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MultiplexDefaultValues extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multiplex Default Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146432
+             * line : 101793
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiplexDefaultValues extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:MultiplexDefaultValues',
             'desc' => [
+                'en' => 'Multiplex Default Values',
             ],
         ],
     ];

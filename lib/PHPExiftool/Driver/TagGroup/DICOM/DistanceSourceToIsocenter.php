@@ -28,13 +28,14 @@ class DistanceSourceToIsocenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Distance Source To Isocenter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97087
+             * line : 70486
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DistanceSourceToIsocenter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DistanceSourceToIsocenter',
             'desc' => [
+                'en' => 'Distance Source To Isocenter',
             ],
         ],
     ];

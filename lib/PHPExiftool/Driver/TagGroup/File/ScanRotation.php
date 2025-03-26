@@ -28,13 +28,14 @@ class ScanRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166742
+             * line : 113479
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanRotation extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:ScanRotation',
             'desc' => [
+                'en' => 'Scan Rotation',
             ],
         ],
     ];

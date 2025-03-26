@@ -28,13 +28,14 @@ class ResourceRelationship extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Resource Relationship',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106681
+             * line : 78908
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ResourceRelationship extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:ResourceRelationship',
             'desc' => [
+                'en' => 'Resource Relationship',
             ],
         ],
     ];

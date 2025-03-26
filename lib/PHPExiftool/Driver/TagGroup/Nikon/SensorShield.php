@@ -28,13 +28,14 @@ class SensorShield extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Shield',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201958
+             * line : 136833
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorShield extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:SensorShield',
             'desc' => [
+                'en' => 'Sensor Shield',
             ],
         ],
     ];

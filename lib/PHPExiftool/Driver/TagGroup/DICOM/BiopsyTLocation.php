@@ -28,13 +28,14 @@ class BiopsyTLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Biopsy T Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98291
+             * line : 71626
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BiopsyTLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BiopsyTLocation',
             'desc' => [
+                'en' => 'Biopsy T Location',
             ],
         ],
     ];

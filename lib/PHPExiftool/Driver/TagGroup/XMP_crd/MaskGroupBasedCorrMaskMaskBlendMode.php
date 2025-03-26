@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskMaskBlendMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Mask Blend Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399745
+             * line : 283251
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskMaskBlendMode extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrMaskMaskBlendMode',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Mask Blend Mode',
             ],
         ],
     ];

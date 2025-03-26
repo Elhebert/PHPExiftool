@@ -28,13 +28,14 @@ class CalculatedScaleMin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calculated Scale Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122644
+             * line : 85880
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalculatedScaleMin extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:CalculatedScaleMin',
             'desc' => [
+                'en' => 'Calculated Scale Min',
             ],
         ],
     ];

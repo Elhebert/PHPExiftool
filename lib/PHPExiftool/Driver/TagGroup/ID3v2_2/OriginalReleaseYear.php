@@ -28,13 +28,14 @@ class OriginalReleaseYear extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Release Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148357
+             * line : 103044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalReleaseYear extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:OriginalReleaseYear',
             'desc' => [
+                'en' => 'Original Release Year',
             ],
         ],
     ];

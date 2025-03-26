@@ -28,13 +28,14 @@ class WritingApp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Writing App',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173738
+             * line : 119640
              * type : utf8
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WritingApp extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:WritingApp',
             'desc' => [
+                'en' => 'Writing App',
             ],
         ],
     ];

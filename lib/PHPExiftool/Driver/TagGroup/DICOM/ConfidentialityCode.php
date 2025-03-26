@@ -28,13 +28,14 @@ class ConfidentialityCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Confidentiality Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99860
+             * line : 73062
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConfidentialityCode extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConfidentialityCode',
             'desc' => [
+                'en' => 'Confidentiality Code',
             ],
         ],
     ];

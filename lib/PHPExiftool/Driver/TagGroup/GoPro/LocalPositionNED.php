@@ -28,13 +28,14 @@ class LocalPositionNED extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Position NED',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139586
+             * line : 97661
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalPositionNED extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:LocalPositionNED',
             'desc' => [
+                'en' => 'Local Position NED',
             ],
         ],
     ];

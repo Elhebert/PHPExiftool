@@ -28,13 +28,14 @@ class FocalPlaneYResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Plane Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126288
+             * line : 87633
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalPlaneYResolution extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FocalPlaneYResolution',
             'desc' => [
+                'en' => 'Focal Plane Y Resolution',
             ],
         ],
     ];

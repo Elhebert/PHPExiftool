@@ -28,13 +28,14 @@ class SharpInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharp Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Sharpness
-             * line : 162081
+             * line : 110761
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharpInfo extends AbstractTagGroup
              */
             'id' => 'Leaf::Sharpness.Leaf:SharpInfo',
             'desc' => [
+                'en' => 'Sharp Info',
             ],
         ],
     ];

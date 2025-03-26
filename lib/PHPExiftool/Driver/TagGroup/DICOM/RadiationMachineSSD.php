@@ -28,13 +28,14 @@ class RadiationMachineSSD extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiation Machine SSD',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102407
+             * line : 75507
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiationMachineSSD extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiationMachineSSD',
             'desc' => [
+                'en' => 'Radiation Machine SSD',
             ],
         ],
     ];

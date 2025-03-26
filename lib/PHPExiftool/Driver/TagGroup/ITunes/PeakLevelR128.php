@@ -28,13 +28,14 @@ class PeakLevelR128 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Level R128',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326628
+             * line : 230381
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakLevelR128 extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:PeakLevelR128',
             'desc' => [
+                'en' => 'Peak Level R128',
             ],
         ],
     ];

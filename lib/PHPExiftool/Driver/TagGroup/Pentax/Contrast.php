@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 297993
+             * line : 207883
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302780
+             * line : 210609
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

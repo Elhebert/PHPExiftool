@@ -28,13 +28,14 @@ class Focus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::Camera1
-             * line : 140286
+             * line : 97978
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Focus extends AbstractTagGroup
              */
             'id' => 'H264::Camera1.H264:Focus',
             'desc' => [
+                'en' => 'Focus',
             ],
         ],
     ];

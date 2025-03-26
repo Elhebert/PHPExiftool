@@ -28,13 +28,14 @@ class ArtworkSourceInvURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Artwork Source Inv URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409132
+             * line : 288946
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArtworkSourceInvURL extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ArtworkSourceInvURL',
             'desc' => [
+                'en' => 'Artwork Source Inv URL',
             ],
         ],
     ];

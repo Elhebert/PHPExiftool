@@ -28,13 +28,14 @@ class RightDarkRect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Right Dark Rect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161739
+             * line : 110488
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RightDarkRect extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:RightDarkRect',
             'desc' => [
+                'en' => 'Right Dark Rect',
             ],
         ],
     ];

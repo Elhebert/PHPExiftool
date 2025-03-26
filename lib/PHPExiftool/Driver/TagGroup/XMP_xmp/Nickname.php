@@ -28,13 +28,14 @@ class Nickname extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nickname',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412675
+             * line : 290936
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Nickname extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:Nickname',
             'desc' => [
+                'en' => 'Nickname',
             ],
         ],
     ];

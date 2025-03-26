@@ -28,13 +28,14 @@ class OperatingModeType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operating Mode Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96844
+             * line : 70246
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OperatingModeType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OperatingModeType',
             'desc' => [
+                'en' => 'Operating Mode Type',
             ],
         ],
     ];

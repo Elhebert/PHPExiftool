@@ -28,13 +28,14 @@ class BeamCenterY extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Center Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166788
+             * line : 113523
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamCenterY extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:BeamCenterY',
             'desc' => [
+                'en' => 'Beam Center Y',
             ],
         ],
     ];

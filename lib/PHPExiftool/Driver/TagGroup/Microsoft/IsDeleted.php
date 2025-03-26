@@ -28,13 +28,14 @@ class IsDeleted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Deleted',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175814
+             * line : 120990
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsDeleted extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:IsDeleted',
             'desc' => [
+                'en' => 'Is Deleted',
             ],
         ],
     ];

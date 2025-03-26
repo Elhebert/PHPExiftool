@@ -28,13 +28,14 @@ class FrameWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175882
+             * line : 121041
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameWidth extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FrameWidth',
             'desc' => [
+                'en' => 'Frame Width',
             ],
         ],
     ];

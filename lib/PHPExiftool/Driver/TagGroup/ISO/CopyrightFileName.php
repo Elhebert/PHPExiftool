@@ -28,13 +28,14 @@ class CopyrightFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152059
+             * line : 104724
              * type : string
              * writable : false
              * count : 38
@@ -42,6 +43,7 @@ class CopyrightFileName extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:CopyrightFileName',
             'desc' => [
+                'en' => 'Copyright File Name',
             ],
         ],
     ];

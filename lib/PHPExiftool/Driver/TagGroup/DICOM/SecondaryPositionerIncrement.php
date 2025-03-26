@@ -28,13 +28,14 @@ class SecondaryPositionerIncrement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Secondary Positioner Increment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97258
+             * line : 70654
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SecondaryPositionerIncrement extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SecondaryPositionerIncrement',
             'desc' => [
+                'en' => 'Secondary Positioner Increment',
             ],
         ],
     ];

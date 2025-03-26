@@ -28,13 +28,14 @@ class ReasonForCancellation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reason For Cancellation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101841
+             * line : 74982
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReasonForCancellation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReasonForCancellation',
             'desc' => [
+                'en' => 'Reason For Cancellation',
             ],
         ],
     ];

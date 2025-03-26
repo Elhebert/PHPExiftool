@@ -28,13 +28,14 @@ class ImageLaterality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Laterality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97939
+             * line : 71290
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageLaterality extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageLaterality',
             'desc' => [
+                'en' => 'Image Laterality',
             ],
         ],
     ];

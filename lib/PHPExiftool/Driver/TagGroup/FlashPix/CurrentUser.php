@@ -28,13 +28,14 @@ class CurrentUser extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current User',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Main
-             * line : 126572
+             * line : 87766
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentUser extends AbstractTagGroup
              */
             'id' => 'FlashPix::Main.FlashPix:CurrentUser',
             'desc' => [
+                'en' => 'Current User',
             ],
         ],
     ];

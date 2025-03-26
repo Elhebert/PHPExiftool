@@ -28,13 +28,14 @@ class FrameCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Main
-             * line : 131336
+             * line : 90677
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameCount extends AbstractTagGroup
              */
             'id' => 'GIF::Main.GIF:FrameCount',
             'desc' => [
+                'en' => 'Frame Count',
             ],
         ],
     ];

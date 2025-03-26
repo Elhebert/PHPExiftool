@@ -28,13 +28,14 @@ class PreviewImage2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCDT
-             * line : 202075
+             * line : 136892
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImage2 extends AbstractTagGroup
              */
             'id' => 'Nikon::NCDT.Nikon:PreviewImage2',
             'desc' => [
+                'en' => 'Preview Image 2',
             ],
         ],
     ];

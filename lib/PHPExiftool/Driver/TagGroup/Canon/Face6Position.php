@@ -28,13 +28,14 @@ class Face6Position extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face 6 Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FaceDetect1
-             * line : 63317
+             * line : 48177
              * type : int16s
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class Face6Position extends AbstractTagGroup
              */
             'id' => 'Canon::FaceDetect1.Canon:Face6Position',
             'desc' => [
+                'en' => 'Face 6 Position',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFPointSelection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72147
+             * line : 53629
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPointSelection extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:AFPointSelection',
             'desc' => [
+                'en' => 'AF Point Selection',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CountInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Count Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305655
+             * line : 212385
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CountInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:CountInfo',
             'desc' => [
+                'en' => 'Count Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WBBlueLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Blue Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274724
+             * line : 191571
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBBlueLevel extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:WBBlueLevel',
             'desc' => [
+                'en' => 'WB Blue Level',
             ],
         ],
     ];

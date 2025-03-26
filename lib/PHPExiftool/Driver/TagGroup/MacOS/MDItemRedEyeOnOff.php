@@ -28,13 +28,14 @@ class MDItemRedEyeOnOff extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Red Eye On Off',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172968
+             * line : 119020
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemRedEyeOnOff extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemRedEyeOnOff',
             'desc' => [
+                'en' => 'MD Item Red Eye On Off',
             ],
         ],
     ];

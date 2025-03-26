@@ -28,13 +28,14 @@ class SourceCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Source Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397234
+             * line : 281310
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SourceCount extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:SourceCount',
             'desc' => [
+                'en' => 'Source Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CustomizeDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Customize Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75352
+             * line : 55497
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomizeDials extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:CustomizeDials',
             'desc' => [
+                'en' => 'Customize Dials',
             ],
         ],
     ];

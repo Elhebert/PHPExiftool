@@ -28,13 +28,14 @@ class Azimuth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Azimuth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::RMETA
-             * line : 333562
+             * line : 233889
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Azimuth extends AbstractTagGroup
              */
             'id' => 'Ricoh::RMETA.RMETA:Azimuth',
             'desc' => [
+                'en' => 'Azimuth',
             ],
         ],
     ];

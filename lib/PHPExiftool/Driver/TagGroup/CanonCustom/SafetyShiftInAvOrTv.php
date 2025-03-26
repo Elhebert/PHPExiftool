@@ -28,13 +28,14 @@ class SafetyShiftInAvOrTv extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Safety Shift In Av Or Tv',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71792
+             * line : 53434
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SafetyShiftInAvOrTv extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:SafetyShiftInAvOrTv',
             'desc' => [
+                'en' => 'Safety Shift In Av Or Tv',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72257
+             * line : 53696
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SafetyShiftInAvOrTv extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:SafetyShiftInAvOrTv',
             'desc' => [
+                'en' => 'Safety Shift In Av Or Tv',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::Functions20D
-             * line : 76097
+             * line : 55925
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SafetyShiftInAvOrTv extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions20D.CanonCustom:SafetyShiftInAvOrTv',
             'desc' => [
+                'en' => 'Safety Shift In Av Or Tv',
             ],
         ],
         3 => [
             /**
              * table_name : CanonCustom::Functions30D
-             * line : 76618
+             * line : 56172
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class SafetyShiftInAvOrTv extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions30D.CanonCustom:SafetyShiftInAvOrTv',
             'desc' => [
+                'en' => 'Safety Shift In Av Or Tv',
             ],
         ],
         4 => [
             /**
              * table_name : CanonCustom::Functions5D
-             * line : 77736
+             * line : 56708
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class SafetyShiftInAvOrTv extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions5D.CanonCustom:SafetyShiftInAvOrTv',
             'desc' => [
+                'en' => 'Safety Shift In Av Or Tv',
             ],
         ],
     ];

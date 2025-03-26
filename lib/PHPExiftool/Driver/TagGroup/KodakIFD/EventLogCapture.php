@@ -28,13 +28,14 @@ class EventLogCapture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Log Capture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154854
+             * line : 106163
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventLogCapture extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:EventLogCapture',
             'desc' => [
+                'en' => 'Event Log Capture',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CopyrightFlag extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Copyright Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305497
+             * line : 212278
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CopyrightFlag extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:CopyrightFlag',
             'desc' => [
+                'en' => 'Copyright Flag',
             ],
         ],
     ];

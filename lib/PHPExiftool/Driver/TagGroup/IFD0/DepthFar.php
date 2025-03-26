@@ -28,13 +28,14 @@ class DepthFar extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Depth Far',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120630
+             * line : 84753
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DepthFar extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:DepthFar',
             'desc' => [
+                'en' => 'Depth Far',
             ],
         ],
     ];

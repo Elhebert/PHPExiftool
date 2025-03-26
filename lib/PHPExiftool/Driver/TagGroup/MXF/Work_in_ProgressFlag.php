@@ -28,13 +28,14 @@ class Work_in_ProgressFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Work-in-Progress Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168139
+             * line : 114638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Work_in_ProgressFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Work-in-ProgressFlag',
             'desc' => [
+                'en' => 'Work-in-Progress Flag',
             ],
         ],
     ];

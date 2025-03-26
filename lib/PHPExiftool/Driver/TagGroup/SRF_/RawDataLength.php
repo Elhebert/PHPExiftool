@@ -28,13 +28,14 @@ class RawDataLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Data Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SRF2
-             * line : 361917
+             * line : 251996
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawDataLength extends AbstractTagGroup
              */
             'id' => 'Sony::SRF2.SRF#:RawDataLength',
             'desc' => [
+                'en' => 'Raw Data Length',
             ],
         ],
     ];

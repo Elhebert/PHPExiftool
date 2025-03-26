@@ -28,13 +28,14 @@ class DVHNormalizationDoseValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Normalization Dose Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102480
+             * line : 75579
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHNormalizationDoseValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHNormalizationDoseValue',
             'desc' => [
+                'en' => 'DVH Normalization Dose Value',
             ],
         ],
     ];

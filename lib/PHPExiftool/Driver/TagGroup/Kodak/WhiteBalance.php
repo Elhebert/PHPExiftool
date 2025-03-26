@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 158016
+             * line : 108773
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159814
+             * line : 109506
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         2 => [
             /**
              * table_name : Kodak::Type5
-             * line : 160166
+             * line : 109651
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Kodak::Type5.Kodak:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ISOSpeedExpansion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Speed Expansion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 71924
+             * line : 53505
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOSpeedExpansion extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:ISOSpeedExpansion',
             'desc' => [
+                'en' => 'ISO Speed Expansion',
             ],
         ],
     ];

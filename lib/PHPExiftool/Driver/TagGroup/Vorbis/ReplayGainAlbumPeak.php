@@ -28,13 +28,14 @@ class ReplayGainAlbumPeak extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Replay Gain Album Peak',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395862
+             * line : 280250
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReplayGainAlbumPeak extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:ReplayGainAlbumPeak',
             'desc' => [
+                'en' => 'Replay Gain Album Peak',
             ],
         ],
     ];

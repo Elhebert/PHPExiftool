@@ -28,13 +28,14 @@ class PartialSyncSamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Partial Sync Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324431
+             * line : 229221
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartialSyncSamples extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:PartialSyncSamples',
             'desc' => [
+                'en' => 'Partial Sync Samples',
             ],
         ],
     ];

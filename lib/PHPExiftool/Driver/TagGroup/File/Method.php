@@ -28,13 +28,14 @@ class Method extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166706
+             * line : 113444
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Method extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:Method',
             'desc' => [
+                'en' => 'Method',
             ],
         ],
     ];

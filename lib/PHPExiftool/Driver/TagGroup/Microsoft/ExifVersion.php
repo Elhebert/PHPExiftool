@@ -28,13 +28,14 @@ class ExifVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exif Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176296
+             * line : 121311
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExifVersion extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:ExifVersion',
             'desc' => [
+                'en' => 'Exif Version',
             ],
         ],
     ];

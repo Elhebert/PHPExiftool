@@ -28,13 +28,14 @@ class ObjectCycle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Object Cycle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397809
+             * line : 281607
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ObjectCycle extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:ObjectCycle',
             'desc' => [
+                'en' => 'Object Cycle',
             ],
         ],
     ];

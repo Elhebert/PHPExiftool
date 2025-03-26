@@ -28,13 +28,14 @@ class ReferringPhysicianTelephoneNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referring Physician Telephone Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94795
+             * line : 68281
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferringPhysicianTelephoneNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferringPhysicianTelephoneNumber',
             'desc' => [
+                'en' => 'Referring Physician Telephone Number',
             ],
         ],
     ];

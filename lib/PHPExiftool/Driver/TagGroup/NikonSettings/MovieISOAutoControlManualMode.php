@@ -28,13 +28,14 @@ class MovieISOAutoControlManualMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Movie ISO Auto Control Manual Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243508
+             * line : 166579
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MovieISOAutoControlManualMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MovieISOAutoControlManualMode',
             'desc' => [
+                'en' => 'Movie ISO Auto Control Manual Mode',
             ],
         ],
     ];

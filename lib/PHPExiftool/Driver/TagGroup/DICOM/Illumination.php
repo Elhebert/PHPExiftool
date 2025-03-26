@@ -28,13 +28,14 @@ class Illumination extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102106
+             * line : 75243
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Illumination extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Illumination',
             'desc' => [
+                'en' => 'Illumination',
             ],
         ],
     ];

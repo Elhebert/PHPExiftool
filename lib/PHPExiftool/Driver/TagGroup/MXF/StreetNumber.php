@@ -28,13 +28,14 @@ class StreetNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Street Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168426
+             * line : 114920
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class StreetNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreetNumber',
             'desc' => [
+                'en' => 'Street Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170487
+             * line : 116730
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class StreetNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreetNumber',
             'desc' => [
+                'en' => 'Street Number',
             ],
         ],
     ];

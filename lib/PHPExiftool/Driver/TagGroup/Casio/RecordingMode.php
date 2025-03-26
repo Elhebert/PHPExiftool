@@ -28,13 +28,14 @@ class RecordingMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Recording Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84089
+             * line : 61585
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordingMode extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:RecordingMode',
             'desc' => [
+                'en' => 'Recording Mode',
             ],
         ],
     ];

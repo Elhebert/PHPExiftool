@@ -28,13 +28,14 @@ class MDItemPixelCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Pixel Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172944
+             * line : 119002
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemPixelCount extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemPixelCount',
             'desc' => [
+                'en' => 'MD Item Pixel Count',
             ],
         ],
     ];

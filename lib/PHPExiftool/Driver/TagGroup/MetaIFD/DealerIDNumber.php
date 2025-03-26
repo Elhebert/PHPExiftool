@@ -28,13 +28,14 @@ class DealerIDNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dealer ID Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158406
+             * line : 108907
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DealerIDNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:DealerIDNumber',
             'desc' => [
+                'en' => 'Dealer ID Number',
             ],
         ],
     ];

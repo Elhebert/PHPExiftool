@@ -28,13 +28,14 @@ class SceneShotSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scene Shot Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171544
+             * line : 117742
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SceneShotSets extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SceneShotSets',
             'desc' => [
+                'en' => 'Scene Shot Sets',
             ],
         ],
     ];

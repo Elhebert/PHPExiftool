@@ -28,13 +28,14 @@ class LCDPanels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Top/Back LCD Panels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72047
+             * line : 53578
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LCDPanels extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:LCDPanels',
             'desc' => [
+                'en' => 'Top/Back LCD Panels',
             ],
         ],
     ];

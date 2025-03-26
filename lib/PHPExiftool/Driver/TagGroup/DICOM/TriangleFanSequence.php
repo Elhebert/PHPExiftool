@@ -28,13 +28,14 @@ class TriangleFanSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Triangle Fan Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101205
+             * line : 74355
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TriangleFanSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TriangleFanSequence',
             'desc' => [
+                'en' => 'Triangle Fan Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaStationName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Station Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175145
+             * line : 120609
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaStationName extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:MediaStationName',
             'desc' => [
+                'en' => 'Media Station Name',
             ],
         ],
     ];

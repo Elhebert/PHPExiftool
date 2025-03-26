@@ -28,13 +28,14 @@ class UTCStartDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UTC Start Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168498
+             * line : 114989
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class UTCStartDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UTCStartDateTime',
             'desc' => [
+                'en' => 'UTC Start Date Time',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172160
+             * line : 118327
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class UTCStartDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UTCStartDateTime',
             'desc' => [
+                'en' => 'UTC Start Date Time',
             ],
         ],
     ];

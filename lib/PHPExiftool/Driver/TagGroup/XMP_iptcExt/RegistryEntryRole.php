@@ -28,13 +28,14 @@ class RegistryEntryRole extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Registry Entry Role',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409708
+             * line : 289468
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegistryEntryRole extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RegistryEntryRole',
             'desc' => [
+                'en' => 'Registry Entry Role',
             ],
         ],
     ];

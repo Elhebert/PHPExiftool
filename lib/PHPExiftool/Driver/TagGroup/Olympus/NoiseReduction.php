@@ -28,13 +28,14 @@ class NoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251669
+             * line : 173485
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::Main
-             * line : 259146
+             * line : 178811
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
     ];

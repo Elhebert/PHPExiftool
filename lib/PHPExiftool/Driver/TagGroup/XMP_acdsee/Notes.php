@@ -28,13 +28,14 @@ class Notes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397803
+             * line : 281604
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Notes extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:Notes',
             'desc' => [
+                'en' => 'Notes',
             ],
         ],
     ];

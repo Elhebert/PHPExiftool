@@ -28,13 +28,14 @@ class ShootObjVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shoot Obj Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ShootSetup
-             * line : 162106
+             * line : 110786
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShootObjVersion extends AbstractTagGroup
              */
             'id' => 'Leaf::ShootSetup.Leaf:ShootObjVersion',
             'desc' => [
+                'en' => 'Shoot Obj Version',
             ],
         ],
     ];

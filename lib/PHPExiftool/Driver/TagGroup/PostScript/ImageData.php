@@ -28,13 +28,14 @@ class ImageData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 306016
+             * line : 212598
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageData extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:ImageData',
             'desc' => [
+                'en' => 'Image Data',
             ],
         ],
     ];

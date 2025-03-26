@@ -28,13 +28,14 @@ class Encoder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoder',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Xing
-             * line : 166137
+             * line : 112964
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Encoder extends AbstractTagGroup
              */
             'id' => 'MPEG::Xing.MPEG:Encoder',
             'desc' => [
+                'en' => 'Encoder',
             ],
         ],
     ];

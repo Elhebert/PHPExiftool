@@ -28,13 +28,14 @@ class ShotCommentKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shot Comment Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168986
+             * line : 115442
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ShotCommentKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotCommentKind',
             'desc' => [
+                'en' => 'Shot Comment Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171742
+             * line : 117934
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ShotCommentKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotCommentKind',
             'desc' => [
+                'en' => 'Shot Comment Kind',
             ],
         ],
     ];

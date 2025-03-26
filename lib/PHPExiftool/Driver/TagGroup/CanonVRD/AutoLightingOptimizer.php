@@ -28,13 +28,14 @@ class AutoLightingOptimizer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Lighting Optimizer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80625
+             * line : 58783
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoLightingOptimizer extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:AutoLightingOptimizer',
             'desc' => [
+                'en' => 'Auto Lighting Optimizer',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83546
+             * line : 61228
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AutoLightingOptimizer extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:AutoLightingOptimizer',
             'desc' => [
+                'en' => 'Auto Lighting Optimizer',
             ],
         ],
     ];

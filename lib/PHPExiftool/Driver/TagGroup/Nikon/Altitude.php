@@ -28,13 +28,14 @@ class Altitude extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::BarometerInfo
-             * line : 191890
+             * line : 130058
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Altitude extends AbstractTagGroup
              */
             'id' => 'Nikon::BarometerInfo.Nikon:Altitude',
             'desc' => [
+                'en' => 'Altitude',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileNameLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Name Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZIP::RAR
-             * line : 415036
+             * line : 292811
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileNameLength extends AbstractTagGroup
              */
             'id' => 'ZIP::RAR.ZIP:FileNameLength',
             'desc' => [
+                'en' => 'File Name Length',
             ],
         ],
     ];

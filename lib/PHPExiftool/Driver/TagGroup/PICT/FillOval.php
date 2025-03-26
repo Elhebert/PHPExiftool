@@ -28,13 +28,14 @@ class FillOval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fill Oval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264849
+             * line : 183077
              * type : Rect
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FillOval extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:FillOval',
             'desc' => [
+                'en' => 'Fill Oval',
             ],
         ],
     ];

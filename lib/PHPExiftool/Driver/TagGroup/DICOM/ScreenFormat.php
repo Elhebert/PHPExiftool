@@ -28,13 +28,14 @@ class ScreenFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screen Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98208
+             * line : 71551
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScreenFormat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScreenFormat',
             'desc' => [
+                'en' => 'Screen Format',
             ],
         ],
     ];

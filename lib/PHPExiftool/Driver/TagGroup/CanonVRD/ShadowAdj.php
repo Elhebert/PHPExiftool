@@ -28,13 +28,14 @@ class ShadowAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shadow Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80597
+             * line : 58757
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShadowAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ShadowAdj',
             'desc' => [
+                'en' => 'Shadow Adj',
             ],
         ],
     ];

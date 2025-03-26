@@ -28,13 +28,14 @@ class MaxDataRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Data Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::AVIHeader
-             * line : 326935
+             * line : 230574
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxDataRate extends AbstractTagGroup
              */
             'id' => 'RIFF::AVIHeader.RIFF:MaxDataRate',
             'desc' => [
+                'en' => 'Max Data Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StillFrame extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Still Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169513
+             * line : 115911
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StillFrame extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StillFrame',
             'desc' => [
+                'en' => 'Still Frame',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PulldownSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pulldown Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167936
+             * line : 114458
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PulldownSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PulldownSequence',
             'desc' => [
+                'en' => 'Pulldown Sequence',
             ],
         ],
     ];

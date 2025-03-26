@@ -28,13 +28,14 @@ class BlackLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361684
+             * line : 251868
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BlackLevel extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:BlackLevel',
             'desc' => [
+                'en' => 'Black Level',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361703
+             * line : 251877
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BlackLevel extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:BlackLevel',
             'desc' => [
+                'en' => 'Black Level',
             ],
         ],
     ];

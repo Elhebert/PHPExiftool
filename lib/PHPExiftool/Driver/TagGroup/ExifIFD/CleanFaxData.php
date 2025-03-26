@@ -28,13 +28,14 @@ class CleanFaxData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clean Fax Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111591
+             * line : 81697
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CleanFaxData extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:CleanFaxData',
             'desc' => [
+                'en' => 'Clean Fax Data',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AECExposureIndexAdjStep extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Exposure Index Adj Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306161
+             * line : 212666
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECExposureIndexAdjStep extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECExposureIndexAdjStep',
             'desc' => [
+                'en' => 'AEC Exposure Index Adj Step',
             ],
         ],
     ];

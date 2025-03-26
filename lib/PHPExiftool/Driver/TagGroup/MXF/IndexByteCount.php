@@ -28,13 +28,14 @@ class IndexByteCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Index Byte Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170835
+             * line : 117066
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndexByteCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IndexByteCount',
             'desc' => [
+                'en' => 'Index Byte Count',
             ],
         ],
     ];

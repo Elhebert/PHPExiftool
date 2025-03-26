@@ -28,13 +28,14 @@ class PlayDisplay extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Play Display',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181808
+             * line : 123682
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlayDisplay extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:PlayDisplay',
             'desc' => [
+                'en' => 'Play Display',
             ],
         ],
     ];

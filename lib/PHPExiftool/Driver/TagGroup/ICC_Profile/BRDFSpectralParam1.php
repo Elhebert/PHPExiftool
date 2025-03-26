@@ -28,13 +28,14 @@ class BRDFSpectralParam1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BRDF Spectral Param 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146204
+             * line : 101652
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BRDFSpectralParam1 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:BRDFSpectralParam1',
             'desc' => [
+                'en' => 'BRDF Spectral Param 1',
             ],
         ],
     ];

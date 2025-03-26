@@ -28,13 +28,14 @@ class TileByteCounts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tile Byte Counts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111569
+             * line : 81691
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TileByteCounts extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TileByteCounts',
             'desc' => [
+                'en' => 'Tile Byte Counts',
             ],
         ],
     ];

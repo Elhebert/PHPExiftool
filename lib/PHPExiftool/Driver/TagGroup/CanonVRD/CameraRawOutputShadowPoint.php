@@ -28,13 +28,14 @@ class CameraRawOutputShadowPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Raw Output Shadow Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83838
+             * line : 61474
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraRawOutputShadowPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CameraRawOutputShadowPoint',
             'desc' => [
+                'en' => 'Camera Raw Output Shadow Point',
             ],
         ],
     ];

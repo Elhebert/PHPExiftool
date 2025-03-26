@@ -28,13 +28,14 @@ class DerivedFromLinkCategory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Link Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413818
+             * line : 291849
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromLinkCategory extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromLinkCategory',
             'desc' => [
+                'en' => 'Derived From Link Category',
             ],
         ],
     ];

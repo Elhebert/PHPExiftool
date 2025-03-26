@@ -28,13 +28,14 @@ class PanasonicImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panasonic Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277215
+             * line : 192861
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanasonicImageWidth extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:PanasonicImageWidth',
             'desc' => [
+                'en' => 'Panasonic Image Width',
             ],
         ],
     ];

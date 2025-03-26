@@ -28,13 +28,14 @@ class PercentSampling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Percent Sampling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95555
+             * line : 69010
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PercentSampling extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PercentSampling',
             'desc' => [
+                'en' => 'Percent Sampling',
             ],
         ],
     ];

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -19,19 +20,18 @@ class PHPExiftoolTest extends TestCase
     /**
      * @covers PHPExiftool::__construct
      */
-    public function testRelativeClassesRootDirectory(): void
+    public function test_relative_classes_root_directory(): void
     {
         $this->expectException(DirectoryNotFoundException::class);
-        new PHPExiftool("./relative_dir");
+        new PHPExiftool('./relative_dir');
     }
 
     /**
      * @covers PHPExiftool::__construct
      */
-    public function testBadClassesRootDirectory(): void
+    public function test_bad_classes_root_directory(): void
     {
         $this->expectException(DirectoryNotFoundException::class);
-        new PHPExiftool("/non_existing_dir");
+        new PHPExiftool('/non_existing_dir');
     }
-
 }

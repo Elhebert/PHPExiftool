@@ -28,13 +28,14 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shooting Info Monitor Off Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244032
+             * line : 166974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShootingInfoMonitorOffTime extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ShootingInfoMonitorOffTime',
             'desc' => [
+                'en' => 'Shooting Info Monitor Off Time',
             ],
         ],
     ];

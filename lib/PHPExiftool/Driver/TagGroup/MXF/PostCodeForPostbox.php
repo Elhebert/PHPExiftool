@@ -28,13 +28,14 @@ class PostCodeForPostbox extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Post Code For Postbox',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168777
+             * line : 115253
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PostCodeForPostbox extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PostCodeForPostbox',
             'desc' => [
+                'en' => 'Post Code For Postbox',
             ],
         ],
     ];

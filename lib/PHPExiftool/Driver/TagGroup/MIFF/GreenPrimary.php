@@ -28,13 +28,14 @@ class GreenPrimary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Green Primary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164345
+             * line : 111727
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GreenPrimary extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:GreenPrimary',
             'desc' => [
+                'en' => 'Green Primary',
             ],
         ],
     ];

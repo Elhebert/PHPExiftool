@@ -28,13 +28,14 @@ class WorkingDirectory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Working Directory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161559
+             * line : 110367
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WorkingDirectory extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:WorkingDirectory',
             'desc' => [
+                'en' => 'Working Directory',
             ],
         ],
     ];

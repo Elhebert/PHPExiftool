@@ -28,13 +28,14 @@ class ToningEffectFaithful extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect Faithful',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67423
+             * line : 51129
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ToningEffectFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ToningEffectFaithful',
             'desc' => [
+                'en' => 'Toning Effect Faithful',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68521
+             * line : 51790
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ToningEffectFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ToningEffectFaithful',
             'desc' => [
+                'en' => 'Toning Effect Faithful',
             ],
         ],
     ];

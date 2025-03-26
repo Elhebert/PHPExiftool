@@ -28,13 +28,14 @@ class PDFVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PDF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pdf
-             * line : 410016
+             * line : 289699
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PDFVersion extends AbstractTagGroup
              */
             'id' => 'XMP::pdf.XMP-pdf:PDFVersion',
             'desc' => [
+                'en' => 'PDF Version',
             ],
         ],
     ];

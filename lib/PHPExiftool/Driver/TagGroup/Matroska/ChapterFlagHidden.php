@@ -28,13 +28,14 @@ class ChapterFlagHidden extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Flag Hidden',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173226
+             * line : 119227
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterFlagHidden extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterFlagHidden',
             'desc' => [
+                'en' => 'Chapter Flag Hidden',
             ],
         ],
     ];

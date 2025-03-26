@@ -28,13 +28,14 @@ class GroupAreaAFIllumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Group Area AF Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216192
+             * line : 145225
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class GroupAreaAFIllumination extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:GroupAreaAFIllumination',
             'desc' => [
+                'en' => 'Group Area AF Illumination',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221200
+             * line : 149131
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class GroupAreaAFIllumination extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:GroupAreaAFIllumination',
             'desc' => [
+                'en' => 'Group Area AF Illumination',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231337
+             * line : 155582
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class GroupAreaAFIllumination extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:GroupAreaAFIllumination',
             'desc' => [
+                'en' => 'Group Area AF Illumination',
             ],
         ],
     ];

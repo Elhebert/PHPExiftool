@@ -28,13 +28,14 @@ class PerformedProcedureStepEndTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performed Procedure Step End Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99666
+             * line : 72873
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerformedProcedureStepEndTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerformedProcedureStepEndTime',
             'desc' => [
+                'en' => 'Performed Procedure Step End Time',
             ],
         ],
     ];

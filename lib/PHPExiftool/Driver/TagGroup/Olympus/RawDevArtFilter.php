@@ -28,13 +28,14 @@ class RawDevArtFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Art Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260689
+             * line : 180063
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class RawDevArtFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevArtFilter',
             'desc' => [
+                'en' => 'Raw Dev Art Filter',
             ],
         ],
     ];

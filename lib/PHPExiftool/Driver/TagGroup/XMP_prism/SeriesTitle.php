@@ -28,13 +28,14 @@ class SeriesTitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Series Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411116
+             * line : 290320
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SeriesTitle extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:SeriesTitle',
             'desc' => [
+                'en' => 'Series Title',
             ],
         ],
     ];

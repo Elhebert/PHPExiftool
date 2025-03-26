@@ -28,13 +28,14 @@ class Vibrance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vibrance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401276
+             * line : 284665
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Vibrance extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:Vibrance',
             'desc' => [
+                'en' => 'Vibrance',
             ],
         ],
     ];

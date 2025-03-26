@@ -28,13 +28,14 @@ class AlbumArtist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Album Artist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Audible::meta
-             * line : 3049
+             * line : 1947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlbumArtist extends AbstractTagGroup
              */
             'id' => 'Audible::meta.Audible:AlbumArtist',
             'desc' => [
+                'en' => 'Album Artist',
             ],
         ],
     ];

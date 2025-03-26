@@ -28,13 +28,14 @@ class LightroomWorkflow extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lightroom Workflow',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305702
+             * line : 212421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LightroomWorkflow extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:LightroomWorkflow',
             'desc' => [
+                'en' => 'Lightroom Workflow',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ClassifyingCountryCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Classifying Country Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172154
+             * line : 118321
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClassifyingCountryCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClassifyingCountryCode',
             'desc' => [
+                'en' => 'Classifying Country Code',
             ],
         ],
     ];

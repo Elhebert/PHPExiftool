@@ -28,13 +28,14 @@ class TrashButtonFunction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Trash Button Function',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75297
+             * line : 55442
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TrashButtonFunction extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:TrashButtonFunction',
             'desc' => [
+                'en' => 'Trash Button Function',
             ],
         ],
     ];

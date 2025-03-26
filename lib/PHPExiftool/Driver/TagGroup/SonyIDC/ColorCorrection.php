@@ -28,13 +28,14 @@ class ColorCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394170
+             * line : 279255
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorCorrection extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:ColorCorrection',
             'desc' => [
+                'en' => 'Color Correction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TrailingLines extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trailing Lines',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167828
+             * line : 114386
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrailingLines extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TrailingLines',
             'desc' => [
+                'en' => 'Trailing Lines',
             ],
         ],
     ];

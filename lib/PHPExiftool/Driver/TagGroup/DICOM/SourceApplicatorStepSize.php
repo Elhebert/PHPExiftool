@@ -28,13 +28,14 @@ class SourceApplicatorStepSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Applicator Step Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103675
+             * line : 76764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceApplicatorStepSize extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceApplicatorStepSize',
             'desc' => [
+                'en' => 'Source Applicator Step Size',
             ],
         ],
     ];

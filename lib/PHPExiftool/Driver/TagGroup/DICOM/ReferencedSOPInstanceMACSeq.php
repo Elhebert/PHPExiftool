@@ -28,13 +28,14 @@ class ReferencedSOPInstanceMACSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced SOP Instance MAC Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101926
+             * line : 75066
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedSOPInstanceMACSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedSOPInstanceMACSeq',
             'desc' => [
+                'en' => 'Referenced SOP Instance MAC Seq',
             ],
         ],
     ];

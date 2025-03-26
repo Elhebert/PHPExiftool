@@ -28,13 +28,14 @@ class SonyExposureTime2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Exposure Time 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9405b
-             * line : 387587
+             * line : 273692
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SonyExposureTime2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9405b.Sony:SonyExposureTime2',
             'desc' => [
+                'en' => 'Sony Exposure Time 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 391040
+             * line : 276775
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SonyExposureTime2 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:SonyExposureTime2',
             'desc' => [
+                'en' => 'Sony Exposure Time 2',
             ],
         ],
     ];

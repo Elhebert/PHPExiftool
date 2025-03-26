@@ -28,13 +28,14 @@ class Initials extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176626
+             * line : 121500
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Initials extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Initials',
             'desc' => [
+                'en' => 'Initials',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AppName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'App Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::sdc
-             * line : 210110
+             * line : 141494
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AppName extends AbstractTagGroup
              */
             'id' => 'Nikon::sdc.XMP-sdc:AppName',
             'desc' => [
+                'en' => 'App Name',
             ],
         ],
     ];

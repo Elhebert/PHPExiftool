@@ -28,13 +28,14 @@ class RepeatingFlashRate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Repeating Flash Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192570
+             * line : 130447
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RepeatingFlashRate extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:RepeatingFlashRate',
             'desc' => [
+                'en' => 'Repeating Flash Rate',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 193074
+             * line : 130779
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class RepeatingFlashRate extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:RepeatingFlashRate',
             'desc' => [
+                'en' => 'Repeating Flash Rate',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193646
+             * line : 131146
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class RepeatingFlashRate extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:RepeatingFlashRate',
             'desc' => [
+                'en' => 'Repeating Flash Rate',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194250
+             * line : 131548
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class RepeatingFlashRate extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:RepeatingFlashRate',
             'desc' => [
+                'en' => 'Repeating Flash Rate',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::FlashInfo0107
-             * line : 194797
+             * line : 131929
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class RepeatingFlashRate extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0107.Nikon:RepeatingFlashRate',
             'desc' => [
+                'en' => 'Repeating Flash Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FaithfulOutputShadowPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faithful Output Shadow Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82933
+             * line : 60767
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaithfulOutputShadowPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:FaithfulOutputShadowPoint',
             'desc' => [
+                'en' => 'Faithful Output Shadow Point',
             ],
         ],
     ];

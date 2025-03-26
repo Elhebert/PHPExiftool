@@ -28,13 +28,14 @@ class ROIArea extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104381
+             * line : 77454
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIArea extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIArea',
             'desc' => [
+                'en' => 'ROI Area',
             ],
         ],
     ];

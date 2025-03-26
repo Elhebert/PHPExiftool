@@ -28,13 +28,14 @@ class VerificationDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Verification Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100056
+             * line : 73257
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerificationDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VerificationDateTime',
             'desc' => [
+                'en' => 'Verification Date Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ChromaNoiseHighFThresh extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chroma Noise High F Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156639
+             * line : 107843
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class ChromaNoiseHighFThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ChromaNoiseHighFThresh',
             'desc' => [
+                'en' => 'Chroma Noise High F Thresh',
             ],
         ],
     ];

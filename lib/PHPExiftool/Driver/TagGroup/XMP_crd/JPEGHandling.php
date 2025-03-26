@@ -28,13 +28,14 @@ class JPEGHandling extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'JPEG Handling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399486
+             * line : 282993
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JPEGHandling extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:JPEGHandling',
             'desc' => [
+                'en' => 'JPEG Handling',
             ],
         ],
     ];

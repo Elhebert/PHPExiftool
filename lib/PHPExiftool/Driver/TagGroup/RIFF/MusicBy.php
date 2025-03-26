@@ -28,13 +28,14 @@ class MusicBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Music By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328324
+             * line : 231583
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MusicBy extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:MusicBy',
             'desc' => [
+                'en' => 'Music By',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ToneCurveMatching extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tone Curve Matching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65937
+             * line : 50074
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ToneCurveMatching extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:ToneCurveMatching',
             'desc' => [
+                'en' => 'Tone Curve Matching',
             ],
         ],
     ];

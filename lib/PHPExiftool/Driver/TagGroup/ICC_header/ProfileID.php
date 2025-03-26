@@ -28,13 +28,14 @@ class ProfileID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 145950
+             * line : 101462
              * type : int8u
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class ProfileID extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:ProfileID',
             'desc' => [
+                'en' => 'Profile ID',
             ],
         ],
     ];

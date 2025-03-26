@@ -28,13 +28,14 @@ class CalculatedAnatomyThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calculated Anatomy Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97173
+             * line : 70570
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalculatedAnatomyThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CalculatedAnatomyThickness',
             'desc' => [
+                'en' => 'Calculated Anatomy Thickness',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CalibrationLog extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calibration Log',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155602
+             * line : 106814
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalibrationLog extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CalibrationLog',
             'desc' => [
+                'en' => 'Calibration Log',
             ],
         ],
     ];

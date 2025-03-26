@@ -28,13 +28,14 @@ class SpecialTypeID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Special Type ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396899
+             * line : 281093
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpecialTypeID extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:SpecialTypeID',
             'desc' => [
+                'en' => 'Special Type ID',
             ],
         ],
     ];

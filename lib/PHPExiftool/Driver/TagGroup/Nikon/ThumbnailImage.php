@@ -28,13 +28,14 @@ class ThumbnailImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVI
-             * line : 191103
+             * line : 129878
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Nikon::AVI.Nikon:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCDT
-             * line : 202078
+             * line : 136895
              * type : undef
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ThumbnailImage extends AbstractTagGroup
              */
             'id' => 'Nikon::NCDT.Nikon:ThumbnailImage',
             'desc' => [
+                'en' => 'Thumbnail Image',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFFocusTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Focus Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306236
+             * line : 212741
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFFocusTime extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFFocusTime',
             'desc' => [
+                'en' => 'AF Focus Time',
             ],
         ],
     ];

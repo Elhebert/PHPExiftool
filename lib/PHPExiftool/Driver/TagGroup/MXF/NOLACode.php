@@ -28,13 +28,14 @@ class NOLACode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'NOLA Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168630
+             * line : 115118
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NOLACode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:NOLACode',
             'desc' => [
+                'en' => 'NOLA Code',
             ],
         ],
     ];

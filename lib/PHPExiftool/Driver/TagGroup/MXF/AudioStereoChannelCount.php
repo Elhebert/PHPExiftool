@@ -28,13 +28,14 @@ class AudioStereoChannelCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Stereo Channel Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167981
+             * line : 114503
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioStereoChannelCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AudioStereoChannelCount',
             'desc' => [
+                'en' => 'Audio Stereo Channel Count',
             ],
         ],
     ];

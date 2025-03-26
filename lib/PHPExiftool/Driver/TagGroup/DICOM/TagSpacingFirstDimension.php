@@ -28,13 +28,14 @@ class TagSpacingFirstDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag Spacing First Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96584
+             * line : 69988
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagSpacingFirstDimension extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TagSpacingFirstDimension',
             'desc' => [
+                'en' => 'Tag Spacing First Dimension',
             ],
         ],
     ];

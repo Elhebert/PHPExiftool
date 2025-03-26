@@ -28,13 +28,14 @@ class PreviewImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::PreviewInfo
-             * line : 126599
+             * line : 87783
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImageWidth extends AbstractTagGroup
              */
             'id' => 'FlashPix::PreviewInfo.FlashPix:PreviewImageWidth',
             'desc' => [
+                'en' => 'Preview Image Width',
             ],
         ],
     ];

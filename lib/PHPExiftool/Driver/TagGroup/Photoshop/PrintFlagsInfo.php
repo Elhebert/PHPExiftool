@@ -28,13 +28,14 @@ class PrintFlagsInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Flags Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305706
+             * line : 212424
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintFlagsInfo extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:PrintFlagsInfo',
             'desc' => [
+                'en' => 'Print Flags Info',
             ],
         ],
     ];

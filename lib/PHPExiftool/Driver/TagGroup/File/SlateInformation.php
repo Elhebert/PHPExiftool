@@ -28,13 +28,14 @@ class SlateInformation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slate Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105903
+             * line : 78381
              * type : string
              * writable : false
              * count : 100
@@ -42,6 +43,7 @@ class SlateInformation extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:SlateInformation',
             'desc' => [
+                'en' => 'Slate Information',
             ],
         ],
     ];

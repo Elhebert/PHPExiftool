@@ -28,13 +28,14 @@ class WhitePoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412376
+             * line : 290837
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WhitePoint extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:WhitePoint',
             'desc' => [
+                'en' => 'White Point',
             ],
         ],
     ];

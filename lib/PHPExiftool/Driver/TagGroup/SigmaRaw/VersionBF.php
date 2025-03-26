@@ -28,13 +28,14 @@ class VersionBF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version BF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340799
+             * line : 238361
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VersionBF extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:VersionBF',
             'desc' => [
+                'en' => 'Version BF',
             ],
         ],
     ];

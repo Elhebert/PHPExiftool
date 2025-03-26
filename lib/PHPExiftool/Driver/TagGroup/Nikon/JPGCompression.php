@@ -28,13 +28,14 @@ class JPGCompression extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'JPG Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207136
+             * line : 139354
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JPGCompression extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:JPGCompression',
             'desc' => [
+                'en' => 'JPG Compression',
             ],
         ],
     ];

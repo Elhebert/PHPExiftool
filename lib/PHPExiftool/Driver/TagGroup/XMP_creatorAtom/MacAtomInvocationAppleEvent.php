@@ -28,13 +28,14 @@ class MacAtomInvocationAppleEvent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mac Atom Invocation Apple Event',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401477
+             * line : 284740
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MacAtomInvocationAppleEvent extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:MacAtomInvocationAppleEvent',
             'desc' => [
+                'en' => 'Mac Atom Invocation Apple Event',
             ],
         ],
     ];

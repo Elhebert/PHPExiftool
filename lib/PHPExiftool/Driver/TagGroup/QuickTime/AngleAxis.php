@@ -28,13 +28,14 @@ class AngleAxis extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angle Axis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm0
-             * line : 326312
+             * line : 230222
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class AngleAxis extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm0.QuickTime:AngleAxis',
             'desc' => [
+                'en' => 'Angle Axis',
             ],
         ],
     ];

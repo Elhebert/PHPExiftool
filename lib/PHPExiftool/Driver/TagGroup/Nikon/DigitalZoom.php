@@ -28,13 +28,14 @@ class DigitalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Digital Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191767
+             * line : 130020
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 197238
+             * line : 133117
              * type : rational64u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::Type2
-             * line : 209519
+             * line : 141292
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class DigitalZoom extends AbstractTagGroup
              */
             'id' => 'Nikon::Type2.Nikon:DigitalZoom',
             'desc' => [
+                'en' => 'Digital Zoom',
             ],
         ],
     ];

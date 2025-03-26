@@ -28,13 +28,14 @@ class HistoricalValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Historical Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167734
+             * line : 114311
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HistoricalValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HistoricalValue',
             'desc' => [
+                'en' => 'Historical Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CDDBDiscTracks extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CDDB Disc Tracks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93504
+             * line : 67811
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CDDBDiscTracks extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:CDDBDiscTracks',
             'desc' => [
+                'en' => 'CDDB Disc Tracks',
             ],
         ],
     ];

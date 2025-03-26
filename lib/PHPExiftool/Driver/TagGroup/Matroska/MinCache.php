@@ -28,13 +28,14 @@ class MinCache extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Min Cache',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173863
+             * line : 119761
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinCache extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:MinCache',
             'desc' => [
+                'en' => 'Min Cache',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencedRawDataSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Raw Data Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95102
+             * line : 68584
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedRawDataSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedRawDataSequence',
             'desc' => [
+                'en' => 'Referenced Raw Data Sequence',
             ],
         ],
     ];

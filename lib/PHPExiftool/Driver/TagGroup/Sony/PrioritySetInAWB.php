@@ -28,13 +28,14 @@ class PrioritySetInAWB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Priority Set In AWB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355752
+             * line : 248201
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PrioritySetInAWB extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:PrioritySetInAWB',
             'desc' => [
+                'en' => 'Priority Set In AWB',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PageLayout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Layout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Root
-             * line : 264334
+             * line : 182707
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageLayout extends AbstractTagGroup
              */
             'id' => 'PDF::Root.PDF:PageLayout',
             'desc' => [
+                'en' => 'Page Layout',
             ],
         ],
     ];

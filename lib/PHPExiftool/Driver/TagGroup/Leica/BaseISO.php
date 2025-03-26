@@ -28,13 +28,14 @@ class BaseISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Base ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279413
+             * line : 194023
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaseISO extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:BaseISO',
             'desc' => [
+                'en' => 'Base ISO',
             ],
         ],
     ];

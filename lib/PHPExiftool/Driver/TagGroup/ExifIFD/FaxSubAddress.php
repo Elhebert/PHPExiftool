@@ -28,13 +28,14 @@ class FaxSubAddress extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fax Sub Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113971
+             * line : 82648
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FaxSubAddress extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FaxSubAddress',
             'desc' => [
+                'en' => 'Fax Sub Address',
             ],
         ],
     ];

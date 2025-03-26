@@ -28,13 +28,14 @@ class FocalPointX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Point X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GFocus
-             * line : 397058
+             * line : 281175
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalPointX extends AbstractTagGroup
              */
             'id' => 'XMP::GFocus.XMP-GFocus:FocalPointX',
             'desc' => [
+                'en' => 'Focal Point X',
             ],
         ],
     ];

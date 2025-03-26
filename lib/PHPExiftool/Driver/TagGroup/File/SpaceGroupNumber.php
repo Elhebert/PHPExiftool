@@ -28,13 +28,14 @@ class SpaceGroupNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Space Group Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166957
+             * line : 113646
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpaceGroupNumber extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:SpaceGroupNumber',
             'desc' => [
+                'en' => 'Space Group Number',
             ],
         ],
     ];

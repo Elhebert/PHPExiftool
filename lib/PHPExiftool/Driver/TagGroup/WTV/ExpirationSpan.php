@@ -28,13 +28,14 @@ class ExpirationSpan extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expiration Span',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396328
+             * line : 280585
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExpirationSpan extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ExpirationSpan',
             'desc' => [
+                'en' => 'Expiration Span',
             ],
         ],
     ];

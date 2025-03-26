@@ -28,13 +28,14 @@ class ScannerTableEntry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scanner Table Entry',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100505
+             * line : 73677
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScannerTableEntry extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScannerTableEntry',
             'desc' => [
+                'en' => 'Scanner Table Entry',
             ],
         ],
     ];

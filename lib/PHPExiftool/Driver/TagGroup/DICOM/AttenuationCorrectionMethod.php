@@ -28,13 +28,14 @@ class AttenuationCorrectionMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attenuation Correction Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100977
+             * line : 74127
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttenuationCorrectionMethod extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AttenuationCorrectionMethod',
             'desc' => [
+                'en' => 'Attenuation Correction Method',
             ],
         ],
     ];

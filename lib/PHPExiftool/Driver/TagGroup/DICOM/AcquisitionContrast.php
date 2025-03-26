@@ -28,13 +28,14 @@ class AcquisitionContrast extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95126
+             * line : 68608
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionContrast extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionContrast',
             'desc' => [
+                'en' => 'Acquisition Contrast',
             ],
         ],
     ];

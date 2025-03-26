@@ -28,13 +28,14 @@ class GraphicObjectSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Object Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101253
+             * line : 74403
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicObjectSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicObjectSequence',
             'desc' => [
+                'en' => 'Graphic Object Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168803
+             * line : 115277
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaLocation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MediaLocation',
             'desc' => [
+                'en' => 'Media Location',
             ],
         ],
     ];

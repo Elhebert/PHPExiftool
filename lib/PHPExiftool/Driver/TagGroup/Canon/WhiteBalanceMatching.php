@@ -28,13 +28,14 @@ class WhiteBalanceMatching extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Balance Matching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65942
+             * line : 50077
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteBalanceMatching extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:WhiteBalanceMatching',
             'desc' => [
+                'en' => 'White Balance Matching',
             ],
         ],
     ];

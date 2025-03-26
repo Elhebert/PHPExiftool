@@ -28,13 +28,14 @@ class FilmCategory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126451
+             * line : 87671
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmCategory extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FilmCategory',
             'desc' => [
+                'en' => 'Film Category',
             ],
         ],
     ];

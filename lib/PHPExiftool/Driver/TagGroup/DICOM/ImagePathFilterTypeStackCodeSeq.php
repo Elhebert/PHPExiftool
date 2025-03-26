@@ -28,13 +28,14 @@ class ImagePathFilterTypeStackCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Path Filter Type Stack Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98364
+             * line : 71698
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePathFilterTypeStackCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagePathFilterTypeStackCodeSeq',
             'desc' => [
+                'en' => 'Image Path Filter Type Stack Code Seq',
             ],
         ],
     ];

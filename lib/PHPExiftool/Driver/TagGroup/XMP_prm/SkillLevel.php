@@ -28,13 +28,14 @@ class SkillLevel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Skill Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411258
+             * line : 290448
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SkillLevel extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:SkillLevel',
             'desc' => [
+                'en' => 'Skill Level',
             ],
         ],
     ];

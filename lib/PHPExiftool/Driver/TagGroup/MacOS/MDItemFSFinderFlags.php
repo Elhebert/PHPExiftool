@@ -28,13 +28,14 @@ class MDItemFSFinderFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item FS Finder Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172718
+             * line : 118832
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemFSFinderFlags extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemFSFinderFlags',
             'desc' => [
+                'en' => 'MD Item FS Finder Flags',
             ],
         ],
     ];

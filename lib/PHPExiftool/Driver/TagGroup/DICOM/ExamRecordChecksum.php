@@ -28,13 +28,14 @@ class ExamRecordChecksum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exam Record Checksum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95183
+             * line : 68653
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExamRecordChecksum extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExamRecordChecksum',
             'desc' => [
+                'en' => 'Exam Record Checksum',
             ],
         ],
     ];

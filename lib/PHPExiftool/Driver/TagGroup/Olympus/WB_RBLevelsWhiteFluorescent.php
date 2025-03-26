@@ -28,13 +28,14 @@ class WB_RBLevelsWhiteFluorescent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels White Fluorescent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260909
+             * line : 180219
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevelsWhiteFluorescent extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:WB_RBLevelsWhiteFluorescent',
             'desc' => [
+                'en' => 'WB RB Levels White Fluorescent',
             ],
         ],
     ];

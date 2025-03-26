@@ -28,13 +28,14 @@ class RelativePeakAudioFilePath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Relative Peak Audio File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413281
+             * line : 291406
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelativePeakAudioFilePath extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:RelativePeakAudioFilePath',
             'desc' => [
+                'en' => 'Relative Peak Audio File Path',
             ],
         ],
     ];

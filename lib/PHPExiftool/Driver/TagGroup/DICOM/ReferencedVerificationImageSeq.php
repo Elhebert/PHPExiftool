@@ -28,13 +28,14 @@ class ReferencedVerificationImageSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Verification Image Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103984
+             * line : 77073
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedVerificationImageSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedVerificationImageSeq',
             'desc' => [
+                'en' => 'Referenced Verification Image Seq',
             ],
         ],
     ];

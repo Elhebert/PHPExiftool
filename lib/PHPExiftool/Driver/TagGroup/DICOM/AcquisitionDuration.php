@@ -28,13 +28,14 @@ class AcquisitionDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96683
+             * line : 70087
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class AcquisitionDuration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionDuration',
             'desc' => [
+                'en' => 'Acquisition Duration',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 97516
+             * line : 70903
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class AcquisitionDuration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionDuration',
             'desc' => [
+                'en' => 'Acquisition Duration',
             ],
         ],
     ];

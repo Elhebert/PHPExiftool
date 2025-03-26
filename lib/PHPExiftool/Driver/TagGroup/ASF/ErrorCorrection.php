@@ -28,13 +28,14 @@ class ErrorCorrection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Error Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Header
-             * line : 1805
+             * line : 909
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ErrorCorrection extends AbstractTagGroup
              */
             'id' => 'ASF::Header.ASF:ErrorCorrection',
             'desc' => [
+                'en' => 'Error Correction',
             ],
         ],
     ];

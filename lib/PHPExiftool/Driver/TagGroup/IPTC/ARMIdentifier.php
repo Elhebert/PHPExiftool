@@ -28,13 +28,14 @@ class ARMIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ARM Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151317
+             * line : 104376
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ARMIdentifier extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:ARMIdentifier',
             'desc' => [
+                'en' => 'ARM Identifier',
             ],
         ],
     ];

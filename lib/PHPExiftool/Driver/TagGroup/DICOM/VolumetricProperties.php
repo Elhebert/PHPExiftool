@@ -28,13 +28,14 @@ class VolumetricProperties extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volumetric Properties',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95117
+             * line : 68599
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumetricProperties extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VolumetricProperties',
             'desc' => [
+                'en' => 'Volumetric Properties',
             ],
         ],
     ];

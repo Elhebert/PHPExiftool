@@ -28,13 +28,14 @@ class WMShadowFileSourceDRMType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Shadow File Source DRM Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175258
+             * line : 120690
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMShadowFileSourceDRMType extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:WMShadowFileSourceDRMType',
             'desc' => [
+                'en' => 'WM Shadow File Source DRM Type',
             ],
         ],
     ];

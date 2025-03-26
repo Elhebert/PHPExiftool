@@ -28,13 +28,14 @@ class FlashExposureCompSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp. Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347155
+             * line : 243190
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashExposureCompSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FlashExposureCompSet',
             'desc' => [
+                'en' => 'Flash Exposure Comp. Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348723
+             * line : 243897
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashExposureCompSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:FlashExposureCompSet',
             'desc' => [
+                'en' => 'Flash Exposure Comp. Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350621
+             * line : 244843
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashExposureCompSet extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FlashExposureCompSet',
             'desc' => [
+                'en' => 'Flash Exposure Comp. Setting',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360796
+             * line : 251434
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FlashExposureCompSet extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashExposureCompSet',
             'desc' => [
+                'en' => 'Flash Exposure Comp. Setting',
             ],
         ],
     ];

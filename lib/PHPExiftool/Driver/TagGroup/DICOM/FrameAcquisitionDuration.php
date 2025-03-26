@@ -28,13 +28,14 @@ class FrameAcquisitionDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Acquisition Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96904
+             * line : 70306
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameAcquisitionDuration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FrameAcquisitionDuration',
             'desc' => [
+                'en' => 'Frame Acquisition Duration',
             ],
         ],
     ];

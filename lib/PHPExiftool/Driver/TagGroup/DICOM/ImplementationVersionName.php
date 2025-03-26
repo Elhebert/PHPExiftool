@@ -28,13 +28,14 @@ class ImplementationVersionName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Implementation Version Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94576
+             * line : 68077
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImplementationVersionName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImplementationVersionName',
             'desc' => [
+                'en' => 'Implementation Version Name',
             ],
         ],
     ];

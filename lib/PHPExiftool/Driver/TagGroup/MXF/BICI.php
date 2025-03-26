@@ -28,13 +28,14 @@ class BICI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'BICI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167296
+             * line : 113928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BICI extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BICI',
             'desc' => [
+                'en' => 'BICI',
             ],
         ],
     ];

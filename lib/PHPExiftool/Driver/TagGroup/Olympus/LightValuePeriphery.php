@@ -28,13 +28,14 @@ class LightValuePeriphery extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Value Periphery',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259201
+             * line : 178831
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightValuePeriphery extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:LightValuePeriphery',
             'desc' => [
+                'en' => 'Light Value Periphery',
             ],
         ],
     ];

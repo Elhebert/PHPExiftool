@@ -28,13 +28,14 @@ class IPTC_NAA extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC-NAA',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113146
+             * line : 82341
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class IPTC_NAA extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:IPTC-NAA',
             'desc' => [
+                'en' => 'IPTC-NAA',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280782
+             * line : 194713
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class IPTC_NAA extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:IPTC-NAA',
             'desc' => [
+                'en' => 'IPTC-NAA',
             ],
         ],
     ];

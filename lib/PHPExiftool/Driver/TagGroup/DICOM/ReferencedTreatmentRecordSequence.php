@@ -28,13 +28,14 @@ class ReferencedTreatmentRecordSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Treatment Record Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102699
+             * line : 75795
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedTreatmentRecordSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedTreatmentRecordSequence',
             'desc' => [
+                'en' => 'Referenced Treatment Record Sequence',
             ],
         ],
     ];

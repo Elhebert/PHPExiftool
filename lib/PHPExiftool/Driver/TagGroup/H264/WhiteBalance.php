@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : H264::Camera1
-             * line : 140224
+             * line : 97961
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'H264::Camera1.H264:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141137
+             * line : 98166
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.H264:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SteadyStatePulseSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Steady State Pulse Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96548
+             * line : 69952
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SteadyStatePulseSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SteadyStatePulseSequence',
             'desc' => [
+                'en' => 'Steady State Pulse Sequence',
             ],
         ],
     ];

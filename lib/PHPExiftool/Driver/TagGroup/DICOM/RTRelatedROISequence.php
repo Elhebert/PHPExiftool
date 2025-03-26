@@ -28,13 +28,14 @@ class RTRelatedROISequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Related ROI Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102564
+             * line : 75660
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTRelatedROISequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTRelatedROISequence',
             'desc' => [
+                'en' => 'RT Related ROI Sequence',
             ],
         ],
     ];

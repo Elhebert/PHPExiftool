@@ -28,13 +28,14 @@ class ApprovalStatusDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Approval Status Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100517
+             * line : 73689
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApprovalStatusDateTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApprovalStatusDateTime',
             'desc' => [
+                'en' => 'Approval Status Date Time',
             ],
         ],
     ];

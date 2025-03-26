@@ -28,13 +28,14 @@ class RevisitAfter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revisit After',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142480
+             * line : 98517
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RevisitAfter extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:RevisitAfter',
             'desc' => [
+                'en' => 'Revisit After',
             ],
         ],
     ];

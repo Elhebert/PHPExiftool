@@ -28,13 +28,14 @@ class FieldOfViewShape extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View Shape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95834
+             * line : 69280
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfViewShape extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FieldOfViewShape',
             'desc' => [
+                'en' => 'Field Of View Shape',
             ],
         ],
     ];

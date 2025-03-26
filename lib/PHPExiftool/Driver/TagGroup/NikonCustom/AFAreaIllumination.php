@@ -28,13 +28,14 @@ class AFAreaIllumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228929
+             * line : 153968
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAreaIllumination extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:AFAreaIllumination',
             'desc' => [
+                'en' => 'AF Area Illumination',
             ],
         ],
     ];

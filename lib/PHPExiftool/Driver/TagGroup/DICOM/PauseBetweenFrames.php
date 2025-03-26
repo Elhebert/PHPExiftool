@@ -28,13 +28,14 @@ class PauseBetweenFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pause Between Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100847
+             * line : 74007
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PauseBetweenFrames extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PauseBetweenFrames',
             'desc' => [
+                'en' => 'Pause Between Frames',
             ],
         ],
     ];

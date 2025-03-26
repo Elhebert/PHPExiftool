@@ -28,13 +28,14 @@ class PF6PresetShootingModes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF6 Preset Shooting Modes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78371
+             * line : 57072
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF6PresetShootingModes extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF6PresetShootingModes',
             'desc' => [
+                'en' => 'PF6 Preset Shooting Modes',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GroupMutualExclusion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Group Mutual Exclusion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1855
+             * line : 949
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GroupMutualExclusion extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:GroupMutualExclusion',
             'desc' => [
+                'en' => 'Group Mutual Exclusion',
             ],
         ],
     ];

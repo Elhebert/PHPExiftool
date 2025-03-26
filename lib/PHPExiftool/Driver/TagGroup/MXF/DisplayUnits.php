@@ -28,13 +28,14 @@ class DisplayUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169406
+             * line : 115812
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class DisplayUnits extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DisplayUnits',
             'desc' => [
+                'en' => 'Display Units',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169410
+             * line : 115815
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class DisplayUnits extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DisplayUnits',
             'desc' => [
+                'en' => 'Display Units',
             ],
         ],
     ];

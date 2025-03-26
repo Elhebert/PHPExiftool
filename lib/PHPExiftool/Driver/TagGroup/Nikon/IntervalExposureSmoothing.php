@@ -28,13 +28,14 @@ class IntervalExposureSmoothing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Interval Exposure Smoothing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199736
+             * line : 134740
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class IntervalExposureSmoothing extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:IntervalExposureSmoothing',
             'desc' => [
+                'en' => 'Interval Exposure Smoothing',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207953
+             * line : 140087
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class IntervalExposureSmoothing extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:IntervalExposureSmoothing',
             'desc' => [
+                'en' => 'Interval Exposure Smoothing',
             ],
         ],
     ];

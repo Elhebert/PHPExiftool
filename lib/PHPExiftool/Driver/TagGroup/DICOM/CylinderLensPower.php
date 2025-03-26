@@ -28,13 +28,14 @@ class CylinderLensPower extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cylinder Lens Power',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98318
+             * line : 71653
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CylinderLensPower extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CylinderLensPower',
             'desc' => [
+                'en' => 'Cylinder Lens Power',
             ],
         ],
     ];

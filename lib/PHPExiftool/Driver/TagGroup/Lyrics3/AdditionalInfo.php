@@ -28,13 +28,14 @@ class AdditionalInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Additional Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::Lyrics3
-             * line : 147119
+             * line : 102153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdditionalInfo extends AbstractTagGroup
              */
             'id' => 'ID3::Lyrics3.Lyrics3:AdditionalInfo',
             'desc' => [
+                'en' => 'Additional Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::XMP
-             * line : 174349
+             * line : 120082
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashModel extends AbstractTagGroup
              */
             'id' => 'Microsoft::XMP.XMP-microsoft:FlashModel',
             'desc' => [
+                'en' => 'Flash Model',
             ],
         ],
     ];

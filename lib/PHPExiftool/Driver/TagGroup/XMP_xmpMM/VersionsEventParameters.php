@@ -28,13 +28,14 @@ class VersionsEventParameters extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Versions Event Parameters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414322
+             * line : 292327
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VersionsEventParameters extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:VersionsEventParameters',
             'desc' => [
+                'en' => 'Versions Event Parameters',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MToB3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'M To B3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146057
+             * line : 101535
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MToB3 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:MToB3',
             'desc' => [
+                'en' => 'M To B3',
             ],
         ],
     ];

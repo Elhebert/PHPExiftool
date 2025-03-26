@@ -28,13 +28,14 @@ class MydriaticAgentCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mydriatic Agent Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98376
+             * line : 71710
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MydriaticAgentCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MydriaticAgentCodeSequence',
             'desc' => [
+                'en' => 'Mydriatic Agent Code Sequence',
             ],
         ],
     ];

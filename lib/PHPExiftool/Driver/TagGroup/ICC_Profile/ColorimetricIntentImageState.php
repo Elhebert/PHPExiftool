@@ -28,13 +28,14 @@ class ColorimetricIntentImageState extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colorimetric Intent Image State',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146235
+             * line : 101673
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorimetricIntentImageState extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ColorimetricIntentImageState',
             'desc' => [
+                'en' => 'Colorimetric Intent Image State',
             ],
         ],
     ];

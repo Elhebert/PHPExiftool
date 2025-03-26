@@ -28,13 +28,14 @@ class WhitePoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300689
+             * line : 209625
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WhitePoint extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WhitePoint',
             'desc' => [
+                'en' => 'White Point',
             ],
         ],
     ];

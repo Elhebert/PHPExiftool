@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 297907
+             * line : 207848
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302853
+             * line : 210623
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

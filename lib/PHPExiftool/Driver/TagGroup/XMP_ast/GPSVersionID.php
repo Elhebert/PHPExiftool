@@ -28,13 +28,14 @@ class GPSVersionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Version ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ast
-             * line : 210024
+             * line : 141459
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSVersionID extends AbstractTagGroup
              */
             'id' => 'Nikon::ast.XMP-ast:GPSVersionID',
             'desc' => [
+                'en' => 'GPS Version ID',
             ],
         ],
     ];

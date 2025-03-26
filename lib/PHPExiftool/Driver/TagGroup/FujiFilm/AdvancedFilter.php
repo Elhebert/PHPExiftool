@@ -28,13 +28,14 @@ class AdvancedFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Advanced Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130378
+             * line : 90086
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AdvancedFilter extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:AdvancedFilter',
             'desc' => [
+                'en' => 'Advanced Filter',
             ],
         ],
     ];

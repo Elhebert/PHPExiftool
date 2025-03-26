@@ -28,13 +28,14 @@ class TimeCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackRef
-             * line : 325134
+             * line : 229556
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeCode extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackRef.Track#:TimeCode',
             'desc' => [
+                'en' => 'Time Code',
             ],
         ],
     ];

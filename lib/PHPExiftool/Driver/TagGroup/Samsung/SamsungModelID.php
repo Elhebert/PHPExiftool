@@ -28,13 +28,14 @@ class SamsungModelID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Samsung Model ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335051
+             * line : 235099
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SamsungModelID extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:SamsungModelID',
             'desc' => [
+                'en' => 'Samsung Model ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RFLensMFFocusRingSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'RF Lens MF Focus Ring Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75341
+             * line : 55486
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RFLensMFFocusRingSensitivity extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:RFLensMFFocusRingSensitivity',
             'desc' => [
+                'en' => 'RF Lens MF Focus Ring Sensitivity',
             ],
         ],
     ];

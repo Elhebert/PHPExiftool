@@ -28,13 +28,14 @@ class PanoramaMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Panorama Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252840
+             * line : 174288
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PanoramaMode extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:PanoramaMode',
             'desc' => [
+                'en' => 'Panorama Mode',
             ],
         ],
     ];

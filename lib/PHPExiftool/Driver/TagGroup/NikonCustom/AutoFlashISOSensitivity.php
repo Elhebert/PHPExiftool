@@ -28,13 +28,14 @@ class AutoFlashISOSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto Flash ISO Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218566
+             * line : 146932
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AutoFlashISOSensitivity extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:AutoFlashISOSensitivity',
             'desc' => [
+                'en' => 'Auto Flash ISO Sensitivity',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221016
+             * line : 148963
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AutoFlashISOSensitivity extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:AutoFlashISOSensitivity',
             'desc' => [
+                'en' => 'Auto Flash ISO Sensitivity',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232915
+             * line : 156781
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AutoFlashISOSensitivity extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:AutoFlashISOSensitivity',
             'desc' => [
+                'en' => 'Auto Flash ISO Sensitivity',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235916
+             * line : 159089
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AutoFlashISOSensitivity extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:AutoFlashISOSensitivity',
             'desc' => [
+                'en' => 'Auto Flash ISO Sensitivity',
             ],
         ],
     ];

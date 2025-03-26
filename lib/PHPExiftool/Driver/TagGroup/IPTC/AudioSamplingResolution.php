@@ -28,13 +28,14 @@ class AudioSamplingResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Sampling Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150691
+             * line : 104066
              * type : digits
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class AudioSamplingResolution extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:AudioSamplingResolution',
             'desc' => [
+                'en' => 'Audio Sampling Resolution',
             ],
         ],
     ];

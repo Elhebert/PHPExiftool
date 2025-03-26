@@ -28,13 +28,14 @@ class ExternalFlashFlags extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192425
+             * line : 130378
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExternalFlashFlags extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:ExternalFlashFlags',
             'desc' => [
+                'en' => 'External Flash Flags',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 192932
+             * line : 130713
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExternalFlashFlags extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:ExternalFlashFlags',
             'desc' => [
+                'en' => 'External Flash Flags',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193504
+             * line : 131080
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ExternalFlashFlags extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:ExternalFlashFlags',
             'desc' => [
+                'en' => 'External Flash Flags',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194128
+             * line : 131488
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ExternalFlashFlags extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:ExternalFlashFlags',
             'desc' => [
+                'en' => 'External Flash Flags',
             ],
         ],
     ];

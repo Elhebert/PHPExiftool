@@ -28,13 +28,14 @@ class IdentificationReferences extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Identification References',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106329
+             * line : 78644
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IdentificationReferences extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:IdentificationReferences',
             'desc' => [
+                'en' => 'Identification References',
             ],
         ],
     ];

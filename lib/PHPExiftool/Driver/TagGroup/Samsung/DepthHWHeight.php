@@ -28,13 +28,14 @@ class DepthHWHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Depth HW Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334172
+             * line : 234252
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DepthHWHeight extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:DepthHWHeight',
             'desc' => [
+                'en' => 'Depth HW Height',
             ],
         ],
     ];

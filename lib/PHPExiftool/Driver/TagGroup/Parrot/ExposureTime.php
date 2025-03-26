@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282043
+             * line : 195928
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282322
+             * line : 196056
              * type : int16u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         2 => [
             /**
              * table_name : Parrot::V3
-             * line : 282526
+             * line : 196172
              * type : int16u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Parrot::V3.Parrot:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GenreID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genre ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1294
+             * line : 562
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenreID extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:GenreID',
             'desc' => [
+                'en' => 'Genre ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AttributionURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Attribution URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cc
-             * line : 398075
+             * line : 281715
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AttributionURL extends AbstractTagGroup
              */
             'id' => 'XMP::cc.XMP-cc:AttributionURL',
             'desc' => [
+                'en' => 'Attribution URL',
             ],
         ],
     ];

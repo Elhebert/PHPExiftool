@@ -28,13 +28,14 @@ class Shadow extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shadow',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337259
+             * line : 236060
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Shadow extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Shadow',
             'desc' => [
+                'en' => 'Shadow',
             ],
         ],
         1 => [
             /**
              * table_name : Sigma::Main
-             * line : 337267
+             * line : 236063
              * type : rational64s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Shadow extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:Shadow',
             'desc' => [
+                'en' => 'Shadow',
             ],
         ],
     ];

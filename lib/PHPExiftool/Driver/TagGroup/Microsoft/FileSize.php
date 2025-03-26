@@ -28,13 +28,14 @@ class FileSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174616
+             * line : 120230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSize extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FileSize',
             'desc' => [
+                'en' => 'File Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AEXv extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AE Xv',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AEInfo
-             * line : 282690
+             * line : 196273
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AEXv extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo.Pentax:AEXv',
             'desc' => [
+                'en' => 'AE Xv',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::AEInfo2
-             * line : 283048
+             * line : 196482
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AEXv extends AbstractTagGroup
              */
             'id' => 'Pentax::AEInfo2.Pentax:AEXv',
             'desc' => [
+                'en' => 'AE Xv',
             ],
         ],
     ];

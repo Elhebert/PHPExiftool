@@ -28,13 +28,14 @@ class Word97 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Word 97',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::WordDocument
-             * line : 127692
+             * line : 88669
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Word97 extends AbstractTagGroup
              */
             'id' => 'FlashPix::WordDocument.FlashPix:Word97',
             'desc' => [
+                'en' => 'Word 97',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MainTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Main Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167405
+             * line : 114024
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MainTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MainTitle',
             'desc' => [
+                'en' => 'Main Title',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169807
+             * line : 116160
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MainTitle extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MainTitle',
             'desc' => [
+                'en' => 'Main Title',
             ],
         ],
     ];

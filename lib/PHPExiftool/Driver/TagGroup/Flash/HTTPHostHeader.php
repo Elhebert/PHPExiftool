@@ -28,13 +28,14 @@ class HTTPHostHeader extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HTTP Host Header',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124133
+             * line : 86750
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HTTPHostHeader extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:HTTPHostHeader',
             'desc' => [
+                'en' => 'HTTP Host Header',
             ],
         ],
     ];

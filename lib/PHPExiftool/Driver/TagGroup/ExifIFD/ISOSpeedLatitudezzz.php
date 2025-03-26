@@ -28,13 +28,14 @@ class ISOSpeedLatitudezzz extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Speed Latitude zzz',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113953
+             * line : 82642
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOSpeedLatitudezzz extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ISOSpeedLatitudezzz',
             'desc' => [
+                'en' => 'ISO Speed Latitude zzz',
             ],
         ],
     ];

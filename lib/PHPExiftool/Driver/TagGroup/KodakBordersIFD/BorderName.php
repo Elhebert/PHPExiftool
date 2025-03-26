@@ -28,13 +28,14 @@ class BorderName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Border Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Borders
-             * line : 154317
+             * line : 105961
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BorderName extends AbstractTagGroup
              */
             'id' => 'Kodak::Borders.KodakBordersIFD:BorderName',
             'desc' => [
+                'en' => 'Border Name',
             ],
         ],
     ];

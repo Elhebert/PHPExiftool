@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::TextualData
-             * line : 273013
+             * line : 190575
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'PNG::TextualData.PNG:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

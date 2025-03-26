@@ -28,13 +28,14 @@ class AsShotProfileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'As Shot Profile Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120078
+             * line : 84420
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AsShotProfileName extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:AsShotProfileName',
             'desc' => [
+                'en' => 'As Shot Profile Name',
             ],
         ],
     ];

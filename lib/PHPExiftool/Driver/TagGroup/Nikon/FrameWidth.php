@@ -28,13 +28,14 @@ class FrameWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frame Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202233
+             * line : 136929
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FrameWidth extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:FrameWidth',
             'desc' => [
+                'en' => 'Frame Width',
             ],
         ],
     ];

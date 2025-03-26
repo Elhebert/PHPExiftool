@@ -28,13 +28,14 @@ class PreviewAtomType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Atom Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Preview
-             * line : 324235
+             * line : 229095
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class PreviewAtomType extends AbstractTagGroup
              */
             'id' => 'QuickTime::Preview.QuickTime:PreviewAtomType',
             'desc' => [
+                'en' => 'Preview Atom Type',
             ],
         ],
     ];

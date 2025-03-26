@@ -28,13 +28,14 @@ class SeriesDateTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Series Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396456
+             * line : 280681
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SeriesDateTime extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:SeriesDateTime',
             'desc' => [
+                'en' => 'Series Date Time',
             ],
         ],
     ];

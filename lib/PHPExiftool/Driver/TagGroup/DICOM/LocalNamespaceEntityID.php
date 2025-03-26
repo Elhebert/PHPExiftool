@@ -28,13 +28,14 @@ class LocalNamespaceEntityID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Local Namespace Entity ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99627
+             * line : 72834
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LocalNamespaceEntityID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LocalNamespaceEntityID',
             'desc' => [
+                'en' => 'Local Namespace Entity ID',
             ],
         ],
     ];

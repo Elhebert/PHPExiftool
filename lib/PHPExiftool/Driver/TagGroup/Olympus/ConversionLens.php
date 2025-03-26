@@ -28,13 +28,14 @@ class ConversionLens extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Conversion Lens',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254560
+             * line : 175786
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ConversionLens extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:ConversionLens',
             'desc' => [
+                'en' => 'Conversion Lens',
             ],
         ],
     ];

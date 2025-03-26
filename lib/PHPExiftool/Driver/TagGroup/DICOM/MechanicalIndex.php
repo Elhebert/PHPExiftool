@@ -28,13 +28,14 @@ class MechanicalIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mechanical Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96197
+             * line : 69613
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MechanicalIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MechanicalIndex',
             'desc' => [
+                'en' => 'Mechanical Index',
             ],
         ],
     ];

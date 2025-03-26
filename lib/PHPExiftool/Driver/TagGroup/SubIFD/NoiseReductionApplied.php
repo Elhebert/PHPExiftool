@@ -28,13 +28,14 @@ class NoiseReductionApplied extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction Applied',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120088
+             * line : 84423
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NoiseReductionApplied extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:NoiseReductionApplied',
             'desc' => [
+                'en' => 'Noise Reduction Applied',
             ],
         ],
     ];

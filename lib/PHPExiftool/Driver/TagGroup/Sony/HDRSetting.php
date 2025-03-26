@@ -28,13 +28,14 @@ class HDRSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HDR Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350809
+             * line : 244913
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360686
+             * line : 251351
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362297
+             * line : 252266
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363295
+             * line : 252928
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364318
+             * line : 253599
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365319
+             * line : 254264
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366303
+             * line : 254915
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369310
+             * line : 257545
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370340
+             * line : 258210
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373341
+             * line : 260834
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376342
+             * line : 263458
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class HDRSetting extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:HDRSetting',
             'desc' => [
+                'en' => 'HDR Setting',
             ],
         ],
     ];

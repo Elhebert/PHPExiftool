@@ -28,13 +28,14 @@ class CompressionType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compression Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Common
-             * line : 113
+             * line : 45
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class CompressionType extends AbstractTagGroup
              */
             'id' => 'AIFF::Common.AIFF:CompressionType',
             'desc' => [
+                'en' => 'Compression Type',
             ],
         ],
     ];

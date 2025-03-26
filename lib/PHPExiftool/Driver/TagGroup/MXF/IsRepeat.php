@@ -28,13 +28,14 @@ class IsRepeat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Repeat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168708
+             * line : 115184
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsRepeat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsRepeat',
             'desc' => [
+                'en' => 'Is Repeat',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HasSBA extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has SBA',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303824
+             * line : 211059
              * type : undef
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class HasSBA extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:HasSBA',
             'desc' => [
+                'en' => 'Has SBA',
             ],
         ],
     ];

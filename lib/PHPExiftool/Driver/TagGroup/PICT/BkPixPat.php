@@ -28,13 +28,14 @@ class BkPixPat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Pixel Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264668
+             * line : 182918
              * type : PixPat
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BkPixPat extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:BkPixPat',
             'desc' => [
+                'en' => 'Background Pixel Pattern',
             ],
         ],
     ];

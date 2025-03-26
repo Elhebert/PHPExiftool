@@ -28,13 +28,14 @@ class LogoURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Logo URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328291
+             * line : 231559
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LogoURL extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:LogoURL',
             'desc' => [
+                'en' => 'Logo URL',
             ],
         ],
     ];

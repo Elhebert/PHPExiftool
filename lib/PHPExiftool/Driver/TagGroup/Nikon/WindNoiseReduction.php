@@ -28,13 +28,14 @@ class WindNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Wind Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201662
+             * line : 136556
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WindNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:WindNoiseReduction',
             'desc' => [
+                'en' => 'Wind Noise Reduction',
             ],
         ],
     ];

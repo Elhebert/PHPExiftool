@@ -28,13 +28,14 @@ class PF18EnableAutoAFPointSel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF18 Enable Auto AF Point Sel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78401
+             * line : 57102
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF18EnableAutoAFPointSel extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF18EnableAutoAFPointSel',
             'desc' => [
+                'en' => 'PF18 Enable Auto AF Point Sel',
             ],
         ],
     ];

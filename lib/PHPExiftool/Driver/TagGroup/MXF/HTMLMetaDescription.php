@@ -28,13 +28,14 @@ class HTMLMetaDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HTML Meta Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172057
+             * line : 118231
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class HTMLMetaDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HTMLMetaDescription',
             'desc' => [
+                'en' => 'HTML Meta Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172060
+             * line : 118234
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class HTMLMetaDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HTMLMetaDescription',
             'desc' => [
+                'en' => 'HTML Meta Description',
             ],
         ],
     ];

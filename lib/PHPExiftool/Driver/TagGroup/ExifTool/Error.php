@@ -28,13 +28,14 @@ class Error extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Error',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121033
+             * line : 84973
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Error extends AbstractTagGroup
              */
             'id' => 'Extra.ExifTool:Error',
             'desc' => [
+                'en' => 'Error',
             ],
         ],
     ];

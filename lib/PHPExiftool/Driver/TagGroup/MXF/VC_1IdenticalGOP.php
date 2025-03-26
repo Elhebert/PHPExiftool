@@ -28,13 +28,14 @@ class VC_1IdenticalGOP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VC-1 Identical GOP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172388
+             * line : 118549
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VC_1IdenticalGOP extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VC-1IdenticalGOP',
             'desc' => [
+                'en' => 'VC-1 Identical GOP',
             ],
         ],
     ];

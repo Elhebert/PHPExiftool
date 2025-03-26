@@ -28,13 +28,14 @@ class ToningEffectLandscape extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect Landscape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67271
+             * line : 51033
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ToningEffectLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ToningEffectLandscape',
             'desc' => [
+                'en' => 'Toning Effect Landscape',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68369
+             * line : 51694
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ToningEffectLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ToningEffectLandscape',
             'desc' => [
+                'en' => 'Toning Effect Landscape',
             ],
         ],
     ];

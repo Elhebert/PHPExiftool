@@ -28,13 +28,14 @@ class ProfileSequenceDesc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile Sequence Desc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146529
+             * line : 101844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProfileSequenceDesc extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ProfileSequenceDesc',
             'desc' => [
+                'en' => 'Profile Sequence Desc',
             ],
         ],
     ];

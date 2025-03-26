@@ -28,13 +28,14 @@ class Department extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Department',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249069
+             * line : 171714
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Department extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Department',
             'desc' => [
+                'en' => 'Department',
             ],
         ],
     ];

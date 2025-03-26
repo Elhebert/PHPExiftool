@@ -28,13 +28,14 @@ class FirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154933
+             * line : 106220
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
         1 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156182
+             * line : 107393
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FirmwareVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FirmwareVersion',
             'desc' => [
+                'en' => 'Firmware Version',
             ],
         ],
     ];

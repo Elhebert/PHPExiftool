@@ -28,13 +28,14 @@ class BlockShotAFResponse extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Block Shot AF Response',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217342
+             * line : 146022
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class BlockShotAFResponse extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:BlockShotAFResponse',
             'desc' => [
+                'en' => 'Block Shot AF Response',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219766
+             * line : 148054
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class BlockShotAFResponse extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:BlockShotAFResponse',
             'desc' => [
+                'en' => 'Block Shot AF Response',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231634
+             * line : 155837
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class BlockShotAFResponse extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:BlockShotAFResponse',
             'desc' => [
+                'en' => 'Block Shot AF Response',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235174
+             * line : 158486
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class BlockShotAFResponse extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:BlockShotAFResponse',
             'desc' => [
+                'en' => 'Block Shot AF Response',
             ],
         ],
     ];

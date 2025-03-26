@@ -28,13 +28,14 @@ class SfsBoundary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sfs Boundary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155879
+             * line : 107090
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SfsBoundary extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SfsBoundary',
             'desc' => [
+                'en' => 'Sfs Boundary',
             ],
         ],
     ];

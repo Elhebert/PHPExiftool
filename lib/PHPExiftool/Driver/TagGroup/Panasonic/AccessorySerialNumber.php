@@ -28,13 +28,14 @@ class AccessorySerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Accessory Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277258
+             * line : 192879
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AccessorySerialNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:AccessorySerialNumber',
             'desc' => [
+                'en' => 'Accessory Serial Number',
             ],
         ],
     ];

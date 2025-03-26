@@ -28,13 +28,14 @@ class OtherLicenseRequirements extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Other License Requirements',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 272305
+             * line : 190241
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OtherLicenseRequirements extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:OtherLicenseRequirements',
             'desc' => [
+                'en' => 'Other License Requirements',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VideoQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::FileInfo
-             * line : 330353
+             * line : 232453
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoQuality extends AbstractTagGroup
              */
             'id' => 'Real::FileInfo.Real-MDPR:VideoQuality',
             'desc' => [
+                'en' => 'Video Quality',
             ],
         ],
     ];

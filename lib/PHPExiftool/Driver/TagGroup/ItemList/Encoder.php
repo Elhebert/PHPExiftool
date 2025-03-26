@@ -28,13 +28,14 @@ class Encoder extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Encoder',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323153
+             * line : 228498
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Encoder extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Encoder',
             'desc' => [
+                'en' => 'Encoder',
             ],
         ],
     ];

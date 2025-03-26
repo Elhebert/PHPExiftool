@@ -28,13 +28,14 @@ class RadiationMassNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radiation Mass Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103750
+             * line : 76839
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadiationMassNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadiationMassNumber',
             'desc' => [
+                'en' => 'Radiation Mass Number',
             ],
         ],
     ];

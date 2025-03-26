@@ -28,13 +28,14 @@ class SaturationMonochrome extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Monochrome',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67460
+             * line : 51153
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SaturationMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SaturationMonochrome',
             'desc' => [
+                'en' => 'Saturation Monochrome',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68558
+             * line : 51814
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SaturationMonochrome extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SaturationMonochrome',
             'desc' => [
+                'en' => 'Saturation Monochrome',
             ],
         ],
     ];

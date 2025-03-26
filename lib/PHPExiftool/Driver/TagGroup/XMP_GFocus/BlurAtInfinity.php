@@ -28,13 +28,14 @@ class BlurAtInfinity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blur At Infinity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GFocus
-             * line : 397051
+             * line : 281169
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlurAtInfinity extends AbstractTagGroup
              */
             'id' => 'XMP::GFocus.XMP-GFocus:BlurAtInfinity',
             'desc' => [
+                'en' => 'Blur At Infinity',
             ],
         ],
     ];

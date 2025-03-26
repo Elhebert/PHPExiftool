@@ -28,13 +28,14 @@ class CLModeShootingSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CL Mode Shooting Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212700
+             * line : 142832
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215134
+             * line : 144357
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217756
+             * line : 146252
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220224
+             * line : 148301
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225273
+             * line : 151805
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226848
+             * line : 152757
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 230213
+             * line : 154682
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232111
+             * line : 156107
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234429
+             * line : 158011
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235686
+             * line : 158897
              * type : int8u
              * writable : true
              * count :
@@ -159,6 +169,7 @@ class CLModeShootingSpeed extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:CLModeShootingSpeed',
             'desc' => [
+                'en' => 'CL Mode Shooting Speed',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InterpolationDefinitions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpolation Definitions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169563
+             * line : 115956
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpolationDefinitions extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:InterpolationDefinitions',
             'desc' => [
+                'en' => 'Interpolation Definitions',
             ],
         ],
     ];

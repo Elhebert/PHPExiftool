@@ -28,13 +28,14 @@ class EndFrame extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166727
+             * line : 113464
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EndFrame extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:EndFrame',
             'desc' => [
+                'en' => 'End Frame',
             ],
         ],
     ];

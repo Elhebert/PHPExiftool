@@ -28,13 +28,14 @@ class Macro extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Macro',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 332005
+             * line : 233228
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Macro extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.Ricoh:Macro',
             'desc' => [
+                'en' => 'Macro',
             ],
         ],
     ];

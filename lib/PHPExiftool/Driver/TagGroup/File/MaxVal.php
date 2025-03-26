@@ -28,13 +28,14 @@ class MaxVal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Val',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121465
+             * line : 85208
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxVal extends AbstractTagGroup
              */
             'id' => 'Extra.File:MaxVal',
             'desc' => [
+                'en' => 'Max Val',
             ],
         ],
     ];

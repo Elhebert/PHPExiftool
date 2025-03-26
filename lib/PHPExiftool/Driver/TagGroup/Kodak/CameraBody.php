@@ -28,13 +28,14 @@ class CameraBody extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Body',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159480
+             * line : 109417
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraBody extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:CameraBody',
             'desc' => [
+                'en' => 'Camera Body',
             ],
         ],
     ];

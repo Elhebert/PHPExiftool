@@ -28,13 +28,14 @@ class KeyFrameSampleCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Frame Sample Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170166
+             * line : 116457
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyFrameSampleCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeyFrameSampleCount',
             'desc' => [
+                'en' => 'Key Frame Sample Count',
             ],
         ],
     ];

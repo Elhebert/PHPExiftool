@@ -28,13 +28,14 @@ class MonochromeColor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252797
+             * line : 174262
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonochromeColor extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:MonochromeColor',
             'desc' => [
+                'en' => 'Monochrome Color',
             ],
         ],
     ];

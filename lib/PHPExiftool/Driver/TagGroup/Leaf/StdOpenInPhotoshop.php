@@ -28,13 +28,14 @@ class StdOpenInPhotoshop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Open In Photoshop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 161985
+             * line : 110687
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdOpenInPhotoshop extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdOpenInPhotoshop',
             'desc' => [
+                'en' => 'Std Open In Photoshop',
             ],
         ],
     ];

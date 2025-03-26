@@ -28,13 +28,14 @@ class ImageProcessingVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Processing Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255147
+             * line : 176104
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ImageProcessingVersion extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:ImageProcessingVersion',
             'desc' => [
+                'en' => 'Image Processing Version',
             ],
         ],
     ];

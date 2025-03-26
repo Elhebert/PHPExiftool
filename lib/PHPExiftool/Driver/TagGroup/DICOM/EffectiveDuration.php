@@ -28,13 +28,14 @@ class EffectiveDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Effective Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95504
+             * line : 68962
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EffectiveDuration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EffectiveDuration',
             'desc' => [
+                'en' => 'Effective Duration',
             ],
         ],
     ];

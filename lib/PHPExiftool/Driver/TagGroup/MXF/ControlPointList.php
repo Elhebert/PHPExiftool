@@ -28,13 +28,14 @@ class ControlPointList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Control Point List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169582
+             * line : 115974
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ControlPointList extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ControlPointList',
             'desc' => [
+                'en' => 'Control Point List',
             ],
         ],
     ];

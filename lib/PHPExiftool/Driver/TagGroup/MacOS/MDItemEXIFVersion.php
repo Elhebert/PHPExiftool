@@ -28,13 +28,14 @@ class MDItemEXIFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item EXIF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172678
+             * line : 118802
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemEXIFVersion extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemEXIFVersion',
             'desc' => [
+                'en' => 'MD Item EXIF Version',
             ],
         ],
     ];

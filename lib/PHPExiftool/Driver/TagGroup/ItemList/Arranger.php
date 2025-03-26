@@ -28,13 +28,14 @@ class Arranger extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Arranger',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322980
+             * line : 228426
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Arranger extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Arranger',
             'desc' => [
+                'en' => 'Arranger',
             ],
         ],
     ];

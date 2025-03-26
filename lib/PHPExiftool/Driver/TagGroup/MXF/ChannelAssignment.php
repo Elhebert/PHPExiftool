@@ -28,13 +28,14 @@ class ChannelAssignment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Assignment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171754
+             * line : 117943
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelAssignment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ChannelAssignment',
             'desc' => [
+                'en' => 'Channel Assignment',
             ],
         ],
     ];

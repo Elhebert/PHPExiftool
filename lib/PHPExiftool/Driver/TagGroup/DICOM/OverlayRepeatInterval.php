@@ -28,13 +28,14 @@ class OverlayRepeatInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Repeat Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104324
+             * line : 77397
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlayRepeatInterval extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlayRepeatInterval',
             'desc' => [
+                'en' => 'Overlay Repeat Interval',
             ],
         ],
     ];

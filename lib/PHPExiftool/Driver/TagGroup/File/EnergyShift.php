@@ -28,13 +28,14 @@ class EnergyShift extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Energy Shift',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166574
+             * line : 113313
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnergyShift extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:EnergyShift',
             'desc' => [
+                'en' => 'Energy Shift',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347378
+             * line : 243277
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349721
+             * line : 244323
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350302
+             * line : 244599
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360171
+             * line : 251059
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class ColorSpace extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ColorSpace',
             'desc' => [
+                'en' => 'Color Space',
             ],
         ],
     ];

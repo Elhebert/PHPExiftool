@@ -28,13 +28,14 @@ class RadionuclideTotalDose extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Radionuclide Total Dose',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95721
+             * line : 69169
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RadionuclideTotalDose extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RadionuclideTotalDose',
             'desc' => [
+                'en' => 'Radionuclide Total Dose',
             ],
         ],
     ];

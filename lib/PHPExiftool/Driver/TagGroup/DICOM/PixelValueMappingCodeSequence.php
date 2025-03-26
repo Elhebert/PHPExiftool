@@ -28,13 +28,14 @@ class PixelValueMappingCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Value Mapping Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100029
+             * line : 73230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelValueMappingCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelValueMappingCodeSequence',
             'desc' => [
+                'en' => 'Pixel Value Mapping Code Sequence',
             ],
         ],
     ];

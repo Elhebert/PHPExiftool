@@ -28,13 +28,14 @@ class BracketIncrement extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bracket Increment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247633
+             * line : 170326
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BracketIncrement extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BracketIncrement',
             'desc' => [
+                'en' => 'Bracket Increment',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247653
+             * line : 170346
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class BracketIncrement extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BracketIncrement',
             'desc' => [
+                'en' => 'Bracket Increment',
             ],
         ],
         2 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247656
+             * line : 170349
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class BracketIncrement extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:BracketIncrement',
             'desc' => [
+                'en' => 'Bracket Increment',
             ],
         ],
     ];

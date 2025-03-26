@@ -28,13 +28,14 @@ class CameraProfileVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Profile Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CameraProfile
-             * line : 161600
+             * line : 110396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraProfileVersion extends AbstractTagGroup
              */
             'id' => 'Leaf::CameraProfile.Leaf:CameraProfileVersion',
             'desc' => [
+                'en' => 'Camera Profile Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DeviceType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Device Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335031
+             * line : 235079
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DeviceType extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:DeviceType',
             'desc' => [
+                'en' => 'Device Type',
             ],
         ],
     ];

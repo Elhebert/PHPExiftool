@@ -28,13 +28,14 @@ class ContentSignature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173580
+             * line : 119508
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentSignature extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ContentSignature',
             'desc' => [
+                'en' => 'Content Signature',
             ],
         ],
     ];

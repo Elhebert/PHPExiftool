@@ -28,13 +28,14 @@ class EncodingTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoding Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1264
+             * line : 553
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncodingTime extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:EncodingTime',
             'desc' => [
+                'en' => 'Encoding Time',
             ],
         ],
     ];

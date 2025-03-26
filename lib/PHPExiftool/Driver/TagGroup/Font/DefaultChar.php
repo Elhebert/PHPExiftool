@@ -28,13 +28,14 @@ class DefaultChar extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Char',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128095
+             * line : 88888
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultChar extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:DefaultChar',
             'desc' => [
+                'en' => 'Default Char',
             ],
         ],
     ];

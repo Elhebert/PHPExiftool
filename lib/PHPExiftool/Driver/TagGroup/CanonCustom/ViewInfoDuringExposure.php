@@ -28,13 +28,14 @@ class ViewInfoDuringExposure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'View Info During Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73407
+             * line : 54309
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ViewInfoDuringExposure extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ViewInfoDuringExposure',
             'desc' => [
+                'en' => 'View Info During Exposure',
             ],
         ],
     ];

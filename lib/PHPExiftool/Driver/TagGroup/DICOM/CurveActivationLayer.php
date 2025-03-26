@@ -28,13 +28,14 @@ class CurveActivationLayer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Curve Activation Layer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104191
+             * line : 77277
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurveActivationLayer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurveActivationLayer',
             'desc' => [
+                'en' => 'Curve Activation Layer',
             ],
         ],
     ];

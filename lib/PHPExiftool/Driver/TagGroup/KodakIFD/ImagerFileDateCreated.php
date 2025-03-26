@@ -28,13 +28,14 @@ class ImagerFileDateCreated extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Imager File Date Created',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155587
+             * line : 106799
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImagerFileDateCreated extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerFileDateCreated',
             'desc' => [
+                'en' => 'Imager File Date Created',
             ],
         ],
     ];

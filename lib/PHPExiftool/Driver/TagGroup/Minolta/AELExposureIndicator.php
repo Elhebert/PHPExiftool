@@ -28,13 +28,14 @@ class AELExposureIndicator extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AEL Exposure Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181891
+             * line : 123764
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AELExposureIndicator extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:AELExposureIndicator',
             'desc' => [
+                'en' => 'AEL Exposure Indicator',
             ],
         ],
     ];

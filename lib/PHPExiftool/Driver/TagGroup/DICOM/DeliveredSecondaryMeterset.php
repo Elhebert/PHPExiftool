@@ -28,13 +28,14 @@ class DeliveredSecondaryMeterset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delivered Secondary Meterset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102711
+             * line : 75807
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeliveredSecondaryMeterset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeliveredSecondaryMeterset',
             'desc' => [
+                'en' => 'Delivered Secondary Meterset',
             ],
         ],
     ];

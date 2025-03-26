@@ -28,13 +28,14 @@ class MeasurementDeterminedDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measurement Determined Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106461
+             * line : 78743
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasurementDeterminedDate extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MeasurementDeterminedDate',
             'desc' => [
+                'en' => 'Measurement Determined Date',
             ],
         ],
     ];

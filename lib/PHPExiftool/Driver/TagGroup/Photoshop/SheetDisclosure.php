@@ -28,13 +28,14 @@ class SheetDisclosure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sheet Disclosure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305645
+             * line : 212376
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SheetDisclosure extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:SheetDisclosure',
             'desc' => [
+                'en' => 'Sheet Disclosure',
             ],
         ],
     ];

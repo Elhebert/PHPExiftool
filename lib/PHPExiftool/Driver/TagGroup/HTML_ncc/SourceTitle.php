@@ -28,13 +28,14 @@ class SourceTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143046
+             * line : 98785
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceTitle extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:SourceTitle',
             'desc' => [
+                'en' => 'Source Title',
             ],
         ],
     ];

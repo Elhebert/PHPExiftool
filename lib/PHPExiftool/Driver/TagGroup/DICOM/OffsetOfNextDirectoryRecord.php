@@ -28,13 +28,14 @@ class OffsetOfNextDirectoryRecord extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offset Of Next Directory Record',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94610
+             * line : 68110
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OffsetOfNextDirectoryRecord extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OffsetOfNextDirectoryRecord',
             'desc' => [
+                'en' => 'Offset Of Next Directory Record',
             ],
         ],
     ];

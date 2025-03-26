@@ -28,13 +28,14 @@ class TargetCompressionRatio extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Target Compression Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::ImageFormat
-             * line : 78563
+             * line : 57198
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TargetCompressionRatio extends AbstractTagGroup
              */
             'id' => 'CanonRaw::ImageFormat.CanonRaw:TargetCompressionRatio',
             'desc' => [
+                'en' => 'Target Compression Ratio',
             ],
         ],
     ];

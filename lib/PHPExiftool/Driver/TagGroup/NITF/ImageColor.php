@@ -28,13 +28,14 @@ class ImageColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::NITF
-             * line : 152784
+             * line : 105123
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageColor extends AbstractTagGroup
              */
             'id' => 'JPEG::NITF.NITF:ImageColor',
             'desc' => [
+                'en' => 'Image Color',
             ],
         ],
     ];

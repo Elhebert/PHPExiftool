@@ -28,13 +28,14 @@ class KSpaceFiltering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'K Space Filtering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96665
+             * line : 70069
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KSpaceFiltering extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:KSpaceFiltering',
             'desc' => [
+                'en' => 'K Space Filtering',
             ],
         ],
     ];

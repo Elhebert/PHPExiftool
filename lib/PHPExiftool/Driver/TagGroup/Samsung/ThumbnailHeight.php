@@ -28,13 +28,14 @@ class ThumbnailHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Thumbnail
-             * line : 334252
+             * line : 234328
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ThumbnailHeight extends AbstractTagGroup
              */
             'id' => 'Samsung::Thumbnail.Samsung:ThumbnailHeight',
             'desc' => [
+                'en' => 'Thumbnail Height',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::sec
-             * line : 335686
+             * line : 235545
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ThumbnailHeight extends AbstractTagGroup
              */
             'id' => 'Samsung::sec.Samsung:ThumbnailHeight',
             'desc' => [
+                'en' => 'Thumbnail Height',
             ],
         ],
     ];

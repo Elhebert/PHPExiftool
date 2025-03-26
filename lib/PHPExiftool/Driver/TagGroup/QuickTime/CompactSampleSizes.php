@@ -28,13 +28,14 @@ class CompactSampleSizes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compact Sample Sizes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324453
+             * line : 229242
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompactSampleSizes extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:CompactSampleSizes',
             'desc' => [
+                'en' => 'Compact Sample Sizes',
             ],
         ],
     ];

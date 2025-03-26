@@ -28,13 +28,14 @@ class OriginalTHMFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original THM File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::OriginalRaw
-             * line : 105280
+             * line : 78027
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalTHMFileType extends AbstractTagGroup
              */
             'id' => 'DNG::OriginalRaw.DNG:OriginalTHMFileType',
             'desc' => [
+                'en' => 'Original THM File Type',
             ],
         ],
     ];

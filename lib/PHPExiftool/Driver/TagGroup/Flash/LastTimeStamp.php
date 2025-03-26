@@ -28,13 +28,14 @@ class LastTimeStamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124149
+             * line : 86762
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastTimeStamp extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:LastTimeStamp',
             'desc' => [
+                'en' => 'Last Time Stamp',
             ],
         ],
     ];

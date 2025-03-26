@@ -28,13 +28,14 @@ class AlreadyApplied extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Already Applied',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398180
+             * line : 281813
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AlreadyApplied extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:AlreadyApplied',
             'desc' => [
+                'en' => 'Already Applied',
             ],
         ],
     ];

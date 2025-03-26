@@ -28,13 +28,14 @@ class BeamCurrentModulationID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Current Modulation ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103831
+             * line : 76920
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamCurrentModulationID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamCurrentModulationID',
             'desc' => [
+                'en' => 'Beam Current Modulation ID',
             ],
         ],
     ];

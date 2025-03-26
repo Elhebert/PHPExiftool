@@ -28,13 +28,14 @@ class MultiFunctionLock extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Function Lock',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75263
+             * line : 55414
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiFunctionLock extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:MultiFunctionLock',
             'desc' => [
+                'en' => 'Multi Function Lock',
             ],
         ],
     ];

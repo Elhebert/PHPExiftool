@@ -28,13 +28,14 @@ class TerminationTimeThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Termination Time Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97318
+             * line : 70714
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TerminationTimeThreshold extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TerminationTimeThreshold',
             'desc' => [
+                'en' => 'Termination Time Threshold',
             ],
         ],
     ];

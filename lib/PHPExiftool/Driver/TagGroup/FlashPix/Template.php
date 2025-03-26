@@ -28,13 +28,14 @@ class Template extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Template',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127186
+             * line : 88294
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Template extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:Template',
             'desc' => [
+                'en' => 'Template',
             ],
         ],
     ];

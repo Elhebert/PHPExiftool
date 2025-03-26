@@ -28,13 +28,14 @@ class DCWaterBody extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Water Body',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 107026
+             * line : 79166
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCWaterBody extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCWaterBody',
             'desc' => [
+                'en' => 'DC Water Body',
             ],
         ],
     ];

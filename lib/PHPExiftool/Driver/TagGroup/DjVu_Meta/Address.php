@@ -28,13 +28,14 @@ class Address extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107369
+             * line : 79270
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Address extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Address',
             'desc' => [
+                'en' => 'Address',
             ],
         ],
     ];

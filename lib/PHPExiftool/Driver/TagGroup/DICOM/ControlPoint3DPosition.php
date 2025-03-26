@@ -28,13 +28,14 @@ class ControlPoint3DPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Control Point 3D Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103711
+             * line : 76800
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ControlPoint3DPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ControlPoint3DPosition',
             'desc' => [
+                'en' => 'Control Point 3D Position',
             ],
         ],
     ];

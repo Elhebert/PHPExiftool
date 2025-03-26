@@ -28,13 +28,14 @@ class ManualFlashStrength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manual Flash Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 251031
+             * line : 173160
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManualFlashStrength extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ManualFlashStrength',
             'desc' => [
+                'en' => 'Manual Flash Strength',
             ],
         ],
     ];

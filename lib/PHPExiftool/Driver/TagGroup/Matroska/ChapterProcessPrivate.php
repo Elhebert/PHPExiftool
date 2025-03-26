@@ -28,13 +28,14 @@ class ChapterProcessPrivate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Process Private',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173514
+             * line : 119443
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterProcessPrivate extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterProcessPrivate',
             'desc' => [
+                'en' => 'Chapter Process Private',
             ],
         ],
     ];

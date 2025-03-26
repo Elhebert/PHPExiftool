@@ -28,13 +28,14 @@ class OverlaySmoothingType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overlay Smoothing Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102184
+             * line : 75312
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverlaySmoothingType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverlaySmoothingType',
             'desc' => [
+                'en' => 'Overlay Smoothing Type',
             ],
         ],
     ];

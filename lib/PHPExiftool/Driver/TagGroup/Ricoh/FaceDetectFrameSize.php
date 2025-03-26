@@ -28,13 +28,14 @@ class FaceDetectFrameSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Detect Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::FaceInfo
-             * line : 331849
+             * line : 233158
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class FaceDetectFrameSize extends AbstractTagGroup
              */
             'id' => 'Ricoh::FaceInfo.Ricoh:FaceDetectFrameSize',
             'desc' => [
+                'en' => 'Face Detect Frame Size',
             ],
         ],
     ];

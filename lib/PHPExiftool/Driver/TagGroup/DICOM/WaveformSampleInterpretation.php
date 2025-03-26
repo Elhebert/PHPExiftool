@@ -28,13 +28,14 @@ class WaveformSampleInterpretation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Waveform Sample Interpretation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104260
+             * line : 77334
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WaveformSampleInterpretation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WaveformSampleInterpretation',
             'desc' => [
+                'en' => 'Waveform Sample Interpretation',
             ],
         ],
     ];

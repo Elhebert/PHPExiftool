@@ -28,13 +28,14 @@ class VideoDeviceParameterName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Device Parameter Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168165
+             * line : 114662
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoDeviceParameterName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoDeviceParameterName',
             'desc' => [
+                'en' => 'Video Device Parameter Name',
             ],
         ],
     ];

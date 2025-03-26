@@ -28,13 +28,14 @@ class PlaylistDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Playlist Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1501
+             * line : 727
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlaylistDelay extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:PlaylistDelay',
             'desc' => [
+                'en' => 'Playlist Delay',
             ],
         ],
     ];

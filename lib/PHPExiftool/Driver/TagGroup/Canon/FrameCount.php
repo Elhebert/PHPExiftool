@@ -28,13 +28,14 @@ class FrameCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::MovieInfo
-             * line : 66861
+             * line : 50780
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FrameCount extends AbstractTagGroup
              */
             'id' => 'Canon::MovieInfo.Canon:FrameCount',
             'desc' => [
+                'en' => 'Frame Count',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::MovieInfo
-             * line : 66865
+             * line : 50783
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FrameCount extends AbstractTagGroup
              */
             'id' => 'Canon::MovieInfo.Canon:FrameCount',
             'desc' => [
+                'en' => 'Frame Count',
             ],
         ],
     ];

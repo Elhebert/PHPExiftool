@@ -28,13 +28,14 @@ class AvApertureSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Av Aperture Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285525
+             * line : 197963
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AvApertureSetting extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:AvApertureSetting',
             'desc' => [
+                'en' => 'Av Aperture Setting',
             ],
         ],
     ];

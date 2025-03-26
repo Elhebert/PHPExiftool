@@ -28,13 +28,14 @@ class SmartAlbumColor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Smart Album Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335182
+             * line : 235230
              * type : int16u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class SmartAlbumColor extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:SmartAlbumColor',
             'desc' => [
+                'en' => 'Smart Album Color',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335192
+             * line : 235238
              * type : int16u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class SmartAlbumColor extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:SmartAlbumColor',
             'desc' => [
+                'en' => 'Smart Album Color',
             ],
         ],
     ];

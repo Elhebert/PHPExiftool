@@ -28,13 +28,14 @@ class OrganisationInImageCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Organisation In Image Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409536
+             * line : 289309
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OrganisationInImageCode extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:OrganisationInImageCode',
             'desc' => [
+                'en' => 'Organisation In Image Code',
             ],
         ],
     ];

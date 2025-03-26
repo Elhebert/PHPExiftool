@@ -28,13 +28,14 @@ class FlashExpComp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Exp Comp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339939
+             * line : 237693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashExpComp extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:FlashExpComp',
             'desc' => [
+                'en' => 'Flash Exp Comp',
             ],
         ],
     ];

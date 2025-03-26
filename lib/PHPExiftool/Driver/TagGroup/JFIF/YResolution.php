@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JFIF::Main
-             * line : 152326
+             * line : 104831
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'JFIF::Main.JFIF:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

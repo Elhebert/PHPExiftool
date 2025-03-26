@@ -28,13 +28,14 @@ class DASRegXm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Reg Xm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100475
+             * line : 73647
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASRegXm extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASRegXm',
             'desc' => [
+                'en' => 'DAS Reg Xm',
             ],
         ],
     ];

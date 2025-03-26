@@ -28,13 +28,14 @@ class ChExtra extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Added Width for NonSpace Characters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264680
+             * line : 182930
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChExtra extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:ChExtra',
             'desc' => [
+                'en' => 'Added Width for NonSpace Characters',
             ],
         ],
     ];

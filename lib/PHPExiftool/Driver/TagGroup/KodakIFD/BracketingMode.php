@@ -28,13 +28,14 @@ class BracketingMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bracketing Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155015
+             * line : 106265
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BracketingMode extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BracketingMode',
             'desc' => [
+                'en' => 'Bracketing Mode',
             ],
         ],
     ];

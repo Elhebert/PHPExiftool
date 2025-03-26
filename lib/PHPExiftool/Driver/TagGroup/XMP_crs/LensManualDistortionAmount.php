@@ -28,13 +28,14 @@ class LensManualDistortionAmount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Manual Distortion Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402808
+             * line : 285945
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensManualDistortionAmount extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LensManualDistortionAmount',
             'desc' => [
+                'en' => 'Lens Manual Distortion Amount',
             ],
         ],
     ];

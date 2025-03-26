@@ -28,13 +28,14 @@ class CropYCommonOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Crop Y Common Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Stim::CropY
-             * line : 394539
+             * line : 279494
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CropYCommonOffset extends AbstractTagGroup
              */
             'id' => 'Stim::CropY.Stim:CropYCommonOffset',
             'desc' => [
+                'en' => 'Crop Y Common Offset',
             ],
         ],
     ];

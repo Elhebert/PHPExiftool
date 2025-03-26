@@ -28,13 +28,14 @@ class NewBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'New Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PromoteParent
-             * line : 165363
+             * line : 112433
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NewBitDepth extends AbstractTagGroup
              */
             'id' => 'MNG::PromoteParent.MNG:NewBitDepth',
             'desc' => [
+                'en' => 'New Bit Depth',
             ],
         ],
     ];

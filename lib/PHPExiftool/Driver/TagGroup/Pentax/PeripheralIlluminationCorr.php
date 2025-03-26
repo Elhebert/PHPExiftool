@@ -28,13 +28,14 @@ class PeripheralIlluminationCorr extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Peripheral Illumination Corr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensCorr
-             * line : 288533
+             * line : 200153
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PeripheralIlluminationCorr extends AbstractTagGroup
              */
             'id' => 'Pentax::LensCorr.Pentax:PeripheralIlluminationCorr',
             'desc' => [
+                'en' => 'Peripheral Illumination Corr',
             ],
         ],
     ];

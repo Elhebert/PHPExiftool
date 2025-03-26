@@ -28,13 +28,14 @@ class DefaultFadeEditRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Fade Edit Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169378
+             * line : 115785
              * type : rational64s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultFadeEditRate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DefaultFadeEditRate',
             'desc' => [
+                'en' => 'Default Fade Edit Rate',
             ],
         ],
     ];

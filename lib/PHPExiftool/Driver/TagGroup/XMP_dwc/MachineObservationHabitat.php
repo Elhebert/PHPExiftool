@@ -28,13 +28,14 @@ class MachineObservationHabitat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Machine Observation Habitat',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106397
+             * line : 78695
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MachineObservationHabitat extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MachineObservationHabitat',
             'desc' => [
+                'en' => 'Machine Observation Habitat',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OriginalImageBroker extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Image Broker',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124959
+             * line : 87294
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalImageBroker extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:OriginalImageBroker',
             'desc' => [
+                'en' => 'Original Image Broker',
             ],
         ],
     ];

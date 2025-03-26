@@ -28,13 +28,14 @@ class Requires extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Requires',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cc
-             * line : 398128
+             * line : 281761
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Requires extends AbstractTagGroup
              */
             'id' => 'XMP::cc.XMP-cc:Requires',
             'desc' => [
+                'en' => 'Requires',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VignetteMidpoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignette Midpoint',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401283
+             * line : 284671
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VignetteMidpoint extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:VignetteMidpoint',
             'desc' => [
+                'en' => 'Vignette Midpoint',
             ],
         ],
     ];

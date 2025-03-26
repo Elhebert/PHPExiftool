@@ -28,13 +28,14 @@ class BeatsPerMinute extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Beats Per Minute',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322916
+             * line : 228393
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BeatsPerMinute extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:BeatsPerMinute',
             'desc' => [
+                'en' => 'Beats Per Minute',
             ],
         ],
     ];

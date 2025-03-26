@@ -28,13 +28,14 @@ class BlockAlign extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Block Align',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171283
+             * line : 117488
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlockAlign extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BlockAlign',
             'desc' => [
+                'en' => 'Block Align',
             ],
         ],
     ];

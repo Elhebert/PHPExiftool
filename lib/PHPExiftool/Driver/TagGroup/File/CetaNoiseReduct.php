@@ -28,13 +28,14 @@ class CetaNoiseReduct extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ceta Noise Reduct',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166614
+             * line : 113352
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CetaNoiseReduct extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:CetaNoiseReduct',
             'desc' => [
+                'en' => 'Ceta Noise Reduct',
             ],
         ],
     ];

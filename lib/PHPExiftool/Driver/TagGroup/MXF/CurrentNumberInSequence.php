@@ -28,13 +28,14 @@ class CurrentNumberInSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current Number In Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170902
+             * line : 117132
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CurrentNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CurrentNumberInSequence',
             'desc' => [
+                'en' => 'Current Number In Sequence',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170905
+             * line : 117135
              * type : int64u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CurrentNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CurrentNumberInSequence',
             'desc' => [
+                'en' => 'Current Number In Sequence',
             ],
         ],
     ];

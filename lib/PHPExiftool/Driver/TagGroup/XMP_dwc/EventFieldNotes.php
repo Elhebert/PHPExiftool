@@ -28,13 +28,14 @@ class EventFieldNotes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Field Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106093
+             * line : 78467
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventFieldNotes extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventFieldNotes',
             'desc' => [
+                'en' => 'Event Field Notes',
             ],
         ],
     ];

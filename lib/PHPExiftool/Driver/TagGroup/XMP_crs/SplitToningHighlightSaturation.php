@@ -28,13 +28,14 @@ class SplitToningHighlightSaturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Split Toning Highlight Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404400
+             * line : 287465
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SplitToningHighlightSaturation extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:SplitToningHighlightSaturation',
             'desc' => [
+                'en' => 'Split Toning Highlight Saturation',
             ],
         ],
     ];

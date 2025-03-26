@@ -28,13 +28,14 @@ class LandscapeRawLinear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Landscape Raw Linear',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82836
+             * line : 60674
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LandscapeRawLinear extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:LandscapeRawLinear',
             'desc' => [
+                'en' => 'Landscape Raw Linear',
             ],
         ],
     ];

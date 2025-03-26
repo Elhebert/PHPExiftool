@@ -28,13 +28,14 @@ class ElementaryStreamTrack extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Elementary Stream Track',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackRef
-             * line : 325131
+             * line : 229553
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElementaryStreamTrack extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackRef.Track#:ElementaryStreamTrack',
             'desc' => [
+                'en' => 'Elementary Stream Track',
             ],
         ],
     ];

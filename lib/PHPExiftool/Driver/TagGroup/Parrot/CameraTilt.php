@@ -28,13 +28,14 @@ class CameraTilt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Tilt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282037
+             * line : 195922
              * type : int16s
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CameraTilt extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:CameraTilt',
             'desc' => [
+                'en' => 'Camera Tilt',
             ],
         ],
         1 => [
             /**
              * table_name : Parrot::V2
-             * line : 282319
+             * line : 196053
              * type : int16s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CameraTilt extends AbstractTagGroup
              */
             'id' => 'Parrot::V2.Parrot:CameraTilt',
             'desc' => [
+                'en' => 'Camera Tilt',
             ],
         ],
     ];

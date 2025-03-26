@@ -28,13 +28,14 @@ class DetectorConditionsNominalFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Conditions Nominal Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96388
+             * line : 69796
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorConditionsNominalFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorConditionsNominalFlag',
             'desc' => [
+                'en' => 'Detector Conditions Nominal Flag',
             ],
         ],
     ];

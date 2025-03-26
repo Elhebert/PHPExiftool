@@ -28,13 +28,14 @@ class ImageQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD3a
-             * line : 206145
+             * line : 138575
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageQuality extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3a.Nikon:ImageQuality',
             'desc' => [
+                'en' => 'Image Quality',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD3b
-             * line : 206267
+             * line : 138654
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ImageQuality extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3b.Nikon:ImageQuality',
             'desc' => [
+                'en' => 'Image Quality',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD80
-             * line : 208493
+             * line : 140443
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ImageQuality extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD80.Nikon:ImageQuality',
             'desc' => [
+                'en' => 'Image Quality',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaintRgn extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Rgn',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264954
+             * line : 183176
              * type : Rgn
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintRgn extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintRgn',
             'desc' => [
+                'en' => 'Paint Rgn',
             ],
         ],
     ];

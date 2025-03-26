@@ -28,13 +28,14 @@ class RawCodecVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Codec Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::IHL
-             * line : 82077
+             * line : 60146
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawCodecVersion extends AbstractTagGroup
              */
             'id' => 'CanonVRD::IHL.CanonVRD:RawCodecVersion',
             'desc' => [
+                'en' => 'Raw Codec Version',
             ],
         ],
     ];

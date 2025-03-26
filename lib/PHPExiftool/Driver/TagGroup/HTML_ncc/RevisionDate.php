@@ -28,13 +28,14 @@ class RevisionDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Revision Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143015
+             * line : 98764
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RevisionDate extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:RevisionDate',
             'desc' => [
+                'en' => 'Revision Date',
             ],
         ],
     ];

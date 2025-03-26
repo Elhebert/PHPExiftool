@@ -28,13 +28,14 @@ class AddIntermediateSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Add Intermediate Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100733
+             * line : 73896
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AddIntermediateSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AddIntermediateSequence',
             'desc' => [
+                'en' => 'Add Intermediate Sequence',
             ],
         ],
     ];

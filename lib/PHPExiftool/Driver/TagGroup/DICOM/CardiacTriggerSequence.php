@@ -28,13 +28,14 @@ class CardiacTriggerSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Trigger Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96784
+             * line : 70186
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacTriggerSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacTriggerSequence',
             'desc' => [
+                'en' => 'Cardiac Trigger Sequence',
             ],
         ],
     ];

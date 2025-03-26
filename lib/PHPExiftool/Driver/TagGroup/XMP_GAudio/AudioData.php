@@ -28,13 +28,14 @@ class AudioData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Audio Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GAudio
-             * line : 396851
+             * line : 281050
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AudioData extends AbstractTagGroup
              */
             'id' => 'XMP::GAudio.XMP-GAudio:AudioData',
             'desc' => [
+                'en' => 'Audio Data',
             ],
         ],
     ];

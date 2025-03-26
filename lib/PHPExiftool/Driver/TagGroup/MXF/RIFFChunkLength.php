@@ -28,13 +28,14 @@ class RIFFChunkLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RIFF Chunk Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171947
+             * line : 118132
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RIFFChunkLength extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RIFFChunkLength',
             'desc' => [
+                'en' => 'RIFF Chunk Length',
             ],
         ],
     ];

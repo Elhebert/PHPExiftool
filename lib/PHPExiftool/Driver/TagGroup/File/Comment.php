@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 120985
+             * line : 84958
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'Extra.File:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

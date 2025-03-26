@@ -28,13 +28,14 @@ class Rotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80232
+             * line : 58551
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82621
+             * line : 60514
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Rotation extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:Rotation',
             'desc' => [
+                'en' => 'Rotation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Object0 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FITS::Main
-             * line : 121703
+             * line : 85305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Object0 extends AbstractTagGroup
              */
             'id' => 'FITS::Main.FITS:Object',
             'desc' => [
+                'en' => 'Object',
             ],
         ],
     ];

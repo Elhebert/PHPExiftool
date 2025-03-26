@@ -28,13 +28,14 @@ class MultiQuality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureSetup
-             * line : 161758
+             * line : 110507
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiQuality extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureSetup.Leaf:MultiQuality',
             'desc' => [
+                'en' => 'Multi Quality',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashRedEyeMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Red Eye Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405971
+             * line : 288023
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashRedEyeMode extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:FlashRedEyeMode',
             'desc' => [
+                'en' => 'Flash Red Eye Mode',
             ],
         ],
     ];

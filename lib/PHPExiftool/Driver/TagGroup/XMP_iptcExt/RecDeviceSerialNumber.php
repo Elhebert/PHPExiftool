@@ -28,13 +28,14 @@ class RecDeviceSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rec Device Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409702
+             * line : 289462
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecDeviceSerialNumber extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RecDeviceSerialNumber',
             'desc' => [
+                'en' => 'Rec Device Serial Number',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WindowTarget extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Window Target',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142932
+             * line : 98709
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WindowTarget extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:WindowTarget',
             'desc' => [
+                'en' => 'Window Target',
             ],
         ],
     ];

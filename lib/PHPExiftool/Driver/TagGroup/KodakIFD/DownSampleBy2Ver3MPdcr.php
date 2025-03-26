@@ -28,13 +28,14 @@ class DownSampleBy2Ver3MPdcr extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Down Sample By 2 Ver 3M Pdcr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155457
+             * line : 106670
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DownSampleBy2Ver3MPdcr extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DownSampleBy2Ver3MPdcr',
             'desc' => [
+                'en' => 'Down Sample By 2 Ver 3M Pdcr',
             ],
         ],
     ];

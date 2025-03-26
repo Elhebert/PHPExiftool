@@ -28,13 +28,14 @@ class AeProjectLinkFullPath extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ae Project Link Full Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401459
+             * line : 284722
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AeProjectLinkFullPath extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:AeProjectLinkFullPath',
             'desc' => [
+                'en' => 'Ae Project Link Full Path',
             ],
         ],
     ];

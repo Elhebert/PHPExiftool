@@ -28,13 +28,14 @@ class Lightness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lightness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328274
+             * line : 231556
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Lightness extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Lightness',
             'desc' => [
+                'en' => 'Lightness',
             ],
         ],
     ];

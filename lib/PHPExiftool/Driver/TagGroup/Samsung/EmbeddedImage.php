@@ -28,13 +28,14 @@ class EmbeddedImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Trailer
-             * line : 334277
+             * line : 234341
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImage extends AbstractTagGroup
              */
             'id' => 'Samsung::Trailer.Samsung:EmbeddedImage',
             'desc' => [
+                'en' => 'Embedded Image',
             ],
         ],
     ];

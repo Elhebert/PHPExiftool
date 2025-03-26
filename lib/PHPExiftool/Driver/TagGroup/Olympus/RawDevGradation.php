@@ -28,13 +28,14 @@ class RawDevGradation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Gradation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260656
+             * line : 180043
              * type : int16s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class RawDevGradation extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevGradation',
             'desc' => [
+                'en' => 'Raw Dev Gradation',
             ],
         ],
     ];

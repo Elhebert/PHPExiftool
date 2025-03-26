@@ -28,13 +28,14 @@ class SATFatWaterBone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SAT Fat Water Bone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97655
+             * line : 71038
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SATFatWaterBone extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SATFatWaterBone',
             'desc' => [
+                'en' => 'SAT Fat Water Bone',
             ],
         ],
     ];

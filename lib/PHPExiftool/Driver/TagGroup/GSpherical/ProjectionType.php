@@ -28,13 +28,14 @@ class ProjectionType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Projection Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397230
+             * line : 281307
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProjectionType extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:ProjectionType',
             'desc' => [
+                'en' => 'Projection Type',
             ],
         ],
     ];

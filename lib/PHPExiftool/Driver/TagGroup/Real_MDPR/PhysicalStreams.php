@@ -28,13 +28,14 @@ class PhysicalStreams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Physical Streams',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330434
+             * line : 232511
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhysicalStreams extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:PhysicalStreams',
             'desc' => [
+                'en' => 'Physical Streams',
             ],
         ],
     ];

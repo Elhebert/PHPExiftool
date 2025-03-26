@@ -28,13 +28,14 @@ class ChapterTimeEnd extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Time End',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173217
+             * line : 119218
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterTimeEnd extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterTimeEnd',
             'desc' => [
+                'en' => 'Chapter Time End',
             ],
         ],
     ];

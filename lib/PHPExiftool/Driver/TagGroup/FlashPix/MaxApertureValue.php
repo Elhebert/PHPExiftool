@@ -28,13 +28,14 @@ class MaxApertureValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Aperture Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 125921
+             * line : 87524
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxApertureValue extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:MaxApertureValue',
             'desc' => [
+                'en' => 'Max Aperture Value',
             ],
         ],
     ];

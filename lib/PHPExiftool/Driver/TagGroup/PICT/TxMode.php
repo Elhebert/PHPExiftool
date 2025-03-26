@@ -28,13 +28,14 @@ class TxMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text Source Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264623
+             * line : 182879
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TxMode extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:TxMode',
             'desc' => [
+                'en' => 'Text Source Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SensorData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323862
+             * line : 228861
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorData extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:SensorData',
             'desc' => [
+                'en' => 'Sensor Data',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFFineTune extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Fine Tune',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250799
+             * line : 173011
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFFineTune extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:AFFineTune',
             'desc' => [
+                'en' => 'AF Fine Tune',
             ],
         ],
     ];

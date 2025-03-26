@@ -28,13 +28,14 @@ class ShotStartPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shot Start Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171627
+             * line : 117820
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShotStartPosition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotStartPosition',
             'desc' => [
+                'en' => 'Shot Start Position',
             ],
         ],
     ];

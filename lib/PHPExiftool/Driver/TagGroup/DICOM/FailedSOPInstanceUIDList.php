@@ -28,13 +28,14 @@ class FailedSOPInstanceUIDList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Failed SOP Instance UID List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94758
+             * line : 68245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FailedSOPInstanceUIDList extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FailedSOPInstanceUIDList',
             'desc' => [
+                'en' => 'Failed SOP Instance UID List',
             ],
         ],
     ];

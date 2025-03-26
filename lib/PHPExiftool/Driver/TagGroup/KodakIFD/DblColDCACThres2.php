@@ -28,13 +28,14 @@ class DblColDCACThres2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dbl Col DCAC Thres 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155624
+             * line : 106835
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DblColDCACThres2 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DblColDCACThres2',
             'desc' => [
+                'en' => 'Dbl Col DCAC Thres 2',
             ],
         ],
     ];

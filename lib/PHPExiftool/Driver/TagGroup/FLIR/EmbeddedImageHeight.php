@@ -28,13 +28,14 @@ class EmbeddedImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::EmbeddedImage
-             * line : 122414
+             * line : 85736
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImageHeight extends AbstractTagGroup
              */
             'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImageHeight',
             'desc' => [
+                'en' => 'Embedded Image Height',
             ],
         ],
     ];

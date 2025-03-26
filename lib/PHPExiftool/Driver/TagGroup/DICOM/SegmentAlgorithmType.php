@@ -28,13 +28,14 @@ class SegmentAlgorithmType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segment Algorithm Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101082
+             * line : 74232
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentAlgorithmType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentAlgorithmType',
             'desc' => [
+                'en' => 'Segment Algorithm Type',
             ],
         ],
     ];

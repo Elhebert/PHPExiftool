@@ -28,13 +28,14 @@ class NumberOfSurfaces extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Surfaces',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101133
+             * line : 74283
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfSurfaces extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfSurfaces',
             'desc' => [
+                'en' => 'Number Of Surfaces',
             ],
         ],
     ];

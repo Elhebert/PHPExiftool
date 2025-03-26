@@ -28,13 +28,14 @@ class ProfileConnectionSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Profile Connection Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Header
-             * line : 144131
+             * line : 99750
              * type : string
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class ProfileConnectionSpace extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Header.ICC-header:ProfileConnectionSpace',
             'desc' => [
+                'en' => 'Profile Connection Space',
             ],
         ],
     ];

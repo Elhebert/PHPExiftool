@@ -28,13 +28,14 @@ class AFStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333437
+             * line : 233830
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFStatus extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:AFStatus',
             'desc' => [
+                'en' => 'AF Status',
             ],
         ],
     ];

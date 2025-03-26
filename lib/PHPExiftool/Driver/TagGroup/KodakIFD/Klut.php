@@ -28,13 +28,14 @@ class Klut extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Klut',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155840
+             * line : 107051
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Klut extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:Klut',
             'desc' => [
+                'en' => 'Klut',
             ],
         ],
     ];

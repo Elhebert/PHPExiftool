@@ -28,13 +28,14 @@ class Humidity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Humidity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116315
+             * line : 83325
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Humidity extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Humidity',
             'desc' => [
+                'en' => 'Humidity',
             ],
         ],
     ];

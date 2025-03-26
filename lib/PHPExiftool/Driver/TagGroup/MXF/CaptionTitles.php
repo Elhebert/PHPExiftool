@@ -28,13 +28,14 @@ class CaptionTitles extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Caption Titles',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168681
+             * line : 115157
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptionTitles extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CaptionTitles',
             'desc' => [
+                'en' => 'Caption Titles',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SigmaRowNumberWhichRowsWereUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sigma Row Number Which Rows Were Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100576
+             * line : 73746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SigmaRowNumberWhichRowsWereUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SigmaRowNumberWhichRowsWereUsed',
             'desc' => [
+                'en' => 'Sigma Row Number Which Rows Were Used',
             ],
         ],
     ];

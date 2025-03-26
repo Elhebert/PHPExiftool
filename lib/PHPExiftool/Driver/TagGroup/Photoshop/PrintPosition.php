@@ -28,13 +28,14 @@ class PrintPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::PrintScaleInfo
-             * line : 305742
+             * line : 212452
              * type : float
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class PrintPosition extends AbstractTagGroup
              */
             'id' => 'Photoshop::PrintScaleInfo.Photoshop:PrintPosition',
             'desc' => [
+                'en' => 'Print Position',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaskGroupBasedCorrTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400048
+             * line : 283554
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrTemperature extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:MaskGroupBasedCorrTemperature',
             'desc' => [
+                'en' => 'Mask Group Based Corr Temperature',
             ],
         ],
     ];

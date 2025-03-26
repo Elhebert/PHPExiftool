@@ -28,13 +28,14 @@ class PixelsPerMeterX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixels Per Meter X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3320
+             * line : 2059
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelsPerMeterX extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:PixelsPerMeterX',
             'desc' => [
+                'en' => 'Pixels Per Meter X',
             ],
         ],
     ];

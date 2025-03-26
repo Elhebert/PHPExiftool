@@ -28,13 +28,14 @@ class AWBGreenOffsetBg extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Green Offset Bg',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307053
+             * line : 213551
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBGreenOffsetBg extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBGreenOffsetBg',
             'desc' => [
+                'en' => 'AWB Green Offset Bg',
             ],
         ],
     ];

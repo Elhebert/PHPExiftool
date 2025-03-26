@@ -28,13 +28,14 @@ class SecurityClassification extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Security Classification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115380
+             * line : 82952
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SecurityClassification extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SecurityClassification',
             'desc' => [
+                'en' => 'Security Classification',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116721
+             * line : 83437
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SecurityClassification extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SecurityClassification',
             'desc' => [
+                'en' => 'Security Classification',
             ],
         ],
     ];

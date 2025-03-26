@@ -28,13 +28,14 @@ class NumberOfSamples64 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Samples 64',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::DS64
-             * line : 327845
+             * line : 231393
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfSamples64 extends AbstractTagGroup
              */
             'id' => 'RIFF::DS64.RIFF:NumberOfSamples64',
             'desc' => [
+                'en' => 'Number Of Samples 64',
             ],
         ],
     ];

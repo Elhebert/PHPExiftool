@@ -28,13 +28,14 @@ class Sony_0x9411 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sony 0x9411',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355995
+             * line : 248364
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sony_0x9411 extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:Sony_0x9411',
             'desc' => [
+                'en' => 'Sony 0x9411',
             ],
         ],
     ];

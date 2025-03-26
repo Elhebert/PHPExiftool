@@ -28,13 +28,14 @@ class HMapHandling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'H Map Handling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156101
+             * line : 107312
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HMapHandling extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:HMapHandling',
             'desc' => [
+                'en' => 'H Map Handling',
             ],
         ],
     ];

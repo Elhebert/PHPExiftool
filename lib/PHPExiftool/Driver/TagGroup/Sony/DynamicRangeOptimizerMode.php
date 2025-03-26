@@ -28,13 +28,14 @@ class DynamicRangeOptimizerMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Range Optimizer Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347243
+             * line : 243210
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DynamicRangeOptimizerMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:DynamicRangeOptimizerMode',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348811
+             * line : 243917
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DynamicRangeOptimizerMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:DynamicRangeOptimizerMode',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353019
+             * line : 246454
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class DynamicRangeOptimizerMode extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:DynamicRangeOptimizerMode',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353393
+             * line : 246608
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class DynamicRangeOptimizerMode extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:DynamicRangeOptimizerMode',
             'desc' => [
+                'en' => 'Dynamic Range Optimizer Mode',
             ],
         ],
     ];

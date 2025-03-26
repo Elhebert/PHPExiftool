@@ -28,13 +28,14 @@ class ImageProcessing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Processing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 196832
+             * line : 132899
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageProcessing extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageProcessing',
             'desc' => [
+                'en' => 'Image Processing',
             ],
         ],
     ];

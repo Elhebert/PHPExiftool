@@ -28,13 +28,14 @@ class StreamName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Stream
-             * line : 328751
+             * line : 231837
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamName extends AbstractTagGroup
              */
             'id' => 'RIFF::Stream.RIFF:StreamName',
             'desc' => [
+                'en' => 'Stream Name',
             ],
         ],
     ];

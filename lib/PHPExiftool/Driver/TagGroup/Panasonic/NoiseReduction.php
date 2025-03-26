@@ -28,13 +28,14 @@ class NoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 276390
+             * line : 192491
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NoiseReduction extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:NoiseReduction',
             'desc' => [
+                'en' => 'Noise Reduction',
             ],
         ],
     ];

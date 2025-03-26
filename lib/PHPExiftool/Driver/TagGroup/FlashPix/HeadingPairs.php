@@ -28,13 +28,14 @@ class HeadingPairs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Heading Pairs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124491
+             * line : 86979
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HeadingPairs extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:HeadingPairs',
             'desc' => [
+                'en' => 'Heading Pairs',
             ],
         ],
     ];

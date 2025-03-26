@@ -28,13 +28,14 @@ class AnalogSystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Analog System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167984
+             * line : 114506
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnalogSystem extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AnalogSystem',
             'desc' => [
+                'en' => 'Analog System',
             ],
         ],
     ];

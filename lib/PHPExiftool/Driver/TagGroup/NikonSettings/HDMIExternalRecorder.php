@@ -28,13 +28,14 @@ class HDMIExternalRecorder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HDMI External Recorder',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 245091
+             * line : 167850
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDMIExternalRecorder extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:HDMIExternalRecorder',
             'desc' => [
+                'en' => 'HDMI External Recorder',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawDevWhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260423
+             * line : 179900
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawDevWhiteBalance extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevWhiteBalance',
             'desc' => [
+                'en' => 'Raw Dev White Balance',
             ],
         ],
     ];

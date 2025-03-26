@@ -28,13 +28,14 @@ class StudyDateTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Study Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396472
+             * line : 280693
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StudyDateTime extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:StudyDateTime',
             'desc' => [
+                'en' => 'Study Date Time',
             ],
         ],
     ];

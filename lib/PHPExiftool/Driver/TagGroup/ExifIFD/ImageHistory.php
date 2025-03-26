@@ -28,13 +28,14 @@ class ImageHistory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image History',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115465
+             * line : 82972
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageHistory extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageHistory',
             'desc' => [
+                'en' => 'Image History',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116735
+             * line : 83440
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageHistory extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ImageHistory',
             'desc' => [
+                'en' => 'Image History',
             ],
         ],
     ];

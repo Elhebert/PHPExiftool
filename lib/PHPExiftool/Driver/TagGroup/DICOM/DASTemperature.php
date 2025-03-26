@@ -28,13 +28,14 @@ class DASTemperature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100564
+             * line : 73734
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASTemperature extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASTemperature',
             'desc' => [
+                'en' => 'DAS Temperature',
             ],
         ],
     ];

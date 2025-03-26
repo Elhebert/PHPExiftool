@@ -28,13 +28,14 @@ class NumberOfScanSpotPositions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Scan Spot Positions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103888
+             * line : 76977
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfScanSpotPositions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfScanSpotPositions',
             'desc' => [
+                'en' => 'Number Of Scan Spot Positions',
             ],
         ],
     ];

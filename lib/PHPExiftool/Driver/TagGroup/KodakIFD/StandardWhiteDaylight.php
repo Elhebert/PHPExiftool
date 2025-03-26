@@ -28,13 +28,14 @@ class StandardWhiteDaylight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard White Daylight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155156
+             * line : 106406
              * type : rational64s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class StandardWhiteDaylight extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:StandardWhiteDaylight',
             'desc' => [
+                'en' => 'Standard White Daylight',
             ],
         ],
     ];

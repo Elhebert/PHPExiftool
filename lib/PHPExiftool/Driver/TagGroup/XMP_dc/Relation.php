@@ -28,13 +28,14 @@ class Relation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Relation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dc
-             * line : 404843
+             * line : 287692
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Relation extends AbstractTagGroup
              */
             'id' => 'XMP::dc.XMP-dc:Relation',
             'desc' => [
+                'en' => 'Relation',
             ],
         ],
     ];

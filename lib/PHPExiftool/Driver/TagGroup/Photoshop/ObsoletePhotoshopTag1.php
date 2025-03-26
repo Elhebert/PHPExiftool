@@ -28,13 +28,14 @@ class ObsoletePhotoshopTag1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Obsolete Photoshop Tag 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305449
+             * line : 212245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObsoletePhotoshopTag1 extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ObsoletePhotoshopTag1',
             'desc' => [
+                'en' => 'Obsolete Photoshop Tag 1',
             ],
         ],
     ];

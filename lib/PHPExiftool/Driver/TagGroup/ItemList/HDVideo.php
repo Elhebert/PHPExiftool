@@ -28,13 +28,14 @@ class HDVideo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'HD Video',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322203
+             * line : 227762
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HDVideo extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:HDVideo',
             'desc' => [
+                'en' => 'HD Video',
             ],
         ],
     ];

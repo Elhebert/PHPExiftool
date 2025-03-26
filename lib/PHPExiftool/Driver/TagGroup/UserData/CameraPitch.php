@@ -28,13 +28,14 @@ class CameraPitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325876
+             * line : 229901
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraPitch extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:CameraPitch',
             'desc' => [
+                'en' => 'Camera Pitch',
             ],
         ],
     ];

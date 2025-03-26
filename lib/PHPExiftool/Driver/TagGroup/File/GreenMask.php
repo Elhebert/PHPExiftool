@@ -28,13 +28,14 @@ class GreenMask extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Green Mask',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3350
+             * line : 2074
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GreenMask extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:GreenMask',
             'desc' => [
+                'en' => 'Green Mask',
             ],
         ],
     ];

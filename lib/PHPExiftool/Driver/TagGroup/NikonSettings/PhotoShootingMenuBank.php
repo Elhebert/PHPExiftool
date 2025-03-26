@@ -28,13 +28,14 @@ class PhotoShootingMenuBank extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Photo Shooting Menu Bank',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247069
+             * line : 169762
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhotoShootingMenuBank extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:PhotoShootingMenuBank',
             'desc' => [
+                'en' => 'Photo Shooting Menu Bank',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class XRay3DFrameTypeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Ray 3D Frame Type Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97234
+             * line : 70630
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XRay3DFrameTypeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XRay3DFrameTypeSequence',
             'desc' => [
+                'en' => 'X Ray 3D Frame Type Sequence',
             ],
         ],
     ];

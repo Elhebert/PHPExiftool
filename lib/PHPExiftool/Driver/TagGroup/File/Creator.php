@@ -28,13 +28,14 @@ class Creator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105351
+             * line : 78071
              * type : string
              * writable : false
              * count : 100
@@ -42,6 +43,7 @@ class Creator extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:Creator',
             'desc' => [
+                'en' => 'Creator',
             ],
         ],
     ];

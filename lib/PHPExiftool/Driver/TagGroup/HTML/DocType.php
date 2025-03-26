@@ -28,13 +28,14 @@ class DocType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Doc Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142397
+             * line : 98478
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocType extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:DocType',
             'desc' => [
+                'en' => 'Doc Type',
             ],
         ],
     ];

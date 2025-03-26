@@ -28,13 +28,14 @@ class StreamData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169130
+             * line : 115573
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreamData',
             'desc' => [
+                'en' => 'Stream Data',
             ],
         ],
     ];

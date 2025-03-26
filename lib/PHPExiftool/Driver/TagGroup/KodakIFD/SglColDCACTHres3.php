@@ -28,13 +28,14 @@ class SglColDCACTHres3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sgl Col DCACT Hres 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155618
+             * line : 106829
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SglColDCACTHres3 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SglColDCACTHres3',
             'desc' => [
+                'en' => 'Sgl Col DCACT Hres 3',
             ],
         ],
     ];

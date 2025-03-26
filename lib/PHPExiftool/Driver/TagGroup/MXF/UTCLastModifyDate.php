@@ -28,13 +28,14 @@ class UTCLastModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UTC Last Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168516
+             * line : 115007
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class UTCLastModifyDate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UTCLastModifyDate',
             'desc' => [
+                'en' => 'UTC Last Modify Date',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 172169
+             * line : 118336
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class UTCLastModifyDate extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UTCLastModifyDate',
             'desc' => [
+                'en' => 'UTC Last Modify Date',
             ],
         ],
     ];

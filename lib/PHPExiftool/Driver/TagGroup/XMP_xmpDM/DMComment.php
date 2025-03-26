@@ -28,13 +28,14 @@ class DMComment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DM Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412991
+             * line : 291151
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DMComment extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:DMComment',
             'desc' => [
+                'en' => 'DM Comment',
             ],
         ],
     ];

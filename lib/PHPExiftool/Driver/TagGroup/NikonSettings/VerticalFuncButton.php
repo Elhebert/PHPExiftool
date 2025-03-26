@@ -28,13 +28,14 @@ class VerticalFuncButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Func Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248091
+             * line : 170779
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class VerticalFuncButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:VerticalFuncButton',
             'desc' => [
+                'en' => 'Vertical Func Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248632
+             * line : 171320
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class VerticalFuncButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:VerticalFuncButton',
             'desc' => [
+                'en' => 'Vertical Func Button',
             ],
         ],
     ];

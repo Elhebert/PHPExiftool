@@ -28,13 +28,14 @@ class WholeBodyTechnique extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Whole Body Technique',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95970
+             * line : 69394
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WholeBodyTechnique extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WholeBodyTechnique',
             'desc' => [
+                'en' => 'Whole Body Technique',
             ],
         ],
     ];

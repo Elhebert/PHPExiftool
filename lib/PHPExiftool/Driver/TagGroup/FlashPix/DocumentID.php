@@ -28,13 +28,14 @@ class DocumentID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Document ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127315
+             * line : 88353
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocumentID extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:DocumentID',
             'desc' => [
+                'en' => 'Document ID',
             ],
         ],
     ];

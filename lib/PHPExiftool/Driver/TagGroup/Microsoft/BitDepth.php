@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175845
+             * line : 121020
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

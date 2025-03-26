@@ -28,13 +28,14 @@ class RawDevEngine extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Engine',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260286
+             * line : 179807
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RawDevEngine extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevEngine',
             'desc' => [
+                'en' => 'Raw Dev Engine',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260522
+             * line : 179963
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RawDevEngine extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevEngine',
             'desc' => [
+                'en' => 'Raw Dev Engine',
             ],
         ],
     ];

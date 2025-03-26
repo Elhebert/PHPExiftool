@@ -28,13 +28,14 @@ class UUID_Unknown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UUID-Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Track
-             * line : 325032
+             * line : 229490
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UUID_Unknown extends AbstractTagGroup
              */
             'id' => 'QuickTime::Track.Track#:UUID-Unknown',
             'desc' => [
+                'en' => 'UUID-Unknown',
             ],
         ],
     ];

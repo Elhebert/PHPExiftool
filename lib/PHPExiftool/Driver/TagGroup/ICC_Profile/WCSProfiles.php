@@ -28,13 +28,14 @@ class WCSProfiles extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WCS Profiles',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146072
+             * line : 101550
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WCSProfiles extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:WCSProfiles',
             'desc' => [
+                'en' => 'WCS Profiles',
             ],
         ],
     ];

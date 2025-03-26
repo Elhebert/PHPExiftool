@@ -28,13 +28,14 @@ class AFInfoSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Info Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4119
+             * line : 2590
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFInfoSize extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:AFInfoSize',
             'desc' => [
+                'en' => 'AF Info Size',
             ],
         ],
     ];

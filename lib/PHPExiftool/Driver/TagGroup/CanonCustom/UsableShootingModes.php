@@ -28,13 +28,14 @@ class UsableShootingModes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Usable Shooting Modes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72683
+             * line : 53952
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class UsableShootingModes extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:UsableShootingModes',
             'desc' => [
+                'en' => 'Usable Shooting Modes',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72689
+             * line : 53955
              * type : int32s
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class UsableShootingModes extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:UsableShootingModes',
             'desc' => [
+                'en' => 'Usable Shooting Modes',
             ],
         ],
     ];

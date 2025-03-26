@@ -28,13 +28,14 @@ class BaseISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Base ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155322
+             * line : 106538
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaseISO extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BaseISO',
             'desc' => [
+                'en' => 'Base ISO',
             ],
         ],
     ];

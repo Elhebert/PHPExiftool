@@ -28,13 +28,14 @@ class FolderNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Folder Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348317
+             * line : 243713
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FolderNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FolderNumber',
             'desc' => [
+                'en' => 'Folder Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351263
+             * line : 245244
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FolderNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FolderNumber',
             'desc' => [
+                'en' => 'Folder Number',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351442
+             * line : 245359
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FolderNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FolderNumber',
             'desc' => [
+                'en' => 'Folder Number',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 352077
+             * line : 245979
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class FolderNumber extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:FolderNumber',
             'desc' => [
+                'en' => 'Folder Number',
             ],
         ],
     ];

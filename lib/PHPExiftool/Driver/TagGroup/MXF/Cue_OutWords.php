@@ -28,13 +28,14 @@ class Cue_OutWords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue-Out Words',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168957
+             * line : 115421
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Cue_OutWords extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Cue-OutWords',
             'desc' => [
+                'en' => 'Cue-Out Words',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170753
+             * line : 116985
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Cue_OutWords extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Cue-OutWords',
             'desc' => [
+                'en' => 'Cue-Out Words',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class WB_RGBLevelsTungsten extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155215
+             * line : 106445
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_RGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:WB_RGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGB Levels Tungsten',
             ],
         ],
     ];

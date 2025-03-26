@@ -28,13 +28,14 @@ class Face2Birthday extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Face 2 Birthday',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::FaceRecInfo
-             * line : 128418
+             * line : 89085
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Face2Birthday extends AbstractTagGroup
              */
             'id' => 'FujiFilm::FaceRecInfo.FujiFilm:Face2Birthday',
             'desc' => [
+                'en' => 'Face 2 Birthday',
             ],
         ],
     ];

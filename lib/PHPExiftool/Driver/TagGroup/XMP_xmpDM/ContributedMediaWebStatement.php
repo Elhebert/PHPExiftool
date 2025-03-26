@@ -28,13 +28,14 @@ class ContributedMediaWebStatement extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contributed Media Web Statement',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413030
+             * line : 291187
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContributedMediaWebStatement extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:ContributedMediaWebStatement',
             'desc' => [
+                'en' => 'Contributed Media Web Statement',
             ],
         ],
     ];

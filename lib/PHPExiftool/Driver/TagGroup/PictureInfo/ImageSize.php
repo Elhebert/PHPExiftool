@@ -28,13 +28,14 @@ class ImageSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 661
+             * line : 254
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSize extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:ImageSize',
             'desc' => [
+                'en' => 'Image Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TimeTransparency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Transparency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395518
+             * line : 280065
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeTransparency extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:TimeTransparency',
             'desc' => [
+                'en' => 'Time Transparency',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SampleFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111734
+             * line : 81754
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleFormat extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:SampleFormat',
             'desc' => [
+                'en' => 'Sample Format',
             ],
         ],
     ];

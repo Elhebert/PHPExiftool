@@ -28,13 +28,14 @@ class R2TL84Width extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R2 TL84 Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 310136
+             * line : 216050
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class R2TL84Width extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:R2TL84Width',
             'desc' => [
+                'en' => 'R2 TL84 Width',
             ],
         ],
     ];

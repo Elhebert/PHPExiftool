@@ -28,13 +28,14 @@ class MeteringMode3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Metering Mode 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285351
+             * line : 197896
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeteringMode3 extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:MeteringMode3',
             'desc' => [
+                'en' => 'Metering Mode 3',
             ],
         ],
     ];

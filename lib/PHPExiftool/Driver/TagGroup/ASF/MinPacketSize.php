@@ -28,13 +28,14 @@ class MinPacketSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Min Packet Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1762
+             * line : 881
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinPacketSize extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:MinPacketSize',
             'desc' => [
+                'en' => 'Min Packet Size',
             ],
         ],
     ];

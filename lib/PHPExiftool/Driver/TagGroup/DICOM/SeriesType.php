@@ -28,13 +28,14 @@ class SeriesType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100960
+             * line : 74112
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SeriesType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SeriesType',
             'desc' => [
+                'en' => 'Series Type',
             ],
         ],
     ];

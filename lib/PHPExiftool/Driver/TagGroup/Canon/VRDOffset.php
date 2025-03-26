@@ -28,13 +28,14 @@ class VRDOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'VRD Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65979
+             * line : 50094
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VRDOffset extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:VRDOffset',
             'desc' => [
+                'en' => 'VRD Offset',
             ],
         ],
     ];

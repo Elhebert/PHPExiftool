@@ -28,13 +28,14 @@ class Grouping extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grouping',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148450
+             * line : 103098
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Grouping extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:Grouping',
             'desc' => [
+                'en' => 'Grouping',
             ],
         ],
     ];

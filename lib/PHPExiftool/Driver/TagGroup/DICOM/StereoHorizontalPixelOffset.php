@@ -28,13 +28,14 @@ class StereoHorizontalPixelOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stereo Horizontal Pixel Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98345
+             * line : 71680
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StereoHorizontalPixelOffset extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StereoHorizontalPixelOffset',
             'desc' => [
+                'en' => 'Stereo Horizontal Pixel Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102419
+             * line : 75519
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureSequence',
             'desc' => [
+                'en' => 'Exposure Sequence',
             ],
         ],
     ];

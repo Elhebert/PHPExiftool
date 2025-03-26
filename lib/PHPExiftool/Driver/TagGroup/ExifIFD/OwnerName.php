@@ -28,13 +28,14 @@ class OwnerName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Owner Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117860
+             * line : 83671
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class OwnerName extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OwnerName',
             'desc' => [
+                'en' => 'Owner Name',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 120793
+             * line : 84900
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class OwnerName extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OwnerName',
             'desc' => [
+                'en' => 'Owner Name',
             ],
         ],
     ];

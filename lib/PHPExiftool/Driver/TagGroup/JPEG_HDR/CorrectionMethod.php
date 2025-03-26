@@ -28,13 +28,14 @@ class CorrectionMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Correction Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::HDR
-             * line : 152474
+             * line : 104935
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CorrectionMethod extends AbstractTagGroup
              */
             'id' => 'JPEG::HDR.JPEG-HDR:CorrectionMethod',
             'desc' => [
+                'en' => 'Correction Method',
             ],
         ],
     ];

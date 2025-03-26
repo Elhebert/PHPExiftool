@@ -28,13 +28,14 @@ class PGFVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PGF Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PGF::Main
-             * line : 264465
+             * line : 182807
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PGFVersion extends AbstractTagGroup
              */
             'id' => 'PGF::Main.File:PGFVersion',
             'desc' => [
+                'en' => 'PGF Version',
             ],
         ],
     ];

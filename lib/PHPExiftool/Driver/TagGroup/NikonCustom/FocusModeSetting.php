@@ -28,13 +28,14 @@ class FocusModeSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 217169
+             * line : 145920
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusModeSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:FocusModeSetting',
             'desc' => [
+                'en' => 'Focus Mode Setting',
             ],
         ],
     ];

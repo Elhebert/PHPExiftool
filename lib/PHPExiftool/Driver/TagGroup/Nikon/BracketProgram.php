@@ -28,13 +28,14 @@ class BracketProgram extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bracket Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201158
+             * line : 136052
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BracketProgram extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:BracketProgram',
             'desc' => [
+                'en' => 'Bracket Program',
             ],
         ],
     ];

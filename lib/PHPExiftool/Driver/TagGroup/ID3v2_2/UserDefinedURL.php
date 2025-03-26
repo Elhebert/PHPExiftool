@@ -28,13 +28,14 @@ class UserDefinedURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Defined URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148525
+             * line : 103137
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserDefinedURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:UserDefinedURL',
             'desc' => [
+                'en' => 'User Defined URL',
             ],
         ],
     ];

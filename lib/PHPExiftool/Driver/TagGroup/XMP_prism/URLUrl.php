@@ -28,13 +28,14 @@ class URLUrl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'URL Url',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411170
+             * line : 290368
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class URLUrl extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:URLUrl',
             'desc' => [
+                'en' => 'URL Url',
             ],
         ],
     ];

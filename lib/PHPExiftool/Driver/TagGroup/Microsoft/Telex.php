@@ -28,13 +28,14 @@ class Telex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Telex',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176253
+             * line : 121290
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Telex extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Telex',
             'desc' => [
+                'en' => 'Telex',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFFarEnd extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Far End',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306227
+             * line : 212732
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFFarEnd extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFFarEnd',
             'desc' => [
+                'en' => 'AF Far End',
             ],
         ],
     ];

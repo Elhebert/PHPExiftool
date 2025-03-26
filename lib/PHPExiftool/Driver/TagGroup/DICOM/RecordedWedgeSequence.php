@@ -28,13 +28,14 @@ class RecordedWedgeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recorded Wedge Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102819
+             * line : 75915
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordedWedgeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecordedWedgeSequence',
             'desc' => [
+                'en' => 'Recorded Wedge Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class URLList1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL List 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Torrent::Main
-             * line : 395074
+             * line : 279834
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URLList1 extends AbstractTagGroup
              */
             'id' => 'Torrent::Main.Torrent:URLList1',
             'desc' => [
+                'en' => 'URL List 1',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Ad_ID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ad-ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172295
+             * line : 118459
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Ad_ID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Ad-ID',
             'desc' => [
+                'en' => 'Ad-ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CryptographicKeyID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cryptographic Key ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172036
+             * line : 118210
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CryptographicKeyID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CryptographicKeyID',
             'desc' => [
+                'en' => 'Cryptographic Key ID',
             ],
         ],
     ];

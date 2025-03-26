@@ -28,13 +28,14 @@ class Product extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328356
+             * line : 231595
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Product extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Product',
             'desc' => [
+                'en' => 'Product',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328699
+             * line : 231786
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Product extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:Product',
             'desc' => [
+                'en' => 'Product',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OperationDefinitionID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operation Definition ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169390
+             * line : 115797
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OperationDefinitionID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OperationDefinitionID',
             'desc' => [
+                'en' => 'Operation Definition ID',
             ],
         ],
     ];

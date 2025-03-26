@@ -28,13 +28,14 @@ class WindowValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Window Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100333
+             * line : 73506
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WindowValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:WindowValue',
             'desc' => [
+                'en' => 'Window Value',
             ],
         ],
     ];

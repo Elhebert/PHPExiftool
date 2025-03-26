@@ -28,13 +28,14 @@ class StrobeTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strobe Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 781
+             * line : 286
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StrobeTime extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:StrobeTime',
             'desc' => [
+                'en' => 'Strobe Time',
             ],
         ],
     ];

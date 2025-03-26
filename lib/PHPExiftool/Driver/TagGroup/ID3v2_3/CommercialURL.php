@@ -28,13 +28,14 @@ class CommercialURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Commercial URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_3
-             * line : 149045
+             * line : 103406
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommercialURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_3.ID3v2_3:CommercialURL',
             'desc' => [
+                'en' => 'Commercial URL',
             ],
         ],
     ];

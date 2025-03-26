@@ -28,13 +28,14 @@ class ROIDisplayColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Display Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102556
+             * line : 75654
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIDisplayColor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIDisplayColor',
             'desc' => [
+                'en' => 'ROI Display Color',
             ],
         ],
     ];

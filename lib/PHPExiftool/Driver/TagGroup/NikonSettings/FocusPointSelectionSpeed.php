@@ -28,13 +28,14 @@ class FocusPointSelectionSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Point Selection Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248959
+             * line : 171639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusPointSelectionSpeed extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FocusPointSelectionSpeed',
             'desc' => [
+                'en' => 'Focus Point Selection Speed',
             ],
         ],
     ];

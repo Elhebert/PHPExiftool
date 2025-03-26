@@ -28,13 +28,14 @@ class TTY_TTDPhone extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'TTY-TTD Phone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176166
+             * line : 121233
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TTY_TTDPhone extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:TTY-TTDPhone',
             'desc' => [
+                'en' => 'TTY-TTD Phone',
             ],
         ],
     ];

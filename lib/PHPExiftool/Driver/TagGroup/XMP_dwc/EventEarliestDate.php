@@ -28,13 +28,14 @@ class EventEarliestDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Event Earliest Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106069
+             * line : 78449
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EventEarliestDate extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:EventEarliestDate',
             'desc' => [
+                'en' => 'Event Earliest Date',
             ],
         ],
     ];

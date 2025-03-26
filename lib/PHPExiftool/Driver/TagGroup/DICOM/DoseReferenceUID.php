@@ -28,13 +28,14 @@ class DoseReferenceUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dose Reference UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102972
+             * line : 76068
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoseReferenceUID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoseReferenceUID',
             'desc' => [
+                'en' => 'Dose Reference UID',
             ],
         ],
     ];

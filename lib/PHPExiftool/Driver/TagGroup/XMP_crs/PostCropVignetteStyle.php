@@ -28,13 +28,14 @@ class PostCropVignetteStyle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Post Crop Vignette Style',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403922
+             * line : 287039
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PostCropVignetteStyle extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PostCropVignetteStyle',
             'desc' => [
+                'en' => 'Post Crop Vignette Style',
             ],
         ],
     ];

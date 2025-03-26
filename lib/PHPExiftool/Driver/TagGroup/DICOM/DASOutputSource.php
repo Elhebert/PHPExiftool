@@ -28,13 +28,14 @@ class DASOutputSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Output Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100463
+             * line : 73635
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASOutputSource extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASOutputSource',
             'desc' => [
+                'en' => 'DAS Output Source',
             ],
         ],
     ];

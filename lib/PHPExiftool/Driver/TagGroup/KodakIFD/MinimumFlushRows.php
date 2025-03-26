@@ -28,13 +28,14 @@ class MinimumFlushRows extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Minimum Flush Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155063
+             * line : 106313
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MinimumFlushRows extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MinimumFlushRows',
             'desc' => [
+                'en' => 'Minimum Flush Rows',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class IsRecurring extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Recurring',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175643
+             * line : 120885
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsRecurring extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:IsRecurring',
             'desc' => [
+                'en' => 'Is Recurring',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DeviantWhiteFlash extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Deviant White Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155180
+             * line : 106430
              * type : rational64s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class DeviantWhiteFlash extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DeviantWhiteFlash',
             'desc' => [
+                'en' => 'Deviant White Flash',
             ],
         ],
     ];

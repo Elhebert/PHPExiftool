@@ -28,13 +28,14 @@ class LiveViewAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222608
+             * line : 150221
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LiveViewAF extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:LiveViewAF',
             'desc' => [
+                'en' => 'Live View AF',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 235083
+             * line : 158426
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LiveViewAF extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:LiveViewAF',
             'desc' => [
+                'en' => 'Live View AF',
             ],
         ],
     ];

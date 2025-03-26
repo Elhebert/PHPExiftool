@@ -28,13 +28,14 @@ class Spouse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spouse',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176146
+             * line : 121215
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Spouse extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Spouse',
             'desc' => [
+                'en' => 'Spouse',
             ],
         ],
     ];

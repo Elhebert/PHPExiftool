@@ -28,13 +28,14 @@ class DarkBlackSegRows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dark Black Seg Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157311
+             * line : 108503
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DarkBlackSegRows extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DarkBlackSegRows',
             'desc' => [
+                'en' => 'Dark Black Seg Rows',
             ],
         ],
     ];

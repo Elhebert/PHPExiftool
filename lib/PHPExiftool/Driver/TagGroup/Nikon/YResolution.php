@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191613
+             * line : 129982
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

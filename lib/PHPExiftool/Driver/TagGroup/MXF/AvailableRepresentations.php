@@ -28,13 +28,14 @@ class AvailableRepresentations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Available Representations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169566
+             * line : 115959
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvailableRepresentations extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:AvailableRepresentations',
             'desc' => [
+                'en' => 'Available Representations',
             ],
         ],
     ];

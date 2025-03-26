@@ -28,13 +28,14 @@ class AccelerationVector extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Acceleration Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Apple::Main
-             * line : 2886
+             * line : 1855
              * type : rational64s
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class AccelerationVector extends AbstractTagGroup
              */
             'id' => 'Apple::Main.Apple:AccelerationVector',
             'desc' => [
+                'en' => 'Acceleration Vector',
             ],
         ],
     ];

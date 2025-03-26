@@ -28,13 +28,14 @@ class IsocenterToRangeShifterDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Isocenter To Range Shifter Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103858
+             * line : 76947
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsocenterToRangeShifterDistance extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IsocenterToRangeShifterDistance',
             'desc' => [
+                'en' => 'Isocenter To Range Shifter Distance',
             ],
         ],
     ];

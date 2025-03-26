@@ -28,13 +28,14 @@ class FormFields extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Form Fields',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::TransformParams
-             * line : 264415
+             * line : 182768
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FormFields extends AbstractTagGroup
              */
             'id' => 'PDF::TransformParams.PDF:FormFields',
             'desc' => [
+                'en' => 'Form Fields',
             ],
         ],
     ];

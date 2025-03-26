@@ -28,13 +28,14 @@ class StackedImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stacked Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252916
+             * line : 174331
              * type : int32u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class StackedImage extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:StackedImage',
             'desc' => [
+                'en' => 'Stacked Image',
             ],
         ],
     ];

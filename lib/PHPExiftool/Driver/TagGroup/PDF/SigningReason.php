@@ -28,13 +28,14 @@ class SigningReason extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signing Reason',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Signature
-             * line : 264376
+             * line : 182738
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SigningReason extends AbstractTagGroup
              */
             'id' => 'PDF::Signature.PDF:SigningReason',
             'desc' => [
+                'en' => 'Signing Reason',
             ],
         ],
     ];

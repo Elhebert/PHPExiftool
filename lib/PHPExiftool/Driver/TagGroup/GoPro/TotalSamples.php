@@ -28,13 +28,14 @@ class TotalSamples extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Samples',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139808
+             * line : 97767
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalSamples extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:TotalSamples',
             'desc' => [
+                'en' => 'Total Samples',
             ],
         ],
     ];

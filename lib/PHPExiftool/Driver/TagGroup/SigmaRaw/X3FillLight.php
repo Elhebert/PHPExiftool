@@ -28,13 +28,14 @@ class X3FillLight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X3 Fill Light',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::HeaderExt
-             * line : 339573
+             * line : 237576
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class X3FillLight extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::HeaderExt.SigmaRaw:X3FillLight',
             'desc' => [
+                'en' => 'X3 Fill Light',
             ],
         ],
     ];

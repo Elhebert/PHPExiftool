@@ -28,13 +28,14 @@ class TranscriptLinkLink extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Transcript Link Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409851
+             * line : 289610
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TranscriptLinkLink extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:TranscriptLinkLink',
             'desc' => [
+                'en' => 'Transcript Link Link',
             ],
         ],
     ];

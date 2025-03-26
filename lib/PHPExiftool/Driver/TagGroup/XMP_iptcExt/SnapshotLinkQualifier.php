@@ -28,13 +28,14 @@ class SnapshotLinkQualifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Snapshot Link Qualifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409757
+             * line : 289516
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SnapshotLinkQualifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:SnapshotLinkQualifier',
             'desc' => [
+                'en' => 'Snapshot Link Qualifier',
             ],
         ],
     ];

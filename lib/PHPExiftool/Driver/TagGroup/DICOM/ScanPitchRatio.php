@@ -28,13 +28,14 @@ class ScanPitchRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scan Pitch Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100394
+             * line : 73566
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScanPitchRatio extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ScanPitchRatio',
             'desc' => [
+                'en' => 'Scan Pitch Ratio',
             ],
         ],
     ];

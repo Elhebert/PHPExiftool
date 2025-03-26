@@ -28,13 +28,14 @@ class EchoTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Echo Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95522
+             * line : 68977
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EchoTime extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EchoTime',
             'desc' => [
+                'en' => 'Echo Time',
             ],
         ],
     ];

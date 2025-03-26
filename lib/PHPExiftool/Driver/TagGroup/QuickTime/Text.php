@@ -28,13 +28,14 @@ class Text extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Text',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GenMediaHeader
-             * line : 313227
+             * line : 218981
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Text extends AbstractTagGroup
              */
             'id' => 'QuickTime::GenMediaHeader.QuickTime:Text',
             'desc' => [
+                'en' => 'Text',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324906
+             * line : 229390
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class Text extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:Text',
             'desc' => [
+                'en' => 'Text',
             ],
         ],
         2 => [
             /**
              * table_name : QuickTime::tx3g
-             * line : 326830
+             * line : 230501
              * type : ?
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class Text extends AbstractTagGroup
              */
             'id' => 'QuickTime::tx3g.QuickTime:Text',
             'desc' => [
+                'en' => 'Text',
             ],
         ],
     ];

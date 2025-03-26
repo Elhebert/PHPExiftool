@@ -28,13 +28,14 @@ class AttachedFileUID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Attached File UID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173550
+             * line : 119479
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AttachedFileUID extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:AttachedFileUID',
             'desc' => [
+                'en' => 'Attached File UID',
             ],
         ],
     ];

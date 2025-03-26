@@ -28,13 +28,14 @@ class Frequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174675
+             * line : 120245
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Frequency extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Frequency',
             'desc' => [
+                'en' => 'Frequency',
             ],
         ],
     ];

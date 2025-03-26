@@ -28,13 +28,14 @@ class Vignetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignetting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335620
+             * line : 235514
              * type : int16u
              * writable : true
              * count : 15
@@ -42,6 +43,7 @@ class Vignetting extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:Vignetting',
             'desc' => [
+                'en' => 'Vignetting',
             ],
         ],
     ];

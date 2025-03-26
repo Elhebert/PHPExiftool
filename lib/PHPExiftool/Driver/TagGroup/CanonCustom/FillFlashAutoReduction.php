@@ -28,13 +28,14 @@ class FillFlashAutoReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fill Flash Auto Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71751
+             * line : 53412
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FillFlashAutoReduction extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:FillFlashAutoReduction',
             'desc' => [
+                'en' => 'Fill Flash Auto Reduction',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions1D
-             * line : 72216
+             * line : 53674
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FillFlashAutoReduction extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions1D.CanonCustom:FillFlashAutoReduction',
             'desc' => [
+                'en' => 'Fill Flash Auto Reduction',
             ],
         ],
         2 => [
             /**
              * table_name : CanonCustom::FunctionsD30
-             * line : 78126
+             * line : 56899
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FillFlashAutoReduction extends AbstractTagGroup
              */
             'id' => 'CanonCustom::FunctionsD30.CanonCustom:FillFlashAutoReduction',
             'desc' => [
+                'en' => 'Fill Flash Auto Reduction',
             ],
         ],
     ];

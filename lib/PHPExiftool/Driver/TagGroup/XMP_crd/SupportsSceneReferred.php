@@ -28,13 +28,14 @@ class SupportsSceneReferred extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supports Scene Referred',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401108
+             * line : 284543
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SupportsSceneReferred extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:SupportsSceneReferred',
             'desc' => [
+                'en' => 'Supports Scene Referred',
             ],
         ],
     ];

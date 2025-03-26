@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::MOV
-             * line : 128793
+             * line : 89337
              * type : rational64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'FujiFilm::MOV.FujiFilm:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

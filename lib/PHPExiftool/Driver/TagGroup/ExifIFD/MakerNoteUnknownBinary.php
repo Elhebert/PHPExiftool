@@ -28,13 +28,14 @@ class MakerNoteUnknownBinary extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Unknown Binary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105240
+             * line : 77999
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteUnknownBinary extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteUnknownBinary',
             'desc' => [
+                'en' => 'Maker Note Unknown Binary',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116201
+             * line : 83292
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteUnknownBinary extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteUnknownBinary',
             'desc' => [
+                'en' => 'Maker Note Unknown Binary',
             ],
         ],
     ];

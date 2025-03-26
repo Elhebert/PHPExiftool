@@ -28,13 +28,14 @@ class LastAuthor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Office
-             * line : 142609
+             * line : 98554
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastAuthor extends AbstractTagGroup
              */
             'id' => 'HTML::Office.HTML-office:LastAuthor',
             'desc' => [
+                'en' => 'Last Author',
             ],
         ],
     ];

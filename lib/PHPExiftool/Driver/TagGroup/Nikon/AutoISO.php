@@ -28,13 +28,14 @@ class AutoISO extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Auto ISO',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200457
+             * line : 135412
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AutoISO extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:AutoISO',
             'desc' => [
+                'en' => 'Auto ISO',
             ],
         ],
     ];

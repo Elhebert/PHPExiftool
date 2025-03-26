@@ -28,13 +28,14 @@ class CalciumScoringMassFactorPatient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calcium Scoring Mass Factor Patient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97072
+             * line : 70471
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalciumScoringMassFactorPatient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CalciumScoringMassFactorPatient',
             'desc' => [
+                'en' => 'Calcium Scoring Mass Factor Patient',
             ],
         ],
     ];

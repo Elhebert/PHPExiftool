@@ -28,13 +28,14 @@ class VideoHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175241
+             * line : 120675
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoHeight extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:VideoHeight',
             'desc' => [
+                'en' => 'Video Height',
             ],
         ],
     ];

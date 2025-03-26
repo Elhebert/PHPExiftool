@@ -28,13 +28,14 @@ class CurveDataDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Curve Data Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104182
+             * line : 77268
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurveDataDescriptor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurveDataDescriptor',
             'desc' => [
+                'en' => 'Curve Data Descriptor',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OmenFocalLengthLimit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Omen Focal Length Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155663
+             * line : 106874
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OmenFocalLengthLimit extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenFocalLengthLimit',
             'desc' => [
+                'en' => 'Omen Focal Length Limit',
             ],
         ],
     ];

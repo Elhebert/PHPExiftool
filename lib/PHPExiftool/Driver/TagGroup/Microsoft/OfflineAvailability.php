@@ -28,13 +28,14 @@ class OfflineAvailability extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Offline Availability',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176160
+             * line : 121227
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OfflineAvailability extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:OfflineAvailability',
             'desc' => [
+                'en' => 'Offline Availability',
             ],
         ],
     ];

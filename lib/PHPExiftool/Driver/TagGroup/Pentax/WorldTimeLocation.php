@@ -28,13 +28,14 @@ class WorldTimeLocation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'World Time Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298146
+             * line : 207950
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WorldTimeLocation extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:WorldTimeLocation',
             'desc' => [
+                'en' => 'World Time Location',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::TimeInfo
-             * line : 301832
+             * line : 210016
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WorldTimeLocation extends AbstractTagGroup
              */
             'id' => 'Pentax::TimeInfo.Pentax:WorldTimeLocation',
             'desc' => [
+                'en' => 'World Time Location',
             ],
         ],
     ];

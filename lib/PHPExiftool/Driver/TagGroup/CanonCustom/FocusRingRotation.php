@@ -28,13 +28,14 @@ class FocusRingRotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Ring Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75330
+             * line : 55475
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusRingRotation extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:FocusRingRotation',
             'desc' => [
+                'en' => 'Focus Ring Rotation',
             ],
         ],
     ];

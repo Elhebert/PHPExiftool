@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162153
+             * line : 110821
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

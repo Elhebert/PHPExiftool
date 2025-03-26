@@ -28,13 +28,14 @@ class DateTimeCompleted extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time Completed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395321
+             * line : 279978
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeCompleted extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:DateTimeCompleted',
             'desc' => [
+                'en' => 'Date Time Completed',
             ],
         ],
     ];

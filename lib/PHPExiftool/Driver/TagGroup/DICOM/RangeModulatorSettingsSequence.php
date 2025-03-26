@@ -28,13 +28,14 @@ class RangeModulatorSettingsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Range Modulator Settings Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103873
+             * line : 76962
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RangeModulatorSettingsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RangeModulatorSettingsSequence',
             'desc' => [
+                'en' => 'Range Modulator Settings Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIF::Main
-             * line : 121992
+             * line : 85470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageType extends AbstractTagGroup
              */
             'id' => 'FLIF::Main.File:ImageType',
             'desc' => [
+                'en' => 'Image Type',
             ],
         ],
     ];

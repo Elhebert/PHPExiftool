@@ -28,13 +28,14 @@ class ColorCompensationFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Compensation Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 356483
+             * line : 248757
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorCompensationFilter extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ColorCompensationFilter',
             'desc' => [
+                'en' => 'Color Compensation Filter',
             ],
         ],
     ];

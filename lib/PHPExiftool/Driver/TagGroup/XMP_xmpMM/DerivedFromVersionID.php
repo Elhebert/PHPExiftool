@@ -28,13 +28,14 @@ class DerivedFromVersionID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Derived From Version ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413873
+             * line : 291902
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DerivedFromVersionID extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:DerivedFromVersionID',
             'desc' => [
+                'en' => 'Derived From Version ID',
             ],
         ],
     ];

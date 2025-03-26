@@ -28,13 +28,14 @@ class MDItemColorSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172600
+             * line : 118745
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemColorSpace extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemColorSpace',
             'desc' => [
+                'en' => 'MD Item Color Space',
             ],
         ],
     ];

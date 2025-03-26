@@ -28,13 +28,14 @@ class UUID_Unknown extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UUID-Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323878
+             * line : 228867
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class UUID_Unknown extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:UUID-Unknown',
             'desc' => [
+                'en' => 'UUID-Unknown',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Movie
-             * line : 324064
+             * line : 228994
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class UUID_Unknown extends AbstractTagGroup
              */
             'id' => 'QuickTime::Movie.QuickTime:UUID-Unknown',
             'desc' => [
+                'en' => 'UUID-Unknown',
             ],
         ],
     ];

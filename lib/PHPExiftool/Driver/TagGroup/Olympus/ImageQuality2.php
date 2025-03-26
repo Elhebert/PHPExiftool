@@ -28,13 +28,14 @@ class ImageQuality2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Quality 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 252846
+             * line : 174291
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageQuality2 extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:ImageQuality2',
             'desc' => [
+                'en' => 'Image Quality 2',
             ],
         ],
     ];

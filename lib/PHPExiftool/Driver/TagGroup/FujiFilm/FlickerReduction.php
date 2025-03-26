@@ -28,13 +28,14 @@ class FlickerReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flicker Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130869
+             * line : 90392
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlickerReduction extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FlickerReduction',
             'desc' => [
+                'en' => 'Flicker Reduction',
             ],
         ],
     ];

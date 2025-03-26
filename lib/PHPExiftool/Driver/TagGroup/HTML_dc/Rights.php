@@ -28,13 +28,14 @@ class Rights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::dc
-             * line : 142778
+             * line : 98627
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Rights extends AbstractTagGroup
              */
             'id' => 'HTML::dc.HTML-dc:Rights',
             'desc' => [
+                'en' => 'Rights',
             ],
         ],
     ];

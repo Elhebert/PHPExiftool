@@ -28,13 +28,14 @@ class UTMNorthing extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'UTM Northing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::UTM
-             * line : 164207
+             * line : 111662
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UTMNorthing extends AbstractTagGroup
              */
             'id' => 'MIE::UTM.MIE-UTM:UTMNorthing',
             'desc' => [
+                'en' => 'UTM Northing',
             ],
         ],
     ];

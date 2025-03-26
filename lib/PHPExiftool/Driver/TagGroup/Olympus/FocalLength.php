@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::MOV1
-             * line : 256570
+             * line : 177300
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV1.Olympus:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::MOV2
-             * line : 256682
+             * line : 177322
              * type : rational64u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Olympus::MOV2.Olympus:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

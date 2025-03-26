@@ -28,13 +28,14 @@ class RecordInUseFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Record In Use Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94613
+             * line : 68113
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordInUseFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RecordInUseFlag',
             'desc' => [
+                'en' => 'Record In Use Flag',
             ],
         ],
     ];

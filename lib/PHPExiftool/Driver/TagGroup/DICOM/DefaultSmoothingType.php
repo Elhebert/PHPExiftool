@@ -28,13 +28,14 @@ class DefaultSmoothingType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Default Smoothing Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102076
+             * line : 75213
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DefaultSmoothingType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DefaultSmoothingType',
             'desc' => [
+                'en' => 'Default Smoothing Type',
             ],
         ],
     ];

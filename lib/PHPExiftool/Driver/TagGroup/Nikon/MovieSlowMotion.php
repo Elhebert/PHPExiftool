@@ -28,13 +28,14 @@ class MovieSlowMotion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Slow Motion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 200093
+             * line : 135057
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieSlowMotion extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:MovieSlowMotion',
             'desc' => [
+                'en' => 'Movie Slow Motion',
             ],
         ],
     ];

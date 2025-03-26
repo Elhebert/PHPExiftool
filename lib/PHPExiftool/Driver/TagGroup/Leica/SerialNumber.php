@@ -28,13 +28,14 @@ class SerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274336
+             * line : 191342
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Leica5
-             * line : 274785
+             * line : 191614
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica5.Leica:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::SerialInfo
-             * line : 278899
+             * line : 193865
              * type : string
              * writable : false
              * count : 8
@@ -68,12 +71,13 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::SerialInfo.Leica:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
         3 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279385
+             * line : 194017
              * type : string
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class SerialNumber extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:SerialNumber',
             'desc' => [
+                'en' => 'Serial Number',
             ],
         ],
     ];

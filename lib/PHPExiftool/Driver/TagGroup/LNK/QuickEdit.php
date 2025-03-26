@@ -28,13 +28,14 @@ class QuickEdit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quick Edit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161020
+             * line : 109952
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class QuickEdit extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:QuickEdit',
             'desc' => [
+                'en' => 'Quick Edit',
             ],
         ],
     ];

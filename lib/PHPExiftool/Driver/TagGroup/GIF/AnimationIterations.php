@@ -28,13 +28,14 @@ class AnimationIterations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Animation Iterations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Animation
-             * line : 131236
+             * line : 90629
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnimationIterations extends AbstractTagGroup
              */
             'id' => 'GIF::Animation.GIF:AnimationIterations',
             'desc' => [
+                'en' => 'Animation Iterations',
             ],
         ],
     ];

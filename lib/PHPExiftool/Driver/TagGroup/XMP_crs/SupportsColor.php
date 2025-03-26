@@ -28,13 +28,14 @@ class SupportsColor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supports Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404412
+             * line : 287477
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SupportsColor extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:SupportsColor',
             'desc' => [
+                'en' => 'Supports Color',
             ],
         ],
     ];

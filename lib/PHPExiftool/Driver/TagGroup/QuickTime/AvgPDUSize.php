@@ -28,13 +28,14 @@ class AvgPDUSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Avg PDU Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintHeader
-             * line : 313715
+             * line : 219459
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvgPDUSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintHeader.QuickTime:AvgPDUSize',
             'desc' => [
+                'en' => 'Avg PDU Size',
             ],
         ],
     ];

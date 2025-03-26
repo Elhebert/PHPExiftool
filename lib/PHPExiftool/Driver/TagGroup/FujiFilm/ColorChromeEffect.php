@@ -28,13 +28,14 @@ class ColorChromeEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Chrome Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130208
+             * line : 89961
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorChromeEffect extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ColorChromeEffect',
             'desc' => [
+                'en' => 'Color Chrome Effect',
             ],
         ],
     ];

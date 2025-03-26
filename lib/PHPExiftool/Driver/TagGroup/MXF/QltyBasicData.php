@@ -28,13 +28,14 @@ class QltyBasicData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Qlty Basic Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171348
+             * line : 117550
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class QltyBasicData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyBasicData',
             'desc' => [
+                'en' => 'Qlty Basic Data',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171351
+             * line : 117553
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class QltyBasicData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyBasicData',
             'desc' => [
+                'en' => 'Qlty Basic Data',
             ],
         ],
     ];

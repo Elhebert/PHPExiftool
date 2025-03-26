@@ -28,13 +28,14 @@ class SyncSampleTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sync Sample Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324440
+             * line : 229230
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SyncSampleTable extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:SyncSampleTable',
             'desc' => [
+                'en' => 'Sync Sample Table',
             ],
         ],
     ];

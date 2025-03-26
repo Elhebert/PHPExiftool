@@ -28,13 +28,14 @@ class DarkThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dark Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156107
+             * line : 107318
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DarkThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DarkThreshold',
             'desc' => [
+                'en' => 'Dark Threshold',
             ],
         ],
     ];

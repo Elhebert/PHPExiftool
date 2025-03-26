@@ -28,13 +28,14 @@ class DisplayWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167871
+             * line : 114425
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayWidth extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DisplayWidth',
             'desc' => [
+                'en' => 'Display Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NumSampleFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Num Sample Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : AIFF::Common
-             * line : 95
+             * line : 36
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumSampleFrames extends AbstractTagGroup
              */
             'id' => 'AIFF::Common.AIFF:NumSampleFrames',
             'desc' => [
+                'en' => 'Num Sample Frames',
             ],
         ],
     ];

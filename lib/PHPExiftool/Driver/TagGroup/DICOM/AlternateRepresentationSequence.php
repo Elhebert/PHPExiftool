@@ -28,13 +28,14 @@ class AlternateRepresentationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alternate Representation Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95087
+             * line : 68569
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlternateRepresentationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AlternateRepresentationSequence',
             'desc' => [
+                'en' => 'Alternate Representation Sequence',
             ],
         ],
     ];

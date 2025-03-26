@@ -28,13 +28,14 @@ class GarminSoftware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Garmin Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325700
+             * line : 229799
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GarminSoftware extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:GarminSoftware',
             'desc' => [
+                'en' => 'Garmin Software',
             ],
         ],
     ];

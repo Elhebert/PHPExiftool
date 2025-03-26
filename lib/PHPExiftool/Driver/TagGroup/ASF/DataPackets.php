@@ -28,13 +28,14 @@ class DataPackets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Packets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1740
+             * line : 866
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataPackets extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:DataPackets',
             'desc' => [
+                'en' => 'Data Packets',
             ],
         ],
     ];

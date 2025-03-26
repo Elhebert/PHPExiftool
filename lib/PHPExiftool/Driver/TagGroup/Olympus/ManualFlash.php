@@ -28,13 +28,14 @@ class ManualFlash extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manual Flash',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::FocusInfo
-             * line : 255095
+             * line : 176077
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class ManualFlash extends AbstractTagGroup
              */
             'id' => 'Olympus::FocusInfo.Olympus:ManualFlash',
             'desc' => [
+                'en' => 'Manual Flash',
             ],
         ],
     ];

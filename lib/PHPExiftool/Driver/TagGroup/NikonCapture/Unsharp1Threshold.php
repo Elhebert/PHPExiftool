@@ -28,13 +28,14 @@ class Unsharp1Threshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Unsharp 1 Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::UnsharpData
-             * line : 211362
+             * line : 142102
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Unsharp1Threshold extends AbstractTagGroup
              */
             'id' => 'NikonCapture::UnsharpData.NikonCapture:Unsharp1Threshold',
             'desc' => [
+                'en' => 'Unsharp 1 Threshold',
             ],
         ],
     ];

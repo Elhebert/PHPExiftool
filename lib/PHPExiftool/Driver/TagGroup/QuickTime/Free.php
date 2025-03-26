@@ -28,13 +28,14 @@ class Free extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Free',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323784
+             * line : 228825
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Free extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:Free',
             'desc' => [
+                'en' => 'Free',
             ],
         ],
     ];

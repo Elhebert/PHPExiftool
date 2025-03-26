@@ -28,13 +28,14 @@ class ZoomSourceWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zoom Source Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58685
+             * line : 45635
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ZoomSourceWidth extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:ZoomSourceWidth',
             'desc' => [
+                'en' => 'Zoom Source Width',
             ],
         ],
     ];

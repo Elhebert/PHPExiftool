@@ -28,13 +28,14 @@ class NumberList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154266
+             * line : 105921
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberList extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:NumberList',
             'desc' => [
+                'en' => 'Number List',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HyperfocalDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hyperfocal Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90370
+             * line : 65167
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HyperfocalDistance extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:HyperfocalDistance',
             'desc' => [
+                'en' => 'Hyperfocal Distance',
             ],
         ],
     ];

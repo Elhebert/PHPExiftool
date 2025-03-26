@@ -28,13 +28,14 @@ class PixelCorrectionScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pixel Correction Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155551
+             * line : 106763
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PixelCorrectionScale extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:PixelCorrectionScale',
             'desc' => [
+                'en' => 'Pixel Correction Scale',
             ],
         ],
     ];

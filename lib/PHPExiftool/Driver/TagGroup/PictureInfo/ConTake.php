@@ -28,13 +28,14 @@ class ConTake extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Con Take',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 545
+             * line : 222
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConTake extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:ConTake',
             'desc' => [
+                'en' => 'Con Take',
             ],
         ],
     ];

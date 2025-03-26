@@ -28,13 +28,14 @@ class InterventionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Intervention Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95470
+             * line : 68929
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterventionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterventionSequence',
             'desc' => [
+                'en' => 'Intervention Sequence',
             ],
         ],
     ];

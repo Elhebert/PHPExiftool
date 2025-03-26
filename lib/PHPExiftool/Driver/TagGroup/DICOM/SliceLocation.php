@@ -28,13 +28,14 @@ class SliceLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Slice Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97988
+             * line : 71335
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SliceLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SliceLocation',
             'desc' => [
+                'en' => 'Slice Location',
             ],
         ],
     ];

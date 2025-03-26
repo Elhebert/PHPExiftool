@@ -28,13 +28,14 @@ class AeProjectLink extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ae Project Link',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::creatorAtom
-             * line : 401453
+             * line : 284716
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AeProjectLink extends AbstractTagGroup
              */
             'id' => 'XMP::creatorAtom.XMP-creatorAtom:AeProjectLink',
             'desc' => [
+                'en' => 'Ae Project Link',
             ],
         ],
     ];

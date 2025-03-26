@@ -28,13 +28,14 @@ class Importance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Importance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395582
+             * line : 280113
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Importance extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Importance',
             'desc' => [
+                'en' => 'Importance',
             ],
         ],
     ];

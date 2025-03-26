@@ -28,13 +28,14 @@ class CPUArchitecture extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CPU Architecture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::ELF
-             * line : 107980
+             * line : 79704
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CPUArchitecture extends AbstractTagGroup
              */
             'id' => 'EXE::ELF.EXE:CPUArchitecture',
             'desc' => [
+                'en' => 'CPU Architecture',
             ],
         ],
         1 => [
             /**
              * table_name : EXE::MachO
-             * line : 108156
+             * line : 79842
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class CPUArchitecture extends AbstractTagGroup
              */
             'id' => 'EXE::MachO.EXE:CPUArchitecture',
             'desc' => [
+                'en' => 'CPU Architecture',
             ],
         ],
         2 => [
             /**
              * table_name : EXE::PEF
-             * line : 108965
+             * line : 80556
              * type : undef
              * writable : false
              * count : 4
@@ -68,6 +71,7 @@ class CPUArchitecture extends AbstractTagGroup
              */
             'id' => 'EXE::PEF.EXE:CPUArchitecture',
             'desc' => [
+                'en' => 'CPU Architecture',
             ],
         ],
     ];

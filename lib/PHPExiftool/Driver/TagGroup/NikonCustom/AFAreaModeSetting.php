@@ -28,13 +28,14 @@ class AFAreaModeSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Mode Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD40
-             * line : 217209
+             * line : 145937
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAreaModeSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD40.NikonCustom:AFAreaModeSetting',
             'desc' => [
+                'en' => 'AF Area Mode Setting',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 221983
+             * line : 149884
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFAreaModeSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:AFAreaModeSetting',
             'desc' => [
+                'en' => 'AF Area Mode Setting',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 228966
+             * line : 153982
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFAreaModeSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:AFAreaModeSetting',
             'desc' => [
+                'en' => 'AF Area Mode Setting',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 233924
+             * line : 157743
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class AFAreaModeSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:AFAreaModeSetting',
             'desc' => [
+                'en' => 'AF Area Mode Setting',
             ],
         ],
     ];

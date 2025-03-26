@@ -28,13 +28,14 @@ class NumberOffsets extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Number Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207905
+             * line : 140042
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NumberOffsets extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:NumberOffsets',
             'desc' => [
+                'en' => 'Number Offsets',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209309
+             * line : 141155
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class NumberOffsets extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:NumberOffsets',
             'desc' => [
+                'en' => 'Number Offsets',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoZ9
-             * line : 209392
+             * line : 141222
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class NumberOffsets extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ9.Nikon:NumberOffsets',
             'desc' => [
+                'en' => 'Number Offsets',
             ],
         ],
     ];

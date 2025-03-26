@@ -28,13 +28,14 @@ class NetworkID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Network ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94855
+             * line : 68341
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NetworkID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NetworkID',
             'desc' => [
+                'en' => 'Network ID',
             ],
         ],
     ];

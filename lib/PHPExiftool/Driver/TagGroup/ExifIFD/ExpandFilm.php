@@ -28,13 +28,14 @@ class ExpandFilm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Expand Film',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118011
+             * line : 83727
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExpandFilm extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ExpandFilm',
             'desc' => [
+                'en' => 'Expand Film',
             ],
         ],
     ];

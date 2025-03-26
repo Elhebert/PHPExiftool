@@ -28,13 +28,14 @@ class CalibrationIlluminant3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Calibration Illuminant 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120670
+             * line : 84793
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CalibrationIlluminant3 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:CalibrationIlluminant3',
             'desc' => [
+                'en' => 'Calibration Illuminant 3',
             ],
         ],
     ];

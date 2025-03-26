@@ -28,13 +28,14 @@ class AmbienceSelection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ambience Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Ambience
-             * line : 4308
+             * line : 2707
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AmbienceSelection extends AbstractTagGroup
              */
             'id' => 'Canon::Ambience.Canon:AmbienceSelection',
             'desc' => [
+                'en' => 'Ambience Selection',
             ],
         ],
     ];

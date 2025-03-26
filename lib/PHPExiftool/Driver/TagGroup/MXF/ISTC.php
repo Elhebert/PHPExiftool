@@ -28,13 +28,14 @@ class ISTC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISTC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167290
+             * line : 113922
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISTC extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ISTC',
             'desc' => [
+                'en' => 'ISTC',
             ],
         ],
     ];

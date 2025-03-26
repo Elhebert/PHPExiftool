@@ -28,13 +28,14 @@ class FileSubtype extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Subtype',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : EXE::PEVersion
-             * line : 109701
+             * line : 81113
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSubtype extends AbstractTagGroup
              */
             'id' => 'EXE::PEVersion.EXE:FileSubtype',
             'desc' => [
+                'en' => 'File Subtype',
             ],
         ],
     ];

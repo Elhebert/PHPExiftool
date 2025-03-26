@@ -28,13 +28,14 @@ class PlanckO extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Planck O',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122313
+             * line : 85677
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlanckO extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:PlanckO',
             'desc' => [
+                'en' => 'Planck O',
             ],
         ],
     ];

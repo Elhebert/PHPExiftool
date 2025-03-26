@@ -28,13 +28,14 @@ class SendDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Send Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::FileProperties
-             * line : 1752
+             * line : 872
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SendDuration extends AbstractTagGroup
              */
             'id' => 'ASF::FileProperties.ASF:SendDuration',
             'desc' => [
+                'en' => 'Send Duration',
             ],
         ],
     ];

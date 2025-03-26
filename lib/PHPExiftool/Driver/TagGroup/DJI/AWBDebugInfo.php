@@ -28,13 +28,14 @@ class AWBDebugInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Debug Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104467
+             * line : 77539
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBDebugInfo extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:AWBDebugInfo',
             'desc' => [
+                'en' => 'AWB Debug Info',
             ],
         ],
     ];

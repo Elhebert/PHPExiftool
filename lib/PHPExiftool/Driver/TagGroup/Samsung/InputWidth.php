@@ -28,13 +28,14 @@ class InputWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Input Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334199
+             * line : 234279
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InputWidth extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:InputWidth',
             'desc' => [
+                'en' => 'Input Width',
             ],
         ],
     ];

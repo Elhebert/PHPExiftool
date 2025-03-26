@@ -28,13 +28,14 @@ class Reserved1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reserved 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1850
+             * line : 946
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Reserved1 extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:Reserved1',
             'desc' => [
+                'en' => 'Reserved 1',
             ],
         ],
     ];

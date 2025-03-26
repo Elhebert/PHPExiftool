@@ -28,13 +28,14 @@ class ToningEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63718
+             * line : 48399
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ToningEffect extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:ToningEffect',
             'desc' => [
+                'en' => 'Toning Effect',
             ],
         ],
     ];

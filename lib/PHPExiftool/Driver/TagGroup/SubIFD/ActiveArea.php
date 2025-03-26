@@ -28,13 +28,14 @@ class ActiveArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Active Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119972
+             * line : 84384
              * type : int32u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ActiveArea extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:ActiveArea',
             'desc' => [
+                'en' => 'Active Area',
             ],
         ],
     ];

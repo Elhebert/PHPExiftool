@@ -28,13 +28,14 @@ class ActiveFormatDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Active Format Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171187
+             * line : 117405
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ActiveFormatDescriptor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ActiveFormatDescriptor',
             'desc' => [
+                'en' => 'Active Format Descriptor',
             ],
         ],
     ];

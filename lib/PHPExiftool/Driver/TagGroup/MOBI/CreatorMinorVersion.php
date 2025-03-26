@@ -28,13 +28,14 @@ class CreatorMinorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Creator Minor Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273591
+             * line : 190795
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CreatorMinorVersion extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:CreatorMinorVersion',
             'desc' => [
+                'en' => 'Creator Minor Version',
             ],
         ],
     ];

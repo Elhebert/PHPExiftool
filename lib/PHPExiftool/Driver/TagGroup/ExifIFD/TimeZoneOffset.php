@@ -28,13 +28,14 @@ class TimeZoneOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Zone Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113851
+             * line : 82595
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimeZoneOffset extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:TimeZoneOffset',
             'desc' => [
+                'en' => 'Time Zone Offset',
             ],
         ],
     ];

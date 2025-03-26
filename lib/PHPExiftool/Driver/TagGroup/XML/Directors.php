@@ -28,13 +28,14 @@ class Directors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Directors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265196
+             * line : 183324
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Directors extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:Directors',
             'desc' => [
+                'en' => 'Directors',
             ],
         ],
     ];

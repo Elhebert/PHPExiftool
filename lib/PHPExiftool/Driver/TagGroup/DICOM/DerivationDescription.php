@@ -28,13 +28,14 @@ class DerivationDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Derivation Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94988
+             * line : 68470
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DerivationDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DerivationDescription',
             'desc' => [
+                'en' => 'Derivation Description',
             ],
         ],
     ];

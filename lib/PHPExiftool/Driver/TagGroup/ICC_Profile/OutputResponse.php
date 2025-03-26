@@ -28,13 +28,14 @@ class OutputResponse extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Response',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146571
+             * line : 101862
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputResponse extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:OutputResponse',
             'desc' => [
+                'en' => 'Output Response',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class R2ATbl25 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'R2 A Tbl 25',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 308327
+             * line : 214631
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class R2ATbl25 extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:R2ATbl25',
             'desc' => [
+                'en' => 'R2 A Tbl 25',
             ],
         ],
     ];

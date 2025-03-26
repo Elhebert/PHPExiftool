@@ -28,13 +28,14 @@ class RedEyeReduction extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Red Eye Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90193
+             * line : 65112
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RedEyeReduction extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:RedEyeReduction',
             'desc' => [
+                'en' => 'Red Eye Reduction',
             ],
         ],
     ];

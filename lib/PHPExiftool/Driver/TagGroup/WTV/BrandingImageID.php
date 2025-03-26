@@ -28,13 +28,14 @@ class BrandingImageID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Branding Image ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396268
+             * line : 280545
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrandingImageID extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:BrandingImageID',
             'desc' => [
+                'en' => 'Branding Image ID',
             ],
         ],
     ];

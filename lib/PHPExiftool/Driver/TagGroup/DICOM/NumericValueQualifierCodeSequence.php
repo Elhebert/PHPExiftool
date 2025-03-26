@@ -28,13 +28,14 @@ class NumericValueQualifierCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Numeric Value Qualifier Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100178
+             * line : 73353
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumericValueQualifierCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumericValueQualifierCodeSequence',
             'desc' => [
+                'en' => 'Numeric Value Qualifier Code Sequence',
             ],
         ],
     ];

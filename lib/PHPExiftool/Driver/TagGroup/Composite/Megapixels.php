@@ -28,13 +28,14 @@ class Megapixels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Megapixels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90431
+             * line : 65185
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Megapixels extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:Megapixels',
             'desc' => [
+                'en' => 'Megapixels',
             ],
         ],
     ];

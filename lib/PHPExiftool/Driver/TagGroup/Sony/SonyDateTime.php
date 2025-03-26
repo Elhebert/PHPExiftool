@@ -28,13 +28,14 @@ class SonyDateTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sony Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ShotInfo
-             * line : 362023
+             * line : 252072
              * type : string
              * writable : true
              * count : 20
@@ -42,12 +43,13 @@ class SonyDateTime extends AbstractTagGroup
              */
             'id' => 'Sony::ShotInfo.Sony:SonyDateTime',
             'desc' => [
+                'en' => 'Sony Date Time',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 362982
+             * line : 252724
              * type : undef
              * writable : true
              * count : 7
@@ -55,12 +57,13 @@ class SonyDateTime extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:SonyDateTime',
             'desc' => [
+                'en' => 'Sony Date Time',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364005
+             * line : 253395
              * type : undef
              * writable : true
              * count : 7
@@ -68,12 +71,13 @@ class SonyDateTime extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:SonyDateTime',
             'desc' => [
+                'en' => 'Sony Date Time',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365006
+             * line : 254060
              * type : undef
              * writable : true
              * count : 7
@@ -81,12 +85,13 @@ class SonyDateTime extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:SonyDateTime',
             'desc' => [
+                'en' => 'Sony Date Time',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 365990
+             * line : 254711
              * type : undef
              * writable : true
              * count : 7
@@ -94,6 +99,7 @@ class SonyDateTime extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:SonyDateTime',
             'desc' => [
+                'en' => 'Sony Date Time',
             ],
         ],
     ];

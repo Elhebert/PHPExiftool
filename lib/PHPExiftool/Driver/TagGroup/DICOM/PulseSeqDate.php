@@ -28,13 +28,14 @@ class PulseSeqDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pulse Seq Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97634
+             * line : 71017
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PulseSeqDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PulseSeqDate',
             'desc' => [
+                'en' => 'Pulse Seq Date',
             ],
         ],
     ];

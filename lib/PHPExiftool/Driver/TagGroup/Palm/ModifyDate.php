@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::Main
-             * line : 273844
+             * line : 190963
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'Palm::Main.Palm:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

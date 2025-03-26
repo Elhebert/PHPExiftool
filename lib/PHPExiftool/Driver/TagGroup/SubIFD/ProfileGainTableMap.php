@@ -28,13 +28,14 @@ class ProfileGainTableMap extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Gain Table Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120661
+             * line : 84784
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProfileGainTableMap extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:ProfileGainTableMap',
             'desc' => [
+                'en' => 'Profile Gain Table Map',
             ],
         ],
     ];

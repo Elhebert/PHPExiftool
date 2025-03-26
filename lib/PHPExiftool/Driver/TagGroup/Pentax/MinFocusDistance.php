@@ -28,13 +28,14 @@ class MinFocusDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Focus Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288631
+             * line : 200216
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinFocusDistance extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:MinFocusDistance',
             'desc' => [
+                'en' => 'Min Focus Distance',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class VolumeSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90707
+             * line : 65257
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VolumeSize extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:VolumeSize',
             'desc' => [
+                'en' => 'Volume Size',
             ],
         ],
     ];

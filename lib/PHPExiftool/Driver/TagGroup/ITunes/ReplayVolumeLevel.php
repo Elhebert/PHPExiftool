@@ -28,13 +28,14 @@ class ReplayVolumeLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Replay Volume Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326660
+             * line : 230399
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReplayVolumeLevel extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:ReplayVolumeLevel',
             'desc' => [
+                'en' => 'Replay Volume Level',
             ],
         ],
     ];

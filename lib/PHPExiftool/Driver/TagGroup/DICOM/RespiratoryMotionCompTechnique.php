@@ -28,13 +28,14 @@ class RespiratoryMotionCompTechnique extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Respiratory Motion Comp Technique',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96823
+             * line : 70225
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RespiratoryMotionCompTechnique extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RespiratoryMotionCompTechnique',
             'desc' => [
+                'en' => 'Respiratory Motion Comp Technique',
             ],
         ],
     ];

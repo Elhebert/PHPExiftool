@@ -28,13 +28,14 @@ class WB_RBLevelsWhiteF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels White F',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MinoltaRaw::RIF
-             * line : 187521
+             * line : 127146
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevelsWhiteF extends AbstractTagGroup
              */
             'id' => 'MinoltaRaw::RIF.MinoltaRaw:WB_RBLevelsWhiteF',
             'desc' => [
+                'en' => 'WB RB Levels White F',
             ],
         ],
     ];

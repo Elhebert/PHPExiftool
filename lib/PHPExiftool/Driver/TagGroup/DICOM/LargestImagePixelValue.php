@@ -28,13 +28,14 @@ class LargestImagePixelValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Largest Image Pixel Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98806
+             * line : 72078
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LargestImagePixelValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LargestImagePixelValue',
             'desc' => [
+                'en' => 'Largest Image Pixel Value',
             ],
         ],
     ];

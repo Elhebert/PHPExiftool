@@ -28,13 +28,14 @@ class Face3Position extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face 3 Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FaceDetect
-             * line : 192251
+             * line : 130261
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class Face3Position extends AbstractTagGroup
              */
             'id' => 'Nikon::FaceDetect.Nikon:Face3Position',
             'desc' => [
+                'en' => 'Face 3 Position',
             ],
         ],
     ];

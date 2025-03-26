@@ -28,13 +28,14 @@ class Index extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::Main
-             * line : 1878
+             * line : 971
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Index extends AbstractTagGroup
              */
             'id' => 'ASF::Main.ASF:Index',
             'desc' => [
+                'en' => 'Index',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CodecDecodeAll extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codec Decode All',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173281
+             * line : 119276
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodecDecodeAll extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CodecDecodeAll',
             'desc' => [
+                'en' => 'Codec Decode All',
             ],
         ],
     ];

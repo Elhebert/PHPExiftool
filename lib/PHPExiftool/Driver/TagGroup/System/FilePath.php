@@ -28,13 +28,14 @@ class FilePath extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121310
+             * line : 85145
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilePath extends AbstractTagGroup
              */
             'id' => 'Extra.System:FilePath',
             'desc' => [
+                'en' => 'File Path',
             ],
         ],
     ];

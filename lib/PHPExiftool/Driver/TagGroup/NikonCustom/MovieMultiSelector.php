@@ -28,13 +28,14 @@ class MovieMultiSelector extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Multi Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238126
+             * line : 161233
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieMultiSelector extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieMultiSelector',
             'desc' => [
+                'en' => 'Movie Multi Selector',
             ],
         ],
     ];

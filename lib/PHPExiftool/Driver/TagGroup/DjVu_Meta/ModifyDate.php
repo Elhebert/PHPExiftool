@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107307
+             * line : 79255
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

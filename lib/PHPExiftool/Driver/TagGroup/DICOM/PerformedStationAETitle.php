@@ -28,13 +28,14 @@ class PerformedStationAETitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Performed Station AE Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99648
+             * line : 72855
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerformedStationAETitle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PerformedStationAETitle',
             'desc' => [
+                'en' => 'Performed Station AE Title',
             ],
         ],
     ];

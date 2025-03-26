@@ -28,13 +28,14 @@ class LimitReleaseModeSelC120 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Limit Release Mode Sel C120',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 238458
+             * line : 161547
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LimitReleaseModeSelC120 extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:LimitReleaseModeSelC120',
             'desc' => [
+                'en' => 'Limit Release Mode Sel C120',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioUseRecommendedSampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Use Recommended Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312697
+             * line : 218569
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioUseRecommendedSampleRate extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioUseRecommendedSampleRate',
             'desc' => [
+                'en' => 'Audio Use Recommended Sample Rate',
             ],
         ],
     ];

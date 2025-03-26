@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::MOV
-             * line : 294531
+             * line : 205935
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Pentax::MOV.Pentax:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 297066
+             * line : 207462
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::PENT
-             * line : 300980
+             * line : 209722
              * type : int32u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

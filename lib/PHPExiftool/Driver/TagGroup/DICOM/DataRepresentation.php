@@ -28,13 +28,14 @@ class DataRepresentation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Representation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99183
+             * line : 72402
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataRepresentation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DataRepresentation',
             'desc' => [
+                'en' => 'Data Representation',
             ],
         ],
     ];

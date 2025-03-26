@@ -28,13 +28,14 @@ class AWBAgwGridDist2Thresh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AWB Agw Grid Dist 2 Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306984
+             * line : 213482
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AWBAgwGridDist2Thresh extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AWBAgwGridDist2Thresh',
             'desc' => [
+                'en' => 'AWB Agw Grid Dist 2 Thresh',
             ],
         ],
     ];

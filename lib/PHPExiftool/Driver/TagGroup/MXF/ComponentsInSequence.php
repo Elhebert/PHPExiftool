@@ -28,13 +28,14 @@ class ComponentsInSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Components In Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169591
+             * line : 115983
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComponentsInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComponentsInSequence',
             'desc' => [
+                'en' => 'Components In Sequence',
             ],
         ],
     ];

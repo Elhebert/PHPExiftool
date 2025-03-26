@@ -28,13 +28,14 @@ class SonyTimeMinSec extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sony Time Min Sec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381439
+             * line : 268225
              * type : undef
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class SonyTimeMinSec extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:SonyTimeMinSec',
             'desc' => [
+                'en' => 'Sony Time Min Sec',
             ],
         ],
     ];

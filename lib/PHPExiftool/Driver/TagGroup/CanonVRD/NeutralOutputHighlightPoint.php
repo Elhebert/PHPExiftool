@@ -28,13 +28,14 @@ class NeutralOutputHighlightPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Neutral Output Highlight Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 82893
+             * line : 60729
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NeutralOutputHighlightPoint extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:NeutralOutputHighlightPoint',
             'desc' => [
+                'en' => 'Neutral Output Highlight Point',
             ],
         ],
     ];

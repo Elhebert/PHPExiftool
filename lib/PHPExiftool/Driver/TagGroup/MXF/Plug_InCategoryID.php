@@ -28,13 +28,14 @@ class Plug_InCategoryID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plug-In Category ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169330
+             * line : 115737
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Plug_InCategoryID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Plug-InCategoryID',
             'desc' => [
+                'en' => 'Plug-In Category ID',
             ],
         ],
     ];

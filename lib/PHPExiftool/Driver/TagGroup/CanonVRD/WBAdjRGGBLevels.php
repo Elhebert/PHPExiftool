@@ -28,13 +28,14 @@ class WBAdjRGGBLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Adj RGGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80396
+             * line : 58650
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WBAdjRGGBLevels extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:WBAdjRGGBLevels',
             'desc' => [
+                'en' => 'WB Adj RGGB Levels',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82181
+             * line : 60230
              * type : int16u
              * writable : true
              * count : 4
@@ -55,6 +57,7 @@ class WBAdjRGGBLevels extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:WBAdjRGGBLevels',
             'desc' => [
+                'en' => 'WB Adj RGGB Levels',
             ],
         ],
     ];

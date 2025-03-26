@@ -28,13 +28,14 @@ class VisitStatusID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Visit Status ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99383
+             * line : 72600
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VisitStatusID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VisitStatusID',
             'desc' => [
+                'en' => 'Visit Status ID',
             ],
         ],
     ];

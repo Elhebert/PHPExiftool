@@ -28,13 +28,14 @@ class Unknown00 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unknown 00',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324920
+             * line : 229396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Unknown00 extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:Unknown00',
             'desc' => [
+                'en' => 'Unknown 00',
             ],
         ],
     ];

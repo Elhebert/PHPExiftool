@@ -28,13 +28,14 @@ class WidthBytes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Width Bytes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128103
+             * line : 88894
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WidthBytes extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:WidthBytes',
             'desc' => [
+                'en' => 'Width Bytes',
             ],
         ],
     ];

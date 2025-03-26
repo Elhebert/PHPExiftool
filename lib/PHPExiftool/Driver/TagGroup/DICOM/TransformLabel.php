@@ -28,13 +28,14 @@ class TransformLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transform Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98837
+             * line : 72108
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransformLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransformLabel',
             'desc' => [
+                'en' => 'Transform Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LeadingLines extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Leading Lines',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167825
+             * line : 114383
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LeadingLines extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LeadingLines',
             'desc' => [
+                'en' => 'Leading Lines',
             ],
         ],
     ];

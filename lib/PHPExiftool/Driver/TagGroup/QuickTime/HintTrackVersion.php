@@ -28,13 +28,14 @@ class HintTrackVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hint Track Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintSampleDesc
-             * line : 313743
+             * line : 219485
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HintTrackVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintSampleDesc.QuickTime:HintTrackVersion',
             'desc' => [
+                'en' => 'Hint Track Version',
             ],
         ],
     ];

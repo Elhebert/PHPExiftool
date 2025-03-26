@@ -28,13 +28,14 @@ class SimpleBlock extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Simple Block',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173268
+             * line : 119264
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SimpleBlock extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:SimpleBlock',
             'desc' => [
+                'en' => 'Simple Block',
             ],
         ],
     ];

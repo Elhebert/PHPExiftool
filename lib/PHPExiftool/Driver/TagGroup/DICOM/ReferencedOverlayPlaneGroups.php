@@ -28,13 +28,14 @@ class ReferencedOverlayPlaneGroups extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Overlay Plane Groups',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102175
+             * line : 75303
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedOverlayPlaneGroups extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedOverlayPlaneGroups',
             'desc' => [
+                'en' => 'Referenced Overlay Plane Groups',
             ],
         ],
     ];

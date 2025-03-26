@@ -28,13 +28,14 @@ class ProgID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prog ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142450
+             * line : 98505
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProgID extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:ProgID',
             'desc' => [
+                'en' => 'Prog ID',
             ],
         ],
     ];

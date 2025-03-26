@@ -28,13 +28,14 @@ class PF4ExposureTimeMin extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF4 Exposure Time Min',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncValues
-             * line : 78283
+             * line : 56987
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF4ExposureTimeMin extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncValues.CanonCustom:PF4ExposureTimeMin',
             'desc' => [
+                'en' => 'PF4 Exposure Time Min',
             ],
         ],
     ];

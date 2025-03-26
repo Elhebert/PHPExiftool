@@ -28,13 +28,14 @@ class ChromaNoiseEdgeMapThresh extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chroma Noise Edge Map Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156645
+             * line : 107849
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChromaNoiseEdgeMapThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ChromaNoiseEdgeMapThresh',
             'desc' => [
+                'en' => 'Chroma Noise Edge Map Thresh',
             ],
         ],
     ];

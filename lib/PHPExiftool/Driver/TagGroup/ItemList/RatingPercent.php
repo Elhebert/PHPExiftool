@@ -28,13 +28,14 @@ class RatingPercent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Percent',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322293
+             * line : 227827
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingPercent extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:RatingPercent',
             'desc' => [
+                'en' => 'Rating Percent',
             ],
         ],
     ];

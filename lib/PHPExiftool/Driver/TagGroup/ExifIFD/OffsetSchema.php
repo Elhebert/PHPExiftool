@@ -28,13 +28,14 @@ class OffsetSchema extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Offset Schema',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120783
+             * line : 84897
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OffsetSchema extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OffsetSchema',
             'desc' => [
+                'en' => 'Offset Schema',
             ],
         ],
     ];

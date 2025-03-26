@@ -28,13 +28,14 @@ class KhufuUSpaceC2MixingCoefficient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Khufu U Space C2 Mixing Coefficient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156858
+             * line : 108062
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KhufuUSpaceC2MixingCoefficient extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:KhufuUSpaceC2MixingCoefficient',
             'desc' => [
+                'en' => 'Khufu U Space C2 Mixing Coefficient',
             ],
         ],
     ];

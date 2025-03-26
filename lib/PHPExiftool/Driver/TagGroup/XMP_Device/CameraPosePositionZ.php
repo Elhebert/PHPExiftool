@@ -28,13 +28,14 @@ class CameraPosePositionZ extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Pose Position Z',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396636
+             * line : 280853
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraPosePositionZ extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraPosePositionZ',
             'desc' => [
+                'en' => 'Camera Pose Position Z',
             ],
         ],
     ];

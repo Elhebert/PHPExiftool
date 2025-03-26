@@ -28,13 +28,14 @@ class AngleInfoYaw extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Angle Info Yaw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::apple_fi
-             * line : 397892
+             * line : 281641
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AngleInfoYaw extends AbstractTagGroup
              */
             'id' => 'XMP::apple_fi.XMP-apple-fi:AngleInfoYaw',
             'desc' => [
+                'en' => 'Angle Info Yaw',
             ],
         ],
     ];

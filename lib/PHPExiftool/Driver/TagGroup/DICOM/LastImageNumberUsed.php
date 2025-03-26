@@ -28,13 +28,14 @@ class LastImageNumberUsed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Image Number Used',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98486
+             * line : 71818
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastImageNumberUsed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LastImageNumberUsed',
             'desc' => [
+                'en' => 'Last Image Number Used',
             ],
         ],
     ];

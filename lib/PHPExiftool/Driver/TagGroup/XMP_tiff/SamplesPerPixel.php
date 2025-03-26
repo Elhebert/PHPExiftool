@@ -28,13 +28,14 @@ class SamplesPerPixel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Samples Per Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 412323
+             * line : 290828
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SamplesPerPixel extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:SamplesPerPixel',
             'desc' => [
+                'en' => 'Samples Per Pixel',
             ],
         ],
     ];

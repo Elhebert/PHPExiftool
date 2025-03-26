@@ -28,13 +28,14 @@ class VerticalMovieAFOnButton extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Movie AF On Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 248766
+             * line : 171454
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalMovieAFOnButton extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:VerticalMovieAFOnButton',
             'desc' => [
+                'en' => 'Vertical Movie AF On Button',
             ],
         ],
     ];

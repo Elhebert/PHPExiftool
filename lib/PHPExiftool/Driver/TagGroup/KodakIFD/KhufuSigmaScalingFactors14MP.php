@@ -28,13 +28,14 @@ class KhufuSigmaScalingFactors14MP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Khufu Sigma Scaling Factors 14 MP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156870
+             * line : 108074
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KhufuSigmaScalingFactors14MP extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:KhufuSigmaScalingFactors14MP',
             'desc' => [
+                'en' => 'Khufu Sigma Scaling Factors 14 MP',
             ],
         ],
     ];

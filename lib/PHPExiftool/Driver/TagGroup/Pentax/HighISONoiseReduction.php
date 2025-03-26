@@ -28,13 +28,14 @@ class HighISONoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'High ISO Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300126
+             * line : 209234
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighISONoiseReduction extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:HighISONoiseReduction',
             'desc' => [
+                'en' => 'High ISO Noise Reduction',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SamplesPerPixel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Samples Per Pixel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110828
+             * line : 81505
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SamplesPerPixel extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:SamplesPerPixel',
             'desc' => [
+                'en' => 'Samples Per Pixel',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280263
+             * line : 194540
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SamplesPerPixel extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:SamplesPerPixel',
             'desc' => [
+                'en' => 'Samples Per Pixel',
             ],
         ],
     ];

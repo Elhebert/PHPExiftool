@@ -28,13 +28,14 @@ class ReversePlay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reverse Play',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170887
+             * line : 117117
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReversePlay extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ReversePlay',
             'desc' => [
+                'en' => 'Reverse Play',
             ],
         ],
     ];

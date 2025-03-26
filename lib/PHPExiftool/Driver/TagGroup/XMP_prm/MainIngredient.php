@@ -28,13 +28,14 @@ class MainIngredient extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Main Ingredient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411234
+             * line : 290424
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MainIngredient extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:MainIngredient',
             'desc' => [
+                'en' => 'Main Ingredient',
             ],
         ],
     ];

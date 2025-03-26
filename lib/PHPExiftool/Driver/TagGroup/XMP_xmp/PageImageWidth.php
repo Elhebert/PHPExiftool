@@ -28,13 +28,14 @@ class PageImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Page Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmp
-             * line : 412695
+             * line : 290954
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PageImageWidth extends AbstractTagGroup
              */
             'id' => 'XMP::xmp.XMP-xmp:PageImageWidth',
             'desc' => [
+                'en' => 'Page Image Width',
             ],
         ],
     ];

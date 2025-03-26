@@ -28,13 +28,14 @@ class TotalFrames extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Frames',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::NewHeader
-             * line : 363
+             * line : 165
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TotalFrames extends AbstractTagGroup
              */
             'id' => 'APE::NewHeader.MAC:TotalFrames',
             'desc' => [
+                'en' => 'Total Frames',
             ],
         ],
         1 => [
             /**
              * table_name : APE::OldHeader
-             * line : 437
+             * line : 193
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TotalFrames extends AbstractTagGroup
              */
             'id' => 'APE::OldHeader.MAC:TotalFrames',
             'desc' => [
+                'en' => 'Total Frames',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EnvelopePriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Envelope Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 151187
+             * line : 104329
              * type : digits
              * writable : true
              * count : 1
@@ -42,6 +43,7 @@ class EnvelopePriority extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:EnvelopePriority',
             'desc' => [
+                'en' => 'Envelope Priority',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AccessoryType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Accessory Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277250
+             * line : 192876
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AccessoryType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:AccessoryType',
             'desc' => [
+                'en' => 'Accessory Type',
             ],
         ],
     ];

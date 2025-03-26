@@ -28,13 +28,14 @@ class HighlightEndPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Highlight End Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Neutrals
-             * line : 161930
+             * line : 110632
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HighlightEndPoints extends AbstractTagGroup
              */
             'id' => 'Leaf::Neutrals.Leaf:HighlightEndPoints',
             'desc' => [
+                'en' => 'Highlight End Points',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RawValueRangeMax extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Value Range Max',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122322
+             * line : 85686
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawValueRangeMax extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:RawValueRangeMax',
             'desc' => [
+                'en' => 'Raw Value Range Max',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Face4Position extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face 4 Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::FaceDetInfo
-             * line : 274178
+             * line : 191260
              * type : int16u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class Face4Position extends AbstractTagGroup
              */
             'id' => 'Panasonic::FaceDetInfo.Panasonic:Face4Position',
             'desc' => [
+                'en' => 'Face 4 Position',
             ],
         ],
     ];

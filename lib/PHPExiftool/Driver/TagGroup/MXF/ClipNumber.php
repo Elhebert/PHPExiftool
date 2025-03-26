@@ -28,13 +28,14 @@ class ClipNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clip Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170586
+             * line : 116826
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ClipNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClipNumber',
             'desc' => [
+                'en' => 'Clip Number',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170589
+             * line : 116829
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ClipNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClipNumber',
             'desc' => [
+                'en' => 'Clip Number',
             ],
         ],
     ];

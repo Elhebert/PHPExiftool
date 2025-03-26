@@ -28,13 +28,14 @@ class TypeOfSynchronization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Type Of Synchronization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101661
+             * line : 74805
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TypeOfSynchronization extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TypeOfSynchronization',
             'desc' => [
+                'en' => 'Type Of Synchronization',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DimensionIndexPrivateCreator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dimension Index Private Creator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98096
+             * line : 71443
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DimensionIndexPrivateCreator extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DimensionIndexPrivateCreator',
             'desc' => [
+                'en' => 'Dimension Index Private Creator',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PVCRejection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PVC Rejection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95754
+             * line : 69202
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PVCRejection extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PVCRejection',
             'desc' => [
+                'en' => 'PVC Rejection',
             ],
         ],
     ];

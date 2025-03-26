@@ -28,13 +28,14 @@ class PaintCorrectionLuminanceNoise extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Luminance Noise',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403826
+             * line : 286943
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionLuminanceNoise extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionLuminanceNoise',
             'desc' => [
+                'en' => 'Paint Correction Luminance Noise',
             ],
         ],
     ];

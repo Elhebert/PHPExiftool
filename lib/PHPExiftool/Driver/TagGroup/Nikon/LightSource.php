@@ -28,13 +28,14 @@ class LightSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Light Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197386
+             * line : 133161
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LightSource extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:LightSource',
             'desc' => [
+                'en' => 'Light Source',
             ],
         ],
     ];

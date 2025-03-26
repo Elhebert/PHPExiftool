@@ -28,13 +28,14 @@ class WB_GRGBLevelsTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB GRGB Levels Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::WBInfo
-             * line : 71259
+             * line : 53165
              * type : int32s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_GRGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::WBInfo.Canon:WB_GRGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB GRGB Levels Tungsten',
             ],
         ],
     ];

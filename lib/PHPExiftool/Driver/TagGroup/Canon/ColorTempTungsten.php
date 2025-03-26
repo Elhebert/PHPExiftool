@@ -28,13 +28,14 @@ class ColorTempTungsten extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59248
+             * line : 45907
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59526
+             * line : 46049
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData1
-             * line : 59782
+             * line : 46179
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData1.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 60052
+             * line : 46320
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60579
+             * line : 46620
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60826
+             * line : 46762
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData3
-             * line : 61171
+             * line : 46945
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData3.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61545
+             * line : 47185
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61933
+             * line : 47398
              * type : int16s
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62354
+             * line : 47638
              * type : int16s
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62825
+             * line : 47920
              * type : int16s
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class ColorTempTungsten extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempTungsten',
             'desc' => [
+                'en' => 'Color Temp Tungsten',
             ],
         ],
     ];

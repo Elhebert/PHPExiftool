@@ -28,13 +28,14 @@ class RegionOfResidence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Region Of Residence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95275
+             * line : 68740
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegionOfResidence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RegionOfResidence',
             'desc' => [
+                'en' => 'Region Of Residence',
             ],
         ],
     ];

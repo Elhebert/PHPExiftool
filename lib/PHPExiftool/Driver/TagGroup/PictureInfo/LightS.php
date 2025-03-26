@@ -28,13 +28,14 @@ class LightS extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Light S',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::PictureInfo
-             * line : 679
+             * line : 257
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LightS extends AbstractTagGroup
              */
             'id' => 'APP12::PictureInfo.PictureInfo:LightS',
             'desc' => [
+                'en' => 'Light S',
             ],
         ],
     ];

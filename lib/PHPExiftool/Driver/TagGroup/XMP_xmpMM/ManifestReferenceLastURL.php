@@ -28,13 +28,14 @@ class ManifestReferenceLastURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Reference Last URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414121
+             * line : 292143
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestReferenceLastURL extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceLastURL',
             'desc' => [
+                'en' => 'Manifest Reference Last URL',
             ],
         ],
     ];

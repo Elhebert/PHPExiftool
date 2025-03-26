@@ -28,13 +28,14 @@ class FieldOfViewInDetectorCells extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Field Of View In Detector Cells',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97539
+             * line : 70924
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FieldOfViewInDetectorCells extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FieldOfViewInDetectorCells',
             'desc' => [
+                'en' => 'Field Of View In Detector Cells',
             ],
         ],
     ];

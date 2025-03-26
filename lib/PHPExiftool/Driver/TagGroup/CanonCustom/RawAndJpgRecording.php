@@ -28,13 +28,14 @@ class RawAndJpgRecording extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw And Jpg Recording',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions10D
-             * line : 71555
+             * line : 53316
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawAndJpgRecording extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions10D.CanonCustom:RawAndJpgRecording',
             'desc' => [
+                'en' => 'Raw And Jpg Recording',
             ],
         ],
     ];

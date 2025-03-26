@@ -28,13 +28,14 @@ class PodcastKeywords extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Podcast Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149477
+             * line : 103639
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PodcastKeywords extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:PodcastKeywords',
             'desc' => [
+                'en' => 'Podcast Keywords',
             ],
         ],
     ];

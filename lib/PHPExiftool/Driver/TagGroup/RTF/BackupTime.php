@@ -28,13 +28,14 @@ class BackupTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Backup Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329150
+             * line : 232011
              * type : date
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackupTime extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:BackupTime',
             'desc' => [
+                'en' => 'Backup Time',
             ],
         ],
     ];

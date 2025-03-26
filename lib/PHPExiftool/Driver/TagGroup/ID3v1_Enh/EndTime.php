@@ -28,13 +28,14 @@ class EndTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v1_Enh
-             * line : 148012
+             * line : 102877
              * type : string
              * writable : false
              * count : 6
@@ -42,6 +43,7 @@ class EndTime extends AbstractTagGroup
              */
             'id' => 'ID3::v1_Enh.ID3v1_Enh:EndTime',
             'desc' => [
+                'en' => 'End Time',
             ],
         ],
     ];

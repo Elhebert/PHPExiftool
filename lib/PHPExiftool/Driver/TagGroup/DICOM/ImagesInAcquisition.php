@@ -28,13 +28,14 @@ class ImagesInAcquisition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Images In Acquisition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97967
+             * line : 71317
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagesInAcquisition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagesInAcquisition',
             'desc' => [
+                'en' => 'Images In Acquisition',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaxFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData00
-             * line : 195578
+             * line : 132481
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData00.Nikon:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195710
+             * line : 132524
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195851
+             * line : 132570
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196058
+             * line : 132649
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
     ];

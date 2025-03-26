@@ -28,13 +28,14 @@ class MenuSettingsZ7IIOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Menu Settings Z7 II Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoZ7II
-             * line : 209357
+             * line : 141200
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MenuSettingsZ7IIOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoZ7II.Nikon:MenuSettingsZ7IIOffset',
             'desc' => [
+                'en' => 'Menu Settings Z7 II Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageSetLabel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Set Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101485
+             * line : 74631
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageSetLabel extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageSetLabel',
             'desc' => [
+                'en' => 'Image Set Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TranscriptReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transcript Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170360
+             * line : 116619
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TranscriptReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TranscriptReference',
             'desc' => [
+                'en' => 'Transcript Reference',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170363
+             * line : 116622
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TranscriptReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TranscriptReference',
             'desc' => [
+                'en' => 'Transcript Reference',
             ],
         ],
     ];

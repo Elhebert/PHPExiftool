@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105333
+             * line : 78068
              * type : string
              * writable : false
              * count : 24
@@ -42,6 +43,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

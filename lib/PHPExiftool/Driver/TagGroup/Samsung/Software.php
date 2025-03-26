@@ -28,13 +28,14 @@ class Software extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::MP4
-             * line : 334006
+             * line : 234144
              * type : string
              * writable : false
              * count : 32
@@ -42,6 +43,7 @@ class Software extends AbstractTagGroup
              */
             'id' => 'Samsung::MP4.Samsung:Software',
             'desc' => [
+                'en' => 'Software',
             ],
         ],
     ];

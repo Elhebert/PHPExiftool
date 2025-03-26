@@ -28,13 +28,14 @@ class ExternalFlashBounce extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash Bounce',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FlashInfo
-             * line : 288272
+             * line : 200020
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashBounce extends AbstractTagGroup
              */
             'id' => 'Pentax::FlashInfo.Pentax:ExternalFlashBounce',
             'desc' => [
+                'en' => 'External Flash Bounce',
             ],
         ],
     ];

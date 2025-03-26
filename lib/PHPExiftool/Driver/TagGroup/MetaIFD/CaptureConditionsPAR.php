@@ -28,13 +28,14 @@ class CaptureConditionsPAR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Capture Conditions PAR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158375
+             * line : 108895
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptureConditionsPAR extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:CaptureConditionsPAR',
             'desc' => [
+                'en' => 'Capture Conditions PAR',
             ],
         ],
     ];

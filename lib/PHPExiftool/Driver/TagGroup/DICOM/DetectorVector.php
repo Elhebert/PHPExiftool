@@ -28,13 +28,14 @@ class DetectorVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100823
+             * line : 73983
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetectorVector',
             'desc' => [
+                'en' => 'Detector Vector',
             ],
         ],
     ];

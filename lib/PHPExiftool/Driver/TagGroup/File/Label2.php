@@ -28,13 +28,14 @@ class Label2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Label 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166988
+             * line : 113676
              * type : string
              * writable : false
              * count : 80
@@ -42,6 +43,7 @@ class Label2 extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:Label2',
             'desc' => [
+                'en' => 'Label 2',
             ],
         ],
     ];

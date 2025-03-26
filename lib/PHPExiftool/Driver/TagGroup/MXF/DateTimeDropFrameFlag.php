@@ -28,13 +28,14 @@ class DateTimeDropFrameFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date Time Drop Frame Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171399
+             * line : 117601
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DateTimeDropFrameFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DateTimeDropFrameFlag',
             'desc' => [
+                'en' => 'Date Time Drop Frame Flag',
             ],
         ],
     ];

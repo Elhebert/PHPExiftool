@@ -28,13 +28,14 @@ class Free extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Free',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154210
+             * line : 105885
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Free extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:Free',
             'desc' => [
+                'en' => 'Free',
             ],
         ],
     ];

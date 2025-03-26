@@ -28,13 +28,14 @@ class CFAZipperFixThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CFA Zipper Fix Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156627
+             * line : 107831
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CFAZipperFixThreshold extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CFAZipperFixThreshold',
             'desc' => [
+                'en' => 'CFA Zipper Fix Threshold',
             ],
         ],
     ];

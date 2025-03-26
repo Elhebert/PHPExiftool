@@ -28,13 +28,14 @@ class DiffractionCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Diffraction Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensCorr
-             * line : 288544
+             * line : 200164
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DiffractionCorrection extends AbstractTagGroup
              */
             'id' => 'Pentax::LensCorr.Pentax:DiffractionCorrection',
             'desc' => [
+                'en' => 'Diffraction Correction',
             ],
         ],
     ];

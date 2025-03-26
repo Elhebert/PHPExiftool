@@ -28,13 +28,14 @@ class Soloist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Soloist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323144
+             * line : 228492
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Soloist extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Soloist',
             'desc' => [
+                'en' => 'Soloist',
             ],
         ],
     ];

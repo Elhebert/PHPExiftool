@@ -28,13 +28,14 @@ class UprightFocalMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Upright Focal Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 401229
+             * line : 284626
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UprightFocalMode extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:UprightFocalMode',
             'desc' => [
+                'en' => 'Upright Focal Mode',
             ],
         ],
     ];

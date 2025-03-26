@@ -28,13 +28,14 @@ class PhotoshopQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Photoshop Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::JPEG_Quality
-             * line : 305150
+             * line : 212042
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PhotoshopQuality extends AbstractTagGroup
              */
             'id' => 'Photoshop::JPEG_Quality.Photoshop:PhotoshopQuality',
             'desc' => [
+                'en' => 'Photoshop Quality',
             ],
         ],
     ];

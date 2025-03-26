@@ -28,13 +28,14 @@ class CropRotatedOriginalHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Rotated Original Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::CropInfo
-             * line : 80181
+             * line : 58510
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropRotatedOriginalHeight extends AbstractTagGroup
              */
             'id' => 'CanonVRD::CropInfo.CanonVRD:CropRotatedOriginalHeight',
             'desc' => [
+                'en' => 'Crop Rotated Original Height',
             ],
         ],
     ];

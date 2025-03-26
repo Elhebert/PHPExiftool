@@ -28,13 +28,14 @@ class EditTagArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Edit Tag Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158478
+             * line : 108955
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EditTagArray extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:EditTagArray',
             'desc' => [
+                'en' => 'Edit Tag Array',
             ],
         ],
     ];

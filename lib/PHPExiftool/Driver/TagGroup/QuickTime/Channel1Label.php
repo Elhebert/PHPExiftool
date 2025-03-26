@@ -28,13 +28,14 @@ class Channel1Label extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel 1 Label',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ChannelLayout
-             * line : 310877
+             * line : 216754
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Channel1Label extends AbstractTagGroup
              */
             'id' => 'QuickTime::ChannelLayout.QuickTime:Channel1Label',
             'desc' => [
+                'en' => 'Channel 1 Label',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PrviewResol extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prview Resol',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 307491
+             * line : 213989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrviewResol extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:PrviewResol',
             'desc' => [
+                'en' => 'Prview Resol',
             ],
         ],
     ];

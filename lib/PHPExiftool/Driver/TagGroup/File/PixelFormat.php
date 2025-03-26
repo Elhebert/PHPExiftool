@@ -28,13 +28,14 @@ class PixelFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BPG::Main
-             * line : 3561
+             * line : 2191
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelFormat extends AbstractTagGroup
              */
             'id' => 'BPG::Main.File:PixelFormat',
             'desc' => [
+                'en' => 'Pixel Format',
             ],
         ],
     ];

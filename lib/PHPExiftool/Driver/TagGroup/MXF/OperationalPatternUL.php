@@ -28,13 +28,14 @@ class OperationalPatternUL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operational Pattern UL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170989
+             * line : 117216
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OperationalPatternUL extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OperationalPatternUL',
             'desc' => [
+                'en' => 'Operational Pattern UL',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OmenEarlyGoBSurface extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Early Go B Surface',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155681
+             * line : 106892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenEarlyGoBSurface extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenEarlyGoBSurface',
             'desc' => [
+                'en' => 'Omen Early Go B Surface',
             ],
         ],
     ];

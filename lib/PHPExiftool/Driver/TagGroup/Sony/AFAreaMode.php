@@ -28,13 +28,14 @@ class AFAreaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 341574
+             * line : 238890
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 342751
+             * line : 240009
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347057
+             * line : 243115
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348666
+             * line : 243851
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350627
+             * line : 244846
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Main
-             * line : 358980
+             * line : 250437
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Main
-             * line : 359028
+             * line : 250469
              * type : int16u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag9402
-             * line : 384746
+             * line : 271293
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9402.Sony:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class OmenGradientKernelTaps extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Gradient Kernel Taps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155699
+             * line : 106910
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenGradientKernelTaps extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenGradientKernelTaps',
             'desc' => [
+                'en' => 'Omen Gradient Kernel Taps',
             ],
         ],
     ];

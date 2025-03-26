@@ -28,13 +28,14 @@ class FlashMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 331962
+             * line : 233214
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.Ricoh:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Ricoh::Main
-             * line : 332953
+             * line : 233540
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashMode extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:FlashMode',
             'desc' => [
+                'en' => 'Flash Mode',
             ],
         ],
     ];

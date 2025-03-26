@@ -28,13 +28,14 @@ class WatermarkURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Watermark URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328471
+             * line : 231640
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WatermarkURL extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:WatermarkURL',
             'desc' => [
+                'en' => 'Watermark URL',
             ],
         ],
     ];

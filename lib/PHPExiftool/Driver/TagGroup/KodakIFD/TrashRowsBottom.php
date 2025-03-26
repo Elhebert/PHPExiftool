@@ -28,13 +28,14 @@ class TrashRowsBottom extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Trash Rows Bottom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156020
+             * line : 107231
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrashRowsBottom extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TrashRowsBottom',
             'desc' => [
+                'en' => 'Trash Rows Bottom',
             ],
         ],
     ];

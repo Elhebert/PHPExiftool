@@ -28,13 +28,14 @@ class Illumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Type2
-             * line : 330966
+             * line : 232815
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Illumination extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type2.Reconyx:Illumination',
             'desc' => [
+                'en' => 'Illumination',
             ],
         ],
     ];

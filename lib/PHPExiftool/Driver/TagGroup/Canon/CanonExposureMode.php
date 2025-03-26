@@ -28,13 +28,14 @@ class CanonExposureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon Exposure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56894
+             * line : 43997
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CanonExposureMode extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:CanonExposureMode',
             'desc' => [
+                'en' => 'Canon Exposure Mode',
             ],
         ],
     ];

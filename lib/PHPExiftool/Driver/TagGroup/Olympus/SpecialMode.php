@@ -28,13 +28,14 @@ class SpecialMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Special Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256898
+             * line : 177398
              * type : int32u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class SpecialMode extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:SpecialMode',
             'desc' => [
+                'en' => 'Special Mode',
             ],
         ],
     ];

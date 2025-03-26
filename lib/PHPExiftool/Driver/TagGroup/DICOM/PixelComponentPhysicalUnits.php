@@ -28,13 +28,14 @@ class PixelComponentPhysicalUnits extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Component Physical Units',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96361
+             * line : 69769
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelComponentPhysicalUnits extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelComponentPhysicalUnits',
             'desc' => [
+                'en' => 'Pixel Component Physical Units',
             ],
         ],
     ];

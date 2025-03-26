@@ -28,13 +28,14 @@ class ApertureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aperture Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325358
+             * line : 229667
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ApertureMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ApertureMode',
             'desc' => [
+                'en' => 'Aperture Mode',
             ],
         ],
     ];

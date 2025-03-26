@@ -28,13 +28,14 @@ class OtherPatientIDsSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Other Patient I Ds Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95233
+             * line : 68698
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OtherPatientIDsSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OtherPatientIDsSequence',
             'desc' => [
+                'en' => 'Other Patient I Ds Sequence',
             ],
         ],
     ];

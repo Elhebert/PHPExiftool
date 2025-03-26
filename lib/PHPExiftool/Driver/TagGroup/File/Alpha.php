@@ -28,13 +28,14 @@ class Alpha extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BPG::Main
-             * line : 3597
+             * line : 2214
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Alpha extends AbstractTagGroup
              */
             'id' => 'BPG::Main.File:Alpha',
             'desc' => [
+                'en' => 'Alpha',
             ],
         ],
     ];

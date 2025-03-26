@@ -28,13 +28,14 @@ class ArrangerKeywords extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Arranger Keywords',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325764
+             * line : 229832
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ArrangerKeywords extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:ArrangerKeywords',
             'desc' => [
+                'en' => 'Arranger Keywords',
             ],
         ],
     ];

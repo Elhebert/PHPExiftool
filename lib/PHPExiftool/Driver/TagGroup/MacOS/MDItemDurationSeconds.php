@@ -28,13 +28,14 @@ class MDItemDurationSeconds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Duration Seconds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172670
+             * line : 118796
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemDurationSeconds extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemDurationSeconds',
             'desc' => [
+                'en' => 'MD Item Duration Seconds',
             ],
         ],
     ];

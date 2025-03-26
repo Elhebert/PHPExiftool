@@ -28,13 +28,14 @@ class KiloCalories extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Kilo Calories',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324891
+             * line : 229375
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KiloCalories extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:KiloCalories',
             'desc' => [
+                'en' => 'Kilo Calories',
             ],
         ],
     ];

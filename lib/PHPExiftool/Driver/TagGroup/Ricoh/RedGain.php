@@ -28,13 +28,14 @@ class RedGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Red Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Text
-             * line : 333807
+             * line : 234063
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RedGain extends AbstractTagGroup
              */
             'id' => 'Ricoh::Text.Ricoh:RedGain',
             'desc' => [
+                'en' => 'Red Gain',
             ],
         ],
     ];

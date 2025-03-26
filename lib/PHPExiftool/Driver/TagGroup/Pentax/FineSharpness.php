@@ -28,13 +28,14 @@ class FineSharpness extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fine Sharpness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300101
+             * line : 209215
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FineSharpness extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FineSharpness',
             'desc' => [
+                'en' => 'Fine Sharpness',
             ],
         ],
     ];

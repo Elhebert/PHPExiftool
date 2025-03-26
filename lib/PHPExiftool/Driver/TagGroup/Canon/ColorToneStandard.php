@@ -28,13 +28,14 @@ class ColorToneStandard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone Standard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34634
+             * line : 26569
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorToneStandard extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ColorToneStandard',
             'desc' => [
+                'en' => 'Color Tone Standard',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67093
+             * line : 50921
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorToneStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ColorToneStandard',
             'desc' => [
+                'en' => 'Color Tone Standard',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68191
+             * line : 51582
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorToneStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ColorToneStandard',
             'desc' => [
+                'en' => 'Color Tone Standard',
             ],
         ],
     ];

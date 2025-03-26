@@ -28,13 +28,14 @@ class XMP extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'XMP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::Extensions
-             * line : 131258
+             * line : 90642
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XMP extends AbstractTagGroup
              */
             'id' => 'GIF::Extensions.GIF:XMP',
             'desc' => [
+                'en' => 'XMP',
             ],
         ],
     ];

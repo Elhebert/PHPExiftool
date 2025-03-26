@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APP12::Ducky
-             * line : 452
+             * line : 203
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'APP12::Ducky.Ducky:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

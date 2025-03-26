@@ -28,13 +28,14 @@ class PaintSamePoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Same Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264935
+             * line : 183158
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintSamePoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:PaintSamePoly',
             'desc' => [
+                'en' => 'Paint Same Poly',
             ],
         ],
     ];

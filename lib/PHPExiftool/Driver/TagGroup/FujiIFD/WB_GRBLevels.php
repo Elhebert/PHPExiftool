@@ -28,13 +28,14 @@ class WB_GRBLevels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB GRB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::IFD
-             * line : 128726
+             * line : 89315
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WB_GRBLevels extends AbstractTagGroup
              */
             'id' => 'FujiFilm::IFD.FujiIFD:WB_GRBLevels',
             'desc' => [
+                'en' => 'WB GRB Levels',
             ],
         ],
     ];

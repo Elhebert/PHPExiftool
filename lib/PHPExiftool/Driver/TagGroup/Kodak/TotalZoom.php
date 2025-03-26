@@ -28,13 +28,14 @@ class TotalZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Total Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 158207
+             * line : 108833
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TotalZoom extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:TotalZoom',
             'desc' => [
+                'en' => 'Total Zoom',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShootID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shoot ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410708
+             * line : 289989
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShootID extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:ShootID',
             'desc' => [
+                'en' => 'Shoot ID',
             ],
         ],
     ];

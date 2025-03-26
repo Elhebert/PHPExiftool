@@ -28,13 +28,14 @@ class NikonMeteringMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nikon Metering Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199805
+             * line : 134804
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class NikonMeteringMode extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:NikonMeteringMode',
             'desc' => [
+                'en' => 'Nikon Metering Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207758
+             * line : 139973
              * type : ?
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class NikonMeteringMode extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:NikonMeteringMode',
             'desc' => [
+                'en' => 'Nikon Metering Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 208876
+             * line : 140777
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class NikonMeteringMode extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:NikonMeteringMode',
             'desc' => [
+                'en' => 'Nikon Metering Mode',
             ],
         ],
     ];

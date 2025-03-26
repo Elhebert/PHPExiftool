@@ -28,13 +28,14 @@ class AFAreaHeights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Area Heights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFInfo2
-             * line : 4233
+             * line : 2661
              * type : int16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFAreaHeights extends AbstractTagGroup
              */
             'id' => 'Canon::AFInfo2.Canon:AFAreaHeights',
             'desc' => [
+                'en' => 'AF Area Heights',
             ],
         ],
     ];

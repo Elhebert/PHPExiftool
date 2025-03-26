@@ -28,13 +28,14 @@ class GPSSpeed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406837
+             * line : 288214
              * type : rational
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
     ];

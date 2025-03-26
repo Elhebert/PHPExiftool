@@ -28,13 +28,14 @@ class DiffusionGradientDirectionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Diffusion Gradient Direction Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96693
+             * line : 70096
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DiffusionGradientDirectionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DiffusionGradientDirectionSequence',
             'desc' => [
+                'en' => 'Diffusion Gradient Direction Sequence',
             ],
         ],
     ];

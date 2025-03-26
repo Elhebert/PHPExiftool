@@ -28,13 +28,14 @@ class ReformattingThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reformatting Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101670
+             * line : 74814
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReformattingThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReformattingThickness',
             'desc' => [
+                'en' => 'Reformatting Thickness',
             ],
         ],
     ];

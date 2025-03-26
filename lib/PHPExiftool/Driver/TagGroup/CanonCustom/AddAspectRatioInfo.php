@@ -28,13 +28,14 @@ class AddAspectRatioInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Add Aspect Ratio Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 75502
+             * line : 55606
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AddAspectRatioInfo extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AddAspectRatioInfo',
             'desc' => [
+                'en' => 'Add Aspect Ratio Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CameraType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70794
+             * line : 52850
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraType extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:CameraType',
             'desc' => [
+                'en' => 'Camera Type',
             ],
         ],
     ];

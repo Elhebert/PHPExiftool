@@ -28,13 +28,14 @@ class DefaultAutoGray extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Default Auto Gray',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402219
+             * line : 285372
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DefaultAutoGray extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:DefaultAutoGray',
             'desc' => [
+                'en' => 'Default Auto Gray',
             ],
         ],
     ];

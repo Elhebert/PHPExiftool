@@ -28,13 +28,14 @@ class AlphaByteCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Alpha Byte Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118613
+             * line : 83984
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlphaByteCount extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:AlphaByteCount',
             'desc' => [
+                'en' => 'Alpha Byte Count',
             ],
         ],
     ];

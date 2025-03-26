@@ -28,13 +28,14 @@ class HDMIViewAssist extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HDMI View Assist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247515
+             * line : 170208
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDMIViewAssist extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:HDMIViewAssist',
             'desc' => [
+                'en' => 'HDMI View Assist',
             ],
         ],
     ];

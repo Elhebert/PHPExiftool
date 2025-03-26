@@ -28,13 +28,14 @@ class Car extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Car',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324514
+             * line : 229296
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Car extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:Car',
             'desc' => [
+                'en' => 'Car',
             ],
         ],
     ];

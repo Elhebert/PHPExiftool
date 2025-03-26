@@ -28,13 +28,14 @@ class SnapshotImageRole extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Snapshot Image Role',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409751
+             * line : 289510
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SnapshotImageRole extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:SnapshotImageRole',
             'desc' => [
+                'en' => 'Snapshot Image Role',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TubeFocalSpotPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tube Focal Spot Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98285
+             * line : 71620
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TubeFocalSpotPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TubeFocalSpotPosition',
             'desc' => [
+                'en' => 'Tube Focal Spot Position',
             ],
         ],
     ];

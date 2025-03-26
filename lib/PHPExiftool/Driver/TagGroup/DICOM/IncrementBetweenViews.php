@@ -28,13 +28,14 @@ class IncrementBetweenViews extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Increment Between Views',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97533
+             * line : 70918
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IncrementBetweenViews extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IncrementBetweenViews',
             'desc' => [
+                'en' => 'Increment Between Views',
             ],
         ],
     ];

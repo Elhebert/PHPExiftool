@@ -28,13 +28,14 @@ class TaxonSpecificEpithet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Specific Epithet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106814
+             * line : 79007
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonSpecificEpithet extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonSpecificEpithet',
             'desc' => [
+                'en' => 'Taxon Specific Epithet',
             ],
         ],
     ];

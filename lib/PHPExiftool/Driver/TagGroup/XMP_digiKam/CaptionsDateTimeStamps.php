@@ -28,13 +28,14 @@ class CaptionsDateTimeStamps extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Captions Date Time Stamps',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::digiKam
-             * line : 405012
+             * line : 287771
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CaptionsDateTimeStamps extends AbstractTagGroup
              */
             'id' => 'XMP::digiKam.XMP-digiKam:CaptionsDateTimeStamps',
             'desc' => [
+                'en' => 'Captions Date Time Stamps',
             ],
         ],
     ];

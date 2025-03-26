@@ -28,13 +28,14 @@ class FocusFrameSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 355933
+             * line : 248302
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class FocusFrameSize extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FocusFrameSize',
             'desc' => [
+                'en' => 'Focus Frame Size',
             ],
         ],
     ];

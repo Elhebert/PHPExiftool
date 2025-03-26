@@ -28,13 +28,14 @@ class SensorType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278057
+             * line : 193436
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:SensorType',
             'desc' => [
+                'en' => 'Sensor Type',
             ],
         ],
     ];

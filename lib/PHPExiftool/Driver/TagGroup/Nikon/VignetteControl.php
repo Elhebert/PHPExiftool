@@ -28,13 +28,14 @@ class VignetteControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vignette Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197054
+             * line : 133027
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class VignetteControl extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:VignetteControl',
             'desc' => [
+                'en' => 'Vignette Control',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203341
+             * line : 137237
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class VignetteControl extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:VignetteControl',
             'desc' => [
+                'en' => 'Vignette Control',
             ],
         ],
     ];

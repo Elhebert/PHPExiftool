@@ -28,13 +28,14 @@ class AFButtonPressed extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Button Pressed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351104
+             * line : 245127
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFButtonPressed extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:AFButtonPressed',
             'desc' => [
+                'en' => 'AF Button Pressed',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351283
+             * line : 245253
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFButtonPressed extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:AFButtonPressed',
             'desc' => [
+                'en' => 'AF Button Pressed',
             ],
         ],
     ];

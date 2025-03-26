@@ -28,13 +28,14 @@ class ConstraintWeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Constraint Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102993
+             * line : 76089
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConstraintWeight extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConstraintWeight',
             'desc' => [
+                'en' => 'Constraint Weight',
             ],
         ],
     ];

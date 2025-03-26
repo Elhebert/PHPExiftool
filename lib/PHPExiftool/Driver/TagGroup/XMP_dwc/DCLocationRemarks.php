@@ -28,13 +28,14 @@ class DCLocationRemarks extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Location Remarks',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106954
+             * line : 79112
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCLocationRemarks extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCLocationRemarks',
             'desc' => [
+                'en' => 'DC Location Remarks',
             ],
         ],
     ];

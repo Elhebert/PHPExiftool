@@ -28,13 +28,14 @@ class DToB1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'D To B1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146036
+             * line : 101514
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DToB1 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:DToB1',
             'desc' => [
+                'en' => 'D To B1',
             ],
         ],
     ];

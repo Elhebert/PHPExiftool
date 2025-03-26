@@ -28,13 +28,14 @@ class ClippingPathName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clipping Path Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305686
+             * line : 212409
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClippingPathName extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ClippingPathName',
             'desc' => [
+                'en' => 'Clipping Path Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContrastDetectAF extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Detect AF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AFInfo2
-             * line : 188115
+             * line : 127349
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ContrastDetectAF extends AbstractTagGroup
              */
             'id' => 'Nikon::AFInfo2.Nikon:ContrastDetectAF',
             'desc' => [
+                'en' => 'Contrast Detect AF',
             ],
         ],
     ];

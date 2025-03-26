@@ -28,13 +28,14 @@ class AELocalHistogram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AE Local Histogram',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Info
-             * line : 104461
+             * line : 77533
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AELocalHistogram extends AbstractTagGroup
              */
             'id' => 'DJI::Info.DJI:AELocalHistogram',
             'desc' => [
+                'en' => 'AE Local Histogram',
             ],
         ],
     ];

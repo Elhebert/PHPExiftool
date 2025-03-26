@@ -28,13 +28,14 @@ class PreviewImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301499
+             * line : 209825
              * type : undef
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::PXTH
-             * line : 301527
+             * line : 209835
              * type : undef
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PreviewImage extends AbstractTagGroup
              */
             'id' => 'Pentax::PXTH.Pentax:PreviewImage',
             'desc' => [
+                'en' => 'Preview Image',
             ],
         ],
     ];

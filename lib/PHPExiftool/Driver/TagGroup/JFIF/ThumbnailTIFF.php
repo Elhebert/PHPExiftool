@@ -28,13 +28,14 @@ class ThumbnailTIFF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail TIFF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JFIF::Main
-             * line : 152356
+             * line : 104840
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailTIFF extends AbstractTagGroup
              */
             'id' => 'JFIF::Main.JFIF:ThumbnailTIFF',
             'desc' => [
+                'en' => 'Thumbnail TIFF',
             ],
         ],
     ];

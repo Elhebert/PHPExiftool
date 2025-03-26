@@ -28,13 +28,14 @@ class LiveViewAFSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View AF Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351065
+             * line : 245096
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LiveViewAFSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LiveViewAFSetting',
             'desc' => [
+                'en' => 'Live View AF Setting',
             ],
         ],
     ];

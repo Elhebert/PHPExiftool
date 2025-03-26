@@ -28,13 +28,14 @@ class WB_RGGBLevelsBlack extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Levels Black',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335560
+             * line : 235469
              * type : int32s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_RGGBLevelsBlack extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:WB_RGGBLevelsBlack',
             'desc' => [
+                'en' => 'WB RGGB Levels Black',
             ],
         ],
     ];

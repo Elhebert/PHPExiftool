@@ -28,13 +28,14 @@ class ScreenBufferSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screen Buffer Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 160955
+             * line : 109905
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class ScreenBufferSize extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:ScreenBufferSize',
             'desc' => [
+                'en' => 'Screen Buffer Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UseDialWithoutHold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Use Dial Without Hold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 237734
+             * line : 160847
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UseDialWithoutHold extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:UseDialWithoutHold',
             'desc' => [
+                'en' => 'Use Dial Without Hold',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CustomLinear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Linear',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83114
+             * line : 60877
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CustomLinear extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:CustomLinear',
             'desc' => [
+                'en' => 'Custom Linear',
             ],
         ],
     ];

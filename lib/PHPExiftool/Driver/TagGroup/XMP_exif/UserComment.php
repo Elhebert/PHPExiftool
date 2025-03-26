@@ -28,13 +28,14 @@ class UserComment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 408373
+             * line : 288527
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UserComment extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:UserComment',
             'desc' => [
+                'en' => 'User Comment',
             ],
         ],
     ];

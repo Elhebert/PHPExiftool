@@ -28,13 +28,14 @@ class PrintIM extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Print Image Matching',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118753
+             * line : 84036
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PrintIM extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PrintIM',
             'desc' => [
+                'en' => 'Print Image Matching',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CCDBoardVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CCD Board Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274747
+             * line : 191588
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CCDBoardVersion extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:CCDBoardVersion',
             'desc' => [
+                'en' => 'CCD Board Version',
             ],
         ],
     ];

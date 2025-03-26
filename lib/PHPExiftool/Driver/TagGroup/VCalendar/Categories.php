@@ -28,13 +28,14 @@ class Categories extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Categories',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395282
+             * line : 279969
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Categories extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:Categories',
             'desc' => [
+                'en' => 'Categories',
             ],
         ],
     ];

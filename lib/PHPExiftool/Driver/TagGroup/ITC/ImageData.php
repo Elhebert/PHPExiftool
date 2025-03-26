@@ -28,13 +28,14 @@ class ImageData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ITC::Main
-             * line : 152189
+             * line : 104791
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageData extends AbstractTagGroup
              */
             'id' => 'ITC::Main.ITC:ImageData',
             'desc' => [
+                'en' => 'Image Data',
             ],
         ],
     ];

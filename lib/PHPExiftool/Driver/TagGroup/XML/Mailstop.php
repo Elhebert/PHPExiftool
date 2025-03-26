@@ -28,13 +28,14 @@ class Mailstop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mailstop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249177
+             * line : 171798
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Mailstop extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Mailstop',
             'desc' => [
+                'en' => 'Mailstop',
             ],
         ],
     ];

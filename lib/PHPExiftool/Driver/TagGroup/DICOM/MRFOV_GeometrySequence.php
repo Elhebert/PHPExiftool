@@ -28,13 +28,14 @@ class MRFOV_GeometrySequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MRFOV-Geometry Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96790
+             * line : 70192
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRFOV_GeometrySequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRFOV-GeometrySequence',
             'desc' => [
+                'en' => 'MRFOV-Geometry Sequence',
             ],
         ],
     ];

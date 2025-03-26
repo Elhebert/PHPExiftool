@@ -28,13 +28,14 @@ class RunLengthTriplet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Run Length Triplet',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101962
+             * line : 75102
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RunLengthTriplet extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RunLengthTriplet',
             'desc' => [
+                'en' => 'Run Length Triplet',
             ],
         ],
     ];

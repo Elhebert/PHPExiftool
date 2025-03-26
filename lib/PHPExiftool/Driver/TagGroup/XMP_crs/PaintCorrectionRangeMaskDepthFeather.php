@@ -28,13 +28,14 @@ class PaintCorrectionRangeMaskDepthFeather extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Range Mask Depth Feather',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403751
+             * line : 286868
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionRangeMaskDepthFeather extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionRangeMaskDepthFeather',
             'desc' => [
+                'en' => 'Paint Correction Range Mask Depth Feather',
             ],
         ],
     ];

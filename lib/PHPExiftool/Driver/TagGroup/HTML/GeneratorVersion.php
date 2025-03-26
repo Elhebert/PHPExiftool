@@ -28,13 +28,14 @@ class GeneratorVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Generator Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142409
+             * line : 98487
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneratorVersion extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:GeneratorVersion',
             'desc' => [
+                'en' => 'Generator Version',
             ],
         ],
     ];

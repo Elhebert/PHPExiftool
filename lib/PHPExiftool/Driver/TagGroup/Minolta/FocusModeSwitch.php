@@ -28,13 +28,14 @@ class FocusModeSwitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode Switch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182317
+             * line : 124144
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusModeSwitch extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FocusModeSwitch',
             'desc' => [
+                'en' => 'Focus Mode Switch',
             ],
         ],
     ];

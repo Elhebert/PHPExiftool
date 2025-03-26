@@ -28,13 +28,14 @@ class DVDID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVDID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174584
+             * line : 120215
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVDID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DVDID',
             'desc' => [
+                'en' => 'DVDID',
             ],
         ],
     ];

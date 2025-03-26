@@ -28,13 +28,14 @@ class CreativeStyleSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creative Style Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350331
+             * line : 244610
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CreativeStyleSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:CreativeStyleSetting',
             'desc' => [
+                'en' => 'Creative Style Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360200
+             * line : 251070
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CreativeStyleSetting extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:CreativeStyleSetting',
             'desc' => [
+                'en' => 'Creative Style Setting',
             ],
         ],
     ];

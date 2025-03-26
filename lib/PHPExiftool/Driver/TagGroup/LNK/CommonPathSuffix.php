@@ -28,13 +28,14 @@ class CommonPathSuffix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Common Path Suffix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::LinkInfo
-             * line : 161068
+             * line : 109991
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CommonPathSuffix extends AbstractTagGroup
              */
             'id' => 'LNK::LinkInfo.LNK:CommonPathSuffix',
             'desc' => [
+                'en' => 'Common Path Suffix',
             ],
         ],
     ];

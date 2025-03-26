@@ -28,13 +28,14 @@ class AngioFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Angio Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95433
+             * line : 68893
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AngioFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AngioFlag',
             'desc' => [
+                'en' => 'Angio Flag',
             ],
         ],
     ];

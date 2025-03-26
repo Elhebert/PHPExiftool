@@ -28,13 +28,14 @@ class CameraID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336350
+             * line : 235750
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraID extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:CameraID',
             'desc' => [
+                'en' => 'Camera ID',
             ],
         ],
     ];

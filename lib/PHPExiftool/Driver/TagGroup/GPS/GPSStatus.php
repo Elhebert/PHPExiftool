@@ -28,13 +28,14 @@ class GPSStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 131964
+             * line : 90876
              * type : string
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class GPSStatus extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSStatus',
             'desc' => [
+                'en' => 'GPS Status',
             ],
         ],
         1 => [
             /**
              * table_name : H264::MDPM
-             * line : 141554
+             * line : 98245
              * type : string
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSStatus extends AbstractTagGroup
              */
             'id' => 'H264::MDPM.GPS:GPSStatus',
             'desc' => [
+                'en' => 'GPS Status',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301349
+             * line : 209794
              * type : string
              * writable : false
              * count : 2
@@ -68,6 +71,7 @@ class GPSStatus extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSStatus',
             'desc' => [
+                'en' => 'GPS Status',
             ],
         ],
     ];

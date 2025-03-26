@@ -28,13 +28,14 @@ class CallLetters extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Call Letters',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174501
+             * line : 120170
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CallLetters extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CallLetters',
             'desc' => [
+                'en' => 'Call Letters',
             ],
         ],
     ];

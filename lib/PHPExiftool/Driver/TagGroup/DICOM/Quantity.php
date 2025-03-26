@@ -28,13 +28,14 @@ class Quantity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Quantity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99703
+             * line : 72909
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Quantity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Quantity',
             'desc' => [
+                'en' => 'Quantity',
             ],
         ],
     ];

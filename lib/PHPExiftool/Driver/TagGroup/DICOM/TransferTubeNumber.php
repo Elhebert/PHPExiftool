@@ -28,13 +28,14 @@ class TransferTubeNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transfer Tube Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103678
+             * line : 76767
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransferTubeNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransferTubeNumber',
             'desc' => [
+                'en' => 'Transfer Tube Number',
             ],
         ],
     ];

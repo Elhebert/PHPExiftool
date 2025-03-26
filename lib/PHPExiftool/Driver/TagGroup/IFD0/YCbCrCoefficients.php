@@ -28,13 +28,14 @@ class YCbCrCoefficients extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Coefficients',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112490
+             * line : 82056
              * type : rational64u
              * writable : true
              * count : 3
@@ -42,6 +43,7 @@ class YCbCrCoefficients extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:YCbCrCoefficients',
             'desc' => [
+                'en' => 'Y Cb Cr Coefficients',
             ],
         ],
     ];

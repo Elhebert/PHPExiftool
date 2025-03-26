@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::MOV
-             * line : 335954
+             * line : 235606
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Sanyo::MOV.Sanyo:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SoftwareRelease extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Software Release',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 124932
+             * line : 87282
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SoftwareRelease extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:SoftwareRelease',
             'desc' => [
+                'en' => 'Software Release',
             ],
         ],
     ];

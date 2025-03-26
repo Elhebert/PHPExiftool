@@ -28,13 +28,14 @@ class ColorObjName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Obj Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ColorSetup
-             * line : 161815
+             * line : 110544
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorObjName extends AbstractTagGroup
              */
             'id' => 'Leaf::ColorSetup.Leaf:ColorObjName',
             'desc' => [
+                'en' => 'Color Obj Name',
             ],
         ],
     ];

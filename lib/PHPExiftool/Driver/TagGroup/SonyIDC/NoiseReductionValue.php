@@ -28,13 +28,14 @@ class NoiseReductionValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Noise Reduction Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394293
+             * line : 279327
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NoiseReductionValue extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:NoiseReductionValue',
             'desc' => [
+                'en' => 'Noise Reduction Value',
             ],
         ],
     ];

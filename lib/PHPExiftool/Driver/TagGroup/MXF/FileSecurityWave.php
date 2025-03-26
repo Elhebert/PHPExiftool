@@ -28,13 +28,14 @@ class FileSecurityWave extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Security Wave',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171296
+             * line : 117500
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileSecurityWave extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:FileSecurityWave',
             'desc' => [
+                'en' => 'File Security Wave',
             ],
         ],
     ];

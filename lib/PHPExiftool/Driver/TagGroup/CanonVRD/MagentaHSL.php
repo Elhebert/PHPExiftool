@@ -28,13 +28,14 @@ class MagentaHSL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Magenta HSL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80781
+             * line : 58896
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MagentaHSL extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:MagentaHSL',
             'desc' => [
+                'en' => 'Magenta HSL',
             ],
         ],
     ];

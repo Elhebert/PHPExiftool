@@ -28,13 +28,14 @@ class RatingRegion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rating Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409633
+             * line : 289393
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RatingRegion extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RatingRegion',
             'desc' => [
+                'en' => 'Rating Region',
             ],
         ],
     ];

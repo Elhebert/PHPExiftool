@@ -28,13 +28,14 @@ class LCDIlluminationDuringBulb extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'LCD Illumination During Bulb',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73428
+             * line : 54320
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LCDIlluminationDuringBulb extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:LCDIlluminationDuringBulb',
             'desc' => [
+                'en' => 'LCD Illumination During Bulb',
             ],
         ],
     ];

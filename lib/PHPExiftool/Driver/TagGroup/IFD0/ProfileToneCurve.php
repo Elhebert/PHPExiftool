@@ -28,13 +28,14 @@ class ProfileToneCurve extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Profile Tone Curve',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120129
+             * line : 84438
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProfileToneCurve extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:ProfileToneCurve',
             'desc' => [
+                'en' => 'Profile Tone Curve',
             ],
         ],
     ];

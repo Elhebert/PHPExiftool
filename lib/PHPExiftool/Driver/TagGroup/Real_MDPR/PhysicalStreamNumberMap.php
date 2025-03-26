@@ -28,13 +28,14 @@ class PhysicalStreamNumberMap extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Physical Stream Number Map',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::MediaProps
-             * line : 330450
+             * line : 232523
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhysicalStreamNumberMap extends AbstractTagGroup
              */
             'id' => 'Real::MediaProps.Real-MDPR:PhysicalStreamNumberMap',
             'desc' => [
+                'en' => 'Physical Stream Number Map',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ContentGroupDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Group Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1147
+             * line : 472
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentGroupDescription extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:ContentGroupDescription',
             'desc' => [
+                'en' => 'Content Group Description',
             ],
         ],
     ];

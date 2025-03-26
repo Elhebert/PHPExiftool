@@ -28,13 +28,14 @@ class Gain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Instrument
-             * line : 328610
+             * line : 231721
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Gain extends AbstractTagGroup
              */
             'id' => 'RIFF::Instrument.RIFF:Gain',
             'desc' => [
+                'en' => 'Gain',
             ],
         ],
     ];

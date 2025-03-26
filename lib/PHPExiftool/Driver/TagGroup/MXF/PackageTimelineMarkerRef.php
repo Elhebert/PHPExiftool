@@ -28,13 +28,14 @@ class PackageTimelineMarkerRef extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Package Timeline Marker Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172457
+             * line : 118618
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PackageTimelineMarkerRef extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PackageTimelineMarkerRef',
             'desc' => [
+                'en' => 'Package Timeline Marker Ref',
             ],
         ],
     ];

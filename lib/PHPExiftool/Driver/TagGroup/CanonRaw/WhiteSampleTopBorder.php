@@ -28,13 +28,14 @@ class WhiteSampleTopBorder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Sample Top Border',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::WhiteSample
-             * line : 80146
+             * line : 58486
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteSampleTopBorder extends AbstractTagGroup
              */
             'id' => 'CanonRaw::WhiteSample.CanonRaw:WhiteSampleTopBorder',
             'desc' => [
+                'en' => 'White Sample Top Border',
             ],
         ],
     ];

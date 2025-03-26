@@ -28,13 +28,14 @@ class DeidentificationMethodCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Deidentification Method Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95386
+             * line : 68848
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeidentificationMethodCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DeidentificationMethodCodeSequence',
             'desc' => [
+                'en' => 'Deidentification Method Code Sequence',
             ],
         ],
     ];

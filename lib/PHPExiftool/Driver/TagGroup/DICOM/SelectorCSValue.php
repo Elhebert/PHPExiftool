@@ -28,13 +28,14 @@ class SelectorCSValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Selector CS Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101503
+             * line : 74649
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelectorCSValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SelectorCSValue',
             'desc' => [
+                'en' => 'Selector CS Value',
             ],
         ],
     ];

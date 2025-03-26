@@ -28,13 +28,14 @@ class FilmGencode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Gencode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158435
+             * line : 108922
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmGencode extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:FilmGencode',
             'desc' => [
+                'en' => 'Film Gencode',
             ],
         ],
     ];

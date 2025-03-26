@@ -28,13 +28,14 @@ class GPSAltitudeRef extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Altitude Ref',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 406298
+             * line : 288106
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSAltitudeRef extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:GPSAltitudeRef',
             'desc' => [
+                'en' => 'GPS Altitude Ref',
             ],
         ],
     ];

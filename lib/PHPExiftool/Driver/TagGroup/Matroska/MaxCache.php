@@ -28,13 +28,14 @@ class MaxCache extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Cache',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173866
+             * line : 119764
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxCache extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:MaxCache',
             'desc' => [
+                'en' => 'Max Cache',
             ],
         ],
     ];

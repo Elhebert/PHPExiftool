@@ -28,13 +28,14 @@ class EventIndication extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Indication',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168114
+             * line : 114614
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class EventIndication extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventIndication',
             'desc' => [
+                'en' => 'Event Indication',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170844
+             * line : 117075
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class EventIndication extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EventIndication',
             'desc' => [
+                'en' => 'Event Indication',
             ],
         ],
     ];

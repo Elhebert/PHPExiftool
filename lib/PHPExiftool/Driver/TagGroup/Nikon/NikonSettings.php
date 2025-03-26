@@ -28,13 +28,14 @@ class NikonSettings extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Nikon Settings',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197160
+             * line : 133090
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NikonSettings extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:NikonSettings',
             'desc' => [
+                'en' => 'Nikon Settings',
             ],
         ],
     ];

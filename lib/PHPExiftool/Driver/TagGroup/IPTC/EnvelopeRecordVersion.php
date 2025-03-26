@@ -28,13 +28,14 @@ class EnvelopeRecordVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Envelope Record Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::EnvelopeRecord
-             * line : 150990
+             * line : 104216
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EnvelopeRecordVersion extends AbstractTagGroup
              */
             'id' => 'IPTC::EnvelopeRecord.IPTC:EnvelopeRecordVersion',
             'desc' => [
+                'en' => 'Envelope Record Version',
             ],
         ],
     ];

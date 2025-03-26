@@ -28,13 +28,14 @@ class URL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::Metafile
-             * line : 330493
+             * line : 232552
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class URL extends AbstractTagGroup
              */
             'id' => 'Real::Metafile.Real:URL',
             'desc' => [
+                'en' => 'URL',
             ],
         ],
     ];

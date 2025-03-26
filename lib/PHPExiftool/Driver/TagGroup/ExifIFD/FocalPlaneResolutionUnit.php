@@ -28,13 +28,14 @@ class FocalPlaneResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Plane Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115292
+             * line : 82929
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocalPlaneResolutionUnit extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FocalPlaneResolutionUnit',
             'desc' => [
+                'en' => 'Focal Plane Resolution Unit',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116633
+             * line : 83414
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FocalPlaneResolutionUnit extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FocalPlaneResolutionUnit',
             'desc' => [
+                'en' => 'Focal Plane Resolution Unit',
             ],
         ],
     ];

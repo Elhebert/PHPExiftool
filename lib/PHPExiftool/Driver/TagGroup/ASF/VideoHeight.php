@@ -28,13 +28,14 @@ class VideoHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1667
+             * line : 820
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoHeight extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:VideoHeight',
             'desc' => [
+                'en' => 'Video Height',
             ],
         ],
     ];

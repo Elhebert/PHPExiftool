@@ -28,13 +28,14 @@ class AFMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306242
+             * line : 212747
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFMode extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFMode',
             'desc' => [
+                'en' => 'AF Mode',
             ],
         ],
     ];

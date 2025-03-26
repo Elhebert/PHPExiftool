@@ -28,13 +28,14 @@ class ProgramVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Program Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 150159
+             * line : 103919
              * type : string
              * writable : true
              * count : 10
@@ -42,6 +43,7 @@ class ProgramVersion extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:ProgramVersion',
             'desc' => [
+                'en' => 'Program Version',
             ],
         ],
     ];

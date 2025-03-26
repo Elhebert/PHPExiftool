@@ -28,13 +28,14 @@ class RRIntervalVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RR Interval Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100865
+             * line : 74025
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RRIntervalVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RRIntervalVector',
             'desc' => [
+                'en' => 'RR Interval Vector',
             ],
         ],
     ];

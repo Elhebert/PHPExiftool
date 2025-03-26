@@ -28,13 +28,14 @@ class CropWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398894
+             * line : 282420
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropWidth extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CropWidth',
             'desc' => [
+                'en' => 'Crop Width',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AdvancedMutualExcl extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Advanced Mutual Excl',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1843
+             * line : 940
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdvancedMutualExcl extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:AdvancedMutualExcl',
             'desc' => [
+                'en' => 'Advanced Mutual Excl',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ComponentsConfiguration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Components Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405175
+             * line : 287828
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ComponentsConfiguration extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ComponentsConfiguration',
             'desc' => [
+                'en' => 'Components Configuration',
             ],
         ],
     ];

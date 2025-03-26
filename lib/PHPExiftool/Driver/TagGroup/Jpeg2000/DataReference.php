@@ -28,13 +28,14 @@ class DataReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154202
+             * line : 105879
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataReference extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:DataReference',
             'desc' => [
+                'en' => 'Data Reference',
             ],
         ],
     ];

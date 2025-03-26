@@ -28,13 +28,14 @@ class PerforationsPerFrame extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Perforations Per Frame',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169173
+             * line : 115615
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PerforationsPerFrame extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PerforationsPerFrame',
             'desc' => [
+                'en' => 'Perforations Per Frame',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169176
+             * line : 115618
              * type : rational64s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PerforationsPerFrame extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PerforationsPerFrame',
             'desc' => [
+                'en' => 'Perforations Per Frame',
             ],
         ],
     ];

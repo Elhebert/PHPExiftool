@@ -28,13 +28,14 @@ class ImageFileName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105329
+             * line : 78065
              * type : string
              * writable : false
              * count : 100
@@ -42,6 +43,7 @@ class ImageFileName extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:ImageFileName',
             'desc' => [
+                'en' => 'Image File Name',
             ],
         ],
     ];

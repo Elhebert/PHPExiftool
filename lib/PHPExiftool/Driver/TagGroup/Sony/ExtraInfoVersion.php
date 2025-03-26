@@ -28,13 +28,14 @@ class ExtraInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extra Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ExtraInfo
-             * line : 352167
+             * line : 246031
              * type : int8u
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class ExtraInfoVersion extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo.Sony:ExtraInfoVersion',
             'desc' => [
+                'en' => 'Extra Info Version',
             ],
         ],
     ];

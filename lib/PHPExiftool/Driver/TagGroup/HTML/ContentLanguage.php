@@ -28,13 +28,14 @@ class ContentLanguage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Language',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142351
+             * line : 98460
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentLanguage extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:ContentLanguage',
             'desc' => [
+                'en' => 'Content Language',
             ],
         ],
     ];

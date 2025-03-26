@@ -28,13 +28,14 @@ class UniformDataFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Uniform Data Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169269
+             * line : 115678
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UniformDataFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UniformDataFlag',
             'desc' => [
+                'en' => 'Uniform Data Flag',
             ],
         ],
     ];

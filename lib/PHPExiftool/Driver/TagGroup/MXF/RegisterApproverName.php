@@ -28,13 +28,14 @@ class RegisterApproverName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Approver Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172352
+             * line : 118513
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterApproverName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterApproverName',
             'desc' => [
+                'en' => 'Register Approver Name',
             ],
         ],
     ];

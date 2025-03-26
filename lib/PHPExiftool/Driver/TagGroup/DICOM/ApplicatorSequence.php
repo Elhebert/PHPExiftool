@@ -28,13 +28,14 @@ class ApplicatorSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Applicator Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103324
+             * line : 76419
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ApplicatorSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ApplicatorSequence',
             'desc' => [
+                'en' => 'Applicator Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CPUVersions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CPU Versions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JVC::Main
-             * line : 153403
+             * line : 105421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CPUVersions extends AbstractTagGroup
              */
             'id' => 'JVC::Main.JVC:CPUVersions',
             'desc' => [
+                'en' => 'CPU Versions',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PatientBirthDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Patient Birth Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::DICOM
-             * line : 396440
+             * line : 280669
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PatientBirthDate extends AbstractTagGroup
              */
             'id' => 'XMP::DICOM.XMP-DICOM:PatientBirthDate',
             'desc' => [
+                'en' => 'Patient Birth Date',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Country_Region extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Country-Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176483
+             * line : 121437
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Country_Region extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Country-Region',
             'desc' => [
+                'en' => 'Country-Region',
             ],
         ],
     ];

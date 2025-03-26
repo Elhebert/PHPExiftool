@@ -28,13 +28,14 @@ class HCUsage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HC Usage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113392
+             * line : 82434
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HCUsage extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:HCUsage',
             'desc' => [
+                'en' => 'HC Usage',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class EncryptionKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encryption Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105384
+             * line : 78080
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncryptionKey extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:EncryptionKey',
             'desc' => [
+                'en' => 'Encryption Key',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SubSelectorPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sub Selector Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216404
+             * line : 145422
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SubSelectorPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:SubSelectorPlusDials',
             'desc' => [
+                'en' => 'Sub Selector Plus Dials',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219258
+             * line : 147602
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SubSelectorPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:SubSelectorPlusDials',
             'desc' => [
+                'en' => 'Sub Selector Plus Dials',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221718
+             * line : 149644
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class SubSelectorPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:SubSelectorPlusDials',
             'desc' => [
+                'en' => 'Sub Selector Plus Dials',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233631
+             * line : 157475
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class SubSelectorPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:SubSelectorPlusDials',
             'desc' => [
+                'en' => 'Sub Selector Plus Dials',
             ],
         ],
     ];

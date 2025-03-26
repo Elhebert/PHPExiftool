@@ -28,13 +28,14 @@ class PaintCorrectionMaskRangeLuminanceDepthSampleInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Mask Range Luminance Depth Sample Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403490
+             * line : 286607
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionMaskRangeLuminanceDepthSampleInfo extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:PaintCorrectionMaskRangeLuminanceDepthSampleInfo',
             'desc' => [
+                'en' => 'Paint Correction Mask Range Luminance Depth Sample Info',
             ],
         ],
     ];

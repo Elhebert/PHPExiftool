@@ -28,13 +28,14 @@ class ContourSlabThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contour Slab Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102585
+             * line : 75681
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContourSlabThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContourSlabThickness',
             'desc' => [
+                'en' => 'Contour Slab Thickness',
             ],
         ],
     ];

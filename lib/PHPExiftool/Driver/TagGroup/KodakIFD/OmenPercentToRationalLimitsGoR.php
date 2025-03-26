@@ -28,13 +28,14 @@ class OmenPercentToRationalLimitsGoR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Percent To Rational Limits Go R',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155672
+             * line : 106883
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenPercentToRationalLimitsGoR extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenPercentToRationalLimitsGoR',
             'desc' => [
+                'en' => 'Omen Percent To Rational Limits Go R',
             ],
         ],
     ];

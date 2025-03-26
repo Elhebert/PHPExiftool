@@ -28,13 +28,14 @@ class SampleDegradationPriority extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Degradation Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324428
+             * line : 229218
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleDegradationPriority extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:SampleDegradationPriority',
             'desc' => [
+                'en' => 'Sample Degradation Priority',
             ],
         ],
     ];

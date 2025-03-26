@@ -28,13 +28,14 @@ class WindowLocation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Window Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325318
+             * line : 229637
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WindowLocation extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:WindowLocation',
             'desc' => [
+                'en' => 'Window Location',
             ],
         ],
     ];

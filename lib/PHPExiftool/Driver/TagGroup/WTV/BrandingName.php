@@ -28,13 +28,14 @@ class BrandingName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Branding Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396272
+             * line : 280548
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BrandingName extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:BrandingName',
             'desc' => [
+                'en' => 'Branding Name',
             ],
         ],
     ];

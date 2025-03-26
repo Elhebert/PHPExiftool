@@ -28,13 +28,14 @@ class UprightPreview extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Upright Preview',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404554
+             * line : 287581
              * type : boolean
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UprightPreview extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:UprightPreview',
             'desc' => [
+                'en' => 'Upright Preview',
             ],
         ],
     ];

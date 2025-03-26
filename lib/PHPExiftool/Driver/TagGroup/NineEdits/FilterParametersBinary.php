@@ -28,13 +28,14 @@ class FilterParametersBinary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter Parameters Binary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::NineEdits
-             * line : 203602
+             * line : 137322
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterParametersBinary extends AbstractTagGroup
              */
             'id' => 'Nikon::NineEdits.NineEdits:FilterParametersBinary',
             'desc' => [
+                'en' => 'Filter Parameters Binary',
             ],
         ],
     ];

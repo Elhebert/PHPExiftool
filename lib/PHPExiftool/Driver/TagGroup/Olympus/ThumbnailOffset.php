@@ -28,13 +28,14 @@ class ThumbnailOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Thumbnail
-             * line : 262200
+             * line : 181239
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailOffset extends AbstractTagGroup
              */
             'id' => 'Olympus::Thumbnail.Olympus:ThumbnailOffset',
             'desc' => [
+                'en' => 'Thumbnail Offset',
             ],
         ],
     ];

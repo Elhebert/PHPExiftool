@@ -28,13 +28,14 @@ class MDItemMediaTypes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Media Types',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172900
+             * line : 118969
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemMediaTypes extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemMediaTypes',
             'desc' => [
+                'en' => 'MD Item Media Types',
             ],
         ],
     ];

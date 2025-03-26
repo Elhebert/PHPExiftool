@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::PictureControl
-             * line : 203699
+             * line : 137364
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl.Nikon:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::PictureControl2
-             * line : 204013
+             * line : 137476
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl2.Nikon:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::PictureControl3
-             * line : 204339
+             * line : 137591
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Nikon::PictureControl3.Nikon:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

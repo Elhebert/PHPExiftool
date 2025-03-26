@@ -28,13 +28,14 @@ class SelfTimer extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Self Timer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336497
+             * line : 235803
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SelfTimer extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:SelfTimer',
             'desc' => [
+                'en' => 'Self Timer',
             ],
         ],
     ];

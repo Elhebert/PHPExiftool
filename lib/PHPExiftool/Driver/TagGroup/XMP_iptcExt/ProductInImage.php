@@ -28,13 +28,14 @@ class ProductInImage extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Product In Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409594
+             * line : 289366
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProductInImage extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:ProductInImage',
             'desc' => [
+                'en' => 'Product In Image',
             ],
         ],
     ];

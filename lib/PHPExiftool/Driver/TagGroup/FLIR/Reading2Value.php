@@ -28,13 +28,14 @@ class Reading2Value extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reading 2 Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::MeterLink
-             * line : 123360
+             * line : 86185
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Reading2Value extends AbstractTagGroup
              */
             'id' => 'FLIR::MeterLink.FLIR:Reading2Value',
             'desc' => [
+                'en' => 'Reading 2 Value',
             ],
         ],
     ];

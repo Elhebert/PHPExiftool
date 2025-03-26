@@ -28,13 +28,14 @@ class LookParametersVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Look Parameters Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402911
+             * line : 286047
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookParametersVersion extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:LookParametersVersion',
             'desc' => [
+                'en' => 'Look Parameters Version',
             ],
         ],
     ];

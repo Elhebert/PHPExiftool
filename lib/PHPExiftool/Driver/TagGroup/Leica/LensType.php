@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Data1
-             * line : 273964
+             * line : 191065
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Data1.Leica:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Leica2
-             * line : 274477
+             * line : 191371
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica2.Leica:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         2 => [
             /**
              * table_name : Panasonic::Leica5
-             * line : 274774
+             * line : 191611
              * type : string
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica5.Leica:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         3 => [
             /**
              * table_name : Panasonic::Leica6
-             * line : 274928
+             * line : 191662
              * type : string
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica6.Leica:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         4 => [
             /**
              * table_name : Panasonic::Subdir
-             * line : 279451
+             * line : 194038
              * type : int32u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Panasonic::Subdir.Leica:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

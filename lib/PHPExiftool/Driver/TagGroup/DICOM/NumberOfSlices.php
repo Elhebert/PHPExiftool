@@ -28,13 +28,14 @@ class NumberOfSlices extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Slices',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100892
+             * line : 74052
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfSlices extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfSlices',
             'desc' => [
+                'en' => 'Number Of Slices',
             ],
         ],
     ];

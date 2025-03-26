@@ -28,13 +28,14 @@ class LineJustify extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Line Justify',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264751
+             * line : 182984
              * type : int8u
              * writable : false
              * count : 10
@@ -42,6 +43,7 @@ class LineJustify extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:LineJustify',
             'desc' => [
+                'en' => 'Line Justify',
             ],
         ],
     ];

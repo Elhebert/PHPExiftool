@@ -28,13 +28,14 @@ class WB_RGBLevelsTungsten extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels Tungsten',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361736
+             * line : 251892
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WB_RGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGB Levels Tungsten',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361818
+             * line : 251925
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class WB_RGBLevelsTungsten extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:WB_RGBLevelsTungsten',
             'desc' => [
+                'en' => 'WB RGB Levels Tungsten',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DopesheetLinkLinkQualifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dopesheet Link Link Qualifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409263
+             * line : 289062
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DopesheetLinkLinkQualifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:DopesheetLinkLinkQualifier',
             'desc' => [
+                'en' => 'Dopesheet Link Link Qualifier',
             ],
         ],
     ];

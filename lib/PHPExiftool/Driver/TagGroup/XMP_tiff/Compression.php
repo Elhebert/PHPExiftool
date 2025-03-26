@@ -28,13 +28,14 @@ class Compression extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compression',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::tiff
-             * line : 411409
+             * line : 290536
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Compression extends AbstractTagGroup
              */
             'id' => 'XMP::tiff.XMP-tiff:Compression',
             'desc' => [
+                'en' => 'Compression',
             ],
         ],
     ];

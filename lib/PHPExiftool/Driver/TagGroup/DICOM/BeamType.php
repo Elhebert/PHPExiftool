@@ -28,13 +28,14 @@ class BeamType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103164
+             * line : 76260
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamType',
             'desc' => [
+                'en' => 'Beam Type',
             ],
         ],
     ];

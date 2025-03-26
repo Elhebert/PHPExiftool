@@ -28,13 +28,14 @@ class VolumeExpirationDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Volume Expiration Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ISO::PrimaryVolume
-             * line : 152079
+             * line : 104739
              * type : undef
              * writable : false
              * count : 17
@@ -42,6 +43,7 @@ class VolumeExpirationDate extends AbstractTagGroup
              */
             'id' => 'ISO::PrimaryVolume.ISO:VolumeExpirationDate',
             'desc' => [
+                'en' => 'Volume Expiration Date',
             ],
         ],
     ];

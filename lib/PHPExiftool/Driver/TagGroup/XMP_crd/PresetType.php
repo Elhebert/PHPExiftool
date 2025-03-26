@@ -28,13 +28,14 @@ class PresetType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preset Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400606
+             * line : 284093
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PresetType extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PresetType',
             'desc' => [
+                'en' => 'Preset Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AFAreaMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275337
+             * line : 191822
              * type : int8u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Panasonic::Main
-             * line : 275361
+             * line : 191833
              * type : int8u
              * writable : true
              * count : 2
@@ -55,6 +57,7 @@ class AFAreaMode extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:AFAreaMode',
             'desc' => [
+                'en' => 'AF Area Mode',
             ],
         ],
     ];

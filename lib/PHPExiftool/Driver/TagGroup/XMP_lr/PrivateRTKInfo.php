@@ -28,13 +28,14 @@ class PrivateRTKInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Private RTK Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Lightroom
-             * line : 397383
+             * line : 281412
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PrivateRTKInfo extends AbstractTagGroup
              */
             'id' => 'XMP::Lightroom.XMP-lr:PrivateRTKInfo',
             'desc' => [
+                'en' => 'Private RTK Info',
             ],
         ],
     ];

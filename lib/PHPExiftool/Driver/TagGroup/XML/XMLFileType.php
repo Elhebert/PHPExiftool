@@ -28,13 +28,14 @@ class XMLFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'XML File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265187
+             * line : 183315
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XMLFileType extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:XMLFileType',
             'desc' => [
+                'en' => 'XML File Type',
             ],
         ],
     ];

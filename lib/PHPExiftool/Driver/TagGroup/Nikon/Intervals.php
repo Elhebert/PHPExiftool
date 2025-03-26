@@ -28,13 +28,14 @@ class Intervals extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intervals',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199730
+             * line : 134734
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Intervals extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:Intervals',
             'desc' => [
+                'en' => 'Intervals',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200386
+             * line : 135341
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Intervals extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:Intervals',
             'desc' => [
+                'en' => 'Intervals',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207947
+             * line : 140081
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class Intervals extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:Intervals',
             'desc' => [
+                'en' => 'Intervals',
             ],
         ],
     ];

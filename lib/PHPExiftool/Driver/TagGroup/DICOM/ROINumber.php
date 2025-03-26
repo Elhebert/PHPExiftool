@@ -28,13 +28,14 @@ class ROINumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102543
+             * line : 75642
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROINumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROINumber',
             'desc' => [
+                'en' => 'ROI Number',
             ],
         ],
     ];

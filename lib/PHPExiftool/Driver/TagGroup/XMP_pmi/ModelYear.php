@@ -28,13 +28,14 @@ class ModelYear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Model Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410615
+             * line : 289928
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ModelYear extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:ModelYear',
             'desc' => [
+                'en' => 'Model Year',
             ],
         ],
     ];

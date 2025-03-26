@@ -28,13 +28,14 @@ class MainSponsorName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Main Sponsor Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168768
+             * line : 115244
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MainSponsorName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MainSponsorName',
             'desc' => [
+                'en' => 'Main Sponsor Name',
             ],
         ],
     ];

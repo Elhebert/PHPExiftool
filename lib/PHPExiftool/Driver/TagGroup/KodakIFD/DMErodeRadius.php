@@ -28,13 +28,14 @@ class DMErodeRadius extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DM Erode Radius',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155768
+             * line : 106979
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DMErodeRadius extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:DMErodeRadius',
             'desc' => [
+                'en' => 'DM Erode Radius',
             ],
         ],
     ];

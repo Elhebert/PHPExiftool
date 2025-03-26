@@ -28,13 +28,14 @@ class Title2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v1_Enh
-             * line : 147967
+             * line : 102845
              * type : string
              * writable : false
              * count : 60
@@ -42,6 +43,7 @@ class Title2 extends AbstractTagGroup
              */
             'id' => 'ID3::v1_Enh.ID3v1_Enh:Title2',
             'desc' => [
+                'en' => 'Title 2',
             ],
         ],
     ];

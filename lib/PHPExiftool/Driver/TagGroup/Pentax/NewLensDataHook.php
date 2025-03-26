@@ -28,13 +28,14 @@ class NewLensDataHook extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'New Lens Data Hook',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensData
-             * line : 288790
+             * line : 200346
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NewLensDataHook extends AbstractTagGroup
              */
             'id' => 'Pentax::LensData.Pentax:NewLensDataHook',
             'desc' => [
+                'en' => 'New Lens Data Hook',
             ],
         ],
     ];

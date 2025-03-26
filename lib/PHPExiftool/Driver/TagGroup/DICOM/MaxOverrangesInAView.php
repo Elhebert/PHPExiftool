@@ -28,13 +28,14 @@ class MaxOverrangesInAView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Overranges In A View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100378
+             * line : 73551
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxOverrangesInAView extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MaxOverrangesInAView',
             'desc' => [
+                'en' => 'Max Overranges In A View',
             ],
         ],
     ];

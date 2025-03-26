@@ -28,13 +28,14 @@ class CurrentRequestedProcEvidenceSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current Requested Proc Evidence Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100200
+             * line : 73374
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentRequestedProcEvidenceSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurrentRequestedProcEvidenceSeq',
             'desc' => [
+                'en' => 'Current Requested Proc Evidence Seq',
             ],
         ],
     ];

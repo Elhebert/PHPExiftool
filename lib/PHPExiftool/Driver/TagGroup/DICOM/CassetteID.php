@@ -28,13 +28,14 @@ class CassetteID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cassette ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95583
+             * line : 69037
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CassetteID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CassetteID',
             'desc' => [
+                'en' => 'Cassette ID',
             ],
         ],
     ];

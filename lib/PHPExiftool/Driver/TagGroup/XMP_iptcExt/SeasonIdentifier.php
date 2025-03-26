@@ -28,13 +28,14 @@ class SeasonIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Season Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409723
+             * line : 289483
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SeasonIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:SeasonIdentifier',
             'desc' => [
+                'en' => 'Season Identifier',
             ],
         ],
     ];

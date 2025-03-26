@@ -28,13 +28,14 @@ class EndAnchor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'End Anchor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169426
+             * line : 115830
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class EndAnchor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EndAnchor',
             'desc' => [
+                'en' => 'End Anchor',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169429
+             * line : 115833
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class EndAnchor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EndAnchor',
             'desc' => [
+                'en' => 'End Anchor',
             ],
         ],
     ];

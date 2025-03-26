@@ -28,13 +28,14 @@ class PaymentDueDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Payment Due Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170974
+             * line : 117201
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaymentDueDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PaymentDueDateTime',
             'desc' => [
+                'en' => 'Payment Due Date Time',
             ],
         ],
     ];

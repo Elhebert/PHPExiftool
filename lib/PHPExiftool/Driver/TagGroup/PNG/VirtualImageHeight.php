@@ -28,13 +28,14 @@ class VirtualImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Virtual Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::VirtualPage
-             * line : 273047
+             * line : 190588
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VirtualImageHeight extends AbstractTagGroup
              */
             'id' => 'PNG::VirtualPage.PNG:VirtualImageHeight',
             'desc' => [
+                'en' => 'Virtual Image Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StreamOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170817
+             * line : 117048
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StreamOffset',
             'desc' => [
+                'en' => 'Stream Offset',
             ],
         ],
     ];

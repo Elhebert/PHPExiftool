@@ -28,13 +28,14 @@ class CharacterSet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Character Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::AFM
-             * line : 127715
+             * line : 88690
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CharacterSet extends AbstractTagGroup
              */
             'id' => 'Font::AFM.Font:CharacterSet',
             'desc' => [
+                'en' => 'Character Set',
             ],
         ],
         1 => [
             /**
              * table_name : Font::PFM
-             * line : 128055
+             * line : 88864
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CharacterSet extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:CharacterSet',
             'desc' => [
+                'en' => 'Character Set',
             ],
         ],
     ];

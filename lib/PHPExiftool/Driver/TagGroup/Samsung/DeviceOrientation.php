@@ -28,13 +28,14 @@ class DeviceOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334184
+             * line : 234264
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceOrientation extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:DeviceOrientation',
             'desc' => [
+                'en' => 'Device Orientation',
             ],
         ],
     ];

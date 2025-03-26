@@ -28,13 +28,14 @@ class Preview1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146491
+             * line : 101820
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Preview1 extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:Preview1',
             'desc' => [
+                'en' => 'Preview 1',
             ],
         ],
     ];

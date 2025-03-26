@@ -28,13 +28,14 @@ class ChapterCountry extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chapter Country',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173462
+             * line : 119411
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChapterCountry extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:ChapterCountry',
             'desc' => [
+                'en' => 'Chapter Country',
             ],
         ],
     ];

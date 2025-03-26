@@ -28,13 +28,14 @@ class ExtDescrAccessibility extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ext Descr Accessibility',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 409009
+             * line : 288864
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtDescrAccessibility extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:ExtDescrAccessibility',
             'desc' => [
+                'en' => 'Ext Descr Accessibility',
             ],
         ],
     ];

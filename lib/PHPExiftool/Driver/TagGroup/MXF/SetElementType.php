@@ -28,13 +28,14 @@ class SetElementType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Set Element Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169640
+             * line : 116031
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SetElementType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SetElementType',
             'desc' => [
+                'en' => 'Set Element Type',
             ],
         ],
     ];

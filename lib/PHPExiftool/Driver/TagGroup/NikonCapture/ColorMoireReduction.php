@@ -28,13 +28,14 @@ class ColorMoireReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Moire Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::NoiseReduction
-             * line : 211054
+             * line : 141951
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorMoireReduction extends AbstractTagGroup
              */
             'id' => 'NikonCapture::NoiseReduction.NikonCapture:ColorMoireReduction',
             'desc' => [
+                'en' => 'Color Moire Reduction',
             ],
         ],
     ];

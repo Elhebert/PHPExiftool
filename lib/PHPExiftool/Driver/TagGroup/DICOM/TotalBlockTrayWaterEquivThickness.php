@@ -28,13 +28,14 @@ class TotalBlockTrayWaterEquivThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Block Tray Water Equiv Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103278
+             * line : 76374
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalBlockTrayWaterEquivThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalBlockTrayWaterEquivThickness',
             'desc' => [
+                'en' => 'Total Block Tray Water Equiv Thickness',
             ],
         ],
     ];

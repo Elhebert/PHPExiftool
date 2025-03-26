@@ -28,13 +28,14 @@ class DerivationCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Derivation Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95130
+             * line : 68611
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DerivationCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DerivationCodeSequence',
             'desc' => [
+                'en' => 'Derivation Code Sequence',
             ],
         ],
     ];

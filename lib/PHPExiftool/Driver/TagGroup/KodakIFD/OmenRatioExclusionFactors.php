@@ -28,13 +28,14 @@ class OmenRatioExclusionFactors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Omen Ratio Exclusion Factors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155705
+             * line : 106916
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OmenRatioExclusionFactors extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:OmenRatioExclusionFactors',
             'desc' => [
+                'en' => 'Omen Ratio Exclusion Factors',
             ],
         ],
     ];

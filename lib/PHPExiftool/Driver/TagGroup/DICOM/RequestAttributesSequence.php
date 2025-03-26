@@ -28,13 +28,14 @@ class RequestAttributesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Request Attributes Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99690
+             * line : 72897
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RequestAttributesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RequestAttributesSequence',
             'desc' => [
+                'en' => 'Request Attributes Sequence',
             ],
         ],
     ];

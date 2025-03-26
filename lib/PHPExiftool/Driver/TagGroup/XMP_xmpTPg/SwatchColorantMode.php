@@ -28,13 +28,14 @@ class SwatchColorantMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Swatch Colorant Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpTPg
-             * line : 414596
+             * line : 292528
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SwatchColorantMode extends AbstractTagGroup
              */
             'id' => 'XMP::xmpTPg.XMP-xmpTPg:SwatchColorantMode',
             'desc' => [
+                'en' => 'Swatch Colorant Mode',
             ],
         ],
     ];

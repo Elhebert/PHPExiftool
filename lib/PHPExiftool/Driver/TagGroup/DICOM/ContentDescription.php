@@ -28,13 +28,14 @@ class ContentDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101330
+             * line : 74478
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContentDescription',
             'desc' => [
+                'en' => 'Content Description',
             ],
         ],
     ];

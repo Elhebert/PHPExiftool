@@ -28,13 +28,14 @@ class OriginalImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Original Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::VignettingCorr
-             * line : 71187
+             * line : 53102
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OriginalImageWidth extends AbstractTagGroup
              */
             'id' => 'Canon::VignettingCorr.Canon:OriginalImageWidth',
             'desc' => [
+                'en' => 'Original Image Width',
             ],
         ],
     ];

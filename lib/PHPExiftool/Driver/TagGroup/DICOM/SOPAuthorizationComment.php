@@ -28,13 +28,14 @@ class SOPAuthorizationComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SOP Authorization Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101880
+             * line : 75021
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SOPAuthorizationComment extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SOPAuthorizationComment',
             'desc' => [
+                'en' => 'SOP Authorization Comment',
             ],
         ],
     ];

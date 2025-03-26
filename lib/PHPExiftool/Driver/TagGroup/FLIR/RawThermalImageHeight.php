@@ -28,13 +28,14 @@ class RawThermalImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Thermal Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::RawData
-             * line : 123683
+             * line : 86483
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RawThermalImageHeight extends AbstractTagGroup
              */
             'id' => 'FLIR::RawData.FLIR:RawThermalImageHeight',
             'desc' => [
+                'en' => 'Raw Thermal Image Height',
             ],
         ],
     ];

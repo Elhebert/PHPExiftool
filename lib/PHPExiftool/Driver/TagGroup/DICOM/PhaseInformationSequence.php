@@ -28,13 +28,14 @@ class PhaseInformationSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Phase Information Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100838
+             * line : 73998
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PhaseInformationSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PhaseInformationSequence',
             'desc' => [
+                'en' => 'Phase Information Sequence',
             ],
         ],
     ];

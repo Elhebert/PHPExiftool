@@ -28,13 +28,14 @@ class LayoutFlags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Layout Flags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ChannelLayout
-             * line : 310543
+             * line : 216423
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LayoutFlags extends AbstractTagGroup
              */
             'id' => 'QuickTime::ChannelLayout.QuickTime:LayoutFlags',
             'desc' => [
+                'en' => 'Layout Flags',
             ],
         ],
     ];

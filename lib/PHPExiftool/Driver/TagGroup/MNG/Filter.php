@@ -28,13 +28,14 @@ class Filter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164623
+             * line : 111857
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Filter extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:Filter',
             'desc' => [
+                'en' => 'Filter',
             ],
         ],
     ];

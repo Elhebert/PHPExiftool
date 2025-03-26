@@ -28,13 +28,14 @@ class EVStepSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'EV Step Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222227
+             * line : 150003
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class EVStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:EVStepSize',
             'desc' => [
+                'en' => 'EV Step Size',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222824
+             * line : 150333
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class EVStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:EVStepSize',
             'desc' => [
+                'en' => 'EV Step Size',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223439
+             * line : 150691
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class EVStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:EVStepSize',
             'desc' => [
+                'en' => 'EV Step Size',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD80
-             * line : 227937
+             * line : 153471
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class EVStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD80.NikonCustom:EVStepSize',
             'desc' => [
+                'en' => 'EV Step Size',
             ],
         ],
     ];

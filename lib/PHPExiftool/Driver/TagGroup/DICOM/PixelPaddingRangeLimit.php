@@ -28,13 +28,14 @@ class PixelPaddingRangeLimit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Padding Range Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98824
+             * line : 72096
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelPaddingRangeLimit extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelPaddingRangeLimit',
             'desc' => [
+                'en' => 'Pixel Padding Range Limit',
             ],
         ],
     ];

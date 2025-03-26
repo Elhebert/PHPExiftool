@@ -28,13 +28,14 @@ class VMWsize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VM Wsize',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155765
+             * line : 106976
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VMWsize extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:VMWsize',
             'desc' => [
+                'en' => 'VM Wsize',
             ],
         ],
     ];

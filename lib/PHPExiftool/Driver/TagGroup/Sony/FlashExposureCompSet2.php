@@ -28,13 +28,14 @@ class FlashExposureCompSet2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp. Setting 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360930
+             * line : 251478
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashExposureCompSet2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashExposureCompSet2',
             'desc' => [
+                'en' => 'Flash Exposure Comp. Setting 2',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 361047
+             * line : 251552
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashExposureCompSet2 extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FlashExposureCompSet2',
             'desc' => [
+                'en' => 'Flash Exposure Comp. Setting 2',
             ],
         ],
     ];

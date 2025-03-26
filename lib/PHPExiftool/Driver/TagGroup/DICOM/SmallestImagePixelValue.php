@@ -28,13 +28,14 @@ class SmallestImagePixelValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Smallest Image Pixel Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98803
+             * line : 72075
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SmallestImagePixelValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SmallestImagePixelValue',
             'desc' => [
+                'en' => 'Smallest Image Pixel Value',
             ],
         ],
     ];

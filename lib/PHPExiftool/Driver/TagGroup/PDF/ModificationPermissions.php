@@ -28,13 +28,14 @@ class ModificationPermissions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modification Permissions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::TransformParams
-             * line : 264431
+             * line : 182780
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ModificationPermissions extends AbstractTagGroup
              */
             'id' => 'PDF::TransformParams.PDF:ModificationPermissions',
             'desc' => [
+                'en' => 'Modification Permissions',
             ],
         ],
     ];

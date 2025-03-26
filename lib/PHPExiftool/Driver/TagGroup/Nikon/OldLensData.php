@@ -28,13 +28,14 @@ class OldLensData extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Old Lens Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 195973
+             * line : 132622
              * type : undef
              * writable : true
              * count : 17
@@ -42,6 +43,7 @@ class OldLensData extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:OldLensData',
             'desc' => [
+                'en' => 'Old Lens Data',
             ],
         ],
     ];

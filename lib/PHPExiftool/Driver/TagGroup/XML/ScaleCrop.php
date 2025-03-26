@@ -28,13 +28,14 @@ class ScaleCrop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scale Crop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249246
+             * line : 171846
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScaleCrop extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:ScaleCrop',
             'desc' => [
+                'en' => 'Scale Crop',
             ],
         ],
     ];

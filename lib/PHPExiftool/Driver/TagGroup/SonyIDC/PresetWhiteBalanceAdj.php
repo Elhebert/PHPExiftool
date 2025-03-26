@@ -28,13 +28,14 @@ class PresetWhiteBalanceAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preset White Balance Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394165
+             * line : 279252
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PresetWhiteBalanceAdj extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:PresetWhiteBalanceAdj',
             'desc' => [
+                'en' => 'Preset White Balance Adj',
             ],
         ],
     ];

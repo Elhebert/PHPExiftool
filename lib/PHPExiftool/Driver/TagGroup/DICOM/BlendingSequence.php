@@ -28,13 +28,14 @@ class BlendingSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blending Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101405
+             * line : 74553
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlendingSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlendingSequence',
             'desc' => [
+                'en' => 'Blending Sequence',
             ],
         ],
     ];

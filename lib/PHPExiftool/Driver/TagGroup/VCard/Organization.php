@@ -28,13 +28,14 @@ class Organization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395166
+             * line : 279896
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Organization extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Organization',
             'desc' => [
+                'en' => 'Organization',
             ],
         ],
     ];

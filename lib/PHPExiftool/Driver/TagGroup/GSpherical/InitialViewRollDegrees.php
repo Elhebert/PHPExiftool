@@ -28,13 +28,14 @@ class InitialViewRollDegrees extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial View Roll Degrees',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GSpherical
-             * line : 397226
+             * line : 281304
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InitialViewRollDegrees extends AbstractTagGroup
              */
             'id' => 'XMP::GSpherical.GSpherical:InitialViewRollDegrees',
             'desc' => [
+                'en' => 'Initial View Roll Degrees',
             ],
         ],
     ];

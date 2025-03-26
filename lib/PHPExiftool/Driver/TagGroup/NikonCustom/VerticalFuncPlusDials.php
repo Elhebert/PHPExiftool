@@ -28,13 +28,14 @@ class VerticalFuncPlusDials extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Vertical Func Plus Dials',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 219022
+             * line : 147366
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VerticalFuncPlusDials extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:VerticalFuncPlusDials',
             'desc' => [
+                'en' => 'Vertical Func Plus Dials',
             ],
         ],
     ];

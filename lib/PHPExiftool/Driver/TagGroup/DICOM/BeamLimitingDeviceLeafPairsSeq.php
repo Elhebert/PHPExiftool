@@ -28,13 +28,14 @@ class BeamLimitingDeviceLeafPairsSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Limiting Device Leaf Pairs Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102816
+             * line : 75912
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamLimitingDeviceLeafPairsSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamLimitingDeviceLeafPairsSeq',
             'desc' => [
+                'en' => 'Beam Limiting Device Leaf Pairs Seq',
             ],
         ],
     ];

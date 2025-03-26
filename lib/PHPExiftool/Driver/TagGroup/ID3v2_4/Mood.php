@@ -28,13 +28,14 @@ class Mood extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mood',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_4
-             * line : 149501
+             * line : 103654
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Mood extends AbstractTagGroup
              */
             'id' => 'ID3::v2_4.ID3v2_4:Mood',
             'desc' => [
+                'en' => 'Mood',
             ],
         ],
     ];

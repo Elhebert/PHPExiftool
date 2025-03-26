@@ -28,13 +28,14 @@ class PerPictureNotes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Per Picture Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126104
+             * line : 87598
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PerPictureNotes extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:PerPictureNotes',
             'desc' => [
+                'en' => 'Per Picture Notes',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SceneCaptureType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Capture Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117322
+             * line : 83566
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneCaptureType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SceneCaptureType',
             'desc' => [
+                'en' => 'Scene Capture Type',
             ],
         ],
     ];

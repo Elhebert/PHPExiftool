@@ -28,13 +28,14 @@ class APEVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'APE Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : APE::OldHeader
-             * line : 405
+             * line : 181
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class APEVersion extends AbstractTagGroup
              */
             'id' => 'APE::OldHeader.MAC:APEVersion',
             'desc' => [
+                'en' => 'APE Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GeographicAreaSourceDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geographic Area Source Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172145
+             * line : 118312
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeographicAreaSourceDatum extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GeographicAreaSourceDatum',
             'desc' => [
+                'en' => 'Geographic Area Source Datum',
             ],
         ],
     ];

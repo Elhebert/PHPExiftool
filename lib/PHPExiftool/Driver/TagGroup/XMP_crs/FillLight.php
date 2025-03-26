@@ -28,13 +28,14 @@ class FillLight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Fill Light',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402283
+             * line : 285420
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FillLight extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:FillLight',
             'desc' => [
+                'en' => 'Fill Light',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorToneLandscape extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone Landscape',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34650
+             * line : 26575
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorToneLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ColorToneLandscape',
             'desc' => [
+                'en' => 'Color Tone Landscape',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67245
+             * line : 51017
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorToneLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ColorToneLandscape',
             'desc' => [
+                'en' => 'Color Tone Landscape',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68343
+             * line : 51678
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorToneLandscape extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ColorToneLandscape',
             'desc' => [
+                'en' => 'Color Tone Landscape',
             ],
         ],
     ];

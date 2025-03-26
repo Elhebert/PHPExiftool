@@ -28,13 +28,14 @@ class ClipIDArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Clip ID Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171652
+             * line : 117844
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClipIDArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClipIDArray',
             'desc' => [
+                'en' => 'Clip ID Array',
             ],
         ],
     ];

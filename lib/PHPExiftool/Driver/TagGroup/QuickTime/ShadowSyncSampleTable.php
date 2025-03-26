@@ -28,13 +28,14 @@ class ShadowSyncSampleTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shadow Sync Sample Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::SampleTable
-             * line : 324437
+             * line : 229227
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShadowSyncSampleTable extends AbstractTagGroup
              */
             'id' => 'QuickTime::SampleTable.QuickTime:ShadowSyncSampleTable',
             'desc' => [
+                'en' => 'Shadow Sync Sample Table',
             ],
         ],
     ];

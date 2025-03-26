@@ -28,13 +28,14 @@ class POSIXMicroseconds extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'POSIX Microseconds',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170547
+             * line : 116787
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class POSIXMicroseconds extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:POSIXMicroseconds',
             'desc' => [
+                'en' => 'POSIX Microseconds',
             ],
         ],
     ];

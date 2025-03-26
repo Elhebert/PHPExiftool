@@ -28,13 +28,14 @@ class Pitch extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159980
+             * line : 109570
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Pitch extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:Pitch',
             'desc' => [
+                'en' => 'Pitch',
             ],
         ],
     ];

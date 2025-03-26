@@ -28,13 +28,14 @@ class TransducerFrequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transducer Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96298
+             * line : 69706
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransducerFrequency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransducerFrequency',
             'desc' => [
+                'en' => 'Transducer Frequency',
             ],
         ],
     ];

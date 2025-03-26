@@ -28,13 +28,14 @@ class CopyrightLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV4
-             * line : 329944
+             * line : 232287
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CopyrightLen extends AbstractTagGroup
              */
             'id' => 'Real::AudioV4.Real-RA4:CopyrightLen',
             'desc' => [
+                'en' => 'Copyright Len',
             ],
         ],
     ];

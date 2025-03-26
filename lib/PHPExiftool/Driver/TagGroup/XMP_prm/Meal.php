@@ -28,13 +28,14 @@ class Meal extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Meal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prm
-             * line : 411237
+             * line : 290427
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Meal extends AbstractTagGroup
              */
             'id' => 'XMP::prm.XMP-prm:Meal',
             'desc' => [
+                'en' => 'Meal',
             ],
         ],
     ];

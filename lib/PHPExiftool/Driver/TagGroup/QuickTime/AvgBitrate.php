@@ -28,13 +28,14 @@ class AvgBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Avg Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintHeader
-             * line : 313722
+             * line : 219465
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvgBitrate extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintHeader.QuickTime:AvgBitrate',
             'desc' => [
+                'en' => 'Avg Bitrate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PaintCorrectionShadows2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Paint Correction Shadows 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400516
+             * line : 284003
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PaintCorrectionShadows2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:PaintCorrectionShadows2012',
             'desc' => [
+                'en' => 'Paint Correction Shadows 2012',
             ],
         ],
     ];

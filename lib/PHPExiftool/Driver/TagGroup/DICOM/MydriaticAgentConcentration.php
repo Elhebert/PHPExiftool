@@ -28,13 +28,14 @@ class MydriaticAgentConcentration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Mydriatic Agent Concentration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98429
+             * line : 71761
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MydriaticAgentConcentration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MydriaticAgentConcentration',
             'desc' => [
+                'en' => 'Mydriatic Agent Concentration',
             ],
         ],
     ];

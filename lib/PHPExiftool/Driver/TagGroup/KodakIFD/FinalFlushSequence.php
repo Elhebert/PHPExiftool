@@ -28,13 +28,14 @@ class FinalFlushSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Final Flush Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155084
+             * line : 106334
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FinalFlushSequence extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinalFlushSequence',
             'desc' => [
+                'en' => 'Final Flush Sequence',
             ],
         ],
     ];

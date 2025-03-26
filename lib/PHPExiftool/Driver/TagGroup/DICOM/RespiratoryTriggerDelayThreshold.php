@@ -28,13 +28,14 @@ class RespiratoryTriggerDelayThreshold extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Respiratory Trigger Delay Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98148
+             * line : 71494
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RespiratoryTriggerDelayThreshold extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RespiratoryTriggerDelayThreshold',
             'desc' => [
+                'en' => 'Respiratory Trigger Delay Threshold',
             ],
         ],
     ];

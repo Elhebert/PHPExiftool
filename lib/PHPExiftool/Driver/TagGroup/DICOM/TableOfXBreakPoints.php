@@ -28,13 +28,14 @@ class TableOfXBreakPoints extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Of X Break Points',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96370
+             * line : 69778
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableOfXBreakPoints extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableOfXBreakPoints',
             'desc' => [
+                'en' => 'Table Of X Break Points',
             ],
         ],
     ];

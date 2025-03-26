@@ -28,13 +28,14 @@ class RicohMake extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ricoh Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Type2
-             * line : 333849
+             * line : 234089
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RicohMake extends AbstractTagGroup
              */
             'id' => 'Ricoh::Type2.Ricoh:RicohMake',
             'desc' => [
+                'en' => 'Ricoh Make',
             ],
         ],
     ];

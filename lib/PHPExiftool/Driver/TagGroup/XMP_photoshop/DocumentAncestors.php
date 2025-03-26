@@ -28,13 +28,14 @@ class DocumentAncestors extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Document Ancestors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410267
+             * line : 289779
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DocumentAncestors extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:DocumentAncestors',
             'desc' => [
+                'en' => 'Document Ancestors',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ConfidentialityOnPatientDataDescr extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Confidentiality On Patient Data Descr',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99920
+             * line : 73122
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConfidentialityOnPatientDataDescr extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConfidentialityOnPatientDataDescr',
             'desc' => [
+                'en' => 'Confidentiality On Patient Data Descr',
             ],
         ],
     ];

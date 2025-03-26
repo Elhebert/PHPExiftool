@@ -28,13 +28,14 @@ class WB_RGBLevels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WB RGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Processing
-             * line : 158523
+             * line : 108989
              * type : int16u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Kodak::Processing.Kodak:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
     ];

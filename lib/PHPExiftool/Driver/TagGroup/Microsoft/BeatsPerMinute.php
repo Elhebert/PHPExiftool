@@ -28,13 +28,14 @@ class BeatsPerMinute extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beats Per Minute',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174981
+             * line : 120488
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeatsPerMinute extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:BeatsPerMinute',
             'desc' => [
+                'en' => 'Beats Per Minute',
             ],
         ],
     ];

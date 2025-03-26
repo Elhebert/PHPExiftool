@@ -28,13 +28,14 @@ class QltyOperatorComment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Qlty Operator Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171378
+             * line : 117580
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class QltyOperatorComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyOperatorComment',
             'desc' => [
+                'en' => 'Qlty Operator Comment',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171381
+             * line : 117583
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class QltyOperatorComment extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:QltyOperatorComment',
             'desc' => [
+                'en' => 'Qlty Operator Comment',
             ],
         ],
     ];

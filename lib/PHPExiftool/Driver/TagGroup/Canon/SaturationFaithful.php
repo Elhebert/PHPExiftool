@@ -28,13 +28,14 @@ class SaturationFaithful extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation Faithful',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34555
+             * line : 26534
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SaturationFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:SaturationFaithful',
             'desc' => [
+                'en' => 'Saturation Faithful',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67384
+             * line : 51105
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SaturationFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:SaturationFaithful',
             'desc' => [
+                'en' => 'Saturation Faithful',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68482
+             * line : 51766
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SaturationFaithful extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:SaturationFaithful',
             'desc' => [
+                'en' => 'Saturation Faithful',
             ],
         ],
     ];

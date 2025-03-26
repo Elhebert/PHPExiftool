@@ -28,13 +28,14 @@ class GridSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166875
+             * line : 113574
              * type : int32u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class GridSize extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:GridSize',
             'desc' => [
+                'en' => 'Grid Size',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BkColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264657
+             * line : 182909
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BkColor extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:BkColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

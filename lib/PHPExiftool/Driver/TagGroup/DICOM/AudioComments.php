@@ -28,13 +28,14 @@ class AudioComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104227
+             * line : 77301
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AudioComments',
             'desc' => [
+                'en' => 'Audio Comments',
             ],
         ],
     ];

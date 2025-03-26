@@ -28,13 +28,14 @@ class InternalLensSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Lens Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335405
+             * line : 235408
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class InternalLensSerialNumber extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:InternalLensSerialNumber',
             'desc' => [
+                'en' => 'Internal Lens Serial Number',
             ],
         ],
     ];

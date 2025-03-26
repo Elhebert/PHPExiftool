@@ -28,13 +28,14 @@ class EmbeddedImageByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::EmbeddedImage
-             * line : 122405
+             * line : 85730
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImageByteOrder extends AbstractTagGroup
              */
             'id' => 'FLIR::EmbeddedImage.FLIR:EmbeddedImageByteOrder',
             'desc' => [
+                'en' => 'Embedded Image Byte Order',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScreenHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screen Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PCX::Main
-             * line : 264022
+             * line : 182543
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScreenHeight extends AbstractTagGroup
              */
             'id' => 'PCX::Main.File:ScreenHeight',
             'desc' => [
+                'en' => 'Screen Height',
             ],
         ],
     ];

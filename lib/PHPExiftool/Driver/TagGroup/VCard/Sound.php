@@ -28,13 +28,14 @@ class Sound extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sound',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395197
+             * line : 279908
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sound extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:Sound',
             'desc' => [
+                'en' => 'Sound',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ElectrospatialFormulation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Electrospatial Formulation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167969
+             * line : 114491
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ElectrospatialFormulation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ElectrospatialFormulation',
             'desc' => [
+                'en' => 'Electrospatial Formulation',
             ],
         ],
     ];

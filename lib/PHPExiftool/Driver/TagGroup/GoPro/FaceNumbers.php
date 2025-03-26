@@ -28,13 +28,14 @@ class FaceNumbers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Face Numbers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139486
+             * line : 97626
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FaceNumbers extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:FaceNumbers',
             'desc' => [
+                'en' => 'Face Numbers',
             ],
         ],
     ];

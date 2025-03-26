@@ -28,13 +28,14 @@ class LastNumberInSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Number In Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170914
+             * line : 117144
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class LastNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LastNumberInSequence',
             'desc' => [
+                'en' => 'Last Number In Sequence',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170917
+             * line : 117147
              * type : int64u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class LastNumberInSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LastNumberInSequence',
             'desc' => [
+                'en' => 'Last Number In Sequence',
             ],
         ],
     ];

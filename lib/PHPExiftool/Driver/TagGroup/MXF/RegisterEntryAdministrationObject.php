@@ -28,13 +28,14 @@ class RegisterEntryAdministrationObject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Entry Administration Object',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172463
+             * line : 118624
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterEntryAdministrationObject extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterEntryAdministrationObject',
             'desc' => [
+                'en' => 'Register Entry Administration Object',
             ],
         ],
     ];

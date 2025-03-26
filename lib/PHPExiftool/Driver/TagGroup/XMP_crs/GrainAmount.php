@@ -28,13 +28,14 @@ class GrainAmount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Grain Amount',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 402715
+             * line : 285852
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GrainAmount extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:GrainAmount',
             'desc' => [
+                'en' => 'Grain Amount',
             ],
         ],
     ];

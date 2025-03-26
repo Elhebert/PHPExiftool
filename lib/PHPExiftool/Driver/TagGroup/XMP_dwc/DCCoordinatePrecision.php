@@ -28,13 +28,14 @@ class DCCoordinatePrecision extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'DC Coordinate Precision',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106858
+             * line : 79040
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DCCoordinatePrecision extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:DCCoordinatePrecision',
             'desc' => [
+                'en' => 'DC Coordinate Precision',
             ],
         ],
     ];

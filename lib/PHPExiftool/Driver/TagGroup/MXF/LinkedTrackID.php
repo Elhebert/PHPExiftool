@@ -28,13 +28,14 @@ class LinkedTrackID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Linked Track ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171445
+             * line : 117646
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LinkedTrackID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LinkedTrackID',
             'desc' => [
+                'en' => 'Linked Track ID',
             ],
         ],
     ];

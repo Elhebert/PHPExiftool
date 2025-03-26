@@ -28,13 +28,14 @@ class LogoFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Logo Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170339
+             * line : 116598
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LogoFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LogoFlag',
             'desc' => [
+                'en' => 'Logo Flag',
             ],
         ],
     ];

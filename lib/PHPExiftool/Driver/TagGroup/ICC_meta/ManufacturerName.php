@@ -28,13 +28,14 @@ class ManufacturerName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacturer Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Metadata
-             * line : 147020
+             * line : 102080
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ManufacturerName extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Metadata.ICC-meta:ManufacturerName',
             'desc' => [
+                'en' => 'Manufacturer Name',
             ],
         ],
     ];

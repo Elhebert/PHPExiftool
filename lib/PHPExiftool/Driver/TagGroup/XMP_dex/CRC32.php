@@ -28,13 +28,14 @@ class CRC32 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'CRC32',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::dex
-             * line : 404915
+             * line : 287714
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CRC32 extends AbstractTagGroup
              */
             'id' => 'XMP::dex.XMP-dex:CRC32',
             'desc' => [
+                'en' => 'CRC32',
             ],
         ],
     ];

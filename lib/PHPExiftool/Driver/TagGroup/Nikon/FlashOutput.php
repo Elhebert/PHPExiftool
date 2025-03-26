@@ -28,13 +28,14 @@ class FlashOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::FlashInfo0100
-             * line : 192540
+             * line : 130438
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0100.Nikon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::FlashInfo0102
-             * line : 193044
+             * line : 130770
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0102.Nikon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::FlashInfo0103
-             * line : 193616
+             * line : 131137
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0103.Nikon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
         3 => [
             /**
              * table_name : Nikon::FlashInfo0106
-             * line : 194599
+             * line : 131792
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::FlashInfo0106.Nikon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
         4 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199985
+             * line : 134960
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
         5 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201042
+             * line : 135955
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
         6 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 208169
+             * line : 140279
              * type : ?
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class FlashOutput extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FlashOutput',
             'desc' => [
+                'en' => 'Flash Output',
             ],
         ],
     ];

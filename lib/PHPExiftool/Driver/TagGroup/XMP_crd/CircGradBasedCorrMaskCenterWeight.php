@@ -28,13 +28,14 @@ class CircGradBasedCorrMaskCenterWeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Mask Center Weight',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398289
+             * line : 281894
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrMaskCenterWeight extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:CircGradBasedCorrMaskCenterWeight',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Mask Center Weight',
             ],
         ],
     ];

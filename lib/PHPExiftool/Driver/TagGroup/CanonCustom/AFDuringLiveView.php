@@ -28,13 +28,14 @@ class AFDuringLiveView extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF During Live View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74208
+             * line : 54767
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class AFDuringLiveView extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFDuringLiveView',
             'desc' => [
+                'en' => 'AF During Live View',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74229
+             * line : 54778
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class AFDuringLiveView extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:AFDuringLiveView',
             'desc' => [
+                'en' => 'AF During Live View',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferencedVisitSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Visit Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94925
+             * line : 68407
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedVisitSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedVisitSequence',
             'desc' => [
+                'en' => 'Referenced Visit Sequence',
             ],
         ],
     ];

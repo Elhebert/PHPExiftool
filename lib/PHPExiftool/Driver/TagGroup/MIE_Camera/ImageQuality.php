@@ -28,13 +28,14 @@ class ImageQuality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Camera
-             * line : 163003
+             * line : 111293
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageQuality extends AbstractTagGroup
              */
             'id' => 'MIE::Camera.MIE-Camera:ImageQuality',
             'desc' => [
+                'en' => 'Image Quality',
             ],
         ],
     ];

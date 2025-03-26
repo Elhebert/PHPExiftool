@@ -28,13 +28,14 @@ class HandlerType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Handler Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Handler
-             * line : 313562
+             * line : 219307
              * type : undef
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class HandlerType extends AbstractTagGroup
              */
             'id' => 'QuickTime::Handler.QuickTime:HandlerType',
             'desc' => [
+                'en' => 'Handler Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DCTEncodeVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DCT Encode Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Adobe
-             * line : 152383
+             * line : 104865
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DCTEncodeVersion extends AbstractTagGroup
              */
             'id' => 'JPEG::Adobe.Adobe:DCTEncodeVersion',
             'desc' => [
+                'en' => 'DCT Encode Version',
             ],
         ],
     ];

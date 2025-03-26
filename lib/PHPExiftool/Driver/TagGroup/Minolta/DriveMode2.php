@@ -28,13 +28,14 @@ class DriveMode2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Drive Mode 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180313
+             * line : 122963
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DriveMode2 extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:DriveMode2',
             'desc' => [
+                'en' => 'Drive Mode 2',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StartTimeSampleSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Start Time Sample Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413430
+             * line : 291523
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StartTimeSampleSize extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:StartTimeSampleSize',
             'desc' => [
+                'en' => 'Start Time Sample Size',
             ],
         ],
     ];

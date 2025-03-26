@@ -28,13 +28,14 @@ class IPTCPictureNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'IPTC Picture Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151350
+             * line : 104389
              * type : string
              * writable : true
              * count : 16
@@ -42,6 +43,7 @@ class IPTCPictureNumber extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:IPTCPictureNumber',
             'desc' => [
+                'en' => 'IPTC Picture Number',
             ],
         ],
     ];

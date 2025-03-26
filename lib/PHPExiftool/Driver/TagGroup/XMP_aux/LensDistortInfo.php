@@ -28,13 +28,14 @@ class LensDistortInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Distort Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397987
+             * line : 281684
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensDistortInfo extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:LensDistortInfo',
             'desc' => [
+                'en' => 'Lens Distort Info',
             ],
         ],
     ];

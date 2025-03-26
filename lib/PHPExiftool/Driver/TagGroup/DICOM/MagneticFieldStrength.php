@@ -28,13 +28,14 @@ class MagneticFieldStrength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnetic Field Strength',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95540
+             * line : 68995
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MagneticFieldStrength extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MagneticFieldStrength',
             'desc' => [
+                'en' => 'Magnetic Field Strength',
             ],
         ],
     ];

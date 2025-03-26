@@ -28,13 +28,14 @@ class CameraCalibration3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Calibration 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120741
+             * line : 84864
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraCalibration3 extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:CameraCalibration3',
             'desc' => [
+                'en' => 'Camera Calibration 3',
             ],
         ],
     ];

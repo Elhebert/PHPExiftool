@@ -28,13 +28,14 @@ class GammaUnsharpMaskThreshold extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma Unsharp Mask Threshold',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::GammaInfo
-             * line : 82015
+             * line : 60109
              * type : double
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GammaUnsharpMaskThreshold extends AbstractTagGroup
              */
             'id' => 'CanonVRD::GammaInfo.CanonVRD:GammaUnsharpMaskThreshold',
             'desc' => [
+                'en' => 'Gamma Unsharp Mask Threshold',
             ],
         ],
     ];

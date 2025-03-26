@@ -28,13 +28,14 @@ class Projection extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 137233
+             * line : 95483
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Projection extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:Projection',
             'desc' => [
+                'en' => 'Projection',
             ],
         ],
     ];

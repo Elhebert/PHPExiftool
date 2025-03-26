@@ -28,13 +28,14 @@ class CaptionKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Caption Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170793
+             * line : 117024
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CaptionKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CaptionKind',
             'desc' => [
+                'en' => 'Caption Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170796
+             * line : 117027
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CaptionKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CaptionKind',
             'desc' => [
+                'en' => 'Caption Kind',
             ],
         ],
     ];

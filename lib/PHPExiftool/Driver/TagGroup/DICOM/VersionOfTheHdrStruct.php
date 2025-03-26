@@ -28,13 +28,14 @@ class VersionOfTheHdrStruct extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version Of The Hdr Struct',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99288
+             * line : 72507
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VersionOfTheHdrStruct extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VersionOfTheHdrStruct',
             'desc' => [
+                'en' => 'Version Of The Hdr Struct',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExifImageWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exif Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407682
+             * line : 288389
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExifImageWidth extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:ExifImageWidth',
             'desc' => [
+                'en' => 'Exif Image Width',
             ],
         ],
     ];

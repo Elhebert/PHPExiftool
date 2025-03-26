@@ -28,13 +28,14 @@ class AntibandingEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Antibanding Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306669
+             * line : 213167
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AntibandingEnable extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AntibandingEnable',
             'desc' => [
+                'en' => 'Antibanding Enable',
             ],
         ],
     ];

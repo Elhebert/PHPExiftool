@@ -28,13 +28,14 @@ class ByteCount extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Byte Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410760
+             * line : 290041
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ByteCount extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:ByteCount',
             'desc' => [
+                'en' => 'Byte Count',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RespiratoryRateBpm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Respiratory Rate Bpm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100309
+             * line : 73482
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RespiratoryRateBpm extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RespiratoryRateBpm',
             'desc' => [
+                'en' => 'Respiratory Rate Bpm',
             ],
         ],
     ];

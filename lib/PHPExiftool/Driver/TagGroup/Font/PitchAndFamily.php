@@ -28,13 +28,14 @@ class PitchAndFamily extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pitch And Family',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128074
+             * line : 88873
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PitchAndFamily extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:PitchAndFamily',
             'desc' => [
+                'en' => 'Pitch And Family',
             ],
         ],
     ];

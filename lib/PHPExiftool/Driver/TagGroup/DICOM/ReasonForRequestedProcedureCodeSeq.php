@@ -28,13 +28,14 @@ class ReasonForRequestedProcedureCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reason For Requested Procedure Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99866
+             * line : 73068
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReasonForRequestedProcedureCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReasonForRequestedProcedureCodeSeq',
             'desc' => [
+                'en' => 'Reason For Requested Procedure Code Seq',
             ],
         ],
     ];

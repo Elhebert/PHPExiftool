@@ -28,13 +28,14 @@ class PowerSource extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Power Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::BatteryInfo
-             * line : 283715
+             * line : 196837
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PowerSource extends AbstractTagGroup
              */
             'id' => 'Pentax::BatteryInfo.Pentax:PowerSource',
             'desc' => [
+                'en' => 'Power Source',
             ],
         ],
     ];

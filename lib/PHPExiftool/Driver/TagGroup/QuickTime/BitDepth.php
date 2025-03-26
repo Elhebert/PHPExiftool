@@ -28,13 +28,14 @@ class BitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 313979
+             * line : 219655
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BitDepth extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:BitDepth',
             'desc' => [
+                'en' => 'Bit Depth',
             ],
         ],
     ];

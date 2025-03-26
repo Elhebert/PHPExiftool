@@ -28,13 +28,14 @@ class BackgroundColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Background Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164241
+             * line : 111691
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackgroundColor extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:BackgroundColor',
             'desc' => [
+                'en' => 'Background Color',
             ],
         ],
     ];

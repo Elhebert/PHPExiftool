@@ -28,13 +28,14 @@ class BroadcastServiceName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Broadcast Service Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170003
+             * line : 116328
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BroadcastServiceName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BroadcastServiceName',
             'desc' => [
+                'en' => 'Broadcast Service Name',
             ],
         ],
     ];

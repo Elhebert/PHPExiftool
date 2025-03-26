@@ -28,13 +28,14 @@ class ContainerVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Container Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::AIPrivate
-             * line : 264030
+             * line : 182550
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContainerVersion extends AbstractTagGroup
              */
             'id' => 'PDF::AIPrivate.PDF:ContainerVersion',
             'desc' => [
+                'en' => 'Container Version',
             ],
         ],
     ];

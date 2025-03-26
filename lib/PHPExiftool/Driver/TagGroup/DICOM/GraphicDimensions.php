@@ -28,13 +28,14 @@ class GraphicDimensions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Dimensions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101271
+             * line : 74421
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GraphicDimensions extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GraphicDimensions',
             'desc' => [
+                'en' => 'Graphic Dimensions',
             ],
         ],
     ];

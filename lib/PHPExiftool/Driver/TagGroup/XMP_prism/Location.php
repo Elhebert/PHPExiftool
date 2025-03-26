@@ -28,13 +28,14 @@ class Location extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410937
+             * line : 290181
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Location extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Location',
             'desc' => [
+                'en' => 'Location',
             ],
         ],
     ];

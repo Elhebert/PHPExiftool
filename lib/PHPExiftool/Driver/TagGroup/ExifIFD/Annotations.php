@@ -28,13 +28,14 @@ class Annotations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118743
+             * line : 84033
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Annotations extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Annotations',
             'desc' => [
+                'en' => 'Annotations',
             ],
         ],
     ];

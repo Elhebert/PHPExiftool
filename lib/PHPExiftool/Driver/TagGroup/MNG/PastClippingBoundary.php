@@ -28,13 +28,14 @@ class PastClippingBoundary extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Past Clipping Boundary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::PasteImage
-             * line : 165351
+             * line : 112423
              * type : int32u
              * writable : false
              * count : 4
@@ -42,6 +43,7 @@ class PastClippingBoundary extends AbstractTagGroup
              */
             'id' => 'MNG::PasteImage.MNG:PastClippingBoundary',
             'desc' => [
+                'en' => 'Past Clipping Boundary',
             ],
         ],
     ];

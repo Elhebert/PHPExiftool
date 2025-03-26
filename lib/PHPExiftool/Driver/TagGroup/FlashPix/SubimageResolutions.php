@@ -28,13 +28,14 @@ class SubimageResolutions extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Subimage Resolutions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124607
+             * line : 87090
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubimageResolutions extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:SubimageResolutions',
             'desc' => [
+                'en' => 'Subimage Resolutions',
             ],
         ],
     ];

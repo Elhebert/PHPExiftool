@@ -28,13 +28,14 @@ class CropMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333392
+             * line : 233802
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropMode extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:CropMode',
             'desc' => [
+                'en' => 'Crop Mode',
             ],
         ],
     ];

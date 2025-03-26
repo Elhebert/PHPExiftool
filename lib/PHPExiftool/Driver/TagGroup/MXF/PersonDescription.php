@@ -28,13 +28,14 @@ class PersonDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Person Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170069
+             * line : 116388
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PersonDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PersonDescription',
             'desc' => [
+                'en' => 'Person Description',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170072
+             * line : 116391
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PersonDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PersonDescription',
             'desc' => [
+                'en' => 'Person Description',
             ],
         ],
     ];

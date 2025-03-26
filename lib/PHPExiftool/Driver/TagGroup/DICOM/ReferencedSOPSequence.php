@@ -28,13 +28,14 @@ class ReferencedSOPSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced SOP Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94976
+             * line : 68458
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedSOPSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedSOPSequence',
             'desc' => [
+                'en' => 'Referenced SOP Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SDKVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SDK Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168880
+             * line : 115346
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SDKVersion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SDKVersion',
             'desc' => [
+                'en' => 'SDK Version',
             ],
         ],
     ];

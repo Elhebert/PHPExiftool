@@ -28,13 +28,14 @@ class RegionInfoDateRegionsValid extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Region Info Date Regions Valid',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::MP
-             * line : 174068
+             * line : 119906
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegionInfoDateRegionsValid extends AbstractTagGroup
              */
             'id' => 'Microsoft::MP.XMP-MP:RegionInfoDateRegionsValid',
             'desc' => [
+                'en' => 'Region Info Date Regions Valid',
             ],
         ],
     ];

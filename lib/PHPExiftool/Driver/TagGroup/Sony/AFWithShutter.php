@@ -28,13 +28,14 @@ class AFWithShutter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF With Shutter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347523
+             * line : 243342
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFWithShutter extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:AFWithShutter',
             'desc' => [
+                'en' => 'AF With Shutter',
             ],
         ],
     ];

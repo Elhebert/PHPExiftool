@@ -28,13 +28,14 @@ class TablePositionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Position Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97099
+             * line : 70498
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TablePositionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TablePositionSequence',
             'desc' => [
+                'en' => 'Table Position Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AudioDelay extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Delay',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124010
+             * line : 86693
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioDelay extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:AudioDelay',
             'desc' => [
+                'en' => 'Audio Delay',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RelativePath extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161555
+             * line : 110364
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativePath extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:RelativePath',
             'desc' => [
+                'en' => 'Relative Path',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SalesContractNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sales Contract Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169881
+             * line : 116220
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SalesContractNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SalesContractNumber',
             'desc' => [
+                'en' => 'Sales Contract Number',
             ],
         ],
     ];

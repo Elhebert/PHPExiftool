@@ -28,13 +28,14 @@ class OptimalBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Optimal Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1445
+             * line : 688
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OptimalBitrate extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:OptimalBitrate',
             'desc' => [
+                'en' => 'Optimal Bitrate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MaskGroupBasedCorrMaskMasksAlpha extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Mask Group Based Corr Mask Masks Alpha',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403079
+             * line : 286215
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaskGroupBasedCorrMaskMasksAlpha extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:MaskGroupBasedCorrMaskMasksAlpha',
             'desc' => [
+                'en' => 'Mask Group Based Corr Mask Masks Alpha',
             ],
         ],
     ];

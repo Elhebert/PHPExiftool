@@ -28,13 +28,14 @@ class LevelMeter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Level Meter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159977
+             * line : 109567
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LevelMeter extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:LevelMeter',
             'desc' => [
+                'en' => 'Level Meter',
             ],
         ],
     ];

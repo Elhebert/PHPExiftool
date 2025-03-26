@@ -28,13 +28,14 @@ class RectificationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Rectification Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95878
+             * line : 69304
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RectificationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RectificationType',
             'desc' => [
+                'en' => 'Rectification Type',
             ],
         ],
     ];

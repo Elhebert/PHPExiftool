@@ -28,13 +28,14 @@ class FocusRange extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 56743
+             * line : 43930
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusRange extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:FocusRange',
             'desc' => [
+                'en' => 'Focus Range',
             ],
         ],
     ];

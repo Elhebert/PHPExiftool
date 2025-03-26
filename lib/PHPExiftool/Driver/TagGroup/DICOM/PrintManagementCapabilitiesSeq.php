@@ -28,13 +28,14 @@ class PrintManagementCapabilitiesSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Management Capabilities Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102296
+             * line : 75396
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintManagementCapabilitiesSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrintManagementCapabilitiesSeq',
             'desc' => [
+                'en' => 'Print Management Capabilities Seq',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RegistryID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Registry ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409705
+             * line : 289465
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RegistryID extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:RegistryID',
             'desc' => [
+                'en' => 'Registry ID',
             ],
         ],
     ];

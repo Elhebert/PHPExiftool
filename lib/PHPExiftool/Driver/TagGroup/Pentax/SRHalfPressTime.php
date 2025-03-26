@@ -28,13 +28,14 @@ class SRHalfPressTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'SR Half Press Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::SRInfo
-             * line : 301649
+             * line : 209913
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SRHalfPressTime extends AbstractTagGroup
              */
             'id' => 'Pentax::SRInfo.Pentax:SRHalfPressTime',
             'desc' => [
+                'en' => 'SR Half Press Time',
             ],
         ],
     ];

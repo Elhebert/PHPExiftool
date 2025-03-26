@@ -28,13 +28,14 @@ class NDFilter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ND Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250606
+             * line : 172906
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NDFilter extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:NDFilter',
             'desc' => [
+                'en' => 'ND Filter',
             ],
         ],
     ];

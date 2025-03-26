@@ -28,13 +28,14 @@ class LensSpecFeatures extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Spec Features',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 381271
+             * line : 268074
              * type : undef
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class LensSpecFeatures extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:LensSpecFeatures',
             'desc' => [
+                'en' => 'Lens Spec Features',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 381274
+             * line : 268077
              * type : undef
              * writable : true
              * count : 2
@@ -55,12 +57,13 @@ class LensSpecFeatures extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:LensSpecFeatures',
             'desc' => [
+                'en' => 'Lens Spec Features',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383639
+             * line : 270409
              * type : undef
              * writable : true
              * count : 2
@@ -68,12 +71,13 @@ class LensSpecFeatures extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:LensSpecFeatures',
             'desc' => [
+                'en' => 'Lens Spec Features',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383662
+             * line : 270432
              * type : undef
              * writable : true
              * count : 2
@@ -81,12 +85,13 @@ class LensSpecFeatures extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:LensSpecFeatures',
             'desc' => [
+                'en' => 'Lens Spec Features',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383676
+             * line : 270446
              * type : undef
              * writable : true
              * count : 2
@@ -94,12 +99,13 @@ class LensSpecFeatures extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:LensSpecFeatures',
             'desc' => [
+                'en' => 'Lens Spec Features',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383690
+             * line : 270460
              * type : undef
              * writable : true
              * count : 2
@@ -107,12 +113,13 @@ class LensSpecFeatures extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:LensSpecFeatures',
             'desc' => [
+                'en' => 'Lens Spec Features',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 383704
+             * line : 270474
              * type : undef
              * writable : true
              * count : 2
@@ -120,6 +127,7 @@ class LensSpecFeatures extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:LensSpecFeatures',
             'desc' => [
+                'en' => 'Lens Spec Features',
             ],
         ],
     ];

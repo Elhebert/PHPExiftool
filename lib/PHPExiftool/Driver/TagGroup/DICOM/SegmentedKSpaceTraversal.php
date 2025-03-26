@@ -28,13 +28,14 @@ class SegmentedKSpaceTraversal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Segmented K Space Traversal',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96590
+             * line : 69994
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SegmentedKSpaceTraversal extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SegmentedKSpaceTraversal',
             'desc' => [
+                'en' => 'Segmented K Space Traversal',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CompatibleBrands extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Compatible Brands',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::FileType
-             * line : 313046
+             * line : 218914
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CompatibleBrands extends AbstractTagGroup
              */
             'id' => 'QuickTime::FileType.QuickTime:CompatibleBrands',
             'desc' => [
+                'en' => 'Compatible Brands',
             ],
         ],
     ];

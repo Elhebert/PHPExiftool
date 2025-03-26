@@ -28,13 +28,14 @@ class OperatingSystemInterpretations extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Operating System Interpretations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167594
+             * line : 114207
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OperatingSystemInterpretations extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OperatingSystemInterpretations',
             'desc' => [
+                'en' => 'Operating System Interpretations',
             ],
         ],
     ];

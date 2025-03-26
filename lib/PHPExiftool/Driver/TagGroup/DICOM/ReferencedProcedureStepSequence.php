@@ -28,13 +28,14 @@ class ReferencedProcedureStepSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Procedure Step Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94916
+             * line : 68398
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ReferencedProcedureStepSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedProcedureStepSequence',
             'desc' => [
+                'en' => 'Referenced Procedure Step Sequence',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 99759
+             * line : 72963
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ReferencedProcedureStepSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedProcedureStepSequence',
             'desc' => [
+                'en' => 'Referenced Procedure Step Sequence',
             ],
         ],
     ];

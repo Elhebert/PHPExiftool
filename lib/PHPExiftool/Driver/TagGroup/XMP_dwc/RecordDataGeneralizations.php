@@ -28,13 +28,14 @@ class RecordDataGeneralizations extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Data Generalizations',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106649
+             * line : 78884
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordDataGeneralizations extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RecordDataGeneralizations',
             'desc' => [
+                'en' => 'Record Data Generalizations',
             ],
         ],
     ];

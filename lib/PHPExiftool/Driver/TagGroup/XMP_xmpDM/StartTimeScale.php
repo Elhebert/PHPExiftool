@@ -28,13 +28,14 @@ class StartTimeScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Start Time Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413433
+             * line : 291526
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StartTimeScale extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:StartTimeScale',
             'desc' => [
+                'en' => 'Start Time Scale',
             ],
         ],
     ];

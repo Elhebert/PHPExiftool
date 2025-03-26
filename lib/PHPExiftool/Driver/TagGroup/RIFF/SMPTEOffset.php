@@ -28,13 +28,14 @@ class SMPTEOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SMPTE Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328732
+             * line : 231818
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SMPTEOffset extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:SMPTEOffset',
             'desc' => [
+                'en' => 'SMPTE Offset',
             ],
         ],
     ];

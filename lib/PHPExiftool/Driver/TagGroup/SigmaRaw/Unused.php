@@ -28,13 +28,14 @@ class Unused extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unused',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::HeaderExt
-             * line : 339485
+             * line : 237546
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Unused extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::HeaderExt.SigmaRaw:Unused',
             'desc' => [
+                'en' => 'Unused',
             ],
         ],
     ];

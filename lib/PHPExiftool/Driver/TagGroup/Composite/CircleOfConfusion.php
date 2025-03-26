@@ -28,13 +28,14 @@ class CircleOfConfusion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Circle Of Confusion',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 90309
+             * line : 65149
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CircleOfConfusion extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:CircleOfConfusion',
             'desc' => [
+                'en' => 'Circle Of Confusion',
             ],
         ],
     ];

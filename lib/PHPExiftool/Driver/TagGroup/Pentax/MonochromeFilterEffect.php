@@ -28,13 +28,14 @@ class MonochromeFilterEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Filter Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 300236
+             * line : 209291
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonochromeFilterEffect extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:MonochromeFilterEffect',
             'desc' => [
+                'en' => 'Monochrome Filter Effect',
             ],
         ],
     ];

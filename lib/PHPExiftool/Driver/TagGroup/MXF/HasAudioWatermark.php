@@ -28,13 +28,14 @@ class HasAudioWatermark extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has Audio Watermark',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168666
+             * line : 115142
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasAudioWatermark extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HasAudioWatermark',
             'desc' => [
+                'en' => 'Has Audio Watermark',
             ],
         ],
     ];

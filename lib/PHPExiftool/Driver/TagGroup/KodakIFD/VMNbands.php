@@ -28,13 +28,14 @@ class VMNbands extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VM Nbands',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155828
+             * line : 107039
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VMNbands extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:VMNbands',
             'desc' => [
+                'en' => 'VM Nbands',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StartTimecode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Timecode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331356
+             * line : 232989
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StartTimecode extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:StartTimecode',
             'desc' => [
+                'en' => 'Start Timecode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PrinterStatusInfo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Printer Status Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102276
+             * line : 75378
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrinterStatusInfo extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrinterStatusInfo',
             'desc' => [
+                'en' => 'Printer Status Info',
             ],
         ],
     ];

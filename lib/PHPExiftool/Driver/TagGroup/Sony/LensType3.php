@@ -28,13 +28,14 @@ class LensType3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag940c
-             * line : 390393
+             * line : 276132
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensType3 extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940c.Sony:LensType3',
             'desc' => [
+                'en' => 'Lens Type 3',
             ],
         ],
     ];

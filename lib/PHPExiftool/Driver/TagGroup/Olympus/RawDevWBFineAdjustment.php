@@ -28,13 +28,14 @@ class RawDevWBFineAdjustment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev WB Fine Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260236
+             * line : 179775
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class RawDevWBFineAdjustment extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevWBFineAdjustment',
             'desc' => [
+                'en' => 'Raw Dev WB Fine Adjustment',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260444
+             * line : 179914
              * type : int16s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class RawDevWBFineAdjustment extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevWBFineAdjustment',
             'desc' => [
+                'en' => 'Raw Dev WB Fine Adjustment',
             ],
         ],
     ];

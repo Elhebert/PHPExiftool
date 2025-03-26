@@ -28,13 +28,14 @@ class SynchronizedImageBoxList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Synchronized Image Box List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101658
+             * line : 74802
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SynchronizedImageBoxList extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SynchronizedImageBoxList',
             'desc' => [
+                'en' => 'Synchronized Image Box List',
             ],
         ],
     ];

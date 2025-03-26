@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159968
+             * line : 109564
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

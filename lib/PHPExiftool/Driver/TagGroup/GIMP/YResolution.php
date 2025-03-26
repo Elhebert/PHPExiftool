@@ -28,13 +28,14 @@ class YResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Resolution
-             * line : 131667
+             * line : 90818
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YResolution extends AbstractTagGroup
              */
             'id' => 'GIMP::Resolution.GIMP:YResolution',
             'desc' => [
+                'en' => 'Y Resolution',
             ],
         ],
     ];

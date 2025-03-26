@@ -28,13 +28,14 @@ class PreviewImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::PreviewInfo
-             * line : 126604
+             * line : 87786
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewImageHeight extends AbstractTagGroup
              */
             'id' => 'FlashPix::PreviewInfo.FlashPix:PreviewImageHeight',
             'desc' => [
+                'en' => 'Preview Image Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AddOtherSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Add Other Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100737
+             * line : 73899
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AddOtherSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AddOtherSequence',
             'desc' => [
+                'en' => 'Add Other Sequence',
             ],
         ],
     ];

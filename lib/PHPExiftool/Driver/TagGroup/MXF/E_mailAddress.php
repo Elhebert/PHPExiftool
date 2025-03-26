@@ -28,13 +28,14 @@ class E_mailAddress extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'E-mail Address',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168480
+             * line : 114971
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class E_mailAddress extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:E-mailAddress',
             'desc' => [
+                'en' => 'E-mail Address',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170541
+             * line : 116781
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class E_mailAddress extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:E-mailAddress',
             'desc' => [
+                'en' => 'E-mail Address',
             ],
         ],
     ];

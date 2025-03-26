@@ -28,13 +28,14 @@ class DoubleExposureOrdering extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Double Exposure Ordering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101763
+             * line : 74904
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoubleExposureOrdering extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DoubleExposureOrdering',
             'desc' => [
+                'en' => 'Double Exposure Ordering',
             ],
         ],
     ];

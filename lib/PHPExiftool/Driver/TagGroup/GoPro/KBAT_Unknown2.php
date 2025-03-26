@@ -28,13 +28,14 @@ class KBAT_Unknown2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'KBAT Unknown 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::KBAT
-             * line : 139992
+             * line : 97868
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KBAT_Unknown2 extends AbstractTagGroup
              */
             'id' => 'GoPro::KBAT.GoPro:KBAT_Unknown2',
             'desc' => [
+                'en' => 'KBAT Unknown 2',
             ],
         ],
     ];

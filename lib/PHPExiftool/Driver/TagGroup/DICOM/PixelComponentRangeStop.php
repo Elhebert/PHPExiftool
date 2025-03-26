@@ -28,13 +28,14 @@ class PixelComponentRangeStop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Component Range Stop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96358
+             * line : 69766
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelComponentRangeStop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelComponentRangeStop',
             'desc' => [
+                'en' => 'Pixel Component Range Stop',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class NoViewsRefChansBlocked extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'No Views Ref Chans Blocked',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100391
+             * line : 73563
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NoViewsRefChansBlocked extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NoViewsRefChansBlocked',
             'desc' => [
+                'en' => 'No Views Ref Chans Blocked',
             ],
         ],
     ];

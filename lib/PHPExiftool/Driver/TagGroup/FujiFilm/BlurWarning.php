@@ -28,13 +28,14 @@ class BlurWarning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blur Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130478
+             * line : 90144
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlurWarning extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:BlurWarning',
             'desc' => [
+                'en' => 'Blur Warning',
             ],
         ],
     ];

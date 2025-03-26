@@ -28,13 +28,14 @@ class Teleconverter extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Teleconverter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 183696
+             * line : 124593
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Teleconverter extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:Teleconverter',
             'desc' => [
+                'en' => 'Teleconverter',
             ],
         ],
     ];

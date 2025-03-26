@@ -28,13 +28,14 @@ class ObjectID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::DefineObject
-             * line : 164747
+             * line : 111963
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ObjectID extends AbstractTagGroup
              */
             'id' => 'MNG::DefineObject.MNG:ObjectID',
             'desc' => [
+                'en' => 'Object ID',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::DeltaPNGHeader
-             * line : 164766
+             * line : 111982
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ObjectID extends AbstractTagGroup
              */
             'id' => 'MNG::DeltaPNGHeader.MNG:ObjectID',
             'desc' => [
+                'en' => 'Object ID',
             ],
         ],
     ];

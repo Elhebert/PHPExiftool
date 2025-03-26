@@ -28,13 +28,14 @@ class UserFields extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Fields',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::MediaPro
-             * line : 397433
+             * line : 281437
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UserFields extends AbstractTagGroup
              */
             'id' => 'XMP::MediaPro.XMP-mediapro:UserFields',
             'desc' => [
+                'en' => 'User Fields',
             ],
         ],
     ];

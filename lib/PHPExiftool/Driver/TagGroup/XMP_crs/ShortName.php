@@ -28,13 +28,14 @@ class ShortName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Short Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404383
+             * line : 287450
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ShortName extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:ShortName',
             'desc' => [
+                'en' => 'Short Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CoverageOfKSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coverage Of K Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96738
+             * line : 70141
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CoverageOfKSpace extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CoverageOfKSpace',
             'desc' => [
+                'en' => 'Coverage Of K Space',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColumnAngulationPatient extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Column Angulation Patient',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97164
+             * line : 70561
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColumnAngulationPatient extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ColumnAngulationPatient',
             'desc' => [
+                'en' => 'Column Angulation Patient',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSValid extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Valid',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GPSInfo
-             * line : 122660
+             * line : 85896
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSValid extends AbstractTagGroup
              */
             'id' => 'FLIR::GPSInfo.FLIR:GPSValid',
             'desc' => [
+                'en' => 'GPS Valid',
             ],
         ],
     ];

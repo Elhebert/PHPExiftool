@@ -28,13 +28,14 @@ class IndexStreamID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Index Stream ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170571
+             * line : 116811
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndexStreamID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IndexStreamID',
             'desc' => [
+                'en' => 'Index Stream ID',
             ],
         ],
     ];

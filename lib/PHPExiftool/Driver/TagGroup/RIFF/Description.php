@@ -28,13 +28,14 @@ class Description extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::BroadcastExt
-             * line : 327762
+             * line : 231343
              * type : string
              * writable : false
              * count : 256
@@ -42,6 +43,7 @@ class Description extends AbstractTagGroup
              */
             'id' => 'RIFF::BroadcastExt.RIFF:Description',
             'desc' => [
+                'en' => 'Description',
             ],
         ],
     ];

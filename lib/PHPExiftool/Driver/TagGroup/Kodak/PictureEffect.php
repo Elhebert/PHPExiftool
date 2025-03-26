@@ -28,13 +28,14 @@ class PictureEffect extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Picture Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type11
-             * line : 159937
+             * line : 109541
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PictureEffect extends AbstractTagGroup
              */
             'id' => 'Kodak::Type11.Kodak:PictureEffect',
             'desc' => [
+                'en' => 'Picture Effect',
             ],
         ],
     ];

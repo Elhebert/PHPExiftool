@@ -28,13 +28,14 @@ class NumberOfRRIntervals extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of RR Intervals',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100868
+             * line : 74028
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfRRIntervals extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfRRIntervals',
             'desc' => [
+                'en' => 'Number Of RR Intervals',
             ],
         ],
     ];

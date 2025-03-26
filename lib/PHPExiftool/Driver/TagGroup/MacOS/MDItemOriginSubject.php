@@ -28,13 +28,14 @@ class MDItemOriginSubject extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Origin Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172928
+             * line : 118990
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemOriginSubject extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemOriginSubject',
             'desc' => [
+                'en' => 'MD Item Origin Subject',
             ],
         ],
     ];

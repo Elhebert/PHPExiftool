@@ -28,13 +28,14 @@ class LowDelayIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Low Delay Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171247
+             * line : 117455
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LowDelayIndicator extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:LowDelayIndicator',
             'desc' => [
+                'en' => 'Low Delay Indicator',
             ],
         ],
     ];

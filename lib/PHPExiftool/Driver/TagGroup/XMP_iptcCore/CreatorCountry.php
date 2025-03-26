@@ -28,13 +28,14 @@ class CreatorCountry extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Creator Country',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcCore
-             * line : 408939
+             * line : 288843
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CreatorCountry extends AbstractTagGroup
              */
             'id' => 'XMP::iptcCore.XMP-iptcCore:CreatorCountry',
             'desc' => [
+                'en' => 'Creator Country',
             ],
         ],
     ];

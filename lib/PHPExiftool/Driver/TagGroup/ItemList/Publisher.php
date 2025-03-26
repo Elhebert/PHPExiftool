@@ -28,13 +28,14 @@ class Publisher extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Publisher',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 323133
+             * line : 228486
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Publisher extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Publisher',
             'desc' => [
+                'en' => 'Publisher',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MediaTrackBytes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Track Bytes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313770
+             * line : 219510
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaTrackBytes extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:MediaTrackBytes',
             'desc' => [
+                'en' => 'Media Track Bytes',
             ],
         ],
     ];

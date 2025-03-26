@@ -28,13 +28,14 @@ class TimebaseReferenceTrackID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timebase Reference Track ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172445
+             * line : 118606
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimebaseReferenceTrackID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimebaseReferenceTrackID',
             'desc' => [
+                'en' => 'Timebase Reference Track ID',
             ],
         ],
     ];

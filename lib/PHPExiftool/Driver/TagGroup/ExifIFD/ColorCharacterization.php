@@ -28,13 +28,14 @@ class ColorCharacterization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Characterization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113381
+             * line : 82431
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorCharacterization extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:ColorCharacterization',
             'desc' => [
+                'en' => 'Color Characterization',
             ],
         ],
     ];

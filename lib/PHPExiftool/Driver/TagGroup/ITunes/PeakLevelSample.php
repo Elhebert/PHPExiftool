@@ -28,13 +28,14 @@ class PeakLevelSample extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Level Sample',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326631
+             * line : 230384
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakLevelSample extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:PeakLevelSample',
             'desc' => [
+                'en' => 'Peak Level Sample',
             ],
         ],
     ];

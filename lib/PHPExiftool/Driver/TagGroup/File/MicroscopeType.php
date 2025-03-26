@@ -28,13 +28,14 @@ class MicroscopeType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Microscope Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166412
+             * line : 113154
              * type : string
              * writable : false
              * count : 16
@@ -42,6 +43,7 @@ class MicroscopeType extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:MicroscopeType',
             'desc' => [
+                'en' => 'Microscope Type',
             ],
         ],
     ];

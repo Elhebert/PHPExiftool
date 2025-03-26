@@ -28,13 +28,14 @@ class VariableArrayElementType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Variable Array Element Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169637
+             * line : 116028
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VariableArrayElementType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VariableArrayElementType',
             'desc' => [
+                'en' => 'Variable Array Element Type',
             ],
         ],
     ];

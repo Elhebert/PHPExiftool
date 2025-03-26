@@ -28,13 +28,14 @@ class ExternalFlashGValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'External Flash G Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 258899
+             * line : 178716
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExternalFlashGValue extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:ExternalFlashGValue',
             'desc' => [
+                'en' => 'External Flash G Value',
             ],
         ],
     ];

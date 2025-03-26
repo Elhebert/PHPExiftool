@@ -28,13 +28,14 @@ class ObjectOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334211
+             * line : 234291
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectOrientation extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:ObjectOrientation',
             'desc' => [
+                'en' => 'Object Orientation',
             ],
         ],
     ];

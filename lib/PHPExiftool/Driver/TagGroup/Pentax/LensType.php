@@ -28,13 +28,14 @@ class LensType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensInfo
-             * line : 288833
+             * line : 200365
              * type : int8u
              * writable : true
              * count : 2
@@ -42,12 +43,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Pentax::LensInfo.Pentax:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::LensInfo2
-             * line : 289756
+             * line : 201277
              * type : int8u
              * writable : true
              * count : 4
@@ -55,12 +57,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Pentax::LensInfo2.Pentax:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::LensInfo3
-             * line : 290679
+             * line : 202189
              * type : int8u
              * writable : true
              * count : 4
@@ -68,12 +71,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Pentax::LensInfo3.Pentax:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::LensInfo4
-             * line : 291602
+             * line : 203101
              * type : int8u
              * writable : true
              * count : 4
@@ -81,12 +85,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Pentax::LensInfo4.Pentax:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         4 => [
             /**
              * table_name : Pentax::LensInfo5
-             * line : 292525
+             * line : 204013
              * type : int8u
              * writable : true
              * count : 5
@@ -94,12 +99,13 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Pentax::LensInfo5.Pentax:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
         5 => [
             /**
              * table_name : Pentax::LensRec
-             * line : 293479
+             * line : 204935
              * type : int8u
              * writable : true
              * count : 2
@@ -107,6 +113,7 @@ class LensType extends AbstractTagGroup
              */
             'id' => 'Pentax::LensRec.Pentax:LensType',
             'desc' => [
+                'en' => 'Lens Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ShotsPerInterval extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Shots Per Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199733
+             * line : 134737
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ShotsPerInterval extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:ShotsPerInterval',
             'desc' => [
+                'en' => 'Shots Per Interval',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200389
+             * line : 135344
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ShotsPerInterval extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:ShotsPerInterval',
             'desc' => [
+                'en' => 'Shots Per Interval',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207950
+             * line : 140084
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ShotsPerInterval extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:ShotsPerInterval',
             'desc' => [
+                'en' => 'Shots Per Interval',
             ],
         ],
     ];

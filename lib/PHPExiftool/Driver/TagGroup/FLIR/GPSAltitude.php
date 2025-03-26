@@ -28,13 +28,14 @@ class GPSAltitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GPSInfo
-             * line : 122837
+             * line : 85938
              * type : float
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'FLIR::GPSInfo.FLIR:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::GPS_UUID
-             * line : 123161
+             * line : 86002
              * type : float
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'FLIR::GPS_UUID.FLIR:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
     ];

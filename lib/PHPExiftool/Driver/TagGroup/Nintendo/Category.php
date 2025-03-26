@@ -28,13 +28,14 @@ class Category extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nintendo::CameraInfo
-             * line : 249003
+             * line : 171669
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Category extends AbstractTagGroup
              */
             'id' => 'Nintendo::CameraInfo.Nintendo:Category',
             'desc' => [
+                'en' => 'Category',
             ],
         ],
     ];

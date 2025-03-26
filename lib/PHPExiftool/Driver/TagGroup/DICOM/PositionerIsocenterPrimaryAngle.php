@@ -28,13 +28,14 @@ class PositionerIsocenterPrimaryAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Positioner Isocenter Primary Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97191
+             * line : 70588
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PositionerIsocenterPrimaryAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PositionerIsocenterPrimaryAngle',
             'desc' => [
+                'en' => 'Positioner Isocenter Primary Angle',
             ],
         ],
     ];

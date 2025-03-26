@@ -28,13 +28,14 @@ class Review extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Review',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273482
+             * line : 190724
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Review extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:Review',
             'desc' => [
+                'en' => 'Review',
             ],
         ],
     ];

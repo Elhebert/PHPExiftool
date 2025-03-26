@@ -28,13 +28,14 @@ class BlackClamp extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Clamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155741
+             * line : 106952
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackClamp extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BlackClamp',
             'desc' => [
+                'en' => 'Black Clamp',
             ],
         ],
     ];

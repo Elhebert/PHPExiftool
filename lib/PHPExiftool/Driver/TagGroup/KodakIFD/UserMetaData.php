@@ -28,13 +28,14 @@ class UserMetaData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Meta Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157101
+             * line : 108305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserMetaData extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:UserMetaData',
             'desc' => [
+                'en' => 'User Meta Data',
             ],
         ],
     ];

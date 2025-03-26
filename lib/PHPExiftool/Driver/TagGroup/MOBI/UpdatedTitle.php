@@ -28,13 +28,14 @@ class UpdatedTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Updated Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Palm::EXTH
-             * line : 273647
+             * line : 190836
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UpdatedTitle extends AbstractTagGroup
              */
             'id' => 'Palm::EXTH.MOBI:UpdatedTitle',
             'desc' => [
+                'en' => 'Updated Title',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 85519
+             * line : 62094
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalLength extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:FocalLength',
             'desc' => [
+                'en' => 'Focal Length',
             ],
         ],
     ];

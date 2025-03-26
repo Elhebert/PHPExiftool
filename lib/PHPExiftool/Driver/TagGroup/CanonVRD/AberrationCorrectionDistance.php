@@ -28,13 +28,14 @@ class AberrationCorrectionDistance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Aberration Correction Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver2
-             * line : 83509
+             * line : 61205
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AberrationCorrectionDistance extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver2.CanonVRD:AberrationCorrectionDistance',
             'desc' => [
+                'en' => 'Aberration Correction Distance',
             ],
         ],
     ];

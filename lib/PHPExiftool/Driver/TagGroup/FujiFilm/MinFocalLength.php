@@ -28,13 +28,14 @@ class MinFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130674
+             * line : 90267
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
     ];

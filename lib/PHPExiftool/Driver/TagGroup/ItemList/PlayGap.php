@@ -28,13 +28,14 @@ class PlayGap extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Play Gap',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322259
+             * line : 227804
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlayGap extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:PlayGap',
             'desc' => [
+                'en' => 'Play Gap',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SupplyChainSourceIdentifier extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supply Chain Source Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::iptcExt
-             * line : 409830
+             * line : 289589
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SupplyChainSourceIdentifier extends AbstractTagGroup
              */
             'id' => 'XMP::iptcExt.XMP-iptcExt:SupplyChainSourceIdentifier',
             'desc' => [
+                'en' => 'Supply Chain Source Identifier',
             ],
         ],
     ];

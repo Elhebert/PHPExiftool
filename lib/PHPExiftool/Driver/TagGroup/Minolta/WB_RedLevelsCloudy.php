@@ -28,13 +28,14 @@ class WB_RedLevelsCloudy extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Red Levels Cloudy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185518
+             * line : 125841
              * type : int16u
              * writable : true
              * count : 7
@@ -42,6 +43,7 @@ class WB_RedLevelsCloudy extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RedLevelsCloudy',
             'desc' => [
+                'en' => 'WB Red Levels Cloudy',
             ],
         ],
     ];

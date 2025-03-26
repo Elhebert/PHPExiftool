@@ -28,13 +28,14 @@ class CellGlobalID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Cell Global ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cell
-             * line : 398161
+             * line : 281794
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CellGlobalID extends AbstractTagGroup
              */
             'id' => 'XMP::cell.XMP-cell:CellGlobalID',
             'desc' => [
+                'en' => 'Cell Global ID',
             ],
         ],
     ];

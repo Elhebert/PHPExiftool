@@ -28,13 +28,14 @@ class InvertSamePoly extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Invert Same Poly',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PICT::Main
-             * line : 264941
+             * line : 183164
              * type : null
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InvertSamePoly extends AbstractTagGroup
              */
             'id' => 'PICT::Main.PICT:InvertSamePoly',
             'desc' => [
+                'en' => 'Invert Same Poly',
             ],
         ],
     ];

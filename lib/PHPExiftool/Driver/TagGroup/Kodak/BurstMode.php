@@ -28,13 +28,14 @@ class BurstMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Burst Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 157721
+             * line : 108669
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BurstMode extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:BurstMode',
             'desc' => [
+                'en' => 'Burst Mode',
             ],
         ],
     ];

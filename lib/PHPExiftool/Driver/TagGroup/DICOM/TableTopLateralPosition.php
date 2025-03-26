@@ -28,13 +28,14 @@ class TableTopLateralPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Top Lateral Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103402
+             * line : 76497
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableTopLateralPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableTopLateralPosition',
             'desc' => [
+                'en' => 'Table Top Lateral Position',
             ],
         ],
     ];

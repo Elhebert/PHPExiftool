@@ -28,13 +28,14 @@ class FlashPixStreamFieldOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Pix Stream Field Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Extensions
-             * line : 124595
+             * line : 87078
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashPixStreamFieldOffset extends AbstractTagGroup
              */
             'id' => 'FlashPix::Extensions.FlashPix:FlashPixStreamFieldOffset',
             'desc' => [
+                'en' => 'Flash Pix Stream Field Offset',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GraphicUsageKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Graphic Usage Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170345
+             * line : 116604
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GraphicUsageKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GraphicUsageKind',
             'desc' => [
+                'en' => 'Graphic Usage Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170847
+             * line : 117078
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GraphicUsageKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GraphicUsageKind',
             'desc' => [
+                'en' => 'Graphic Usage Kind',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AutoSaveFilePath extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Save File Path',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305674
+             * line : 212400
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoSaveFilePath extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:AutoSaveFilePath',
             'desc' => [
+                'en' => 'Auto Save File Path',
             ],
         ],
     ];

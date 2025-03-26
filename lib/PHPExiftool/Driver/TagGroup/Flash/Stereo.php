@@ -28,13 +28,14 @@ class Stereo extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stereo',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::Meta
-             * line : 124181
+             * line : 86783
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Stereo extends AbstractTagGroup
              */
             'id' => 'Flash::Meta.Flash:Stereo',
             'desc' => [
+                'en' => 'Stereo',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AnatomicRegionModifierSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Anatomic Region Modifier Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95051
+             * line : 68533
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnatomicRegionModifierSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AnatomicRegionModifierSequence',
             'desc' => [
+                'en' => 'Anatomic Region Modifier Sequence',
             ],
         ],
     ];

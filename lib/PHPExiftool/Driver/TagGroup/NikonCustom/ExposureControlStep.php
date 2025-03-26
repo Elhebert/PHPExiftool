@@ -28,13 +28,14 @@ class ExposureControlStep extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Control Step',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD610
-             * line : 224041
+             * line : 151046
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureControlStep extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD610.NikonCustom:ExposureControlStep',
             'desc' => [
+                'en' => 'Exposure Control Step',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226766
+             * line : 152704
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ExposureControlStep extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:ExposureControlStep',
             'desc' => [
+                'en' => 'Exposure Control Step',
             ],
         ],
     ];

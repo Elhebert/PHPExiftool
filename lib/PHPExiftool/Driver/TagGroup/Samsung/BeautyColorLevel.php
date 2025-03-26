@@ -28,13 +28,14 @@ class BeautyColorLevel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beauty Color Level',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334157
+             * line : 234237
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeautyColorLevel extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:BeautyColorLevel',
             'desc' => [
+                'en' => 'Beauty Color Level',
             ],
         ],
     ];

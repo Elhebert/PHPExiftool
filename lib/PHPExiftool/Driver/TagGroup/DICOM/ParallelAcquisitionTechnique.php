@@ -28,13 +28,14 @@ class ParallelAcquisitionTechnique extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Parallel Acquisition Technique',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96699
+             * line : 70102
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ParallelAcquisitionTechnique extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ParallelAcquisitionTechnique',
             'desc' => [
+                'en' => 'Parallel Acquisition Technique',
             ],
         ],
     ];

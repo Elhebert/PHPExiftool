@@ -28,13 +28,14 @@ class Contrast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Reconyx::Main
-             * line : 330715
+             * line : 232683
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Reconyx::Main.Reconyx:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
         1 => [
             /**
              * table_name : Reconyx::Type3
-             * line : 331191
+             * line : 232935
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Contrast extends AbstractTagGroup
              */
             'id' => 'Reconyx::Type3.Reconyx:Contrast',
             'desc' => [
+                'en' => 'Contrast',
             ],
         ],
     ];

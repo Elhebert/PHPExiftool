@@ -28,13 +28,14 @@ class InternalSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65885
+             * line : 50053
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::SerialInfo
-             * line : 70121
+             * line : 52632
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Canon::SerialInfo.Canon:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
     ];

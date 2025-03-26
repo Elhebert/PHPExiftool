@@ -28,13 +28,14 @@ class TagString extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag String',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173503
+             * line : 119437
              * type : utf8
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagString extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TagString',
             'desc' => [
+                'en' => 'Tag String',
             ],
         ],
     ];

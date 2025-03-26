@@ -28,13 +28,14 @@ class CalendarColor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Calendar Color',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395558
+             * line : 280095
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CalendarColor extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:CalendarColor',
             'desc' => [
+                'en' => 'Calendar Color',
             ],
         ],
     ];

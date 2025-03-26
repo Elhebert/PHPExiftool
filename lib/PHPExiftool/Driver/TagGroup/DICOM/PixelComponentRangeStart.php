@@ -28,13 +28,14 @@ class PixelComponentRangeStart extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Component Range Start',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96355
+             * line : 69763
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelComponentRangeStart extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelComponentRangeStart',
             'desc' => [
+                'en' => 'Pixel Component Range Start',
             ],
         ],
     ];

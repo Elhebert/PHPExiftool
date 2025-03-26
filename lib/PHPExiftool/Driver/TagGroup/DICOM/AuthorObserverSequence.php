@@ -28,13 +28,14 @@ class AuthorObserverSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Author Observer Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100077
+             * line : 73278
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuthorObserverSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AuthorObserverSequence',
             'desc' => [
+                'en' => 'Author Observer Sequence',
             ],
         ],
     ];

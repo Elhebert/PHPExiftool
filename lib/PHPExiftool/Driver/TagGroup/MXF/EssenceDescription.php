@@ -28,13 +28,14 @@ class EssenceDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Essence Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169494
+             * line : 115896
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EssenceDescription extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EssenceDescription',
             'desc' => [
+                'en' => 'Essence Description',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BitsPerComponent extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bits Per Component',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151899
+             * line : 104624
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BitsPerComponent extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:BitsPerComponent',
             'desc' => [
+                'en' => 'Bits Per Component',
             ],
         ],
     ];

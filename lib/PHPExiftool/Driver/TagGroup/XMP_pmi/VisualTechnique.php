@@ -28,13 +28,14 @@ class VisualTechnique extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Visual Technique',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pmi
-             * line : 410723
+             * line : 290004
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VisualTechnique extends AbstractTagGroup
              */
             'id' => 'XMP::pmi.XMP-pmi:VisualTechnique',
             'desc' => [
+                'en' => 'Visual Technique',
             ],
         ],
     ];

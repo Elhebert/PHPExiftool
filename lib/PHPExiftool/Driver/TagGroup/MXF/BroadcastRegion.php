@@ -28,13 +28,14 @@ class BroadcastRegion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Broadcast Region',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167514
+             * line : 114129
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class BroadcastRegion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BroadcastRegion',
             'desc' => [
+                'en' => 'Broadcast Region',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170009
+             * line : 116334
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class BroadcastRegion extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:BroadcastRegion',
             'desc' => [
+                'en' => 'Broadcast Region',
             ],
         ],
     ];

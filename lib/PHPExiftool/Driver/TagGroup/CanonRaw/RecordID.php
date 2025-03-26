@@ -28,13 +28,14 @@ class RecordID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78839
+             * line : 57328
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordID extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:RecordID',
             'desc' => [
+                'en' => 'Record ID',
             ],
         ],
     ];

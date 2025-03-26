@@ -28,13 +28,14 @@ class PayeeAccountNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Payee Account Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169947
+             * line : 116283
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PayeeAccountNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PayeeAccountNumber',
             'desc' => [
+                'en' => 'Payee Account Number',
             ],
         ],
     ];

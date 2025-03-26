@@ -28,13 +28,14 @@ class TimecodeTimebase extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode Timebase',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168033
+             * line : 114539
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class TimecodeTimebase extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimecodeTimebase',
             'desc' => [
+                'en' => 'Timecode Timebase',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169098
+             * line : 115541
              * type : rational64s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class TimecodeTimebase extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimecodeTimebase',
             'desc' => [
+                'en' => 'Timecode Timebase',
             ],
         ],
     ];

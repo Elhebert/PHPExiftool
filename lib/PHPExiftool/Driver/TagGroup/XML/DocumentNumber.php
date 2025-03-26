@@ -28,13 +28,14 @@ class DocumentNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Document Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249116
+             * line : 171746
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DocumentNumber extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:DocumentNumber',
             'desc' => [
+                'en' => 'Document Number',
             ],
         ],
     ];

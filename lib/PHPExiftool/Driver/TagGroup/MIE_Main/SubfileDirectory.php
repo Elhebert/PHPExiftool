@@ -28,13 +28,14 @@ class SubfileDirectory extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subfile Directory',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Main
-             * line : 164057
+             * line : 111580
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubfileDirectory extends AbstractTagGroup
              */
             'id' => 'MIE::Main.MIE-Main:SubfileDirectory',
             'desc' => [
+                'en' => 'Subfile Directory',
             ],
         ],
     ];

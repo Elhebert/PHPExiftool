@@ -28,13 +28,14 @@ class VideoCompressor extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Compressor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413718
+             * line : 291760
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoCompressor extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoCompressor',
             'desc' => [
+                'en' => 'Video Compressor',
             ],
         ],
     ];

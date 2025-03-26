@@ -28,13 +28,14 @@ class OrderEnteredBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Order Entered By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99902
+             * line : 73104
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OrderEnteredBy extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OrderEnteredBy',
             'desc' => [
+                'en' => 'Order Entered By',
             ],
         ],
     ];

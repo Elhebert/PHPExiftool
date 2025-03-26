@@ -28,13 +28,14 @@ class JobTitle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Job Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395205
+             * line : 279914
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JobTitle extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:JobTitle',
             'desc' => [
+                'en' => 'Job Title',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorMatrix extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161689
+             * line : 110452
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorMatrix extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:ColorMatrix',
             'desc' => [
+                'en' => 'Color Matrix',
             ],
         ],
     ];

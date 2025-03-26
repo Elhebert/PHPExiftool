@@ -28,13 +28,14 @@ class FinishFileType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Finish File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156230
+             * line : 107434
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FinishFileType extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FinishFileType',
             'desc' => [
+                'en' => 'Finish File Type',
             ],
         ],
     ];

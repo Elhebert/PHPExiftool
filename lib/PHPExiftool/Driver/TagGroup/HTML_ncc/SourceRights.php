@@ -28,13 +28,14 @@ class SourceRights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143042
+             * line : 98782
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceRights extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:SourceRights',
             'desc' => [
+                'en' => 'Source Rights',
             ],
         ],
     ];

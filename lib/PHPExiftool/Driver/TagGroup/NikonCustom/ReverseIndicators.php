@@ -28,13 +28,14 @@ class ReverseIndicators extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Reverse Indicators',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212729
+             * line : 142852
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214779
+             * line : 144152
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217471
+             * line : 146094
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 219895
+             * line : 148126
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD5000
-             * line : 222210
+             * line : 149992
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5000.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD5100
-             * line : 222807
+             * line : 150322
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5100.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD5200
-             * line : 223422
+             * line : 150680
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5200.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 226135
+             * line : 152363
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         8 => [
             /**
              * table_name : NikonCustom::SettingsD7000
-             * line : 226717
+             * line : 152679
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD7000.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         9 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229884
+             * line : 154507
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         10 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231780
+             * line : 155926
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         11 => [
             /**
              * table_name : NikonCustom::SettingsD90
-             * line : 234352
+             * line : 157966
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD90.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
         12 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 237745
+             * line : 160858
              * type : int8u
              * writable : true
              * count :
@@ -198,6 +211,7 @@ class ReverseIndicators extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:ReverseIndicators',
             'desc' => [
+                'en' => 'Reverse Indicators',
             ],
         ],
     ];

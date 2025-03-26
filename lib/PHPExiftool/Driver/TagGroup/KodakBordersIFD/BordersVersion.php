@@ -28,13 +28,14 @@ class BordersVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Borders Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Borders
-             * line : 154313
+             * line : 105958
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BordersVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::Borders.KodakBordersIFD:BordersVersion',
             'desc' => [
+                'en' => 'Borders Version',
             ],
         ],
     ];

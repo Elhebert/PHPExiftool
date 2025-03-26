@@ -28,13 +28,14 @@ class EditorialUpdate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Editorial Update',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149752
+             * line : 103796
              * type : digits
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class EditorialUpdate extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:EditorialUpdate',
             'desc' => [
+                'en' => 'Editorial Update',
             ],
         ],
     ];

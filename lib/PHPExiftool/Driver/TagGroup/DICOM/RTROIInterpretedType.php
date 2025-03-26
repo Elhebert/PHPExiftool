@@ -28,13 +28,14 @@ class RTROIInterpretedType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RTROI Interpreted Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102624
+             * line : 75720
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTROIInterpretedType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTROIInterpretedType',
             'desc' => [
+                'en' => 'RTROI Interpreted Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ControlDialSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Control Dial Set',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181677
+             * line : 123591
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ControlDialSet extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ControlDialSet',
             'desc' => [
+                'en' => 'Control Dial Set',
             ],
         ],
     ];

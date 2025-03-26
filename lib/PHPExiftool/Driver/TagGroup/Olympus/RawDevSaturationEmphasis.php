@@ -28,13 +28,14 @@ class RawDevSaturationEmphasis extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Dev Saturation Emphasis',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::RawDevelopment
-             * line : 260246
+             * line : 179781
              * type : int16s
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class RawDevSaturationEmphasis extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment.Olympus:RawDevSaturationEmphasis',
             'desc' => [
+                'en' => 'Raw Dev Saturation Emphasis',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawDevelopment2
-             * line : 260464
+             * line : 179926
              * type : int16s
              * writable : true
              * count : 3
@@ -55,6 +57,7 @@ class RawDevSaturationEmphasis extends AbstractTagGroup
              */
             'id' => 'Olympus::RawDevelopment2.Olympus:RawDevSaturationEmphasis',
             'desc' => [
+                'en' => 'Raw Dev Saturation Emphasis',
             ],
         ],
     ];

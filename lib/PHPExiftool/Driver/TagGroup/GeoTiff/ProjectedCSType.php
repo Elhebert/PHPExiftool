@@ -28,13 +28,14 @@ class ProjectedCSType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projected CS Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GeoTiff::Main
-             * line : 134197
+             * line : 92490
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProjectedCSType extends AbstractTagGroup
              */
             'id' => 'GeoTiff::Main.GeoTiff:ProjectedCSType',
             'desc' => [
+                'en' => 'Projected CS Type',
             ],
         ],
     ];

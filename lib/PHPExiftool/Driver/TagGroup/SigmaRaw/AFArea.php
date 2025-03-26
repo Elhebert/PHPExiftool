@@ -28,13 +28,14 @@ class AFArea extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339678
+             * line : 237610
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFArea extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:AFArea',
             'desc' => [
+                'en' => 'AF Area',
             ],
         ],
     ];

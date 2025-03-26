@@ -28,13 +28,14 @@ class SubstanceAdminParameterSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Substance Admin Parameter Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100549
+             * line : 73719
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubstanceAdminParameterSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SubstanceAdminParameterSeq',
             'desc' => [
+                'en' => 'Substance Admin Parameter Seq',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExposureGainCustom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Gain Custom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155275
+             * line : 106496
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureGainCustom extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ExposureGainCustom',
             'desc' => [
+                'en' => 'Exposure Gain Custom',
             ],
         ],
     ];

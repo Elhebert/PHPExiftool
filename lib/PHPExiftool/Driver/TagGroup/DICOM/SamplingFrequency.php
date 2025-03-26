@@ -28,13 +28,14 @@ class SamplingFrequency extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sampling Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99470
+             * line : 72684
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SamplingFrequency extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SamplingFrequency',
             'desc' => [
+                'en' => 'Sampling Frequency',
             ],
         ],
     ];

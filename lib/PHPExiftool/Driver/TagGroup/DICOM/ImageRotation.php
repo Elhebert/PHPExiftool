@@ -28,13 +28,14 @@ class ImageRotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101292
+             * line : 74442
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageRotation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageRotation',
             'desc' => [
+                'en' => 'Image Rotation',
             ],
         ],
     ];

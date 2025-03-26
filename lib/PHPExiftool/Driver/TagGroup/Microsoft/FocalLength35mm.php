@@ -28,13 +28,14 @@ class FocalLength35mm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Length 35mm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176149
+             * line : 121218
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalLength35mm extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:FocalLength35mm',
             'desc' => [
+                'en' => 'Focal Length 35mm',
             ],
         ],
     ];

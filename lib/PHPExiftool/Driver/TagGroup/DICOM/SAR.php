@@ -28,13 +28,14 @@ class SAR extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SAR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95989
+             * line : 69412
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SAR extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SAR',
             'desc' => [
+                'en' => 'SAR',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExtenderModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extender Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Equipment
-             * line : 254548
+             * line : 175780
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtenderModel extends AbstractTagGroup
              */
             'id' => 'Olympus::Equipment.Olympus:ExtenderModel',
             'desc' => [
+                'en' => 'Extender Model',
             ],
         ],
     ];

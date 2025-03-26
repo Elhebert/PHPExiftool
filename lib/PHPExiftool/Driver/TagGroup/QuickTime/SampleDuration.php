@@ -28,13 +28,14 @@ class SampleDuration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324900
+             * line : 229384
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleDuration extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:SampleDuration',
             'desc' => [
+                'en' => 'Sample Duration',
             ],
         ],
     ];

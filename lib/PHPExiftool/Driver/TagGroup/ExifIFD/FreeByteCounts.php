@@ -28,13 +28,14 @@ class FreeByteCounts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Free Byte Counts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111097
+             * line : 81561
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FreeByteCounts extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:FreeByteCounts',
             'desc' => [
+                'en' => 'Free Byte Counts',
             ],
         ],
     ];

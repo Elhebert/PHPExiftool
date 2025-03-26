@@ -28,13 +28,14 @@ class ISOSpeedIncrements extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Speed Increments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 72466
+             * line : 53818
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOSpeedIncrements extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:ISOSpeedIncrements',
             'desc' => [
+                'en' => 'ISO Speed Increments',
             ],
         ],
     ];

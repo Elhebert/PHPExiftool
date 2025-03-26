@@ -28,13 +28,14 @@ class GPSDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Date/Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Stream
-             * line : 324618
+             * line : 229320
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::Stream.QuickTime:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date/Time',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::camm6
-             * line : 326410
+             * line : 230273
              * type : double
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSDateTime extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm6.QuickTime:GPSDateTime',
             'desc' => [
+                'en' => 'GPS Date/Time',
             ],
         ],
     ];

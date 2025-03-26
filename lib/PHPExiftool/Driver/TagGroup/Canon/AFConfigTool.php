@@ -28,13 +28,14 @@ class AFConfigTool extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Config Tool',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3786
+             * line : 2315
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFConfigTool extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AFConfigTool',
             'desc' => [
+                'en' => 'AF Config Tool',
             ],
         ],
     ];

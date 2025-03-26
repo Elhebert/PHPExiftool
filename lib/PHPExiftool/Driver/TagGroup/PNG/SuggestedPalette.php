@@ -28,13 +28,14 @@ class SuggestedPalette extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Suggested Palette',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272601
+             * line : 190406
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SuggestedPalette extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:SuggestedPalette',
             'desc' => [
+                'en' => 'Suggested Palette',
             ],
         ],
     ];

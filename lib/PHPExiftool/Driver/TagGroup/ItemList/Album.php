@@ -28,13 +28,14 @@ class Album extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Album',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314110
+             * line : 219760
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Album extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Album',
             'desc' => [
+                'en' => 'Album',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 322967
+             * line : 228420
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Album extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Album',
             'desc' => [
+                'en' => 'Album',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class USMParametersMed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'USM Parameters Med',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155476
+             * line : 106688
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class USMParametersMed extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:USMParametersMed',
             'desc' => [
+                'en' => 'USM Parameters Med',
             ],
         ],
     ];

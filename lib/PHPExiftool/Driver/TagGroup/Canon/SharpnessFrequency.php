@@ -28,13 +28,14 @@ class SharpnessFrequency extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpness Frequency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1D
-             * line : 8062
+             * line : 5937
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SharpnessFrequency extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1D.Canon:SharpnessFrequency',
             'desc' => [
+                'en' => 'Sharpness Frequency',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1D
-             * line : 8421
+             * line : 6034
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class SharpnessFrequency extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1D.Canon:SharpnessFrequency',
             'desc' => [
+                'en' => 'Sharpness Frequency',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::Processing
-             * line : 69497
+             * line : 52389
              * type : int16s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class SharpnessFrequency extends AbstractTagGroup
              */
             'id' => 'Canon::Processing.Canon:SharpnessFrequency',
             'desc' => [
+                'en' => 'Sharpness Frequency',
             ],
         ],
     ];

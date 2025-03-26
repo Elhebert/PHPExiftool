@@ -28,13 +28,14 @@ class SpeedY extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Speed Y',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 326068
+             * line : 230003
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SpeedY extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:SpeedY',
             'desc' => [
+                'en' => 'Speed Y',
             ],
         ],
     ];

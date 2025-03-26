@@ -28,13 +28,14 @@ class ImageReadyVariables extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Ready Variables',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305694
+             * line : 212415
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageReadyVariables extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ImageReadyVariables',
             'desc' => [
+                'en' => 'Image Ready Variables',
             ],
         ],
     ];

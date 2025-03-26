@@ -28,13 +28,14 @@ class VRInfoVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'VR Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::VRInfo
-             * line : 209563
+             * line : 141316
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class VRInfoVersion extends AbstractTagGroup
              */
             'id' => 'Nikon::VRInfo.Nikon:VRInfoVersion',
             'desc' => [
+                'en' => 'VR Info Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PlacerOrderNum_ImagingServiceReq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Placer Order Num-Imaging Service Req',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99896
+             * line : 73098
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PlacerOrderNum_ImagingServiceReq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlacerOrderNum-ImagingServiceReq',
             'desc' => [
+                'en' => 'Placer Order Num-Imaging Service Req',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 99911
+             * line : 73113
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PlacerOrderNum_ImagingServiceReq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PlacerOrderNum-ImagingServiceReq',
             'desc' => [
+                'en' => 'Placer Order Num-Imaging Service Req',
             ],
         ],
     ];

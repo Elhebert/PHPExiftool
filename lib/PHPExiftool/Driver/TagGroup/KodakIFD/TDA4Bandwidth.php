@@ -28,13 +28,14 @@ class TDA4Bandwidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'TDA4 Bandwidth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157380
+             * line : 108572
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TDA4Bandwidth extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:TDA4Bandwidth',
             'desc' => [
+                'en' => 'TDA4 Bandwidth',
             ],
         ],
     ];

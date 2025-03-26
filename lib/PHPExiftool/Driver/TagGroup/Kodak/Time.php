@@ -28,13 +28,14 @@ class Time extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159804
+             * line : 109503
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Time extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:Time',
             'desc' => [
+                'en' => 'Time',
             ],
         ],
     ];

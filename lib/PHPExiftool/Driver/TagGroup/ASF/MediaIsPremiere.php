@@ -28,13 +28,14 @@ class MediaIsPremiere extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Is Premiere',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1385
+             * line : 631
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaIsPremiere extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaIsPremiere',
             'desc' => [
+                'en' => 'Media Is Premiere',
             ],
         ],
     ];

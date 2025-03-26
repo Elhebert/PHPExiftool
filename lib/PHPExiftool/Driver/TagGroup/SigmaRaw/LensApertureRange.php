@@ -28,13 +28,14 @@ class LensApertureRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lens Aperture Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 340054
+             * line : 237737
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LensApertureRange extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:LensApertureRange',
             'desc' => [
+                'en' => 'Lens Aperture Range',
             ],
         ],
     ];

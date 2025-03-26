@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164544
+             * line : 111823
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164884
+             * line : 112069
              * type : int32u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
         2 => [
             /**
              * table_name : MNG::MNGHeader
-             * line : 165074
+             * line : 112193
              * type : int32u
              * writable : false
              * count :
@@ -68,6 +71,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'MNG::MNGHeader.MNG:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

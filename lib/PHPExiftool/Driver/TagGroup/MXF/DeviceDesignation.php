@@ -28,13 +28,14 @@ class DeviceDesignation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Designation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167314
+             * line : 113946
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceDesignation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceDesignation',
             'desc' => [
+                'en' => 'Device Designation',
             ],
         ],
     ];

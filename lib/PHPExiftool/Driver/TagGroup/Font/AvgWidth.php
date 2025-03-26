@@ -28,13 +28,14 @@ class AvgWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Avg Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::PFM
-             * line : 128078
+             * line : 88876
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AvgWidth extends AbstractTagGroup
              */
             'id' => 'Font::PFM.Font:AvgWidth',
             'desc' => [
+                'en' => 'Avg Width',
             ],
         ],
     ];

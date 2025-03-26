@@ -28,13 +28,14 @@ class CodingSchemeIDSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Coding Scheme ID Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94834
+             * line : 68320
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CodingSchemeIDSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CodingSchemeIDSequence',
             'desc' => [
+                'en' => 'Coding Scheme ID Sequence',
             ],
         ],
     ];

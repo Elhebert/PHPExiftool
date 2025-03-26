@@ -28,13 +28,14 @@ class MultiSelectorLiveView extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Multi Selector Live View',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244626
+             * line : 167445
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MultiSelectorLiveView extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:MultiSelectorLiveView',
             'desc' => [
+                'en' => 'Multi Selector Live View',
             ],
         ],
     ];

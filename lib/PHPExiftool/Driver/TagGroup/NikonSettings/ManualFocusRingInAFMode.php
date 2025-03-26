@@ -28,13 +28,14 @@ class ManualFocusRingInAFMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manual Focus Ring In AF Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243663
+             * line : 166709
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ManualFocusRingInAFMode extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:ManualFocusRingInAFMode',
             'desc' => [
+                'en' => 'Manual Focus Ring In AF Mode',
             ],
         ],
     ];

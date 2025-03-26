@@ -28,13 +28,14 @@ class OwnerName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Owner Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exifEX
-             * line : 408477
+             * line : 288554
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OwnerName extends AbstractTagGroup
              */
             'id' => 'XMP::exifEX.XMP-exifEX:OwnerName',
             'desc' => [
+                'en' => 'Owner Name',
             ],
         ],
     ];

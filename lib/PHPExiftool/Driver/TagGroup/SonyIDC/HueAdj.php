@@ -28,13 +28,14 @@ class HueAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Hue Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SonyIDC::Main
-             * line : 394193
+             * line : 279267
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HueAdj extends AbstractTagGroup
              */
             'id' => 'SonyIDC::Main.SonyIDC:HueAdj',
             'desc' => [
+                'en' => 'Hue Adj',
             ],
         ],
     ];

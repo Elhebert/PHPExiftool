@@ -28,13 +28,14 @@ class Producer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Producer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395851
+             * line : 280244
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Producer extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Producer',
             'desc' => [
+                'en' => 'Producer',
             ],
         ],
     ];

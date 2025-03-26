@@ -28,13 +28,14 @@ class LastUpdate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Last Update',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::XML
-             * line : 397581
+             * line : 281485
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LastUpdate extends AbstractTagGroup
              */
             'id' => 'XMP::XML.XML:LastUpdate',
             'desc' => [
+                'en' => 'Last Update',
             ],
         ],
     ];

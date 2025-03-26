@@ -28,13 +28,14 @@ class EpsonSoftware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Epson Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 257931
+             * line : 178337
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EpsonSoftware extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:EpsonSoftware',
             'desc' => [
+                'en' => 'Epson Software',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RepeatInterval extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Repeat Interval',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98738
+             * line : 72013
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RepeatInterval extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RepeatInterval',
             'desc' => [
+                'en' => 'Repeat Interval',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PresentationPixelAspectRatio extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Presentation Pixel Aspect Ratio',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101351
+             * line : 74499
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PresentationPixelAspectRatio extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PresentationPixelAspectRatio',
             'desc' => [
+                'en' => 'Presentation Pixel Aspect Ratio',
             ],
         ],
     ];

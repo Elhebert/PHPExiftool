@@ -28,13 +28,14 @@ class RegionXformTackPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Region Xform Tack Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112880
+             * line : 82233
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegionXformTackPoint extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:RegionXformTackPoint',
             'desc' => [
+                'en' => 'Region Xform Tack Point',
             ],
         ],
     ];

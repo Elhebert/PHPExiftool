@@ -28,13 +28,14 @@ class FileModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'File Modification Date/Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121275
+             * line : 85139
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FileModifyDate extends AbstractTagGroup
              */
             'id' => 'Extra.System:FileModifyDate',
             'desc' => [
+                'en' => 'File Modification Date/Time',
             ],
         ],
     ];

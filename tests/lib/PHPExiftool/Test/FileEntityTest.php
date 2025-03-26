@@ -1,4 +1,5 @@
 <?php
+
 /**
  * This file is part of the PHPExiftool package.
  *
@@ -24,6 +25,7 @@ use PHPUnit\Framework\TestCase;
 class FileEntityTest extends TestCase
 {
     protected FileEntity $object;
+
     protected Logger $logger;
 
     /**
@@ -31,19 +33,19 @@ class FileEntityTest extends TestCase
      */
     protected function setUp(): void
     {
-        $dom = new \DOMDocument();
-        $dom->loadXML(file_get_contents(__DIR__ . '/../../../files/ExifTool.xml'));
+        $dom = new \DOMDocument;
+        $dom->loadXML(file_get_contents(__DIR__.'/../../../files/ExifTool.xml'));
 
         $this->logger = new Logger('Tests');
-        $this->logger->pushHandler(new NullHandler());
+        $this->logger->pushHandler(new NullHandler);
 
-        $this->object = new FileEntity('testFile', $dom, new RDFParser("/tmp", $this->logger));
+        $this->object = new FileEntity('testFile', $dom, new RDFParser('/tmp', $this->logger));
     }
 
     /**
      * @covers FileEntity::getIterator
      */
-    public function testGetIterator(): void
+    public function test_get_iterator(): void
     {
         $this->assertInstanceOf(Iterator::class, $this->object->getIterator());
     }
@@ -51,7 +53,7 @@ class FileEntityTest extends TestCase
     /**
      * @covers FileEntity::getFile
      */
-    public function testGetFile(): void
+    public function test_get_file(): void
     {
         $this->assertIsString($this->object->getFile());
     }
@@ -59,7 +61,7 @@ class FileEntityTest extends TestCase
     /**
      * @covers FileEntity::getMetadatas
      */
-    public function testGetMetadatas(): void
+    public function test_get_metadatas(): void
     {
         $this->assertInstanceOf(MetadataBag::class, $this->object->getMetadatas());
         $this->assertCount(348, $this->object->getMetadatas());
@@ -68,7 +70,7 @@ class FileEntityTest extends TestCase
     /**
      * @covers FileEntity::executeQuery
      */
-    public function testExecuteQuery(): void
+    public function test_execute_query(): void
     {
         $this->assertInstanceOf(Mono::class, $this->object->executeQuery('IFD0:Copyright'));
         $this->assertEquals('Copyright 2004 Phil Harvey', $this->object->executeQuery('IFD0:Copyright')->asString());
@@ -76,12 +78,12 @@ class FileEntityTest extends TestCase
         $this->assertInstanceOf(Binary::class, $this->object->executeQuery('CIFF:FreeBytes'));
 
         $this->assertInstanceOf(Multi::class, $this->object->executeQuery('XMP-dc:Subject'));
-        $this->assertEquals(array('ExifTool', 'Test', 'XMP'), $this->object->executeQuery('XMP-dc:Subject')->asArray());
+        $this->assertEquals(['ExifTool', 'Test', 'XMP'], $this->object->executeQuery('XMP-dc:Subject')->asArray());
     }
 
-    public function testCacheKey(): void
+    public function test_cache_key(): void
     {
-        $o = new FileEntity('bad_{}()/\\@:_chars', new \DOMDocument(), new RDFParser("/tmp", $this->logger));
+        $o = new FileEntity('bad_{}()/\\@:_chars', new \DOMDocument, new RDFParser('/tmp', $this->logger));
         $k = $o->getCacheKey();
         $this->assertEquals('bad_%7B%7D%28%29%2F%5C%40%3A_chars', $k);
     }

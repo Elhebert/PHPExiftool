@@ -28,13 +28,14 @@ class ServiceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Service ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396400
+             * line : 280638
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ServiceID extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ServiceID',
             'desc' => [
+                'en' => 'Service ID',
             ],
         ],
     ];

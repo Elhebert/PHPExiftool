@@ -28,13 +28,14 @@ class EmbeddedImageColorSpace extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Embedded Image Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::Im
-             * line : 264115
+             * line : 182614
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EmbeddedImageColorSpace extends AbstractTagGroup
              */
             'id' => 'PDF::Im.PDF:EmbeddedImageColorSpace',
             'desc' => [
+                'en' => 'Embedded Image Color Space',
             ],
         ],
     ];

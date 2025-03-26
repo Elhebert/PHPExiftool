@@ -28,13 +28,14 @@ class Size extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148434
+             * line : 103086
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Size extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:Size',
             'desc' => [
+                'en' => 'Size',
             ],
         ],
     ];

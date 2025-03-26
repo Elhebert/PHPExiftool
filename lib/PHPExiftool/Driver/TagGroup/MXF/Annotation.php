@@ -28,13 +28,14 @@ class Annotation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169520
+             * line : 115917
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Annotation extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:Annotation',
             'desc' => [
+                'en' => 'Annotation',
             ],
         ],
     ];

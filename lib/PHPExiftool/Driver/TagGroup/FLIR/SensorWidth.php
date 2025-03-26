@@ -28,13 +28,14 @@ class SensorWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::AFF1
-             * line : 122131
+             * line : 85549
              * type : int16u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SensorWidth extends AbstractTagGroup
              */
             'id' => 'FLIR::AFF1.FLIR:SensorWidth',
             'desc' => [
+                'en' => 'Sensor Width',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::AFF5
-             * line : 122157
+             * line : 85562
              * type : int16u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SensorWidth extends AbstractTagGroup
              */
             'id' => 'FLIR::AFF5.FLIR:SensorWidth',
             'desc' => [
+                'en' => 'Sensor Width',
             ],
         ],
     ];

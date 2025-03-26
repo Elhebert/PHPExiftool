@@ -28,13 +28,14 @@ class Codirectors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Codirectors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLIST::Main
-             * line : 265193
+             * line : 183321
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Codirectors extends AbstractTagGroup
              */
             'id' => 'PLIST::Main.XML:Codirectors',
             'desc' => [
+                'en' => 'Codirectors',
             ],
         ],
     ];

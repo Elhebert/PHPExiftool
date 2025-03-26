@@ -28,13 +28,14 @@ class AnnotationUsageRights extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Annotation Usage Rights',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PDF::TransformParams
-             * line : 264403
+             * line : 182759
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AnnotationUsageRights extends AbstractTagGroup
              */
             'id' => 'PDF::TransformParams.PDF:AnnotationUsageRights',
             'desc' => [
+                'en' => 'Annotation Usage Rights',
             ],
         ],
     ];

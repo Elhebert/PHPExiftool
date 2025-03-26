@@ -28,13 +28,14 @@ class LateralChromaticAberration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lateral Chromatic Aberration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354400
+             * line : 247068
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LateralChromaticAberration extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:LateralChromaticAberration',
             'desc' => [
+                'en' => 'Lateral Chromatic Aberration',
             ],
         ],
     ];

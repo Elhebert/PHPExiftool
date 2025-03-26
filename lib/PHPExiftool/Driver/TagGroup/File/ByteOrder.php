@@ -28,13 +28,14 @@ class ByteOrder extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Byte Order',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105292
+             * line : 78037
              * type : undef
              * writable : false
              * count : 4
@@ -42,12 +43,13 @@ class ByteOrder extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:ByteOrder',
             'desc' => [
+                'en' => 'Byte Order',
             ],
         ],
         1 => [
             /**
              * table_name : Other::PFM
-             * line : 263758
+             * line : 182439
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ByteOrder extends AbstractTagGroup
              */
             'id' => 'Other::PFM.File:ByteOrder',
             'desc' => [
+                'en' => 'Byte Order',
             ],
         ],
     ];

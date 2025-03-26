@@ -28,13 +28,14 @@ class CmdDialsApertureSetting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cmd Dials Aperture Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 246610
+             * line : 169312
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CmdDialsApertureSetting extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:CmdDialsApertureSetting',
             'desc' => [
+                'en' => 'Cmd Dials Aperture Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MIMEMediaType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIME Media Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171769
+             * line : 117958
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MIMEMediaType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MIMEMediaType',
             'desc' => [
+                'en' => 'MIME Media Type',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171772
+             * line : 117961
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MIMEMediaType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MIMEMediaType',
             'desc' => [
+                'en' => 'MIME Media Type',
             ],
         ],
     ];

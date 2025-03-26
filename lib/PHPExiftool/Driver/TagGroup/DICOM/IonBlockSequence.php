@@ -28,13 +28,14 @@ class IonBlockSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ion Block Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103912
+             * line : 77001
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IonBlockSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IonBlockSequence',
             'desc' => [
+                'en' => 'Ion Block Sequence',
             ],
         ],
     ];

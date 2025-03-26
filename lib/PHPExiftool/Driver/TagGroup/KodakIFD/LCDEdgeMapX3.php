@@ -28,13 +28,14 @@ class LCDEdgeMapX3 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Edge Map X3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156705
+             * line : 107909
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDEdgeMapX3 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDEdgeMapX3',
             'desc' => [
+                'en' => 'LCD Edge Map X3',
             ],
         ],
     ];

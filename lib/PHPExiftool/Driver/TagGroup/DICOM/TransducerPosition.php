@@ -28,13 +28,14 @@ class TransducerPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Transducer Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95039
+             * line : 68521
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TransducerPosition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TransducerPosition',
             'desc' => [
+                'en' => 'Transducer Position',
             ],
         ],
     ];

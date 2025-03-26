@@ -28,13 +28,14 @@ class ColorTonePortrait extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Tone Portrait',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34642
+             * line : 26572
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTonePortrait extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ColorTonePortrait',
             'desc' => [
+                'en' => 'Color Tone Portrait',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67169
+             * line : 50969
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTonePortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ColorTonePortrait',
             'desc' => [
+                'en' => 'Color Tone Portrait',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68267
+             * line : 51630
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ColorTonePortrait extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ColorTonePortrait',
             'desc' => [
+                'en' => 'Color Tone Portrait',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GenBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gen Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::GenMediaInfo
-             * line : 313350
+             * line : 219095
              * type : fixed16s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenBalance extends AbstractTagGroup
              */
             'id' => 'QuickTime::GenMediaInfo.QuickTime:GenBalance',
             'desc' => [
+                'en' => 'Gen Balance',
             ],
         ],
     ];

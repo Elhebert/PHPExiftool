@@ -28,13 +28,14 @@ class GenerationCopyNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Generation Copy Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171430
+             * line : 117631
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GenerationCopyNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GenerationCopyNumber',
             'desc' => [
+                'en' => 'Generation Copy Number',
             ],
         ],
     ];

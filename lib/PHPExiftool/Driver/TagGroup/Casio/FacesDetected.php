@@ -28,13 +28,14 @@ class FacesDetected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Faces Detected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::FaceInfo1
-             * line : 83866
+             * line : 61488
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Casio::FaceInfo1.Casio:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::FaceInfo2
-             * line : 83943
+             * line : 61528
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Casio::FaceInfo2.Casio:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
         2 => [
             /**
              * table_name : Casio::Type2
-             * line : 85970
+             * line : 62209
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FacesDetected extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:FacesDetected',
             'desc' => [
+                'en' => 'Faces Detected',
             ],
         ],
     ];

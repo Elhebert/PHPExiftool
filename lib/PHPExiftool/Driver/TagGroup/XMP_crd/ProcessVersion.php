@@ -28,13 +28,14 @@ class ProcessVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Process Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 400609
+             * line : 284096
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ProcessVersion extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ProcessVersion',
             'desc' => [
+                'en' => 'Process Version',
             ],
         ],
     ];

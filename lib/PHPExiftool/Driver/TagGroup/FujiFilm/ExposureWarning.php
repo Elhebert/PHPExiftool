@@ -28,13 +28,14 @@ class ExposureWarning extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Warning',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130524
+             * line : 90166
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExposureWarning extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:ExposureWarning',
             'desc' => [
+                'en' => 'Exposure Warning',
             ],
         ],
     ];

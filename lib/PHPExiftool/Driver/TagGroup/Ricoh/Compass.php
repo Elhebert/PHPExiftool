@@ -28,13 +28,14 @@ class Compass extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compass',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ThetaSubdir
-             * line : 333829
+             * line : 234076
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Compass extends AbstractTagGroup
              */
             'id' => 'Ricoh::ThetaSubdir.Ricoh:Compass',
             'desc' => [
+                'en' => 'Compass',
             ],
         ],
     ];

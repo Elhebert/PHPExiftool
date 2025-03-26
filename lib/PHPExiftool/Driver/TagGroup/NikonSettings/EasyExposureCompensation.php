@@ -28,13 +28,14 @@ class EasyExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Easy Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243728
+             * line : 166748
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EasyExposureCompensation extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:EasyExposureCompensation',
             'desc' => [
+                'en' => 'Easy Exposure Compensation',
             ],
         ],
     ];

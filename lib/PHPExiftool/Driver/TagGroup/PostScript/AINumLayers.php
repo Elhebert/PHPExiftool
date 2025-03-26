@@ -28,13 +28,14 @@ class AINumLayers extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AI Num Layers',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PostScript::Main
-             * line : 305885
+             * line : 212534
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AINumLayers extends AbstractTagGroup
              */
             'id' => 'PostScript::Main.PostScript:AINumLayers',
             'desc' => [
+                'en' => 'AI Num Layers',
             ],
         ],
     ];

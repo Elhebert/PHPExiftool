@@ -28,13 +28,14 @@ class ByteOrderMark extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Byte Order Mark',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Text::Main
-             * line : 394714
+             * line : 279627
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ByteOrderMark extends AbstractTagGroup
              */
             'id' => 'Text::Main.File:ByteOrderMark',
             'desc' => [
+                'en' => 'Byte Order Mark',
             ],
         ],
     ];

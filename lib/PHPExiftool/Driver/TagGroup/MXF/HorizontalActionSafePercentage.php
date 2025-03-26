@@ -28,13 +28,14 @@ class HorizontalActionSafePercentage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Horizontal Action Safe Percentage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170246
+             * line : 116523
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HorizontalActionSafePercentage extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:HorizontalActionSafePercentage',
             'desc' => [
+                'en' => 'Horizontal Action Safe Percentage',
             ],
         ],
     ];

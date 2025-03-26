@@ -28,13 +28,14 @@ class EssenceContainerFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Essence Container Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169470
+             * line : 115872
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class EssenceContainerFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EssenceContainerFormat',
             'desc' => [
+                'en' => 'Essence Container Format',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171448
+             * line : 117649
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class EssenceContainerFormat extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EssenceContainerFormat',
             'desc' => [
+                'en' => 'Essence Container Format',
             ],
         ],
     ];

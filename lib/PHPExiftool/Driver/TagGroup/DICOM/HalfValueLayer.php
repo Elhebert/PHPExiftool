@@ -28,13 +28,14 @@ class HalfValueLayer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Half Value Layer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99741
+             * line : 72945
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HalfValueLayer extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:HalfValueLayer',
             'desc' => [
+                'en' => 'Half Value Layer',
             ],
         ],
     ];

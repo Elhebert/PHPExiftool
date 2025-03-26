@@ -28,13 +28,14 @@ class ManualFlashOutput extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manual Flash Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraSettings
-             * line : 58772
+             * line : 45681
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManualFlashOutput extends AbstractTagGroup
              */
             'id' => 'Canon::CameraSettings.Canon:ManualFlashOutput',
             'desc' => [
+                'en' => 'Manual Flash Output',
             ],
         ],
     ];

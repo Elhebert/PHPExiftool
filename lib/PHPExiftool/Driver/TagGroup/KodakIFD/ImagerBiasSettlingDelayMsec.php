@@ -28,13 +28,14 @@ class ImagerBiasSettlingDelayMsec extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Imager Bias Settling Delay Msec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155075
+             * line : 106325
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImagerBiasSettlingDelayMsec extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerBiasSettlingDelayMsec',
             'desc' => [
+                'en' => 'Imager Bias Settling Delay Msec',
             ],
         ],
     ];

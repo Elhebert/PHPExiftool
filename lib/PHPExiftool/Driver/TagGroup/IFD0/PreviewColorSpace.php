@@ -28,13 +28,14 @@ class PreviewColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Preview Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 120251
+             * line : 84479
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PreviewColorSpace extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PreviewColorSpace',
             'desc' => [
+                'en' => 'Preview Color Space',
             ],
         ],
     ];

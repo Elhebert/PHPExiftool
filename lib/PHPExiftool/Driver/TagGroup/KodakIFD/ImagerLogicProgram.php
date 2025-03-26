@@ -28,13 +28,14 @@ class ImagerLogicProgram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Imager Logic Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155072
+             * line : 106322
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagerLogicProgram extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:ImagerLogicProgram',
             'desc' => [
+                'en' => 'Imager Logic Program',
             ],
         ],
     ];

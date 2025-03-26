@@ -28,13 +28,14 @@ class Country extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Country',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Geo
-             * line : 163762
+             * line : 111490
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Country extends AbstractTagGroup
              */
             'id' => 'MIE::Geo.MIE-Geo:Country',
             'desc' => [
+                'en' => 'Country',
             ],
         ],
     ];

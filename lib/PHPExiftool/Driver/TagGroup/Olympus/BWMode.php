@@ -28,13 +28,14 @@ class BWMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black And White Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 256959
+             * line : 177418
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BWMode extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:BWMode',
             'desc' => [
+                'en' => 'Black And White Mode',
             ],
         ],
     ];

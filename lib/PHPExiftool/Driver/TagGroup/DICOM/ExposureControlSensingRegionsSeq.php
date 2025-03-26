@@ -28,13 +28,14 @@ class ExposureControlSensingRegionsSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposure Control Sensing Regions Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97146
+             * line : 70543
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposureControlSensingRegionsSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposureControlSensingRegionsSeq',
             'desc' => [
+                'en' => 'Exposure Control Sensing Regions Seq',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DistortionCorrection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112804
+             * line : 82189
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionCorrection extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:DistortionCorrection',
             'desc' => [
+                'en' => 'Distortion Correction',
             ],
         ],
     ];

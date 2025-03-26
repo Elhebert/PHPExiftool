@@ -28,13 +28,14 @@ class RegistrationTypeCodeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Registration Type Code Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101372
+             * line : 74520
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegistrationTypeCodeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RegistrationTypeCodeSequence',
             'desc' => [
+                'en' => 'Registration Type Code Sequence',
             ],
         ],
     ];

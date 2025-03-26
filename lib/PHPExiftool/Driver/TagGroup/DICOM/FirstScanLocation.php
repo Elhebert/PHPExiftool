@@ -28,13 +28,14 @@ class FirstScanLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'First Scan Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97437
+             * line : 70825
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FirstScanLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FirstScanLocation',
             'desc' => [
+                'en' => 'First Scan Location',
             ],
         ],
     ];

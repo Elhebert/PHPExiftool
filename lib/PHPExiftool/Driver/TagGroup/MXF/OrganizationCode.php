@@ -28,13 +28,14 @@ class OrganizationCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Organization Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170601
+             * line : 116841
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class OrganizationCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OrganizationCode',
             'desc' => [
+                'en' => 'Organization Code',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170604
+             * line : 116844
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class OrganizationCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:OrganizationCode',
             'desc' => [
+                'en' => 'Organization Code',
             ],
         ],
     ];

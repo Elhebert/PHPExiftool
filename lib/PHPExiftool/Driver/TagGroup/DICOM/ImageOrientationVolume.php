@@ -28,13 +28,14 @@ class ImageOrientationVolume extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Orientation Volume',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98158
+             * line : 71503
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageOrientationVolume extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageOrientationVolume',
             'desc' => [
+                'en' => 'Image Orientation Volume',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSAreaInformation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Area Information',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 132631
+             * line : 91011
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GPSAreaInformation extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSAreaInformation',
             'desc' => [
+                'en' => 'GPS Area Information',
             ],
         ],
     ];

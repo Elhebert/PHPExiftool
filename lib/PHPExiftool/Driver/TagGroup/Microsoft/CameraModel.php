@@ -28,13 +28,14 @@ class CameraModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174508
+             * line : 120176
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CameraModel extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CameraModel',
             'desc' => [
+                'en' => 'Camera Model',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175386
+             * line : 120768
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CameraModel extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:CameraModel',
             'desc' => [
+                'en' => 'Camera Model',
             ],
         ],
     ];

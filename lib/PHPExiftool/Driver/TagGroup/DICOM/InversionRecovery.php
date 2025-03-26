@@ -28,13 +28,14 @@ class InversionRecovery extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Inversion Recovery',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96527
+             * line : 69931
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InversionRecovery extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InversionRecovery',
             'desc' => [
+                'en' => 'Inversion Recovery',
             ],
         ],
     ];

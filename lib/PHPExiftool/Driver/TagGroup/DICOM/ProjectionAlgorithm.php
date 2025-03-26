@@ -28,13 +28,14 @@ class ProjectionAlgorithm extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Projection Algorithm',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97786
+             * line : 71167
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ProjectionAlgorithm extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProjectionAlgorithm',
             'desc' => [
+                'en' => 'Projection Algorithm',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 97790
+             * line : 71170
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ProjectionAlgorithm extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProjectionAlgorithm',
             'desc' => [
+                'en' => 'Projection Algorithm',
             ],
         ],
     ];

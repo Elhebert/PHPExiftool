@@ -28,13 +28,14 @@ class DistortionCorrection2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Distortion Correction 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255407
+             * line : 176259
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DistortionCorrection2 extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:DistortionCorrection2',
             'desc' => [
+                'en' => 'Distortion Correction 2',
             ],
         ],
     ];

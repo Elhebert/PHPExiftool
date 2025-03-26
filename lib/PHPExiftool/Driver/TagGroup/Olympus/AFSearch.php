@@ -28,13 +28,14 @@ class AFSearch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Search',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250762
+             * line : 172994
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFSearch extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:AFSearch',
             'desc' => [
+                'en' => 'AF Search',
             ],
         ],
     ];

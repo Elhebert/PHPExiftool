@@ -28,13 +28,14 @@ class FilterByCategory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Filter By Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101649
+             * line : 74793
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilterByCategory extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FilterByCategory',
             'desc' => [
+                'en' => 'Filter By Category',
             ],
         ],
     ];

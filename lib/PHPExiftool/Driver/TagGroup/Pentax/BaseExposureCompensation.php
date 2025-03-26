@@ -28,13 +28,14 @@ class BaseExposureCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Base Exposure Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraSettings
-             * line : 285541
+             * line : 197969
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BaseExposureCompensation extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraSettings.Pentax:BaseExposureCompensation',
             'desc' => [
+                'en' => 'Base Exposure Compensation',
             ],
         ],
     ];

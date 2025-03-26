@@ -28,13 +28,14 @@ class AcquisitionContextDescription extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Context Description',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99802
+             * line : 73005
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionContextDescription extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionContextDescription',
             'desc' => [
+                'en' => 'Acquisition Context Description',
             ],
         ],
     ];

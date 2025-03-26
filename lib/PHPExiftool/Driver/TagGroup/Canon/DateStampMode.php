@@ -28,13 +28,14 @@ class DateStampMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Stamp Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65751
+             * line : 49989
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateStampMode extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:DateStampMode',
             'desc' => [
+                'en' => 'Date Stamp Mode',
             ],
         ],
     ];

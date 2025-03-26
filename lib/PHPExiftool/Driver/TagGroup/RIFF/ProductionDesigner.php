@@ -28,13 +28,14 @@ class ProductionDesigner extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Production Designer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328345
+             * line : 231589
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductionDesigner extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:ProductionDesigner',
             'desc' => [
+                'en' => 'Production Designer',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TimecodeUserBitsFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Timecode User Bits Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168036
+             * line : 114542
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimecodeUserBitsFlag extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:TimecodeUserBitsFlag',
             'desc' => [
+                'en' => 'Timecode User Bits Flag',
             ],
         ],
     ];

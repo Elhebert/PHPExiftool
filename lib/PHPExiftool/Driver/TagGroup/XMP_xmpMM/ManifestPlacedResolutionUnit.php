@@ -28,13 +28,14 @@ class ManifestPlacedResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Placed Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414091
+             * line : 292113
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestPlacedResolutionUnit extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestPlacedResolutionUnit',
             'desc' => [
+                'en' => 'Manifest Placed Resolution Unit',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class USPTOOriginalContentType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'USPTO Original Content Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118768
+             * line : 84045
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class USPTOOriginalContentType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:USPTOOriginalContentType',
             'desc' => [
+                'en' => 'USPTO Original Content Type',
             ],
         ],
     ];

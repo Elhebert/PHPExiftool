@@ -28,13 +28,14 @@ class RawImageSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Raw Image Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 299408
+             * line : 208831
              * type : int16u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class RawImageSize extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:RawImageSize',
             'desc' => [
+                'en' => 'Raw Image Size',
             ],
         ],
     ];

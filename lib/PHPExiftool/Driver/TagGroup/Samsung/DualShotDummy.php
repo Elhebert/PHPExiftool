@@ -28,13 +28,14 @@ class DualShotDummy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dual Shot Dummy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::DualShotExtra
-             * line : 333863
+             * line : 234103
              * type : undef
              * writable : false
              * count : 64
@@ -42,6 +43,7 @@ class DualShotDummy extends AbstractTagGroup
              */
             'id' => 'Samsung::DualShotExtra.Samsung:DualShotDummy',
             'desc' => [
+                'en' => 'Dual Shot Dummy',
             ],
         ],
     ];

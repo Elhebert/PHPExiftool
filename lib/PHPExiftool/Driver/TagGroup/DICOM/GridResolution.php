@@ -28,13 +28,14 @@ class GridResolution extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Grid Resolution',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101121
+             * line : 74271
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GridResolution extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GridResolution',
             'desc' => [
+                'en' => 'Grid Resolution',
             ],
         ],
     ];

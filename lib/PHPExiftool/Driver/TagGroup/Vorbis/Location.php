@@ -28,13 +28,14 @@ class Location extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395825
+             * line : 280235
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Location extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:Location',
             'desc' => [
+                'en' => 'Location',
             ],
         ],
     ];

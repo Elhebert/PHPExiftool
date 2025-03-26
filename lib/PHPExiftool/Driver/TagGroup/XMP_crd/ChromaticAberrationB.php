@@ -28,13 +28,14 @@ class ChromaticAberrationB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration B',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 398257
+             * line : 281864
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ChromaticAberrationB extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:ChromaticAberrationB',
             'desc' => [
+                'en' => 'Chromatic Aberration B',
             ],
         ],
     ];

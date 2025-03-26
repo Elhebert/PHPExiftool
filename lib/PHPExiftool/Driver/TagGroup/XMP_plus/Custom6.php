@@ -28,13 +28,14 @@ class Custom6 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom 6',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265347
+             * line : 183418
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Custom6 extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:Custom6',
             'desc' => [
+                'en' => 'Custom 6',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139675
+             * line : 97719
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

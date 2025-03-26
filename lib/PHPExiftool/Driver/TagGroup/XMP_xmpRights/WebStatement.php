@@ -28,13 +28,14 @@ class WebStatement extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Web Statement',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpRights
-             * line : 414384
+             * line : 292378
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WebStatement extends AbstractTagGroup
              */
             'id' => 'XMP::xmpRights.XMP-xmpRights:WebStatement',
             'desc' => [
+                'en' => 'Web Statement',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AECSnapshotDigitalGain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Snapshot Digital Gain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306203
+             * line : 212708
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECSnapshotDigitalGain extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECSnapshotDigitalGain',
             'desc' => [
+                'en' => 'AEC Snapshot Digital Gain',
             ],
         ],
     ];

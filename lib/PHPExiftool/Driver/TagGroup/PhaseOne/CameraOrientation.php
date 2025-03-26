@@ -28,13 +28,14 @@ class CameraOrientation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::Main
-             * line : 303122
+             * line : 210743
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CameraOrientation extends AbstractTagGroup
              */
             'id' => 'PhaseOne::Main.PhaseOne:CameraOrientation',
             'desc' => [
+                'en' => 'Camera Orientation',
             ],
         ],
     ];

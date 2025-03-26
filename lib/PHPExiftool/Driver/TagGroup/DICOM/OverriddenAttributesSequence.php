@@ -28,13 +28,14 @@ class OverriddenAttributesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Overridden Attributes Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101787
+             * line : 74928
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OverriddenAttributesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:OverriddenAttributesSequence',
             'desc' => [
+                'en' => 'Overridden Attributes Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ImageRotationStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Rotation Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158466
+             * line : 108946
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageRotationStatus extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:ImageRotationStatus',
             'desc' => [
+                'en' => 'Image Rotation Status',
             ],
         ],
     ];

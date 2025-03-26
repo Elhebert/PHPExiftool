@@ -28,13 +28,14 @@ class NumberOfImages extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Images',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166249
+             * line : 113044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfImages extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:NumberOfImages',
             'desc' => [
+                'en' => 'Number Of Images',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewPICT extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview PICT',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323760
+             * line : 228816
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PreviewPICT extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:PreviewPICT',
             'desc' => [
+                'en' => 'Preview PICT',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::Main
-             * line : 323801
+             * line : 228840
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PreviewPICT extends AbstractTagGroup
              */
             'id' => 'QuickTime::Main.QuickTime:PreviewPICT',
             'desc' => [
+                'en' => 'Preview PICT',
             ],
         ],
     ];

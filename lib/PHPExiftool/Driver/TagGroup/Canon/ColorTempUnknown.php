@@ -28,13 +28,14 @@ class ColorTempUnknown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temp Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorCoefs
-             * line : 59188
+             * line : 45883
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::ColorCoefs2
-             * line : 59466
+             * line : 46025
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorCoefs2.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::ColorData10
-             * line : 59893
+             * line : 46242
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData10.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::ColorData11
-             * line : 60343
+             * line : 46500
              * type : int16s
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData11.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::ColorData2
-             * line : 60756
+             * line : 46732
              * type : int16s
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData2.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::ColorData6
-             * line : 61441
+             * line : 47137
              * type : int16s
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData6.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::ColorData7
-             * line : 61774
+             * line : 47320
              * type : int16s
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData7.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::ColorData8
-             * line : 62184
+             * line : 47554
              * type : int16s
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData8.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::ColorData9
-             * line : 62666
+             * line : 47842
              * type : int16s
              * writable : true
              * count :
@@ -146,6 +155,7 @@ class ColorTempUnknown extends AbstractTagGroup
              */
             'id' => 'Canon::ColorData9.Canon:ColorTempUnknown',
             'desc' => [
+                'en' => 'Color Temp Unknown',
             ],
         ],
     ];

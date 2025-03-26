@@ -28,13 +28,14 @@ class PlaintextOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Plaintext Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172124
+             * line : 118291
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PlaintextOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlaintextOffset',
             'desc' => [
+                'en' => 'Plaintext Offset',
             ],
         ],
     ];

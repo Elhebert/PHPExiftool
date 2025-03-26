@@ -28,13 +28,14 @@ class VC_1SingleSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VC-1 Single Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172382
+             * line : 118543
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VC_1SingleSequence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VC-1SingleSequence',
             'desc' => [
+                'en' => 'VC-1 Single Sequence',
             ],
         ],
     ];

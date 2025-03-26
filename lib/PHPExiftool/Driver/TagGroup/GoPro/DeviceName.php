@@ -28,13 +28,14 @@ class DeviceName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPMF
-             * line : 139437
+             * line : 97597
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceName extends AbstractTagGroup
              */
             'id' => 'GoPro::GPMF.GoPro:DeviceName',
             'desc' => [
+                'en' => 'Device Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PlaySelection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Play Selection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325312
+             * line : 229631
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlaySelection extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:PlaySelection',
             'desc' => [
+                'en' => 'Play Selection',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::SVG
-             * line : 397542
+             * line : 281469
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ID extends AbstractTagGroup
              */
             'id' => 'XMP::SVG.SVG:ID',
             'desc' => [
+                'en' => 'ID',
             ],
         ],
     ];

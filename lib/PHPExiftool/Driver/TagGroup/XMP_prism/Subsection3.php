@@ -28,13 +28,14 @@ class Subsection3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subsection 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411133
+             * line : 290335
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Subsection3 extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Subsection3',
             'desc' => [
+                'en' => 'Subsection 3',
             ],
         ],
     ];

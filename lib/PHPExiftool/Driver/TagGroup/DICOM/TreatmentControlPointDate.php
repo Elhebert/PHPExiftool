@@ -28,13 +28,14 @@ class TreatmentControlPointDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Control Point Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102684
+             * line : 75780
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentControlPointDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentControlPointDate',
             'desc' => [
+                'en' => 'Treatment Control Point Date',
             ],
         ],
     ];

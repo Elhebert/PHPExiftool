@@ -28,13 +28,14 @@ class RawColorAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Raw Color Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82304
+             * line : 60288
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RawColorAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:RawColorAdj',
             'desc' => [
+                'en' => 'Raw Color Adj',
             ],
         ],
     ];

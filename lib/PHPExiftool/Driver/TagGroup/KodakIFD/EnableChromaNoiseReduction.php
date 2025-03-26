@@ -28,13 +28,14 @@ class EnableChromaNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Enable Chroma Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156651
+             * line : 107855
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EnableChromaNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:EnableChromaNoiseReduction',
             'desc' => [
+                'en' => 'Enable Chroma Noise Reduction',
             ],
         ],
     ];

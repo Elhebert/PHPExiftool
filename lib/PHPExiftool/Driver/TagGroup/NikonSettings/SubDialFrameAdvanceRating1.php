@@ -28,13 +28,14 @@ class SubDialFrameAdvanceRating1 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sub Dial Frame Advance Rating 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247391
+             * line : 170084
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SubDialFrameAdvanceRating1 extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:SubDialFrameAdvanceRating1',
             'desc' => [
+                'en' => 'Sub Dial Frame Advance Rating 1',
             ],
         ],
     ];

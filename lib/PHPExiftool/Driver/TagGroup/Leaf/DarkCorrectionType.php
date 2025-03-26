@@ -28,13 +28,14 @@ class DarkCorrectionType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dark Correction Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::CaptureProfile
-             * line : 161698
+             * line : 110455
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DarkCorrectionType extends AbstractTagGroup
              */
             'id' => 'Leaf::CaptureProfile.Leaf:DarkCorrectionType',
             'desc' => [
+                'en' => 'Dark Correction Type',
             ],
         ],
     ];

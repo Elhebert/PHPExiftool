@@ -28,13 +28,14 @@ class StitchingSoftware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Stitching Software',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GPano
-             * line : 397182
+             * line : 281270
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class StitchingSoftware extends AbstractTagGroup
              */
             'id' => 'XMP::GPano.XMP-GPano:StitchingSoftware',
             'desc' => [
+                'en' => 'Stitching Software',
             ],
         ],
     ];

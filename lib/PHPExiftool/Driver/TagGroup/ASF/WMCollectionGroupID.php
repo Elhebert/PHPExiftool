@@ -28,13 +28,14 @@ class WMCollectionGroupID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'WM Collection Group ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1687
+             * line : 838
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WMCollectionGroupID extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:WMCollectionGroupID',
             'desc' => [
+                'en' => 'WM Collection Group ID',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ExtenderMagnification extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extender Magnification',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Extender
-             * line : 163340
+             * line : 111376
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtenderMagnification extends AbstractTagGroup
              */
             'id' => 'MIE::Extender.MIE-Extender:ExtenderMagnification',
             'desc' => [
+                'en' => 'Extender Magnification',
             ],
         ],
     ];

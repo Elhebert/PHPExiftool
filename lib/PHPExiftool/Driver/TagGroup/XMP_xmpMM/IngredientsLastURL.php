@@ -28,13 +28,14 @@ class IngredientsLastURL extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Ingredients Last URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 413923
+             * line : 291950
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IngredientsLastURL extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:IngredientsLastURL',
             'desc' => [
+                'en' => 'Ingredients Last URL',
             ],
         ],
     ];

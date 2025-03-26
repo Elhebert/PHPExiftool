@@ -28,13 +28,14 @@ class MediaGroupUUID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Media Group UUID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Apple::Main
-             * line : 2911
+             * line : 1872
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MediaGroupUUID extends AbstractTagGroup
              */
             'id' => 'Apple::Main.Apple:MediaGroupUUID',
             'desc' => [
+                'en' => 'Media Group UUID',
             ],
         ],
     ];

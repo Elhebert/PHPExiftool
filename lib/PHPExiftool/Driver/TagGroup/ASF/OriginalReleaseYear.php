@@ -28,13 +28,14 @@ class OriginalReleaseYear extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Release Year',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1475
+             * line : 706
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalReleaseYear extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:OriginalReleaseYear',
             'desc' => [
+                'en' => 'Original Release Year',
             ],
         ],
     ];

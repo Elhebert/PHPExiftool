@@ -28,13 +28,14 @@ class CueTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cue Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173317
+             * line : 119296
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CueTime extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:CueTime',
             'desc' => [
+                'en' => 'Cue Time',
             ],
         ],
     ];

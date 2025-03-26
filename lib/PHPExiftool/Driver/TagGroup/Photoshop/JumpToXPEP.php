@@ -28,13 +28,14 @@ class JumpToXPEP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Jump To XPEP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305576
+             * line : 212331
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JumpToXPEP extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:JumpToXPEP',
             'desc' => [
+                'en' => 'Jump To XPEP',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ConventionalControlPointVerifySeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Conventional Control Point Verify Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101790
+             * line : 74931
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConventionalControlPointVerifySeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ConventionalControlPointVerifySeq',
             'desc' => [
+                'en' => 'Conventional Control Point Verify Seq',
             ],
         ],
     ];

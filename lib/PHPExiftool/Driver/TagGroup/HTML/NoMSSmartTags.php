@@ -28,13 +28,14 @@ class NoMSSmartTags extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'No MS Smart Tags',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142435
+             * line : 98496
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NoMSSmartTags extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:NoMSSmartTags',
             'desc' => [
+                'en' => 'No MS Smart Tags',
             ],
         ],
     ];

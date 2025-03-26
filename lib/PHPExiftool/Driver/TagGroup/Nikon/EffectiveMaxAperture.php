@@ -28,13 +28,14 @@ class EffectiveMaxAperture extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Effective Max Aperture',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::LensData01
-             * line : 195748
+             * line : 132536
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class EffectiveMaxAperture extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData01.Nikon:EffectiveMaxAperture',
             'desc' => [
+                'en' => 'Effective Max Aperture',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::LensData0204
-             * line : 195889
+             * line : 132582
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class EffectiveMaxAperture extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0204.Nikon:EffectiveMaxAperture',
             'desc' => [
+                'en' => 'Effective Max Aperture',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::LensData0800
-             * line : 196096
+             * line : 132661
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class EffectiveMaxAperture extends AbstractTagGroup
              */
             'id' => 'Nikon::LensData0800.Nikon:EffectiveMaxAperture',
             'desc' => [
+                'en' => 'Effective Max Aperture',
             ],
         ],
     ];

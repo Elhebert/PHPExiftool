@@ -28,13 +28,14 @@ class PortraitRefiner extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Portrait Refiner',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 89877
+             * line : 64940
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PortraitRefiner extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:PortraitRefiner',
             'desc' => [
+                'en' => 'Portrait Refiner',
             ],
         ],
     ];

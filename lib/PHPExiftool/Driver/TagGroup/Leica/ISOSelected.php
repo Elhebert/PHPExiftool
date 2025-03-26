@@ -28,13 +28,14 @@ class ISOSelected extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Selected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 275004
+             * line : 191696
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ISOSelected extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:ISOSelected',
             'desc' => [
+                'en' => 'ISO Selected',
             ],
         ],
     ];

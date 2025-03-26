@@ -28,13 +28,14 @@ class FlashReturn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Return',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 405986
+             * line : 288034
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashReturn extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:FlashReturn',
             'desc' => [
+                'en' => 'Flash Return',
             ],
         ],
     ];

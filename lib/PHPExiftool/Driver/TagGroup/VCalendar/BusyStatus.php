@@ -28,13 +28,14 @@ class BusyStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Busy Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395578
+             * line : 280110
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BusyStatus extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:BusyStatus',
             'desc' => [
+                'en' => 'Busy Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Contributors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contributors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 176622
+             * line : 121497
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Contributors extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Contributors',
             'desc' => [
+                'en' => 'Contributors',
             ],
         ],
     ];

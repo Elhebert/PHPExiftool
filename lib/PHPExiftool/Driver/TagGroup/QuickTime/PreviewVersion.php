@@ -28,13 +28,14 @@ class PreviewVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Preview
-             * line : 324232
+             * line : 229092
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewVersion extends AbstractTagGroup
              */
             'id' => 'QuickTime::Preview.QuickTime:PreviewVersion',
             'desc' => [
+                'en' => 'Preview Version',
             ],
         ],
     ];

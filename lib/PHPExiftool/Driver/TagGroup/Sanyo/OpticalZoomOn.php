@@ -28,13 +28,14 @@ class OpticalZoomOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Optical Zoom On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336612
+             * line : 235847
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OpticalZoomOn extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:OpticalZoomOn',
             'desc' => [
+                'en' => 'Optical Zoom On',
             ],
         ],
     ];

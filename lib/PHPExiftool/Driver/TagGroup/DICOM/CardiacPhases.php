@@ -28,13 +28,14 @@ class CardiacPhases extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cardiac Phases',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97800
+             * line : 71179
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CardiacPhases extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CardiacPhases',
             'desc' => [
+                'en' => 'Cardiac Phases',
             ],
         ],
     ];

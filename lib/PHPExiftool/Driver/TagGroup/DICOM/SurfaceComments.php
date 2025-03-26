@@ -28,13 +28,14 @@ class SurfaceComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surface Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101142
+             * line : 74292
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurfaceComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SurfaceComments',
             'desc' => [
+                'en' => 'Surface Comments',
             ],
         ],
     ];

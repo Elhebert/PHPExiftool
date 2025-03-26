@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 4483
+             * line : 2809
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo1DX
-             * line : 9114
+             * line : 6298
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DX.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo1DmkIII
-             * line : 13530
+             * line : 9738
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIII.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::CameraInfo1DmkIV
-             * line : 17832
+             * line : 13117
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1DmkIV.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         4 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 19886
+             * line : 14763
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         5 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 21920
+             * line : 16398
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         6 => [
             /**
              * table_name : Canon::CameraInfo500D
-             * line : 23945
+             * line : 18030
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo500D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         7 => [
             /**
              * table_name : Canon::CameraInfo50D
-             * line : 26247
+             * line : 19784
              * type : int8u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo50D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         8 => [
             /**
              * table_name : Canon::CameraInfo550D
-             * line : 28546
+             * line : 21535
              * type : int8u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo550D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         9 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 30737
+             * line : 23252
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         10 => [
             /**
              * table_name : Canon::CameraInfo5DmkII
-             * line : 34948
+             * line : 26731
              * type : int8u
              * writable : true
              * count :
@@ -172,12 +183,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkII.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         11 => [
             /**
              * table_name : Canon::CameraInfo5DmkIII
-             * line : 37254
+             * line : 28488
              * type : int8u
              * writable : true
              * count :
@@ -185,12 +197,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5DmkIII.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         12 => [
             /**
              * table_name : Canon::CameraInfo600D
-             * line : 39408
+             * line : 30183
              * type : int8u
              * writable : true
              * count :
@@ -198,12 +211,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo600D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         13 => [
             /**
              * table_name : Canon::CameraInfo60D
-             * line : 41599
+             * line : 31900
              * type : int8u
              * writable : true
              * count :
@@ -211,12 +225,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo60D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         14 => [
             /**
              * table_name : Canon::CameraInfo650D
-             * line : 43352
+             * line : 33452
              * type : int8u
              * writable : true
              * count :
@@ -224,12 +239,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo650D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         15 => [
             /**
              * table_name : Canon::CameraInfo6D
-             * line : 45510
+             * line : 35147
              * type : int8u
              * writable : true
              * count :
@@ -237,12 +253,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo6D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         16 => [
             /**
              * table_name : Canon::CameraInfo70D
-             * line : 47645
+             * line : 36833
              * type : int8u
              * writable : true
              * count :
@@ -250,12 +267,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo70D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         17 => [
             /**
              * table_name : Canon::CameraInfo750D
-             * line : 49345
+             * line : 38371
              * type : int8u
              * writable : true
              * count :
@@ -263,12 +281,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo750D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         18 => [
             /**
              * table_name : Canon::CameraInfo7D
-             * line : 51481
+             * line : 40057
              * type : int8u
              * writable : true
              * count :
@@ -276,12 +295,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo7D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         19 => [
             /**
              * table_name : Canon::CameraInfo80D
-             * line : 53634
+             * line : 41752
              * type : int8u
              * writable : true
              * count :
@@ -289,12 +309,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo80D.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         20 => [
             /**
              * table_name : Canon::CameraInfoPowerShot
-             * line : 55350
+             * line : 43293
              * type : int32s
              * writable : true
              * count :
@@ -302,12 +323,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         21 => [
             /**
              * table_name : Canon::CameraInfoPowerShot2
-             * line : 55439
+             * line : 43315
              * type : int32s
              * writable : true
              * count :
@@ -315,12 +337,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfoPowerShot2.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         22 => [
             /**
              * table_name : Canon::ExposureInfo
-             * line : 63217
+             * line : 48143
              * type : rational32u
              * writable : false
              * count :
@@ -328,12 +351,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::ExposureInfo.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         23 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70730
+             * line : 52835
              * type : int16s
              * writable : true
              * count :
@@ -341,6 +365,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

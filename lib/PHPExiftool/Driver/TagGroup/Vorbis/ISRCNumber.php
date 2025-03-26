@@ -28,13 +28,14 @@ class ISRCNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ISRC Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Vorbis::Comments
-             * line : 395814
+             * line : 280229
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ISRCNumber extends AbstractTagGroup
              */
             'id' => 'Vorbis::Comments.Vorbis:ISRCNumber',
             'desc' => [
+                'en' => 'ISRC Number',
             ],
         ],
     ];

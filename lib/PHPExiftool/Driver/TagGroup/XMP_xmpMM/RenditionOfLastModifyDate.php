@@ -28,13 +28,14 @@ class RenditionOfLastModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Rendition Of Last Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414215
+             * line : 292235
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RenditionOfLastModifyDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:RenditionOfLastModifyDate',
             'desc' => [
+                'en' => 'Rendition Of Last Modify Date',
             ],
         ],
     ];

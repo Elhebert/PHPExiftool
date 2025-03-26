@@ -28,13 +28,14 @@ class USMParametersHost3MP extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'USM Parameters Host 3 MP',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155497
+             * line : 106709
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class USMParametersHost3MP extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:USMParametersHost3MP',
             'desc' => [
+                'en' => 'USM Parameters Host 3 MP',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class Client extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Client',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249059
+             * line : 171705
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Client extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:Client',
             'desc' => [
+                'en' => 'Client',
             ],
         ],
     ];

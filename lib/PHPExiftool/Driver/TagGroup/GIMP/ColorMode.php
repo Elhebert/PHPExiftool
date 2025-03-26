@@ -28,13 +28,14 @@ class ColorMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIMP::Header
-             * line : 131502
+             * line : 90746
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorMode extends AbstractTagGroup
              */
             'id' => 'GIMP::Header.GIMP:ColorMode',
             'desc' => [
+                'en' => 'Color Mode',
             ],
         ],
     ];

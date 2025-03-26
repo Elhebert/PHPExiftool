@@ -28,13 +28,14 @@ class SourceImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ImageDesc
-             * line : 313935
+             * line : 219640
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceImageWidth extends AbstractTagGroup
              */
             'id' => 'QuickTime::ImageDesc.QuickTime:SourceImageWidth',
             'desc' => [
+                'en' => 'Source Image Width',
             ],
         ],
     ];

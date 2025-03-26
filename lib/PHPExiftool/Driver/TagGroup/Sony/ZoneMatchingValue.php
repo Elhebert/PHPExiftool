@@ -28,13 +28,14 @@ class ZoneMatchingValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Zone Matching Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 347463
+             * line : 243300
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ZoneMatchingValue extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ZoneMatchingValue',
             'desc' => [
+                'en' => 'Zone Matching Value',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StandardMatrixCustom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Standard Matrix Custom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155120
+             * line : 106370
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class StandardMatrixCustom extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:StandardMatrixCustom',
             'desc' => [
+                'en' => 'Standard Matrix Custom',
             ],
         ],
     ];

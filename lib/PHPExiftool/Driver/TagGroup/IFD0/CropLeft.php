@@ -28,13 +28,14 @@ class CropLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280489
+             * line : 194640
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropLeft extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:CropLeft',
             'desc' => [
+                'en' => 'Crop Left',
             ],
         ],
     ];

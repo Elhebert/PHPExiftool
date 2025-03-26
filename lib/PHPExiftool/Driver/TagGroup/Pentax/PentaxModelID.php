@@ -28,13 +28,14 @@ class PentaxModelID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Pentax Model ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::CameraInfo
-             * line : 283899
+             * line : 196948
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class PentaxModelID extends AbstractTagGroup
              */
             'id' => 'Pentax::CameraInfo.Pentax:PentaxModelID',
             'desc' => [
+                'en' => 'Pentax Model ID',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Main
-             * line : 294791
+             * line : 205992
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class PentaxModelID extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:PentaxModelID',
             'desc' => [
+                'en' => 'Pentax Model ID',
             ],
         ],
     ];

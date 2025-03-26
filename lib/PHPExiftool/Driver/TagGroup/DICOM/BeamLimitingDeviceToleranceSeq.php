@@ -28,13 +28,14 @@ class BeamLimitingDeviceToleranceSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Beam Limiting Device Tolerance Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103041
+             * line : 76137
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BeamLimitingDeviceToleranceSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BeamLimitingDeviceToleranceSeq',
             'desc' => [
+                'en' => 'Beam Limiting Device Tolerance Seq',
             ],
         ],
     ];

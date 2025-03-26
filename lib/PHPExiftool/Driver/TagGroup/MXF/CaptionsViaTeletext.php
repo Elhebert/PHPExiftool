@@ -28,13 +28,14 @@ class CaptionsViaTeletext extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Captions Via Teletext',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168684
+             * line : 115160
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CaptionsViaTeletext extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CaptionsViaTeletext',
             'desc' => [
+                'en' => 'Captions Via Teletext',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TiffMeteringImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tiff Metering Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::FocusInfo
-             * line : 353438
+             * line : 246634
              * type : undef
              * writable : false
              * count : 9600
@@ -42,12 +43,13 @@ class TiffMeteringImage extends AbstractTagGroup
              */
             'id' => 'Sony::FocusInfo.Sony:TiffMeteringImage',
             'desc' => [
+                'en' => 'Tiff Metering Image',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreInfo
-             * line : 359752
+             * line : 250862
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class TiffMeteringImage extends AbstractTagGroup
              */
             'id' => 'Sony::MoreInfo.Sony:TiffMeteringImage',
             'desc' => [
+                'en' => 'Tiff Metering Image',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag940e
-             * line : 391024
+             * line : 276759
              * type : undef
              * writable : false
              * count : 2640
@@ -68,6 +71,7 @@ class TiffMeteringImage extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940e.Sony:TiffMeteringImage',
             'desc' => [
+                'en' => 'Tiff Metering Image',
             ],
         ],
     ];

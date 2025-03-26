@@ -28,13 +28,14 @@ class CreateDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Create Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191714
+             * line : 130002
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202166
+             * line : 136914
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class CreateDate extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:CreateDate',
             'desc' => [
+                'en' => 'Create Date',
             ],
         ],
     ];

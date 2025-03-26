@@ -28,13 +28,14 @@ class ConsumerRightsToCopy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Consumer Rights To Copy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168747
+             * line : 115223
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ConsumerRightsToCopy extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ConsumerRightsToCopy',
             'desc' => [
+                'en' => 'Consumer Rights To Copy',
             ],
         ],
     ];

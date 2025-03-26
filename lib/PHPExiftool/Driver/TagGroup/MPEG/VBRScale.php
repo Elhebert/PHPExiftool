@@ -28,13 +28,14 @@ class VBRScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VBR Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Xing
-             * line : 166133
+             * line : 112961
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VBRScale extends AbstractTagGroup
              */
             'id' => 'MPEG::Xing.MPEG:VBRScale',
             'desc' => [
+                'en' => 'VBR Scale',
             ],
         ],
     ];

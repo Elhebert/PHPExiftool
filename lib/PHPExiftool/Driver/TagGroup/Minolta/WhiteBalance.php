@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177137
+             * line : 121813
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178439
+             * line : 122352
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179419
+             * line : 122660
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180365
+             * line : 122998
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
         4 => [
             /**
              * table_name : Minolta::Main
-             * line : 184819
+             * line : 125571
              * type : int32u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

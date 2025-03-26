@@ -28,13 +28,14 @@ class ImageUniqueID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Unique ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Apple::Main
-             * line : 2914
+             * line : 1875
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageUniqueID extends AbstractTagGroup
              */
             'id' => 'Apple::Main.Apple:ImageUniqueID',
             'desc' => [
+                'en' => 'Image Unique ID',
             ],
         ],
     ];

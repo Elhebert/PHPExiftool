@@ -28,13 +28,14 @@ class UniqueFileIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Unique File Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175234
+             * line : 120669
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UniqueFileIdentifier extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:UniqueFileIdentifier',
             'desc' => [
+                'en' => 'Unique File Identifier',
             ],
         ],
     ];

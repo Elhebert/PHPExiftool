@@ -28,13 +28,14 @@ class ContextGroupLocalVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Context Group Local Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94819
+             * line : 68305
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContextGroupLocalVersion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContextGroupLocalVersion',
             'desc' => [
+                'en' => 'Context Group Local Version',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class QualityMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Type2
-             * line : 85272
+             * line : 62003
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QualityMode extends AbstractTagGroup
              */
             'id' => 'Casio::Type2.Casio:QualityMode',
             'desc' => [
+                'en' => 'Quality Mode',
             ],
         ],
     ];

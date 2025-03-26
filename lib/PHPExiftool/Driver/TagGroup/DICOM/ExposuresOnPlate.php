@@ -28,13 +28,14 @@ class ExposuresOnPlate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Exposures On Plate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96009
+             * line : 69430
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ExposuresOnPlate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ExposuresOnPlate',
             'desc' => [
+                'en' => 'Exposures On Plate',
             ],
         ],
     ];

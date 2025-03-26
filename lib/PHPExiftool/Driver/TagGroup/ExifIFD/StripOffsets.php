@@ -28,13 +28,14 @@ class StripOffsets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Strip Offsets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110617
+             * line : 81461
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class StripOffsets extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:StripOffsets',
             'desc' => [
+                'en' => 'Strip Offsets',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 110635
+             * line : 81464
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class StripOffsets extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:StripOffsets',
             'desc' => [
+                'en' => 'Strip Offsets',
             ],
         ],
     ];

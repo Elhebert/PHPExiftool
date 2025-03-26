@@ -28,13 +28,14 @@ class ImagePresentationComments extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Presentation Comments',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99120
+             * line : 72339
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImagePresentationComments extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImagePresentationComments',
             'desc' => [
+                'en' => 'Image Presentation Comments',
             ],
         ],
     ];

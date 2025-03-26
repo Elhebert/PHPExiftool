@@ -28,13 +28,14 @@ class ReferencedContentItemIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Content Item Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100254
+             * line : 73428
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedContentItemIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedContentItemIdentifier',
             'desc' => [
+                'en' => 'Referenced Content Item Identifier',
             ],
         ],
     ];

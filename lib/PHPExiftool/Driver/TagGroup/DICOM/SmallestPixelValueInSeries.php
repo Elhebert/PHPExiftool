@@ -28,13 +28,14 @@ class SmallestPixelValueInSeries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Smallest Pixel Value In Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98809
+             * line : 72081
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SmallestPixelValueInSeries extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SmallestPixelValueInSeries',
             'desc' => [
+                'en' => 'Smallest Pixel Value In Series',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ReferenceName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Reference Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146578
+             * line : 101865
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferenceName extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ReferenceName',
             'desc' => [
+                'en' => 'Reference Name',
             ],
         ],
     ];

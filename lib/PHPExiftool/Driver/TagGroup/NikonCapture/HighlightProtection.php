@@ -28,13 +28,14 @@ class HighlightProtection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Protection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::HighlightData
-             * line : 210407
+             * line : 141665
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightProtection extends AbstractTagGroup
              */
             'id' => 'NikonCapture::HighlightData.NikonCapture:HighlightProtection',
             'desc' => [
+                'en' => 'Highlight Protection',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlickerReductionIndicator extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flicker Reduction Indicator',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243271
+             * line : 166342
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlickerReductionIndicator extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:FlickerReductionIndicator',
             'desc' => [
+                'en' => 'Flicker Reduction Indicator',
             ],
         ],
     ];

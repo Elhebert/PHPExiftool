@@ -28,13 +28,14 @@ class RelativeExposure extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Relative Exposure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::RAF
-             * line : 131126
+             * line : 90576
              * type : rational32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RelativeExposure extends AbstractTagGroup
              */
             'id' => 'FujiFilm::RAF.RAF:RelativeExposure',
             'desc' => [
+                'en' => 'Relative Exposure',
             ],
         ],
     ];

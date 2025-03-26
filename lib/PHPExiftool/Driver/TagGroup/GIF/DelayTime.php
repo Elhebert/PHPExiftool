@@ -28,13 +28,14 @@ class DelayTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Delay Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GIF::MIDIControl
-             * line : 131300
+             * line : 90664
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DelayTime extends AbstractTagGroup
              */
             'id' => 'GIF::MIDIControl.GIF:DelayTime',
             'desc' => [
+                'en' => 'Delay Time',
             ],
         ],
     ];

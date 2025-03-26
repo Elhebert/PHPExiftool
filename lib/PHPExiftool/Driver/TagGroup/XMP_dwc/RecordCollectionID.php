@@ -28,13 +28,14 @@ class RecordCollectionID extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Record Collection ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106645
+             * line : 78881
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RecordCollectionID extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:RecordCollectionID',
             'desc' => [
+                'en' => 'Record Collection ID',
             ],
         ],
     ];

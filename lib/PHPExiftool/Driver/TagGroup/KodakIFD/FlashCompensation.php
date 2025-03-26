@@ -28,13 +28,14 @@ class FlashCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154740
+             * line : 106119
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashCompensation extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:FlashCompensation',
             'desc' => [
+                'en' => 'Flash Compensation',
             ],
         ],
     ];

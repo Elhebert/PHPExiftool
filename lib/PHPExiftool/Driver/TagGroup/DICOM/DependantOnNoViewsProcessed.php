@@ -28,13 +28,14 @@ class DependantOnNoViewsProcessed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dependant On No Views Processed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97536
+             * line : 70921
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DependantOnNoViewsProcessed extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DependantOnNoViewsProcessed',
             'desc' => [
+                'en' => 'Dependant On No Views Processed',
             ],
         ],
     ];

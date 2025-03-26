@@ -28,13 +28,14 @@ class SICI extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SICI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167293
+             * line : 113925
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SICI extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SICI',
             'desc' => [
+                'en' => 'SICI',
             ],
         ],
     ];

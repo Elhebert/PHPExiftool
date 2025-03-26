@@ -28,13 +28,14 @@ class LensSpec extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Spec',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo
-             * line : 344977
+             * line : 241908
              * type : undef
              * writable : true
              * count : 8
@@ -42,12 +43,13 @@ class LensSpec extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo.Sony:LensSpec',
             'desc' => [
+                'en' => 'Lens Spec',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraInfo2
-             * line : 345570
+             * line : 242331
              * type : undef
              * writable : true
              * count : 8
@@ -55,12 +57,13 @@ class LensSpec extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo2.Sony:LensSpec',
             'desc' => [
+                'en' => 'Lens Spec',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 345940
+             * line : 242554
              * type : undef
              * writable : true
              * count : 8
@@ -68,12 +71,13 @@ class LensSpec extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:LensSpec',
             'desc' => [
+                'en' => 'Lens Spec',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Main
-             * line : 358669
+             * line : 250296
              * type : int8u
              * writable : true
              * count : 8
@@ -81,6 +85,7 @@ class LensSpec extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:LensSpec',
             'desc' => [
+                'en' => 'Lens Spec',
             ],
         ],
     ];

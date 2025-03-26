@@ -28,13 +28,14 @@ class VideoTestParameter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Video Test Parameter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167951
+             * line : 114473
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VideoTestParameter extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VideoTestParameter',
             'desc' => [
+                'en' => 'Video Test Parameter',
             ],
         ],
     ];

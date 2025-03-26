@@ -28,13 +28,14 @@ class ContentStorage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Content Storage',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169488
+             * line : 115890
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContentStorage extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ContentStorage',
             'desc' => [
+                'en' => 'Content Storage',
             ],
         ],
     ];

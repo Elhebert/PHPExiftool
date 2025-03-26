@@ -28,13 +28,14 @@ class MaxFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Max Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Lens
-             * line : 163977
+             * line : 111552
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MaxFocalLength extends AbstractTagGroup
              */
             'id' => 'MIE::Lens.MIE-Lens:MaxFocalLength',
             'desc' => [
+                'en' => 'Max Focal Length',
             ],
         ],
     ];

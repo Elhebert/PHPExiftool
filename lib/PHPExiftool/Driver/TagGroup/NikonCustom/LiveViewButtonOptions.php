@@ -28,13 +28,14 @@ class LiveViewButtonOptions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View Button Options',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 216440
+             * line : 145453
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LiveViewButtonOptions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:LiveViewButtonOptions',
             'desc' => [
+                'en' => 'Live View Button Options',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218767
+             * line : 147111
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class LiveViewButtonOptions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:LiveViewButtonOptions',
             'desc' => [
+                'en' => 'Live View Button Options',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221227
+             * line : 149153
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class LiveViewButtonOptions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:LiveViewButtonOptions',
             'desc' => [
+                'en' => 'Live View Button Options',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231364
+             * line : 155604
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class LiveViewButtonOptions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:LiveViewButtonOptions',
             'desc' => [
+                'en' => 'Live View Button Options',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 233116
+             * line : 156960
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class LiveViewButtonOptions extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:LiveViewButtonOptions',
             'desc' => [
+                'en' => 'Live View Button Options',
             ],
         ],
     ];

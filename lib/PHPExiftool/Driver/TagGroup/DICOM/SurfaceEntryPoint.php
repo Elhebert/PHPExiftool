@@ -28,13 +28,14 @@ class SurfaceEntryPoint extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Surface Entry Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103408
+             * line : 76503
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SurfaceEntryPoint extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SurfaceEntryPoint',
             'desc' => [
+                'en' => 'Surface Entry Point',
             ],
         ],
     ];

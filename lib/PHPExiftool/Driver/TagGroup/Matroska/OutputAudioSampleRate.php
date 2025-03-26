@@ -28,13 +28,14 @@ class OutputAudioSampleRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Output Audio Sample Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173893
+             * line : 119791
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OutputAudioSampleRate extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:OutputAudioSampleRate',
             'desc' => [
+                'en' => 'Output Audio Sample Rate',
             ],
         ],
     ];

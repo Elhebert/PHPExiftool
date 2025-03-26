@@ -28,13 +28,14 @@ class EnergyWindowVector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Energy Window Vector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100796
+             * line : 73956
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EnergyWindowVector extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EnergyWindowVector',
             'desc' => [
+                'en' => 'Energy Window Vector',
             ],
         ],
     ];

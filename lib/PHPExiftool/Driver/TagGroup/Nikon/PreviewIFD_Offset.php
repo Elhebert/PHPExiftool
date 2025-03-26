@@ -28,13 +28,14 @@ class PreviewIFD_Offset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview IFD Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::CaptureOffsets
-             * line : 191900
+             * line : 130068
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewIFD_Offset extends AbstractTagGroup
              */
             'id' => 'Nikon::CaptureOffsets.Nikon:PreviewIFD_Offset',
             'desc' => [
+                'en' => 'Preview IFD Offset',
             ],
         ],
     ];

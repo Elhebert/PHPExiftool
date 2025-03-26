@@ -28,13 +28,14 @@ class MetadataNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158474
+             * line : 108952
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetadataNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:MetadataNumber',
             'desc' => [
+                'en' => 'Metadata Number',
             ],
         ],
     ];

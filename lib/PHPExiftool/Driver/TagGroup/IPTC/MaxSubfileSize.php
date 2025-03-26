@@ -28,13 +28,14 @@ class MaxSubfileSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Subfile Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::PreObjectData
-             * line : 151962
+             * line : 104662
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MaxSubfileSize extends AbstractTagGroup
              */
             'id' => 'IPTC::PreObjectData.IPTC:MaxSubfileSize',
             'desc' => [
+                'en' => 'Max Subfile Size',
             ],
         ],
     ];

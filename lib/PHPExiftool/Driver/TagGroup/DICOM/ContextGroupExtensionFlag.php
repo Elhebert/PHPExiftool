@@ -28,13 +28,14 @@ class ContextGroupExtensionFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Context Group Extension Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94822
+             * line : 68308
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContextGroupExtensionFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContextGroupExtensionFlag',
             'desc' => [
+                'en' => 'Context Group Extension Flag',
             ],
         ],
     ];

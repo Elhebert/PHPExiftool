@@ -28,13 +28,14 @@ class AudioExtendFrequencies extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Extend Frequencies',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312642
+             * line : 218515
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioExtendFrequencies extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioExtendFrequencies',
             'desc' => [
+                'en' => 'Audio Extend Frequencies',
             ],
         ],
     ];

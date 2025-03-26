@@ -28,13 +28,14 @@ class PatientGantryRelationshipCodeSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Gantry Relationship Code Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100954
+             * line : 74106
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientGantryRelationshipCodeSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientGantryRelationshipCodeSeq',
             'desc' => [
+                'en' => 'Patient Gantry Relationship Code Seq',
             ],
         ],
     ];

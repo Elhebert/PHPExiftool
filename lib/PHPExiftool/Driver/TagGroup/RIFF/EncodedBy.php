@@ -28,13 +28,14 @@ class EncodedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encoded By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328013
+             * line : 231448
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class EncodedBy extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:EncodedBy',
             'desc' => [
+                'en' => 'Encoded By',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::Info
-             * line : 328240
+             * line : 231544
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class EncodedBy extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:EncodedBy',
             'desc' => [
+                'en' => 'Encoded By',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PreviewWMF extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview WMF',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121515
+             * line : 85235
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewWMF extends AbstractTagGroup
              */
             'id' => 'Extra.File:PreviewWMF',
             'desc' => [
+                'en' => 'Preview WMF',
             ],
         ],
     ];

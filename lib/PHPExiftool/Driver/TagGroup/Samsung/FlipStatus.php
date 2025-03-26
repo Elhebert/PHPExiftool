@@ -28,13 +28,14 @@ class FlipStatus extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flip Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::SingleShotMeta
-             * line : 334193
+             * line : 234273
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlipStatus extends AbstractTagGroup
              */
             'id' => 'Samsung::SingleShotMeta.Samsung:FlipStatus',
             'desc' => [
+                'en' => 'Flip Status',
             ],
         ],
     ];

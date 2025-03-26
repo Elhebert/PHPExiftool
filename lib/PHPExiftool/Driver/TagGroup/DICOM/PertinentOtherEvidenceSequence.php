@@ -28,13 +28,14 @@ class PertinentOtherEvidenceSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pertinent Other Evidence Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100203
+             * line : 73377
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PertinentOtherEvidenceSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PertinentOtherEvidenceSequence',
             'desc' => [
+                'en' => 'Pertinent Other Evidence Sequence',
             ],
         ],
     ];

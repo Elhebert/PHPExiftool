@@ -28,13 +28,14 @@ class OlympusImageHeight extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Olympus Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::Main
-             * line : 259047
+             * line : 178765
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OlympusImageHeight extends AbstractTagGroup
              */
             'id' => 'Olympus::Main.Olympus:OlympusImageHeight',
             'desc' => [
+                'en' => 'Olympus Image Height',
             ],
         ],
     ];

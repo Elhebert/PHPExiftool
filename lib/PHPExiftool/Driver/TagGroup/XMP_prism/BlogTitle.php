@@ -28,13 +28,14 @@ class BlogTitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Blog Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410751
+             * line : 290032
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlogTitle extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:BlogTitle',
             'desc' => [
+                'en' => 'Blog Title',
             ],
         ],
     ];

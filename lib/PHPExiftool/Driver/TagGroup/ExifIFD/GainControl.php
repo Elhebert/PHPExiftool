@@ -28,13 +28,14 @@ class GainControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gain Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117411
+             * line : 83586
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class GainControl extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:GainControl',
             'desc' => [
+                'en' => 'Gain Control',
             ],
         ],
     ];

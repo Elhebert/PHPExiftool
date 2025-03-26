@@ -28,13 +28,14 @@ class TreatmentSummaryMeasuredDoseRefSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Treatment Summary Measured Dose Ref Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102828
+             * line : 75924
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TreatmentSummaryMeasuredDoseRefSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TreatmentSummaryMeasuredDoseRefSeq',
             'desc' => [
+                'en' => 'Treatment Summary Measured Dose Ref Seq',
             ],
         ],
     ];

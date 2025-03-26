@@ -28,13 +28,14 @@ class WB_RBLevels3500K extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RB Levels 3500K',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185617
+             * line : 125922
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class WB_RBLevels3500K extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:WB_RBLevels3500K',
             'desc' => [
+                'en' => 'WB RB Levels 3500K',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class BlackLevelDeltaV extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Black Level Delta V',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118981
+             * line : 84135
              * type : rational64s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BlackLevelDeltaV extends AbstractTagGroup
              */
             'id' => 'Exif::Main.SubIFD:BlackLevelDeltaV',
             'desc' => [
+                'en' => 'Black Level Delta V',
             ],
         ],
     ];

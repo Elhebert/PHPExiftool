@@ -28,13 +28,14 @@ class ImageReadyDataSets extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Ready Data Sets',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Main
-             * line : 305698
+             * line : 212418
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageReadyDataSets extends AbstractTagGroup
              */
             'id' => 'Photoshop::Main.Photoshop:ImageReadyDataSets',
             'desc' => [
+                'en' => 'Image Ready Data Sets',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class DateTimeOriginal extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Date/Time Original',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::CameraInfo
-             * line : 122331
+             * line : 85695
              * type : undef
              * writable : false
              * count : 10
@@ -42,12 +43,13 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'FLIR::CameraInfo.FLIR:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
         1 => [
             /**
              * table_name : FLIR::FPF
-             * line : 122620
+             * line : 85871
              * type : int32u
              * writable : false
              * count : 7
@@ -55,6 +57,7 @@ class DateTimeOriginal extends AbstractTagGroup
              */
             'id' => 'FLIR::FPF.FLIR:DateTimeOriginal',
             'desc' => [
+                'en' => 'Date/Time Original',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ISOStepSize extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'ISO Step Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212318
+             * line : 142646
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ISOStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:ISOStepSize',
             'desc' => [
+                'en' => 'ISO Step Size',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 214907
+             * line : 144230
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ISOStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:ISOStepSize',
             'desc' => [
+                'en' => 'ISO Step Size',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 217577
+             * line : 146150
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ISOStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:ISOStepSize',
             'desc' => [
+                'en' => 'ISO Step Size',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 220001
+             * line : 148182
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ISOStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:ISOStepSize',
             'desc' => [
+                'en' => 'ISO Step Size',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 224724
+             * line : 151493
              * type : int8u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ISOStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:ISOStepSize',
             'desc' => [
+                'en' => 'ISO Step Size',
             ],
         ],
         5 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 229990
+             * line : 154563
              * type : int8u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class ISOStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:ISOStepSize',
             'desc' => [
+                'en' => 'ISO Step Size',
             ],
         ],
         6 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 231882
+             * line : 155982
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class ISOStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:ISOStepSize',
             'desc' => [
+                'en' => 'ISO Step Size',
             ],
         ],
         7 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239320
+             * line : 162409
              * type : int8u
              * writable : true
              * count :
@@ -133,6 +141,7 @@ class ISOStepSize extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:ISOStepSize',
             'desc' => [
+                'en' => 'ISO Step Size',
             ],
         ],
     ];

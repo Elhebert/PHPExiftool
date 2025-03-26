@@ -28,13 +28,14 @@ class SettingDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170962
+             * line : 117189
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SettingDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingDateTime',
             'desc' => [
+                'en' => 'Setting Date Time',
             ],
         ],
     ];

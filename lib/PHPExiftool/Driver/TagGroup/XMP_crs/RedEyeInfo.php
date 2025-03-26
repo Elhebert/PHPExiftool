@@ -28,13 +28,14 @@ class RedEyeInfo extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Red Eye Info',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 403957
+             * line : 287072
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RedEyeInfo extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:RedEyeInfo',
             'desc' => [
+                'en' => 'Red Eye Info',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MRImagingModifierSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Imaging Modifier Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96521
+             * line : 69925
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRImagingModifierSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRImagingModifierSequence',
             'desc' => [
+                'en' => 'MR Imaging Modifier Sequence',
             ],
         ],
     ];

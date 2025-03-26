@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::MP4
-             * line : 333919
+             * line : 234129
              * type : string
              * writable : false
              * count : 16
@@ -42,12 +43,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Samsung::MP4.Samsung:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::sec
-             * line : 335661
+             * line : 235539
              * type : string
              * writable : false
              * count : 32
@@ -55,6 +57,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Samsung::sec.Samsung:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

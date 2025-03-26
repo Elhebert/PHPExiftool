@@ -28,13 +28,14 @@ class RelatedAudioFileName extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Related Audio File Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIE::Audio
-             * line : 162757
+             * line : 111229
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelatedAudioFileName extends AbstractTagGroup
              */
             'id' => 'MIE::Audio.MIE-Audio:RelatedAudioFileName',
             'desc' => [
+                'en' => 'Related Audio File Name',
             ],
         ],
     ];

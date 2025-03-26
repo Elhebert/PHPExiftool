@@ -28,13 +28,14 @@ class Manager extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manager',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RTF::Main
-             * line : 329267
+             * line : 232044
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Manager extends AbstractTagGroup
              */
             'id' => 'RTF::Main.RTF:Manager',
             'desc' => [
+                'en' => 'Manager',
             ],
         ],
     ];

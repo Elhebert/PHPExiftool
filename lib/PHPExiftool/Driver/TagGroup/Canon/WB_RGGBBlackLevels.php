@@ -28,13 +28,14 @@ class WB_RGGBBlackLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGGB Black Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ColorBalance
-             * line : 58927
+             * line : 45757
              * type : int16s
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class WB_RGGBBlackLevels extends AbstractTagGroup
              */
             'id' => 'Canon::ColorBalance.Canon:WB_RGGBBlackLevels',
             'desc' => [
+                'en' => 'WB RGGB Black Levels',
             ],
         ],
     ];

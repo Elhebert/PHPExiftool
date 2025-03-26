@@ -28,13 +28,14 @@ class ReferencedOverlayGroup extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Overlay Group',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104236
+             * line : 77310
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedOverlayGroup extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedOverlayGroup',
             'desc' => [
+                'en' => 'Referenced Overlay Group',
             ],
         ],
     ];

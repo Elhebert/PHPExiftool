@@ -28,13 +28,14 @@ class ShowPatientDemographicsFlag extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Show Patient Demographics Flag',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101712
+             * line : 74853
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShowPatientDemographicsFlag extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ShowPatientDemographicsFlag',
             'desc' => [
+                'en' => 'Show Patient Demographics Flag',
             ],
         ],
     ];

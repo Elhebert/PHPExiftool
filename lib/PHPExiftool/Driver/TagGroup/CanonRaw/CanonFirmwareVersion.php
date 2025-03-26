@@ -28,13 +28,14 @@ class CanonFirmwareVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Canon Firmware Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78676
+             * line : 57245
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class CanonFirmwareVersion extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:CanonFirmwareVersion',
             'desc' => [
+                'en' => 'Canon Firmware Version',
             ],
         ],
     ];

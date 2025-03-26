@@ -28,13 +28,14 @@ class FocusBracket extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Bracket',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278018
+             * line : 193397
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusBracket extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:FocusBracket',
             'desc' => [
+                'en' => 'Focus Bracket',
             ],
         ],
     ];

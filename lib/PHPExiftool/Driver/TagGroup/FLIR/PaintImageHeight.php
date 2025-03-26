@@ -28,13 +28,14 @@ class PaintImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paint Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::PaintData
-             * line : 123484
+             * line : 86303
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PaintImageHeight extends AbstractTagGroup
              */
             'id' => 'FLIR::PaintData.FLIR:PaintImageHeight',
             'desc' => [
+                'en' => 'Paint Image Height',
             ],
         ],
     ];

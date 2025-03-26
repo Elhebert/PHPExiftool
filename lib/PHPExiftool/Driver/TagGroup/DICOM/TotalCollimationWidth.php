@@ -28,13 +28,14 @@ class TotalCollimationWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Collimation Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96959
+             * line : 70360
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalCollimationWidth extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalCollimationWidth',
             'desc' => [
+                'en' => 'Total Collimation Width',
             ],
         ],
     ];

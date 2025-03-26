@@ -28,13 +28,14 @@ class MDPrepTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Prep Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113097
+             * line : 82314
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDPrepTime extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MDPrepTime',
             'desc' => [
+                'en' => 'MD Prep Time',
             ],
         ],
     ];

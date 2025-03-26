@@ -28,13 +28,14 @@ class Watched extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Watched',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396405
+             * line : 280641
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Watched extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:Watched',
             'desc' => [
+                'en' => 'Watched',
             ],
         ],
     ];

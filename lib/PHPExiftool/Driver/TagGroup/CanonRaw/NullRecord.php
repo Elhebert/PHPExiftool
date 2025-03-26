@@ -28,13 +28,14 @@ class NullRecord extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Null Record',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 78643
+             * line : 57230
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class NullRecord extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:NullRecord',
             'desc' => [
+                'en' => 'Null Record',
             ],
         ],
     ];

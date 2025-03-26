@@ -28,13 +28,14 @@ class ImmediateDataBytes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Immediate Data Bytes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintTrackInfo
-             * line : 313764
+             * line : 219504
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImmediateDataBytes extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintTrackInfo.QuickTime:ImmediateDataBytes',
             'desc' => [
+                'en' => 'Immediate Data Bytes',
             ],
         ],
     ];

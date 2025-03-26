@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::MOV
-             * line : 128739
+             * line : 89328
              * type : string
              * writable : false
              * count : 24
@@ -42,6 +43,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'FujiFilm::MOV.FujiFilm:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RegisterItemDefiningDocumentName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Register Item Defining Document Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172331
+             * line : 118492
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RegisterItemDefiningDocumentName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:RegisterItemDefiningDocumentName',
             'desc' => [
+                'en' => 'Register Item Defining Document Name',
             ],
         ],
     ];

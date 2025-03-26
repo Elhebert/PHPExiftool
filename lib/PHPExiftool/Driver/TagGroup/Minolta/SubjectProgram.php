@@ -28,13 +28,14 @@ class SubjectProgram extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subject Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177816
+             * line : 122041
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SubjectProgram extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:SubjectProgram',
             'desc' => [
+                'en' => 'Subject Program',
             ],
         ],
     ];

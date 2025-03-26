@@ -28,13 +28,14 @@ class FilmFrameNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Film Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126461
+             * line : 87680
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FilmFrameNumber extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:FilmFrameNumber',
             'desc' => [
+                'en' => 'Film Frame Number',
             ],
         ],
     ];

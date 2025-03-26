@@ -28,13 +28,14 @@ class HotKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Hot Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::Main
-             * line : 161508
+             * line : 110329
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HotKey extends AbstractTagGroup
              */
             'id' => 'LNK::Main.LNK:HotKey',
             'desc' => [
+                'en' => 'Hot Key',
             ],
         ],
     ];

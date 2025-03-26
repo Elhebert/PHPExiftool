@@ -28,13 +28,14 @@ class AudioMaxBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Max Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::AudioProf
-             * line : 310405
+             * line : 216312
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioMaxBitrate extends AbstractTagGroup
              */
             'id' => 'QuickTime::AudioProf.QuickTime:AudioMaxBitrate',
             'desc' => [
+                'en' => 'Audio Max Bitrate',
             ],
         ],
     ];

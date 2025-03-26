@@ -28,13 +28,14 @@ class Gamma extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Gamma',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 117977
+             * line : 83718
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Gamma extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:Gamma',
             'desc' => [
+                'en' => 'Gamma',
             ],
         ],
     ];

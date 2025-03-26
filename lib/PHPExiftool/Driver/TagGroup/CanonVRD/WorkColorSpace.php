@@ -28,13 +28,14 @@ class WorkColorSpace extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Work Color Space',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80272
+             * line : 58583
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class WorkColorSpace extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:WorkColorSpace',
             'desc' => [
+                'en' => 'Work Color Space',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82646
+             * line : 60531
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class WorkColorSpace extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:WorkColorSpace',
             'desc' => [
+                'en' => 'Work Color Space',
             ],
         ],
     ];

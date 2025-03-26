@@ -28,13 +28,14 @@ class Sidebars extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sidebars',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::ncc
-             * line : 143025
+             * line : 98770
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Sidebars extends AbstractTagGroup
              */
             'id' => 'HTML::ncc.HTML-ncc:Sidebars',
             'desc' => [
+                'en' => 'Sidebars',
             ],
         ],
     ];

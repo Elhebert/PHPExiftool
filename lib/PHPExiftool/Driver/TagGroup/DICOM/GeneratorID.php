@@ -28,13 +28,14 @@ class GeneratorID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Generator ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95577
+             * line : 69031
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeneratorID extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:GeneratorID',
             'desc' => [
+                'en' => 'Generator ID',
             ],
         ],
     ];

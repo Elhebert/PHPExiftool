@@ -28,13 +28,14 @@ class AFActivation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AF Activation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 243594
+             * line : 166665
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFActivation extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:AFActivation',
             'desc' => [
+                'en' => 'AF Activation',
             ],
         ],
     ];

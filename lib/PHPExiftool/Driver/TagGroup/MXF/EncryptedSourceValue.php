@@ -28,13 +28,14 @@ class EncryptedSourceValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Encrypted Source Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172039
+             * line : 118213
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EncryptedSourceValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:EncryptedSourceValue',
             'desc' => [
+                'en' => 'Encrypted Source Value',
             ],
         ],
     ];

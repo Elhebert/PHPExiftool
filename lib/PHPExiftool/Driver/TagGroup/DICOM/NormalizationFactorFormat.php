@@ -28,13 +28,14 @@ class NormalizationFactorFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Normalization Factor Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98867
+             * line : 72138
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NormalizationFactorFormat extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NormalizationFactorFormat',
             'desc' => [
+                'en' => 'Normalization Factor Format',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AlgorithmVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Algorithm Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101220
+             * line : 74370
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AlgorithmVersion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AlgorithmVersion',
             'desc' => [
+                'en' => 'Algorithm Version',
             ],
         ],
     ];

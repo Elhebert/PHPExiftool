@@ -28,13 +28,14 @@ class ImageCategory extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Category',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168089
+             * line : 114590
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageCategory extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ImageCategory',
             'desc' => [
+                'en' => 'Image Category',
             ],
         ],
     ];

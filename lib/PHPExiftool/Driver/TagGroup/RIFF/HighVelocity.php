@@ -28,13 +28,14 @@ class HighVelocity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'High Velocity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Instrument
-             * line : 328622
+             * line : 231733
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HighVelocity extends AbstractTagGroup
              */
             'id' => 'RIFF::Instrument.RIFF:HighVelocity',
             'desc' => [
+                'en' => 'High Velocity',
             ],
         ],
     ];

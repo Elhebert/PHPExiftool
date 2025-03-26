@@ -28,13 +28,14 @@ class MovieFunc1Button extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Func 1 Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218577
+             * line : 146943
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MovieFunc1Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:MovieFunc1Button',
             'desc' => [
+                'en' => 'Movie Func 1 Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221027
+             * line : 148974
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MovieFunc1Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:MovieFunc1Button',
             'desc' => [
+                'en' => 'Movie Func 1 Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232926
+             * line : 156792
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MovieFunc1Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:MovieFunc1Button',
             'desc' => [
+                'en' => 'Movie Func 1 Button',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 237762
+             * line : 160869
              * type : int8u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class MovieFunc1Button extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:MovieFunc1Button',
             'desc' => [
+                'en' => 'Movie Func 1 Button',
             ],
         ],
     ];

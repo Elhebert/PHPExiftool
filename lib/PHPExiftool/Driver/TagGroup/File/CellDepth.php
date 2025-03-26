@@ -28,13 +28,14 @@ class CellDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cell Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::Main
-             * line : 166894
+             * line : 113583
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CellDepth extends AbstractTagGroup
              */
             'id' => 'MRC::Main.File:CellDepth',
             'desc' => [
+                'en' => 'Cell Depth',
             ],
         ],
     ];

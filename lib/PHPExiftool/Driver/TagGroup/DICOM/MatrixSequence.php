@@ -28,13 +28,14 @@ class MatrixSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Matrix Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101366
+             * line : 74514
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MatrixSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MatrixSequence',
             'desc' => [
+                'en' => 'Matrix Sequence',
             ],
         ],
     ];

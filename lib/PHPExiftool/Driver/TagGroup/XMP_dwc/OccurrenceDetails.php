@@ -28,13 +28,14 @@ class OccurrenceDetails extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Occurrence Details',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106541
+             * line : 78803
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OccurrenceDetails extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OccurrenceDetails',
             'desc' => [
+                'en' => 'Occurrence Details',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class RefImageRealWorldValueMappingSeq extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Ref Image Real World Value Mapping Seq',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100023
+             * line : 73224
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RefImageRealWorldValueMappingSeq extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RefImageRealWorldValueMappingSeq',
             'desc' => [
+                'en' => 'Ref Image Real World Value Mapping Seq',
             ],
         ],
     ];

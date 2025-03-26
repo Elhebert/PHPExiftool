@@ -28,13 +28,14 @@ class Paragraphs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Paragraphs',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DOP
-             * line : 124339
+             * line : 86872
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Paragraphs extends AbstractTagGroup
              */
             'id' => 'FlashPix::DOP.MS-DOC:Paragraphs',
             'desc' => [
+                'en' => 'Paragraphs',
             ],
         ],
     ];

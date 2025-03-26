@@ -28,13 +28,14 @@ class ICQ extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ICQ',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::Main
-             * line : 395251
+             * line : 279944
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ICQ extends AbstractTagGroup
              */
             'id' => 'VCard::Main.VCard:ICQ',
             'desc' => [
+                'en' => 'ICQ',
             ],
         ],
     ];

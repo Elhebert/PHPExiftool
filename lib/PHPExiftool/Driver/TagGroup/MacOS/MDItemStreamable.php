@@ -28,13 +28,14 @@ class MDItemStreamable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Streamable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172992
+             * line : 119038
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemStreamable extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemStreamable',
             'desc' => [
+                'en' => 'MD Item Streamable',
             ],
         ],
     ];

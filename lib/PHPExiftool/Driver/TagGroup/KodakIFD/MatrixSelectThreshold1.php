@@ -28,13 +28,14 @@ class MatrixSelectThreshold1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Matrix Select Threshold 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155388
+             * line : 106601
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MatrixSelectThreshold1 extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MatrixSelectThreshold1',
             'desc' => [
+                'en' => 'Matrix Select Threshold 1',
             ],
         ],
     ];

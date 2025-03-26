@@ -28,13 +28,14 @@ class MultiSelectorLiveViewMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Selector Live View Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD4S
-             * line : 206679
+             * line : 138999
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiSelectorLiveViewMode extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD4S.NikonCustom:MultiSelectorLiveViewMode',
             'desc' => [
+                'en' => 'Multi Selector Live View Mode',
             ],
         ],
     ];

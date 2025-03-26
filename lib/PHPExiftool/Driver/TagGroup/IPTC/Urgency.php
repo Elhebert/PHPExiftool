@@ -28,13 +28,14 @@ class Urgency extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Urgency',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149775
+             * line : 103804
              * type : digits
              * writable : true
              * count : 1
@@ -42,6 +43,7 @@ class Urgency extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:Urgency',
             'desc' => [
+                'en' => 'Urgency',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class SnoutSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Snout Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103765
+             * line : 76854
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SnoutSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SnoutSequence',
             'desc' => [
+                'en' => 'Snout Sequence',
             ],
         ],
     ];

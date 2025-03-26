@@ -28,13 +28,14 @@ class ColorAberrationControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Aberration Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCapture::Main
-             * line : 210443
+             * line : 141686
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorAberrationControl extends AbstractTagGroup
              */
             'id' => 'NikonCapture::Main.NikonCapture:ColorAberrationControl',
             'desc' => [
+                'en' => 'Color Aberration Control',
             ],
         ],
     ];

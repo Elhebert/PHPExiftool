@@ -28,13 +28,14 @@ class PictureEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 354224
+             * line : 246918
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureEffect extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:PictureEffect',
             'desc' => [
+                'en' => 'Picture Effect',
             ],
         ],
     ];

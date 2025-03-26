@@ -28,13 +28,14 @@ class FloatSlop extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Float Slop',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98258
+             * line : 71593
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FloatSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FloatSlop',
             'desc' => [
+                'en' => 'Float Slop',
             ],
         ],
         1 => [
             /**
              * table_name : DICOM::Main
-             * line : 98261
+             * line : 71596
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FloatSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FloatSlop',
             'desc' => [
+                'en' => 'Float Slop',
             ],
         ],
         2 => [
             /**
              * table_name : DICOM::Main
-             * line : 98264
+             * line : 71599
              * type : ?
              * writable : false
              * count :
@@ -68,12 +71,13 @@ class FloatSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FloatSlop',
             'desc' => [
+                'en' => 'Float Slop',
             ],
         ],
         3 => [
             /**
              * table_name : DICOM::Main
-             * line : 98267
+             * line : 71602
              * type : ?
              * writable : false
              * count :
@@ -81,12 +85,13 @@ class FloatSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FloatSlop',
             'desc' => [
+                'en' => 'Float Slop',
             ],
         ],
         4 => [
             /**
              * table_name : DICOM::Main
-             * line : 98270
+             * line : 71605
              * type : ?
              * writable : false
              * count :
@@ -94,6 +99,7 @@ class FloatSlop extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FloatSlop',
             'desc' => [
+                'en' => 'Float Slop',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LargestPixelValueInSeries extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Largest Pixel Value In Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98812
+             * line : 72084
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LargestPixelValueInSeries extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LargestPixelValueInSeries',
             'desc' => [
+                'en' => 'Largest Pixel Value In Series',
             ],
         ],
     ];

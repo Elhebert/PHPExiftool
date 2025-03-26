@@ -28,13 +28,14 @@ class MostRecentTreatmentDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Most Recent Treatment Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102753
+             * line : 75849
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MostRecentTreatmentDate extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MostRecentTreatmentDate',
             'desc' => [
+                'en' => 'Most Recent Treatment Date',
             ],
         ],
     ];

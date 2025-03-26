@@ -28,13 +28,14 @@ class SerialNumberFormat extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Serial Number Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::Main
-             * line : 79949
+             * line : 58389
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SerialNumberFormat extends AbstractTagGroup
              */
             'id' => 'CanonRaw::Main.CanonRaw:SerialNumberFormat',
             'desc' => [
+                'en' => 'Serial Number Format',
             ],
         ],
     ];

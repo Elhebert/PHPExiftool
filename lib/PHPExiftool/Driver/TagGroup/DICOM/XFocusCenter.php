@@ -28,13 +28,14 @@ class XFocusCenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'X Focus Center',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95915
+             * line : 69340
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class XFocusCenter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:XFocusCenter',
             'desc' => [
+                'en' => 'X Focus Center',
             ],
         ],
     ];

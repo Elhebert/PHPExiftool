@@ -28,13 +28,14 @@ class SourceHangingProtocolSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Source Hanging Protocol Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101441
+             * line : 74589
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SourceHangingProtocolSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SourceHangingProtocolSequence',
             'desc' => [
+                'en' => 'Source Hanging Protocol Sequence',
             ],
         ],
     ];

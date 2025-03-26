@@ -28,13 +28,14 @@ class ColorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164569
+             * line : 111829
              * type : int8u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ColorType extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:ColorType',
             'desc' => [
+                'en' => 'Color Type',
             ],
         ],
         1 => [
             /**
              * table_name : MNG::JNGHeader
-             * line : 164902
+             * line : 112072
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ColorType extends AbstractTagGroup
              */
             'id' => 'MNG::JNGHeader.MNG:ColorType',
             'desc' => [
+                'en' => 'Color Type',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PF14DisableFocusSearch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'PF14 Disable Focus Search',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::PersonalFuncs
-             * line : 78389
+             * line : 57090
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PF14DisableFocusSearch extends AbstractTagGroup
              */
             'id' => 'CanonCustom::PersonalFuncs.CanonCustom:PF14DisableFocusSearch',
             'desc' => [
+                'en' => 'PF14 Disable Focus Search',
             ],
         ],
     ];

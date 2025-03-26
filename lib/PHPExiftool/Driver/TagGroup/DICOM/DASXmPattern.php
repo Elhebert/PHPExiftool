@@ -28,13 +28,14 @@ class DASXmPattern extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DAS Xm Pattern',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100484
+             * line : 73656
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DASXmPattern extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DASXmPattern',
             'desc' => [
+                'en' => 'DAS Xm Pattern',
             ],
         ],
     ];

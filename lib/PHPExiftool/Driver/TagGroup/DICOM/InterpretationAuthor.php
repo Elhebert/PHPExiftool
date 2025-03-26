@@ -28,13 +28,14 @@ class InterpretationAuthor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Interpretation Author',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 104101
+             * line : 77187
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InterpretationAuthor extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:InterpretationAuthor',
             'desc' => [
+                'en' => 'Interpretation Author',
             ],
         ],
     ];

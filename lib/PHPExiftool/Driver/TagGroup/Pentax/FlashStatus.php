@@ -28,13 +28,14 @@ class FlashStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::FlashInfo
-             * line : 287896
+             * line : 199832
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashStatus extends AbstractTagGroup
              */
             'id' => 'Pentax::FlashInfo.Pentax:FlashStatus',
             'desc' => [
+                'en' => 'Flash Status',
             ],
         ],
     ];

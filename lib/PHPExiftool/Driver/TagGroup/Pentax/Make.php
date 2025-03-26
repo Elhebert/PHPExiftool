@@ -28,13 +28,14 @@ class Make extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Make',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Junk2
-             * line : 288327
+             * line : 200045
              * type : string
              * writable : false
              * count : 24
@@ -42,12 +43,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Pentax::Junk2.Pentax:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::MOV
-             * line : 294513
+             * line : 205932
              * type : string
              * writable : false
              * count : 24
@@ -55,12 +57,13 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Pentax::MOV.Pentax:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::PENT
-             * line : 300944
+             * line : 209716
              * type : string
              * writable : false
              * count : 24
@@ -68,6 +71,7 @@ class Make extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:Make',
             'desc' => [
+                'en' => 'Make',
             ],
         ],
     ];

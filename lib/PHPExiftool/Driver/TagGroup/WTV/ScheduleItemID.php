@@ -28,13 +28,14 @@ class ScheduleItemID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Schedule Item ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396394
+             * line : 280632
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScheduleItemID extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:ScheduleItemID',
             'desc' => [
+                'en' => 'Schedule Item ID',
             ],
         ],
     ];

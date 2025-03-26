@@ -28,13 +28,14 @@ class FocusStepNear extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Step Near',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::CameraIFD
-             * line : 279690
+             * line : 194261
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocusStepNear extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::CameraIFD.CameraIFD:FocusStepNear',
             'desc' => [
+                'en' => 'Focus Step Near',
             ],
         ],
     ];

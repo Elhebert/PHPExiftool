@@ -28,13 +28,14 @@ class JPEGQualityEstimate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JPEG Quality Estimate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121453
+             * line : 85202
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JPEGQualityEstimate extends AbstractTagGroup
              */
             'id' => 'Extra.File:JPEGQualityEstimate',
             'desc' => [
+                'en' => 'JPEG Quality Estimate',
             ],
         ],
     ];

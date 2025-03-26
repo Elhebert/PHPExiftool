@@ -28,13 +28,14 @@ class LookupTable extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lookup Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::NewsPhoto
-             * line : 151605
+             * line : 104506
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LookupTable extends AbstractTagGroup
              */
             'id' => 'IPTC::NewsPhoto.IPTC:LookupTable',
             'desc' => [
+                'en' => 'Lookup Table',
             ],
         ],
     ];

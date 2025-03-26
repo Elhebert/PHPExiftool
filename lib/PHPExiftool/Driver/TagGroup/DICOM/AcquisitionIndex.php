@@ -28,13 +28,14 @@ class AcquisitionIndex extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Acquisition Index',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98173
+             * line : 71518
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AcquisitionIndex extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AcquisitionIndex',
             'desc' => [
+                'en' => 'Acquisition Index',
             ],
         ],
     ];

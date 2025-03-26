@@ -28,13 +28,14 @@ class PrescanType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Prescan Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97777
+             * line : 71158
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrescanType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrescanType',
             'desc' => [
+                'en' => 'Prescan Type',
             ],
         ],
     ];

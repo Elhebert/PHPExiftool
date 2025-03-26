@@ -28,13 +28,14 @@ class AFDefocus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Defocus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::AFInfo
-             * line : 283461
+             * line : 196700
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFDefocus extends AbstractTagGroup
              */
             'id' => 'Pentax::AFInfo.Pentax:AFDefocus',
             'desc' => [
+                'en' => 'AF Defocus',
             ],
         ],
     ];

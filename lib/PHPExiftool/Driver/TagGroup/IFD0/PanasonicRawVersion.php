@@ -28,13 +28,14 @@ class PanasonicRawVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panasonic Raw Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280209
+             * line : 194519
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanasonicRawVersion extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:PanasonicRawVersion',
             'desc' => [
+                'en' => 'Panasonic Raw Version',
             ],
         ],
     ];

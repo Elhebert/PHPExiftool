@@ -28,13 +28,14 @@ class MagnetometerXYZ extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Magnetometer XYZ',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Mag360Fly
-             * line : 323731
+             * line : 228803
              * type : float
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class MagnetometerXYZ extends AbstractTagGroup
              */
             'id' => 'QuickTime::Mag360Fly.QuickTime:MagnetometerXYZ',
             'desc' => [
+                'en' => 'Magnetometer XYZ',
             ],
         ],
     ];

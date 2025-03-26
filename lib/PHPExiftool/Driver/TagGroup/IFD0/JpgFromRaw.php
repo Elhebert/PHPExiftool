@@ -28,13 +28,14 @@ class JpgFromRaw extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Jpg From Raw',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280475
+             * line : 194634
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class JpgFromRaw extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:JpgFromRaw',
             'desc' => [
+                'en' => 'Jpg From Raw',
             ],
         ],
     ];

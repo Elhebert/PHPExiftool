@@ -28,13 +28,14 @@ class Genre extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Genre',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328064
+             * line : 231463
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::Info
-             * line : 328249
+             * line : 231550
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Genre extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Genre',
             'desc' => [
+                'en' => 'Genre',
             ],
         ],
     ];

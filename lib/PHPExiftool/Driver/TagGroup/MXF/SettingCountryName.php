@@ -28,13 +28,14 @@ class SettingCountryName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Setting Country Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168470
+             * line : 114962
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SettingCountryName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingCountryName',
             'desc' => [
+                'en' => 'Setting Country Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170531
+             * line : 116772
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SettingCountryName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SettingCountryName',
             'desc' => [
+                'en' => 'Setting Country Name',
             ],
         ],
     ];

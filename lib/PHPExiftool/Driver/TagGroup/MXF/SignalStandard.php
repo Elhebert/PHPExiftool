@@ -28,13 +28,14 @@ class SignalStandard extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signal Standard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168621
+             * line : 115109
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SignalStandard extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SignalStandard',
             'desc' => [
+                'en' => 'Signal Standard',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171420
+             * line : 117622
              * type : int8u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class SignalStandard extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SignalStandard',
             'desc' => [
+                'en' => 'Signal Standard',
             ],
         ],
     ];

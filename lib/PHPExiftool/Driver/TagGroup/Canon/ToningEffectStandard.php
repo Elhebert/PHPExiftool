@@ -28,13 +28,14 @@ class ToningEffectStandard extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Toning Effect Standard',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67119
+             * line : 50937
              * type : int32s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ToningEffectStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ToningEffectStandard',
             'desc' => [
+                'en' => 'Toning Effect Standard',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68217
+             * line : 51598
              * type : int32s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ToningEffectStandard extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ToningEffectStandard',
             'desc' => [
+                'en' => 'Toning Effect Standard',
             ],
         ],
     ];

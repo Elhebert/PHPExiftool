@@ -28,13 +28,14 @@ class BulbDuration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Bulb Duration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::ShotInfo
-             * line : 70787
+             * line : 52847
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BulbDuration extends AbstractTagGroup
              */
             'id' => 'Canon::ShotInfo.Canon:BulbDuration',
             'desc' => [
+                'en' => 'Bulb Duration',
             ],
         ],
     ];

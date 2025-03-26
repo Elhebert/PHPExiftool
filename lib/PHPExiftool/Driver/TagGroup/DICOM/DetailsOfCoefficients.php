@@ -28,13 +28,14 @@ class DetailsOfCoefficients extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Details Of Coefficients',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98849
+             * line : 72120
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetailsOfCoefficients extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DetailsOfCoefficients',
             'desc' => [
+                'en' => 'Details Of Coefficients',
             ],
         ],
     ];

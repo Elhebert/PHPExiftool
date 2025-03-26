@@ -28,13 +28,14 @@ class TotalWedgeTrayWaterEquivThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Wedge Tray Water Equiv Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103206
+             * line : 76302
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalWedgeTrayWaterEquivThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalWedgeTrayWaterEquivThickness',
             'desc' => [
+                'en' => 'Total Wedge Tray Water Equiv Thickness',
             ],
         ],
     ];

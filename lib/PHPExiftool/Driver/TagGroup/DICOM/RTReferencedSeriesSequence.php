@@ -28,13 +28,14 @@ class RTReferencedSeriesSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Referenced Series Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102534
+             * line : 75633
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTReferencedSeriesSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTReferencedSeriesSequence',
             'desc' => [
+                'en' => 'RT Referenced Series Sequence',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PartNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Part Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123644
+             * line : 86445
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PartNumber extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:PartNumber',
             'desc' => [
+                'en' => 'Part Number',
             ],
         ],
     ];

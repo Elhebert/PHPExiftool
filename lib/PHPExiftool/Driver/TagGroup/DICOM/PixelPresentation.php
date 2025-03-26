@@ -28,13 +28,14 @@ class PixelPresentation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Presentation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95114
+             * line : 68596
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelPresentation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelPresentation',
             'desc' => [
+                'en' => 'Pixel Presentation',
             ],
         ],
     ];

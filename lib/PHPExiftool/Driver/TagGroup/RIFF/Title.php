@@ -28,13 +28,14 @@ class Title extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Title',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Info
-             * line : 328327
+             * line : 231586
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Title extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
         1 => [
             /**
              * table_name : RIFF::Info
-             * line : 328537
+             * line : 231684
              * type : string
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class Title extends AbstractTagGroup
              */
             'id' => 'RIFF::Info.RIFF:Title',
             'desc' => [
+                'en' => 'Title',
             ],
         ],
     ];

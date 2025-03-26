@@ -28,13 +28,14 @@ class FlashSyncMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash Sync Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::TextualInfo
-             * line : 159627
+             * line : 109458
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashSyncMode extends AbstractTagGroup
              */
             'id' => 'Kodak::TextualInfo.Kodak:FlashSyncMode',
             'desc' => [
+                'en' => 'Flash Sync Mode',
             ],
         ],
     ];

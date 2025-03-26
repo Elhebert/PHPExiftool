@@ -28,13 +28,14 @@ class SelfTimer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Self Timer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154969
+             * line : 106241
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SelfTimer extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SelfTimer',
             'desc' => [
+                'en' => 'Self Timer',
             ],
         ],
     ];

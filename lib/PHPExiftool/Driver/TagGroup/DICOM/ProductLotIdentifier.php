@@ -28,13 +28,14 @@ class ProductLotIdentifier extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Product Lot Identifier',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100531
+             * line : 73701
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ProductLotIdentifier extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ProductLotIdentifier',
             'desc' => [
+                'en' => 'Product Lot Identifier',
             ],
         ],
     ];

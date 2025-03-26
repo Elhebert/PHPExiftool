@@ -28,13 +28,14 @@ class MDItemHasAlphaChannel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item Has Alpha Channel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172824
+             * line : 118912
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemHasAlphaChannel extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemHasAlphaChannel',
             'desc' => [
+                'en' => 'MD Item Has Alpha Channel',
             ],
         ],
     ];

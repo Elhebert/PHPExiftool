@@ -28,13 +28,14 @@ class LameMethod extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lame Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Lame
-             * line : 165928
+             * line : 112827
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LameMethod extends AbstractTagGroup
              */
             'id' => 'MPEG::Lame.MPEG:LameMethod',
             'desc' => [
+                'en' => 'Lame Method',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PageExit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Exit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::equiv
-             * line : 142893
+             * line : 98682
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageExit extends AbstractTagGroup
              */
             'id' => 'HTML::equiv.HTTP-equiv:PageExit',
             'desc' => [
+                'en' => 'Page Exit',
             ],
         ],
     ];

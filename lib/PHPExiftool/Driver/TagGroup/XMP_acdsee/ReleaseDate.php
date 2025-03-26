@@ -28,13 +28,14 @@ class ReleaseDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397850
+             * line : 281619
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReleaseDate extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:ReleaseDate',
             'desc' => [
+                'en' => 'Release Date',
             ],
         ],
     ];

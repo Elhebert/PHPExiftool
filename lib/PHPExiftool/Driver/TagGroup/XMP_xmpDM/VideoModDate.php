@@ -28,13 +28,14 @@ class VideoModDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Video Mod Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413755
+             * line : 291792
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class VideoModDate extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:VideoModDate',
             'desc' => [
+                'en' => 'Video Mod Date',
             ],
         ],
     ];

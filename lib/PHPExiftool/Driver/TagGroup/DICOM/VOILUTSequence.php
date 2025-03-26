@@ -28,13 +28,14 @@ class VOILUTSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VOILUT Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99114
+             * line : 72333
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VOILUTSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VOILUTSequence',
             'desc' => [
+                'en' => 'VOILUT Sequence',
             ],
         ],
     ];

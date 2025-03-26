@@ -28,13 +28,14 @@ class VelocityEncodingMaximumValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Velocity Encoding Maximum Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96895
+             * line : 70297
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VelocityEncodingMaximumValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VelocityEncodingMaximumValue',
             'desc' => [
+                'en' => 'Velocity Encoding Maximum Value',
             ],
         ],
     ];

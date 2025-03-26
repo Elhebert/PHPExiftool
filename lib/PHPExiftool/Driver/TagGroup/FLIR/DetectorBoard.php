@@ -28,13 +28,14 @@ class DetectorBoard extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Detector Board',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::Parts
-             * line : 123617
+             * line : 86418
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DetectorBoard extends AbstractTagGroup
              */
             'id' => 'FLIR::Parts.FLIR:DetectorBoard',
             'desc' => [
+                'en' => 'Detector Board',
             ],
         ],
     ];

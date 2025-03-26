@@ -28,13 +28,14 @@ class SpecificationVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Specification Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoCD::Main
-             * line : 303680
+             * line : 210959
              * type : int8u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class SpecificationVersion extends AbstractTagGroup
              */
             'id' => 'PhotoCD::Main.PhotoCD:SpecificationVersion',
             'desc' => [
+                'en' => 'Specification Version',
             ],
         ],
     ];

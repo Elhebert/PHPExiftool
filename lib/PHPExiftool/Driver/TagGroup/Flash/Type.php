@@ -28,13 +28,14 @@ class Type extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Flash::CuePoint
-             * line : 123882
+             * line : 86633
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Type extends AbstractTagGroup
              */
             'id' => 'Flash::CuePoint.Flash:Type',
             'desc' => [
+                'en' => 'Type',
             ],
         ],
     ];

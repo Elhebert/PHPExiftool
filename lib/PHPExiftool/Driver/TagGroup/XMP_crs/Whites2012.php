@@ -28,13 +28,14 @@ class Whites2012 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Whites 2012',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404765
+             * line : 287658
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Whites2012 extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:Whites2012',
             'desc' => [
+                'en' => 'Whites 2012',
             ],
         ],
     ];

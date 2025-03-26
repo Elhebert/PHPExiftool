@@ -28,13 +28,14 @@ class AFRPossibleFrameCnt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AFR Possible Frame Cnt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306630
+             * line : 213128
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFRPossibleFrameCnt extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFRPossibleFrameCnt',
             'desc' => [
+                'en' => 'AFR Possible Frame Cnt',
             ],
         ],
     ];

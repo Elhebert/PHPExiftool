@@ -28,13 +28,14 @@ class LaceNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lace Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173360
+             * line : 119322
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LaceNumber extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:LaceNumber',
             'desc' => [
+                'en' => 'Lace Number',
             ],
         ],
     ];

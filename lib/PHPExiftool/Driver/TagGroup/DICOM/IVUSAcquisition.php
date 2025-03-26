@@ -28,13 +28,14 @@ class IVUSAcquisition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IVUS Acquisition',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96159
+             * line : 69577
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IVUSAcquisition extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:IVUSAcquisition',
             'desc' => [
+                'en' => 'IVUS Acquisition',
             ],
         ],
     ];

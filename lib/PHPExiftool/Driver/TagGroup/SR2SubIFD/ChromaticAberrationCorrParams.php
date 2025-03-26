@@ -28,13 +28,14 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Chromatic Aberration Corr Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::SR2SubIFD
-             * line : 361880
+             * line : 251967
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChromaticAberrationCorrParams extends AbstractTagGroup
              */
             'id' => 'Sony::SR2SubIFD.SR2SubIFD:ChromaticAberrationCorrParams',
             'desc' => [
+                'en' => 'Chromatic Aberration Corr Params',
             ],
         ],
     ];

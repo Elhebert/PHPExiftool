@@ -28,13 +28,14 @@ class QualityButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239776
+             * line : 162852
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class QualityButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:QualityButton',
             'desc' => [
+                'en' => 'Quality Button',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InitialKey extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Initial Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1330
+             * line : 589
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class InitialKey extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:InitialKey',
             'desc' => [
+                'en' => 'Initial Key',
             ],
         ],
     ];

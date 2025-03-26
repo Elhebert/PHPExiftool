@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Samsung::MP4
-             * line : 333955
+             * line : 234135
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Samsung::MP4.Samsung:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         1 => [
             /**
              * table_name : Samsung::Type2
-             * line : 335504
+             * line : 235445
              * type : rational64u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Samsung::Type2.Samsung:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

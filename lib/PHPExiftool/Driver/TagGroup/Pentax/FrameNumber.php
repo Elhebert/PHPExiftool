@@ -28,13 +28,14 @@ class FrameNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 298733
+             * line : 208449
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FrameNumber',
             'desc' => [
+                'en' => 'Frame Number',
             ],
         ],
     ];

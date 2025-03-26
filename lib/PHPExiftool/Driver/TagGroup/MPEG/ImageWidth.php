@@ -28,13 +28,14 @@ class ImageWidth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPEG::Video
-             * line : 166013
+             * line : 112892
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageWidth extends AbstractTagGroup
              */
             'id' => 'MPEG::Video.MPEG:ImageWidth',
             'desc' => [
+                'en' => 'Image Width',
             ],
         ],
     ];

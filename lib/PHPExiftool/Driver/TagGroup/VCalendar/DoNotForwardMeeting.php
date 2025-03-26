@@ -28,13 +28,14 @@ class DoNotForwardMeeting extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Do Not Forward Meeting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : VCard::VCalendar
-             * line : 395634
+             * line : 280153
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DoNotForwardMeeting extends AbstractTagGroup
              */
             'id' => 'VCard::VCalendar.VCalendar:DoNotForwardMeeting',
             'desc' => [
+                'en' => 'Do Not Forward Meeting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TagThickness extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tag Thickness',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96596
+             * line : 70000
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TagThickness extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TagThickness',
             'desc' => [
+                'en' => 'Tag Thickness',
             ],
         ],
     ];

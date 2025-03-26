@@ -28,13 +28,14 @@ class ExposureTime extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Exposure Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177371
+             * line : 121908
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178902
+             * line : 122484
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179974
+             * line : 122844
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180277
+             * line : 122957
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         4 => [
             /**
              * table_name : Minolta::MOV1
-             * line : 182581
+             * line : 124252
              * type : int32u
              * writable : false
              * count :
@@ -94,12 +99,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Minolta::MOV1.Minolta:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         5 => [
             /**
              * table_name : Minolta::MOV2
-             * line : 182678
+             * line : 124274
              * type : int32u
              * writable : false
              * count :
@@ -107,12 +113,13 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Minolta::MOV2.Minolta:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
         6 => [
             /**
              * table_name : Minolta::WBInfoA100
-             * line : 185661
+             * line : 125943
              * type : int8u
              * writable : true
              * count :
@@ -120,6 +127,7 @@ class ExposureTime extends AbstractTagGroup
              */
             'id' => 'Minolta::WBInfoA100.Minolta:ExposureTime',
             'desc' => [
+                'en' => 'Exposure Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TimeZone extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Zone',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201789
+             * line : 136677
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class TimeZone extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:TimeZone',
             'desc' => [
+                'en' => 'Time Zone',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 202223
+             * line : 136926
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class TimeZone extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:TimeZone',
             'desc' => [
+                'en' => 'Time Zone',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::WorldTime
-             * line : 209645
+             * line : 141368
              * type : int16s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class TimeZone extends AbstractTagGroup
              */
             'id' => 'Nikon::WorldTime.Nikon:TimeZone',
             'desc' => [
+                'en' => 'Time Zone',
             ],
         ],
     ];

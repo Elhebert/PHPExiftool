@@ -28,13 +28,14 @@ class Brain extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Brain',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331560
+             * line : 233073
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Brain extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:Brain',
             'desc' => [
+                'en' => 'Brain',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class AltitudeFromTakeOff extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Altitude From Take Off',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Parrot::V1
-             * line : 282154
+             * line : 195952
              * type : int32s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AltitudeFromTakeOff extends AbstractTagGroup
              */
             'id' => 'Parrot::V1.Parrot:AltitudeFromTakeOff',
             'desc' => [
+                'en' => 'Altitude From Take Off',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InternalSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Internal Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379288
+             * line : 266112
              * type : int8u
              * writable : false
              * count : 4
@@ -42,12 +43,13 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag9050a
-             * line : 379296
+             * line : 266115
              * type : int8u
              * writable : true
              * count : 5
@@ -55,12 +57,13 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050a.Sony:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag9050b
-             * line : 381664
+             * line : 268450
              * type : int8u
              * writable : false
              * count : 6
@@ -68,12 +71,13 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050b.Sony:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag9050c
-             * line : 383928
+             * line : 270681
              * type : int8u
              * writable : false
              * count : 6
@@ -81,12 +85,13 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050c.Sony:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag9050c
-             * line : 383936
+             * line : 270684
              * type : int8u
              * writable : false
              * count : 6
@@ -94,6 +99,7 @@ class InternalSerialNumber extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9050c.Sony:InternalSerialNumber',
             'desc' => [
+                'en' => 'Internal Serial Number',
             ],
         ],
     ];

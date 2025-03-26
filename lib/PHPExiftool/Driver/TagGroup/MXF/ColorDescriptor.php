@@ -28,13 +28,14 @@ class ColorDescriptor extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Descriptor',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167705
+             * line : 114284
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ColorDescriptor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ColorDescriptor',
             'desc' => [
+                'en' => 'Color Descriptor',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170190
+             * line : 116469
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ColorDescriptor extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ColorDescriptor',
             'desc' => [
+                'en' => 'Color Descriptor',
             ],
         ],
     ];

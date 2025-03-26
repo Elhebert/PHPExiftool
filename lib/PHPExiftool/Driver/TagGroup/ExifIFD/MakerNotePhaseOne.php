@@ -28,13 +28,14 @@ class MakerNotePhaseOne extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Phase One',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 105111
+             * line : 77930
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNotePhaseOne extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNotePhaseOne',
             'desc' => [
+                'en' => 'Maker Note Phase One',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116072
+             * line : 83223
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNotePhaseOne extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNotePhaseOne',
             'desc' => [
+                'en' => 'Maker Note Phase One',
             ],
         ],
     ];

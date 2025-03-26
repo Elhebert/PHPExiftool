@@ -28,13 +28,14 @@ class FragmentList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fragment List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::Main
-             * line : 154206
+             * line : 105882
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FragmentList extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::Main.Jpeg2000:FragmentList',
             'desc' => [
+                'en' => 'Fragment List',
             ],
         ],
     ];

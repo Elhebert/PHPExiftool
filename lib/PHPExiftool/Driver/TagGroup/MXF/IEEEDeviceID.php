@@ -28,13 +28,14 @@ class IEEEDeviceID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'IEEE Device ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168787
+             * line : 115262
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IEEEDeviceID extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IEEEDeviceID',
             'desc' => [
+                'en' => 'IEEE Device ID',
             ],
         ],
     ];

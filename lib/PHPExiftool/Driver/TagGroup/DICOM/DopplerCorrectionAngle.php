@@ -28,13 +28,14 @@ class DopplerCorrectionAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Doppler Correction Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96307
+             * line : 69715
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DopplerCorrectionAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DopplerCorrectionAngle',
             'desc' => [
+                'en' => 'Doppler Correction Angle',
             ],
         ],
     ];

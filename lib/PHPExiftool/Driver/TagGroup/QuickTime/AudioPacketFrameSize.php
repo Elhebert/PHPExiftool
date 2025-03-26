@@ -28,13 +28,14 @@ class AudioPacketFrameSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Packet Frame Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312682
+             * line : 218554
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioPacketFrameSize extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioPacketFrameSize',
             'desc' => [
+                'en' => 'Audio Packet Frame Size',
             ],
         ],
     ];

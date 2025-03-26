@@ -28,13 +28,14 @@ class JUMDSignature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'JUMD Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::JUMD
-             * line : 154118
+             * line : 105813
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class JUMDSignature extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::JUMD.JUMBF:JUMDSignature',
             'desc' => [
+                'en' => 'JUMD Signature',
             ],
         ],
     ];

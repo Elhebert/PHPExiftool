@@ -28,13 +28,14 @@ class Subtitle extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Subtitle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411139
+             * line : 290341
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Subtitle extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:Subtitle',
             'desc' => [
+                'en' => 'Subtitle',
             ],
         ],
     ];

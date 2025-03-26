@@ -28,13 +28,14 @@ class MeasurementOrFact extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Measurement Or Fact',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106449
+             * line : 78734
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MeasurementOrFact extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:MeasurementOrFact',
             'desc' => [
+                'en' => 'Measurement Or Fact',
             ],
         ],
     ];

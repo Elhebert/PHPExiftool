@@ -28,13 +28,14 @@ class LowerRangeOfPixels1c extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lower Range Of Pixels 1c',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99258
+             * line : 72477
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LowerRangeOfPixels1c extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:LowerRangeOfPixels1c',
             'desc' => [
+                'en' => 'Lower Range Of Pixels 1c',
             ],
         ],
     ];

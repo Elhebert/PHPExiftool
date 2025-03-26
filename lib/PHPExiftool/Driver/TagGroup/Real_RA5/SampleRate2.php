@@ -28,13 +28,14 @@ class SampleRate2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sample Rate 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Real::AudioV5
-             * line : 330069
+             * line : 232342
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SampleRate2 extends AbstractTagGroup
              */
             'id' => 'Real::AudioV5.Real-RA5:SampleRate2',
             'desc' => [
+                'en' => 'Sample Rate 2',
             ],
         ],
     ];

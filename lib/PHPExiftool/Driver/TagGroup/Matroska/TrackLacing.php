@@ -28,13 +28,14 @@ class TrackLacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Track Lacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Matroska::Main
-             * line : 173245
+             * line : 119244
              * type : unsigned
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TrackLacing extends AbstractTagGroup
              */
             'id' => 'Matroska::Main.Matroska:TrackLacing',
             'desc' => [
+                'en' => 'Track Lacing',
             ],
         ],
     ];

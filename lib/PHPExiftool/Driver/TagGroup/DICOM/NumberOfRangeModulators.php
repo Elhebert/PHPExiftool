@@ -28,13 +28,14 @@ class NumberOfRangeModulators extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Range Modulators',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103813
+             * line : 76902
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfRangeModulators extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfRangeModulators',
             'desc' => [
+                'en' => 'Number Of Range Modulators',
             ],
         ],
     ];

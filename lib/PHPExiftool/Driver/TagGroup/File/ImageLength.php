@@ -28,13 +28,14 @@ class ImageLength extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : BMP::Main
-             * line : 3314
+             * line : 2056
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ImageLength extends AbstractTagGroup
              */
             'id' => 'BMP::Main.File:ImageLength',
             'desc' => [
+                'en' => 'Image Length',
             ],
         ],
         1 => [
             /**
              * table_name : BPG::Main
-             * line : 3728
+             * line : 2277
              * type : var_ue7
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ImageLength extends AbstractTagGroup
              */
             'id' => 'BPG::Main.File:ImageLength',
             'desc' => [
+                'en' => 'Image Length',
             ],
         ],
     ];

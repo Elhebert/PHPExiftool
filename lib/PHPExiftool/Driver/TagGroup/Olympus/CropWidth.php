@@ -28,13 +28,14 @@ class CropWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255361
+             * line : 176227
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CropWidth extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:CropWidth',
             'desc' => [
+                'en' => 'Crop Width',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260983
+             * line : 180246
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class CropWidth extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CropWidth',
             'desc' => [
+                'en' => 'Crop Width',
             ],
         ],
     ];

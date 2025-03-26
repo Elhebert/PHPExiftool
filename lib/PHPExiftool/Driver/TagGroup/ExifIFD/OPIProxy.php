@@ -28,13 +28,14 @@ class OPIProxy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'OPI Proxy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112057
+             * line : 81869
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OPIProxy extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OPIProxy',
             'desc' => [
+                'en' => 'OPI Proxy',
             ],
         ],
     ];

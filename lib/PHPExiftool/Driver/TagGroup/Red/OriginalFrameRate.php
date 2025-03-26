@@ -28,13 +28,14 @@ class OriginalFrameRate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Original Frame Rate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331592
+             * line : 233085
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OriginalFrameRate extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:OriginalFrameRate',
             'desc' => [
+                'en' => 'Original Frame Rate',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class HDMIOutputRange extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'HDMI Output Range',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 244897
+             * line : 167656
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HDMIOutputRange extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:HDMIOutputRange',
             'desc' => [
+                'en' => 'HDMI Output Range',
             ],
         ],
     ];

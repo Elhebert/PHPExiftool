@@ -28,13 +28,14 @@ class DataLen extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Data Len',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Sharpness
-             * line : 162075
+             * line : 110755
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DataLen extends AbstractTagGroup
              */
             'id' => 'Leaf::Sharpness.Leaf:DataLen',
             'desc' => [
+                'en' => 'Data Len',
             ],
         ],
     ];

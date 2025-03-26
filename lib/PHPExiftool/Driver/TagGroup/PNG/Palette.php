@@ -28,13 +28,14 @@ class Palette extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Palette',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272526
+             * line : 190364
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Palette extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:Palette',
             'desc' => [
+                'en' => 'Palette',
             ],
         ],
     ];

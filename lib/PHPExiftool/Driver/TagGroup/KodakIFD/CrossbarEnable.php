@@ -28,13 +28,14 @@ class CrossbarEnable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Crossbar Enable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157314
+             * line : 108506
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CrossbarEnable extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:CrossbarEnable',
             'desc' => [
+                'en' => 'Crossbar Enable',
             ],
         ],
     ];

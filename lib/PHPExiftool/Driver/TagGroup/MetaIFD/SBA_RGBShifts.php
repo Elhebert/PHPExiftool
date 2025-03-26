@@ -28,13 +28,14 @@ class SBA_RGBShifts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SBA RGB Shifts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Meta
-             * line : 158446
+             * line : 108931
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SBA_RGBShifts extends AbstractTagGroup
              */
             'id' => 'Kodak::Meta.MetaIFD:SBA_RGBShifts',
             'desc' => [
+                'en' => 'SBA RGB Shifts',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LensE_mountVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens E-mount Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 351445
+             * line : 245362
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class LensE_mountVersion extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:LensE-mountVersion',
             'desc' => [
+                'en' => 'Lens E-mount Version',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag940c
-             * line : 391004
+             * line : 276743
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class LensE_mountVersion extends AbstractTagGroup
              */
             'id' => 'Sony::Tag940c.Sony:LensE-mountVersion',
             'desc' => [
+                'en' => 'Lens E-mount Version',
             ],
         ],
     ];

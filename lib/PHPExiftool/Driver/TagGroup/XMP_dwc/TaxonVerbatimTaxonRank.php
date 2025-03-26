@@ -28,13 +28,14 @@ class TaxonVerbatimTaxonRank extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Taxon Verbatim Taxon Rank',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106842
+             * line : 79028
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TaxonVerbatimTaxonRank extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:TaxonVerbatimTaxonRank',
             'desc' => [
+                'en' => 'Taxon Verbatim Taxon Rank',
             ],
         ],
     ];

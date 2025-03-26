@@ -28,13 +28,14 @@ class Formatter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Formatter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : HTML::Main
-             * line : 142401
+             * line : 98481
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Formatter extends AbstractTagGroup
              */
             'id' => 'HTML::Main.HTML:Formatter',
             'desc' => [
+                'en' => 'Formatter',
             ],
         ],
     ];

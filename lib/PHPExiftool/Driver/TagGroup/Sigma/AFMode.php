@@ -28,13 +28,14 @@ class AFMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337000
+             * line : 236002
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFMode extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:AFMode',
             'desc' => [
+                'en' => 'AF Mode',
             ],
         ],
     ];

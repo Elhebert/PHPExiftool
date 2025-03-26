@@ -28,13 +28,14 @@ class AFPoint extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Point',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 337526
+             * line : 236138
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFPoint extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:AFPoint',
             'desc' => [
+                'en' => 'AF Point',
             ],
         ],
     ];

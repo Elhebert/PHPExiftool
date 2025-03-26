@@ -28,13 +28,14 @@ class GPSSpeed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Speed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GPS5
-             * line : 139958
+             * line : 97852
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSSpeed extends AbstractTagGroup
              */
             'id' => 'GoPro::GPS5.GoPro:GPSSpeed',
             'desc' => [
+                'en' => 'GPS Speed',
             ],
         ],
     ];

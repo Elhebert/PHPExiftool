@@ -28,13 +28,14 @@ class StartTimeRelativeToReference extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Start Time Relative To Reference',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168543
+             * line : 115034
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class StartTimeRelativeToReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StartTimeRelativeToReference',
             'desc' => [
+                'en' => 'Start Time Relative To Reference',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 169674
+             * line : 116064
              * type : int64s
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class StartTimeRelativeToReference extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:StartTimeRelativeToReference',
             'desc' => [
+                'en' => 'Start Time Relative To Reference',
             ],
         ],
     ];

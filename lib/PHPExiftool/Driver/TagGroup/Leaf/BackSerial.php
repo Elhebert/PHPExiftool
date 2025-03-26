@@ -28,13 +28,14 @@ class BackSerial extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Back Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::Main
-             * line : 161896
+             * line : 110607
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BackSerial extends AbstractTagGroup
              */
             'id' => 'Leaf::Main.Leaf:BackSerial',
             'desc' => [
+                'en' => 'Back Serial Number',
             ],
         ],
     ];

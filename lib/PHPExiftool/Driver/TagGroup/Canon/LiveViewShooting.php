@@ -28,13 +28,14 @@ class LiveViewShooting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Live View Shooting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FileInfo
-             * line : 63769
+             * line : 48422
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LiveViewShooting extends AbstractTagGroup
              */
             'id' => 'Canon::FileInfo.Canon:LiveViewShooting',
             'desc' => [
+                'en' => 'Live View Shooting',
             ],
         ],
     ];

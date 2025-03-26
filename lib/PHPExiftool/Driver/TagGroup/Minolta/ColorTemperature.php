@@ -28,13 +28,14 @@ class ColorTemperature extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178944
+             * line : 122493
              * type : int16s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 179095
+             * line : 122533
              * type : int16s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179878
+             * line : 122821
              * type : int16s
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181457
+             * line : 123454
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         4 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182441
+             * line : 124194
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
         5 => [
             /**
              * table_name : Minolta::Main
-             * line : 183849
+             * line : 124661
              * type : int32u
              * writable : true
              * count :
@@ -107,6 +113,7 @@ class ColorTemperature extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:ColorTemperature',
             'desc' => [
+                'en' => 'Color Temperature',
             ],
         ],
     ];

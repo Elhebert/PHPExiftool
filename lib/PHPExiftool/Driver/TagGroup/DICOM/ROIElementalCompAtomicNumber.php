@@ -28,13 +28,14 @@ class ROIElementalCompAtomicNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ROI Elemental Comp Atomic Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102642
+             * line : 75738
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ROIElementalCompAtomicNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ROIElementalCompAtomicNumber',
             'desc' => [
+                'en' => 'ROI Elemental Comp Atomic Number',
             ],
         ],
     ];

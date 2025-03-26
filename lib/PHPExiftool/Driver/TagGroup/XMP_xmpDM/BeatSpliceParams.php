@@ -28,13 +28,14 @@ class BeatSpliceParams extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Beat Splice Params',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 412951
+             * line : 291118
              * type : struct
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BeatSpliceParams extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:BeatSpliceParams',
             'desc' => [
+                'en' => 'Beat Splice Params',
             ],
         ],
     ];

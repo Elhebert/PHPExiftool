@@ -28,13 +28,14 @@ class LCDStepYvaluesMarvin extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'LCD Step Yvalues Marvin',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156801
+             * line : 108005
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LCDStepYvaluesMarvin extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:LCDStepYvaluesMarvin',
             'desc' => [
+                'en' => 'LCD Step Yvalues Marvin',
             ],
         ],
     ];

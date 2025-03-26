@@ -28,13 +28,14 @@ class LongExposureNoiseReduction extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Long Exposure Noise Reduction',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::LightingOpt
-             * line : 64288
+             * line : 48777
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LongExposureNoiseReduction extends AbstractTagGroup
              */
             'id' => 'Canon::LightingOpt.Canon:LongExposureNoiseReduction',
             'desc' => [
+                'en' => 'Long Exposure Noise Reduction',
             ],
         ],
     ];

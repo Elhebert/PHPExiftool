@@ -28,13 +28,14 @@ class FlashIntensity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Intensity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::Main
-             * line : 84382
+             * line : 61688
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashIntensity extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:FlashIntensity',
             'desc' => [
+                'en' => 'Flash Intensity',
             ],
         ],
         1 => [
             /**
              * table_name : Casio::Main
-             * line : 85151
+             * line : 61940
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class FlashIntensity extends AbstractTagGroup
              */
             'id' => 'Casio::Main.Casio:FlashIntensity',
             'desc' => [
+                'en' => 'Flash Intensity',
             ],
         ],
     ];

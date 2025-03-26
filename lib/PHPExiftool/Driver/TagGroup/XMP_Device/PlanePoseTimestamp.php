@@ -28,13 +28,14 @@ class PlanePoseTimestamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Plane Pose Timestamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396761
+             * line : 280976
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlanePoseTimestamp extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:PlanePoseTimestamp',
             'desc' => [
+                'en' => 'Plane Pose Timestamp',
             ],
         ],
     ];

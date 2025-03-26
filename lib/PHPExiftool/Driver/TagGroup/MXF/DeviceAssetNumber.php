@@ -28,13 +28,14 @@ class DeviceAssetNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Asset Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170983
+             * line : 117210
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceAssetNumber extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceAssetNumber',
             'desc' => [
+                'en' => 'Device Asset Number',
             ],
         ],
     ];

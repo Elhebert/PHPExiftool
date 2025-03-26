@@ -28,13 +28,14 @@ class FocalPlaneColorimetryEstimates extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focal Plane Colorimetry Estimates',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146370
+             * line : 101760
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocalPlaneColorimetryEstimates extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:FocalPlaneColorimetryEstimates',
             'desc' => [
+                'en' => 'Focal Plane Colorimetry Estimates',
             ],
         ],
     ];

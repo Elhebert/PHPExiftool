@@ -28,13 +28,14 @@ class OceApplicationSelector extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Oce Application Selector',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 118731
+             * line : 84024
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class OceApplicationSelector extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:OceApplicationSelector',
             'desc' => [
+                'en' => 'Oce Application Selector',
             ],
         ],
     ];

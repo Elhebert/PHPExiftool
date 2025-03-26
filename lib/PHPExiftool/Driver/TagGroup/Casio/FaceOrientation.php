@@ -28,13 +28,14 @@ class FaceOrientation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Orientation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Casio::FaceInfo2
-             * line : 83958
+             * line : 61534
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FaceOrientation extends AbstractTagGroup
              */
             'id' => 'Casio::FaceInfo2.Casio:FaceOrientation',
             'desc' => [
+                'en' => 'Face Orientation',
             ],
         ],
     ];

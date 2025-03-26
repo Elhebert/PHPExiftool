@@ -28,13 +28,14 @@ class TimeOfLastCalibration extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Time Of Last Calibration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95936
+             * line : 69361
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TimeOfLastCalibration extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TimeOfLastCalibration',
             'desc' => [
+                'en' => 'Time Of Last Calibration',
             ],
         ],
     ];

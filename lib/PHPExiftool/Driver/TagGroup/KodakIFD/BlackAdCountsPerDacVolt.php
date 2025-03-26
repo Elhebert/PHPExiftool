@@ -28,13 +28,14 @@ class BlackAdCountsPerDacVolt extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Black Ad Counts Per Dac Volt',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155099
+             * line : 106349
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlackAdCountsPerDacVolt extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:BlackAdCountsPerDacVolt',
             'desc' => [
+                'en' => 'Black Ad Counts Per Dac Volt',
             ],
         ],
     ];

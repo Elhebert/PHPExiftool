@@ -28,13 +28,14 @@ class VerticalScale extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vertical Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::VP8
-             * line : 328997
+             * line : 231959
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VerticalScale extends AbstractTagGroup
              */
             'id' => 'RIFF::VP8.RIFF:VerticalScale',
             'desc' => [
+                'en' => 'Vertical Scale',
             ],
         ],
     ];

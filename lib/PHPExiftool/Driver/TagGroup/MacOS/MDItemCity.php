@@ -28,13 +28,14 @@ class MDItemCity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MD Item City',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MacOS::MDItem
-             * line : 172592
+             * line : 118739
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MDItemCity extends AbstractTagGroup
              */
             'id' => 'MacOS::MDItem.MacOS:MDItemCity',
             'desc' => [
+                'en' => 'MD Item City',
             ],
         ],
     ];

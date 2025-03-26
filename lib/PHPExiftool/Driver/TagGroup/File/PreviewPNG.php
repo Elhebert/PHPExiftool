@@ -28,13 +28,14 @@ class PreviewPNG extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Preview PNG',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121506
+             * line : 85229
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PreviewPNG extends AbstractTagGroup
              */
             'id' => 'Extra.File:PreviewPNG',
             'desc' => [
+                'en' => 'Preview PNG',
             ],
         ],
     ];

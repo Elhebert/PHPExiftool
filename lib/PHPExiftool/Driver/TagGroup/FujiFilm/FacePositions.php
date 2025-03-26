@@ -28,13 +28,14 @@ class FacePositions extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Face Positions',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FujiFilm::Main
-             * line : 130965
+             * line : 90457
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FacePositions extends AbstractTagGroup
              */
             'id' => 'FujiFilm::Main.FujiFilm:FacePositions',
             'desc' => [
+                'en' => 'Face Positions',
             ],
         ],
     ];

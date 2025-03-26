@@ -28,13 +28,14 @@ class OECFRows extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'OECF Rows',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407674
+             * line : 288383
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OECFRows extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:OECFRows',
             'desc' => [
+                'en' => 'OECF Rows',
             ],
         ],
     ];

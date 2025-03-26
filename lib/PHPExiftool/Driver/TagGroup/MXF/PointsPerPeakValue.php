@@ -28,13 +28,14 @@ class PointsPerPeakValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Points Per Peak Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171923
+             * line : 118108
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PointsPerPeakValue extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PointsPerPeakValue',
             'desc' => [
+                'en' => 'Points Per Peak Value',
             ],
         ],
     ];

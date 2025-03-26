@@ -28,13 +28,14 @@ class AuthorizationEquipmentCertNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Authorization Equipment Cert Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101883
+             * line : 75024
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AuthorizationEquipmentCertNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AuthorizationEquipmentCertNumber',
             'desc' => [
+                'en' => 'Authorization Equipment Cert Number',
             ],
         ],
     ];

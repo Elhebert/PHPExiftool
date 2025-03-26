@@ -28,13 +28,14 @@ class GainDeadMapImage extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Gain Dead Map Image',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FLIR::GainDeadData
-             * line : 123195
+             * line : 86021
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GainDeadMapImage extends AbstractTagGroup
              */
             'id' => 'FLIR::GainDeadData.FLIR:GainDeadMapImage',
             'desc' => [
+                'en' => 'Gain Dead Map Image',
             ],
         ],
     ];

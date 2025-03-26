@@ -28,13 +28,14 @@ class WB_RGBLevels extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB RGB Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010a
-             * line : 362891
+             * line : 252637
              * type : int16u
              * writable : true
              * count : 3
@@ -42,12 +43,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010a.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010b
-             * line : 363889
+             * line : 253299
              * type : int16u
              * writable : true
              * count : 3
@@ -55,12 +57,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010b.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010c
-             * line : 364912
+             * line : 253970
              * type : int16u
              * writable : true
              * count : 3
@@ -68,12 +71,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010c.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010d
-             * line : 365878
+             * line : 254618
              * type : int16u
              * writable : true
              * count : 3
@@ -81,12 +85,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010d.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366897
+             * line : 255286
              * type : int16u
              * writable : true
              * count : 3
@@ -94,12 +99,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369904
+             * line : 257916
              * type : int16u
              * writable : true
              * count : 3
@@ -107,12 +113,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370934
+             * line : 258581
              * type : int16u
              * writable : true
              * count : 3
@@ -120,12 +127,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373935
+             * line : 261205
              * type : int16u
              * writable : true
              * count : 3
@@ -133,12 +141,13 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376936
+             * line : 263829
              * type : int16u
              * writable : true
              * count : 3
@@ -146,6 +155,7 @@ class WB_RGBLevels extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:WB_RGBLevels',
             'desc' => [
+                'en' => 'WB RGB Levels',
             ],
         ],
     ];

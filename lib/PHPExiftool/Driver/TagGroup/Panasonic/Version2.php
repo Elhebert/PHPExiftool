@@ -28,13 +28,14 @@ class Version2 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Version 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::PANA
-             * line : 278777
+             * line : 193822
              * type : string
              * writable : false
              * count : 14
@@ -42,6 +43,7 @@ class Version2 extends AbstractTagGroup
              */
             'id' => 'Panasonic::PANA.Panasonic:Version2',
             'desc' => [
+                'en' => 'Version 2',
             ],
         ],
     ];

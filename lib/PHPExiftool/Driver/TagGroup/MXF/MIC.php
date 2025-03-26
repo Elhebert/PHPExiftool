@@ -28,13 +28,14 @@ class MIC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MIC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172045
+             * line : 118219
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MIC extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:MIC',
             'desc' => [
+                'en' => 'MIC',
             ],
         ],
     ];

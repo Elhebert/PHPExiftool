@@ -28,13 +28,14 @@ class FNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'F Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Junk2
-             * line : 288363
+             * line : 200051
              * type : rational64u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::Junk2.Pentax:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::MOV
-             * line : 294549
+             * line : 205938
              * type : rational64u
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::MOV.Pentax:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::Main
-             * line : 297084
+             * line : 207465
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
         3 => [
             /**
              * table_name : Pentax::PENT
-             * line : 300998
+             * line : 209725
              * type : rational64u
              * writable : false
              * count :
@@ -81,6 +85,7 @@ class FNumber extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.Pentax:FNumber',
             'desc' => [
+                'en' => 'F Number',
             ],
         ],
     ];

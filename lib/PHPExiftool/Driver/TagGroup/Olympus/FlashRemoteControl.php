@@ -28,13 +28,14 @@ class FlashRemoteControl extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Remote Control',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::CameraSettings
-             * line : 250926
+             * line : 173088
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashRemoteControl extends AbstractTagGroup
              */
             'id' => 'Olympus::CameraSettings.Olympus:FlashRemoteControl',
             'desc' => [
+                'en' => 'Flash Remote Control',
             ],
         ],
     ];

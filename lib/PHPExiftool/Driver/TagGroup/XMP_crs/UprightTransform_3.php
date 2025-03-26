@@ -28,13 +28,14 @@ class UprightTransform_3 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Upright Transform 3',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 404566
+             * line : 287593
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UprightTransform_3 extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:UprightTransform_3',
             'desc' => [
+                'en' => 'Upright Transform 3',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UserRating extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Rating',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325697
+             * line : 229796
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UserRating extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:UserRating',
             'desc' => [
+                'en' => 'User Rating',
             ],
         ],
     ];

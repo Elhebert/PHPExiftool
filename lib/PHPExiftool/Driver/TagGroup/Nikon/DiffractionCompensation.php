@@ -28,13 +28,14 @@ class DiffractionCompensation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Diffraction Compensation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199778
+             * line : 134782
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class DiffractionCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:DiffractionCompensation',
             'desc' => [
+                'en' => 'Diffraction Compensation',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 200854
+             * line : 135791
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class DiffractionCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:DiffractionCompensation',
             'desc' => [
+                'en' => 'Diffraction Compensation',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 207995
+             * line : 140129
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class DiffractionCompensation extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:DiffractionCompensation',
             'desc' => [
+                'en' => 'Diffraction Compensation',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ScriptingKind extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Scripting Kind',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171140
+             * line : 117360
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ScriptingKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ScriptingKind',
             'desc' => [
+                'en' => 'Scripting Kind',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171143
+             * line : 117363
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ScriptingKind extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ScriptingKind',
             'desc' => [
+                'en' => 'Scripting Kind',
             ],
         ],
     ];

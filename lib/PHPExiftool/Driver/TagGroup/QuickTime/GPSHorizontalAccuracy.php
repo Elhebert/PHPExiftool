@@ -28,13 +28,14 @@ class GPSHorizontalAccuracy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Horizontal Accuracy',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::camm6
-             * line : 326531
+             * line : 230299
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GPSHorizontalAccuracy extends AbstractTagGroup
              */
             'id' => 'QuickTime::camm6.QuickTime:GPSHorizontalAccuracy',
             'desc' => [
+                'en' => 'GPS Horizontal Accuracy',
             ],
         ],
     ];

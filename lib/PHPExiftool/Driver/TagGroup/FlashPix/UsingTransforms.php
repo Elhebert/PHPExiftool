@@ -28,13 +28,14 @@ class UsingTransforms extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Using Transforms',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DataObject
-             * line : 124388
+             * line : 86912
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UsingTransforms extends AbstractTagGroup
              */
             'id' => 'FlashPix::DataObject.FlashPix:UsingTransforms',
             'desc' => [
+                'en' => 'Using Transforms',
             ],
         ],
     ];

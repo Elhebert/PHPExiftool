@@ -28,13 +28,14 @@ class C14Configuration extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'C14 Configuration',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 157338
+             * line : 108530
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class C14Configuration extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:C14Configuration',
             'desc' => [
+                'en' => 'C14 Configuration',
             ],
         ],
     ];

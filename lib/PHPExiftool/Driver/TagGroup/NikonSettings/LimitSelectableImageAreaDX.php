@@ -28,13 +28,14 @@ class LimitSelectableImageAreaDX extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Limit Selectable Image Area DX',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonSettings::Main
-             * line : 247158
+             * line : 169851
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class LimitSelectableImageAreaDX extends AbstractTagGroup
              */
             'id' => 'NikonSettings::Main.NikonSettings:LimitSelectableImageAreaDX',
             'desc' => [
+                'en' => 'Limit Selectable Image Area DX',
             ],
         ],
     ];

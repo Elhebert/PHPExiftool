@@ -28,13 +28,14 @@ class SpacingBetweenSlices extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Spacing Between Slices',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95543
+             * line : 68998
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SpacingBetweenSlices extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:SpacingBetweenSlices',
             'desc' => [
+                'en' => 'Spacing Between Slices',
             ],
         ],
     ];

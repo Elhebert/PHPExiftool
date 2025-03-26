@@ -28,13 +28,14 @@ class RelatedSoundFile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Related Sound File',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::exif
-             * line : 407718
+             * line : 288395
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class RelatedSoundFile extends AbstractTagGroup
              */
             'id' => 'XMP::exif.XMP-exif:RelatedSoundFile',
             'desc' => [
+                'en' => 'Related Sound File',
             ],
         ],
     ];

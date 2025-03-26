@@ -28,13 +28,14 @@ class RecordedDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Recorded Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249238
+             * line : 171840
              * type : date
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RecordedDate extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:RecordedDate',
             'desc' => [
+                'en' => 'Recorded Date',
             ],
         ],
     ];

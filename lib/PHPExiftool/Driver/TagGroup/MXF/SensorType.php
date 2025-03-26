@@ -28,13 +28,14 @@ class SensorType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168104
+             * line : 114605
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:SensorType',
             'desc' => [
+                'en' => 'Sensor Type',
             ],
         ],
     ];

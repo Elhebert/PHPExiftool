@@ -28,13 +28,14 @@ class Lit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Lit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::RMETA
-             * line : 333633
+             * line : 233959
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Lit extends AbstractTagGroup
              */
             'id' => 'Ricoh::RMETA.RMETA:Lit',
             'desc' => [
+                'en' => 'Lit',
             ],
         ],
     ];

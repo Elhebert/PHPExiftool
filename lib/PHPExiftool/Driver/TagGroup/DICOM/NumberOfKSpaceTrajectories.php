@@ -28,13 +28,14 @@ class NumberOfKSpaceTrajectories extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of K Space Trajectories',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96735
+             * line : 70138
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfKSpaceTrajectories extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfKSpaceTrajectories',
             'desc' => [
+                'en' => 'Number Of K Space Trajectories',
             ],
         ],
     ];

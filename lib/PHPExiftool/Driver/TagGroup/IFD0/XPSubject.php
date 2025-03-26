@@ -28,13 +28,14 @@ class XPSubject extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'XP Subject',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 116379
+             * line : 83352
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XPSubject extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:XPSubject',
             'desc' => [
+                'en' => 'XP Subject',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CorrectionValue extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Correction Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102783
+             * line : 75879
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CorrectionValue extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CorrectionValue',
             'desc' => [
+                'en' => 'Correction Value',
             ],
         ],
     ];

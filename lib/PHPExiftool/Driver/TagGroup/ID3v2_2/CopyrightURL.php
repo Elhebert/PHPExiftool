@@ -28,13 +28,14 @@ class CopyrightURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Copyright URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ID3::v2_2
-             * line : 148517
+             * line : 103131
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CopyrightURL extends AbstractTagGroup
              */
             'id' => 'ID3::v2_2.ID3v2_2:CopyrightURL',
             'desc' => [
+                'en' => 'Copyright URL',
             ],
         ],
     ];

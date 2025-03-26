@@ -28,13 +28,14 @@ class PlaceName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Place Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171830
+             * line : 118015
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class PlaceName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlaceName',
             'desc' => [
+                'en' => 'Place Name',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 171833
+             * line : 118018
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class PlaceName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PlaceName',
             'desc' => [
+                'en' => 'Place Name',
             ],
         ],
     ];

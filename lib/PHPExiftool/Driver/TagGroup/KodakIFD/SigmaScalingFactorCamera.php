@@ -28,13 +28,14 @@ class SigmaScalingFactorCamera extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sigma Scaling Factor Camera',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 156365
+             * line : 107569
              * type : rational64u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SigmaScalingFactorCamera extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SigmaScalingFactorCamera',
             'desc' => [
+                'en' => 'Sigma Scaling Factor Camera',
             ],
         ],
     ];

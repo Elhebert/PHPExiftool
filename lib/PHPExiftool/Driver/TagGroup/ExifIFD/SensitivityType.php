@@ -28,13 +28,14 @@ class SensitivityType extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensitivity Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 113875
+             * line : 82601
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensitivityType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SensitivityType',
             'desc' => [
+                'en' => 'Sensitivity Type',
             ],
         ],
     ];

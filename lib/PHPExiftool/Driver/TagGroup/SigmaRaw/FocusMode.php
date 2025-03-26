@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339688
+             * line : 237616
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

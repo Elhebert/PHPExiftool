@@ -28,13 +28,14 @@ class BurstPrimary extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Burst Primary',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::GCamera
-             * line : 396867
+             * line : 281063
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BurstPrimary extends AbstractTagGroup
              */
             'id' => 'XMP::GCamera.XMP-GCamera:BurstPrimary',
             'desc' => [
+                'en' => 'Burst Primary',
             ],
         ],
     ];

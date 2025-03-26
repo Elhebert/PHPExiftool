@@ -28,13 +28,14 @@ class DestinationCityCode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Destination City Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Type2
-             * line : 303018
+             * line : 210692
              * type : undef
              * writable : true
              * count : 4
@@ -42,6 +43,7 @@ class DestinationCityCode extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:DestinationCityCode',
             'desc' => [
+                'en' => 'Destination City Code',
             ],
         ],
     ];

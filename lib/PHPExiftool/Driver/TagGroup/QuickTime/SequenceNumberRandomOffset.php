@@ -28,13 +28,14 @@ class SequenceNumberRandomOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sequence Number Random Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::HintSampleDesc
-             * line : 313751
+             * line : 219491
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SequenceNumberRandomOffset extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintSampleDesc.QuickTime:SequenceNumberRandomOffset',
             'desc' => [
+                'en' => 'Sequence Number Random Offset',
             ],
         ],
     ];

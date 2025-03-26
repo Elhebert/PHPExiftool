@@ -28,13 +28,14 @@ class ColorCompensationFilterCustom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Compensation Filter Custom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 346846
+             * line : 243057
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorCompensationFilterCustom extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:ColorCompensationFilterCustom',
             'desc' => [
+                'en' => 'Color Compensation Filter Custom',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 348458
+             * line : 243796
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ColorCompensationFilterCustom extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:ColorCompensationFilterCustom',
             'desc' => [
+                'en' => 'Color Compensation Filter Custom',
             ],
         ],
     ];

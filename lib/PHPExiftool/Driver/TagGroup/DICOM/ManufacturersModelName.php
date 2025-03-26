@@ -28,13 +28,14 @@ class ManufacturersModelName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Manufacturers Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94907
+             * line : 68389
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ManufacturersModelName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ManufacturersModelName',
             'desc' => [
+                'en' => 'Manufacturers Model Name',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ColorRangeLevels extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Range Levels',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169056
+             * line : 115502
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorRangeLevels extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ColorRangeLevels',
             'desc' => [
+                'en' => 'Color Range Levels',
             ],
         ],
     ];

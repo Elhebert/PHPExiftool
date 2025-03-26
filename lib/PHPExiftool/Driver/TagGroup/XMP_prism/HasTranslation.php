@@ -28,13 +28,14 @@ class HasTranslation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Has Translation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 410878
+             * line : 290133
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HasTranslation extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:HasTranslation',
             'desc' => [
+                'en' => 'Has Translation',
             ],
         ],
     ];

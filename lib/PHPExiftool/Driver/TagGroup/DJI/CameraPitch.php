@@ -28,13 +28,14 @@ class CameraPitch extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Pitch',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::Main
-             * line : 104529
+             * line : 77579
              * type : float
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraPitch extends AbstractTagGroup
              */
             'id' => 'DJI::Main.DJI:CameraPitch',
             'desc' => [
+                'en' => 'Camera Pitch',
             ],
         ],
     ];

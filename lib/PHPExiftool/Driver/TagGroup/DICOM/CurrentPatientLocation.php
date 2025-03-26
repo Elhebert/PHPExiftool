@@ -28,13 +28,14 @@ class CurrentPatientLocation extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Current Patient Location',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99446
+             * line : 72660
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CurrentPatientLocation extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CurrentPatientLocation',
             'desc' => [
+                'en' => 'Current Patient Location',
             ],
         ],
     ];

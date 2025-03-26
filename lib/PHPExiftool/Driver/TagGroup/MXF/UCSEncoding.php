@@ -28,13 +28,14 @@ class UCSEncoding extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UCS Encoding',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172421
+             * line : 118582
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UCSEncoding extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UCSEncoding',
             'desc' => [
+                'en' => 'UCS Encoding',
             ],
         ],
     ];

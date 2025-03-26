@@ -28,13 +28,14 @@ class Viewable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Viewable',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MNG::BasisObject
-             * line : 164669
+             * line : 111888
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Viewable extends AbstractTagGroup
              */
             'id' => 'MNG::BasisObject.MNG:Viewable',
             'desc' => [
+                'en' => 'Viewable',
             ],
         ],
     ];

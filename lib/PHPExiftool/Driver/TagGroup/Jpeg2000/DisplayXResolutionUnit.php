@@ -28,13 +28,14 @@ class DisplayXResolutionUnit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display X Resolution Unit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Jpeg2000::DisplayResolution
-             * line : 153889
+             * line : 105693
              * type : int8s
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplayXResolutionUnit extends AbstractTagGroup
              */
             'id' => 'Jpeg2000::DisplayResolution.Jpeg2000:DisplayXResolutionUnit',
             'desc' => [
+                'en' => 'Display X Resolution Unit',
             ],
         ],
     ];

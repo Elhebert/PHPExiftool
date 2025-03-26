@@ -28,13 +28,14 @@ class TheoraVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Theora Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Theora::Identification
-             * line : 394793
+             * line : 279705
              * type : int8u
              * writable : false
              * count : 3
@@ -42,6 +43,7 @@ class TheoraVersion extends AbstractTagGroup
              */
             'id' => 'Theora::Identification.Theora:TheoraVersion',
             'desc' => [
+                'en' => 'Theora Version',
             ],
         ],
     ];

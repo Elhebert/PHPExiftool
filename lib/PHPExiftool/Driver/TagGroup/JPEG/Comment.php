@@ -28,13 +28,14 @@ class Comment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Comment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::Main
-             * line : 152626
+             * line : 105047
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
         1 => [
             /**
              * table_name : JPEG::Main
-             * line : 152647
+             * line : 105053
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Comment extends AbstractTagGroup
              */
             'id' => 'JPEG::Main.JPEG:Comment',
             'desc' => [
+                'en' => 'Comment',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class CharCountWithSpaces extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Char Count With Spaces',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::DocumentInfo
-             * line : 124517
+             * line : 87002
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CharCountWithSpaces extends AbstractTagGroup
              */
             'id' => 'FlashPix::DocumentInfo.FlashPix:CharCountWithSpaces',
             'desc' => [
+                'en' => 'Char Count With Spaces',
             ],
         ],
     ];

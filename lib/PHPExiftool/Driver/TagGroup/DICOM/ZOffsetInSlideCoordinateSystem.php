@@ -28,13 +28,14 @@ class ZOffsetInSlideCoordinateSystem extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Z Offset In Slide Coordinate System',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99824
+             * line : 73026
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ZOffsetInSlideCoordinateSystem extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ZOffsetInSlideCoordinateSystem',
             'desc' => [
+                'en' => 'Z Offset In Slide Coordinate System',
             ],
         ],
     ];

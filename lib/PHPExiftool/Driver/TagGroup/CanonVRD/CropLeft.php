@@ -28,13 +28,14 @@ class CropLeft extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Left',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82506
+             * line : 60429
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropLeft extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:CropLeft',
             'desc' => [
+                'en' => 'Crop Left',
             ],
         ],
     ];

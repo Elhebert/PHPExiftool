@@ -28,13 +28,14 @@ class TubeAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Tube Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96947
+             * line : 70348
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TubeAngle extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TubeAngle',
             'desc' => [
+                'en' => 'Tube Angle',
             ],
         ],
     ];

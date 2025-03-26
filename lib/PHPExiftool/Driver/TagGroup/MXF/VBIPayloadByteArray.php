@@ -28,13 +28,14 @@ class VBIPayloadByteArray extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VBI Payload Byte Array',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172193
+             * line : 118360
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VBIPayloadByteArray extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:VBIPayloadByteArray',
             'desc' => [
+                'en' => 'VBI Payload Byte Array',
             ],
         ],
     ];

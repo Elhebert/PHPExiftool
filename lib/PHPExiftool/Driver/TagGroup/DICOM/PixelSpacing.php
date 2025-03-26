@@ -28,13 +28,14 @@ class PixelSpacing extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Spacing',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98692
+             * line : 71971
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelSpacing extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelSpacing',
             'desc' => [
+                'en' => 'Pixel Spacing',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PeakChannelCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Peak Channel Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171929
+             * line : 118114
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PeakChannelCount extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PeakChannelCount',
             'desc' => [
+                'en' => 'Peak Channel Count',
             ],
         ],
     ];

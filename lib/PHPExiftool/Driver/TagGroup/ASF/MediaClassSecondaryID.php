@@ -28,13 +28,14 @@ class MediaClassSecondaryID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Class Secondary ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1370
+             * line : 616
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaClassSecondaryID extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:MediaClassSecondaryID',
             'desc' => [
+                'en' => 'Media Class Secondary ID',
             ],
         ],
     ];

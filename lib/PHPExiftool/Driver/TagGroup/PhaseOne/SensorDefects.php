@@ -28,13 +28,14 @@ class SensorDefects extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sensor Defects',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhaseOne::SensorCalibration
-             * line : 303584
+             * line : 210901
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SensorDefects extends AbstractTagGroup
              */
             'id' => 'PhaseOne::SensorCalibration.PhaseOne:SensorDefects',
             'desc' => [
+                'en' => 'Sensor Defects',
             ],
         ],
     ];

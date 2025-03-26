@@ -28,13 +28,14 @@ class DualAxisRot extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dual Axis Rot',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MRC::FEI12
-             * line : 166449
+             * line : 113190
              * type : double
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DualAxisRot extends AbstractTagGroup
              */
             'id' => 'MRC::FEI12.File:DualAxisRot',
             'desc' => [
+                'en' => 'Dual Axis Rot',
             ],
         ],
     ];

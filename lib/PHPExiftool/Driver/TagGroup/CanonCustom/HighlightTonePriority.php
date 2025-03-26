@@ -28,13 +28,14 @@ class HighlightTonePriority extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Highlight Tone Priority',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 73264
+             * line : 54237
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class HighlightTonePriority extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:HighlightTonePriority',
             'desc' => [
+                'en' => 'Highlight Tone Priority',
             ],
         ],
     ];

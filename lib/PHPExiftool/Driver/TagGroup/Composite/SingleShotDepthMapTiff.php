@@ -28,13 +28,14 @@ class SingleShotDepthMapTiff extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Single Shot Depth Map Tiff',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93802
+             * line : 67895
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SingleShotDepthMapTiff extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:SingleShotDepthMapTiff',
             'desc' => [
+                'en' => 'Single Shot Depth Map Tiff',
             ],
         ],
     ];

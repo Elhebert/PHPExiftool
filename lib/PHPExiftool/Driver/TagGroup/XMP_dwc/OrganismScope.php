@@ -28,13 +28,14 @@ class OrganismScope extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Organism Scope',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DarwinCore::Main
-             * line : 106617
+             * line : 78860
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class OrganismScope extends AbstractTagGroup
              */
             'id' => 'DarwinCore::Main.XMP-dwc:OrganismScope',
             'desc' => [
+                'en' => 'Organism Scope',
             ],
         ],
     ];

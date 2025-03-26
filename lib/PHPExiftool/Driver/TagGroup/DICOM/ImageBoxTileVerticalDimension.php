@@ -28,13 +28,14 @@ class ImageBoxTileVerticalDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Box Tile Vertical Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101622
+             * line : 74766
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageBoxTileVerticalDimension extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ImageBoxTileVerticalDimension',
             'desc' => [
+                'en' => 'Image Box Tile Vertical Dimension',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ThumbnailHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Thumbnail Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JFIF::Main
-             * line : 152349
+             * line : 104837
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ThumbnailHeight extends AbstractTagGroup
              */
             'id' => 'JFIF::Main.JFIF:ThumbnailHeight',
             'desc' => [
+                'en' => 'Thumbnail Height',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FlashWirelessOption extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Wireless Option',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ7II
-             * line : 199994
+             * line : 134963
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FlashWirelessOption extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ7II.Nikon:FlashWirelessOption',
             'desc' => [
+                'en' => 'Flash Wireless Option',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201070
+             * line : 135972
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FlashWirelessOption extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:FlashWirelessOption',
             'desc' => [
+                'en' => 'Flash Wireless Option',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD6
-             * line : 208220
+             * line : 140319
              * type : ?
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FlashWirelessOption extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD6.Nikon:FlashWirelessOption',
             'desc' => [
+                'en' => 'Flash Wireless Option',
             ],
         ],
     ];

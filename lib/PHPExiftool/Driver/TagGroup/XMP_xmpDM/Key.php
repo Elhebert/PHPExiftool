@@ -28,13 +28,14 @@ class Key extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Key',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413104
+             * line : 291235
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Key extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:Key',
             'desc' => [
+                'en' => 'Key',
             ],
         ],
     ];

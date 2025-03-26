@@ -28,13 +28,14 @@ class ExtenderStatus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Extender Status',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::LensRec
-             * line : 294398
+             * line : 205843
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ExtenderStatus extends AbstractTagGroup
              */
             'id' => 'Pentax::LensRec.Pentax:ExtenderStatus',
             'desc' => [
+                'en' => 'Extender Status',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class PlaybackFlickUp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Playback Flick Up',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 239274
+             * line : 162363
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PlaybackFlickUp extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:PlaybackFlickUp',
             'desc' => [
+                'en' => 'Playback Flick Up',
             ],
         ],
     ];

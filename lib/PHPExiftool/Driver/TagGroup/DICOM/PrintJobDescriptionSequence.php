@@ -28,13 +28,14 @@ class PrintJobDescriptionSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Print Job Description Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102290
+             * line : 75390
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PrintJobDescriptionSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PrintJobDescriptionSequence',
             'desc' => [
+                'en' => 'Print Job Description Sequence',
             ],
         ],
     ];

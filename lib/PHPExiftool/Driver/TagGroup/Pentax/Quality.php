@@ -28,13 +28,14 @@ class Quality extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Quality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Pentax::Main
-             * line : 295242
+             * line : 206426
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Pentax::Main.Pentax:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
         1 => [
             /**
              * table_name : Pentax::Type2
-             * line : 302440
+             * line : 210527
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Quality extends AbstractTagGroup
              */
             'id' => 'Pentax::Type2.Pentax:Quality',
             'desc' => [
+                'en' => 'Quality',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class UserCollection extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'User Collection',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Keys
-             * line : 323318
+             * line : 228595
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class UserCollection extends AbstractTagGroup
              */
             'id' => 'QuickTime::Keys.Keys:UserCollection',
             'desc' => [
+                'en' => 'User Collection',
             ],
         ],
     ];

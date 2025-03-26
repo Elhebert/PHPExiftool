@@ -28,13 +28,14 @@ class WhiteBalance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'White Balance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::MOV
-             * line : 335829
+             * line : 235583
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WhiteBalance extends AbstractTagGroup
              */
             'id' => 'Sanyo::MOV.Sanyo:WhiteBalance',
             'desc' => [
+                'en' => 'White Balance',
             ],
         ],
     ];

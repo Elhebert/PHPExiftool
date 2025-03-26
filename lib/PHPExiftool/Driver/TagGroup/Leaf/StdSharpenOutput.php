@@ -28,13 +28,14 @@ class StdSharpenOutput extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Std Sharpen Output',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::SaveSetup
-             * line : 162008
+             * line : 110708
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StdSharpenOutput extends AbstractTagGroup
              */
             'id' => 'Leaf::SaveSetup.Leaf:StdSharpenOutput',
             'desc' => [
+                'en' => 'Std Sharpen Output',
             ],
         ],
     ];

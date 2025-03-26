@@ -28,13 +28,14 @@ class IntroTimeValue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Intro Time Value',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpDM
-             * line : 413101
+             * line : 291232
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IntroTimeValue extends AbstractTagGroup
              */
             'id' => 'XMP::xmpDM.XMP-xmpDM:IntroTimeValue',
             'desc' => [
+                'en' => 'Intro Time Value',
             ],
         ],
     ];

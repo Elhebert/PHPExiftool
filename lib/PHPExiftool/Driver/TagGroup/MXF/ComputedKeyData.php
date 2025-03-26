@@ -28,13 +28,14 @@ class ComputedKeyData extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Computed Key Data',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167758
+             * line : 114335
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ComputedKeyData extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ComputedKeyData',
             'desc' => [
+                'en' => 'Computed Key Data',
             ],
         ],
     ];

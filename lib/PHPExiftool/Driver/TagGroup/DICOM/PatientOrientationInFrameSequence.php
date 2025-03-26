@@ -28,13 +28,14 @@ class PatientOrientationInFrameSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Patient Orientation In Frame Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98167
+             * line : 71512
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PatientOrientationInFrameSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PatientOrientationInFrameSequence',
             'desc' => [
+                'en' => 'Patient Orientation In Frame Sequence',
             ],
         ],
     ];

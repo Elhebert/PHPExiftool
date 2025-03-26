@@ -28,13 +28,14 @@ class ShotList extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Shot List',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168947
+             * line : 115412
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ShotList extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ShotList',
             'desc' => [
+                'en' => 'Shot List',
             ],
         ],
     ];

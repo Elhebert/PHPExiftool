@@ -28,13 +28,14 @@ class SenderName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sender Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175363
+             * line : 120750
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SenderName extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:SenderName',
             'desc' => [
+                'en' => 'Sender Name',
             ],
         ],
     ];

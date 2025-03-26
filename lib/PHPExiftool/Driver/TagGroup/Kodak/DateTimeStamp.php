@@ -28,13 +28,14 @@ class DateTimeStamp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Date Time Stamp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Main
-             * line : 158211
+             * line : 108836
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DateTimeStamp extends AbstractTagGroup
              */
             'id' => 'Kodak::Main.Kodak:DateTimeStamp',
             'desc' => [
+                'en' => 'Date Time Stamp',
             ],
         ],
     ];

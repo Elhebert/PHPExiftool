@@ -28,13 +28,14 @@ class LensProfileDistortionScale extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Profile Distortion Scale',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crd
-             * line : 399499
+             * line : 283005
              * type : integer
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LensProfileDistortionScale extends AbstractTagGroup
              */
             'id' => 'XMP::crd.XMP-crd:LensProfileDistortionScale',
             'desc' => [
+                'en' => 'Lens Profile Distortion Scale',
             ],
         ],
     ];

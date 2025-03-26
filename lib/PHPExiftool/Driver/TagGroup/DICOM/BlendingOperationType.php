@@ -28,13 +28,14 @@ class BlendingOperationType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Blending Operation Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101664
+             * line : 74808
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class BlendingOperationType extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:BlendingOperationType',
             'desc' => [
+                'en' => 'Blending Operation Type',
             ],
         ],
     ];

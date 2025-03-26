@@ -28,13 +28,14 @@ class ContrastFrameAveraging extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Frame Averaging',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99156
+             * line : 72375
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastFrameAveraging extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ContrastFrameAveraging',
             'desc' => [
+                'en' => 'Contrast Frame Averaging',
             ],
         ],
     ];

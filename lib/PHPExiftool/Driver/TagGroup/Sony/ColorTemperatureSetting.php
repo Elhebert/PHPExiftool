@@ -28,13 +28,14 @@ class ColorTemperatureSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Temperature Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraSettings3
-             * line : 350561
+             * line : 244800
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ColorTemperatureSetting extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings3.Sony:ColorTemperatureSetting',
             'desc' => [
+                'en' => 'Color Temperature Setting',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360430
+             * line : 251260
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ColorTemperatureSetting extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:ColorTemperatureSetting',
             'desc' => [
+                'en' => 'Color Temperature Setting',
             ],
         ],
     ];

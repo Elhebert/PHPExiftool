@@ -28,13 +28,14 @@ class AFRFaster4Trigger extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AFR Faster 4 Trigger',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306627
+             * line : 213125
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AFRFaster4Trigger extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AFRFaster4Trigger',
             'desc' => [
+                'en' => 'AFR Faster 4 Trigger',
             ],
         ],
     ];

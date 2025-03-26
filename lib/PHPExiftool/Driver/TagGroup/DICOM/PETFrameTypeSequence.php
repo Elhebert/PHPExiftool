@@ -28,13 +28,14 @@ class PETFrameTypeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PET Frame Type Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97336
+             * line : 70732
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PETFrameTypeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PETFrameTypeSequence',
             'desc' => [
+                'en' => 'PET Frame Type Sequence',
             ],
         ],
     ];

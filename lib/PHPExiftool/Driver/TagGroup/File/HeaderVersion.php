@@ -28,13 +28,14 @@ class HeaderVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Header Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DPX::Main
-             * line : 105307
+             * line : 78048
              * type : string
              * writable : false
              * count : 8
@@ -42,6 +43,7 @@ class HeaderVersion extends AbstractTagGroup
              */
             'id' => 'DPX::Main.File:HeaderVersion',
             'desc' => [
+                'en' => 'Header Version',
             ],
         ],
     ];

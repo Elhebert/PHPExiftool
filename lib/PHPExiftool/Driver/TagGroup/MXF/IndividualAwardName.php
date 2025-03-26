@@ -28,13 +28,14 @@ class IndividualAwardName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Individual Award Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167716
+             * line : 114293
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IndividualAwardName extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IndividualAwardName',
             'desc' => [
+                'en' => 'Individual Award Name',
             ],
         ],
     ];

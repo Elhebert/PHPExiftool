@@ -28,13 +28,14 @@ class CircGradBasedCorrHue extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Circ Grad Based Corr Hue',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::crs
-             * line : 401974
+             * line : 285209
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CircGradBasedCorrHue extends AbstractTagGroup
              */
             'id' => 'XMP::crs.XMP-crs:CircGradBasedCorrHue',
             'desc' => [
+                'en' => 'Circ Grad Based Corr Hue',
             ],
         ],
     ];

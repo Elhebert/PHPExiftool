@@ -28,13 +28,14 @@ class BuildNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Build Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Motorola::Main
-             * line : 187824
+             * line : 127221
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class BuildNumber extends AbstractTagGroup
              */
             'id' => 'Motorola::Main.Motorola:BuildNumber',
             'desc' => [
+                'en' => 'Build Number',
             ],
         ],
     ];

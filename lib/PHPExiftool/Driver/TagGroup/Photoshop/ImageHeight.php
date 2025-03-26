@@ -28,13 +28,14 @@ class ImageHeight extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Height',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Photoshop::Header
-             * line : 304996
+             * line : 211979
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageHeight extends AbstractTagGroup
              */
             'id' => 'Photoshop::Header.Photoshop:ImageHeight',
             'desc' => [
+                'en' => 'Image Height',
             ],
         ],
     ];

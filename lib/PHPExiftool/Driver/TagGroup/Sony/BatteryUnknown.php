@@ -28,13 +28,14 @@ class BatteryUnknown extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Battery Unknown',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::ExtraInfo
-             * line : 352125
+             * line : 246002
              * type : undef
              * writable : false
              * count : 4
@@ -42,12 +43,13 @@ class BatteryUnknown extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo.Sony:BatteryUnknown',
             'desc' => [
+                'en' => 'Battery Unknown',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::ExtraInfo3
-             * line : 352227
+             * line : 246056
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class BatteryUnknown extends AbstractTagGroup
              */
             'id' => 'Sony::ExtraInfo3.Sony:BatteryUnknown',
             'desc' => [
+                'en' => 'Battery Unknown',
             ],
         ],
     ];

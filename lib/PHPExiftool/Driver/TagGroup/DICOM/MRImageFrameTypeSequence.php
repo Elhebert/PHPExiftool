@@ -28,13 +28,14 @@ class MRImageFrameTypeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Image Frame Type Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96907
+             * line : 70309
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRImageFrameTypeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRImageFrameTypeSequence',
             'desc' => [
+                'en' => 'MR Image Frame Type Sequence',
             ],
         ],
     ];

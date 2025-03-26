@@ -28,13 +28,14 @@ class ColorSpace2 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Color Space 2',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::LogInfo
-             * line : 64508
+             * line : 48851
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ColorSpace2 extends AbstractTagGroup
              */
             'id' => 'Canon::LogInfo.Canon:ColorSpace2',
             'desc' => [
+                'en' => 'Color Space 2',
             ],
         ],
     ];

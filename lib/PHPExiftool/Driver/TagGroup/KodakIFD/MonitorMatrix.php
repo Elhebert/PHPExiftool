@@ -28,13 +28,14 @@ class MonitorMatrix extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monitor Matrix',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155296
+             * line : 106517
              * type : rational64s
              * writable : true
              * count : 9
@@ -42,6 +43,7 @@ class MonitorMatrix extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:MonitorMatrix',
             'desc' => [
+                'en' => 'Monitor Matrix',
             ],
         ],
     ];

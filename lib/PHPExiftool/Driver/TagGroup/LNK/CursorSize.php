@@ -28,13 +28,14 @@ class CursorSize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Cursor Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : LNK::ConsoleData
-             * line : 161012
+             * line : 109946
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CursorSize extends AbstractTagGroup
              */
             'id' => 'LNK::ConsoleData.LNK:CursorSize',
             'desc' => [
+                'en' => 'Cursor Size',
             ],
         ],
     ];

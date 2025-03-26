@@ -28,13 +28,14 @@ class VectorDimensionality extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Vector Dimensionality',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101184
+             * line : 74334
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VectorDimensionality extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:VectorDimensionality',
             'desc' => [
+                'en' => 'Vector Dimensionality',
             ],
         ],
     ];

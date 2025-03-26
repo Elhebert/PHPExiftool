@@ -28,13 +28,14 @@ class ObjectIdentificationConfidence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Identification Confidence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 170234
+             * line : 116511
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectIdentificationConfidence extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ObjectIdentificationConfidence',
             'desc' => [
+                'en' => 'Object Identification Confidence',
             ],
         ],
     ];

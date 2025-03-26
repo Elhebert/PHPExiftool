@@ -28,13 +28,14 @@ class PrimaryChromaticities extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Primary Chromaticities',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 111492
+             * line : 81673
              * type : rational64u
              * writable : true
              * count : 6
@@ -42,6 +43,7 @@ class PrimaryChromaticities extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:PrimaryChromaticities',
             'desc' => [
+                'en' => 'Primary Chromaticities',
             ],
         ],
     ];

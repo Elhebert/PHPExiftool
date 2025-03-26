@@ -28,13 +28,14 @@ class ManometerPressure extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manometer Pressure',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277522
+             * line : 193022
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManometerPressure extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:ManometerPressure',
             'desc' => [
+                'en' => 'Manometer Pressure',
             ],
         ],
     ];

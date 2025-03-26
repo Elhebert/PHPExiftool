@@ -28,13 +28,14 @@ class MRSpectroscopyFrameTypeSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'MR Spectroscopy Frame Type Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 96910
+             * line : 70312
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MRSpectroscopyFrameTypeSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:MRSpectroscopyFrameTypeSequence',
             'desc' => [
+                'en' => 'MR Spectroscopy Frame Type Sequence',
             ],
         ],
     ];

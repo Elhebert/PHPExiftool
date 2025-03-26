@@ -28,13 +28,14 @@ class KeyDataOrProgram extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Data Or Program',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167398
+             * line : 114018
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeyDataOrProgram extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeyDataOrProgram',
             'desc' => [
+                'en' => 'Key Data Or Program',
             ],
         ],
     ];

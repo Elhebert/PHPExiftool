@@ -28,13 +28,14 @@ class LensModel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Lens Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo1000D
-             * line : 6503
+             * line : 4437
              * type : string
              * writable : true
              * count : 64
@@ -42,12 +43,13 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo1000D.Canon:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::CameraInfo40D
-             * line : 21906
+             * line : 16391
              * type : string
              * writable : true
              * count : 64
@@ -55,12 +57,13 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo40D.Canon:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::CameraInfo450D
-             * line : 23931
+             * line : 18023
              * type : string
              * writable : true
              * count : 64
@@ -68,12 +71,13 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo450D.Canon:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
         3 => [
             /**
              * table_name : Canon::Main
-             * line : 65876
+             * line : 50050
              * type : string
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class LensModel extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:LensModel',
             'desc' => [
+                'en' => 'Lens Model',
             ],
         ],
     ];

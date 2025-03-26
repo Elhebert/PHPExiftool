@@ -28,13 +28,14 @@ class VMPixThresh extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'VM Pix Thresh',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155822
+             * line : 107033
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class VMPixThresh extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:VMPixThresh',
             'desc' => [
+                'en' => 'VM Pix Thresh',
             ],
         ],
     ];

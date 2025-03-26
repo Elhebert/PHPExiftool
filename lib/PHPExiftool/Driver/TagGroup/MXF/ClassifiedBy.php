@@ -28,13 +28,14 @@ class ClassifiedBy extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Classified By',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169982
+             * line : 116307
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ClassifiedBy extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ClassifiedBy',
             'desc' => [
+                'en' => 'Classified By',
             ],
         ],
     ];

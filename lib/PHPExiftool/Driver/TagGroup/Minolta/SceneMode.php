@@ -28,13 +28,14 @@ class SceneMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Scene Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::Main
-             * line : 182816
+             * line : 124308
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SceneMode extends AbstractTagGroup
              */
             'id' => 'Minolta::Main.Minolta:SceneMode',
             'desc' => [
+                'en' => 'Scene Mode',
             ],
         ],
     ];

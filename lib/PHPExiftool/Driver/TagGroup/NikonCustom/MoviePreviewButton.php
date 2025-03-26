@@ -28,13 +28,14 @@ class MoviePreviewButton extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Preview Button',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD4
-             * line : 215985
+             * line : 145032
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MoviePreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD4.NikonCustom:MoviePreviewButton',
             'desc' => [
+                'en' => 'Movie Preview Button',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD5
-             * line : 218597
+             * line : 146963
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MoviePreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD5.NikonCustom:MoviePreviewButton',
             'desc' => [
+                'en' => 'Movie Preview Button',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD500
-             * line : 221047
+             * line : 148994
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MoviePreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD500.NikonCustom:MoviePreviewButton',
             'desc' => [
+                'en' => 'Movie Preview Button',
             ],
         ],
         3 => [
             /**
              * table_name : NikonCustom::SettingsD810
-             * line : 231169
+             * line : 155434
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MoviePreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD810.NikonCustom:MoviePreviewButton',
             'desc' => [
+                'en' => 'Movie Preview Button',
             ],
         ],
         4 => [
             /**
              * table_name : NikonCustom::SettingsD850
-             * line : 232946
+             * line : 156812
              * type : int8u
              * writable : true
              * count :
@@ -94,6 +99,7 @@ class MoviePreviewButton extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD850.NikonCustom:MoviePreviewButton',
             'desc' => [
+                'en' => 'Movie Preview Button',
             ],
         ],
     ];

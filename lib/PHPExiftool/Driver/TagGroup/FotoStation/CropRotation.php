@@ -28,13 +28,14 @@ class CropRotation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Crop Rotation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FotoStation::SoftEdit
-             * line : 128289
+             * line : 88981
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CropRotation extends AbstractTagGroup
              */
             'id' => 'FotoStation::SoftEdit.FotoStation:CropRotation',
             'desc' => [
+                'en' => 'Crop Rotation',
             ],
         ],
     ];

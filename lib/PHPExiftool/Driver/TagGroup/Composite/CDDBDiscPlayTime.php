@@ -28,13 +28,14 @@ class CDDBDiscPlayTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CDDB Disc Play Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Composite
-             * line : 93500
+             * line : 67808
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CDDBDiscPlayTime extends AbstractTagGroup
              */
             'id' => 'Composite.Composite:CDDBDiscPlayTime',
             'desc' => [
+                'en' => 'CDDB Disc Play Time',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class ANCWrappingType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ANC Wrapping Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172202
+             * line : 118369
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ANCWrappingType extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:ANCWrappingType',
             'desc' => [
+                'en' => 'ANC Wrapping Type',
             ],
         ],
     ];

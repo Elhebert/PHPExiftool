@@ -28,13 +28,14 @@ class WatercolorFilter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Watercolor Filter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::FilterInfo
-             * line : 64021
+             * line : 48637
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class WatercolorFilter extends AbstractTagGroup
              */
             'id' => 'Canon::FilterInfo.Canon:WatercolorFilter',
             'desc' => [
+                'en' => 'Watercolor Filter',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class StorageModel extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Storage Model',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Red::Main
-             * line : 331485
+             * line : 233040
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StorageModel extends AbstractTagGroup
              */
             'id' => 'Red::Main.Red:StorageModel',
             'desc' => [
+                'en' => 'Storage Model',
             ],
         ],
     ];

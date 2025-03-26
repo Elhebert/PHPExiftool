@@ -28,13 +28,14 @@ class MinFocalLength extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Min Focal Length',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Tag2010e
-             * line : 366928
+             * line : 255298
              * type : int16u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010e.Sony:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::Tag2010f
-             * line : 369929
+             * line : 257922
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010f.Sony:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::Tag2010g
-             * line : 370959
+             * line : 258587
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010g.Sony:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::Tag2010h
-             * line : 373960
+             * line : 261211
              * type : int16u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010h.Sony:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::Tag2010i
-             * line : 376961
+             * line : 263835
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag2010i.Sony:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::Tag9416
-             * line : 393361
+             * line : 278928
              * type : int16u
              * writable : false
              * count :
@@ -107,6 +113,7 @@ class MinFocalLength extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9416.Sony:MinFocalLength',
             'desc' => [
+                'en' => 'Min Focal Length',
             ],
         ],
     ];

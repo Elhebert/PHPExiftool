@@ -28,13 +28,14 @@ class DarkFocusEnvironment extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dark Focus Environment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 278580
+             * line : 193738
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DarkFocusEnvironment extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:DarkFocusEnvironment',
             'desc' => [
+                'en' => 'Dark Focus Environment',
             ],
         ],
     ];

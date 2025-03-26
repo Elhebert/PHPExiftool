@@ -28,13 +28,14 @@ class MaxBitrate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Max Bitrate',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Bitrate
-             * line : 310510
+             * line : 216406
              * type : int32u
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class MaxBitrate extends AbstractTagGroup
              */
             'id' => 'QuickTime::Bitrate.QuickTime:MaxBitrate',
             'desc' => [
+                'en' => 'Max Bitrate',
             ],
         ],
         1 => [
             /**
              * table_name : QuickTime::HintHeader
-             * line : 313718
+             * line : 219462
              * type : int32u
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class MaxBitrate extends AbstractTagGroup
              */
             'id' => 'QuickTime::HintHeader.QuickTime:MaxBitrate',
             'desc' => [
+                'en' => 'Max Bitrate',
             ],
         ],
     ];

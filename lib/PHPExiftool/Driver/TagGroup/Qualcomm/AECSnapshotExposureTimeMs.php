@@ -28,13 +28,14 @@ class AECSnapshotExposureTimeMs extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'AEC Snapshot Exposure Time Ms',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Qualcomm::Main
-             * line : 306206
+             * line : 212711
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AECSnapshotExposureTimeMs extends AbstractTagGroup
              */
             'id' => 'Qualcomm::Main.Qualcomm:AECSnapshotExposureTimeMs',
             'desc' => [
+                'en' => 'AEC Snapshot Exposure Time Ms',
             ],
         ],
     ];

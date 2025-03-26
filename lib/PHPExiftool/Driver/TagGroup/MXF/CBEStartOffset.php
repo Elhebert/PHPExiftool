@@ -28,13 +28,14 @@ class CBEStartOffset extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'CBE Start Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172261
+             * line : 118426
              * type : int64u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CBEStartOffset extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:CBEStartOffset',
             'desc' => [
+                'en' => 'CBE Start Offset',
             ],
         ],
     ];

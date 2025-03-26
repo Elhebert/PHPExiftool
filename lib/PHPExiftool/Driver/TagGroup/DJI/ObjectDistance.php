@@ -28,13 +28,14 @@ class ObjectDistance extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Object Distance',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DJI::ThermalParams
-             * line : 104566
+             * line : 77613
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ObjectDistance extends AbstractTagGroup
              */
             'id' => 'DJI::ThermalParams.DJI:ObjectDistance',
             'desc' => [
+                'en' => 'Object Distance',
             ],
         ],
     ];

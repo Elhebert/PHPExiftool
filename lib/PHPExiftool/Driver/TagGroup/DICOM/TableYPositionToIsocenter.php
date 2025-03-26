@@ -28,13 +28,14 @@ class TableYPositionToIsocenter extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Table Y Position To Isocenter',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97203
+             * line : 70600
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TableYPositionToIsocenter extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TableYPositionToIsocenter',
             'desc' => [
+                'en' => 'Table Y Position To Isocenter',
             ],
         ],
     ];

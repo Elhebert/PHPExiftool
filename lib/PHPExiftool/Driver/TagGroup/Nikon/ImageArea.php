@@ -28,13 +28,14 @@ class ImageArea extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Area',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD3S
-             * line : 206024
+             * line : 138509
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ImageArea extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3S.Nikon:ImageArea',
             'desc' => [
+                'en' => 'Image Area',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD3b
-             * line : 206203
+             * line : 138614
              * type : ?
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ImageArea extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD3b.Nikon:ImageArea',
             'desc' => [
+                'en' => 'Image Area',
             ],
         ],
     ];

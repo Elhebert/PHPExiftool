@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Ricoh::ImageInfo
-             * line : 332287
+             * line : 233317
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Ricoh::ImageInfo.Ricoh:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Ricoh::Main
-             * line : 333255
+             * line : 233730
              * type : int32u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Ricoh::Main.Ricoh:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

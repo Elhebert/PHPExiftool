@@ -28,13 +28,14 @@ class AsShotICCProfile extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'As Shot ICC Profile',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 119991
+             * line : 84390
              * type : undef
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AsShotICCProfile extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:AsShotICCProfile',
             'desc' => [
+                'en' => 'As Shot ICC Profile',
             ],
         ],
     ];

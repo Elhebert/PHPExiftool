@@ -28,13 +28,14 @@ class SensorSerialNumber extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensor Serial Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155605
+             * line : 106817
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SensorSerialNumber extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SensorSerialNumber',
             'desc' => [
+                'en' => 'Sensor Serial Number',
             ],
         ],
     ];

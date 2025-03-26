@@ -28,13 +28,14 @@ class CollimatorGridName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Collimator Grid Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95905
+             * line : 69331
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class CollimatorGridName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:CollimatorGridName',
             'desc' => [
+                'en' => 'Collimator Grid Name',
             ],
         ],
     ];

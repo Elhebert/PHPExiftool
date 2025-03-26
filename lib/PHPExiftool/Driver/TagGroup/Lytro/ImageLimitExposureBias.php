@@ -28,13 +28,14 @@ class ImageLimitExposureBias extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Image Limit Exposure Bias',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Lytro::Main
-             * line : 162350
+             * line : 110875
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ImageLimitExposureBias extends AbstractTagGroup
              */
             'id' => 'Lytro::Main.Lytro:ImageLimitExposureBias',
             'desc' => [
+                'en' => 'Image Limit Exposure Bias',
             ],
         ],
     ];

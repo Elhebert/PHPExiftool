@@ -28,13 +28,14 @@ class Provider extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Provider',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174744
+             * line : 120296
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class Provider extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Provider',
             'desc' => [
+                'en' => 'Provider',
             ],
         ],
         1 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 175192
+             * line : 120642
              * type : Unicode
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Provider extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:Provider',
             'desc' => [
+                'en' => 'Provider',
             ],
         ],
     ];

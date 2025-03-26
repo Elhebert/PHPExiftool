@@ -28,13 +28,14 @@ class SupplementalCategories extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supplemental Categories',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::photoshop
-             * line : 410364
+             * line : 289809
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SupplementalCategories extends AbstractTagGroup
              */
             'id' => 'XMP::photoshop.XMP-photoshop:SupplementalCategories',
             'desc' => [
+                'en' => 'Supplemental Categories',
             ],
         ],
     ];

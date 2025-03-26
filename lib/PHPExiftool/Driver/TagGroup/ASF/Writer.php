@@ -28,13 +28,14 @@ class Writer extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Writer',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::ExtendedDescr
-             * line : 1696
+             * line : 847
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Writer extends AbstractTagGroup
              */
             'id' => 'ASF::ExtendedDescr.ASF:Writer',
             'desc' => [
+                'en' => 'Writer',
             ],
         ],
     ];

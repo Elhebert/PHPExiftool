@@ -28,13 +28,14 @@ class StreamPrioritization extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Stream Prioritization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ASF::HeaderExtension
-             * line : 1858
+             * line : 952
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StreamPrioritization extends AbstractTagGroup
              */
             'id' => 'ASF::HeaderExtension.ASF:StreamPrioritization',
             'desc' => [
+                'en' => 'Stream Prioritization',
             ],
         ],
     ];

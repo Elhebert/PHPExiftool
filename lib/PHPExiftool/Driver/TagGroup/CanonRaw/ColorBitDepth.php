@@ -28,13 +28,14 @@ class ColorBitDepth extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Color Bit Depth',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonRaw::ImageInfo
-             * line : 78627
+             * line : 57220
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ColorBitDepth extends AbstractTagGroup
              */
             'id' => 'CanonRaw::ImageInfo.CanonRaw:ColorBitDepth',
             'desc' => [
+                'en' => 'Color Bit Depth',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class InitialZoomSetting extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Initial Zoom Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212587
+             * line : 142782
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class InitialZoomSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:InitialZoomSetting',
             'desc' => [
+                'en' => 'Initial Zoom Setting',
             ],
         ],
         1 => [
             /**
              * table_name : NikonCustom::SettingsD3
-             * line : 212617
+             * line : 142796
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class InitialZoomSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD3.NikonCustom:InitialZoomSetting',
             'desc' => [
+                'en' => 'Initial Zoom Setting',
             ],
         ],
         2 => [
             /**
              * table_name : NikonCustom::SettingsD700
-             * line : 225701
+             * line : 152065
              * type : int8u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class InitialZoomSetting extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsD700.NikonCustom:InitialZoomSetting',
             'desc' => [
+                'en' => 'Initial Zoom Setting',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GPSSatellites extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'GPS Satellites',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GPS::Main
-             * line : 131946
+             * line : 90873
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class GPSSatellites extends AbstractTagGroup
              */
             'id' => 'GPS::Main.GPS:GPSSatellites',
             'desc' => [
+                'en' => 'GPS Satellites',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203005
+             * line : 137094
              * type : ?
              * writable : false
              * count :
@@ -55,12 +57,13 @@ class GPSSatellites extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.GPS:GPSSatellites',
             'desc' => [
+                'en' => 'GPS Satellites',
             ],
         ],
         2 => [
             /**
              * table_name : Pentax::PENT
-             * line : 301331
+             * line : 209791
              * type : string
              * writable : false
              * count : 3
@@ -68,6 +71,7 @@ class GPSSatellites extends AbstractTagGroup
              */
             'id' => 'Pentax::PENT.GPS:GPSSatellites',
             'desc' => [
+                'en' => 'GPS Satellites',
             ],
         ],
     ];

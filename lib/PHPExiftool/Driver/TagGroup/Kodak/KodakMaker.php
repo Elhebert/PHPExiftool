@@ -28,13 +28,14 @@ class KodakMaker extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Kodak Maker',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::Type2
-             * line : 160005
+             * line : 109592
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class KodakMaker extends AbstractTagGroup
              */
             'id' => 'Kodak::Type2.Kodak:KodakMaker',
             'desc' => [
+                'en' => 'Kodak Maker',
             ],
         ],
     ];

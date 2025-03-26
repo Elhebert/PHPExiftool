@@ -28,13 +28,14 @@ class Signature extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Signature',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 101910
+             * line : 75051
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Signature extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:Signature',
             'desc' => [
+                'en' => 'Signature',
             ],
         ],
     ];

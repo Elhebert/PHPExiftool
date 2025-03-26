@@ -28,13 +28,14 @@ class PitchAngle extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pitch Angle',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPF::Main
-             * line : 166382
+             * line : 113132
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PitchAngle extends AbstractTagGroup
              */
             'id' => 'MPF::Main.MPF0:PitchAngle',
             'desc' => [
+                'en' => 'Pitch Angle',
             ],
         ],
     ];

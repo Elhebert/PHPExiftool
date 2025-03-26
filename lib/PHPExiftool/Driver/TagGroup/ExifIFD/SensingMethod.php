@@ -28,13 +28,14 @@ class SensingMethod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sensing Method',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 115522
+             * line : 82984
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class SensingMethod extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SensingMethod',
             'desc' => [
+                'en' => 'Sensing Method',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 116792
+             * line : 83452
              * type : int16u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SensingMethod extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SensingMethod',
             'desc' => [
+                'en' => 'Sensing Method',
             ],
         ],
     ];

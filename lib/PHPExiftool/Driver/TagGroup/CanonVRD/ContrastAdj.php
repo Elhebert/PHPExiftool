@@ -28,13 +28,14 @@ class ContrastAdj extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast Adj',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonVRD::DR4
-             * line : 80478
+             * line : 58699
              * type : ?
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::DR4.CanonVRD:ContrastAdj',
             'desc' => [
+                'en' => 'Contrast Adj',
             ],
         ],
         1 => [
             /**
              * table_name : CanonVRD::Ver1
-             * line : 82419
+             * line : 60368
              * type : int8s
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class ContrastAdj extends AbstractTagGroup
              */
             'id' => 'CanonVRD::Ver1.CanonVRD:ContrastAdj',
             'desc' => [
+                'en' => 'Contrast Adj',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class LicensorNotes extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Licensor Notes',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PLUS::XMP
-             * line : 265751
+             * line : 183719
              * type : lang-alt
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class LicensorNotes extends AbstractTagGroup
              */
             'id' => 'PLUS::XMP.XMP-plus:LicensorNotes',
             'desc' => [
+                'en' => 'Licensor Notes',
             ],
         ],
     ];

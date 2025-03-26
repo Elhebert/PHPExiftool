@@ -28,13 +28,14 @@ class ScreeningDesc extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Screening Desc',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ICC_Profile::Main
-             * line : 146618
+             * line : 101899
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ScreeningDesc extends AbstractTagGroup
              */
             'id' => 'ICC_Profile::Main.ICC_Profile:ScreeningDesc',
             'desc' => [
+                'en' => 'Screening Desc',
             ],
         ],
     ];

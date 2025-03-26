@@ -28,13 +28,14 @@ class FocalLengthTeleZoom extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focal Length Tele Zoom',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 345965
+             * line : 242560
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FocalLengthTeleZoom extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:FocalLengthTeleZoom',
             'desc' => [
+                'en' => 'Focal Length Tele Zoom',
             ],
         ],
     ];

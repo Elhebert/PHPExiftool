@@ -28,13 +28,14 @@ class MovieElectronicVR extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Movie Electronic VR',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::MenuSettingsZ9
-             * line : 201612
+             * line : 136506
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MovieElectronicVR extends AbstractTagGroup
              */
             'id' => 'Nikon::MenuSettingsZ9.Nikon:MovieElectronicVR',
             'desc' => [
+                'en' => 'Movie Electronic VR',
             ],
         ],
     ];

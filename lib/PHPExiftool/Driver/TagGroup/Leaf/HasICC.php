@@ -28,13 +28,14 @@ class HasICC extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Has ICC',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Leaf::ColorSetup
-             * line : 161809
+             * line : 110538
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class HasICC extends AbstractTagGroup
              */
             'id' => 'Leaf::ColorSetup.Leaf:HasICC',
             'desc' => [
+                'en' => 'Has ICC',
             ],
         ],
     ];

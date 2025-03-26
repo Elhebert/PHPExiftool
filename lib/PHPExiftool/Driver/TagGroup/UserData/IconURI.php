@@ -28,13 +28,14 @@ class IconURI extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Icon URI',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::UserData
-             * line : 325493
+             * line : 229721
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class IconURI extends AbstractTagGroup
              */
             'id' => 'QuickTime::UserData.UserData:IconURI',
             'desc' => [
+                'en' => 'Icon URI',
             ],
         ],
     ];

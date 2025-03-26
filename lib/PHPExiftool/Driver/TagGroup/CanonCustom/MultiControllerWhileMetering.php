@@ -28,13 +28,14 @@ class MultiControllerWhileMetering extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multi Controller While Metering',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions2
-             * line : 74330
+             * line : 54853
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MultiControllerWhileMetering extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions2.CanonCustom:MultiControllerWhileMetering',
             'desc' => [
+                'en' => 'Multi Controller While Metering',
             ],
         ],
     ];

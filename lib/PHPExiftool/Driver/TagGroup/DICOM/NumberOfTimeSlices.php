@@ -28,13 +28,14 @@ class NumberOfTimeSlices extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Number Of Time Slices',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100901
+             * line : 74061
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NumberOfTimeSlices extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:NumberOfTimeSlices',
             'desc' => [
+                'en' => 'Number Of Time Slices',
             ],
         ],
     ];

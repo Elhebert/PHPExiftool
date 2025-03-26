@@ -28,13 +28,14 @@ class DisplaySize extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Display Size',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::Video
-             * line : 326080
+             * line : 230013
              * type : int8u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DisplaySize extends AbstractTagGroup
              */
             'id' => 'QuickTime::Video.QuickTime:DisplaySize',
             'desc' => [
+                'en' => 'Display Size',
             ],
         ],
     ];

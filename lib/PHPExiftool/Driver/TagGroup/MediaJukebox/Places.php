@@ -28,13 +28,14 @@ class Places extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Places',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::MediaJukebox
-             * line : 152754
+             * line : 105093
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Places extends AbstractTagGroup
              */
             'id' => 'JPEG::MediaJukebox.MediaJukebox:Places',
             'desc' => [
+                'en' => 'Places',
             ],
         ],
     ];

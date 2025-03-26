@@ -28,13 +28,14 @@ class ImageSizeRAW extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Size RAW',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 197142
+             * line : 133073
              * type : ?
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageSizeRAW extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageSizeRAW',
             'desc' => [
+                'en' => 'Image Size RAW',
             ],
         ],
     ];

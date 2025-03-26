@@ -28,13 +28,14 @@ class ReleaseMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Release Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Main
-             * line : 359231
+             * line : 250588
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ReleaseMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:ReleaseMode',
             'desc' => [
+                'en' => 'Release Mode',
             ],
         ],
     ];

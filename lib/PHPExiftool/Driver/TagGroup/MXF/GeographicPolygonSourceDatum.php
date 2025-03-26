@@ -28,13 +28,14 @@ class GeographicPolygonSourceDatum extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Geographic Polygon Source Datum',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 172148
+             * line : 118315
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GeographicPolygonSourceDatum extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:GeographicPolygonSourceDatum',
             'desc' => [
+                'en' => 'Geographic Polygon Source Datum',
             ],
         ],
     ];

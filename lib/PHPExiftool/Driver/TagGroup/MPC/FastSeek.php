@@ -28,13 +28,14 @@ class FastSeek extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Fast Seek',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MPC::Main
-             * line : 165607
+             * line : 112614
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FastSeek extends AbstractTagGroup
              */
             'id' => 'MPC::Main.MPC:FastSeek',
             'desc' => [
+                'en' => 'Fast Seek',
             ],
         ],
     ];

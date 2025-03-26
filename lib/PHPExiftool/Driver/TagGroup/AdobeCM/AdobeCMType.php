@@ -28,13 +28,14 @@ class AdobeCMType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Adobe CM Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::AdobeCM
-             * line : 152427
+             * line : 104905
              * type : int16u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AdobeCMType extends AbstractTagGroup
              */
             'id' => 'JPEG::AdobeCM.AdobeCM:AdobeCMType',
             'desc' => [
+                'en' => 'Adobe CM Type',
             ],
         ],
     ];

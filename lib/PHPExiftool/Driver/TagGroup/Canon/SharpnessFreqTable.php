@@ -28,13 +28,14 @@ class SharpnessFreqTable extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sharpness Freq Table',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Main
-             * line : 65908
+             * line : 50065
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SharpnessFreqTable extends AbstractTagGroup
              */
             'id' => 'Canon::Main.Canon:SharpnessFreqTable',
             'desc' => [
+                'en' => 'Sharpness Freq Table',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class FileMetaInfoVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'File Meta Info Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 94561
+             * line : 68062
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FileMetaInfoVersion extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:FileMetaInfoVersion',
             'desc' => [
+                'en' => 'File Meta Info Version',
             ],
         ],
     ];

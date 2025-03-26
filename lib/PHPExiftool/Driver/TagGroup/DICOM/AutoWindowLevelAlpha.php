@@ -28,13 +28,14 @@ class AutoWindowLevelAlpha extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Auto Window Level Alpha',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 98273
+             * line : 71608
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AutoWindowLevelAlpha extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:AutoWindowLevelAlpha',
             'desc' => [
+                'en' => 'Auto Window Level Alpha',
             ],
         ],
     ];

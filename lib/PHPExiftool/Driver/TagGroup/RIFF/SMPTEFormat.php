@@ -28,13 +28,14 @@ class SMPTEFormat extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'SMPTE Format',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : RIFF::Sampler
-             * line : 328712
+             * line : 231798
              * type : int32u
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SMPTEFormat extends AbstractTagGroup
              */
             'id' => 'RIFF::Sampler.RIFF:SMPTEFormat',
             'desc' => [
+                'en' => 'SMPTE Format',
             ],
         ],
     ];

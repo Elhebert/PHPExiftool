@@ -28,13 +28,14 @@ class DynamicAreaAFAssist extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Dynamic Area AF Assist',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : NikonCustom::SettingsZ9
-             * line : 235332
+             * line : 158619
              * type : int8u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DynamicAreaAFAssist extends AbstractTagGroup
              */
             'id' => 'NikonCustom::SettingsZ9.NikonCustom:DynamicAreaAFAssist',
             'desc' => [
+                'en' => 'Dynamic Area AF Assist',
             ],
         ],
     ];

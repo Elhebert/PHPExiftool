@@ -28,13 +28,14 @@ class CoringValues extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Coring Values',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255323
+             * line : 176209
              * type : int16u
              * writable : true
              * count : 7
@@ -42,12 +43,13 @@ class CoringValues extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:CoringValues',
             'desc' => [
+                'en' => 'Coring Values',
             ],
         ],
         1 => [
             /**
              * table_name : Olympus::RawInfo
-             * line : 260933
+             * line : 180228
              * type : int16u
              * writable : true
              * count : 11
@@ -55,6 +57,7 @@ class CoringValues extends AbstractTagGroup
              */
             'id' => 'Olympus::RawInfo.Olympus:CoringValues',
             'desc' => [
+                'en' => 'Coring Values',
             ],
         ],
     ];

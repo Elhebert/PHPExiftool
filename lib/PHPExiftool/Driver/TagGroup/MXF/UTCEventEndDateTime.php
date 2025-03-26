@@ -28,13 +28,14 @@ class UTCEventEndDateTime extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'UTC Event End Date Time',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168534
+             * line : 115025
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class UTCEventEndDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UTCEventEndDateTime',
             'desc' => [
+                'en' => 'UTC Event End Date Time',
             ],
         ],
         1 => [
             /**
              * table_name : MXF::Main
-             * line : 170950
+             * line : 117177
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class UTCEventEndDateTime extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UTCEventEndDateTime',
             'desc' => [
+                'en' => 'UTC Event End Date Time',
             ],
         ],
     ];

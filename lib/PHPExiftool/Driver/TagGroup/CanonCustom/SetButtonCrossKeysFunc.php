@@ -28,13 +28,14 @@ class SetButtonCrossKeysFunc extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Set Button Cross Keys Func',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : CanonCustom::Functions350D
-             * line : 76731
+             * line : 56232
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class SetButtonCrossKeysFunc extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions350D.CanonCustom:SetButtonCrossKeysFunc',
             'desc' => [
+                'en' => 'Set Button Cross Keys Func',
             ],
         ],
         1 => [
             /**
              * table_name : CanonCustom::Functions400D
-             * line : 76990
+             * line : 56353
              * type : int8u
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class SetButtonCrossKeysFunc extends AbstractTagGroup
              */
             'id' => 'CanonCustom::Functions400D.CanonCustom:SetButtonCrossKeysFunc',
             'desc' => [
+                'en' => 'Set Button Cross Keys Func',
             ],
         ],
     ];

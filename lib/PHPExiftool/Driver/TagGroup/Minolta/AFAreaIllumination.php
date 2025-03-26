@@ -28,13 +28,14 @@ class AFAreaIllumination extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Area Illumination',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181758
+             * line : 123646
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFAreaIllumination extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:AFAreaIllumination',
             'desc' => [
+                'en' => 'AF Area Illumination',
             ],
         ],
     ];

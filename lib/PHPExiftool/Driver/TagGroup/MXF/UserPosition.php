@@ -28,13 +28,14 @@ class UserPosition extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'User Position',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 171851
+             * line : 118036
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class UserPosition extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:UserPosition',
             'desc' => [
+                'en' => 'User Position',
             ],
         ],
     ];

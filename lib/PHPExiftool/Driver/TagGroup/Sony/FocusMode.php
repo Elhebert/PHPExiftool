@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 340856
+             * line : 238396
              * type : int8u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Sony::AFInfo
-             * line : 341603
+             * line : 238907
              * type : int8u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::AFInfo.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346066
+             * line : 242598
              * type : int8u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         3 => [
             /**
              * table_name : Sony::CameraInfo3
-             * line : 346319
+             * line : 242728
              * type : int8u
              * writable : true
              * count :
@@ -81,12 +85,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraInfo3.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         4 => [
             /**
              * table_name : Sony::CameraSettings
-             * line : 348052
+             * line : 243580
              * type : int16u
              * writable : true
              * count :
@@ -94,12 +99,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         5 => [
             /**
              * table_name : Sony::CameraSettings2
-             * line : 349444
+             * line : 244178
              * type : int16u
              * writable : true
              * count :
@@ -107,12 +113,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::CameraSettings2.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         6 => [
             /**
              * table_name : Sony::Main
-             * line : 354477
+             * line : 247138
              * type : int8u
              * writable : true
              * count :
@@ -120,12 +127,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         7 => [
             /**
              * table_name : Sony::Main
-             * line : 358942
+             * line : 250420
              * type : int16u
              * writable : true
              * count :
@@ -133,12 +141,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         8 => [
             /**
              * table_name : Sony::Main
-             * line : 359312
+             * line : 250639
              * type : int16u
              * writable : true
              * count :
@@ -146,12 +155,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::Main.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         9 => [
             /**
              * table_name : Sony::MoreSettings
-             * line : 360584
+             * line : 251314
              * type : int8u
              * writable : true
              * count :
@@ -159,12 +169,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::MoreSettings.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         10 => [
             /**
              * table_name : Sony::Tag9402
-             * line : 384698
+             * line : 271273
              * type : int8u
              * writable : true
              * count :
@@ -172,6 +183,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Sony::Tag9402.Sony:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

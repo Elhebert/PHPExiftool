@@ -28,13 +28,14 @@ class DeviceKindCode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Kind Code',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169764
+             * line : 116118
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceKindCode extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceKindCode',
             'desc' => [
+                'en' => 'Device Kind Code',
             ],
         ],
     ];

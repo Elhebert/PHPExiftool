@@ -28,13 +28,14 @@ class NameTableVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Name Table Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Font::Name
-             * line : 127874
+             * line : 88770
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class NameTableVersion extends AbstractTagGroup
              */
             'id' => 'Font::Name.Font:NameTableVersion',
             'desc' => [
+                'en' => 'Name Table Version',
             ],
         ],
     ];

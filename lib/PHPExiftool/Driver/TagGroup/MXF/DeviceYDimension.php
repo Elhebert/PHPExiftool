@@ -28,13 +28,14 @@ class DeviceYDimension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Device Y Dimension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168287
+             * line : 114782
              * type : float
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DeviceYDimension extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:DeviceYDimension',
             'desc' => [
+                'en' => 'Device Y Dimension',
             ],
         ],
     ];

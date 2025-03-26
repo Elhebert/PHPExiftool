@@ -28,13 +28,14 @@ class MultipleExposureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Multiple Exposure Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Olympus::ImageProcessing
-             * line : 255461
+             * line : 176281
              * type : int16u
              * writable : true
              * count : 2
@@ -42,6 +43,7 @@ class MultipleExposureMode extends AbstractTagGroup
              */
             'id' => 'Olympus::ImageProcessing.Olympus:MultipleExposureMode',
             'desc' => [
+                'en' => 'Multiple Exposure Mode',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MonochromeFilterEffect extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Monochrome Filter Effect',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Main
-             * line : 277875
+             * line : 193289
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MonochromeFilterEffect extends AbstractTagGroup
              */
             'id' => 'Panasonic::Main.Panasonic:MonochromeFilterEffect',
             'desc' => [
+                'en' => 'Monochrome Filter Effect',
             ],
         ],
     ];

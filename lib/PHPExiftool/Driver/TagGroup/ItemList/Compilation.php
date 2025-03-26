@@ -28,13 +28,14 @@ class Compilation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Compilation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::ItemList
-             * line : 314169
+             * line : 219781
              * type : int8s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Compilation extends AbstractTagGroup
              */
             'id' => 'QuickTime::ItemList.ItemList:Compilation',
             'desc' => [
+                'en' => 'Compilation',
             ],
         ],
     ];

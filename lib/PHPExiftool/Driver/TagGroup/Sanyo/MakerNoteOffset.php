@@ -28,13 +28,14 @@ class MakerNoteOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sanyo::Main
-             * line : 336102
+             * line : 235638
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class MakerNoteOffset extends AbstractTagGroup
              */
             'id' => 'Sanyo::Main.Sanyo:MakerNoteOffset',
             'desc' => [
+                'en' => 'Maker Note Offset',
             ],
         ],
     ];

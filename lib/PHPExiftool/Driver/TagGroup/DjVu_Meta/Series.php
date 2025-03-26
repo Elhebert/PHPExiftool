@@ -28,13 +28,14 @@ class Series extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Series',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DjVu::Meta
-             * line : 107475
+             * line : 79327
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Series extends AbstractTagGroup
              */
             'id' => 'DjVu::Meta.DjVu-Meta:Series',
             'desc' => [
+                'en' => 'Series',
             ],
         ],
     ];

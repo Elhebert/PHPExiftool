@@ -28,13 +28,14 @@ class PageCount extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Page Count',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Extra
-             * line : 121485
+             * line : 85220
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PageCount extends AbstractTagGroup
              */
             'id' => 'Extra.File:PageCount',
             'desc' => [
+                'en' => 'Page Count',
             ],
         ],
     ];

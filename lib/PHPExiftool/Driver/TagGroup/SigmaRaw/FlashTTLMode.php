@@ -28,13 +28,14 @@ class FlashTTLMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Flash TTL Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : SigmaRaw::Properties
-             * line : 339945
+             * line : 237699
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class FlashTTLMode extends AbstractTagGroup
              */
             'id' => 'SigmaRaw::Properties.SigmaRaw:FlashTTLMode',
             'desc' => [
+                'en' => 'Flash TTL Mode',
             ],
         ],
     ];

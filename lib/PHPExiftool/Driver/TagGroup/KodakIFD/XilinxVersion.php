@@ -28,13 +28,14 @@ class XilinxVersion extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Xilinx Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 154930
+             * line : 106217
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class XilinxVersion extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:XilinxVersion',
             'desc' => [
+                'en' => 'Xilinx Version',
             ],
         ],
     ];

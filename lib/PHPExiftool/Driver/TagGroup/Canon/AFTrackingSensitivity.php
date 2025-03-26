@@ -28,13 +28,14 @@ class AFTrackingSensitivity extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'AF Tracking Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3789
+             * line : 2318
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class AFTrackingSensitivity extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:AFTrackingSensitivity',
             'desc' => [
+                'en' => 'AF Tracking Sensitivity',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class GIFApplicationExtension extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GIF Application Extension',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PNG::Main
-             * line : 272563
+             * line : 190385
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class GIFApplicationExtension extends AbstractTagGroup
              */
             'id' => 'PNG::Main.PNG:GIFApplicationExtension',
             'desc' => [
+                'en' => 'GIF Application Extension',
             ],
         ],
     ];

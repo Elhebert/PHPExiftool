@@ -28,13 +28,14 @@ class IsDubbed extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Is Dubbed',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 168660
+             * line : 115136
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class IsDubbed extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:IsDubbed',
             'desc' => [
+                'en' => 'Is Dubbed',
             ],
         ],
     ];

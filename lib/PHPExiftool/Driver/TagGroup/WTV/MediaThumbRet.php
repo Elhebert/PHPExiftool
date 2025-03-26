@@ -28,13 +28,14 @@ class MediaThumbRet extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Media Thumb Ret',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : WTV::Metadata
-             * line : 396182
+             * line : 280478
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MediaThumbRet extends AbstractTagGroup
              */
             'id' => 'WTV::Metadata.WTV:MediaThumbRet',
             'desc' => [
+                'en' => 'Media Thumb Ret',
             ],
         ],
     ];

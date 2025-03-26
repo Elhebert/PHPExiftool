@@ -28,13 +28,14 @@ class MetadataSource extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Metadata Source',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::sv3d
-             * line : 326740
+             * line : 230467
              * type : undef
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class MetadataSource extends AbstractTagGroup
              */
             'id' => 'QuickTime::sv3d.QuickTime:MetadataSource',
             'desc' => [
+                'en' => 'Metadata Source',
             ],
         ],
     ];

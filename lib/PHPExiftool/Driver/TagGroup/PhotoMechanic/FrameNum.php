@@ -28,13 +28,14 @@ class FrameNum extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Frame Num',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : PhotoMechanic::SoftEdit
-             * line : 304709
+             * line : 211820
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FrameNum extends AbstractTagGroup
              */
             'id' => 'PhotoMechanic::SoftEdit.PhotoMechanic:FrameNum',
             'desc' => [
+                'en' => 'Frame Num',
             ],
         ],
     ];

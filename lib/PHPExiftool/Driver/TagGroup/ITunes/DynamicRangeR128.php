@@ -28,13 +28,14 @@ class DynamicRangeR128 extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Dynamic Range R128',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::iTunesInfo
-             * line : 326614
+             * line : 230369
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DynamicRangeR128 extends AbstractTagGroup
              */
             'id' => 'QuickTime::iTunesInfo.iTunes:DynamicRangeR128',
             'desc' => [
+                'en' => 'Dynamic Range R128',
             ],
         ],
     ];

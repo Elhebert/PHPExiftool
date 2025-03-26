@@ -28,13 +28,14 @@ class CorrelatedColorTemp extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Correlated Color Temp',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Panasonic::Leica9
-             * line : 275030
+             * line : 191707
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CorrelatedColorTemp extends AbstractTagGroup
              */
             'id' => 'Panasonic::Leica9.Leica:CorrelatedColorTemp',
             'desc' => [
+                'en' => 'Correlated Color Temp',
             ],
         ],
     ];

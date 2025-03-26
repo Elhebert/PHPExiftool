@@ -28,13 +28,14 @@ class FocusMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Focus Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::AVITags
-             * line : 191746
+             * line : 130014
              * type : string
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Nikon::AVITags.Nikon:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::Main
-             * line : 196678
+             * line : 132854
              * type : string
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::NCTG
-             * line : 203152
+             * line : 137123
              * type : string
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class FocusMode extends AbstractTagGroup
              */
             'id' => 'Nikon::NCTG.Nikon:FocusMode',
             'desc' => [
+                'en' => 'Focus Mode',
             ],
         ],
     ];

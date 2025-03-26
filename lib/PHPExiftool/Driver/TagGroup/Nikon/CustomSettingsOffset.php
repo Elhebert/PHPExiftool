@@ -28,13 +28,14 @@ class CustomSettingsOffset extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Custom Settings Offset',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::ShotInfoD500
-             * line : 207044
+             * line : 139305
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class CustomSettingsOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD500.Nikon:CustomSettingsOffset',
             'desc' => [
+                'en' => 'Custom Settings Offset',
             ],
         ],
         1 => [
             /**
              * table_name : Nikon::ShotInfoD810
-             * line : 208618
+             * line : 140519
              * type : int32u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class CustomSettingsOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD810.Nikon:CustomSettingsOffset',
             'desc' => [
+                'en' => 'Custom Settings Offset',
             ],
         ],
         2 => [
             /**
              * table_name : Nikon::ShotInfoD850
-             * line : 209172
+             * line : 141057
              * type : int32u
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class CustomSettingsOffset extends AbstractTagGroup
              */
             'id' => 'Nikon::ShotInfoD850.Nikon:CustomSettingsOffset',
             'desc' => [
+                'en' => 'Custom Settings Offset',
             ],
         ],
     ];

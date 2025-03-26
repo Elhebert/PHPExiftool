@@ -28,13 +28,14 @@ class SonyRawFileType extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Sony Raw File Type',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 112724
+             * line : 82129
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class SonyRawFileType extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:SonyRawFileType',
             'desc' => [
+                'en' => 'Sony Raw File Type',
             ],
         ],
     ];

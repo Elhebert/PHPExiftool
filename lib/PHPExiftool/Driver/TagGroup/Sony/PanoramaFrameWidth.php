@@ -28,13 +28,14 @@ class PanoramaFrameWidth extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Panorama Frame Width',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sony::Panorama
-             * line : 361634
+             * line : 251832
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PanoramaFrameWidth extends AbstractTagGroup
              */
             'id' => 'Sony::Panorama.Sony:PanoramaFrameWidth',
             'desc' => [
+                'en' => 'Panorama Frame Width',
             ],
         ],
     ];

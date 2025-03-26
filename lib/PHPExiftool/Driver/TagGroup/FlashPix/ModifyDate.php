@@ -28,13 +28,14 @@ class ModifyDate extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::ImageInfo
-             * line : 126489
+             * line : 87707
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'FlashPix::ImageInfo.FlashPix:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
         1 => [
             /**
              * table_name : FlashPix::SummaryInfo
-             * line : 127230
+             * line : 88312
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class ModifyDate extends AbstractTagGroup
              */
             'id' => 'FlashPix::SummaryInfo.FlashPix:ModifyDate',
             'desc' => [
+                'en' => 'Modify Date',
             ],
         ],
     ];

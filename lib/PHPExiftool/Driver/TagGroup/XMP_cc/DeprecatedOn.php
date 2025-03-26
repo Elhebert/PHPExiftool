@@ -28,13 +28,14 @@ class DeprecatedOn extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Deprecated On',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::cc
-             * line : 398078
+             * line : 281718
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class DeprecatedOn extends AbstractTagGroup
              */
             'id' => 'XMP::cc.XMP-cc:DeprecatedOn',
             'desc' => [
+                'en' => 'Deprecated On',
             ],
         ],
     ];

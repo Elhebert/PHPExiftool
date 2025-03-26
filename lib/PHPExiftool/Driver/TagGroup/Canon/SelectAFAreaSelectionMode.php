@@ -28,13 +28,14 @@ class SelectAFAreaSelectionMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Select AF Area Selection Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::AFConfig
-             * line : 3899
+             * line : 2422
              * type : int32s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class SelectAFAreaSelectionMode extends AbstractTagGroup
              */
             'id' => 'Canon::AFConfig.Canon:SelectAFAreaSelectionMode',
             'desc' => [
+                'en' => 'Select AF Area Selection Mode',
             ],
         ],
     ];

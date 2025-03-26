@@ -28,13 +28,14 @@ class TitlesOfParts extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Titles Of Parts',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : OOXML::Main
-             * line : 249300
+             * line : 171883
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TitlesOfParts extends AbstractTagGroup
              */
             'id' => 'OOXML::Main.XML:TitlesOfParts',
             'desc' => [
+                'en' => 'Titles Of Parts',
             ],
         ],
     ];

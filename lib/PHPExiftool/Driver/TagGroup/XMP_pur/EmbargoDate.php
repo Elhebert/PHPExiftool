@@ -28,13 +28,14 @@ class EmbargoDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Embargo Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::pur
-             * line : 411300
+             * line : 290473
              * type : date
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class EmbargoDate extends AbstractTagGroup
              */
             'id' => 'XMP::pur.XMP-pur:EmbargoDate',
             'desc' => [
+                'en' => 'Embargo Date',
             ],
         ],
     ];

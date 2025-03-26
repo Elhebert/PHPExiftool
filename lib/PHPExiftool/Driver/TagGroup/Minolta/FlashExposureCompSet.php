@@ -28,13 +28,14 @@ class FlashExposureCompSet extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Comp. Setting',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 180705
+             * line : 123113
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashExposureCompSet extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FlashExposureCompSet',
             'desc' => [
+                'en' => 'Flash Exposure Comp. Setting',
             ],
         ],
     ];

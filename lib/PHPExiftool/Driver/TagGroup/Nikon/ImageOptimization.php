@@ -28,13 +28,14 @@ class ImageOptimization extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Image Optimization',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Nikon::Main
-             * line : 199410
+             * line : 134571
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ImageOptimization extends AbstractTagGroup
              */
             'id' => 'Nikon::Main.Nikon:ImageOptimization',
             'desc' => [
+                'en' => 'Image Optimization',
             ],
         ],
     ];

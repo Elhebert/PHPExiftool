@@ -28,13 +28,14 @@ class CameraImagingModelPrincipalPointX extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Imaging Model Principal Point X',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::Device
-             * line : 396591
+             * line : 280808
              * type : real
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class CameraImagingModelPrincipalPointX extends AbstractTagGroup
              */
             'id' => 'XMP::Device.XMP-Device:CameraImagingModelPrincipalPointX',
             'desc' => [
+                'en' => 'Camera Imaging Model Principal Point X',
             ],
         ],
     ];

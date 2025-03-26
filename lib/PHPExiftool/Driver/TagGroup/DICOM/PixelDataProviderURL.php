@@ -28,13 +28,14 @@ class PixelDataProviderURL extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Data Provider URL',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99168
+             * line : 72387
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelDataProviderURL extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelDataProviderURL',
             'desc' => [
+                'en' => 'Pixel Data Provider URL',
             ],
         ],
     ];

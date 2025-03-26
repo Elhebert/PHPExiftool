@@ -28,13 +28,14 @@ class SharpeningKernel extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Sharpening Kernel',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Kodak::IFD
-             * line : 155403
+             * line : 106616
              * type : int16s
              * writable : true
              * count : 25
@@ -42,6 +43,7 @@ class SharpeningKernel extends AbstractTagGroup
              */
             'id' => 'Kodak::IFD.KodakIFD:SharpeningKernel',
             'desc' => [
+                'en' => 'Sharpening Kernel',
             ],
         ],
     ];

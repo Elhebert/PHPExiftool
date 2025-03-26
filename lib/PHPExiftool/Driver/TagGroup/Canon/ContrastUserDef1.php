@@ -28,13 +28,14 @@ class ContrastUserDef1 extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Contrast User Def 1',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::CameraInfo5D
-             * line : 34465
+             * line : 26486
              * type : int8s
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class ContrastUserDef1 extends AbstractTagGroup
              */
             'id' => 'Canon::CameraInfo5D.Canon:ContrastUserDef1',
             'desc' => [
+                'en' => 'Contrast User Def 1',
             ],
         ],
         1 => [
             /**
              * table_name : Canon::PSInfo
-             * line : 67590
+             * line : 51215
              * type : int32s
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class ContrastUserDef1 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo.Canon:ContrastUserDef1',
             'desc' => [
+                'en' => 'Contrast User Def 1',
             ],
         ],
         2 => [
             /**
              * table_name : Canon::PSInfo2
-             * line : 68768
+             * line : 51954
              * type : int32s
              * writable : true
              * count :
@@ -68,6 +71,7 @@ class ContrastUserDef1 extends AbstractTagGroup
              */
             'id' => 'Canon::PSInfo2.Canon:ContrastUserDef1',
             'desc' => [
+                'en' => 'Contrast User Def 1',
             ],
         ],
     ];

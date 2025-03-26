@@ -28,13 +28,14 @@ class PixelLayout extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Layout',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 169061
+             * line : 115505
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelLayout extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:PixelLayout',
             'desc' => [
+                'en' => 'Pixel Layout',
             ],
         ],
     ];

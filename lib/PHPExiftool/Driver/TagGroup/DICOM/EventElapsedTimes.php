@@ -28,13 +28,14 @@ class EventElapsedTimes extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Event Elapsed Times',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 95015
+             * line : 68497
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class EventElapsedTimes extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:EventElapsedTimes',
             'desc' => [
+                'en' => 'Event Elapsed Times',
             ],
         ],
     ];

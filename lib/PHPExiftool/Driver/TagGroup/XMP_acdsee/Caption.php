@@ -28,13 +28,14 @@ class Caption extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Caption',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::acdsee
-             * line : 397721
+             * line : 281580
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Caption extends AbstractTagGroup
              */
             'id' => 'XMP::acdsee.XMP-acdsee:Caption',
             'desc' => [
+                'en' => 'Caption',
             ],
         ],
     ];

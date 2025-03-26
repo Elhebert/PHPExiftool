@@ -28,13 +28,14 @@ class WBShiftAB extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'WB Shift AB',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Canon::Processing
-             * line : 70027
+             * line : 52578
              * type : int16s
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class WBShiftAB extends AbstractTagGroup
              */
             'id' => 'Canon::Processing.Canon:WBShiftAB',
             'desc' => [
+                'en' => 'WB Shift AB',
             ],
         ],
     ];

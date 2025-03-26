@@ -28,13 +28,14 @@ class TrackModifyDate extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Track Modify Date',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::TrackHeader
-             * line : 325062
+             * line : 229516
              * type : int32u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TrackModifyDate extends AbstractTagGroup
              */
             'id' => 'QuickTime::TrackHeader.Track#:TrackModifyDate',
             'desc' => [
+                'en' => 'Track Modify Date',
             ],
         ],
     ];

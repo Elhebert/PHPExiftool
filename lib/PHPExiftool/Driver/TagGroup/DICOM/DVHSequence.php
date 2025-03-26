@@ -28,13 +28,14 @@ class DVHSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DVH Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102483
+             * line : 75582
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DVHSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:DVHSequence',
             'desc' => [
+                'en' => 'DVH Sequence',
             ],
         ],
     ];

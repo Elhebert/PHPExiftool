@@ -28,13 +28,14 @@ class SupplementalCategories extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Supplemental Categories',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : IPTC::ApplicationRecord
-             * line : 149889
+             * line : 103845
              * type : string
              * writable : true
              * count : 32
@@ -42,6 +43,7 @@ class SupplementalCategories extends AbstractTagGroup
              */
             'id' => 'IPTC::ApplicationRecord.IPTC:SupplementalCategories',
             'desc' => [
+                'en' => 'Supplemental Categories',
             ],
         ],
     ];

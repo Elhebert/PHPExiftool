@@ -28,13 +28,14 @@ class RTImagePlane extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'RT Image Plane',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102383
+             * line : 75483
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RTImagePlane extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RTImagePlane',
             'desc' => [
+                'en' => 'RT Image Plane',
             ],
         ],
     ];

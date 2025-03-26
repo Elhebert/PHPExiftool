@@ -28,13 +28,14 @@ class AudioBitRateControlMode extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Audio Bit Rate Control Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : QuickTime::EncodingParams
-             * line : 312639
+             * line : 218512
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class AudioBitRateControlMode extends AbstractTagGroup
              */
             'id' => 'QuickTime::EncodingParams.QuickTime:AudioBitRateControlMode',
             'desc' => [
+                'en' => 'Audio Bit Rate Control Mode',
             ],
         ],
     ];

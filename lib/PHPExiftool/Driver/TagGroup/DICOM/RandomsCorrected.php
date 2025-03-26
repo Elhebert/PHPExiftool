@@ -28,13 +28,14 @@ class RandomsCorrected extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Randoms Corrected',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 97360
+             * line : 70756
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class RandomsCorrected extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:RandomsCorrected',
             'desc' => [
+                'en' => 'Randoms Corrected',
             ],
         ],
     ];

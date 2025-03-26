@@ -28,13 +28,14 @@ class Model extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Camera Model Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Exif::Main
-             * line : 110599
+             * line : 81458
              * type : string
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Model extends AbstractTagGroup
              */
             'id' => 'Exif::Main.IFD0:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
         1 => [
             /**
              * table_name : PanasonicRaw::Main
-             * line : 280527
+             * line : 194652
              * type : string
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class Model extends AbstractTagGroup
              */
             'id' => 'PanasonicRaw::Main.IFD0:Model',
             'desc' => [
+                'en' => 'Camera Model Name',
             ],
         ],
     ];

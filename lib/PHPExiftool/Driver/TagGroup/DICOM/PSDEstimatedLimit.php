@@ -28,13 +28,14 @@ class PSDEstimatedLimit extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'PSD Estimated Limit',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100324
+             * line : 73497
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PSDEstimatedLimit extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PSDEstimatedLimit',
             'desc' => [
+                'en' => 'PSD Estimated Limit',
             ],
         ],
     ];

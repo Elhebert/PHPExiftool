@@ -28,13 +28,14 @@ class YCbCrSubSampling extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Y Cb Cr Sub Sampling',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : JPEG::SOF
-             * line : 153009
+             * line : 105240
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class YCbCrSubSampling extends AbstractTagGroup
              */
             'id' => 'JPEG::SOF.File:YCbCrSubSampling',
             'desc' => [
+                'en' => 'Y Cb Cr Sub Sampling',
             ],
         ],
     ];

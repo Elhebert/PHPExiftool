@@ -28,13 +28,14 @@ class GPSAltitude extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'GPS Altitude',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : GoPro::GLPI
-             * line : 139337
+             * line : 97545
              * type : ?
              * writable : false
              * count :
@@ -42,12 +43,13 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'GoPro::GLPI.GoPro:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
         1 => [
             /**
              * table_name : GoPro::GPS5
-             * line : 139940
+             * line : 97849
              * type : ?
              * writable : false
              * count :
@@ -55,6 +57,7 @@ class GPSAltitude extends AbstractTagGroup
              */
             'id' => 'GoPro::GPS5.GoPro:GPSAltitude',
             'desc' => [
+                'en' => 'GPS Altitude',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class MakerNoteOlympus extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Maker Note Olympus',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DNG::AdobeData
-             * line : 104992
+             * line : 77864
              * type : undef
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class MakerNoteOlympus extends AbstractTagGroup
              */
             'id' => 'DNG::AdobeData.ExifIFD:MakerNoteOlympus',
             'desc' => [
+                'en' => 'Maker Note Olympus',
             ],
         ],
         1 => [
             /**
              * table_name : Exif::Main
-             * line : 115953
+             * line : 83157
              * type : undef
              * writable : true
              * count :
@@ -55,6 +57,7 @@ class MakerNoteOlympus extends AbstractTagGroup
              */
             'id' => 'Exif::Main.ExifIFD:MakerNoteOlympus',
             'desc' => [
+                'en' => 'Maker Note Olympus',
             ],
         ],
     ];

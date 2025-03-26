@@ -28,13 +28,14 @@ class FlashExposureIndicatorLast extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Flash Exposure Indicator Last',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 182205
+             * line : 124062
              * type : int16u
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class FlashExposureIndicatorLast extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:FlashExposureIndicatorLast',
             'desc' => [
+                'en' => 'Flash Exposure Indicator Last',
             ],
         ],
     ];

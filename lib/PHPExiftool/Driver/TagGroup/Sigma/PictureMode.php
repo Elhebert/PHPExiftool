@@ -28,13 +28,14 @@ class PictureMode extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Picture Mode',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Sigma::Main
-             * line : 339010
+             * line : 237374
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class PictureMode extends AbstractTagGroup
              */
             'id' => 'Sigma::Main.Sigma:PictureMode',
             'desc' => [
+                'en' => 'Picture Mode',
             ],
         ],
     ];

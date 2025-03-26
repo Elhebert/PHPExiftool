@@ -28,13 +28,14 @@ class KeySound extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Key Sound',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MXF::Main
-             * line : 167395
+             * line : 114015
              * type : string
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class KeySound extends AbstractTagGroup
              */
             'id' => 'MXF::Main.MXF:KeySound',
             'desc' => [
+                'en' => 'Key Sound',
             ],
         ],
     ];

@@ -28,13 +28,14 @@ class TimePeriod extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Time Period',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::prism
-             * line : 411160
+             * line : 290359
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class TimePeriod extends AbstractTagGroup
              */
             'id' => 'XMP::prism.XMP-prism:TimePeriod',
             'desc' => [
+                'en' => 'Time Period',
             ],
         ],
     ];

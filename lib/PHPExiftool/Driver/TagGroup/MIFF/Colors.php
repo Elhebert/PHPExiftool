@@ -28,13 +28,14 @@ class Colors extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Colors',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : MIFF::Main
-             * line : 164263
+             * line : 111703
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class Colors extends AbstractTagGroup
              */
             'id' => 'MIFF::Main.MIFF:Colors',
             'desc' => [
+                'en' => 'Colors',
             ],
         ],
     ];

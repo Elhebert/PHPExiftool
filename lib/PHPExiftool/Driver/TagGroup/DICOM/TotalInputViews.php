@@ -28,13 +28,14 @@ class TotalInputViews extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Total Input Views',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 100336
+             * line : 73509
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class TotalInputViews extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:TotalInputViews',
             'desc' => [
+                'en' => 'Total Input Views',
             ],
         ],
     ];

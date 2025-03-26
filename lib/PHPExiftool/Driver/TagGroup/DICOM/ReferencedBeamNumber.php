@@ -28,13 +28,14 @@ class ReferencedBeamNumber extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Referenced Beam Number',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 103957
+             * line : 77046
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ReferencedBeamNumber extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ReferencedBeamNumber',
             'desc' => [
+                'en' => 'Referenced Beam Number',
             ],
         ],
     ];

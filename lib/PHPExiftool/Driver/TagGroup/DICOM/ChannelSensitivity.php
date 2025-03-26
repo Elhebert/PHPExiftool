@@ -28,13 +28,14 @@ class ChannelSensitivity extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Channel Sensitivity',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99503
+             * line : 72714
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ChannelSensitivity extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:ChannelSensitivity',
             'desc' => [
+                'en' => 'Channel Sensitivity',
             ],
         ],
     ];

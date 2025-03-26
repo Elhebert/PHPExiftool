@@ -28,13 +28,14 @@ class ContrastAdjustment extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Contrast Adjustment',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : FlashPix::Transform
-             * line : 127384
+             * line : 88414
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class ContrastAdjustment extends AbstractTagGroup
              */
             'id' => 'FlashPix::Transform.FlashPix:ContrastAdjustment',
             'desc' => [
+                'en' => 'Contrast Adjustment',
             ],
         ],
     ];

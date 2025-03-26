@@ -28,13 +28,14 @@ class ManifestReferenceAlternatePaths extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Manifest Reference Alternate Paths',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::xmpMM
-             * line : 414103
+             * line : 292125
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class ManifestReferenceAlternatePaths extends AbstractTagGroup
              */
             'id' => 'XMP::xmpMM.XMP-xmpMM:ManifestReferenceAlternatePaths',
             'desc' => [
+                'en' => 'Manifest Reference Alternate Paths',
             ],
         ],
     ];

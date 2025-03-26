@@ -28,13 +28,14 @@ class ZISRAWVersion extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'ZISRAW Version',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : ZISRAW::Main
-             * line : 415049
+             * line : 292821
              * type : int32u
              * writable : false
              * count : 2
@@ -42,6 +43,7 @@ class ZISRAWVersion extends AbstractTagGroup
              */
             'id' => 'ZISRAW::Main.File:ZISRAWVersion',
             'desc' => [
+                'en' => 'ZISRAW Version',
             ],
         ],
     ];

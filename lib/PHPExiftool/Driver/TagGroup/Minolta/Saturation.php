@@ -28,13 +28,14 @@ class Saturation extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Saturation',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Minolta::CameraSettings
-             * line : 177670
+             * line : 122011
              * type : int32u
              * writable : true
              * count :
@@ -42,12 +43,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings.Minolta:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         1 => [
             /**
              * table_name : Minolta::CameraSettings5D
-             * line : 178885
+             * line : 122481
              * type : int16u
              * writable : true
              * count :
@@ -55,12 +57,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings5D.Minolta:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         2 => [
             /**
              * table_name : Minolta::CameraSettings7D
-             * line : 179855
+             * line : 122815
              * type : int16u
              * writable : true
              * count :
@@ -68,12 +71,13 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettings7D.Minolta:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
         3 => [
             /**
              * table_name : Minolta::CameraSettingsA100
-             * line : 181117
+             * line : 123246
              * type : int16u
              * writable : true
              * count :
@@ -81,6 +85,7 @@ class Saturation extends AbstractTagGroup
              */
             'id' => 'Minolta::CameraSettingsA100.Minolta:Saturation',
             'desc' => [
+                'en' => 'Saturation',
             ],
         ],
     ];

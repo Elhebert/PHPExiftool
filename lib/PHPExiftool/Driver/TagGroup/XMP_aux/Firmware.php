@@ -28,13 +28,14 @@ class Firmware extends AbstractTagGroup
     protected bool $isWritable = true;
 
     protected array $description = [
+        'en' => 'Firmware',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : XMP::aux
-             * line : 397926
+             * line : 281663
              * type : string
              * writable : true
              * count :
@@ -42,6 +43,7 @@ class Firmware extends AbstractTagGroup
              */
             'id' => 'XMP::aux.XMP-aux:Firmware',
             'desc' => [
+                'en' => 'Firmware',
             ],
         ],
     ];

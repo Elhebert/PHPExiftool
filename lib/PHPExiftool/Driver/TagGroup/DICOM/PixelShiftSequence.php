@@ -28,13 +28,14 @@ class PixelShiftSequence extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Pixel Shift Sequence',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 99231
+             * line : 72450
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class PixelShiftSequence extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:PixelShiftSequence',
             'desc' => [
+                'en' => 'Pixel Shift Sequence',
             ],
         ],
     ];

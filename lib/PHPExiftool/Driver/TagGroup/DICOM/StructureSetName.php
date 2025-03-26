@@ -28,13 +28,14 @@ class StructureSetName extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'Structure Set Name',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : DICOM::Main
-             * line : 102516
+             * line : 75615
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class StructureSetName extends AbstractTagGroup
              */
             'id' => 'DICOM::Main.DICOM:StructureSetName',
             'desc' => [
+                'en' => 'Structure Set Name',
             ],
         ],
     ];

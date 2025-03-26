@@ -28,13 +28,14 @@ class DRMKeyID extends AbstractTagGroup
     protected bool $isWritable = false;
 
     protected array $description = [
+        'en' => 'DRM Key ID',
     ];
 
     protected array $tags = [
         0 => [
             /**
              * table_name : Microsoft::Xtra
-             * line : 174575
+             * line : 120206
              * type : ?
              * writable : false
              * count :
@@ -42,6 +43,7 @@ class DRMKeyID extends AbstractTagGroup
              */
             'id' => 'Microsoft::Xtra.Microsoft:DRMKeyID',
             'desc' => [
+                'en' => 'DRM Key ID',
             ],
         ],
     ];
