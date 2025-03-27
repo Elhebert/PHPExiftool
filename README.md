@@ -1,30 +1,20 @@
 # PHP-Exiftool
 
-[![Build Status](https://secure.travis-ci.org/alchemy-fr/PHPExiftool.png?branch=master)](http://travis-ci.org/alchemy-fr/PHPExiftool)
+[![Unit tests](https://github.com/Elhebert/PHPExiftool/actions/workflows/test.yml/badge.svg)](https://github.com/Elhebert/PHPExiftool/actions/workflows/test.yml)
 
-This project is a fork of [phpexiftool/phpexiftool](https://github.com/phpexiftool/phpexiftool).
+This project is a fork of [alchemy/PHPExiftool](https://github.com/alchemy-fr/PHPExiftool) to add Symfony 7 support. This fork also includes better static analysis and re-introduce the TagGroup as part of the package.
 
-PHP Exiftool is an Object Oriented driver for Phil Harvey's Exiftool (see
-http://www.sno.phy.queensu.ca/~phil/exiftool/).
-Exiftool is a powerful library and command line utility for reading, writing
-and editing meta information written in Perl.
+PHP Exiftool is an Object Oriented driver for Phil Harvey's Exiftool (see http://www.sno.phy.queensu.ca/~phil/exiftool/).
+Exiftool is a powerful library and command line utility for reading, writing and editing meta information written in Perl.
 
-PHPExiftool provides an intuitive object oriented interface to read and write
-metadata.
+PHPExiftool provides an intuitive object oriented interface to read and write metadata.
 
 You will find some example below.
-This driver is not suitable for production, it is still under heavy development.
 
 ## Installation
 
-The recommended way to install PHP-Exiftool is [through composer](http://getcomposer.org).
-
-```JSON
-{
-    "require": {
-        "alchemy/phpexiftool": "^4.0"
-    }
-}
+```sh
+composer require elhebert/phpexiftool
 ```
 
 ## Usage
@@ -34,10 +24,6 @@ The recommended way to install PHP-Exiftool is [through composer](http://getcomp
 A simple example : how to read metadata from a file:
 
 ```php
-<?php
-
-require __DIR__ . '/vendor/autoload.php';
-
 use Monolog\Logger;
 use PHPExiftool\Reader;
 use PHPExiftool\Driver\Value\ValueInterface;
@@ -67,9 +53,9 @@ $logger = new Logger('exiftool');
 $reader = Reader::create($logger);
 
 $reader
-  ->in(array('documents', '/Picture'))
-  ->extensions(array('doc', 'jpg', 'cr2', 'dng'))
-  ->exclude(array('test', 'tmp'))
+  ->in(['documents', '/Picture'])
+  ->extensions(['doc', 'jpg', 'cr2', 'dng'])
+  ->exclude(['test', 'tmp'])
   ->followSymLinks();
 
 foreach ($reader as $data) {
@@ -88,10 +74,6 @@ foreach ($reader as $data) {
 ### Exiftool Writer
 
 ```php
-<?php
-
-require __DIR__ . '/vendor/autoload.php';
-
 use Monolog\Logger;
 use PHPExiftool\Writer;
 use PHPExiftool\Driver\Metadata\Metadata;

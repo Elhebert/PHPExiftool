@@ -1,8 +1,8 @@
 {
-    "name": "alchemy/phpexiftool",
+    "name": "elhebert/phpexiftool",
     "type": "library",
     "description": "Exiftool driver for PHP",
-    "keywords": ["metadata","exiftool"],
+    "keywords": ["metadata", "exiftool", "phpexiftool", "exif"],
     "license": "MIT",
     "authors": [
         {
