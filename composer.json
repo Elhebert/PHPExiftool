@@ -55,6 +55,9 @@
         "phpstan/phpstan": "^2.1",
         "friendsofphp/php-cs-fixer": "^3.73"
     },
+    "replace": {
+        "alchemy/phpexiftool": "*"
+    },
     "autoload": {
         "psr-4": {
             "PHPExiftool\\": "lib/PHPExiftool/"
